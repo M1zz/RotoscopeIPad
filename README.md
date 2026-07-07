@@ -1,0 +1,72 @@
+# Rotoscope for iPad — Frame-by-Frame Rotoscoping
+
+A native SwiftUI iPadOS app for frame-by-frame mask/cutout rotoscoping with
+finger or Apple Pencil. Import a video, draw masks per frame, and export a
+**PNG sequence (alpha)** plus a **transparent ProRes 4444 .mov**.
+
+## Requirements
+- iPadOS 16.0+
+- Xcode 15+
+- ProRes 4444 export requires an A12 Bionic iPad or newer (most iPads since 2018).
+
+## Build & Run
+1. Open `RotoscopeiPad.xcodeproj` in Xcode.
+2. Select the `RotoscopeiPad` scheme → your iPad (or an iPad simulator).
+3. Signing & Capabilities → choose your Team (bundle id `com.devkoan.RotoscopeiPad`).
+4. ⌘R.
+
+> The project is iPad-only (`TARGETED_DEVICE_FAMILY = 2`). Change it to `1,2`
+> in build settings if you also want iPhone.
+
+## Workflow
+1. **Import** a video — opens the Files document picker. The file is copied
+   into the app sandbox so access is retained after the picker closes.
+2. Pick a tool: **Polygon** (closed fill), **Brush** (additive freehand),
+   **Erase** (subtractive).
+3. Draw with finger or Apple Pencil. Tap the **pencil-tip** toggle for
+   Pencil-only mode — fingers are ignored so your palm won't draw.
+4. Navigate frames with the ◀ ▶ buttons or the timeline scrubber.
+5. **Copy Prev** duplicates the previous frame's mask as a starting point —
+   the core rotoscoping accelerator.
+6. **Onion skin** (stack icon) overlays the previous frame's mask faintly.
+   The strip under the timeline marks frames that already have masks (cyan).
+
+## Export
+Tap **Export**. Output is written to a timestamped folder under the app's
+Documents directory:
+- `png_sequence/frame_00000.png …` — full-res RGBA cut-outs.
+- `rotoscope_alpha.mov` — ProRes 4444 with a real alpha channel.
+
+Because `UIFileSharingEnabled` and `LSSupportsOpeningDocumentsInPlace` are set,
+the output appears in **Files › On My iPad › RotoscopeiPad**. A share sheet also
+pops up after export so you can AirDrop / save elsewhere immediately.
+
+Toggle PNG / ProRes independently before exporting.
+
+## Architecture
+| Layer | File | Role |
+|-------|------|------|
+| Entry | `RotoscopeiPadApp.swift` | App scene |
+| State | `Models/RotoProject.swift` | ObservableObject, single source of truth |
+| Data | `Models/MaskModels.swift` | Codable vector strokes (normalized coords) |
+| Video | `Engine/VideoSource.swift` | Frame-accurate AVAssetImageGenerator (UIImage) |
+| Raster | `Engine/MaskRasterizer.swift` | Vector strokes → alpha mask → cut-out |
+| Canvas | `Views/CanvasView.swift` | SwiftUI overlay + UIKit Pencil/touch input |
+| Pickers | `Views/Pickers.swift` | UIDocumentPicker + share sheet bridges |
+| UI | `Views/ContentView.swift` | Toolbar, timeline, export |
+| Export | `Export/Exporter.swift` | PNG seq + ProRes 4444 writer |
+
+Masks are stored in normalized [0,1] coordinates, so the on-screen preview and
+the full-resolution export stay in sync regardless of screen size or orientation.
+
+## Differences from the Mac version
+- `NSImage`/`NSOpenPanel`/`NSSavePanel` → `UIImage`/`UIDocumentPicker`/share sheet.
+- Drawing input goes through a UIKit `UIView` (`DrawingInputView`) so Apple
+  Pencil vs finger can be distinguished for palm rejection.
+- Export targets the app sandbox (Files-visible) instead of an arbitrary folder.
+
+## Next steps (MVP extensions)
+- Pencil pressure/azimuth → variable brush width (`UITouch.force`).
+- Pinch-to-zoom / pan on the canvas for detail work near edges.
+- `.roto` JSON document (FrameMask is already Codable) for save/load.
+- Long 4K clips: switch `VideoSource` to a streaming `AVAssetReader` pass.

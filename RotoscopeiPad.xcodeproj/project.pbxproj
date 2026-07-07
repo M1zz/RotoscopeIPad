@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1000011 /* RotoscopeiPadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000001 /* RotoscopeiPadApp.swift */; };
+		B1000012 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000002 /* ContentView.swift */; };
+		B1000013 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000003 /* CanvasView.swift */; };
+		B1000014 /* MaskModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000004 /* MaskModels.swift */; };
+		B1000015 /* RotoProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000005 /* RotoProject.swift */; };
+		B1000016 /* VideoSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000006 /* VideoSource.swift */; };
+		B1000017 /* MaskRasterizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000007 /* MaskRasterizer.swift */; };
+		B1000021 /* StrokeGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000022 /* StrokeGeometry.swift */; };
+		B1000018 /* Exporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000008 /* Exporter.swift */; };
+		B1000019 /* Pickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000D /* Pickers.swift */; };
+		B1000024 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000023 /* HomeView.swift */; };
+		B100001A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1000009 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1000001 /* RotoscopeiPadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotoscopeiPadApp.swift; sourceTree = "<group>"; };
+		B1000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B1000003 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		B1000004 /* MaskModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskModels.swift; sourceTree = "<group>"; };
+		B1000005 /* RotoProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotoProject.swift; sourceTree = "<group>"; };
+		B1000006 /* VideoSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSource.swift; sourceTree = "<group>"; };
+		B1000007 /* MaskRasterizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskRasterizer.swift; sourceTree = "<group>"; };
+		B1000022 /* StrokeGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeGeometry.swift; sourceTree = "<group>"; };
+		B1000008 /* Exporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exporter.swift; sourceTree = "<group>"; };
+		B1000009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B100000A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B100000C /* RotoscopeiPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotoscopeiPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B100000D /* Pickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickers.swift; sourceTree = "<group>"; };
+		B1000023 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1000020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1000030 = {
+			isa = PBXGroup;
+			children = (
+				B1000031 /* RotoscopeiPad */,
+				B1000032 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1000031 /* RotoscopeiPad */ = {
+			isa = PBXGroup;
+			children = (
+				B1000001 /* RotoscopeiPadApp.swift */,
+				B1000033 /* Models */,
+				B1000034 /* Views */,
+				B1000035 /* Engine */,
+				B1000036 /* Export */,
+				B1000009 /* Assets.xcassets */,
+				B100000A /* Info.plist */,
+			);
+			path = RotoscopeiPad;
+			sourceTree = "<group>";
+		};
+		B1000032 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B100000C /* RotoscopeiPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1000033 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1000004 /* MaskModels.swift */,
+				B1000005 /* RotoProject.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B1000034 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1000002 /* ContentView.swift */,
+				B1000003 /* CanvasView.swift */,
+				B100000D /* Pickers.swift */,
+				B1000023 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B1000035 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				B1000006 /* VideoSource.swift */,
+				B1000007 /* MaskRasterizer.swift */,
+				B1000022 /* StrokeGeometry.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		B1000036 /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				B1000008 /* Exporter.swift */,
+			);
+			path = Export;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1000040 /* RotoscopeiPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1000050 /* Build configuration list for PBXNativeTarget "RotoscopeiPad" */;
+			buildPhases = (
+				B1000041 /* Sources */,
+				B1000020 /* Frameworks */,
+				B1000042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RotoscopeiPad;
+			productName = RotoscopeiPad;
+			productReference = B100000C /* RotoscopeiPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1000060 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					B1000040 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = B1000061 /* Build configuration list for PBXProject "RotoscopeiPad" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1000030;
+			productRefGroup = B1000032 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1000040 /* RotoscopeiPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1000042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B100001A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1000041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1000011 /* RotoscopeiPadApp.swift in Sources */,
+				B1000012 /* ContentView.swift in Sources */,
+				B1000013 /* CanvasView.swift in Sources */,
+				B1000014 /* MaskModels.swift in Sources */,
+				B1000015 /* RotoProject.swift in Sources */,
+				B1000016 /* VideoSource.swift in Sources */,
+				B1000017 /* MaskRasterizer.swift in Sources */,
+				B1000021 /* StrokeGeometry.swift in Sources */,
+				B1000018 /* Exporter.swift in Sources */,
+				B1000019 /* Pickers.swift in Sources */,
+				B1000024 /* HomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B1000070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1000071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1000072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RotoscopeiPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devkoan.RotoscopeiPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B1000073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = RotoscopeiPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devkoan.RotoscopeiPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1000050 /* Build configuration list for PBXNativeTarget "RotoscopeiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1000072 /* Debug */,
+				B1000073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1000061 /* Build configuration list for PBXProject "RotoscopeiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1000070 /* Debug */,
+				B1000071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1000060 /* Project object */;
+}
