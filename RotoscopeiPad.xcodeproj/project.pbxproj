@@ -14,15 +14,15 @@
 		B1000015 /* RotoProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000005 /* RotoProject.swift */; };
 		B1000016 /* VideoSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000006 /* VideoSource.swift */; };
 		B1000017 /* MaskRasterizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000007 /* MaskRasterizer.swift */; };
-		B1000021 /* StrokeGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000022 /* StrokeGeometry.swift */; };
 		B1000018 /* Exporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000008 /* Exporter.swift */; };
 		B1000019 /* Pickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000D /* Pickers.swift */; };
+		B100001A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1000009 /* Assets.xcassets */; };
+		B1000021 /* StrokeGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000022 /* StrokeGeometry.swift */; };
 		B1000024 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000023 /* HomeView.swift */; };
 		B1000026 /* PresetLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000025 /* PresetLibrary.swift */; };
+		B1000028 /* Presets in Resources */ = {isa = PBXBuildFile; fileRef = B1000027 /* Presets */; };
 		B1000029 /* YouTubeImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100002B /* YouTubeImport.swift */; };
 		B1000082 /* YouTubeKit in Frameworks */ = {isa = PBXBuildFile; productRef = B1000081 /* YouTubeKit */; };
-		B100001A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1000009 /* Assets.xcassets */; };
-		B1000028 /* Presets in Resources */ = {isa = PBXBuildFile; fileRef = B1000027 /* Presets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,12 +33,12 @@
 		B1000005 /* RotoProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotoProject.swift; sourceTree = "<group>"; };
 		B1000006 /* VideoSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSource.swift; sourceTree = "<group>"; };
 		B1000007 /* MaskRasterizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskRasterizer.swift; sourceTree = "<group>"; };
-		B1000022 /* StrokeGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeGeometry.swift; sourceTree = "<group>"; };
 		B1000008 /* Exporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exporter.swift; sourceTree = "<group>"; };
 		B1000009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B100000A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B100000C /* RotoscopeiPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotoscopeiPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B100000D /* Pickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickers.swift; sourceTree = "<group>"; };
+		B1000022 /* StrokeGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeGeometry.swift; sourceTree = "<group>"; };
 		B1000023 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B1000025 /* PresetLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetLibrary.swift; sourceTree = "<group>"; };
 		B1000027 /* Presets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Presets; sourceTree = "<group>"; };
@@ -272,7 +272,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.devkoan.RotoscopeiPad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.RotoscopeiPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -294,7 +294,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.devkoan.RotoscopeiPad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.RotoscopeiPad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -303,25 +303,6 @@
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		B1000080 /* XCRemoteSwiftPackageReference "YouTubeKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/alexeichhorn/YouTubeKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.1.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		B1000081 /* YouTubeKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B1000080 /* XCRemoteSwiftPackageReference "YouTubeKit" */;
-			productName = YouTubeKit;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCConfigurationList section */
 		B1000050 /* Build configuration list for PBXNativeTarget "RotoscopeiPad" */ = {
@@ -343,6 +324,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B1000080 /* XCRemoteSwiftPackageReference "YouTubeKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alexeichhorn/YouTubeKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B1000081 /* YouTubeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1000080 /* XCRemoteSwiftPackageReference "YouTubeKit" */;
+			productName = YouTubeKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B1000060 /* Project object */;
 }

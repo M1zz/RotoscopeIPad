@@ -95,9 +95,20 @@ struct CanvasView: View {
         GeometryReader { geo in
             ZStack {
                 if let img = project.displayImage {
+                    // While drawing, the footage washes out like tracing
+                    // paper (white page + half-transparent video) so the
+                    // kid's strokes stand out; playback with the background
+                    // on shows the real video.
+                    if !project.isPlaying {
+                        Rectangle()
+                            .fill(Color.white)
+                            .aspectRatio(img.size.width / max(img.size.height, 1),
+                                         contentMode: .fit)
+                    }
                     Image(uiImage: img)
                         .resizable()
                         .aspectRatio(contentMode: .fit)
+                        .opacity(project.isPlaying ? 1 : 0.5)
                 } else if project.isOpen {
                     // White flipbook page (blank, preset, or a video playing
                     // with its background hidden).

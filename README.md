@@ -4,6 +4,11 @@ A native SwiftUI iPadOS app for frame-by-frame mask/cutout rotoscoping with
 finger or Apple Pencil. Import a video, draw masks per frame, and export a
 **PNG sequence (alpha)** plus a **transparent ProRes 4444 .mov**.
 
+**팔랑북 (Paran Book)** — [지원 페이지 (Support)](https://m1zz.github.io/RotoscopeIPad/) ·
+[개인정보 처리방침 (Privacy Policy)](https://m1zz.github.io/RotoscopeIPad/privacy.html)
+— source in [`docs/`](docs/), served via GitHub Pages (Settings → Pages →
+main branch, `/docs` folder).
+
 ## Requirements
 - iPadOS 16.0+
 - Xcode 15+
@@ -43,11 +48,12 @@ off: playback and export then show only the drawings on a white page — the
 footage was just the tracing guide, so the result is a pure rotoscope
 animation. The setting is saved per project.
 
-### YouTube import
-The red **▶ +** card on the home screen accepts a pasted YouTube link and
-"opens" it as a normal tracing project. Under the hood the clip is cached
-into the app sandbox (via the YouTubeKit Swift package, progressive mp4
-≤720p) — page turns need instant frame seeks and saved projects must reopen
+### Video URL import
+The indigo **link +** card on the home screen accepts a pasted video URL and
+"opens" it as a normal tracing project. YouTube links resolve through the
+YouTubeKit Swift package (progressive mp4 ≤720p); any other URL is fetched
+as a direct video file. Under the hood the clip is cached into the app
+sandbox — page turns need instant frame seeks and saved projects must reopen
 offline, which a stream URL can't provide. The cache lives inside the
 project folder and is deleted with the project. Note that downloading
 YouTube content can conflict with YouTube's Terms of Service — intended for

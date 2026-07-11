@@ -137,7 +137,7 @@ final class RotoProject: ObservableObject {
     @Published var showVideoPicker = false
     @Published var showPhotoPicker = false
     @Published var showCameraPicker = false
-    @Published var showYouTubeImport = false
+    @Published var showLinkImport = false
     @Published var exportedFolderURL: URL?
     @Published var showExportDoneSheet = false
 

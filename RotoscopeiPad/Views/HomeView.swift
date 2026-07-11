@@ -56,10 +56,10 @@ struct HomeView: View {
                 .buttonStyle(.borderedProminent)
                 .tint(.green)
 
-                // New project from a YouTube link (parent pastes the URL).
-                Button { project.showYouTubeImport = true } label: {
+                // New project from a pasted video URL (parent enters it).
+                Button { project.showLinkImport = true } label: {
                     VStack(spacing: 10) {
-                        Image(systemName: "play.rectangle.fill")
+                        Image(systemName: "link")
                             .font(.system(size: 44))
                         Image(systemName: "plus")
                             .font(.system(size: 28, weight: .bold))
@@ -68,7 +68,7 @@ struct HomeView: View {
                     .frame(height: 160)
                 }
                 .buttonStyle(.borderedProminent)
-                .tint(.red)
+                .tint(.indigo)
 
                 // New blank flipbook (white pages, no video).
                 Button { project.createBlank() } label: {
@@ -103,8 +103,8 @@ struct HomeView: View {
             .padding(24)
         }
         .onAppear { projects = RotoProject.listProjects() }
-        .sheet(isPresented: $project.showYouTubeImport) {
-            YouTubeImportSheet()
+        .sheet(isPresented: $project.showLinkImport) {
+            VideoLinkImportSheet()
         }
         .fullScreenCover(isPresented: $project.showCameraPicker) {
             CameraVideoPicker(isPresented: $project.showCameraPicker,

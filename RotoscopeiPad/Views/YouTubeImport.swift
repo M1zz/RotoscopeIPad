@@ -1,12 +1,14 @@
 import SwiftUI
 import YouTubeKit
 
-/// Parent-facing sheet: paste a YouTube link and it opens as a normal tracing
-/// project. The UI says "open", but under the hood the clip is cached into
-/// the app sandbox — page turns need instant frame seeks and saved projects
-/// must reopen offline, which streaming can't provide. Downloading YouTube
-/// content can conflict with YouTube's Terms of Service — personal use only.
-struct YouTubeImportSheet: View {
+/// Parent-facing sheet: paste a video link and it opens as a normal tracing
+/// project. YouTube links go through stream extraction (YouTubeKit); any
+/// other URL is fetched as a direct video file. The UI says "open", but the
+/// clip is cached into the app sandbox — page turns need instant frame seeks
+/// and saved projects must reopen offline, which streaming can't provide.
+/// Downloading YouTube content can conflict with YouTube's ToS — personal
+/// use only.
+struct VideoLinkImportSheet: View {
     @EnvironmentObject var project: RotoProject
     @Environment(\.dismiss) private var dismiss
 
@@ -16,11 +18,11 @@ struct YouTubeImportSheet: View {
 
     var body: some View {
         VStack(spacing: 24) {
-            Image(systemName: "play.rectangle.fill")
+            Image(systemName: "link.circle.fill")
                 .font(.system(size: 52))
-                .foregroundStyle(.red)
+                .foregroundStyle(.indigo)
 
-            TextField("https://youtube.com/watch?v=…", text: $urlText)
+            TextField("https://…", text: $urlText)
                 .textFieldStyle(.roundedBorder)
                 .font(.system(size: 18))
                 .keyboardType(.URL)
@@ -80,13 +82,22 @@ struct YouTubeImportSheet: View {
 
         Task {
             do {
-                let local = try await Self.download(youTubeURL: url)
-                await MainActor.run {
+                let local = try await Self.download(videoURL: url)
+                // load() copies the file into the project; hasVideo tells us
+                // whether the downloaded data was actually a decodable video.
+                let opened = await MainActor.run { () -> Bool in
                     project.load(url: local)
-                    isLoading = false
-                    dismiss()
+                    return project.hasVideo
                 }
-                try? FileManager.default.removeItem(at: local)  // load() copied it
+                try? FileManager.default.removeItem(at: local)
+                await MainActor.run {
+                    isLoading = false
+                    if opened {
+                        dismiss()
+                    } else {
+                        errorText = "열지 못했어요. 동영상 링크인지 확인해 주세요."
+                    }
+                }
             } catch {
                 await MainActor.run {
                     isLoading = false
@@ -96,25 +107,34 @@ struct YouTubeImportSheet: View {
         }
     }
 
-    /// Resolves the best progressive (video+audio) mp4 stream and downloads
-    /// it to a temporary file. 720p is plenty for tracing on the canvas.
-    private static func download(youTubeURL: URL) async throws -> URL {
-        let streams = try await YouTube(url: youTubeURL).streams
+    /// Fetches the link into a temporary file. YouTube links resolve to
+    /// their best progressive mp4 (≤720p — plenty for tracing); anything
+    /// else is treated as a direct video file URL.
+    private static func download(videoURL: URL) async throws -> URL {
+        if let streamURL = try? await youTubeStreamURL(for: videoURL) {
+            return try await fetch(streamURL, ext: "mp4")
+        }
+        let ext = videoURL.pathExtension.isEmpty ? "mp4" : videoURL.pathExtension
+        return try await fetch(videoURL, ext: ext)
+    }
+
+    private static func youTubeStreamURL(for url: URL) async throws -> URL? {
+        let streams = try await YouTube(url: url).streams
         let candidates = streams
             .filterVideoAndAudio()
             .filter { $0.isNativelyPlayable }
-        guard let stream = candidates
-            .filter({ ($0.videoResolution ?? 0) <= 720 })
+        let stream = candidates
+            .filter { ($0.videoResolution ?? 0) <= 720 }
             .highestResolutionStream() ?? candidates.lowestResolutionStream()
-        else { throw ImportError.noPlayableStream }
+        return stream?.url
+    }
 
-        let (tmp, _) = try await URLSession.shared.download(from: stream.url)
+    private static func fetch(_ remote: URL, ext: String) async throws -> URL {
+        let (tmp, _) = try await URLSession.shared.download(from: remote)
         let dest = FileManager.default.temporaryDirectory
-            .appendingPathComponent("youtube_\(UUID().uuidString).mp4")
+            .appendingPathComponent("import_\(UUID().uuidString).\(ext)")
         try? FileManager.default.removeItem(at: dest)
         try FileManager.default.moveItem(at: tmp, to: dest)
         return dest
     }
-
-    private enum ImportError: Error { case noPlayableStream }
 }
