@@ -98,12 +98,21 @@ struct CanvasView: View {
                     Image(uiImage: img)
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                } else if project.isBlank {
-                    // White flipbook page.
+                } else if project.isOpen {
+                    // White flipbook page (blank, preset, or a video playing
+                    // with its background hidden).
                     Rectangle()
                         .fill(Color.white)
                         .aspectRatio(project.canvasSize.width / project.canvasSize.height,
                                      contentMode: .fit)
+                    // Tracing guide: visible while drawing, hidden during
+                    // playback so only the kid's drawing animates.
+                    if !project.isPlaying, let guide = project.guideImage {
+                        Image(uiImage: guide)
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .allowsHitTesting(false)
+                    }
                 }
 
                 Canvas { ctx, size in

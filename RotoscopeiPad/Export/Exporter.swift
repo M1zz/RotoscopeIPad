@@ -88,12 +88,24 @@ final class Exporter {
 
         let ciContext = CIContext(options: [.workingColorSpace: CGColorSpaceCreateDeviceRGB()])
 
-        // Blank flipbook pages share one white background image.
-        let whitePage: CGImage? = src == nil ? Self.whiteImage(size: size) : nil
+        // Blank/preset pages — and videos exported with the background
+        // hidden — share one white background image.
+        let hideBackground = project.hideBackground
+        let whitePage: CGImage? =
+            (src == nil || hideBackground) ? Self.whiteImage(size: size) : nil
 
-        for scene in 0..<total {
+        // With the background hidden only the drawn pages are exported, back
+        // to back — a long clip with 20 drawings becomes a 20-page flipbook.
+        var scenes = Array(0..<total)
+        if hideBackground, src != nil {
+            let drawn = project.drawnScenes
+            if !drawn.isEmpty { scenes = drawn }
+        }
+
+        for (index, scene) in scenes.enumerated() {
             let videoFrame = project.videoFrame(forScene: scene)
-            guard let srcImage = src?.cgImage(atFrame: videoFrame) ?? whitePage else { continue }
+            let background = hideBackground ? nil : src?.cgImage(atFrame: videoFrame)
+            guard let srcImage = background ?? whitePage else { continue }
             let mask = project.masks[scene] ?? FrameMask()
             let rendered: CGImage
             switch project.renderMode {
@@ -110,8 +122,17 @@ final class Exporter {
 
             // Presentation time uses the underlying video frame index, so each
             // drawn scene holds on screen for frameStep frames of real time.
-            // Blank projects run one page per tick at blankFPS.
-            let t = CMTimeMake(value: Int64(src == nil ? scene : videoFrame), timescale: fps)
+            // Blank projects run one page per tick at blankFPS. Hidden-
+            // background pages play back to back, ignoring timeline gaps.
+            let tick: Int
+            if src == nil {
+                tick = scene
+            } else if hideBackground {
+                tick = index * project.frameStep
+            } else {
+                tick = videoFrame
+            }
+            let t = CMTimeMake(value: Int64(tick), timescale: fps)
             if let adaptor, let input {
                 while !input.isReadyForMoreMediaData {
                     try await Task.sleep(nanoseconds: 5_000_000)
@@ -133,12 +154,20 @@ final class Exporter {
                 }
             }
 
-            let p = Double(scene + 1) / Double(total)
+            let p = Double(index + 1) / Double(scenes.count)
             await MainActor.run { progress(p) }
         }
 
-        // End at the clip's full duration so the last held scene keeps its length.
-        let endTime = CMTimeMake(value: Int64(src?.frameCount ?? total), timescale: fps)
+        // End one tick after the last frame so the final page keeps its length.
+        let endTick: Int
+        if src == nil {
+            endTick = total
+        } else if hideBackground {
+            endTick = scenes.count * project.frameStep
+        } else {
+            endTick = src?.frameCount ?? total
+        }
+        let endTime = CMTimeMake(value: Int64(endTick), timescale: fps)
         if let input, let writer {
             input.markAsFinished()
             writer.endSession(atSourceTime: endTime)

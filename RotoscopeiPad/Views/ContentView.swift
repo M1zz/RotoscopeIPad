@@ -95,6 +95,18 @@ struct ContentView: View {
                 .buttonStyle(.borderedProminent)
                 .tint(project.isRecording ? .red : (project.hasAudio ? .purple : .gray))
 
+                // Hide the video background: play/export only the drawing.
+                if project.hasVideo {
+                    Button { project.toggleHideBackground() } label: {
+                        Image(systemName: project.hideBackground
+                              ? "video.slash.fill" : "video.fill")
+                            .font(.system(size: 26))
+                            .frame(width: 56, height: 48)
+                    }
+                    .buttonStyle(.borderedProminent)
+                    .tint(project.hideBackground ? .pink : .gray)
+                }
+
                 Divider().frame(height: 34)
 
                 ForEach(RotoProject.palette, id: \.self) { hex in

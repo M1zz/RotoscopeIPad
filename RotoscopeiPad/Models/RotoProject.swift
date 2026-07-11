@@ -51,6 +51,16 @@ final class RotoProject: ObservableObject {
     /// footage; Cutout = the original alpha matte behavior.
     @Published var renderMode: RenderMode = .paint
 
+    /// Hide the video background: playback and export show only the kid's
+    /// drawings on a white page. The video was just the tracing guide —
+    /// same idea as the bundled presets, but with the kid's own footage.
+    @Published var hideBackground = false
+
+    func toggleHideBackground() {
+        hideBackground.toggle()
+        scheduleSave()
+    }
+
     /// When true, drawing requires an Apple Pencil (palm rejection while
     /// the finger pans/zooms). Off by default so finger drawing works too.
     @Published var pencilOnly: Bool = false
@@ -127,6 +137,7 @@ final class RotoProject: ObservableObject {
     @Published var showVideoPicker = false
     @Published var showPhotoPicker = false
     @Published var showCameraPicker = false
+    @Published var showYouTubeImport = false
     @Published var exportedFolderURL: URL?
     @Published var showExportDoneSheet = false
 
@@ -141,18 +152,32 @@ final class RotoProject: ObservableObject {
 
     // MARK: - Blank flipbook projects (no video, just pages)
 
-    static let blankCanvasSize = CGSize(width: 1600, height: 1200)
+    nonisolated static let blankCanvasSize = CGSize(width: 1600, height: 1200)
     static let blankFPS: Double = 8
     static let maxBlankPages = 600
 
     @Published var isBlank = false
     @Published var blankPageCount = 1
 
-    /// Drawing surface size: the video frame, or the blank page.
-    var canvasSize: CGSize { source?.naturalSize ?? Self.blankCanvasSize }
+    // MARK: - Guide presets (따라 그리기)
+    // A bundled sequence of light line-art pages. The kid traces each page;
+    // playback and export hide the guides, so only the drawing animates.
 
-    /// Number of drawable scenes (sampled frames or blank pages).
+    @Published private(set) var presetId: String?
+    /// The current page's guide, shown faintly under the kid's strokes.
+    @Published var guideImage: UIImage?
+    private var guidePreset: GuidePreset?
+
+    var isPreset: Bool { presetId != nil }
+
+    /// Drawing surface size: the video frame, the guide page, or the blank page.
+    var canvasSize: CGSize {
+        source?.naturalSize ?? guidePreset?.canvasSize ?? Self.blankCanvasSize
+    }
+
+    /// Number of drawable scenes (sampled frames, guide pages or blank pages).
     var frameCount: Int {
+        if let guidePreset { return guidePreset.frameURLs.count }
         if isBlank { return blankPageCount }
         guard let src = source else { return 0 }
         return (src.frameCount + frameStep - 1) / frameStep
@@ -166,8 +191,10 @@ final class RotoProject: ObservableObject {
 
     var hasVideo: Bool { source != nil }
 
-    /// True while any project (video or blank) is open in the editor.
-    var isOpen: Bool { source != nil || (isBlank && projectDirectory != nil) }
+    /// True while any project (video, preset or blank) is open in the editor.
+    var isOpen: Bool {
+        source != nil || ((isBlank || isPreset) && projectDirectory != nil)
+    }
 
     // MARK: - Project storage
     // Each project lives in Documents/Projects/<uuid>/ with the video file,
@@ -183,18 +210,23 @@ final class RotoProject: ObservableObject {
         var videoFileName: String?
         var isBlank: Bool
         var blankPageCount: Int
+        var presetId: String?
+        var hideBackground: Bool
 
         init(frameStep: Int, currentFrame: Int, masks: [Int: FrameMask],
-             videoFileName: String?, isBlank: Bool, blankPageCount: Int) {
+             videoFileName: String?, isBlank: Bool, blankPageCount: Int,
+             presetId: String?, hideBackground: Bool) {
             self.frameStep = frameStep
             self.currentFrame = currentFrame
             self.masks = masks
             self.videoFileName = videoFileName
             self.isBlank = isBlank
             self.blankPageCount = blankPageCount
+            self.presetId = presetId
+            self.hideBackground = hideBackground
         }
 
-        // Defaults keep projects saved before blank support loading fine.
+        // Defaults keep projects saved before blank/preset support loading fine.
         init(from decoder: Decoder) throws {
             let c = try decoder.container(keyedBy: CodingKeys.self)
             frameStep = try c.decodeIfPresent(Int.self, forKey: .frameStep) ?? 1
@@ -203,6 +235,8 @@ final class RotoProject: ObservableObject {
             videoFileName = try c.decodeIfPresent(String.self, forKey: .videoFileName)
             isBlank = try c.decodeIfPresent(Bool.self, forKey: .isBlank) ?? false
             blankPageCount = try c.decodeIfPresent(Int.self, forKey: .blankPageCount) ?? 1
+            presetId = try c.decodeIfPresent(String.self, forKey: .presetId)
+            hideBackground = try c.decodeIfPresent(Bool.self, forKey: .hideBackground) ?? false
         }
     }
 
@@ -263,6 +297,8 @@ final class RotoProject: ObservableObject {
         projectDirectory = dir
         isBlank = false
         blankPageCount = 1
+        clearPreset()
+        hideBackground = false
         frameStep = max(1, Int((Double(src.frameRate) / Self.targetSceneFPS).rounded()))
         masks = [:]
         currentFrame = 0
@@ -286,6 +322,7 @@ final class RotoProject: ObservableObject {
         projectDirectory = dir
         isBlank = true
         blankPageCount = 1
+        clearPreset()
         frameStep = 1
         masks = [:]
         currentFrame = 0
@@ -294,18 +331,59 @@ final class RotoProject: ObservableObject {
         writeThumbnail()
     }
 
+    /// Starts a new "따라 그리기" project from a bundled guide set.
+    func createFromPreset(_ preset: GuidePreset) {
+        stopPlayback()
+        let dir = Self.projectsRoot.appendingPathComponent(UUID().uuidString, isDirectory: true)
+        do {
+            try FileManager.default.createDirectory(at: dir, withIntermediateDirectories: true)
+        } catch { return }
+        source = nil
+        videoURL = nil
+        displayImage = nil
+        projectDirectory = dir
+        isBlank = false
+        blankPageCount = 1
+        presetId = preset.id
+        guidePreset = preset
+        frameStep = 1
+        masks = [:]
+        currentFrame = 0
+        liveStroke = nil
+        refreshFrame()
+        saveNow()
+        writeThumbnail()
+    }
+
+    private func clearPreset() {
+        presetId = nil
+        guidePreset = nil
+        guideImage = nil
+    }
+
     /// Reopens a saved project folder.
     func openProject(at dir: URL) {
         stopPlayback()
         guard let json = try? Data(contentsOf: dir.appendingPathComponent("project.json")),
               let data = try? JSONDecoder().decode(ProjectData.self, from: json) else { return }
 
-        if data.isBlank {
+        if let pid = data.presetId, let preset = PresetLibrary.preset(id: pid) {
+            source = nil
+            videoURL = nil
+            displayImage = nil
+            isBlank = false
+            blankPageCount = 1
+            presetId = pid
+            guidePreset = preset
+        } else if data.isBlank || data.presetId != nil {
+            // Blank flipbook — or a preset whose guides left the bundle; the
+            // saved blankPageCount keeps the kid's drawings playable.
             source = nil
             videoURL = nil
             displayImage = nil
             isBlank = true
             blankPageCount = max(1, data.blankPageCount)
+            clearPreset()
         } else {
             guard let name = data.videoFileName else { return }
             let vurl = dir.appendingPathComponent(name)
@@ -314,9 +392,11 @@ final class RotoProject: ObservableObject {
             videoURL = vurl
             isBlank = false
             blankPageCount = 1
+            clearPreset()
         }
         projectDirectory = dir
         frameStep = max(1, data.frameStep)
+        hideBackground = data.hideBackground
         masks = data.masks
         currentFrame = min(max(0, data.currentFrame), frameCount - 1)
         liveStroke = nil
@@ -334,6 +414,8 @@ final class RotoProject: ObservableObject {
         projectDirectory = nil
         isBlank = false
         blankPageCount = 1
+        clearPreset()
+        hideBackground = false
         masks = [:]
         liveStroke = nil
         currentFrame = 0
@@ -354,9 +436,13 @@ final class RotoProject: ObservableObject {
     private func saveNow() {
         saveTask?.cancel()
         guard let dir = projectDirectory else { return }
+        // A preset project stores its page count too, so it still opens as a
+        // plain flipbook if the guide set ever disappears from the bundle.
         let data = ProjectData(frameStep: frameStep, currentFrame: currentFrame,
                                masks: masks, videoFileName: videoURL?.lastPathComponent,
-                               isBlank: isBlank, blankPageCount: blankPageCount)
+                               isBlank: isBlank,
+                               blankPageCount: isPreset ? frameCount : blankPageCount,
+                               presetId: presetId, hideBackground: hideBackground)
         if let json = try? JSONEncoder().encode(data) {
             try? json.write(to: dir.appendingPathComponent("project.json"), options: .atomic)
         }
@@ -376,6 +462,10 @@ final class RotoProject: ObservableObject {
             } else {
                 UIColor.white.setFill()
                 rc.fill(CGRect(origin: .zero, size: size))
+                // The guide shows through so the card stays recognizable
+                // even before the kid has traced anything.
+                guideImage?.draw(in: CGRect(origin: .zero, size: size),
+                                 blendMode: .normal, alpha: 0.6)
             }
             if let paint = MaskRasterizer.paintLayer(for: currentMask, size: size) {
                 UIImage(cgImage: paint).draw(in: CGRect(origin: .zero, size: size))
@@ -395,9 +485,27 @@ final class RotoProject: ObservableObject {
     /// stretching time.
     func startPlayback(loop: Bool = true) {
         guard isOpen, frameCount > 1, !isPlaying else { return }
+        // Hidden background: play only the pages the kid drew, back to back —
+        // a long clip with 20 drawings becomes a 20-page flipbook on white.
+        var playlist: [Int]?
+        if hideBackground, source != nil {
+            let drawn = drawnScenes
+            if !drawn.isEmpty { playlist = drawn }
+        }
+        let pageCount = playlist?.count ?? frameCount
+        guard pageCount > 1 else { return }
         isPlaying = true
         liveStroke = nil
-        let startFrame = currentFrame >= frameCount - 1 ? 0 : currentFrame
+        // Hidden background: the flipbook plays on a white page, so the kid
+        // sees only their own drawing move.
+        if hideBackground { displayImage = nil }
+        let startIndex: Int
+        if let playlist {
+            startIndex = currentFrame >= playlist[playlist.count - 1]
+                ? 0 : (playlist.firstIndex { $0 >= currentFrame } ?? 0)
+        } else {
+            startIndex = currentFrame >= frameCount - 1 ? 0 : currentFrame
+        }
         // Scenes advance at the sampled rate, matching the exported result.
         let src = source
         let sceneFPS = src.map { Double($0.frameRate) / Double(frameStep) } ?? Self.blankFPS
@@ -407,26 +515,26 @@ final class RotoProject: ObservableObject {
         if !isRecording, hasAudio, let audioURL,
            let player = try? AVAudioPlayer(contentsOf: audioURL) {
             audioPlayer = player
-            player.currentTime = Double(startFrame) / sceneFPS
+            player.currentTime = Double(startIndex) / sceneFPS
             player.play()
         }
 
         playbackTask = Task { [weak self] in
             while let self, self.isPlaying, !Task.isCancelled {
                 let elapsed = Date().timeIntervalSince(clockStart)
-                let rawTarget = startFrame + Int(elapsed * sceneFPS)
-                if !loop && rawTarget >= self.frameCount {
+                let rawIndex = startIndex + Int(elapsed * sceneFPS)
+                if !loop && rawIndex >= pageCount {
                     self.stopPlayback()   // single pass done (ends a dubbing take)
                     break
                 }
-                let target = rawTarget % self.frameCount
+                let target = playlist?[rawIndex % pageCount] ?? (rawIndex % pageCount)
                 if target != self.currentFrame {
                     // Loop wrapped: restart narration from the top.
                     if target < self.currentFrame, let player = self.audioPlayer {
                         player.currentTime = 0
                         player.play()
                     }
-                    if let src {
+                    if let src, !self.hideBackground {
                         let videoFrame = self.videoFrame(forScene: target)
                         // Decode off the main actor so the UI stays responsive.
                         let img = await Task.detached(priority: .userInitiated) {
@@ -483,7 +591,8 @@ final class RotoProject: ObservableObject {
 
     private func refreshFrame() {
         guard let src = source else {
-            displayImage = nil   // blank project: white page drawn by the canvas
+            displayImage = nil   // blank/preset: white page drawn by the canvas
+            guideImage = guidePreset?.image(forScene: currentFrame)
             return
         }
         displayImage = src.uiImage(atFrame: videoFrame(forScene: currentFrame))
@@ -492,6 +601,12 @@ final class RotoProject: ObservableObject {
     // MARK: - Mask access
 
     var currentMask: FrameMask { masks[currentFrame] ?? FrameMask() }
+
+    /// Scenes the kid actually drew on, in page order. When the background
+    /// is hidden, playback and export cover only these pages.
+    var drawnScenes: [Int] {
+        masks.filter { !$0.value.isEmpty }.keys.sorted()
+    }
 
     func commitStroke(_ stroke: MaskStroke) {
         var m = masks[currentFrame] ?? FrameMask()
