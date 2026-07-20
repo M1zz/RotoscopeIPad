@@ -54,7 +54,7 @@ struct ContentView: View {
             HStack(spacing: 0) {
                 stampColumn(Array(StampShape.allCases.prefix(4)))
                 CanvasView()
-                stampColumn(Array(StampShape.allCases.suffix(4)))
+                stampColumn(Array(StampShape.allCases.suffix(4)), sizes: true)
             }
             .background(Color.black)
 
@@ -74,14 +74,41 @@ struct ContentView: View {
         }
     }
 
-    private func stampColumn(_ shapes: [StampShape]) -> some View {
+    private func stampColumn(_ shapes: [StampShape], sizes: Bool = false) -> some View {
         VStack(spacing: 14) {
             ForEach(shapes) { shape in
                 stampButton(shape)
             }
+            if sizes {
+                Rectangle()
+                    .fill(Color.white.opacity(0.25))
+                    .frame(width: 42, height: 1)
+                    .padding(.vertical, 2)
+                ForEach(RotoProject.stampSizePresets, id: \.self) { value in
+                    stampSizeButton(value)
+                }
+            }
         }
         .frame(width: 78)
         .frame(maxHeight: .infinity)
+    }
+
+    /// 도장 크기: three dots whose size previews the stamp size.
+    private func stampSizeButton(_ value: Double) -> some View {
+        let selected = abs(project.stampSize - value) < 0.001
+        return Button {
+            project.stampSize = value
+            project.tool = .stamp   // picking a stamp size means "stamp"
+        } label: {
+            Circle()
+                .fill(Color.white)
+                .frame(width: 8 + value * 90, height: 8 + value * 90)
+                .frame(width: 44, height: 44)
+                .background(
+                    Circle().fill(selected ? Color.accentColor : Color.white.opacity(0.14))
+                )
+        }
+        .buttonStyle(.plain)
     }
 
     private func stampButton(_ shape: StampShape) -> some View {

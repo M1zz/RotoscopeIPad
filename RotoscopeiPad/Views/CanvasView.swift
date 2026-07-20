@@ -11,6 +11,25 @@ final class DrawingInputView: UIView {
     var onBegan: ((CGPoint) -> Void)?
     var onMoved: ((CGPoint) -> Void)?
     var onEnded: (() -> Void)?
+    /// Pencil hover / trackpad pointer position, nil when it leaves.
+    var onHover: ((CGPoint?) -> Void)?
+
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        addGestureRecognizer(UIHoverGestureRecognizer(
+            target: self, action: #selector(handleHover(_:))))
+    }
+
+    required init?(coder: NSCoder) { fatalError("init(coder:) is not used") }
+
+    @objc private func handleHover(_ g: UIHoverGestureRecognizer) {
+        switch g.state {
+        case .began, .changed:
+            onHover?(project?.isPlaying == true ? nil : normalized(g.location(in: self)))
+        default:
+            onHover?(nil)
+        }
+    }
 
     private func fittedRect() -> CGRect {
         guard let canvas = project?.canvasSize else { return bounds }
@@ -83,6 +102,7 @@ struct DrawingInputBridge: UIViewRepresentable {
                 project.liveStroke = nil
             }
         }
+        v.onHover = { p in project.hoverPoint = p }
         return v
     }
 
@@ -151,6 +171,11 @@ struct CanvasView: View {
                             drawStroke(stroke, in: layer, rect: rect)
                         }
                     }
+                    // Hovering pencil/pointer: ghost of what a touch would draw.
+                    if !project.isPlaying, project.liveStroke == nil,
+                       let hover = project.hoverPoint {
+                        drawHoverPreview(at: hover, in: ctx, rect: rect)
+                    }
                 }
                 .allowsHitTesting(false)
 
@@ -165,6 +190,41 @@ struct CanvasView: View {
         var w = size.width, h = size.width / aspect
         if h > size.height { h = size.height; w = h * aspect }
         return CGRect(x: (size.width - w) / 2, y: (size.height - h) / 2, width: w, height: h)
+    }
+
+    /// Ghost preview under a hovering pencil/pointer: the stamp outline for
+    /// the stamp tool, otherwise a circle the size of the brush/eraser tip.
+    private func drawHoverPreview(at p: CGPoint, in ctx: GraphicsContext,
+                                  rect: CGRect) {
+        if project.tool == .stamp {
+            let pts = project.stampPoints(centeredAt: p).map {
+                CGPoint(x: rect.minX + $0.x * rect.width,
+                        y: rect.minY + $0.y * rect.height)
+            }
+            guard pts.count > 1 else { return }
+            let path = Path(StrokeGeometry.path(points: pts, closed: true,
+                                                smooth: project.stampShape.smooth))
+            let color = Color(hex: project.brushColorHex)
+            ctx.fill(path, with: .color(color.opacity(0.22)))
+            ctx.stroke(path, with: .color(color.opacity(0.8)),
+                       style: StrokeStyle(lineWidth: 2, dash: [6, 4]))
+        } else {
+            let d = max(project.brushWidth * min(rect.width, rect.height), 6)
+            let tip = CGRect(x: rect.minX + p.x * rect.width - d / 2,
+                             y: rect.minY + p.y * rect.height - d / 2,
+                             width: d, height: d)
+            let path = Path(ellipseIn: tip)
+            if project.tool == .erase {
+                ctx.fill(path, with: .color(.white.opacity(0.55)))
+                ctx.stroke(path, with: .color(.gray.opacity(0.9)),
+                           style: StrokeStyle(lineWidth: 2, dash: [5, 4]))
+            } else {
+                let color = Color(hex: project.brushColorHex)
+                ctx.fill(path, with: .color(color.opacity(0.35)))
+                ctx.stroke(path, with: .color(color.opacity(0.8)),
+                           style: StrokeStyle(lineWidth: 2))
+            }
+        }
     }
 
     /// Draws every stroke of a mask into its own layer (so erases apply),

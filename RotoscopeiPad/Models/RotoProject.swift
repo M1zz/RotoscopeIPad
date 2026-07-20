@@ -52,31 +52,44 @@ final class RotoProject: ObservableObject {
 
     @Published var stampShape: StampShape = .heart
 
-    /// Stamp width as a fraction of the canvas width; the S/M/L brush dots
-    /// scale the stamps too, so one size control rules everything.
-    private var stampSize: CGFloat { 0.06 + CGFloat(brushWidth) * 6 }
+    /// Stamp width as a fraction of the canvas width, with its own S/M/L
+    /// dots in the stamp column (independent of the brush size).
+    @Published var stampSize: Double = 0.16
+    static let stampSizePresets: [Double] = [0.09, 0.16, 0.28]
 
-    /// Stamps the selected shape at a normalized canvas point, as a regular
-    /// closed stroke in the current color (so erase/undo/export just work).
-    func stamp(at p: CGPoint) {
-        guard isOpen, !isPlaying else { return }
+    /// Where a stamp centered at `p` would land, in normalized coordinates.
+    /// Shared by the actual stamp and the hover preview so they always match.
+    func stampPoints(centeredAt p: CGPoint) -> [CGPoint] {
         // y is normalized by height, x by width — scale y by the aspect
         // ratio so stamps stay square on screen.
         let aspect = canvasSize.width / max(canvasSize.height, 1)
-        let halfX = stampSize / 2
+        let halfX = CGFloat(stampSize) / 2
         let halfY = halfX * aspect
         func clamped(_ v: CGFloat, margin: CGFloat) -> CGFloat {
             margin >= 0.5 ? 0.5 : min(max(v, margin), 1 - margin)
         }
         let cx = clamped(p.x, margin: halfX)
         let cy = clamped(p.y, margin: halfY)
-        let points = stampShape.unitPoints.map {
+        return stampShape.unitPoints.map {
             CGPoint(x: cx + $0.x * halfX, y: cy + $0.y * halfY)
         }
-        commitStroke(MaskStroke(points: points, isAdditive: true, closed: true,
+    }
+
+    /// Stamps the selected shape at a normalized canvas point, as a regular
+    /// closed stroke in the current color (so erase/undo/export just work).
+    func stamp(at p: CGPoint) {
+        guard isOpen, !isPlaying else { return }
+        commitStroke(MaskStroke(points: stampPoints(centeredAt: p),
+                                isAdditive: true, closed: true,
                                 colorHex: brushColorHex, width: 0.004,
                                 opacity: brushOpacity, smooth: stampShape.smooth))
     }
+
+    // MARK: - Hover preview
+    // Pencil hover (or a trackpad pointer) shows where the next stroke or
+    // stamp will land before it touches the page.
+
+    @Published var hoverPoint: CGPoint?
 
     /// What the export bakes into each frame. Paint = colored drawing over the
     /// footage; Cutout = the original alpha matte behavior.
