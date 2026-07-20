@@ -196,6 +196,14 @@ struct ContentView: View {
                 .buttonStyle(.borderedProminent)
                 .tint(project.isRecording ? .red : (project.hasAudio ? .purple : .gray))
 
+                Button { project.togglePlayback() } label: {
+                    Image(systemName: project.isPlaying ? "pause.fill" : "play.fill")
+                        .font(.system(size: 26))
+                        .frame(width: 56, height: 48)
+                }
+                .buttonStyle(.borderedProminent)
+                .keyboardShortcut(.space, modifiers: [])
+
                 // Hide the video background: play/export only the drawing.
                 if project.hasVideo {
                     Button { project.toggleHideBackground() } label: {
@@ -309,14 +317,6 @@ struct ContentView: View {
             }
             .buttonStyle(.bordered)
             .disabled(project.currentFrame == 0)
-
-            Button { project.togglePlayback() } label: {
-                Image(systemName: project.isPlaying ? "pause.fill" : "play.fill")
-                    .font(.system(size: 30))
-                    .frame(width: 68, height: 52)
-            }
-            .buttonStyle(.borderedProminent)
-            .keyboardShortcut(.space, modifiers: [])
 
             // "다음 그림 그리기" — the main action, so it's big and colored:
             // a pencil with an arrow, meaning "now draw the next picture".
