@@ -22,6 +22,7 @@
 		B1000026 /* PresetLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000025 /* PresetLibrary.swift */; };
 		B1000028 /* Presets in Resources */ = {isa = PBXBuildFile; fileRef = B1000027 /* Presets */; };
 		B1000029 /* YouTubeImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100002B /* YouTubeImport.swift */; };
+		B1000091 /* Stamps.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000090 /* Stamps.swift */; };
 		B1000082 /* YouTubeKit in Frameworks */ = {isa = PBXBuildFile; productRef = B1000081 /* YouTubeKit */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		B100000A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B100000C /* RotoscopeiPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotoscopeiPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B100000D /* Pickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickers.swift; sourceTree = "<group>"; };
+		B1000090 /* Stamps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stamps.swift; sourceTree = "<group>"; };
 		B1000022 /* StrokeGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeGeometry.swift; sourceTree = "<group>"; };
 		B1000023 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B1000025 /* PresetLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetLibrary.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				B1000004 /* MaskModels.swift */,
 				B1000005 /* RotoProject.swift */,
 				B1000025 /* PresetLibrary.swift */,
+				B1000090 /* Stamps.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				B1000019 /* Pickers.swift in Sources */,
 				B1000024 /* HomeView.swift in Sources */,
 				B1000029 /* YouTubeImport.swift in Sources */,
+				B1000091 /* Stamps.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

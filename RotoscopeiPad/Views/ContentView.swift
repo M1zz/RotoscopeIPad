@@ -8,16 +8,18 @@ struct ContentView: View {
     @State private var restoredLastProject = false
     @State private var showPageFlash = false
     @State private var pageFlashTask: Task<Void, Never>?
+    @State private var showTransport = true
 
     var body: some View {
         VStack(spacing: 0) {
             if project.isOpen {
                 toolbar
                 Divider()
-                CanvasView()
-                    .background(Color.black)
-                Divider()
-                transport
+                canvasArea
+                if showTransport {
+                    Divider()
+                    transport
+                }
             } else {
                 HomeView()
             }
@@ -41,6 +43,67 @@ struct ContentView: View {
                 project.openProject(at: last)
             }
         }
+    }
+
+    // MARK: - Canvas + stamp columns
+    // The letterboxed canvas left black bars on both sides — they're now
+    // stamp palettes: tap a shape, then tap the canvas to stamp it.
+
+    private var canvasArea: some View {
+        ZStack(alignment: .bottomTrailing) {
+            HStack(spacing: 0) {
+                stampColumn(Array(StampShape.allCases.prefix(4)))
+                CanvasView()
+                stampColumn(Array(StampShape.allCases.suffix(4)))
+            }
+            .background(Color.black)
+
+            // Bring the hidden play bar back.
+            if !showTransport {
+                Button {
+                    withAnimation { showTransport = true }
+                } label: {
+                    Image(systemName: "chevron.up")
+                        .font(.system(size: 24, weight: .bold))
+                        .frame(width: 64, height: 44)
+                }
+                .buttonStyle(.borderedProminent)
+                .tint(.gray)
+                .padding(14)
+            }
+        }
+    }
+
+    private func stampColumn(_ shapes: [StampShape]) -> some View {
+        VStack(spacing: 14) {
+            ForEach(shapes) { shape in
+                stampButton(shape)
+            }
+        }
+        .frame(width: 78)
+        .frame(maxHeight: .infinity)
+    }
+
+    private func stampButton(_ shape: StampShape) -> some View {
+        let selected = project.tool == .stamp && project.stampShape == shape
+        return Button {
+            project.stampShape = shape
+            project.tool = .stamp
+        } label: {
+            Image(systemName: shape.symbol)
+                .font(.system(size: 26))
+                .foregroundStyle(selected ? Color(hex: project.brushColorHex) : .white)
+                .frame(width: 58, height: 58)
+                .background(
+                    RoundedRectangle(cornerRadius: 14)
+                        .fill(selected ? Color.white : Color.white.opacity(0.14))
+                )
+                .overlay(
+                    RoundedRectangle(cornerRadius: 14)
+                        .stroke(Color.accentColor, lineWidth: selected ? 3 : 0)
+                )
+        }
+        .buttonStyle(.plain)
     }
 
     // MARK: - Page flash: big "4 / 32" in the middle when turning pages
@@ -71,8 +134,10 @@ struct ContentView: View {
 
     // MARK: - Toolbar (tools + colors + sizes + save)
 
+    // Two fixed rows so everything is always visible — no scrolling for kids.
+    // Row 1: actions. Row 2: colors and brush sizes.
     private var toolbar: some View {
-        ScrollView(.horizontal, showsIndicators: false) {
+        VStack(spacing: 8) {
             HStack(spacing: 16) {
                 iconButton("house.fill") { project.goHome() }
 
@@ -81,6 +146,15 @@ struct ContentView: View {
                 toolButton("paintbrush.pointed.fill", tool: .brush)
                 toolButton("eraser.fill", tool: .erase)
                 iconButton("arrow.uturn.backward") { project.undoLastStroke() }
+
+                // Wipe the whole page at once (undo brings it back).
+                Button { project.clearCurrentMask() } label: {
+                    Image(systemName: "trash.fill")
+                        .font(.system(size: 26))
+                        .frame(width: 56, height: 48)
+                }
+                .buttonStyle(.bordered)
+                .tint(.red)
 
                 Divider().frame(height: 34)
 
@@ -109,18 +183,6 @@ struct ContentView: View {
 
                 Divider().frame(height: 34)
 
-                ForEach(RotoProject.palette, id: \.self) { hex in
-                    colorDot(hex)
-                }
-
-                Divider().frame(height: 34)
-
-                ForEach(RotoProject.widthPresets, id: \.name) { preset in
-                    sizeDot(preset.value)
-                }
-
-                Divider().frame(height: 34)
-
                 Button { runExport() } label: {
                     Image(systemName: "square.and.arrow.down.fill")
                         .font(.system(size: 26))
@@ -130,9 +192,22 @@ struct ContentView: View {
                 .tint(.green)
                 .disabled(project.isExporting)
             }
-            .padding(.horizontal, 16)
-            .padding(.vertical, 10)
+
+            HStack(spacing: 16) {
+                ForEach(RotoProject.palette, id: \.self) { hex in
+                    colorDot(hex)
+                }
+
+                Divider().frame(height: 34)
+
+                ForEach(RotoProject.widthPresets, id: \.name) { preset in
+                    sizeDot(preset.value)
+                }
+            }
         }
+        .frame(maxWidth: .infinity)
+        .padding(.horizontal, 16)
+        .padding(.vertical, 10)
     }
 
     private func iconButton(_ symbol: String, action: @escaping () -> Void) -> some View {
@@ -159,7 +234,8 @@ struct ContentView: View {
     }
 
     private func colorDot(_ hex: String) -> some View {
-        let selected = project.brushColorHex == hex && project.tool == .brush
+        let selected = project.brushColorHex == hex
+            && (project.tool == .brush || project.tool == .stamp)
         return Circle()
             .fill(Color(hex: hex))
             .frame(width: 36, height: 36)
@@ -170,7 +246,9 @@ struct ContentView: View {
             )
             .onTapGesture {
                 project.brushColorHex = hex
-                project.tool = .brush   // picking a color always means "draw"
+                // Picking a color means "draw" — but stamps keep stamping,
+                // just in the new color.
+                if project.tool != .stamp { project.tool = .brush }
             }
     }
 
@@ -231,6 +309,16 @@ struct ContentView: View {
                 get: { Double(project.currentFrame) },
                 set: { project.goToFrame(Int($0)) }
             ), in: 0...Double(max(project.frameCount - 1, 1)))
+
+            // Tuck the play bar away for a bigger canvas.
+            Button {
+                withAnimation { showTransport = false }
+            } label: {
+                Image(systemName: "chevron.down")
+                    .font(.system(size: 24, weight: .bold))
+                    .frame(width: 56, height: 52)
+            }
+            .buttonStyle(.bordered)
         }
         .padding(.horizontal, 16)
         .padding(.vertical, 12)

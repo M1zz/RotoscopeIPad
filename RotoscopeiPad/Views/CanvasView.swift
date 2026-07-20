@@ -63,6 +63,11 @@ struct DrawingInputBridge: UIViewRepresentable {
         v.isMultipleTouchEnabled = false
         v.project = project
         v.onBegan = { p in
+            // Stamp tool: one tap, one stamp — no live stroke.
+            if project.tool == .stamp {
+                project.stamp(at: p)
+                return
+            }
             let additive = project.tool != .erase
             let closed = project.tool == .polygon
             project.liveStroke = MaskStroke(

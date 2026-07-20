@@ -7,6 +7,7 @@ enum ToolMode: String, CaseIterable {
     case polygon = "도형"
     case brush   = "붓"
     case erase   = "지우개"
+    case stamp   = "도장"
 }
 
 /// How the export bakes strokes into each frame.
@@ -46,6 +47,36 @@ final class RotoProject: ObservableObject {
     @Published var brushWidth: Double = 0.016
     @Published var brushOpacity: Double = 1.0
     @Published var brushSmoothing: Bool = true
+
+    // MARK: - Stamps (도장)
+
+    @Published var stampShape: StampShape = .heart
+
+    /// Stamp width as a fraction of the canvas width; the S/M/L brush dots
+    /// scale the stamps too, so one size control rules everything.
+    private var stampSize: CGFloat { 0.06 + CGFloat(brushWidth) * 6 }
+
+    /// Stamps the selected shape at a normalized canvas point, as a regular
+    /// closed stroke in the current color (so erase/undo/export just work).
+    func stamp(at p: CGPoint) {
+        guard isOpen, !isPlaying else { return }
+        // y is normalized by height, x by width — scale y by the aspect
+        // ratio so stamps stay square on screen.
+        let aspect = canvasSize.width / max(canvasSize.height, 1)
+        let halfX = stampSize / 2
+        let halfY = halfX * aspect
+        func clamped(_ v: CGFloat, margin: CGFloat) -> CGFloat {
+            margin >= 0.5 ? 0.5 : min(max(v, margin), 1 - margin)
+        }
+        let cx = clamped(p.x, margin: halfX)
+        let cy = clamped(p.y, margin: halfY)
+        let points = stampShape.unitPoints.map {
+            CGPoint(x: cx + $0.x * halfX, y: cy + $0.y * halfY)
+        }
+        commitStroke(MaskStroke(points: points, isAdditive: true, closed: true,
+                                colorHex: brushColorHex, width: 0.004,
+                                opacity: brushOpacity, smooth: stampShape.smooth))
+    }
 
     /// What the export bakes into each frame. Paint = colored drawing over the
     /// footage; Cutout = the original alpha matte behavior.
@@ -617,9 +648,18 @@ final class RotoProject: ObservableObject {
         writeThumbnail()
     }
 
+    // The last "지우기 전부" wipe, so one undo brings the drawing back if a
+    // kid hits the trash button by accident.
+    private var lastClearedMask: FrameMask?
+    private var lastClearedFrame: Int?
+
     func clearCurrentMask() {
+        guard let m = masks[currentFrame], !m.isEmpty else { return }
+        lastClearedMask = m
+        lastClearedFrame = currentFrame
         masks[currentFrame] = FrameMask()
         scheduleSave()
+        writeThumbnail()
     }
 
     func copyMaskFromPrevious() {
@@ -629,6 +669,16 @@ final class RotoProject: ObservableObject {
     }
 
     func undoLastStroke() {
+        // Undo right after a full wipe restores the whole page.
+        if let cleared = lastClearedMask, lastClearedFrame == currentFrame,
+           masks[currentFrame]?.isEmpty != false {
+            masks[currentFrame] = cleared
+            lastClearedMask = nil
+            lastClearedFrame = nil
+            scheduleSave()
+            writeThumbnail()
+            return
+        }
         guard var m = masks[currentFrame], !m.strokes.isEmpty else { return }
         m.strokes.removeLast()
         masks[currentFrame] = m
