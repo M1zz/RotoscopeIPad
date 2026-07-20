@@ -129,8 +129,9 @@ final class RotoProject: ObservableObject {
         return FileManager.default.fileExists(atPath: url.path)
     }
 
-    /// Records the mic while the animation plays through once, so the kid
-    /// dubs along with their own pictures. Re-recording overwrites.
+    /// Records the mic while the animation loops, so the kid dubs along with
+    /// their own pictures for as long as they like; pressing stop ends the
+    /// take. Re-recording overwrites.
     func startDubbing() {
         guard isOpen, frameCount > 1, !isRecording, let audioURL else { return }
         AVAudioSession.sharedInstance().requestRecordPermission { [weak self] granted in
@@ -161,7 +162,7 @@ final class RotoProject: ObservableObject {
         recorder = rec
         rec.record()
         isRecording = true
-        startPlayback(loop: false)   // one pass; stopping playback ends the take
+        startPlayback()   // loops until the kid presses stop, ending the take
     }
 
     private func stopDubbing() {
@@ -573,8 +574,11 @@ final class RotoProject: ObservableObject {
                 }
                 let target = playlist?[rawIndex % pageCount] ?? (rawIndex % pageCount)
                 if target != self.currentFrame {
-                    // Loop wrapped: restart narration from the top.
-                    if target < self.currentFrame, let player = self.audioPlayer {
+                    // Loop wrapped: a take recorded over several loops keeps
+                    // playing through; once it has finished, the next wrap
+                    // restarts it from the top in sync with the pictures.
+                    if target < self.currentFrame, let player = self.audioPlayer,
+                       !player.isPlaying {
                         player.currentTime = 0
                         player.play()
                     }
