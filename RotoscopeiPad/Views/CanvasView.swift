@@ -204,7 +204,7 @@ struct CanvasView: View {
             guard pts.count > 1 else { return }
             let path = Path(StrokeGeometry.path(points: pts, closed: true,
                                                 smooth: project.stampShape.smooth))
-            let color = Color(hex: project.brushColorHex)
+            let color = Color(rgbHex: project.brushColorHex)
             ctx.fill(path, with: .color(color.opacity(0.22)))
             ctx.stroke(path, with: .color(color.opacity(0.8)),
                        style: StrokeStyle(lineWidth: 2, dash: [6, 4]))
@@ -219,7 +219,7 @@ struct CanvasView: View {
                 ctx.stroke(path, with: .color(.gray.opacity(0.9)),
                            style: StrokeStyle(lineWidth: 2, dash: [5, 4]))
             } else {
-                let color = Color(hex: project.brushColorHex)
+                let color = Color(rgbHex: project.brushColorHex)
                 ctx.fill(path, with: .color(color.opacity(0.35)))
                 ctx.stroke(path, with: .color(color.opacity(0.8)),
                            style: StrokeStyle(lineWidth: 2))
@@ -249,7 +249,7 @@ struct CanvasView: View {
         let path = Path(StrokeGeometry.path(points: pts, closed: stroke.closed,
                                             smooth: stroke.smooth))
 
-        let base: Color = tint ?? Color(hex: stroke.colorHex)
+        let base: Color = tint ?? Color(rgbHex: stroke.colorHex)
         let alpha = tint == nil ? stroke.opacity : 1.0
         let lineW = max(stroke.width * min(rect.width, rect.height), 1)
 

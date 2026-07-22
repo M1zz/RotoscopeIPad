@@ -46,7 +46,8 @@ enum StrokeGeometry {
 
 extension Color {
     /// Creates a Color from a 6-digit RRGGBB hex string (no leading '#').
-    init(hex: String) {
+    /// Named `rgbHex` to avoid colliding with LeeoKit's failable `Color(hex:)`.
+    init(rgbHex hex: String) {
         let s = hex.hasPrefix("#") ? String(hex.dropFirst()) : hex
         var v: UInt64 = 0
         Scanner(string: s).scanHexInt64(&v)

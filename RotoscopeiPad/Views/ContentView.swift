@@ -119,7 +119,7 @@ struct ContentView: View {
         } label: {
             Image(systemName: shape.symbol)
                 .font(.system(size: 26))
-                .foregroundStyle(selected ? Color(hex: project.brushColorHex) : .white)
+                .foregroundStyle(selected ? Color(rgbHex: project.brushColorHex) : .white)
                 .frame(width: 58, height: 58)
                 .background(
                     RoundedRectangle(cornerRadius: 14)
@@ -272,7 +272,7 @@ struct ContentView: View {
         let selected = project.brushColorHex == hex
             && (project.tool == .brush || project.tool == .stamp)
         return Circle()
-            .fill(Color(hex: hex))
+            .fill(Color(rgbHex: hex))
             .frame(width: 36, height: 36)
             .overlay(Circle().stroke(Color.primary.opacity(0.2), lineWidth: 1))
             .overlay(
