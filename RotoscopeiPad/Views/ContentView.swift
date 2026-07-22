@@ -9,6 +9,7 @@ struct ContentView: View {
     @State private var showPageFlash = false
     @State private var pageFlashTask: Task<Void, Never>?
     @State private var showTransport = true
+    @State private var showSupport = false
 
     var body: some View {
         VStack(spacing: 0) {
@@ -23,6 +24,22 @@ struct ContentView: View {
             } else {
                 HomeView()
             }
+        }
+        // Settings gear, shown on the home screen so it never covers the canvas.
+        .overlay(alignment: .topTrailing) {
+            if !project.isOpen {
+                Button { showSupport = true } label: {
+                    Image(systemName: "gearshape")
+                        .font(.system(size: 26))
+                        .frame(width: 48, height: 48)
+                }
+                .buttonStyle(.bordered)
+                .padding(.trailing, 16)
+                .padding(.top, 8)
+            }
+        }
+        .sheet(isPresented: $showSupport) {
+            RotoscopeiPadSupportView()
         }
         .sheet(isPresented: $project.showPhotoPicker) {
             PhotosVideoPicker(isPresented: $project.showPhotoPicker,
