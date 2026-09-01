@@ -1,6 +1,15 @@
 {
-  "originHash" : "50332ce3348e9df07b56958b0969d255fad8020066430ec9bca8fca5d1da71ee",
+  "originHash" : "979b879035cd7e52281bc47b42c944f3116ed15eb05828335263d55e9c0610a0",
   "pins" : [
+    {
+      "identity" : "leeokit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/M1zz/LeeoKit.git",
+      "state" : {
+        "revision" : "f8e81c3c5280c535ac305fd788a4e49664a6fbc2",
+        "version" : "2.6.0"
+      }
+    },
     {
       "identity" : "youtubekit",
       "kind" : "remoteSourceControl",
