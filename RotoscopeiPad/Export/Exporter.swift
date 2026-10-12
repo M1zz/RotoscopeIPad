@@ -15,7 +15,14 @@ final class Exporter {
         /// Also writes an H.264 .mp4 (no alpha — Photos can't show it anyway)
         /// and saves it to the photo library.
         var saveToPhotos = false
+        /// Free tier: a short "팔랑북" card after the last page. It never
+        /// covers the drawing, and it tells whoever gets the video where it
+        /// came from.
+        var endCard = false
     }
+
+    /// How long the end card stays on screen.
+    static let endCardSeconds = 1.5
 
     let project: RotoProject
     init(project: RotoProject) { self.project = project }
@@ -102,6 +109,30 @@ final class Exporter {
             if !drawn.isEmpty { scenes = drawn }
         }
 
+        /// Writes one picture into every open movie at time `t`.
+        func append(_ image: CGImage, at t: CMTime) async throws {
+            if let adaptor, let input {
+                while !input.isReadyForMoreMediaData {
+                    try await Task.sleep(nanoseconds: 5_000_000)
+                }
+                if let buffer = pixelBuffer(from: image, size: size,
+                                            context: ciContext,
+                                            pool: adaptor.pixelBufferPool) {
+                    adaptor.append(buffer, withPresentationTime: t)
+                }
+            }
+            if let mp4Adaptor, let mp4Input {
+                while !mp4Input.isReadyForMoreMediaData {
+                    try await Task.sleep(nanoseconds: 5_000_000)
+                }
+                if let buffer = pixelBuffer(from: image, size: size,
+                                            context: ciContext,
+                                            pool: mp4Adaptor.pixelBufferPool) {
+                    mp4Adaptor.append(buffer, withPresentationTime: t)
+                }
+            }
+        }
+
         for (index, scene) in scenes.enumerated() {
             let videoFrame = project.videoFrame(forScene: scene)
             let background = hideBackground ? nil : src?.cgImage(atFrame: videoFrame)
@@ -133,26 +164,7 @@ final class Exporter {
                 tick = videoFrame
             }
             let t = CMTimeMake(value: Int64(tick), timescale: fps)
-            if let adaptor, let input {
-                while !input.isReadyForMoreMediaData {
-                    try await Task.sleep(nanoseconds: 5_000_000)
-                }
-                if let buffer = pixelBuffer(from: rendered, size: size,
-                                            context: ciContext,
-                                            pool: adaptor.pixelBufferPool) {
-                    adaptor.append(buffer, withPresentationTime: t)
-                }
-            }
-            if let mp4Adaptor, let mp4Input {
-                while !mp4Input.isReadyForMoreMediaData {
-                    try await Task.sleep(nanoseconds: 5_000_000)
-                }
-                if let buffer = pixelBuffer(from: rendered, size: size,
-                                            context: ciContext,
-                                            pool: mp4Adaptor.pixelBufferPool) {
-                    mp4Adaptor.append(buffer, withPresentationTime: t)
-                }
-            }
+            try await append(rendered, at: t)
 
             let p = Double(index + 1) / Double(scenes.count)
             await MainActor.run { progress(p) }
@@ -167,7 +179,12 @@ final class Exporter {
         } else {
             endTick = src?.frameCount ?? total
         }
-        let endTime = CMTimeMake(value: Int64(endTick), timescale: fps)
+        var endTime = CMTimeMake(value: Int64(endTick), timescale: fps)
+        if options.endCard, let card = Self.endCardImage(size: size) {
+            try await append(card, at: endTime)
+            endTime = CMTimeAdd(endTime, CMTime(seconds: Self.endCardSeconds,
+                                                preferredTimescale: fps))
+        }
         if let input, let writer {
             input.markAsFinished()
             writer.endSession(atSourceTime: endTime)
@@ -244,6 +261,40 @@ final class Exporter {
     // MARK: - Helpers
 
     /// Plain white background for blank flipbook pages.
+    /// The free-tier closing card: the app name on a white page.
+    private static func endCardImage(size: CGSize) -> CGImage? {
+        let format = UIGraphicsImageRendererFormat()
+        format.scale = 1
+        format.opaque = true
+        let image = UIGraphicsImageRenderer(size: size, format: format).image { ctx in
+            UIColor.white.setFill()
+            ctx.fill(CGRect(origin: .zero, size: size))
+
+            let base = min(size.width, size.height)
+            func rounded(_ pt: CGFloat, _ weight: UIFont.Weight) -> UIFont {
+                let font = UIFont.systemFont(ofSize: pt, weight: weight)
+                guard let desc = font.fontDescriptor.withDesign(.rounded) else { return font }
+                return UIFont(descriptor: desc, size: pt)
+            }
+            let title = NSAttributedString(string: "팔랑북", attributes: [
+                .font: rounded(base * 0.16, .heavy),
+                .foregroundColor: UIColor.systemOrange
+            ])
+            let caption = NSAttributedString(string: "아이 그림이 팔랑팔랑 움직여요", attributes: [
+                .font: rounded(base * 0.045, .semibold),
+                .foregroundColor: UIColor.gray
+            ])
+            let titleSize = title.size()
+            let captionSize = caption.size()
+            let gap = base * 0.03
+            let top = (size.height - titleSize.height - gap - captionSize.height) / 2
+            title.draw(at: CGPoint(x: (size.width - titleSize.width) / 2, y: top))
+            caption.draw(at: CGPoint(x: (size.width - captionSize.width) / 2,
+                                     y: top + titleSize.height + gap))
+        }
+        return image.cgImage
+    }
+
     private static func whiteImage(size: CGSize) -> CGImage? {
         let cs = CGColorSpaceCreateDeviceRGB()
         guard let ctx = CGContext(data: nil, width: Int(size.width), height: Int(size.height),

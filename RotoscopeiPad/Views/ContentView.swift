@@ -1,9 +1,12 @@
 import SwiftUI
+import LeeoKit
 
 /// Icon-only UI for pre-readers: no text anywhere.
 /// One row of tools on top, the canvas, and play controls at the bottom.
 struct ContentView: View {
     @EnvironmentObject var project: RotoProject
+    @EnvironmentObject var store: LeeoStore
+    @State private var lock: LockReason?
     @State private var showDone = false
     @State private var restoredLastProject = false
     @State private var showPageFlash = false
@@ -45,6 +48,14 @@ struct ContentView: View {
             PhotosVideoPicker(isPresented: $project.showPhotoPicker,
                               onPick: { url in project.load(url: url) })
             .ignoresSafeArea()
+        }
+        .sheet(item: $lock) { reason in
+            UnlockSheet(reason: reason)
+        }
+        .onChange(of: project.recordingLimitReached) { _, reached in
+            guard reached else { return }
+            project.recordingLimitReached = false
+            lock = .recording
         }
         .overlay { pageFlashOverlay }
         .overlay { exportOverlay }
@@ -204,7 +215,11 @@ struct ContentView: View {
 
                 // Dub: animation plays once while the mic records the kid.
                 Button {
-                    project.isRecording ? project.stopPlayback() : project.startDubbing()
+                    if project.isRecording {
+                        project.stopPlayback()
+                    } else {
+                        project.startDubbing(limit: FreeTier.recordingLimit(hasPro: store.hasPro))
+                    }
                 } label: {
                     Image(systemName: project.isRecording ? "stop.fill" : "mic.fill")
                         .font(.system(size: 26))
@@ -337,7 +352,7 @@ struct ContentView: View {
 
             // "다음 그림 그리기" — the main action, so it's big and colored:
             // a pencil with an arrow, meaning "now draw the next picture".
-            Button { project.step(by: 1) } label: {
+            Button { nextPage() } label: {
                 HStack(spacing: 6) {
                     Image(systemName: "pencil.and.outline")
                     Image(systemName: "arrow.right")
@@ -366,6 +381,17 @@ struct ContentView: View {
         }
         .padding(.horizontal, 16)
         .padding(.vertical, 12)
+    }
+
+    /// Turning past the last blank page adds one — within the free page count.
+    private func nextPage() {
+        let addsPage = project.isBlank && project.currentFrame == project.frameCount - 1
+        if addsPage, !store.gate.evaluate(FreeTier.blankPageKey,
+                                          current: project.blankPageCount).isAllowed {
+            lock = .pages
+            return
+        }
+        project.step(by: 1)
     }
 
     // MARK: - Export overlay (progress + big checkmark, no words)
@@ -403,7 +429,8 @@ struct ContentView: View {
         // One button, one result: an mp4 saved into Photos.
         let opts = Exporter.Options(writePNGSequence: false,
                                     writeProRes: false,
-                                    saveToPhotos: true)
+                                    saveToPhotos: true,
+                                    endCard: !store.hasPro)
         let exporter = Exporter(project: project)
 
         Task {

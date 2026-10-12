@@ -119,7 +119,10 @@ final class RotoProject: ObservableObject {
     // MARK: - Voice dubbing (아이 목소리 녹음)
 
     @Published var isRecording = false
+    /// Set when a free take hits its time limit, so the UI can offer the unlock.
+    @Published var recordingLimitReached = false
     private var recorder: AVAudioRecorder?
+    private var recordingLimitTask: Task<Void, Never>?
     private var audioPlayer: AVAudioPlayer?
 
     /// The project's narration track.
@@ -131,18 +134,19 @@ final class RotoProject: ObservableObject {
 
     /// Records the mic while the animation loops, so the kid dubs along with
     /// their own pictures for as long as they like; pressing stop ends the
-    /// take. Re-recording overwrites.
-    func startDubbing() {
+    /// take. Re-recording overwrites. A `limit` (free tier) ends the take
+    /// after that many seconds.
+    func startDubbing(limit: TimeInterval? = nil) {
         guard isOpen, frameCount > 1, !isRecording, let audioURL else { return }
         AVAudioSession.sharedInstance().requestRecordPermission { [weak self] granted in
             DispatchQueue.main.async {
                 guard granted, let self else { return }
-                self.beginDubbing(to: audioURL)
+                self.beginDubbing(to: audioURL, limit: limit)
             }
         }
     }
 
-    private func beginDubbing(to url: URL) {
+    private func beginDubbing(to url: URL, limit: TimeInterval?) {
         // Rewind first: goToFrame stops playback, which would end the take
         // if the recorder were already running.
         stopPlayback()
@@ -163,9 +167,20 @@ final class RotoProject: ObservableObject {
         rec.record()
         isRecording = true
         startPlayback()   // loops until the kid presses stop, ending the take
+
+        if let limit {
+            recordingLimitTask = Task { [weak self] in
+                try? await Task.sleep(nanoseconds: UInt64(limit * 1_000_000_000))
+                guard !Task.isCancelled, let self, self.isRecording else { return }
+                self.stopPlayback()   // keeps the take recorded so far
+                self.recordingLimitReached = true
+            }
+        }
     }
 
     private func stopDubbing() {
+        recordingLimitTask?.cancel()
+        recordingLimitTask = nil
         guard isRecording else { return }
         recorder?.stop()
         recorder = nil
@@ -337,6 +352,7 @@ final class RotoProject: ObservableObject {
             try? FileManager.default.removeItem(at: dir)
             return
         }
+        FreeTier.recordVideoImport()
         source = src
         videoURL = dest
         projectDirectory = dir

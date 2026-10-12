@@ -22,6 +22,8 @@
 		B1000021 /* StrokeGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000022 /* StrokeGeometry.swift */; };
 		B1000024 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000023 /* HomeView.swift */; };
 		B1000026 /* PresetLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000025 /* PresetLibrary.swift */; };
+		F7EE0A010000000000000002 /* FreeTier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EE0A010000000000000001 /* FreeTier.swift */; };
+		F7EE0A010000000000000004 /* UnlockSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EE0A010000000000000003 /* UnlockSheet.swift */; };
 		B1000028 /* Presets in Resources */ = {isa = PBXBuildFile; fileRef = B1000027 /* Presets */; };
 		B1000029 /* YouTubeImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100002B /* YouTubeImport.swift */; };
 		B1000082 /* YouTubeKit in Frameworks */ = {isa = PBXBuildFile; productRef = B1000081 /* YouTubeKit */; };
@@ -47,6 +49,8 @@
 		B1000022 /* StrokeGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeGeometry.swift; sourceTree = "<group>"; };
 		B1000023 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B1000025 /* PresetLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetLibrary.swift; sourceTree = "<group>"; };
+		F7EE0A010000000000000001 /* FreeTier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeTier.swift; sourceTree = "<group>"; };
+		F7EE0A010000000000000003 /* UnlockSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockSheet.swift; sourceTree = "<group>"; };
 		B1000027 /* Presets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Presets; sourceTree = "<group>"; };
 		B100002B /* YouTubeImport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeImport.swift; sourceTree = "<group>"; };
 		B1000090 /* Stamps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stamps.swift; sourceTree = "<group>"; };
@@ -103,6 +107,7 @@
 				B1000004 /* MaskModels.swift */,
 				B1000005 /* RotoProject.swift */,
 				B1000025 /* PresetLibrary.swift */,
+				F7EE0A010000000000000001 /* FreeTier.swift */,
 				B1000090 /* Stamps.swift */,
 			);
 			path = Models;
@@ -117,6 +122,7 @@
 				B1000023 /* HomeView.swift */,
 				B100002B /* YouTubeImport.swift */,
 				925FF54F8FD6B11267BD271D /* RotoscopeiPadSupportView.swift */,
+				F7EE0A010000000000000003 /* UnlockSheet.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -223,6 +229,8 @@
 				B1000014 /* MaskModels.swift in Sources */,
 				B1000015 /* RotoProject.swift in Sources */,
 				B1000026 /* PresetLibrary.swift in Sources */,
+				F7EE0A010000000000000002 /* FreeTier.swift in Sources */,
+				F7EE0A010000000000000004 /* UnlockSheet.swift in Sources */,
 				B1000016 /* VideoSource.swift in Sources */,
 				B1000017 /* MaskRasterizer.swift in Sources */,
 				B1000021 /* StrokeGeometry.swift in Sources */,

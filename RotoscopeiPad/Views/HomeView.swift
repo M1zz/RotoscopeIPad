@@ -1,11 +1,14 @@
 import SwiftUI
+import LeeoKit
 
 /// Icon-only home screen: every card sits in one grid. When everything fits
 /// the grid fills the screen with no scrolling at all; only when there are
 /// more projects than cells does the grid scroll vertically.
 struct HomeView: View {
     @EnvironmentObject var project: RotoProject
+    @EnvironmentObject var store: LeeoStore
     @State private var projects: [URL] = []
+    @State private var lock: LockReason?
 
     /// Everything shown on the home grid, in display order.
     private enum Item: Identifiable {
@@ -78,6 +81,9 @@ struct HomeView: View {
         .sheet(isPresented: $project.showLinkImport) {
             VideoLinkImportSheet()
         }
+        .sheet(item: $lock) { reason in
+            UnlockSheet(reason: reason)
+        }
         .fullScreenCover(isPresented: $project.showCameraPicker) {
             CameraVideoPicker(isPresented: $project.showCameraPicker,
                               onPick: { url in project.load(url: url) })
@@ -126,16 +132,29 @@ struct HomeView: View {
     private func cell(_ item: Item) -> some View {
         switch item {
         case .camera:
-            createCell("camera.fill", tint: .blue) { project.showCameraPicker = true }
+            createCell("camera.fill", tint: .blue, locked: !videoAllowed) {
+                startVideo { project.showCameraPicker = true }
+            }
         case .video:
-            createCell("video.fill", tint: .green) { project.showPhotoPicker = true }
+            createCell("video.fill", tint: .green, locked: !videoAllowed) {
+                startVideo { project.showPhotoPicker = true }
+            }
         case .link:
-            createCell("link", tint: .indigo) { project.showLinkImport = true }
+            createCell("link", tint: .indigo, locked: !videoAllowed) {
+                startVideo { project.showLinkImport = true }
+            }
         case .blank:
             blankCell
         case .preset(let preset):
-            Button { project.createFromPreset(preset) } label: {
-                presetCard(preset)
+            let locked = !FreeTier.isFree(preset) && !store.gate.allows(FreeTier.premiumPresetKey)
+            Button {
+                if locked {
+                    lock = .presets
+                } else if canAddProject() {
+                    project.createFromPreset(preset)
+                }
+            } label: {
+                presetCard(preset, locked: locked)
             }
             .buttonStyle(.plain)
         case .project(let dir):
@@ -155,7 +174,38 @@ struct HomeView: View {
         }
     }
 
-    private func createCell(_ symbol: String, tint: Color,
+    // MARK: - Free tier
+
+    /// The free video import is still unused (or everything is unlocked).
+    private var videoAllowed: Bool {
+        store.gate.evaluate(FreeTier.videoImportKey,
+                            current: FreeTier.videoImportsUsed).isAllowed
+    }
+
+    /// Room for one more saved work; otherwise brings up the unlock sheet.
+    private func canAddProject() -> Bool {
+        if store.gate.evaluate(FreeTier.projectKey, current: projects.count).isAllowed {
+            return true
+        }
+        lock = .projects
+        return false
+    }
+
+    private func startVideo(_ open: () -> Void) {
+        guard videoAllowed else { lock = .video; return }
+        if canAddProject() { open() }
+    }
+
+    private func lockBadge() -> some View {
+        Image(systemName: "lock.fill")
+            .font(.system(size: 18, weight: .bold))
+            .foregroundStyle(.white)
+            .padding(8)
+            .background(Circle().fill(Color.gray))
+            .padding(8)
+    }
+
+    private func createCell(_ symbol: String, tint: Color, locked: Bool = false,
                             action: @escaping () -> Void) -> some View {
         Button(action: action) {
             VStack(spacing: 10) {
@@ -168,12 +218,15 @@ struct HomeView: View {
         }
         .buttonStyle(.borderedProminent)
         .tint(tint)
+        .overlay(alignment: .topTrailing) {
+            if locked { lockBadge() }
+        }
     }
 
     /// 빈 화면: a plain white page with a big plus — a new project that starts
     /// from nothing, just empty pages to draw on.
     private var blankCell: some View {
-        Button { project.createBlank() } label: {
+        Button { if canAddProject() { project.createBlank() } } label: {
             ZStack {
                 Color.white
                 VStack(spacing: 12) {
@@ -195,7 +248,7 @@ struct HomeView: View {
 
     /// A guide set card: the mid-animation pose on a white page, with a
     /// dashed border and a pencil badge that say "trace me" without words.
-    private func presetCard(_ preset: GuidePreset) -> some View {
+    private func presetCard(_ preset: GuidePreset, locked: Bool) -> some View {
         ZStack(alignment: .bottomTrailing) {
             Color.white
                 .overlay {
@@ -206,10 +259,14 @@ struct HomeView: View {
                             .padding(10)
                     }
                 }
-            Image(systemName: "pencil.tip.crop.circle.badge.plus")
-                .font(.system(size: 26))
-                .foregroundStyle(.white, .orange)
-                .padding(8)
+            if locked {
+                lockBadge()
+            } else {
+                Image(systemName: "pencil.tip.crop.circle.badge.plus")
+                    .font(.system(size: 26))
+                    .foregroundStyle(.white, .orange)
+                    .padding(8)
+            }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .clipShape(RoundedRectangle(cornerRadius: 16))

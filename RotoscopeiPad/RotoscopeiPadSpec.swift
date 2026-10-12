@@ -12,6 +12,17 @@ enum RotoscopeiPadSpec: LeeoAppSpec {
         supportURL: URL(string: "https://m1zz.github.io/RotoscopeIPad/")!
     )
 
-    /// 결제 없음 — 앱 안에 StoreKit·페이월 코드가 존재하지 않는다.
-    static let monetization = LeeoMonetization.free
+    /// 부분유료 — 무료로 충분히 맛보고, 평생 이용권 한 번으로 전부 연다.
+    /// 무료 한도는 여기 한 곳에만 있다 (키 이름은 FreeTier).
+    static let monetization = LeeoMonetization.freemium(
+        LeeoPurchaseConfig(
+            productIDs: [FreeTier.lifetimeProductID],
+            gate: LeeoGatePolicy(
+                freeLimits: [
+                    FreeTier.projectKey: 3,
+                    FreeTier.blankPageKey: 10,
+                    FreeTier.videoImportKey: 1,
+                    FreeTier.recordSecondsKey: 15
+                ],
+                proOnly: [FreeTier.premiumPresetKey])))
 }
