@@ -1,13 +1,18 @@
 import SwiftUI
+#if DEBUG
 import YouTubeKit
+#endif
 
 /// Parent-facing sheet: paste a video link and it opens as a normal tracing
-/// project. YouTube links go through stream extraction (YouTubeKit); any
-/// other URL is fetched as a direct video file. The UI says "open", but the
-/// clip is cached into the app sandbox — page turns need instant frame seeks
-/// and saved projects must reopen offline, which streaming can't provide.
-/// Downloading YouTube content can conflict with YouTube's ToS — personal
-/// use only.
+/// project. The link is fetched as a direct video file. The UI says "open",
+/// but the clip is cached into the app sandbox — page turns need instant
+/// frame seeks and saved projects must reopen offline, which streaming can't
+/// provide.
+///
+/// YouTube links resolve only in Debug builds (running from Xcode).
+/// Downloading YouTube content conflicts with YouTube's ToS and App Review
+/// 5.2.3, so Release builds — TestFlight and the App Store — compile it out
+/// entirely, with no hidden switch to turn it back on (that would be 2.3.1).
 struct VideoLinkImportSheet: View {
     @EnvironmentObject var project: RotoProject
     @Environment(\.dismiss) private var dismiss
@@ -107,17 +112,20 @@ struct VideoLinkImportSheet: View {
         }
     }
 
-    /// Fetches the link into a temporary file. YouTube links resolve to
-    /// their best progressive mp4 (≤720p — plenty for tracing); anything
-    /// else is treated as a direct video file URL.
+    /// Fetches the link into a temporary file, treating it as a direct
+    /// video file URL. Debug builds first try it as a YouTube link.
     private static func download(videoURL: URL) async throws -> URL {
+        #if DEBUG
         if let streamURL = try? await youTubeStreamURL(for: videoURL) {
             return try await fetch(streamURL, ext: "mp4")
         }
+        #endif
         let ext = videoURL.pathExtension.isEmpty ? "mp4" : videoURL.pathExtension
         return try await fetch(videoURL, ext: ext)
     }
 
+    #if DEBUG
+    /// Best progressive mp4 (≤720p — plenty for tracing). Debug only.
     private static func youTubeStreamURL(for url: URL) async throws -> URL? {
         let streams = try await YouTube(url: url).streams
         let candidates = streams
@@ -128,6 +136,7 @@ struct VideoLinkImportSheet: View {
             .highestResolutionStream() ?? candidates.lowestResolutionStream()
         return stream?.url
     }
+    #endif
 
     private static func fetch(_ remote: URL, ext: String) async throws -> URL {
         let (tmp, _) = try await URLSession.shared.download(from: remote)

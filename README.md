@@ -52,7 +52,9 @@ animation. The setting is saved per project.
 The indigo **link +** card on the home screen accepts a pasted video URL and
 "opens" it as a normal tracing project. YouTube links resolve through the
 YouTubeKit Swift package (progressive mp4 ≤720p); any other URL is fetched
-as a direct video file. Under the hood the clip is cached into the app
+as a direct video file. **YouTube resolution is Debug-only** (`#if DEBUG`
+in `YouTubeImport.swift`): TestFlight and App Store builds compile it out and
+accept direct video file links only. Under the hood the clip is cached into the app
 sandbox — page turns need instant frame seeks and saved projects must reopen
 offline, which a stream URL can't provide. The cache lives inside the
 project folder and is deleted with the project. Note that downloading
