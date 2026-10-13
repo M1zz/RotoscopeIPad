@@ -276,11 +276,11 @@ final class Exporter {
                 guard let desc = font.fontDescriptor.withDesign(.rounded) else { return font }
                 return UIFont(descriptor: desc, size: pt)
             }
-            let title = NSAttributedString(string: "팔랑북", attributes: [
+            let title = NSAttributedString(string: String(localized: "팔랑북"), attributes: [
                 .font: rounded(base * 0.16, .heavy),
                 .foregroundColor: UIColor.systemOrange
             ])
-            let caption = NSAttributedString(string: "아이 그림이 팔랑팔랑 움직여요", attributes: [
+            let caption = NSAttributedString(string: String(localized: "아이 그림이 팔랑팔랑 움직여요"), attributes: [
                 .font: rounded(base * 0.045, .semibold),
                 .foregroundColor: UIColor.gray
             ])
@@ -336,10 +336,10 @@ final class Exporter {
 
         var errorDescription: String? {
             switch self {
-            case .noSource: return "동영상이 없어요."
-            case .encodeFailed: return "동영상을 만들다가 문제가 생겼어요."
+            case .noSource: return String(localized: "동영상이 없어요.")
+            case .encodeFailed: return String(localized: "동영상을 만들다가 문제가 생겼어요.")
             case .photosAccessDenied:
-                return "사진 앱에 저장하려면 설정에서 허용해 주세요."
+                return String(localized: "사진 앱에 저장하려면 설정에서 허용해 주세요.")
             }
         }
     }

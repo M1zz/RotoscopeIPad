@@ -191,7 +191,7 @@ final class RotoProject: ObservableObject {
 
     @Published var isExporting = false
     @Published var exportProgress: Double = 0
-    @Published var statusMessage: String = "동영상을 가져오면 시작할 수 있어요!"
+    @Published var statusMessage: String = String(localized: "동영상을 가져오면 시작할 수 있어요!")
 
     // Sheet / picker triggers for the UI.
     @Published var showVideoPicker = false
@@ -343,12 +343,12 @@ final class RotoProject: ObservableObject {
             try FileManager.default.createDirectory(at: dir, withIntermediateDirectories: true)
             try FileManager.default.copyItem(at: url, to: dest)
         } catch {
-            statusMessage = "동영상을 가져오지 못했어요: \(error.localizedDescription)"
+            statusMessage = String(localized: "동영상을 가져오지 못했어요: \(error.localizedDescription)")
             return
         }
 
         guard let src = VideoSource(url: dest) else {
-            statusMessage = "동영상을 읽을 수 없어요. 다른 동영상으로 해볼까요?"
+            statusMessage = String(localized: "동영상을 읽을 수 없어요. 다른 동영상으로 해볼까요?")
             try? FileManager.default.removeItem(at: dir)
             return
         }
@@ -363,7 +363,7 @@ final class RotoProject: ObservableObject {
         frameStep = max(1, Int((Double(src.frameRate) / Self.targetSceneFPS).rounded()))
         masks = [:]
         currentFrame = 0
-        statusMessage = "준비 완료! 장면이 \(frameCount)개 있어요. 그림을 그려보세요 🎨"
+        statusMessage = String(localized: "준비 완료! 장면이 \(frameCount)개 있어요. 그림을 그려보세요 🎨")
         refreshFrame()
         saveNow()
         writeThumbnail()

@@ -176,7 +176,7 @@ struct ContentView: View {
     @ViewBuilder
     private var pageFlashOverlay: some View {
         if showPageFlash {
-            Text("\(project.currentFrame + 1)\u{2009}/\u{2009}\(project.frameCount)")
+            Text(verbatim: "\(project.currentFrame + 1)\u{2009}/\u{2009}\(project.frameCount)")
                 .font(.system(size: 64, weight: .heavy, design: .rounded).monospacedDigit())
                 .foregroundStyle(.white)
                 .padding(.horizontal, 36)

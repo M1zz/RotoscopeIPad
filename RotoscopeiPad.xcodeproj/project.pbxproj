@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2000011 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C2000001 /* Localizable.xcstrings */; };
+		C2000012 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C2000002 /* InfoPlist.xcstrings */; };
 		27635556B9AD3A223B0C6677 /* RotoscopeiPadSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D32DC4106D7910C7BA5794 /* RotoscopeiPadSpec.swift */; };
 		A26FB1D7F28CDA647FD9F6C6 /* LeeoKit in Frameworks */ = {isa = PBXBuildFile; productRef = 79808A022338D6B875EF30F3 /* LeeoKit */; };
 		B1000011 /* RotoscopeiPadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000001 /* RotoscopeiPadApp.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C2000001 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		C2000002 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		69D32DC4106D7910C7BA5794 /* RotoscopeiPadSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RotoscopeiPadSpec.swift; sourceTree = "<group>"; };
 		925FF54F8FD6B11267BD271D /* RotoscopeiPadSupportView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RotoscopeiPadSupportView.swift; sourceTree = "<group>"; };
 		B1000001 /* RotoscopeiPadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotoscopeiPadApp.swift; sourceTree = "<group>"; };
@@ -87,6 +91,8 @@
 				B1000036 /* Export */,
 				B1000027 /* Presets */,
 				B1000009 /* Assets.xcassets */,
+				C2000001 /* Localizable.xcstrings */,
+				C2000002 /* InfoPlist.xcstrings */,
 				B100000A /* Info.plist */,
 				69D32DC4106D7910C7BA5794 /* RotoscopeiPadSpec.swift */,
 			);
@@ -186,10 +192,19 @@
 			};
 			buildConfigurationList = B1000061 /* Build configuration list for PBXProject "RotoscopeiPad" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = ko;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				ko,
 				en,
+				ja,
+				"zh-Hans",
+				"zh-Hant",
+				es,
+				de,
+				fr,
+				"pt-BR",
+				it,
 				Base,
 			);
 			mainGroup = B1000030;
@@ -213,6 +228,8 @@
 			files = (
 				B100001A /* Assets.xcassets in Resources */,
 				B1000028 /* Presets in Resources */,
+				C2000011 /* Localizable.xcstrings in Resources */,
+				C2000012 /* InfoPlist.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

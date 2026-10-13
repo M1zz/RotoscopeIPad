@@ -84,12 +84,12 @@ struct PhotosVideoPicker: UIViewControllerRepresentable {
             parent.isPresented = false
             guard let provider = results.first?.itemProvider else { return } // cancelled
             guard provider.hasItemConformingToTypeIdentifier(UTType.movie.identifier) else {
-                parent.onStatus("동영상이 아니에요. 동영상을 골라 주세요!")
+                parent.onStatus(String(localized: "동영상이 아니에요. 동영상을 골라 주세요!"))
                 return
             }
 
             // Large / iCloud videos can take a while to materialize.
-            parent.onStatus("사진에서 가져오는 중… 조금만 기다려요!")
+            parent.onStatus(String(localized: "사진에서 가져오는 중… 조금만 기다려요!"))
             let onPick = parent.onPick
             let onStatus = parent.onStatus
             provider.loadFileRepresentation(forTypeIdentifier: UTType.movie.identifier) { url, error in
@@ -98,8 +98,8 @@ struct PhotosVideoPicker: UIViewControllerRepresentable {
                 // tmp/<name> itself, so landing on that exact path would make
                 // its remove-then-copy delete the source.
                 guard let url else {
-                    let reason = error?.localizedDescription ?? "알 수 없는 문제"
-                    DispatchQueue.main.async { onStatus("동영상을 가져오지 못했어요: \(reason)") }
+                    let reason = error?.localizedDescription ?? String(localized: "알 수 없는 문제")
+                    DispatchQueue.main.async { onStatus(String(localized: "동영상을 가져오지 못했어요: \(reason)")) }
                     return
                 }
                 do {
@@ -113,7 +113,7 @@ struct PhotosVideoPicker: UIViewControllerRepresentable {
                     DispatchQueue.main.async { onPick(dest) }
                 } catch {
                     let reason = error.localizedDescription
-                    DispatchQueue.main.async { onStatus("동영상을 가져오지 못했어요: \(reason)") }
+                    DispatchQueue.main.async { onStatus(String(localized: "동영상을 가져오지 못했어요: \(reason)")) }
                 }
             }
         }

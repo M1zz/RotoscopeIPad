@@ -79,7 +79,7 @@ struct VideoLinkImportSheet: View {
     private func startImport() {
         let trimmed = urlText.trimmingCharacters(in: .whitespacesAndNewlines)
         guard let url = URL(string: trimmed) else {
-            errorText = "링크가 올바르지 않아요."
+            errorText = String(localized: "링크가 올바르지 않아요.")
             return
         }
         isLoading = true
@@ -100,13 +100,13 @@ struct VideoLinkImportSheet: View {
                     if opened {
                         dismiss()
                     } else {
-                        errorText = "열지 못했어요. 동영상 링크인지 확인해 주세요."
+                        errorText = String(localized: "열지 못했어요. 동영상 링크인지 확인해 주세요.")
                     }
                 }
             } catch {
                 await MainActor.run {
                     isLoading = false
-                    errorText = "열지 못했어요. 링크를 확인하고 다시 해보세요."
+                    errorText = String(localized: "열지 못했어요. 링크를 확인하고 다시 해보세요.")
                 }
             }
         }

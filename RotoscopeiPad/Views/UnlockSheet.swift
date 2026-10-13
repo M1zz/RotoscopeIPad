@@ -74,7 +74,7 @@ private struct ParentGateView: View {
             }
 
             HStack(spacing: 16) {
-                Text("\(a) × \(b) =")
+                Text(verbatim: "\(a) × \(b) =")
                 Text(answer.isEmpty ? "?" : answer)
                     .frame(minWidth: 80)
                     .foregroundStyle(answer.isEmpty ? .secondary : .primary)
@@ -151,12 +151,12 @@ private struct PurchaseView: View {
     @Environment(\.purchase) private var purchaseAction
 
     private static let benefits: [(icon: String, text: String)] = [
-        ("pencil.tip.crop.circle.badge.plus", "따라 그리기 \(PresetLibrary.all.count)세트 전부, 앞으로 나올 세트도"),
-        ("square.grid.2x2.fill", "작품을 개수 제한 없이 보관"),
-        ("book.pages.fill", "빈 종이 플립북 장수 제한 없음"),
-        ("video.fill", "내 동영상으로 그리기 무제한"),
-        ("mic.fill", "목소리 녹음 시간 제한 없음"),
-        ("film", "저장한 영상 끝에 팔랑북 카드 없음")
+        ("pencil.tip.crop.circle.badge.plus", String(localized: "따라 그리기 \(PresetLibrary.all.count)세트 전부, 앞으로 나올 세트도")),
+        ("square.grid.2x2.fill", String(localized: "작품을 개수 제한 없이 보관")),
+        ("book.pages.fill", String(localized: "빈 종이 플립북 장수 제한 없음")),
+        ("video.fill", String(localized: "내 동영상으로 그리기 무제한")),
+        ("mic.fill", String(localized: "목소리 녹음 시간 제한 없음")),
+        ("film", String(localized: "저장한 영상 끝에 팔랑북 카드 없음"))
     ]
 
     var body: some View {
@@ -253,7 +253,7 @@ private struct PurchaseView: View {
             ProgressView().padding(.vertical, 24)
         } else {
             VStack(spacing: 12) {
-                Text(store.lastError ?? "상품을 불러오지 못했어요.")
+                Text(store.lastError ?? String(localized: "상품을 불러오지 못했어요."))
                     .foregroundStyle(.secondary)
                 Button("다시 시도") { Task { await store.loadProducts() } }
             }

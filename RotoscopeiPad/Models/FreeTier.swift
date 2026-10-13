@@ -107,17 +107,17 @@ enum LockReason: String, Identifiable {
         let limits = RotoscopeiPadSpec.gate.freeLimits
         switch self {
         case .projects:
-            return "무료로는 작품을 \(limits[FreeTier.projectKey] ?? 0)개까지 보관할 수 있어요."
+            return String(localized: "무료로는 작품을 \(limits[FreeTier.projectKey] ?? 0)개까지 보관할 수 있어요.")
         case .presets:
-            return "따라 그리기 \(FreeTier.freePresetIDs.count)세트는 무료, 나머지는 이용권으로 열려요."
+            return String(localized: "따라 그리기 \(FreeTier.freePresetIDs.count)세트는 무료, 나머지는 이용권으로 열려요.")
         case .video:
-            return "무료로는 동영상을 \(limits[FreeTier.videoImportKey] ?? 0)번 불러올 수 있어요."
+            return String(localized: "무료로는 동영상을 \(limits[FreeTier.videoImportKey] ?? 0)번 불러올 수 있어요.")
         case .pages:
-            return "무료로는 빈 종이 플립북을 \(limits[FreeTier.blankPageKey] ?? 0)장까지 그릴 수 있어요."
+            return String(localized: "무료로는 빈 종이 플립북을 \(limits[FreeTier.blankPageKey] ?? 0)장까지 그릴 수 있어요.")
         case .recording:
-            return "무료로는 목소리를 \(limits[FreeTier.recordSecondsKey] ?? 0)초까지 녹음할 수 있어요."
+            return String(localized: "무료로는 목소리를 \(limits[FreeTier.recordSecondsKey] ?? 0)초까지 녹음할 수 있어요.")
         case .general:
-            return "한 번 결제로 팔랑북의 모든 기능을 계속 쓸 수 있어요."
+            return String(localized: "한 번 결제로 팔랑북의 모든 기능을 계속 쓸 수 있어요.")
         }
     }
 }
