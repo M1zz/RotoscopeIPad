@@ -3,7 +3,8 @@
 
 사용법: python3 scripts/make_marketing_screenshots.py [언어 ...]   (없으면 전부)
 
-원본   docs/screenshots/raw/<언어>/NN-….png        시뮬레이터(iPad Pro 13") 캡처 2064x2752
+원본   docs/screenshots/raw/<로케일>/NN-….png       시뮬레이터(iPad Pro 13") 캡처 2064x2752
+       (scripts/capture_screenshots.sh 가 언어마다 찍는다)
 제출본 docs/screenshots/marketing/<로케일>/NN-….png  스토어에 그대로 올라간다
 
 팔랑북은 아이패드 전용이다. 바탕 · 글자색 · 도장은 제품 페이지 헤더(make_creative_assets.py)와 같다.
@@ -15,8 +16,6 @@ RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "marketing"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 W, H = 2064, 2752
-
-STORE = {"ko": "ko"}
 
 # (원본 파일, 배치, 눈썹글, 헤드라인, 보조 한 줄)
 SHOTS = {
@@ -32,6 +31,97 @@ SHOTS = {
     ],
 }
 
+SHOTS["en-US"] = [
+    ("01-trace-bunny.png", "hero", "Trace and animate",
+     "Your child's drawings<br>come to life", "Trace soft outlines one page at a time"),
+    ("02-trace-rocket.png", "tilt-left", "Page by page",
+     "Follow the lines,<br>make a cartoon", "Bunny, rocket, frog and more: 10 sets"),
+    ("03-stamps-fish.png", "tilt-right", "Stamp palette",
+     "Tap on hearts,<br>stars and flowers", "No reading needed, just tap the pictures"),
+    ("04-home.png", "hero", "Your own videos too",
+     "Trace over videos<br>you filmed", "Every artwork waits on the home screen"),
+]
+SHOTS["ja"] = [
+    ("01-trace-bunny.png", "hero", "なぞり描き",
+     "子どもの絵が<br>パラパラ動きだす", "うすい下絵を1枚ずつなぞるだけ"),
+    ("02-trace-rocket.png", "tilt-left", "1枚ずつ、ゆっくり",
+     "線をなぞれば<br>アニメの完成", "うさぎ、ロケット、カエルなど10種類"),
+    ("03-stamps-fish.png", "tilt-right", "スタンプ",
+     "ハートや星を<br>ポンと押して飾ろう", "字が読めなくても絵のボタンでOK"),
+    ("04-home.png", "hero", "自分の動画でも",
+     "撮った動画の上に<br>なぞって描ける", "作品はホームに並んで、いつでも続きから"),
+]
+SHOTS["zh-Hans"] = [
+    ("01-trace-bunny.png", "hero", "描画",
+     "孩子的画<br>动起来啦", "跟着浅浅的底稿，一页一页描"),
+    ("02-trace-rocket.png", "tilt-left", "一页一页来",
+     "照着线条描<br>动画就完成", "小兔、火箭、青蛙等 10 套底稿"),
+    ("03-stamps-fish.png", "tilt-right", "印章",
+     "爱心、星星、花朵<br>一按就印上", "不识字也没关系，点图标就行"),
+    ("04-home.png", "hero", "也能用自己的视频",
+     "在拍好的视频上<br>描着画", "作品都在首页，随时接着画"),
+]
+SHOTS["zh-Hant"] = [
+    ("01-trace-bunny.png", "hero", "描畫",
+     "孩子的畫<br>動起來囉", "跟著淡淡的底圖，一頁一頁描"),
+    ("02-trace-rocket.png", "tilt-left", "一頁一頁來",
+     "跟著線條描<br>動畫就完成", "小兔子、火箭、青蛙等 10 套底圖"),
+    ("03-stamps-fish.png", "tilt-right", "印章",
+     "愛心、星星、花朵<br>一按就蓋上", "不識字也沒關係，點圖示就好"),
+    ("04-home.png", "hero", "也能用自己的影片",
+     "在拍好的影片上<br>描著畫", "作品都在首頁，隨時接著畫"),
+]
+SHOTS["es-MX"] = [
+    ("01-trace-bunny.png", "hero", "Calca y anima",
+     "Los dibujos de tu hijo<br>cobran vida", "Calca contornos suaves, página por página"),
+    ("02-trace-rocket.png", "tilt-left", "Página por página",
+     "Sigue las líneas<br>y crea una caricatura", "Conejo, cohete, rana y más: 10 sets"),
+    ("03-stamps-fish.png", "tilt-right", "Sellos",
+     "Decora con corazones,<br>estrellas y flores", "Sin leer: solo toca los dibujos"),
+    ("04-home.png", "hero", "También con tus videos",
+     "Calca sobre<br>tus propios videos", "Todas sus obras esperan en el inicio"),
+]
+SHOTS["de-DE"] = [
+    ("01-trace-bunny.png", "hero", "Nachzeichnen",
+     "Kinderbilder<br>werden lebendig", "Zarte Vorlagen Seite für Seite nachmalen"),
+    ("02-trace-rocket.png", "tilt-left", "Seite für Seite",
+     "Linien folgen,<br>Trickfilm fertig", "Hase, Rakete, Frosch und mehr: 10 Sets"),
+    ("03-stamps-fish.png", "tilt-right", "Stempel",
+     "Herzen, Sterne<br>und Blumen stempeln", "Ohne Lesen: einfach auf Bilder tippen"),
+    ("04-home.png", "hero", "Auch mit eigenen Videos",
+     "Über eigene<br>Videos malen", "Alle Werke warten auf dem Startbildschirm"),
+]
+SHOTS["fr-FR"] = [
+    ("01-trace-bunny.png", "hero", "Décalquer",
+     "Les dessins de votre<br>enfant prennent vie", "On repasse des contours doux, page par page"),
+    ("02-trace-rocket.png", "tilt-left", "Page après page",
+     "On suit les traits,<br>c'est un dessin animé", "Lapin, fusée, grenouille… 10 séries"),
+    ("03-stamps-fish.png", "tilt-right", "Tampons",
+     "Des cœurs, des étoiles,<br>des fleurs à tamponner", "Pas besoin de lire : on touche les images"),
+    ("04-home.png", "hero", "Avec vos vidéos aussi",
+     "Dessiner sur<br>vos propres vidéos", "Toutes les œuvres attendent sur l'accueil"),
+]
+SHOTS["pt-BR"] = [
+    ("01-trace-bunny.png", "hero", "Contorne e anime",
+     "Os desenhos do seu filho<br>ganham vida", "Contorne traços suaves, página por página"),
+    ("02-trace-rocket.png", "tilt-left", "Página por página",
+     "Siga as linhas<br>e vira desenho animado", "Coelho, foguete, sapo e mais: 10 conjuntos"),
+    ("03-stamps-fish.png", "tilt-right", "Carimbos",
+     "Carimbe corações,<br>estrelas e flores", "Não precisa ler: é só tocar nas figuras"),
+    ("04-home.png", "hero", "Com seus vídeos também",
+     "Desenhe sobre<br>seus próprios vídeos", "Todas as obras ficam na tela inicial"),
+]
+SHOTS["it"] = [
+    ("01-trace-bunny.png", "hero", "Ricalca e anima",
+     "I disegni dei bambini<br>prendono vita", "Ricalca contorni leggeri, pagina dopo pagina"),
+    ("02-trace-rocket.png", "tilt-left", "Pagina dopo pagina",
+     "Segui le linee,<br>ecco un cartone animato", "Coniglio, razzo, rana e altri: 10 set"),
+    ("03-stamps-fish.png", "tilt-right", "Timbri",
+     "Cuori, stelle e fiori<br>da timbrare", "Non serve leggere: basta toccare le figure"),
+    ("04-home.png", "hero", "Anche con i tuoi video",
+     "Disegna sopra<br>i tuoi video", "Tutte le opere restano nella schermata iniziale"),
+]
+
 CSS = """
 * { margin:0; padding:0; box-sizing:border-box; }
 html,body { width:%(W)dpx; height:%(H)dpx; overflow:hidden; }
@@ -40,14 +130,22 @@ body { background:#FFF9F1; position:relative;
 .glow { position:absolute; border-radius:50%%; filter:blur(170px); }
 .text { position:absolute; left:140px; right:140px; top:200px; text-align:center; }
 .eyebrow { font-size:76px; font-weight:800; color:#F28A00; letter-spacing:-0.01em; }
-.headline { font-size:150px; font-weight:800; color:#22252B; letter-spacing:-0.03em; line-height:1.16; margin-top:26px; }
-.sub { font-size:66px; font-weight:500; color:#7A7570; letter-spacing:-0.01em; margin-top:40px; }
+.headline { white-space:nowrap; font-size:150px; font-weight:800; color:#22252B; letter-spacing:-0.03em; line-height:1.16; margin-top:26px; }
+.sub { white-space:nowrap; font-size:66px; font-weight:500; color:#7A7570; letter-spacing:-0.01em; margin-top:40px; }
 :lang(ko) .headline, :lang(ko) .sub { word-break:keep-all; }
 .ipad { position:absolute; background:#202226; border:5px solid #d8d4cc; padding:40px; border-radius:100px;
   box-shadow: 0 60px 160px rgba(120,80,20,.22), 0 0 0 2px #2c2e33 inset; }
 .ipad img { width:100%%; display:block; border-radius:60px; }
 .stamp { position:absolute; }
 """
+
+# 적은 줄(<br>)이 상자 폭을 넘으면 글자를 줄인다 — 더 쪼개지지 않게 nowrap 으로 둔다.
+FIT = """<script>
+for (const el of document.querySelectorAll('.headline, .sub')) {
+  let size = parseFloat(getComputedStyle(el).fontSize);
+  while (el.scrollWidth > el.clientWidth + 1 && size > 40) { size -= 2; el.style.fontSize = size + 'px'; }
+}
+</script>"""
 
 HEART = "M50 88 C20 66 4 50 4 30 C4 14 16 4 30 4 C40 4 47 10 50 18 C53 10 60 4 70 4 C84 4 96 14 96 30 C96 50 80 66 50 88 Z"
 STAR = "M50 4 L62 38 L98 38 L69 59 L80 94 L50 73 L20 94 L31 59 L2 38 L38 38 Z"
@@ -81,11 +179,12 @@ def page(lang, src, layout, eyebrow, headline, sub):
 {deco}
 <div class="text"><div class="eyebrow">{eyebrow}</div><div class="headline">{headline}</div><div class="sub">{sub}</div></div>
 <div class="ipad" style="left:{p['left']}px;top:{p['top']}px;width:{p['width']}px;transform:rotate({p['rot']}deg)"><img src="{img}"></div>
+{FIT}
 </body></html>"""
 
 
 def render(lang):
-    out_dir = OUT / STORE.get(lang, lang)
+    out_dir = OUT / lang
     out_dir.mkdir(parents=True, exist_ok=True)
     for src, layout, eyebrow, headline, sub in SHOTS[lang]:
         html = pathlib.Path(tempfile.gettempdir()) / f"palangbook-mkt-{lang}-{src}.html"

@@ -8,7 +8,79 @@
 이미 쓰시던 분은 모든 기능이 그대로 열려 있어요.
 결제 화면은 어른 확인을 거쳐야 열려요.
 홈 화면 톱니바퀴에서 의견을 바로 보낼 수 있어요.
-마음에 드시면 앱 안에서 바로 별점을 남길 수 있어요.
+이제 영어와 일본어 등 아홉 개 언어로도 쓸 수 있어요.
+
+### 앱스토어 (en-US)
+
+Lifetime Pass unlocks all tracing sets.
+Existing users keep every feature.
+Purchases now need a grown-up check.
+Send feedback from the gear button.
+Palang Book now speaks your language.
+
+### 앱스토어 (ja)
+
+買い切りプランですべてのなぞり描きが使えます。
+これまでお使いの方は全機能をそのまま使えます。
+購入画面は大人の確認のあとに開きます。
+トップ画面の歯車から、ご意見をすぐ送れます。
+Palang Bookが日本語でも使えるようになりました。
+
+### 앱스토어 (zh-Hans)
+
+购买终身解锁，即可使用全部描画练习。
+老用户的所有功能依然全部可用。
+购买页面需要大人验证后才能打开。
+在首页点齿轮图标，就能直接反馈意见。
+Palang Book 现在支持简体中文了。
+
+### 앱스토어 (zh-Hant)
+
+購買終身解鎖，就能使用全部描圖練習。
+之前就在使用的朋友，所有功能照樣開放。
+購買畫面需要大人確認後才會開啟。
+在首頁點齒輪，就能直接傳送意見給我們。
+Palang Book 現在支援繁體中文了。
+
+### 앱스토어 (es-MX)
+
+Desbloquea todo con Acceso de por vida.
+Si ya la usabas, conservas todo.
+Para comprar, un adulto debe confirmar.
+Envía tus comentarios desde el engrane.
+Palang Book ya habla español.
+
+### 앱스토어 (de-DE)
+
+Alle Vorlagen mit lebenslangem Zugang.
+Bisherige Nutzer behalten alles.
+Käufe nur nach Elternabfrage.
+Feedback über das Zahnrad senden.
+Palang Book spricht jetzt Deutsch.
+
+### 앱스토어 (fr-FR)
+
+L'Accès à vie ouvre tous les modèles.
+Les anciens utilisateurs gardent tout.
+L'achat passe par un contrôle parental.
+Donnez votre avis via la roue dentée.
+Palang Book parle désormais français.
+
+### 앱스토어 (pt-BR)
+
+Acesso vitalício libera os desenhos.
+Quem já usava o app continua com tudo.
+A compra exige a ajuda de um adulto.
+Mande sua opinião pela engrenagem.
+Palang Book agora fala português.
+
+### 앱스토어 (it, 이탈리아어)
+
+Accesso a vita sblocca tutti i disegni.
+Chi lo usava già mantiene tutto.
+Gli acquisti richiedono un adulto.
+Lasciaci un parere dall'ingranaggio.
+Palang Book ora parla italiano.
 
 ## 1.0.1 (2026-07-20)
 

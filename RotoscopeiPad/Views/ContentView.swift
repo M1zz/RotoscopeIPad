@@ -67,6 +67,10 @@ struct ContentView: View {
             // Come back right where you left off.
             guard !restoredLastProject else { return }
             restoredLastProject = true
+            #if DEBUG
+            // Store screenshots of the home grid (scripts/capture_screenshots.sh).
+            if ProcessInfo.processInfo.arguments.contains("-ScreenshotHome") { return }
+            #endif
             if let last = RotoProject.listProjects().first {
                 project.openProject(at: last)
             }

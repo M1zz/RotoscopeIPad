@@ -16,12 +16,10 @@
 import shutil, subprocess, sys, pathlib, tempfile
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-RAW = ROOT / "docs" / "screenshots" / "raw" / "creative"
+RAW = ROOT / "docs" / "screenshots" / "raw"   # 스크린샷 원본을 같이 쓴다 (capture_screenshots.sh)
 OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
-# 앱 언어 코드 → App Store Connect 로케일. 팔랑북은 지금 한국어 페이지 하나뿐이다.
-STORE = {"ko": "ko"}
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {
@@ -35,11 +33,29 @@ SPEC = {
 # 눈썹글은 검색어(키워드: 그림판, 아이장난감)다.
 SEARCH = {
     "ko": ("아이 그림판", "따라 그리면<br>애니메이션 완성", "선을 따라 한 장씩 그리면 그림이 움직여요"),
+    "en-US": ("Kids drawing app", "Trace it,<br>watch it move", "Trace page by page and the drawing moves"),
+    "ja": ("お絵かき", "なぞって描けば<br>アニメの完成", "1枚ずつなぞると絵が動きだす"),
+    "zh-Hans": ("儿童画画", "照着描<br>动画就完成", "一页一页描，画就动起来"),
+    "zh-Hant": ("兒童畫畫", "跟著描<br>動畫就完成", "一頁一頁描，圖畫就動起來"),
+    "es-MX": ("Dibujar para niños", "Calca y mira<br>cómo se mueve", "Página por página, el dibujo cobra vida"),
+    "de-DE": ("Malen für Kinder", "Nachzeichnen<br>und bewegen", "Seite für Seite, und das Bild bewegt sich"),
+    "fr-FR": ("Dessin pour enfants", "On décalque,<br>et ça bouge", "Page après page, le dessin s'anime"),
+    "pt-BR": ("Desenhar para crianças", "Contorne e<br>veja se mexer", "Página por página, o desenho ganha vida"),
+    "it": ("Disegno per bambini", "Ricalca e<br>guardalo muoversi", "Pagina dopo pagina, il disegno si anima"),
 }
 
 # 헤더 — 한 가지 약속: 아이가 그린 그림이 움직인다(부제: 내 아이가 그려주는 애니메이션).
 HEADER = {
     "ko": ("아이 그림 애니메이션", "우리 아이 그림이<br>팔랑팔랑 움직여요"),
+    "en-US": ("Kids' drawings, animated", "Your child's drawings<br>come to life"),
+    "ja": ("子どものお絵かきアニメ", "子どもの絵が<br>パラパラ動きだす"),
+    "zh-Hans": ("儿童画画动画", "孩子的画<br>动起来啦"),
+    "zh-Hant": ("小朋友畫畫動畫", "孩子的畫<br>動起來囉"),
+    "es-MX": ("Dibujos animados para niños", "Los dibujos de tu hijo<br>cobran vida"),
+    "de-DE": ("Malen für Kinder", "Kinderbilder<br>werden lebendig"),
+    "fr-FR": ("Dessin animé pour enfants", "Les dessins de votre<br>enfant prennent vie"),
+    "pt-BR": ("Desenho animado infantil", "Os desenhos do seu filho<br>ganham vida"),
+    "it": ("Disegni animati per bambini", "I disegni dei bambini<br>prendono vita"),
 }
 
 # 바탕 · 글자색은 앱 화면과 같다: 하얀 종이, 따라 그리기 카드의 주황 점선, 도장 팔레트 색.
@@ -115,7 +131,7 @@ def search_html(lang):
     col = int(sw * 0.54)
     pad_w = 1500
     pad_left = l + col + int(sw * 0.05)
-    img = (RAW / lang / "02-draw.png").as_uri()
+    img = (RAW / lang / "01-trace-bunny.png").as_uri()
     stamps = "".join([
         stamp("heart", 180, 210, 300, "#FF4F79", -12),
         stamp("star", 560, 2000, 260, "#FFC21A", 10),
@@ -137,8 +153,8 @@ def header_html(lang):
     W, H, (l, t, r, b) = SPEC["header"]
     eyebrow, headline = HEADER[lang]
     sw, sh = r - l, b - t
-    left_img = (RAW / lang / "01-home.png").as_uri()
-    right_img = (RAW / lang / "02-draw.png").as_uri()
+    left_img = (RAW / lang / "04-home.png").as_uri()
+    right_img = (RAW / lang / "01-trace-bunny.png").as_uri()
     stamps = "".join([
         stamp("heart", 40, 90, 230, "#FF4F79", -14),
         stamp("star", 980, 1300, 200, "#FFC21A", 12),
@@ -176,7 +192,7 @@ def render(lang, kind):
         raise SystemExit(f"글 맞추기가 끝나지 않았다: {lang} {kind}")
     if 'data-overflow="1"' in dom:
         raise SystemExit(f"글이 안전 영역을 넘는다: {lang} {kind} - 문구를 줄일 것")
-    out_dir = OUT / STORE.get(lang, lang)
+    out_dir = OUT / lang
     out_dir.mkdir(parents=True, exist_ok=True)
     out_png = out_dir / f"{kind}.png"
     # ⚠️ Chrome 은 가끔 아무것도 안 그리고 끝나거나 멈춘다. 세 번까지 한다.
