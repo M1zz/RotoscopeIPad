@@ -71,6 +71,10 @@ struct ContentView: View {
             // Store screenshots of the home grid (scripts/capture_screenshots.sh).
             if ProcessInfo.processInfo.arguments.contains("-ScreenshotHome") { return }
             #endif
+            if Screenshot.paywallPrice != nil {
+                lock = .general
+                return
+            }
             if let last = RotoProject.listProjects().first {
                 project.openProject(at: last)
             }
