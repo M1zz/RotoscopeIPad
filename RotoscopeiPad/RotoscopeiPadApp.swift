@@ -21,7 +21,6 @@ struct RotoscopeiPadApp: App {
             ContentView()
                 .environmentObject(project)
                 .environmentObject(store)
-                .leeoSatisfactionCheck(RotoscopeiPadSpec.self)
         }
     }
 }

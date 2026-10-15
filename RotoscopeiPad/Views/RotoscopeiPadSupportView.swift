@@ -4,8 +4,31 @@ import LeeoKit
 struct RotoscopeiPadSupportView: View {
     @EnvironmentObject private var store: LeeoStore
     @State private var showUnlock = false
+    /// Kids can reach the gear, so feedback, reviews and web links wait
+    /// behind the same grown-up check as the purchase screen.
+    @State private var parentVerified = false
+    @Environment(\.dismiss) private var dismiss
 
     var body: some View {
+        if parentVerified {
+            settings
+        } else {
+            ParentGateView(icon: "gearshape.fill") {
+                withAnimation { parentVerified = true }
+            }
+            .overlay(alignment: .topTrailing) {
+                Button { dismiss() } label: {
+                    Image(systemName: "xmark.circle.fill")
+                        .font(.system(size: 34))
+                        .symbolRenderingMode(.hierarchical)
+                        .foregroundStyle(.secondary)
+                        .padding(20)
+                }
+            }
+        }
+    }
+
+    private var settings: some View {
         NavigationStack {
             List {
                 Section {
@@ -24,6 +47,9 @@ struct RotoscopeiPadSupportView: View {
             .sheet(isPresented: $showUnlock) {
                 UnlockSheet(reason: .general)
             }
+            // "Enjoying Palang Book?" asks for a store review, so it's only
+            // ever put to the grown-up who just passed the check.
+            .leeoSatisfactionCheck(RotoscopeiPadSpec.self)
             #if os(iOS)
             .navigationBarTitleDisplayMode(.inline)
             #endif
