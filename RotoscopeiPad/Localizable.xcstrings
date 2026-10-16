@@ -939,6 +939,65 @@
         }
       }
     },
+    "다음": {
+      "comment": "VoiceOver: next step of the first-run guide",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weiter"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siguiente"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suivant"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avanti"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "次へ"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Próximo"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "下一步"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "下一步"
+          }
+        }
+      }
+    },
     "다음 그림 그리기": {
       "comment": "VoiceOver: go to the next page to draw it",
       "localizations": {
@@ -1348,6 +1407,65 @@
           "stringUnit": {
             "state": "translated",
             "value": "拍攝影片"
+          }
+        }
+      }
+    },
+    "동영상, 빈 종이, 따라 그리기 중에서 골라 시작해요": {
+      "comment": "First-run guide, step 1 (read by the grown-up)",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Starte mit einem Video, einem leeren Blatt oder einem Nachzeichen-Set."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start with a video, a blank page, or a tracing set."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Empieza con un video, una hoja en blanco o un set para calcar."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commence avec une vidéo, une page blanche ou une série à décalquer."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inizia da un video, da un foglio bianco o da un set da ricalcare."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "動画、白紙、なぞり描きの中から選んで始めよう。"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comece com um vídeo, uma folha em branco ou um conjunto para decalcar."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "从视频、空白纸或描画中选一个开始吧。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "從影片、空白紙或描畫中選一個開始吧。"
           }
         }
       }
@@ -4003,6 +4121,65 @@
         }
       }
     },
+    "시작하기": {
+      "comment": "VoiceOver: finish the first-run guide",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los geht's"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Get Started"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Empezar"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commencer"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inizia"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "はじめる"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Começar"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "开始"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "開始"
+          }
+        }
+      }
+    },
     "아이 그림이 팔랑팔랑 움직여요": {
       "localizations": {
         "de": {
@@ -5174,6 +5351,65 @@
         }
       }
     },
+    "재생하면 그림이 팔랑팔랑 움직여요. 목소리를 넣고 사진 앱에 저장해요": {
+      "comment": "First-run guide, step 3: play, record a voice, save to Photos",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Drück auf Abspielen und deine Bilder bewegen sich. Sprich etwas dazu und sichere es in Fotos."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Press play and your drawings come to life. Add your voice and save it to Photos."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dale a reproducir y tus dibujos cobran vida. Añade tu voz y guárdalo en Fotos."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appuie sur lecture et tes dessins prennent vie. Ajoute ta voix et enregistre le tout dans Photos."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Premi play e i tuoi disegni prendono vita. Aggiungi la tua voce e salva in Foto."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "再生すると絵がパラパラ動きだす。声を入れて写真に保存しよう。"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aperte o play e seus desenhos ganham vida. Grave sua voz e salve no Fotos."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "点播放，画就动起来啦。还能配上声音，存到“照片”里。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "點播放，畫就動起來囉。還能配上聲音，存到「照片」裡。"
+          }
+        }
+      }
+    },
     "저장한 영상 끝에 팔랑북 카드 없음": {
       "localizations": {
         "de": {
@@ -6236,6 +6472,65 @@
           "stringUnit": {
             "state": "translated",
             "value": "一次性付款，並非訂閱。費用將向你的 App Store 帳號收取。"
+          }
+        }
+      }
+    },
+    "한 장을 그리고 주황 버튼을 누르면 다음 장을 그려요": {
+      "comment": "First-run guide, step 2: the orange button goes to the next page",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Male eine Seite und tippe dann auf den orangen Knopf für die nächste."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Draw one page, then tap the orange button to draw the next."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dibuja una página y toca el botón naranja para dibujar la siguiente."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dessine une page, puis touche le bouton orange pour passer à la suivante."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Disegna una pagina, poi tocca il pulsante arancione per passare alla prossima."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1枚かいたら、オレンジのボタンで次のページへ。"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desenhe uma página e toque no botão laranja para desenhar a próxima."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "画完一页，点橙色按钮就能画下一页。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "畫完一頁，點橘色按鈕就能畫下一頁。"
           }
         }
       }

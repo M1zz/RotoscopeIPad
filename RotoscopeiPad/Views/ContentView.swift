@@ -13,6 +13,8 @@ struct ContentView: View {
     @State private var pageFlashTask: Task<Void, Never>?
     @State private var showTransport = true
     @State private var showSupport = false
+    @State private var showOnboarding = false
+    @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding = false
 
     var body: some View {
         VStack(spacing: 0) {
@@ -45,6 +47,13 @@ struct ContentView: View {
         .sheet(isPresented: $showSupport) {
             RotoscopeiPadSupportView()
         }
+        .fullScreenCover(isPresented: $showOnboarding,
+                         onDismiss: { hasSeenOnboarding = true }) {
+            FirstRunOnboardingView(hasSeenOnboarding: $hasSeenOnboarding)
+        }
+        .onChange(of: hasSeenOnboarding) { _, seen in
+            if seen { showOnboarding = false }
+        }
         .sheet(isPresented: $project.showPhotoPicker) {
             PhotosVideoPicker(isPresented: $project.showPhotoPicker,
                               onPick: { url in project.load(url: url) })
@@ -76,7 +85,15 @@ struct ContentView: View {
                 lock = .general
                 return
             }
-            if let last = RotoProject.listProjects().first {
+            let saved = RotoProject.listProjects()
+            // First run: a short picture guide. Anyone who already has works
+            // knows the app, so they never see it.
+            if saved.isEmpty, !hasSeenOnboarding {
+                showOnboarding = true
+            } else if !hasSeenOnboarding {
+                hasSeenOnboarding = true
+            }
+            if let last = saved.first {
                 project.openProject(at: last)
             }
         }
