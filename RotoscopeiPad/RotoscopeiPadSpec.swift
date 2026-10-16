@@ -46,3 +46,14 @@ enum RotoscopeiPadSpec: LeeoAppSpec {
                 ],
                 proOnly: [FreeTier.premiumPresetKey])))
 }
+
+/// Features that can be switched off from the CloudKit dashboard without an
+/// App Review round trip (record `RemoteFlags` / `flags_com.leeo.RotoscopeiPad`,
+/// Int64 field per case, 1 = on, 0 = off). No field or no network = on.
+/// ⚠️ The raw value is the CloudKit field name — never rename a case.
+enum PalangFlag: String, LeeoRemoteFlag, CaseIterable {
+    /// The "open a video link" card: downloads an arbitrary web video into
+    /// the kids' app. If a host starts serving something unsuitable, or a
+    /// store policy question comes up, the card can be hidden for everyone.
+    case videoLinkImport
+}

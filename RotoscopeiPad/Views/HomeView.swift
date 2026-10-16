@@ -35,7 +35,8 @@ struct HomeView: View {
         var list: [Item] = []
         if CameraVideoPicker.isAvailable { list.append(.camera) }
         list.append(.video)
-        list.append(.link)
+        // Remote kill switch: the link card can be hidden without an update.
+        if LeeoRemoteFlags.isEnabled(PalangFlag.videoLinkImport) { list.append(.link) }
         list.append(.blank)
         list += PresetLibrary.all.map { .preset($0) }
         list += projects.map { .project($0) }
