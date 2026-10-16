@@ -35,7 +35,19 @@
 		E5A1000000000000000000B2 /* PalangTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A1000000000000000000B1 /* PalangTips.swift */; };
 		E5A1000000000000000000C2 /* PalangShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A1000000000000000000C1 /* PalangShortcuts.swift */; };
 		E5A1000000000000000000D2 /* AppShortcuts.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E5A1000000000000000000D1 /* AppShortcuts.xcstrings */; };
+		E5A100000000000000000E02 /* DrawingModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A100000000000000000E01 /* DrawingModelTests.swift */; };
+		E5A100000000000000000E04 /* PaletteAndFreeTierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A100000000000000000E03 /* PaletteAndFreeTierTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5A100000000000000000E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1000060 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1000040;
+			remoteInfo = RotoscopeiPad;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C2000001 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
@@ -66,6 +78,9 @@
 		E5A1000000000000000000B1 /* PalangTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalangTips.swift; sourceTree = "<group>"; };
 		E5A1000000000000000000C1 /* PalangShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalangShortcuts.swift; sourceTree = "<group>"; };
 		E5A1000000000000000000D1 /* AppShortcuts.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = AppShortcuts.xcstrings; sourceTree = "<group>"; };
+		E5A100000000000000000E01 /* DrawingModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingModelTests.swift; sourceTree = "<group>"; };
+		E5A100000000000000000E03 /* PaletteAndFreeTierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteAndFreeTierTests.swift; sourceTree = "<group>"; };
+		E5A100000000000000000E05 /* RotoscopeiPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotoscopeiPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +93,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E5A100000000000000000E21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -85,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				B1000031 /* RotoscopeiPad */,
+				E5A100000000000000000E10 /* RotoscopeiPadTests */,
 				B1000032 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				B100000C /* RotoscopeiPad.app */,
+				E5A100000000000000000E05 /* RotoscopeiPadTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,6 +187,15 @@
 			path = Export;
 			sourceTree = "<group>";
 		};
+		E5A100000000000000000E10 /* RotoscopeiPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5A100000000000000000E01 /* DrawingModelTests.swift */,
+				E5A100000000000000000E03 /* PaletteAndFreeTierTests.swift */,
+			);
+			path = RotoscopeiPadTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -187,6 +220,23 @@
 			productReference = B100000C /* RotoscopeiPad.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E5A100000000000000000E40 /* RotoscopeiPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5A100000000000000000E51 /* Build configuration list for PBXNativeTarget "RotoscopeiPadTests" */;
+			buildPhases = (
+				E5A100000000000000000E20 /* Sources */,
+				E5A100000000000000000E21 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5A100000000000000000E31 /* PBXTargetDependency */,
+			);
+			name = RotoscopeiPadTests;
+			productName = RotoscopeiPadTests;
+			productReference = E5A100000000000000000E05 /* RotoscopeiPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,6 +249,10 @@
 				TargetAttributes = {
 					B1000040 = {
 						CreatedOnToolsVersion = 15.3;
+					};
+					E5A100000000000000000E40 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = B1000040;
 					};
 				};
 			};
@@ -229,6 +283,7 @@
 			projectRoot = "";
 			targets = (
 				B1000040 /* RotoscopeiPad */,
+				E5A100000000000000000E40 /* RotoscopeiPadTests */,
 			);
 		};
 /* End PBXProject section */
@@ -277,7 +332,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E5A100000000000000000E20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A100000000000000000E02 /* DrawingModelTests.swift in Sources */,
+				E5A100000000000000000E04 /* PaletteAndFreeTierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5A100000000000000000E31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1000040 /* RotoscopeiPad */;
+			targetProxy = E5A100000000000000000E30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		B1000070 /* Debug */ = {
@@ -361,6 +433,38 @@
 			};
 			name = Release;
 		};
+		E5A100000000000000000E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.RotoscopeiPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RotoscopeiPad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RotoscopeiPad";
+			};
+			name = Debug;
+		};
+		E5A100000000000000000E53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.RotoscopeiPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RotoscopeiPad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RotoscopeiPad";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -378,6 +482,15 @@
 			buildConfigurations = (
 				B1000070 /* Debug */,
 				B1000071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5A100000000000000000E51 /* Build configuration list for PBXNativeTarget "RotoscopeiPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5A100000000000000000E52 /* Debug */,
+				E5A100000000000000000E53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
