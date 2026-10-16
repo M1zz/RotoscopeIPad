@@ -28,6 +28,15 @@ struct RotoscopeiPadSupportView: View {
         }
     }
 
+    /// Opens the parent's own mail app, addressed to the developer, with the
+    /// app name and version in the subject so the reply can find the build.
+    private static var mailURL: URL? {
+        let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? ""
+        let subject = "\(RotoscopeiPadSpec.displayName) \(version)"
+        let encoded = subject.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
+        return URL(string: "mailto:\(RotoscopeiPadSpec.developerEmail)?subject=\(encoded)")
+    }
+
     private var settings: some View {
         NavigationStack {
             List {
@@ -41,7 +50,18 @@ struct RotoscopeiPadSupportView: View {
                         }
                     }
                 } header: { Text("이용권") }
-                Section { LeeoSupportSection<RotoscopeiPadSpec>() } header: { Text("지원") }
+                Section {
+                    LeeoSupportSection<RotoscopeiPadSpec>()
+                    if let mail = Self.mailURL {
+                        Link(destination: mail) {
+                            Label("메일로 문의하기", systemImage: "envelope")
+                        }
+                    }
+                    // Only the handle is a proper noun; the label is translated.
+                    Link(destination: URL(string: "https://instagram.com/lee25_ios")!) {
+                        Label("인스타그램 DM (@lee25_ios)", systemImage: "paperplane")
+                    }
+                } header: { Text("지원") }
             }
             .navigationTitle("설정")
             .sheet(isPresented: $showUnlock) {
