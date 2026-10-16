@@ -6,6 +6,9 @@ enum RotoscopeiPadSpec: LeeoAppSpec {
     static let developerEmail = "mizzking75@gmail.com"
     static let feedback = LeeoFeedbackConfig(containerIdentifier: "iCloud.com.Ysoup.FeedbackHub", appIdentifier: "com.leeo.RotoscopeiPad")
 
+    // 익명 사용 통계 → FeedbackHub. 없으면 bootstrap 이 스냅샷·app_open 을 건너뛴다.
+    static let analytics: any LeeoAnalytics = LeeoUsageAnalytics(spec: RotoscopeiPadSpec.self)
+
     /// 개인정보 처리방침·지원 페이지 (README 에 공개된 링크, docs/ 를 GitHub Pages 로 서빙).
     /// 앱이 보이는 언어의 페이지로 연다 — 한국어는 최상단, 나머지는 docs/<언어>/.
     /// 이용약관은 Apple 표준 EULA (App Store Connect 에 따로 약관을 올리지 않았으므로).
