@@ -1,5 +1,6 @@
 import SwiftUI
 import LeeoKit
+import TipKit
 
 /// Icon-only UI for pre-readers: no text anywhere.
 /// One row of tools on top, the canvas, and play controls at the bottom.
@@ -15,6 +16,8 @@ struct ContentView: View {
     @State private var showSupport = false
     @State private var showOnboarding = false
     @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding = false
+    private let nextPageTip = NextPageTip()
+    private let dubTip = DubTip()
 
     var body: some View {
         VStack(spacing: 0) {
@@ -247,6 +250,7 @@ struct ContentView: View {
 
                 // Dub: animation plays once while the mic records the kid.
                 Button {
+                    dubTip.invalidate(reason: .actionPerformed)
                     if project.isRecording {
                         project.stopPlayback()
                     } else {
@@ -260,6 +264,7 @@ struct ContentView: View {
                 .buttonStyle(.borderedProminent)
                 .tint(project.isRecording ? .red : (project.hasAudio ? .purple : .gray))
                 .accessibilityLabel(project.isRecording ? Text("녹음 멈추기") : Text("목소리 녹음"))
+                .popoverTip(dubTip, arrowEdge: .top)
 
                 Button { project.togglePlayback() } label: {
                     Image(systemName: project.isPlaying ? "pause.fill" : "play.fill")
@@ -450,6 +455,7 @@ struct ContentView: View {
             .tint(.orange)
             .disabled(!project.isBlank && project.currentFrame >= project.frameCount - 1)
             .accessibilityLabel(Text("다음 그림 그리기"))
+            .popoverTip(nextPageTip, arrowEdge: .bottom)
 
             Slider(value: Binding(
                 get: { Double(project.currentFrame) },
@@ -475,6 +481,7 @@ struct ContentView: View {
 
     /// Turning past the last blank page adds one — within the free page count.
     private func nextPage() {
+        nextPageTip.invalidate(reason: .actionPerformed)
         let addsPage = project.isBlank && project.currentFrame == project.frameCount - 1
         if addsPage, !store.gate.evaluate(FreeTier.blankPageKey,
                                           current: project.blankPageCount).isAllowed {
@@ -482,6 +489,7 @@ struct ContentView: View {
             return
         }
         project.step(by: 1)
+        Task { await DubTip.turnedPage.donate() }
     }
 
     // MARK: - Export overlay (progress + big checkmark, no words)

@@ -1057,6 +1057,65 @@
         }
       }
     },
+    "다음 장 그리기": {
+      "comment": "Tip title over the orange next-page button",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nächste Seite malen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Draw the Next Page"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dibuja la siguiente página"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dessine la page suivante"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Disegna la pagina successiva"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "次のページをかこう"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desenhe a próxima página"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "画下一页"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "畫下一頁"
+          }
+        }
+      }
+    },
     "닫기": {
       "comment": "VoiceOver: close button",
       "localizations": {
@@ -2312,6 +2371,65 @@
         }
       }
     },
+    "마이크를 누르면 그림이 한 번 재생되는 동안 목소리를 녹음해요.": {
+      "comment": "Tip message over the microphone button",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tippe auf das Mikrofon: Während die Animation einmal läuft, wird deine Stimme aufgenommen."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tap the microphone to record your voice while the animation plays once."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toca el micrófono para grabar tu voz mientras la animación se reproduce una vez."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Touche le micro pour enregistrer ta voix pendant que l'animation se joue une fois."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tocca il microfono per registrare la tua voce mentre l'animazione va una volta."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "マイクをおすと、アニメが1回流れるあいだ声を録音できるよ。"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toque no microfone para gravar sua voz enquanto a animação toca uma vez."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "点麦克风，动画播放一遍的时候就能录下你的声音。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "點麥克風，動畫播放一遍的時候就能錄下你的聲音。"
+          }
+        }
+      }
+    },
     "메일로 문의하기": {
       "comment": "Settings row: opens Mail addressed to the developer",
       "localizations": {
@@ -2425,6 +2543,65 @@
           "stringUnit": {
             "state": "translated",
             "value": "所有功能已解鎖"
+          }
+        }
+      }
+    },
+    "목소리 넣기": {
+      "comment": "Tip title over the microphone button",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sprich etwas dazu"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Your Voice"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añade tu voz"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajoute ta voix"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aggiungi la tua voce"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "声を入れよう"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grave sua voz"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "配上声音"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "配上聲音"
           }
         }
       }
@@ -6531,6 +6708,65 @@
           "stringUnit": {
             "state": "translated",
             "value": "畫完一頁，點橘色按鈕就能畫下一頁。"
+          }
+        }
+      }
+    },
+    "한 장을 다 그렸으면 주황 버튼을 눌러 다음 그림을 그려요.": {
+      "comment": "Tip message over the orange next-page button",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seite fertig? Tippe auf den orangen Knopf und male das nächste Bild."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finished this page? Tap the orange button to draw the next picture."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Terminaste esta página? Toca el botón naranja para dibujar la siguiente."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Page terminée ? Touche le bouton orange pour dessiner l'image suivante."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pagina finita? Tocca il pulsante arancione per disegnare la prossima."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "この1枚がかけたら、オレンジのボタンで次の絵へ。"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminou esta página? Toque no botão laranja para desenhar a próxima."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这一页画好了？点橙色按钮接着画下一张。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "這一頁畫好了？點橘色按鈕接著畫下一張。"
           }
         }
       }

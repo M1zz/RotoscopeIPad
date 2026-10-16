@@ -85,6 +85,7 @@ struct DrawingInputBridge: UIViewRepresentable {
             // Stamp tool: one tap, one stamp — no live stroke.
             if project.tool == .stamp {
                 project.stamp(at: p)
+                Task { await NextPageTip.drewOnPage.donate() }
                 return
             }
             let additive = project.tool != .erase
@@ -98,6 +99,7 @@ struct DrawingInputBridge: UIViewRepresentable {
         v.onEnded = {
             if let s = project.liveStroke, s.points.count > 1 {
                 project.commitStroke(s)
+                Task { await NextPageTip.drewOnPage.donate() }
             } else {
                 project.liveStroke = nil
             }

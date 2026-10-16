@@ -1,5 +1,6 @@
 import SwiftUI
 import LeeoKit
+import TipKit
 
 @main
 struct RotoscopeiPadApp: App {
@@ -12,6 +13,8 @@ struct RotoscopeiPadApp: App {
         // Before anything is created: works already on disk mean this iPad
         // used 팔랑북 while it was free, and keeps everything.
         FreeTier.markLegacyUserIfNeeded()
+        // Editor hints (PalangTips.swift); each one shows at most once.
+        try? Tips.configure([.displayFrequency(.immediate)])
         _store = StateObject(wrappedValue: LeeoStore(
             config: RotoscopeiPadSpec.paywall!,
             grandfather: { await FreeTier.isLegacyUser() }))
