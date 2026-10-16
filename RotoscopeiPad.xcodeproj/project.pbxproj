@@ -33,6 +33,8 @@
 		D115A3F0D2A184F36A0DC3AC /* RotoscopeiPadSupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925FF54F8FD6B11267BD271D /* RotoscopeiPadSupportView.swift */; };
 		E5A1000000000000000000A2 /* FirstRunOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A1000000000000000000A1 /* FirstRunOnboarding.swift */; };
 		E5A1000000000000000000B2 /* PalangTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A1000000000000000000B1 /* PalangTips.swift */; };
+		E5A1000000000000000000C2 /* PalangShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A1000000000000000000C1 /* PalangShortcuts.swift */; };
+		E5A1000000000000000000D2 /* AppShortcuts.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E5A1000000000000000000D1 /* AppShortcuts.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +64,8 @@
 		B1000090 /* Stamps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stamps.swift; sourceTree = "<group>"; };
 		E5A1000000000000000000A1 /* FirstRunOnboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRunOnboarding.swift; sourceTree = "<group>"; };
 		E5A1000000000000000000B1 /* PalangTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalangTips.swift; sourceTree = "<group>"; };
+		E5A1000000000000000000C1 /* PalangShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalangShortcuts.swift; sourceTree = "<group>"; };
+		E5A1000000000000000000D1 /* AppShortcuts.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = AppShortcuts.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 				C2000002 /* InfoPlist.xcstrings */,
 				B100000A /* Info.plist */,
 				69D32DC4106D7910C7BA5794 /* RotoscopeiPadSpec.swift */,
+				E5A1000000000000000000C1 /* PalangShortcuts.swift */,
+				E5A1000000000000000000D1 /* AppShortcuts.xcstrings */,
 			);
 			path = RotoscopeiPad;
 			sourceTree = "<group>";
@@ -236,6 +242,7 @@
 				B1000028 /* Presets in Resources */,
 				C2000011 /* Localizable.xcstrings in Resources */,
 				C2000012 /* InfoPlist.xcstrings in Resources */,
+				E5A1000000000000000000D2 /* AppShortcuts.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +273,7 @@
 				D115A3F0D2A184F36A0DC3AC /* RotoscopeiPadSupportView.swift in Sources */,
 				E5A1000000000000000000A2 /* FirstRunOnboarding.swift in Sources */,
 				E5A1000000000000000000B2 /* PalangTips.swift in Sources */,
+				E5A1000000000000000000C2 /* PalangShortcuts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

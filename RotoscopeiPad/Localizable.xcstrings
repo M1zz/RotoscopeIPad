@@ -3654,6 +3654,65 @@
         }
       }
     },
+    "빈 종이 플립북": {
+      "comment": "Shortcuts app: short title of the New Blank Flipbook action",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leeres Daumenkino"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Blank Flipbook"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Libro animado en blanco"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folioscope vierge"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Flipbook vuoto"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "白紙のパラパラ漫画"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Flipbook em branco"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "空白翻页书"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "空白翻頁書"
+          }
+        }
+      }
+    },
     "빈 종이 플립북 만들기": {
       "comment": "VoiceOver: home card, new blank flipbook",
       "localizations": {
@@ -6416,6 +6475,65 @@
           "stringUnit": {
             "state": "translated",
             "value": "Palang Book 終身解鎖"
+          }
+        }
+      }
+    },
+    "팔랑북을 열고 새 빈 종이 플립북을 바로 시작해요.": {
+      "comment": "Shortcuts app: description of the New Blank Flipbook action",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öffnet Palang Book direkt mit einem neuen leeren Daumenkino."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opens Palang Book on a fresh blank flipbook, ready to draw."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre Palang Book con un nuevo libro animado en blanco, listo para dibujar."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvre Palang Book sur un nouveau folioscope vierge, prêt à dessiner."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apre Palang Book su un nuovo flipbook vuoto, pronto per disegnare."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Bookを開いて、新しい白紙のパラパラ漫画をすぐに始めます。"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre o Palang Book com um novo flipbook em branco, pronto para desenhar."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "打开 Palang Book，立即开始一本新的空白翻页书。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "打開 Palang Book，立即開始一本新的空白翻頁書。"
           }
         }
       }

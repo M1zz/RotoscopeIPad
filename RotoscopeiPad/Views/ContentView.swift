@@ -17,6 +17,7 @@ struct ContentView: View {
     @State private var showOnboarding = false
     @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding = false
     private let nextPageTip = NextPageTip()
+    @ObservedObject private var shortcuts = ShortcutRouter.shared
     private let dubTip = DubTip()
 
     var body: some View {
@@ -56,6 +57,9 @@ struct ContentView: View {
         }
         .onChange(of: hasSeenOnboarding) { _, seen in
             if seen { showOnboarding = false }
+        }
+        .onReceive(shortcuts.$pending.compactMap { $0 }) { request in
+            handleShortcut(request)
         }
         .sheet(isPresented: $project.showPhotoPicker) {
             PhotosVideoPicker(isPresented: $project.showPhotoPicker,
@@ -490,6 +494,29 @@ struct ContentView: View {
         }
         project.step(by: 1)
         Task { await DubTip.turnedPage.donate() }
+    }
+
+    // MARK: - Shortcuts (App Intents)
+
+    /// Does what the Siri / Shortcuts action asked, the same way the home
+    /// grid would — including the free-tier limit on saved works.
+    private func handleShortcut(_ request: ShortcutRouter.Request) {
+        shortcuts.pending = nil
+        // Launched by the shortcut: don't let the launch restore reopen the
+        // last work on top of the new one.
+        restoredLastProject = true
+        guard !project.isExporting, !project.isRecording else { return }
+        switch request {
+        case .newBlankFlipbook:
+            showSupport = false
+            if project.isOpen { project.goHome() }
+            let saved = RotoProject.listProjects().count
+            guard store.gate.evaluate(FreeTier.projectKey, current: saved).isAllowed else {
+                lock = .projects
+                return
+            }
+            project.createBlank()
+        }
     }
 
     // MARK: - Export overlay (progress + big checkmark, no words)
