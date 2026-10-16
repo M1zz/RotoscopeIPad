@@ -37,6 +37,7 @@ struct ContentView: View {
                         .frame(width: 48, height: 48)
                 }
                 .buttonStyle(.bordered)
+                .accessibilityLabel(Text("설정"))
                 .padding(.trailing, 16)
                 .padding(.top, 8)
             }
@@ -105,6 +106,7 @@ struct ContentView: View {
                 }
                 .buttonStyle(.borderedProminent)
                 .tint(.gray)
+                .accessibilityLabel(Text("재생 막대 보이기"))
                 .padding(14)
             }
         }
@@ -145,6 +147,8 @@ struct ContentView: View {
                 )
         }
         .buttonStyle(.plain)
+        .accessibilityLabel(Self.stampSizeLabel(value))
+        .accessibilityAddTraits(selected ? .isSelected : [])
     }
 
     private func stampButton(_ shape: StampShape) -> some View {
@@ -167,6 +171,8 @@ struct ContentView: View {
                 )
         }
         .buttonStyle(.plain)
+        .accessibilityLabel(shape.accessibilityName)
+        .accessibilityAddTraits(selected ? .isSelected : [])
     }
 
     // MARK: - Page flash: big "4 / 32" in the middle when turning pages
@@ -202,13 +208,13 @@ struct ContentView: View {
     private var toolbar: some View {
         VStack(spacing: 8) {
             HStack(spacing: 16) {
-                iconButton("house.fill") { project.goHome() }
+                iconButton("house.fill", label: "홈으로") { project.goHome() }
 
                 Divider().frame(height: 34)
 
-                toolButton("paintbrush.pointed.fill", tool: .brush)
-                toolButton("eraser.fill", tool: .erase)
-                iconButton("arrow.uturn.backward") { project.undoLastStroke() }
+                toolButton("paintbrush.pointed.fill", tool: .brush, label: "붓")
+                toolButton("eraser.fill", tool: .erase, label: "지우개")
+                iconButton("arrow.uturn.backward", label: "되돌리기") { project.undoLastStroke() }
 
                 // Wipe the whole page at once (undo brings it back).
                 Button { project.clearCurrentMask() } label: {
@@ -218,6 +224,7 @@ struct ContentView: View {
                 }
                 .buttonStyle(.bordered)
                 .tint(.red)
+                .accessibilityLabel(Text("이 장 모두 지우기"))
 
                 Divider().frame(height: 34)
 
@@ -235,6 +242,7 @@ struct ContentView: View {
                 }
                 .buttonStyle(.borderedProminent)
                 .tint(project.isRecording ? .red : (project.hasAudio ? .purple : .gray))
+                .accessibilityLabel(project.isRecording ? Text("녹음 멈추기") : Text("목소리 녹음"))
 
                 Button { project.togglePlayback() } label: {
                     Image(systemName: project.isPlaying ? "pause.fill" : "play.fill")
@@ -243,6 +251,7 @@ struct ContentView: View {
                 }
                 .buttonStyle(.borderedProminent)
                 .keyboardShortcut(.space, modifiers: [])
+                .accessibilityLabel(project.isPlaying ? Text("일시정지") : Text("재생"))
 
                 // Hide the video background: play/export only the drawing.
                 if project.hasVideo {
@@ -254,6 +263,8 @@ struct ContentView: View {
                     }
                     .buttonStyle(.borderedProminent)
                     .tint(project.hideBackground ? .pink : .gray)
+                    .accessibilityLabel(project.hideBackground
+                                        ? Text("동영상 배경 보이기") : Text("동영상 배경 숨기기"))
                 }
 
                 Divider().frame(height: 34)
@@ -266,6 +277,7 @@ struct ContentView: View {
                 .buttonStyle(.borderedProminent)
                 .tint(.green)
                 .disabled(project.isExporting)
+                .accessibilityLabel(Text("사진 앱에 저장"))
             }
 
             HStack(spacing: 16) {
@@ -285,16 +297,19 @@ struct ContentView: View {
         .padding(.vertical, 10)
     }
 
-    private func iconButton(_ symbol: String, action: @escaping () -> Void) -> some View {
+    private func iconButton(_ symbol: String, label: LocalizedStringKey,
+                            action: @escaping () -> Void) -> some View {
         Button(action: action) {
             Image(systemName: symbol)
                 .font(.system(size: 26))
                 .frame(width: 56, height: 48)
         }
         .buttonStyle(.bordered)
+        .accessibilityLabel(Text(label))
     }
 
-    private func toolButton(_ symbol: String, tool: ToolMode) -> some View {
+    private func toolButton(_ symbol: String, tool: ToolMode,
+                            label: LocalizedStringKey) -> some View {
         Button { project.tool = tool } label: {
             Image(systemName: symbol)
                 .font(.system(size: 26))
@@ -306,6 +321,8 @@ struct ContentView: View {
             RoundedRectangle(cornerRadius: 10)
                 .fill(project.tool == tool ? Color.accentColor.opacity(0.2) : .clear)
         )
+        .accessibilityLabel(Text(label))
+        .accessibilityAddTraits(project.tool == tool ? .isSelected : [])
     }
 
     private func colorDot(_ hex: String) -> some View {
@@ -325,6 +342,10 @@ struct ContentView: View {
                 // just in the new color.
                 if project.tool != .stamp { project.tool = .brush }
             }
+            // A bare circle with a tap gesture: tell VoiceOver it's a button.
+            .accessibilityElement()
+            .accessibilityLabel(Self.colorName(hex))
+            .accessibilityAddTraits(selected ? [.isButton, .isSelected] : .isButton)
     }
 
     private func sizeDot(_ value: Double) -> some View {
@@ -338,6 +359,45 @@ struct ContentView: View {
         .background(
             Circle().fill(selected ? Color.accentColor.opacity(0.25) : .clear)
         )
+        .accessibilityLabel(Self.brushSizeLabel(value))
+        .accessibilityAddTraits(selected ? .isSelected : [])
+    }
+
+    // MARK: - VoiceOver names
+    // The screen has no words for pre-readers, so every icon needs a spoken one.
+
+    private static func colorName(_ hex: String) -> Text {
+        switch hex {
+        case "FF3B30": return Text("빨강")
+        case "FF9500": return Text("주황")
+        case "FFCC00": return Text("노랑")
+        case "34C759": return Text("초록")
+        case "00C7BE": return Text("청록")
+        case "007AFF": return Text("파랑")
+        case "AF52DE": return Text("보라")
+        case "FF2D55": return Text("분홍")
+        case "FFFFFF": return Text("흰색")
+        case "000000": return Text("검정")
+        default:       return Text(verbatim: "#\(hex)")
+        }
+    }
+
+    /// Brush presets are ordered thin → thick.
+    private static func brushSizeLabel(_ value: Double) -> Text {
+        switch RotoProject.widthPresets.firstIndex(where: { abs($0.value - value) < 0.0005 }) {
+        case 0:  return Text("가는 붓")
+        case 1:  return Text("보통 붓")
+        default: return Text("굵은 붓")
+        }
+    }
+
+    /// Stamp sizes are ordered small → big.
+    private static func stampSizeLabel(_ value: Double) -> Text {
+        switch RotoProject.stampSizePresets.firstIndex(where: { abs($0 - value) < 0.001 }) {
+        case 0:  return Text("작은 도장")
+        case 1:  return Text("중간 도장")
+        default: return Text("큰 도장")
+        }
     }
 
     private func nearlyEqual(_ a: Double, _ b: Double) -> Bool { abs(a - b) < 0.0005 }
@@ -357,6 +417,7 @@ struct ContentView: View {
             }
             .buttonStyle(.bordered)
             .disabled(project.currentFrame == 0)
+            .accessibilityLabel(Text("이전 그림"))
 
             // "다음 그림 그리기" — the main action, so it's big and colored:
             // a pencil with an arrow, meaning "now draw the next picture".
@@ -371,11 +432,14 @@ struct ContentView: View {
             .buttonStyle(.borderedProminent)
             .tint(.orange)
             .disabled(!project.isBlank && project.currentFrame >= project.frameCount - 1)
+            .accessibilityLabel(Text("다음 그림 그리기"))
 
             Slider(value: Binding(
                 get: { Double(project.currentFrame) },
                 set: { project.goToFrame(Int($0)) }
             ), in: 0...Double(max(project.frameCount - 1, 1)))
+            .accessibilityLabel(Text("장 넘기기"))
+            .accessibilityValue(Text(verbatim: "\(project.currentFrame + 1) / \(project.frameCount)"))
 
             // Tuck the play bar away for a bigger canvas.
             Button {
@@ -386,6 +450,7 @@ struct ContentView: View {
                     .frame(width: 56, height: 52)
             }
             .buttonStyle(.bordered)
+            .accessibilityLabel(Text("재생 막대 숨기기"))
         }
         .padding(.horizontal, 16)
         .padding(.vertical, 12)
@@ -453,6 +518,22 @@ struct ContentView: View {
                 project.statusMessage = error.localizedDescription
             }
             project.isExporting = false
+        }
+    }
+}
+
+extension StampShape {
+    /// Spoken name for VoiceOver (the stamp buttons are icon-only).
+    var accessibilityName: Text {
+        switch self {
+        case .heart:    return Text("하트 도장")
+        case .circle:   return Text("동그라미 도장")
+        case .square:   return Text("네모 도장")
+        case .triangle: return Text("세모 도장")
+        case .star:     return Text("별 도장")
+        case .flower:   return Text("꽃 도장")
+        case .car:      return Text("자동차 도장")
+        case .bird:     return Text("새 도장")
         }
     }
 }

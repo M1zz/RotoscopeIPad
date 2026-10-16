@@ -24,6 +24,7 @@ struct RotoscopeiPadSupportView: View {
                         .foregroundStyle(.secondary)
                         .padding(20)
                 }
+                .accessibilityLabel(Text("닫기"))
             }
         }
     }

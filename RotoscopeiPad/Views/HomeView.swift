@@ -133,15 +133,16 @@ struct HomeView: View {
     private func cell(_ item: Item) -> some View {
         switch item {
         case .camera:
-            createCell("camera.fill", tint: .blue, locked: !videoAllowed) {
+            createCell("camera.fill", tint: .blue, label: "동영상 찍기", locked: !videoAllowed) {
                 startVideo { project.showCameraPicker = true }
             }
         case .video:
-            createCell("video.fill", tint: .green, locked: !videoAllowed) {
+            createCell("video.fill", tint: .green, label: "사진에서 동영상 가져오기",
+                       locked: !videoAllowed) {
                 startVideo { project.showPhotoPicker = true }
             }
         case .link:
-            createCell("link", tint: .indigo, locked: !videoAllowed) {
+            createCell("link", tint: .indigo, label: "동영상 링크 열기", locked: !videoAllowed) {
                 startVideo { project.showLinkImport = true }
             }
         case .blank:
@@ -158,11 +159,15 @@ struct HomeView: View {
                 presetCard(preset, locked: locked)
             }
             .buttonStyle(.plain)
+            .accessibilityLabel(Text("따라 그리기 \(presetNumber(preset))"))
+            .accessibilityValue(locked ? Text("잠김") : Text(verbatim: ""))
         case .project(let dir):
             Button { project.openProject(at: dir) } label: {
                 thumbnail(for: dir)
             }
             .buttonStyle(.plain)
+            .accessibilityLabel(Text("내 작품"))
+            .accessibilityHint(Text("길게 누르면 지울 수 있어요"))
             .contextMenu {
                 // Long-press → red trash to delete.
                 Button(role: .destructive) {
@@ -206,7 +211,13 @@ struct HomeView: View {
             .padding(8)
     }
 
-    private func createCell(_ symbol: String, tint: Color, locked: Bool = false,
+    /// 1-based position of a guide set on the home grid, for VoiceOver.
+    private func presetNumber(_ preset: GuidePreset) -> Int {
+        (PresetLibrary.all.firstIndex { $0.id == preset.id } ?? 0) + 1
+    }
+
+    private func createCell(_ symbol: String, tint: Color, label: LocalizedStringKey,
+                            locked: Bool = false,
                             action: @escaping () -> Void) -> some View {
         Button(action: action) {
             VStack(spacing: 10) {
@@ -222,6 +233,8 @@ struct HomeView: View {
         .overlay(alignment: .topTrailing) {
             if locked { lockBadge() }
         }
+        .accessibilityLabel(Text(label))
+        .accessibilityValue(locked ? Text("잠김") : Text(verbatim: ""))
     }
 
     /// 빈 화면: a plain white page with a big plus — a new project that starts
@@ -245,6 +258,7 @@ struct HomeView: View {
                               style: StrokeStyle(lineWidth: 2, dash: [7, 5])))
         }
         .buttonStyle(.plain)
+        .accessibilityLabel(Text("빈 종이 플립북 만들기"))
     }
 
     /// A guide set card: the mid-animation pose on a white page, with a

@@ -30,6 +30,7 @@ struct UnlockSheet: View {
                     .foregroundStyle(.secondary)
                     .padding(20)
             }
+            .accessibilityLabel(Text("닫기"))
         }
         .onChange(of: store.hasPro) { _, pro in
             if pro { dismiss() }
@@ -115,7 +116,9 @@ struct ParentGateView: View {
                             Group {
                                 switch key {
                                 case "⌫": Image(systemName: "delete.left")
+                                        .accessibilityLabel(Text("한 칸 지우기"))
                                 case "✓": Image(systemName: "checkmark")
+                                        .accessibilityLabel(Text("확인"))
                                 default: Text(key)
                                 }
                             }
