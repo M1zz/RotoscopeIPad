@@ -59,6 +59,65 @@
         }
       }
     },
+    "VoiceOver로 더 편하게": {
+      "comment": "Roadmap item: better VoiceOver support",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bessere VoiceOver-Unterstützung"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Better VoiceOver support"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mejor compatibilidad con VoiceOver"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meilleure prise en charge de VoiceOver"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoiceOver più comodo"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoiceOverをもっと快適に"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoiceOver mais confortável"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "更好地支持 VoiceOver"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "更完善的 VoiceOver 支援"
+          }
+        }
+      }
+    },
     "https://…": {
       "localizations": {
         "de": {
@@ -465,6 +524,124 @@
           "stringUnit": {
             "state": "translated",
             "value": "粗畫筆"
+          }
+        }
+      }
+    },
+    "글자 크기를 키워도 잘리지 않고 보기 좋게 다시 배치돼요.": {
+      "comment": "Roadmap item detail: Dynamic Type layouts",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auch mit größerer Schrift wird nichts abgeschnitten – alles ordnet sich sauber neu an."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bigger text never gets cut off — the screen rearranges itself neatly."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aunque agrandes el texto, nada se corta y todo se reorganiza bien."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Même en grand, le texte n’est jamais coupé : tout se réorganise proprement."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anche con il testo più grande nulla viene tagliato e tutto si risistema bene."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "文字を大きくしても切れずに、見やすく並び直します。"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mesmo com o texto maior, nada fica cortado e tudo se reorganiza bem."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "调大字号后内容也不会被截断，会重新整齐排列。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "調大字級後內容也不會被截斷，會重新整齊排列。"
+          }
+        }
+      }
+    },
+    "기기 간 동기화": {
+      "comment": "Roadmap item: iCloud sync",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geräteübergreifend synchronisieren"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sync across devices"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sincronización entre dispositivos"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Synchronisation entre appareils"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sincronizzazione tra dispositivi"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "デバイス間の同期"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sincronização entre dispositivos"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "多设备同步"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "跨裝置同步"
           }
         }
       }
@@ -881,6 +1058,65 @@
         }
       }
     },
+    "다른 아이패드에서도 그리던 작품을 이어서 그려요.": {
+      "comment": "Roadmap item detail: iCloud sync",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Male dasselbe Werk auf einem anderen iPad einfach weiter."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep drawing the same artwork on another iPad."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sigue dibujando la misma obra en otro iPad."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continuez la même œuvre sur un autre iPad."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continua lo stesso disegno su un altro iPad."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "別のiPadでも、かきかけの作品の続きをかけます。"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue desenhando a mesma obra em outro iPad."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在另一台 iPad 上也能接着画同一幅作品。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在另一台 iPad 上也能接著畫同一件作品。"
+          }
+        }
+      }
+    },
     "다시 시도": {
       "localizations": {
         "de": {
@@ -1116,6 +1352,65 @@
         }
       }
     },
+    "다크 모드": {
+      "comment": "Roadmap item: dark mode",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dunkelmodus"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dark Mode"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modo oscuro"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mode sombre"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modalità scura"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ダークモード"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modo Escuro"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "深色模式"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "深色模式"
+          }
+        }
+      }
+    },
     "닫기": {
       "comment": "VoiceOver: close button",
       "localizations": {
@@ -1171,6 +1466,65 @@
           "stringUnit": {
             "state": "translated",
             "value": "關閉"
+          }
+        }
+      }
+    },
+    "대비를 높이거나 색을 구별하기 어려워도 내용을 알아볼 수 있어요.": {
+      "comment": "Roadmap item detail: contrast and color",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alles bleibt lesbar – mit erhöhtem Kontrast oder wenn Farben schwer zu unterscheiden sind."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Everything stays readable with Increase Contrast on or if colors are hard to tell apart."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todo se lee bien con más contraste o si te cuesta distinguir colores."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tout reste lisible avec le contraste augmenté ou si vous distinguez mal les couleurs."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tutto resta leggibile con il contrasto aumentato o se fai fatica a distinguere i colori."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "コントラストを上げても、色の区別が難しくても、内容をしっかり読み取れます。"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tudo fica legível com o contraste aumentado ou se for difícil distinguir cores."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无论是否增强对比度、是否难以分辨颜色，内容都清晰可读。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "無論是否增加對比、是否難以分辨顏色，內容都清楚易讀。"
           }
         }
       }
@@ -3302,6 +3656,65 @@
         }
       }
     },
+    "보기 편한 색과 대비": {
+      "comment": "Roadmap item: contrast and color",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Besser lesbare Farben und Kontraste"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Easier-to-see colors and contrast"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Colores y contraste más legibles"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couleurs et contraste plus lisibles"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Colori e contrasto più leggibili"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "見やすい色とコントラスト"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cores e contraste mais legíveis"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "更易辨认的颜色与对比度"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "更易辨識的顏色與對比"
+          }
+        }
+      }
+    },
     "보라": {
       "comment": "VoiceOver: paint color",
       "localizations": {
@@ -4532,6 +4945,124 @@
         }
       }
     },
+    "앱을 열지 않고 홈 화면에서 아이 작품을 바로 봐요.": {
+      "comment": "Roadmap item detail: home screen widgets",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sieh die Werke deines Kindes direkt auf dem Home-Bildschirm, ohne die App zu öffnen."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "See your child’s artwork right on the Home Screen, without opening the app."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mira las obras de tu peque en la pantalla de inicio, sin abrir la app."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Admirez les œuvres de votre enfant sur l’écran d’accueil, sans ouvrir l’app."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guarda i disegni di tuo figlio nella schermata Home, senza aprire l’app."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アプリを開かなくても、ホーム画面で子どもの作品をすぐに見られます。"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Veja as obras do seu filho direto na Tela de Início, sem abrir o app."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无需打开应用，在主屏幕上就能看到孩子的作品。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "不必打開 App，在主畫面上就能看到孩子的作品。"
+          }
+        }
+      }
+    },
+    "어두운 화면에서도 글자와 단추가 또렷하게 보여요.": {
+      "comment": "Roadmap item detail: dark mode",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Texte und Tasten bleiben auch auf dunklem Bildschirm gut erkennbar."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Text and buttons stay crisp and clear on a dark screen."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Textos y botones se ven nítidos también con la pantalla oscura."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Textes et boutons restent bien nets sur un écran sombre."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Testi e pulsanti restano nitidi anche con lo schermo scuro."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "暗い画面でも、文字やボタンがくっきり見えます。"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Textos e botões continuam nítidos com a tela escura."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在深色界面下，文字和按钮依然清晰。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在深色畫面下，文字與按鈕依然清晰。"
+          }
+        }
+      }
+    },
     "어른에게 보여 주세요": {
       "localizations": {
         "de": {
@@ -4586,6 +5117,124 @@
           "stringUnit": {
             "state": "translated",
             "value": "請拿給大人看"
+          }
+        }
+      }
+    },
+    "업데이트 뒤 처음 열 때 무엇이 새로 생겼는지 알려 줘요.": {
+      "comment": "Roadmap item detail: what's new",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beim ersten Öffnen nach einem Update siehst du, was neu ist."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The first time you open the app after an update, you’ll see what’s new."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La primera vez que abras la app tras una actualización, verás las novedades."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "À la première ouverture après une mise à jour, découvrez ce qui a changé."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La prima volta che apri l’app dopo un aggiornamento, scopri cosa c’è di nuovo."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アップデート後に初めて開いたとき、新しくなった点をお知らせします。"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Na primeira vez que abrir o app após uma atualização, você verá as novidades."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "更新后首次打开时，告诉你有哪些新内容。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "更新後第一次打開時，告訴你有哪些新內容。"
+          }
+        }
+      }
+    },
+    "업데이트 소식": {
+      "comment": "Roadmap item: what's new",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neuigkeiten"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What’s New"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Novedades"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nouveautés"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Novità"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アップデート情報"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Novidades"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新功能介绍"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新功能介紹"
           }
         }
       }
@@ -4760,6 +5409,183 @@
           "stringUnit": {
             "state": "translated",
             "value": "無法開啟。請檢查連結後再試一次。"
+          }
+        }
+      }
+    },
+    "움직임 줄이기": {
+      "comment": "Roadmap item: reduce motion",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bewegung reduzieren"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reduce Motion"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reducir movimiento"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réduire les animations"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riduci movimento"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "視差効果を減らす"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reduzir Movimento"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "减弱动态效果"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "減少動態效果"
+          }
+        }
+      }
+    },
+    "움직임 줄이기를 켜면 화면 효과가 차분해져요.": {
+      "comment": "Roadmap item detail: reduce motion",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ist „Bewegung reduzieren“ aktiv, werden Animationen ruhiger."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "With Reduce Motion on, animations become calmer."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con Reducir movimiento activado, las animaciones son más suaves."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avec Réduire les animations activé, les effets se font plus discrets."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con Riduci movimento attivo, le animazioni diventano più tranquille."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "「視差効果を減らす」をオンにすると、画面の動きが控えめになります。"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Com Reduzir Movimento ativado, as animações ficam mais suaves."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "打开“减弱动态效果”后，界面动画会更柔和。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "開啟「減少動態效果」後，畫面動畫會更柔和。"
+          }
+        }
+      }
+    },
+    "원하면 앱 안의 작품을 한 번에 모두 지울 수 있어요.": {
+      "comment": "Roadmap item detail: delete all data",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lösche bei Bedarf alle Werke in der App in einem Schritt."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erase every artwork in the app in one go whenever you want."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Borra todas las obras de la app de una sola vez cuando quieras."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Effacez en une fois toutes les œuvres de l’app quand vous le souhaitez."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancella in un colpo solo tutti i disegni dell’app quando vuoi."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アプリ内の作品を、いつでもまとめて削除できます。"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apague de uma vez todas as obras do app quando quiser."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "随时可以一次清空应用里的全部作品。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "隨時可以一次清空 App 裡的全部作品。"
           }
         }
       }
@@ -5234,6 +6060,124 @@
         }
       }
     },
+    "작품 백업하기": {
+      "comment": "Roadmap item: backup and export",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Werke sichern"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Back up artwork"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copia de seguridad de las obras"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sauvegarder les œuvres"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Backup dei disegni"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "作品のバックアップ"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Backup das obras"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "备份作品"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "備份作品"
+          }
+        }
+      }
+    },
+    "작품 한 번에 지우기": {
+      "comment": "Roadmap item: delete all data",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alle Werke auf einmal löschen"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete all artwork at once"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Borrar todas las obras a la vez"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supprimer toutes les œuvres d’un coup"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elimina tutti i disegni in una volta"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "作品をまとめて削除"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar todas as obras de uma vez"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一次删除所有作品"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一次刪除所有作品"
+          }
+        }
+      }
+    },
     "작품을 개수 제한 없이 보관": {
       "localizations": {
         "de": {
@@ -5288,6 +6232,65 @@
           "stringUnit": {
             "state": "translated",
             "value": "作品保存數量不限"
+          }
+        }
+      }
+    },
+    "작품을 파일로 저장해 두고 언제든 다시 불러와요.": {
+      "comment": "Roadmap item detail: backup and export",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Speichere Werke als Datei und hol sie jederzeit zurück."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save artwork as a file and bring it back anytime."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guarda las obras en un archivo y recupéralas cuando quieras."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enregistrez les œuvres dans un fichier et récupérez-les à tout moment."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salva i disegni in un file e recuperali quando vuoi."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "作品をファイルに保存して、いつでも読み込み直せます。"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salve as obras em um arquivo e recupere quando quiser."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "把作品存成文件，随时都能重新导入。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "把作品存成檔案，隨時都能重新匯入。"
           }
         }
       }
@@ -6245,6 +7248,65 @@
         }
       }
     },
+    "큰 글씨에 맞춘 화면": {
+      "comment": "Roadmap item: Dynamic Type layouts",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Layouts für größere Schrift"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Layouts that fit larger text"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diseño adaptado a texto grande"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mise en page adaptée aux grands textes"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Layout adatto al testo grande"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "大きな文字に合わせた画面"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Layout que se adapta a textos maiores"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "适配大字体的界面"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "適應大字體的介面"
+          }
+        }
+      }
+    },
     "큰 도장": {
       "comment": "VoiceOver: big stamp size",
       "localizations": {
@@ -6948,6 +8010,65 @@
         }
       }
     },
+    "홈 화면 위젯": {
+      "comment": "Roadmap item: home screen widgets",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widgets für den Home-Bildschirm"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Home Screen widgets"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widgets en la pantalla de inicio"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widgets sur l’écran d’accueil"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widget nella schermata Home"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ホーム画面ウィジェット"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widgets na Tela de Início"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "主屏幕小组件"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "主畫面小工具"
+          }
+        }
+      }
+    },
     "홈으로": {
       "comment": "VoiceOver: toolbar house button",
       "localizations": {
@@ -7003,6 +8124,65 @@
           "stringUnit": {
             "state": "translated",
             "value": "回到主頁"
+          }
+        }
+      }
+    },
+    "화면 읽기 기능이 단추와 그리기 도구를 빠짐없이, 알맞은 순서로 읽어 줘요.": {
+      "comment": "Roadmap item detail: better VoiceOver support",
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoiceOver liest alle Tasten und Malwerkzeuge in der richtigen Reihenfolge vor."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoiceOver reads every button and drawing tool, in the right order."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoiceOver lee todos los botones y herramientas de dibujo en el orden correcto."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoiceOver lit chaque bouton et chaque outil de dessin, dans le bon ordre."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoiceOver legge tutti i pulsanti e gli strumenti di disegno nell’ordine giusto."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoiceOverがボタンやお絵かき道具を漏れなく、正しい順番で読み上げます。"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O VoiceOver lê todos os botões e ferramentas de desenho na ordem certa."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoiceOver 会按正确顺序完整朗读所有按钮和绘画工具。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoiceOver 會依正確順序完整朗讀所有按鈕與繪圖工具。"
           }
         }
       }

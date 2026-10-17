@@ -10,6 +10,7 @@
 		C2000011 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C2000001 /* Localizable.xcstrings */; };
 		C2000012 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C2000002 /* InfoPlist.xcstrings */; };
 		27635556B9AD3A223B0C6677 /* RotoscopeiPadSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D32DC4106D7910C7BA5794 /* RotoscopeiPadSpec.swift */; };
+		4BDB97D041044798868D72C9 /* RotoscopeiPadRoadmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69B2C6F87C2497F86586385 /* RotoscopeiPadRoadmap.swift */; };
 		A26FB1D7F28CDA647FD9F6C6 /* LeeoKit in Frameworks */ = {isa = PBXBuildFile; productRef = 79808A022338D6B875EF30F3 /* LeeoKit */; };
 		B1000011 /* RotoscopeiPadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000001 /* RotoscopeiPadApp.swift */; };
 		B1000012 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000002 /* ContentView.swift */; };
@@ -53,6 +54,7 @@
 		C2000001 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		C2000002 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		69D32DC4106D7910C7BA5794 /* RotoscopeiPadSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RotoscopeiPadSpec.swift; sourceTree = "<group>"; };
+		F69B2C6F87C2497F86586385 /* RotoscopeiPadRoadmap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RotoscopeiPadRoadmap.swift; sourceTree = "<group>"; };
 		925FF54F8FD6B11267BD271D /* RotoscopeiPadSupportView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RotoscopeiPadSupportView.swift; sourceTree = "<group>"; };
 		B1000001 /* RotoscopeiPadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotoscopeiPadApp.swift; sourceTree = "<group>"; };
 		B1000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				C2000002 /* InfoPlist.xcstrings */,
 				B100000A /* Info.plist */,
 				69D32DC4106D7910C7BA5794 /* RotoscopeiPadSpec.swift */,
+				F69B2C6F87C2497F86586385 /* RotoscopeiPadRoadmap.swift */,
 				E5A1000000000000000000C1 /* PalangShortcuts.swift */,
 				E5A1000000000000000000D1 /* AppShortcuts.xcstrings */,
 			);
@@ -325,6 +328,7 @@
 				B1000029 /* YouTubeImport.swift in Sources */,
 				B1000091 /* Stamps.swift in Sources */,
 				27635556B9AD3A223B0C6677 /* RotoscopeiPadSpec.swift in Sources */,
+				4BDB97D041044798868D72C9 /* RotoscopeiPadRoadmap.swift in Sources */,
 				D115A3F0D2A184F36A0DC3AC /* RotoscopeiPadSupportView.swift in Sources */,
 				E5A1000000000000000000A2 /* FirstRunOnboarding.swift in Sources */,
 				E5A1000000000000000000B2 /* PalangTips.swift in Sources */,
@@ -511,7 +515,7 @@
 			repositoryURL = "https://github.com/M1zz/LeeoKit.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.16.1;
+				minimumVersion = 3.20.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

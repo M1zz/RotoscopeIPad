@@ -53,6 +53,7 @@ struct RotoscopeiPadSupportView: View {
                 } header: { Text("이용권") }
                 Section {
                     LeeoSupportSection<RotoscopeiPadSpec>()
+                    NavigationLink(LeeoRoadmapText.entry) { RoadmapScreen() }
                     if let mail = Self.mailURL {
                         Link(destination: mail) {
                             Label("메일로 문의하기", systemImage: "envelope")
