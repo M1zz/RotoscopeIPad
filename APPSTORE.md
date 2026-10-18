@@ -24,7 +24,7 @@ https://m1zz.github.io/RotoscopeIPad/
 
 ### 키워드
 
-그림판,플립북,색칠,유아,어린이,미술놀이,드로잉,로토스코프,만화,도장,스탬프,유치원,낙서,교육,창의력,손그림,그림책,초등,녹음,놀이,아기,움짤,창작,엄마표놀이,동영상,펜슬,미술
+스톱모션,따라그리기,플립북,색칠놀이,그림판,유치원,스탬프,도장,낙서,그림책,미술,움짤,유아그림,키즈드로잉,미술놀이,엄마표놀이,색칠,유아,어린이,아이그림,그림놀이,움직이는그림
 
 ### 프로모션 텍스트
 
@@ -84,7 +84,7 @@ Draw a flipbook that moves
 
 ### 키워드
 
-drawing,toddler,preschool,cartoon,animate,doodle,stamp,coloring,stop,motion,sketch,art,creative,fun
+stopmotion,motion,trace,cartoon,doodle,toddler,preschool,coloring,sketch,frames,stamp,art,drawing
 
 ### 프로모션 텍스트
 
