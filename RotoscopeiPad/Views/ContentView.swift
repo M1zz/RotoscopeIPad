@@ -563,6 +563,10 @@ struct ContentView: View {
                 _ = try await exporter.export(options: opts) { p in
                     project.exportProgress = p
                 }
+                // A finished flipbook in Photos is what this app is for. The count
+                // feeds "Enjoying Palang Book?", which is only ever asked in
+                // Settings, after the grown-up check — never to the kid here.
+                LeeoEngagement.shared.registerSignificantEvent()
                 withAnimation(.bouncy) { showDone = true }
                 try? await Task.sleep(nanoseconds: 2_000_000_000)
                 withAnimation { showDone = false }
