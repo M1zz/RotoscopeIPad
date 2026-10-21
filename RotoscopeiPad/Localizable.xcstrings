@@ -81,6 +81,12 @@
             "value": "%@ · Engangskjøp – ditt for alltid"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · Eenmalige aankoop, voor altijd van jou"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -198,6 +204,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bedre støtte for VoiceOver"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Betere ondersteuning voor VoiceOver"
           }
         },
         "pt-BR": {
@@ -378,6 +390,12 @@
             "value": "Tynn pensel"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dunne kwast"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -496,6 +514,12 @@
             "value": "Familiedeling: bruk den på alle iPadene i familien"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delen met gezin: gebruik het op elke iPad in je gezin"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -612,6 +636,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Personvernerklæring"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privacybeleid"
           }
         },
         "pt-BR": {
@@ -733,6 +763,12 @@
             "value": "Svart"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zwart"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -849,6 +885,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Gjenopprett kjøp"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aankopen herstellen"
           }
         },
         "pt-BR": {
@@ -970,6 +1012,12 @@
             "value": "Tykk pensel"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dikke kwast"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -1087,6 +1135,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Større tekst blir aldri avkuttet – skjermen ordner seg pent."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grotere tekst wordt nooit afgekapt — het scherm schikt zich netjes opnieuw."
           }
         },
         "pt-BR": {
@@ -1208,6 +1262,12 @@
             "value": "Synkronisering mellom enheter"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Synchroniseren tussen apparaten"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -1325,6 +1385,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Trykk og hold for å slette."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Houd ingedrukt om te verwijderen."
           }
         },
         "pt-BR": {
@@ -1446,6 +1512,12 @@
             "value": "Blomsterstempel"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bloemstempel"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -1562,6 +1634,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tegn oppå dine egne videoer uten grenser"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teken over je eigen video’s, onbeperkt"
           }
         },
         "pt-BR": {
@@ -1683,6 +1761,12 @@
             "value": "Mitt verk"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mijn kunstwerk"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -1800,6 +1884,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Firkantstempel"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vierkante stempel"
           }
         },
         "pt-BR": {
@@ -1921,6 +2011,12 @@
             "value": "Gul"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geel"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -2038,6 +2134,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Stopp opptak"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opname stoppen"
           }
         },
         "pt-BR": {
@@ -2159,6 +2261,12 @@
             "value": "Fortsett å tegne på det samme verket på en annen iPad."
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teken verder aan hetzelfde kunstwerk op een andere iPad."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -2275,6 +2383,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Prøv igjen"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Probeer opnieuw"
           }
         },
         "pt-BR": {
@@ -2396,6 +2510,12 @@
             "value": "Neste"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Volgende"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -2513,6 +2633,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tegn neste bilde"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teken het volgende plaatje"
           }
         },
         "pt-BR": {
@@ -2634,6 +2760,12 @@
             "value": "Tegn neste side"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teken de volgende pagina"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -2751,6 +2883,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mørk modus"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Donkere modus"
           }
         },
         "pt-BR": {
@@ -2872,6 +3010,12 @@
             "value": "Lukk"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sluit"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -2989,6 +3133,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Alt er fortsatt lesbart med økt kontrast på, eller hvis det er vanskelig å se forskjell på fargene."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alles blijft leesbaar met Verhoog contrast aan of als kleuren moeilijk te onderscheiden zijn."
           }
         },
         "pt-BR": {
@@ -3110,6 +3260,12 @@
             "value": "Sirkelstempel"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cirkelstempel"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -3227,6 +3383,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Åpne en videolenke"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Videolink openen"
           }
         },
         "pt-BR": {
@@ -3348,6 +3510,12 @@
             "value": "Vis videobakgrunn"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Videoachtergrond tonen"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -3465,6 +3633,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Skjul videobakgrunn"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Videoachtergrond verbergen"
           }
         },
         "pt-BR": {
@@ -3586,6 +3760,12 @@
             "value": "Ta opp en video"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Video opnemen"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -3703,6 +3883,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Start med en video, en tom side eller et tegn etter-sett."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Begin met een video, een lege pagina of een overtrekset."
           }
         },
         "pt-BR": {
@@ -3823,6 +4009,12 @@
             "value": "Hent inn en video for å komme i gang!"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Haal een video erbij om te beginnen!"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -3939,6 +4131,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kunne ikke hente inn videoen: %@"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "De video kon niet worden toegevoegd: %@"
           }
         },
         "pt-BR": {
@@ -4059,6 +4257,12 @@
             "value": "Noe gikk galt da videoen ble laget."
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Er ging iets mis bij het maken van de video."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -4175,6 +4379,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Åpner videoen …"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Video openen…"
           }
         },
         "pt-BR": {
@@ -4295,6 +4505,12 @@
             "value": "Kan ikke lese denne videoen. Vil du prøve en annen?"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deze video kan niet worden gelezen. Wil je een andere proberen?"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -4413,6 +4629,12 @@
             "value": "Det er ikke en video. Velg en video!"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dat is geen video. Kies een video!"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -4529,6 +4751,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Det finnes ingen video."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Er is geen video."
           }
         },
         "pt-BR": {
@@ -4650,6 +4878,12 @@
             "value": "Angre"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ongedaan maken"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -4767,6 +5001,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tegn etter-sett %lld"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Overtrekset %lld"
           }
         },
         "pt-BR": {
@@ -5032,6 +5272,24 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "Alle %lld tegn etter-sett og alle nye"
+                }
+              }
+            }
+          }
+        },
+        "nl": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Alle %lld overtreksets, plus elke nieuwe"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Alle %lld overtreksets, plus elke nieuwe"
                 }
               }
             }
@@ -5353,6 +5611,24 @@
             }
           }
         },
+        "nl": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld overtrekset is gratis; de rest ontgrendel je met Levenslange toegang."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld overtreksets zijn gratis; de rest ontgrendel je met Levenslange toegang."
+                }
+              }
+            }
+          }
+        },
         "pt-BR": {
           "variations": {
             "plural": {
@@ -5519,6 +5795,12 @@
             "value": "Lenken ser ikke riktig ut."
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deze link ziet er niet goed uit."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -5636,6 +5918,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Trykk på mikrofonen for å ta opp stemmen din mens animasjonen spilles av én gang."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tik op de microfoon om je stem op te nemen terwijl de animatie één keer afspeelt."
           }
         },
         "pt-BR": {
@@ -5757,6 +6045,12 @@
             "value": "Send oss e-post"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mail ons"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -5873,6 +6167,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Alt er låst opp"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alles is ontgrendeld"
           }
         },
         "pt-BR": {
@@ -5994,6 +6294,12 @@
             "value": "Legg til stemmen din"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Voeg je stem toe"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -6113,6 +6419,12 @@
             "value": "Ta opp stemme"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stem opnemen"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -6229,6 +6541,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ingen tidsgrense for stemmeopptak"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geen tijdslimiet voor stemopnames"
           }
         },
         "pt-BR": {
@@ -6494,6 +6812,24 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "Gratisversjonen lar deg hente inn %lld videoer."
+                }
+              }
+            }
+          }
+        },
+        "nl": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "In de gratis versie kun je %lld video toevoegen."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "In de gratis versie kun je %lld video’s toevoegen."
                 }
               }
             }
@@ -6815,6 +7151,24 @@
             }
           }
         },
+        "nl": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "De gratis versie neemt stem op tot %lld seconde."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "De gratis versie neemt stem op tot %lld seconden."
+                }
+              }
+            }
+          }
+        },
         "pt-BR": {
           "variations": {
             "plural": {
@@ -7126,6 +7480,24 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "Gratisversjonen tillater opptil %lld sider i en tom flipbook."
+                }
+              }
+            }
+          }
+        },
+        "nl": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "De gratis versie staat tot %lld pagina toe in een leeg flipboek."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "De gratis versie staat tot %lld pagina’s toe in een leeg flipboek."
                 }
               }
             }
@@ -7447,6 +7819,24 @@
             }
           }
         },
+        "nl": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "De gratis versie bewaart tot %lld kunstwerk."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "De gratis versie bewaart tot %lld kunstwerken."
+                }
+              }
+            }
+          }
+        },
         "pt-BR": {
           "variations": {
             "plural": {
@@ -7614,6 +8004,12 @@
             "value": "Stjernestempel"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sterrenstempel"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -7731,6 +8127,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Farger og kontrast som er lettere å se"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kleuren en contrast die makkelijker te zien zijn"
           }
         },
         "pt-BR": {
@@ -7852,6 +8254,12 @@
             "value": "Lilla"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paars"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -7971,6 +8379,12 @@
             "value": "Middels pensel"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Middelgrote kwast"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -8087,6 +8501,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Voksensjekk: trykk på svaret på regnestykket under."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Volwassenencontrole: tik op het antwoord op de som hieronder."
           }
         },
         "pt-BR": {
@@ -8208,6 +8628,12 @@
             "value": "Rosa"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Roze"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -8327,6 +8753,12 @@
             "value": "Pensel"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kwast"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -8443,6 +8875,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lim inn"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Plak"
           }
         },
         "pt-BR": {
@@ -8564,6 +9002,12 @@
             "value": "Tom flipbook"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leeg flipboek"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -8683,6 +9127,12 @@
             "value": "Ny tom flipbook"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nieuw leeg flipboek"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -8799,6 +9249,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tomme flipbooker med ubegrenset antall sider"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lege flipboeken met onbeperkt veel pagina’s"
           }
         },
         "pt-BR": {
@@ -8920,6 +9376,12 @@
             "value": "Rød"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rood"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -9037,6 +9499,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lagre i Bilder"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bewaar in Foto’s"
           }
         },
         "pt-BR": {
@@ -9157,6 +9625,12 @@
             "value": "Gi tilgang i Innstillinger for å lagre i Bilder."
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geef toegang in Instellingen om in Foto’s te bewaren."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -9273,6 +9747,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Henter fra Bilder … et øyeblikk!"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ophalen uit Foto’s… even geduld!"
           }
         },
         "pt-BR": {
@@ -9394,6 +9874,12 @@
             "value": "Velg en video fra Bilder"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kies een video uit Foto’s"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -9510,6 +9996,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kunne ikke laste kjøpsalternativene."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "De aankoopopties konden niet worden geladen."
           }
         },
         "pt-BR": {
@@ -9631,6 +10123,12 @@
             "value": "Fuglestempel"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vogelstempel"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -9747,6 +10245,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Innstillinger"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instellingen"
           }
         },
         "pt-BR": {
@@ -9868,6 +10372,12 @@
             "value": "Trekantstempel"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Driehoekstempel"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -9985,6 +10495,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kom i gang"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aan de slag"
           }
         },
         "pt-BR": {
@@ -10105,6 +10621,12 @@
             "value": "Barnas tegninger våkner til liv"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kindertekeningen komen tot leven"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -10221,6 +10743,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ukjent problem"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Onbekend probleem"
           }
         },
         "pt-BR": {
@@ -10342,6 +10870,12 @@
             "value": "Se barnets verk rett på Hjem-skjermen, uten å åpne appen."
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bekijk de kunstwerken van je kind meteen op het beginscherm, zonder de app te openen."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -10461,6 +10995,12 @@
             "value": "Tekst og knapper er skarpe og tydelige på en mørk skjerm."
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tekst en knoppen blijven scherp en duidelijk op een donker scherm."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -10577,6 +11117,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vis dette til en voksen"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Laat dit aan een volwassene zien"
           }
         },
         "pt-BR": {
@@ -10698,6 +11244,12 @@
             "value": "Første gang du åpner appen etter en oppdatering, ser du hva som er nytt."
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "De eerste keer dat je de app opent na een update, zie je wat er nieuw is."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -10815,6 +11367,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nytt"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nieuw"
           }
         },
         "pt-BR": {
@@ -10935,6 +11493,12 @@
             "value": "Åpne"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -11053,6 +11617,12 @@
             "value": "Kunne ikke åpnes. Kontroller at det er en videolenke."
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Openen mislukt. Controleer of het een videolink is."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -11169,6 +11739,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kunne ikke åpnes. Sjekk lenken og prøv igjen."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Openen mislukt. Controleer de link en probeer het opnieuw."
           }
         },
         "pt-BR": {
@@ -11290,6 +11866,12 @@
             "value": "Reduser bevegelse"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beweging beperken"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -11407,6 +11989,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Med Reduser bevegelse på blir animasjonene roligere."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Met Beweging beperken aan worden effecten op het scherm rustiger."
           }
         },
         "pt-BR": {
@@ -11528,6 +12116,12 @@
             "value": "Slett alle verkene i appen på én gang når du vil."
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wis alle kunstwerken in de app in één keer wanneer je maar wilt."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -11645,6 +12239,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tøm denne siden"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deze pagina wissen"
           }
         },
         "pt-BR": {
@@ -11765,6 +12365,12 @@
             "value": "Lås opp"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ontgrendelen"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -11881,6 +12487,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bruksvilkår"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gebruiksvoorwaarden"
           }
         },
         "pt-BR": {
@@ -12002,6 +12614,12 @@
             "value": "Forrige bilde"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vorig plaatje"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -12119,6 +12737,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Instagram-melding (@lee25_ios)"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instagram-bericht (@lee25_ios)"
           }
         },
         "pt-BR": {
@@ -12240,6 +12864,12 @@
             "value": "Pause"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pauze"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -12357,6 +12987,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bilstempel"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Autostempel"
           }
         },
         "pt-BR": {
@@ -12478,6 +13114,12 @@
             "value": "Lite stempel"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kleine stempel"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -12595,6 +13237,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sikkerhetskopier verk"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Back-up van kunstwerken"
           }
         },
         "pt-BR": {
@@ -12716,6 +13364,12 @@
             "value": "Slett alle verk på én gang"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alle kunstwerken in één keer verwijderen"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -12832,6 +13486,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lagre ubegrenset med verk"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Onbeperkt kunstwerken bewaren"
           }
         },
         "pt-BR": {
@@ -12953,6 +13613,12 @@
             "value": "Lagre verk som en fil og hent dem tilbake når som helst."
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bewaar kunstwerken als bestand en haal ze op elk moment terug."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -13070,6 +13736,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Låst"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vergrendeld"
           }
         },
         "pt-BR": {
@@ -13191,6 +13863,12 @@
             "value": "Sider"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pagina’s"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -13308,6 +13986,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Spill av"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afspelen"
           }
         },
         "pt-BR": {
@@ -13429,6 +14113,12 @@
             "value": "Vis avspillingslinjen"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afspeelbalk tonen"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -13546,6 +14236,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Skjul avspillingslinjen"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afspeelbalk verbergen"
           }
         },
         "pt-BR": {
@@ -13667,6 +14363,12 @@
             "value": "Trykk på spill av, så våkner tegningene dine til liv. Legg til stemmen din og lagre i Bilder."
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Druk op afspelen en je tekeningen komen tot leven. Voeg je stem toe en bewaar in Foto’s."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -13783,6 +14485,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ikke noe Palang Book-kort på slutten av lagrede videoer"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geen Palang Book-kaart aan het eind van bewaarde video’s"
           }
         },
         "pt-BR": {
@@ -13902,6 +14610,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Oransje"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oranje"
           }
         },
         "pt-BR": {
@@ -14172,6 +14886,24 @@
             }
           }
         },
+        "nl": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Klaar! Er is %lld scène. Begin met tekenen 🎨"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Klaar! Er zijn %lld scènes. Begin met tekenen 🎨"
+                }
+              }
+            }
+          }
+        },
         "pt-BR": {
           "variations": {
             "plural": {
@@ -14339,6 +15071,12 @@
             "value": "Middels stempel"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Middelgrote stempel"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -14456,6 +15194,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Viskelær"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gum"
           }
         },
         "pt-BR": {
@@ -14576,6 +15320,12 @@
             "value": "Slett"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verwijder"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -14692,6 +15442,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Støtte"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Support"
           }
         },
         "pt-BR": {
@@ -14813,6 +15569,12 @@
             "value": "Turkis"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Turquoise"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -14930,6 +15692,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Grønn"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Groen"
           }
         },
         "pt-BR": {
@@ -15051,6 +15819,12 @@
             "value": "Oppsett som passer større tekst"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indelingen die passen bij grotere tekst"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -15168,6 +15942,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Stort stempel"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grote stempel"
           }
         },
         "pt-BR": {
@@ -15289,6 +16069,12 @@
             "value": "Blå"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Blauw"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -15402,6 +16188,12 @@
           }
         },
         "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
+        },
+        "nl": {
           "stringUnit": {
             "state": "translated",
             "value": "Palang Book"
@@ -15525,6 +16317,12 @@
             "value": "Palang Book Livstidstilgang"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book Levenslange toegang"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -15644,6 +16442,12 @@
             "value": "Åpner Palang Book med en ny, tom flipbook, klar til å tegne i."
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opent Palang Book met een nieuw leeg flipboek, klaar om te tekenen."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -15760,6 +16564,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Livstidstilgang"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Levenslange toegang"
           }
         },
         "pt-BR": {
@@ -15881,6 +16691,12 @@
             "value": "Hjertestempel"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hartstempel"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -15999,6 +16815,12 @@
             "value": "Ett kjøp låser opp alt i Palang Book – for alltid."
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eén aankoop ontgrendelt alles in Palang Book, voorgoed."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -16115,6 +16937,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Engangsbetaling, ikke et abonnement. Belastes App Store-kontoen din."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eenmalige betaling, geen abonnement. Wordt in rekening gebracht via je App Store-account."
           }
         },
         "pt-BR": {
@@ -16236,6 +17064,12 @@
             "value": "Tegn én side, og trykk så på den oransje knappen for å tegne neste."
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teken een pagina en tik dan op de oranje knop om de volgende te tekenen."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -16353,6 +17187,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ferdig med siden? Trykk på den oransje knappen for å tegne neste bilde."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klaar met deze pagina? Tik op de oranje knop om het volgende plaatje te tekenen."
           }
         },
         "pt-BR": {
@@ -16474,6 +17314,12 @@
             "value": "Slett siffer"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cijfer wissen"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -16591,6 +17437,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Widgeter for Hjem-skjermen"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widgets voor het beginscherm"
           }
         },
         "pt-BR": {
@@ -16712,6 +17564,12 @@
             "value": "Hjem"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Home"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -16831,6 +17689,12 @@
             "value": "VoiceOver leser opp hver knapp og hvert tegneverktøy i riktig rekkefølge."
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoiceOver leest elke knop en elk tekengereedschap voor, in de juiste volgorde."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -16945,6 +17809,12 @@
           }
         },
         "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
+        "nl": {
           "stringUnit": {
             "state": "translated",
             "value": "OK"
@@ -17067,6 +17937,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Hvit"
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wit"
           }
         },
         "pt-BR": {

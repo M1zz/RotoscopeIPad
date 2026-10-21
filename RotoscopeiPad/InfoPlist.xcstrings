@@ -88,6 +88,12 @@
             "value": "Palang Book"
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -211,6 +217,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Trengs for å ta opp videoer du kan tegne oppå."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nodig om video’s op te nemen waarover je kunt tekenen."
           }
         },
         "pt-BR": {
@@ -338,6 +350,12 @@
             "value": "Trengs for å ta opp stemmer til animasjonene dine."
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nodig om stemmen voor je animaties op te nemen."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -463,6 +481,12 @@
             "value": "Trengs for å lagre ferdige animasjoner i Bilder."
           }
         },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nodig om voltooide animaties in Foto’s te bewaren."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -586,6 +610,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Trengs for å hente inn videoer du kan tegne oppå."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nodig om video’s toe te voegen waarover je kunt tekenen."
           }
         },
         "pt-BR": {

@@ -1118,3 +1118,54 @@ Ferdige animasjoner lagres som videoer i Bilder-appen, klare til å deles med fa
 Alle verkene venter på hovedskjermen, så barnet kan fortsette å tegne der det slapp.
 Gratis å starte, Livstidstilgang til alt
 Gratis kan barnet tegne etter 3 sett, lagre 3 verk, hente inn 1 video, tegne tomme flipbooker på opptil 10 sider og ta opp stemme i opptil 15 sekunder. Livstidstilgang, et engangskjøp, låser opp alle tegn etter-sett, også kommende, pluss ubegrenset med verk, videoer, sider og opptakstid, og fjerner Palang Book-kortet på slutten av lagrede videoer. Det er ikke et abonnement, og det fungerer med Familiedeling. Kjøpsskjermen åpnes først når en voksen har svart på et raskt spørsmål.
+
+## nl
+
+### 지원 URL
+
+https://m1zz.github.io/RotoscopeIPad/nl/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/RotoscopeIPad/nl/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/RotoscopeIPad/nl/
+
+### 이름
+
+Palang Book: Tekenfilms maken
+
+### 부제
+
+Overtrekken en laten bewegen
+
+### 키워드
+
+tekenen,kleuren,kinderen,peuter,kleuter,stempels,knutselen,krabbel,kunst,animatie,stopmotion
+
+### 프로모션 텍스트
+
+Trek lichte lijntjes pagina voor pagina over, druk op afspelen en de tekening beweegt. Voeg stempels toe, neem de stem op en maak een filmpje dat helemaal van jullie is.
+
+### 설명
+
+De tekeningen van je kind worden een echte animatie.
+Je kind trekt een lichte voorbeeldtekening pagina voor pagina over, drukt op afspelen en de voorbeelden verdwijnen: alleen de eigen tekening beweegt.
+Elke knop in Palang Book is een plaatje, dus ook kinderen die nog niet kunnen lezen, kunnen zelf aan de slag. Tekenen kan met een vinger of Apple Pencil.
+10 overtreksets
+Een stuiterende bal, een huppelend konijn, een vliegende vogel, een zwemmende vis, een bloeiende bloem, een vlinder, een racewagen, een raket die opstijgt, een kikker en een windmolen. Elke set heeft zo’n 20 voorbeeldpagina’s en de vorige pagina schemert zwak door, zodat de volgende tekening makkelijk aansluit.
+Teken over je eigen video’s
+Voeg een zelf opgenomen video toe, een video uit de Foto’s-app of een link naar een videobestand en trek er direct overheen. Verberg je de achtergrond, dan worden alleen de scènes die je kind tekende na elkaar afgespeeld op schoon wit papier.
+Lege flipboeken
+Zonder voorbeelden tekent je kind vrij op wit papier en bladert pagina voor pagina om een eigen flipboek te maken.
+Stempels en kleuren
+Versier met stempels van een hart, cirkel, vierkant, driehoek, ster, bloem, auto en vogel. Er zijn drie stempelformaten, tien kleuren en drie kwastdiktes. Ook zijn er een gum, ongedaan maken en een knop die de hele pagina in één keer wist.
+Stem opnemen
+Tik op de microfoon en de animatie blijft herhalen terwijl je kind zijn of haar stem opneemt.
+Bewaren in Foto’s
+Voltooide animaties worden als video bewaard in de Foto’s-app, klaar om met het hele gezin te delen.
+Elk kunstwerk wacht op het hoofdscherm, zodat je kind altijd verder kan tekenen waar het gebleven was.
+Gratis beginnen, Levenslange toegang voor alles
+Gratis kan je kind 3 sets overtrekken, 3 kunstwerken bewaren, 1 video toevoegen, lege flipboeken tekenen tot 10 pagina’s en stem opnemen tot 15 seconden. Eenmalige Levenslange toegang ontgrendelt alle overtreksets, ook toekomstige, plus onbeperkt kunstwerken, video’s, pagina’s en opnametijd, en haalt de Palang Book-kaart aan het eind van bewaarde video’s weg. Het is geen abonnement en werkt met Delen met gezin. Het aankoopscherm opent pas nadat een volwassene een korte vraag heeft beantwoord.

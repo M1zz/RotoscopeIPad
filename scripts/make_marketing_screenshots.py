@@ -221,6 +221,16 @@ SHOTS["nb"] = [
     ("04-home.png", "hero", "Også dine egne videoer",
      "Tegn oppå videoer<br>du har tatt opp selv", "Alle verkene venter på startskjermen"),
 ]
+SHOTS["nl"] = [
+    ("01-trace-bunny.png", "hero", "Overtrekken en animeren",
+     "De tekeningen van je kind<br>komen tot leven", "Trek lichte lijntjes pagina voor pagina over"),
+    ("02-trace-rocket.png", "tilt-left", "Pagina voor pagina",
+     "Volg de lijnen,<br>maak een tekenfilm", "Konijn, raket, kikker en meer: 10 sets"),
+    ("03-stamps-fish.png", "tilt-right", "Stempelpalet",
+     "Stempel harten,<br>sterren en bloemen", "Lezen hoeft niet, tik gewoon op de plaatjes"),
+    ("04-home.png", "hero", "Ook met je eigen video’s",
+     "Teken over video’s<br>die je zelf opnam", "Elk kunstwerk wacht op het beginscherm"),
+]
 
 CSS = """
 * { margin:0; padding:0; box-sizing:border-box; }
