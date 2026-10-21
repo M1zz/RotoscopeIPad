@@ -124,6 +124,12 @@
             "value": "Palang Book"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -265,6 +271,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "จำเป็นสำหรับถ่ายวิดีโอเพื่อวาดทับ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Üzerine çizim yapabileceğin videolar çekmek için gerekir."
           }
         },
         "vi": {
@@ -410,6 +422,12 @@
             "value": "จำเป็นสำหรับบันทึกเสียงใส่ในภาพเคลื่อนไหว"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Animasyonların için ses kaydetmek için gerekir."
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -553,6 +571,12 @@
             "value": "จำเป็นสำหรับบันทึกภาพเคลื่อนไหวที่เสร็จแล้วลงรูปภาพ"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tamamlanan animasyonları Fotoğraflar'a kaydetmek için gerekir."
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -694,6 +718,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "จำเป็นสำหรับนำเข้าวิดีโอเพื่อวาดทับ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Üzerine çizim yapabileceğin videoları getirmek için gerekir."
           }
         },
         "vi": {

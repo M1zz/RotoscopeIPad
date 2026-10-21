@@ -117,6 +117,12 @@
             "value": "%@ · จ่ายครั้งเดียว ใช้ได้ตลอดไป"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · Tek seferlik satın alma, sonsuza dek senin"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -252,6 +258,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "รองรับ VoiceOver ดียิ่งขึ้น"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Daha iyi VoiceOver desteği"
           }
         },
         "vi": {
@@ -450,6 +462,12 @@
             "value": "พู่กันเส้นบาง"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İnce fırça"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -586,6 +604,12 @@
             "value": "แชร์กับครอบครัว: ใช้ได้บน iPad ทุกเครื่องในบ้าน"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aile Paylaşımı: ailendeki her iPad'de kullan"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -720,6 +744,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "นโยบายความเป็นส่วนตัว"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gizlilik Politikası"
           }
         },
         "vi": {
@@ -859,6 +889,12 @@
             "value": "สีดำ"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siyah"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -993,6 +1029,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "กู้คืนการซื้อ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Satın Alımları Geri Yükle"
           }
         },
         "vi": {
@@ -1132,6 +1174,12 @@
             "value": "พู่กันเส้นหนา"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kalın fırça"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -1267,6 +1315,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ตัวอักษรใหญ่แค่ไหนก็ไม่ถูกตัด หน้าจอจะจัดเรียงใหม่ให้เรียบร้อย"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Büyük yazılar asla kesilmez — ekran düzenini derli toplu şekilde ayarlar."
           }
         },
         "vi": {
@@ -1406,6 +1460,12 @@
             "value": "ซิงค์ข้ามอุปกรณ์"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cihazlar arası eşitleme"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -1541,6 +1601,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "แตะค้างไว้เพื่อลบ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Silmek için dokunup basılı tut."
           }
         },
         "vi": {
@@ -1680,6 +1746,12 @@
             "value": "ตราประทับรูปดอกไม้"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Çiçek damgası"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -1814,6 +1886,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "วาดทับวิดีโอของคุณเองได้ไม่จำกัด"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kendi videolarının üzerine sınırsız çiz"
           }
         },
         "vi": {
@@ -1953,6 +2031,12 @@
             "value": "ผลงานของฉัน"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Çalışmam"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -2088,6 +2172,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ตราประทับรูปสี่เหลี่ยม"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kare damgası"
           }
         },
         "vi": {
@@ -2227,6 +2317,12 @@
             "value": "สีเหลือง"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sarı"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -2362,6 +2458,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "หยุดบันทึก"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydı Durdur"
           }
         },
         "vi": {
@@ -2501,6 +2603,12 @@
             "value": "วาดผลงานชิ้นเดิมต่อบน iPad เครื่องอื่นได้"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aynı çalışmayı başka bir iPad'de çizmeye devam et."
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -2635,6 +2743,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ลองอีกครั้ง"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tekrar Dene"
           }
         },
         "vi": {
@@ -2774,6 +2888,12 @@
             "value": "ถัดไป"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İleri"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -2909,6 +3029,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "วาดภาพถัดไป"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sonraki Resmi Çiz"
           }
         },
         "vi": {
@@ -3048,6 +3174,12 @@
             "value": "วาดหน้าถัดไป"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sonraki Sayfayı Çiz"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -3183,6 +3315,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "โหมดมืด"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Koyu Mod"
           }
         },
         "vi": {
@@ -3322,6 +3460,12 @@
             "value": "ปิด"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kapat"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -3457,6 +3601,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "อ่านได้ชัดเจนแม้เปิดการเพิ่มคอนทราสต์ หรือแยกสีได้ยาก"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kontrastı Artır açıkken veya renkleri ayırt etmek zorsa bile her şey okunaklı kalır."
           }
         },
         "vi": {
@@ -3596,6 +3746,12 @@
             "value": "ตราประทับรูปวงกลม"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Daire damgası"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -3731,6 +3887,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "เปิดลิงก์วิดีโอ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Video Bağlantısı Aç"
           }
         },
         "vi": {
@@ -3870,6 +4032,12 @@
             "value": "แสดงวิดีโอพื้นหลัง"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Video Arka Planını Göster"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -4005,6 +4173,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ซ่อนวิดีโอพื้นหลัง"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Video Arka Planını Gizle"
           }
         },
         "vi": {
@@ -4144,6 +4318,12 @@
             "value": "ถ่ายวิดีโอ"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Video Çek"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -4279,6 +4459,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "เริ่มจากวิดีโอ กระดาษเปล่า หรือชุดวาดตามเส้น"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bir video, boş bir sayfa veya üzerinden çizme setiyle başla."
           }
         },
         "vi": {
@@ -4417,6 +4603,12 @@
             "value": "นำเข้าวิดีโอเพื่อเริ่มกันเลย!"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Başlamak için bir video getir!"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -4551,6 +4743,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "นำเข้าวิดีโอไม่ได้: %@"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Video getirilemedi: %@"
           }
         },
         "vi": {
@@ -4689,6 +4887,12 @@
             "value": "เกิดปัญหาระหว่างสร้างวิดีโอ"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Video oluşturulurken bir sorun çıktı."
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -4823,6 +5027,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "กำลังเปิดวิดีโอ…"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Video açılıyor…"
           }
         },
         "vi": {
@@ -4961,6 +5171,12 @@
             "value": "อ่านวิดีโอนี้ไม่ได้ ลองเลือกวิดีโออื่นไหม"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu video okunamıyor. Başka birini deneyelim mi?"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -5097,6 +5313,12 @@
             "value": "นี่ไม่ใช่วิดีโอ เลือกวิดีโอนะ!"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu bir video değil. Lütfen bir video seç!"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -5231,6 +5453,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ไม่มีวิดีโอ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Video yok."
           }
         },
         "vi": {
@@ -5370,6 +5598,12 @@
             "value": "เลิกทำ"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geri Al"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -5505,6 +5739,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ชุดวาดตามเส้น %lld"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Üzerinden Çizme Seti %lld"
           }
         },
         "vi": {
@@ -5878,6 +6118,24 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "ชุดวาดตามเส้นทั้ง %lld ชุด รวมถึงชุดใหม่ที่จะมาในอนาคต"
+                }
+              }
+            }
+          }
+        },
+        "tr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld üzerinden çizme setinin tamamı ve gelecek her yeni set"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld üzerinden çizme setinin tamamı ve gelecek her yeni set"
                 }
               }
             }
@@ -6265,6 +6523,24 @@
             }
           }
         },
+        "tr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld üzerinden çizme seti ücretsiz, gerisi Ömür Boyu Erişim ile açılır."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld üzerinden çizme seti ücretsiz, gerisi Ömür Boyu Erişim ile açılır."
+                }
+              }
+            }
+          }
+        },
         "vi": {
           "variations": {
             "plural": {
@@ -6407,6 +6683,12 @@
             "value": "ลิงก์ดูไม่ถูกต้อง"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu bağlantı doğru görünmüyor."
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -6542,6 +6824,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "แตะไมโครโฟนเพื่อบันทึกเสียงของคุณขณะที่ภาพเคลื่อนไหวเล่นหนึ่งรอบ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Animasyon bir kez oynarken sesini kaydetmek için mikrofona dokun."
           }
         },
         "vi": {
@@ -6681,6 +6969,12 @@
             "value": "ส่งอีเมลถึงเรา"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bize E-posta Gönder"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -6815,6 +7109,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ปลดล็อกทุกอย่างแล้ว"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Her şey açık"
           }
         },
         "vi": {
@@ -6954,6 +7254,12 @@
             "value": "ใส่เสียงของคุณ"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sesini Ekle"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -7091,6 +7397,12 @@
             "value": "บันทึกเสียง"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ses Kaydet"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -7225,6 +7537,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "บันทึกเสียงได้ไม่จำกัดเวลา"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ses kaydı süresinde sınır yok"
           }
         },
         "vi": {
@@ -7598,6 +7916,24 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "เวอร์ชันฟรีนำเข้าวิดีโอได้ %lld ครั้ง"
+                }
+              }
+            }
+          }
+        },
+        "tr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Ücretsiz sürümde %lld video getirebilirsin."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Ücretsiz sürümde %lld video getirebilirsin."
                 }
               }
             }
@@ -7985,6 +8321,24 @@
             }
           }
         },
+        "tr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Ücretsiz sürüm en fazla %lld saniye ses kaydeder."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Ücretsiz sürüm en fazla %lld saniye ses kaydeder."
+                }
+              }
+            }
+          }
+        },
         "vi": {
           "variations": {
             "plural": {
@@ -8362,6 +8716,24 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "เวอร์ชันฟรีวาดฟลิปบุ๊กเปล่าได้สูงสุด %lld หน้า"
+                }
+              }
+            }
+          }
+        },
+        "tr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Ücretsiz sürümde boş bir flipbook'ta en fazla %lld sayfa çizebilirsin."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Ücretsiz sürümde boş bir flipbook'ta en fazla %lld sayfa çizebilirsin."
                 }
               }
             }
@@ -8749,6 +9121,24 @@
             }
           }
         },
+        "tr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Ücretsiz sürüm en fazla %lld çalışmayı saklar."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Ücretsiz sürüm en fazla %lld çalışmayı saklar."
+                }
+              }
+            }
+          }
+        },
         "vi": {
           "variations": {
             "plural": {
@@ -8892,6 +9282,12 @@
             "value": "ตราประทับรูปดาว"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yıldız damgası"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -9027,6 +9423,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "สีและคอนทราสต์ที่มองเห็นง่ายขึ้น"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Daha kolay görülen renkler ve kontrast"
           }
         },
         "vi": {
@@ -9166,6 +9568,12 @@
             "value": "สีม่วง"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mor"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -9303,6 +9711,12 @@
             "value": "พู่กันเส้นกลาง"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Orta fırça"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -9437,6 +9851,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ตรวจสอบผู้ใหญ่: แตะคำตอบของโจทย์ด้านล่าง"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yetişkin kontrolü: aşağıdaki işlemin cevabına dokun."
           }
         },
         "vi": {
@@ -9576,6 +9996,12 @@
             "value": "สีชมพู"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pembe"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -9713,6 +10139,12 @@
             "value": "พู่กัน"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fırça"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -9847,6 +10279,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "วาง"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yapıştır"
           }
         },
         "vi": {
@@ -9986,6 +10424,12 @@
             "value": "ฟลิปบุ๊กเปล่า"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Boş Flipbook"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -10123,6 +10567,12 @@
             "value": "สร้างฟลิปบุ๊กเปล่าใหม่"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yeni Boş Flipbook"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -10257,6 +10707,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ฟลิปบุ๊กเปล่าไม่จำกัดจำนวนหน้า"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sayfa sınırı olmayan boş flipbook'lar"
           }
         },
         "vi": {
@@ -10396,6 +10852,12 @@
             "value": "สีแดง"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kırmızı"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -10531,6 +10993,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "บันทึกลงรูปภาพ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fotoğraflar'a Kaydet"
           }
         },
         "vi": {
@@ -10669,6 +11137,12 @@
             "value": "หากต้องการบันทึกลงรูปภาพ โปรดอนุญาตการเข้าถึงในการตั้งค่า"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fotoğraflar'a kaydetmek için Ayarlar'dan erişime izin ver."
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -10803,6 +11277,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "กำลังดึงจากรูปภาพ… รอสักครู่นะ!"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fotoğraflar'dan alınıyor… bir saniye!"
           }
         },
         "vi": {
@@ -10942,6 +11422,12 @@
             "value": "เลือกวิดีโอจากรูปภาพ"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fotoğraflar'dan Video Seç"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -11076,6 +11562,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "โหลดตัวเลือกการซื้อไม่ได้"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Satın alma seçenekleri yüklenemedi."
           }
         },
         "vi": {
@@ -11215,6 +11707,12 @@
             "value": "ตราประทับรูปนก"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kuş damgası"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -11349,6 +11847,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "การตั้งค่า"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ayarlar"
           }
         },
         "vi": {
@@ -11488,6 +11992,12 @@
             "value": "ตราประทับรูปสามเหลี่ยม"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Üçgen damgası"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -11623,6 +12133,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "เริ่มเลย"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Başla"
           }
         },
         "vi": {
@@ -11761,6 +12277,12 @@
             "value": "ภาพวาดของเด็กๆ ขยับได้"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Çocukların çizimleri canlanıyor"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -11895,6 +12417,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ปัญหาที่ไม่ทราบสาเหตุ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bilinmeyen sorun"
           }
         },
         "vi": {
@@ -12034,6 +12562,12 @@
             "value": "ดูผลงานของลูกได้บนหน้าจอโฮมโดยไม่ต้องเปิดแอป"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uygulamayı açmadan çocuğunun çalışmalarını doğrudan Ana Ekran'da gör."
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -12171,6 +12705,12 @@
             "value": "ตัวอักษรและปุ่มยังคมชัดแม้บนหน้าจอมืด"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Koyu ekranda yazılar ve düğmeler net ve belirgin kalır."
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -12305,6 +12845,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ให้ผู้ใหญ่ดูหน่อยนะ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bunu bir yetişkine göster"
           }
         },
         "vi": {
@@ -12444,6 +12990,12 @@
             "value": "เปิดแอปครั้งแรกหลังอัปเดต คุณจะเห็นว่ามีอะไรใหม่"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bir güncellemeden sonra uygulamayı ilk açtığında nelerin yeni olduğunu görürsün."
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -12579,6 +13131,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "มีอะไรใหม่"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yenilikler"
           }
         },
         "vi": {
@@ -12717,6 +13275,12 @@
             "value": "เปิด"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aç"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -12853,6 +13417,12 @@
             "value": "เปิดไม่ได้ โปรดตรวจสอบว่าเป็นลิงก์วิดีโอ"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Açılamadı. Bunun bir video bağlantısı olduğundan emin ol."
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -12987,6 +13557,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "เปิดไม่ได้ ตรวจสอบลิงก์แล้วลองอีกครั้ง"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Açılamadı. Bağlantıyı kontrol edip tekrar dene."
           }
         },
         "vi": {
@@ -13126,6 +13702,12 @@
             "value": "ลดการเคลื่อนไหว"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hareketi Azalt"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -13261,6 +13843,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "เมื่อเปิดลดการเคลื่อนไหว เอฟเฟกต์บนหน้าจอจะนุ่มนวลขึ้น"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hareketi Azalt açıkken ekrandaki efektler daha sakin olur."
           }
         },
         "vi": {
@@ -13400,6 +13988,12 @@
             "value": "ลบผลงานทั้งหมดในแอปได้ในคราวเดียวเมื่อใดก็ได้"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "İstediğin zaman uygulamadaki tüm çalışmaları tek seferde sil."
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -13535,6 +14129,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ล้างหน้านี้"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu Sayfayı Temizle"
           }
         },
         "vi": {
@@ -13673,6 +14273,12 @@
             "value": "ปลดล็อก"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kilidi Aç"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -13807,6 +14413,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ข้อกำหนดการใช้งาน"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kullanım Koşulları"
           }
         },
         "vi": {
@@ -13946,6 +14558,12 @@
             "value": "ภาพก่อนหน้า"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Önceki Resim"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -14081,6 +14699,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ส่ง DM ทาง Instagram (@lee25_ios)"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instagram DM (@lee25_ios)"
           }
         },
         "vi": {
@@ -14220,6 +14844,12 @@
             "value": "หยุดชั่วคราว"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duraklat"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -14355,6 +14985,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ตราประทับรูปรถ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Araba damgası"
           }
         },
         "vi": {
@@ -14494,6 +15130,12 @@
             "value": "ตราประทับขนาดเล็ก"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Küçük damga"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -14629,6 +15271,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "สำรองผลงาน"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Çalışmaları yedekle"
           }
         },
         "vi": {
@@ -14768,6 +15416,12 @@
             "value": "ลบผลงานทั้งหมดในครั้งเดียว"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tüm çalışmaları tek seferde sil"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -14902,6 +15556,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "เก็บผลงานได้ไม่จำกัด"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sınırsız çalışma sakla"
           }
         },
         "vi": {
@@ -15041,6 +15701,12 @@
             "value": "บันทึกผลงานเป็นไฟล์ แล้วนำกลับมาใช้ได้ทุกเมื่อ"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Çalışmaları dosya olarak kaydet ve istediğin zaman geri getir."
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -15176,6 +15842,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ล็อกอยู่"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kilitli"
           }
         },
         "vi": {
@@ -15315,6 +15987,12 @@
             "value": "หน้า"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sayfalar"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -15450,6 +16128,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "เล่น"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oynat"
           }
         },
         "vi": {
@@ -15589,6 +16273,12 @@
             "value": "แสดงแถบเล่น"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oynatma Çubuğunu Göster"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -15724,6 +16414,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ซ่อนแถบเล่น"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oynatma Çubuğunu Gizle"
           }
         },
         "vi": {
@@ -15863,6 +16559,12 @@
             "value": "กดเล่นแล้วภาพวาดของคุณจะขยับ ใส่เสียงของคุณและบันทึกลงรูปภาพได้เลย"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oynat'a bas, çizimlerin canlansın. Sesini ekle ve Fotoğraflar'a kaydet."
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -15997,6 +16699,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ไม่มีการ์ด Palang Book ท้ายวิดีโอที่บันทึก"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaydedilen videoların sonunda Palang Book kartı yok"
           }
         },
         "vi": {
@@ -16134,6 +16842,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "สีส้ม"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Turuncu"
           }
         },
         "vi": {
@@ -16512,6 +17226,24 @@
             }
           }
         },
+        "tr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Hazır! %lld sahne var. Çizmeye başla 🎨"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Hazır! %lld sahne var. Çizmeye başla 🎨"
+                }
+              }
+            }
+          }
+        },
         "vi": {
           "variations": {
             "plural": {
@@ -16655,6 +17387,12 @@
             "value": "ตราประทับขนาดกลาง"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Orta damga"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -16790,6 +17528,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ยางลบ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Silgi"
           }
         },
         "vi": {
@@ -16928,6 +17672,12 @@
             "value": "ลบ"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sil"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -17062,6 +17812,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ช่วยเหลือ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Destek"
           }
         },
         "vi": {
@@ -17201,6 +17957,12 @@
             "value": "สีเขียวน้ำทะเล"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Turkuaz"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -17336,6 +18098,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "สีเขียว"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yeşil"
           }
         },
         "vi": {
@@ -17475,6 +18243,12 @@
             "value": "หน้าจอที่รองรับตัวอักษรขนาดใหญ่"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Büyük yazılara uyan düzenler"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -17610,6 +18384,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ตราประทับขนาดใหญ่"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Büyük damga"
           }
         },
         "vi": {
@@ -17749,6 +18529,12 @@
             "value": "สีน้ำเงิน"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mavi"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -17880,6 +18666,12 @@
           }
         },
         "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
+        },
+        "tr": {
           "stringUnit": {
             "state": "translated",
             "value": "Palang Book"
@@ -18021,6 +18813,12 @@
             "value": "Palang Book สิทธิ์ใช้งานตลอดชีพ"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book Ömür Boyu Erişim"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -18158,6 +18956,12 @@
             "value": "เปิด Palang Book พร้อมฟลิปบุ๊กเปล่าเล่มใหม่ ให้วาดได้ทันที"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book'u yeni bir boş flipbook ile açar, çizmeye hazır."
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -18292,6 +19096,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "สิทธิ์ใช้งานตลอดชีพ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ömür Boyu Erişim"
           }
         },
         "vi": {
@@ -18431,6 +19241,12 @@
             "value": "ตราประทับรูปหัวใจ"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kalp damgası"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -18567,6 +19383,12 @@
             "value": "ซื้อครั้งเดียว ปลดล็อกทุกอย่างใน Palang Book ตลอดไป"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tek bir satın alma, Palang Book'taki her şeyi sonsuza dek açar."
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -18701,6 +19523,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ชำระครั้งเดียว ไม่ใช่การสมัครสมาชิก เรียกเก็บผ่านบัญชี App Store ของคุณ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tek seferlik ödeme, abonelik değildir. App Store hesabına faturalandırılır."
           }
         },
         "vi": {
@@ -18840,6 +19668,12 @@
             "value": "วาดหนึ่งหน้า แล้วแตะปุ่มสีส้มเพื่อวาดหน้าถัดไป"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bir sayfa çiz, sonra sıradakini çizmek için turuncu düğmeye dokun."
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -18975,6 +19809,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "วาดหน้านี้เสร็จแล้วใช่ไหม แตะปุ่มสีส้มเพื่อวาดภาพถัดไป"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu sayfayı bitirdin mi? Sonraki resmi çizmek için turuncu düğmeye dokun."
           }
         },
         "vi": {
@@ -19114,6 +19954,12 @@
             "value": "ลบตัวเลข"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rakamı Sil"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -19249,6 +20095,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "วิดเจ็ตหน้าจอโฮม"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ana Ekran widget'ları"
           }
         },
         "vi": {
@@ -19388,6 +20240,12 @@
             "value": "หน้าหลัก"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ana Sayfa"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -19523,6 +20381,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "VoiceOver อ่านทุกปุ่มและเครื่องมือวาดภาพตามลำดับที่ถูกต้อง"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoiceOver her düğmeyi ve çizim aracını doğru sırayla okur."
           }
         },
         "vi": {
@@ -19662,6 +20526,12 @@
             "value": "ตกลง"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tamam"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -19797,6 +20667,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "สีขาว"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beyaz"
           }
         },
         "vi": {

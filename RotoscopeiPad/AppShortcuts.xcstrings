@@ -123,6 +123,12 @@
             "value": "สร้างฟลิปบุ๊กใหม่ใน ${applicationName}"
           }
         },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "${applicationName} ile yeni flipbook"
+          }
+        },
         "vi": {
           "stringUnit": {
             "state": "translated",
@@ -263,6 +269,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "วาดภาพด้วย ${applicationName}"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "${applicationName} ile çiz"
           }
         },
         "vi": {

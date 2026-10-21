@@ -1271,3 +1271,54 @@ Färdiga animationer sparas som videor i appen Bilder, redo att delas med familj
 Alla verk väntar på startskärmen, så barnet kan alltid rita vidare där det slutade.
 Gratis att börja med, Livstidsåtkomst till allt
 Gratis kan barnet rita av 3 set, spara 3 verk, hämta in 1 video, rita tomma flipbooks på upp till 10 sidor och spela in röst i upp till 15 sekunder. Livstidsåtkomst, ett engångsköp, låser upp alla rita av-set, även kommande, samt obegränsat med verk, videor, sidor och inspelningstid, och tar bort Palang Book-kortet i slutet av sparade videor. Det är ingen prenumeration och fungerar med Familjedelning. Köpskärmen öppnas först när en vuxen har svarat på en snabb fråga.
+
+## tr
+
+### 지원 URL
+
+https://m1zz.github.io/RotoscopeIPad/tr/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/RotoscopeIPad/tr/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/RotoscopeIPad/tr/
+
+### 이름
+
+Palang Book: Çocuk Animasyonu
+
+### 부제
+
+Üstünden çiz, hareket etsin
+
+### 키워드
+
+çizim,boyama,çocuk,okul öncesi,damga,karalama,sanat,çizgi film,bebek,oyun,yaratıcı,stop motion
+
+### 프로모션 텍스트
+
+Soluk çizgilerin üstünden sayfa sayfa çizin, Oynat'a basın, çocuğunuzun çizimi canlansın. Damga ekleyin, sesini kaydedin ve tamamen kendi yaptığı bir film saklayın.
+
+### 설명
+
+Çocuğunuzun çizimleri gerçek bir animasyona dönüşür.
+Çocuk soluk bir çizimin üstünden sayfa sayfa geçer, oynat'a basar ve kılavuz çizgiler kaybolur; yalnızca kendi çizimi hareket eder.
+Palang Book'ta her düğme bir resimdir; bu yüzden henüz okuma bilmeyen çocuklar bile kendi başına başlayabilir. Parmakla veya Apple Pencil ile çizilir.
+10 üzerinden çizme seti
+Zıplayan bir top, hoplayan bir tavşan, uçan bir kuş, yüzen bir balık, açan bir çiçek, bir kelebek, bir yarış arabası, havalanan bir roket, bir kurbağa ve bir rüzgâr gülü. Her sette yaklaşık 20 kılavuz sayfa bulunur; önceki sayfa hafifçe görünür, bu yüzden sıradaki çizimi hizalamak kolaydır.
+Kendi videolarınızın üzerine çizin
+Kendi çektiğiniz bir videoyu, Fotoğraflar uygulamasından bir videoyu veya bir video dosyasının bağlantısını getirin ve doğrudan üstünden çizin. Arka planı gizlerseniz yalnızca çocuğun çizdiği sahneler, temiz beyaz kâğıt üzerinde art arda oynatılır.
+Boş flipbook'lar
+Kılavuz olmadan beyaz kâğıda serbestçe çizilir, sayfa sayfa çevrilerek kendi flipbook'unu oluşturur.
+Damgalar ve renkler
+Kalp, daire, kare, üçgen, yıldız, çiçek, araba ve kuş damgalarıyla süsleyin. Üç damga boyutu, on renk ve üç fırça kalınlığı vardır. Ayrıca silgi, geri alma ve tüm sayfayı tek seferde temizleyen bir düğme bulunur.
+Ses kaydı
+Mikrofona dokunun; çocuk sesini kaydederken animasyon tekrar tekrar oynar.
+Fotoğraflar'a kaydet
+Tamamlanan animasyonlar Fotoğraflar uygulamasına video olarak kaydedilir ve tüm aileyle paylaşılmaya hazırdır.
+Tüm çalışmalar ana ekranda bekler, böylece çocuk istediği zaman kaldığı yerden çizmeye devam edebilir.
+Başlamak ücretsiz, her şey için Ömür Boyu Erişim
+Ücretsiz olarak 3 set üzerinden çizilebilir, 3 çalışma saklanabilir, 1 video getirilebilir, boş flipbook'lara en fazla 10 sayfa çizilebilir ve en fazla 15 saniye ses kaydedilebilir. Tek seferlik Ömür Boyu Erişim, gelecekte çıkacaklar dâhil tüm üzerinden çizme setlerini ve sınırsız çalışma, video, sayfa ile kayıt süresini açar, ayrıca kaydedilen videoların sonundaki Palang Book kartını kaldırır. Abonelik değildir ve Aile Paylaşımı ile çalışır. Satın alma ekranı yalnızca bir yetişkin kısa bir soruyu yanıtladıktan sonra açılır.

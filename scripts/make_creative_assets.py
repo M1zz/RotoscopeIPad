@@ -55,6 +55,7 @@ SEARCH = {
     "nl": ("Tekenapp voor kinderen", "Overtrekken en<br>laten bewegen", "Pagina voor pagina en de tekening beweegt"),
     "pl": ("Rysowanie dla dzieci", "Obrysuj i zobacz,<br>jak się rusza", "Strona po stronie, a rysunek się rusza"),
     "sv": ("Ritapp för barn", "Rita av och<br>se det röra sig", "Sida för sida, och teckningen rör sig"),
+    "tr": ("Çocuk çizim uygulaması", "Üstünden çiz,<br>hareket etsin", "Sayfa sayfa, çizim hareket eder"),
 }
 
 # 헤더 — 한 가지 약속: 아이가 그린 그림이 움직인다(부제: 내 아이가 그려주는 애니메이션).
@@ -82,6 +83,7 @@ HEADER = {
     "nl": ("Kindertekeningen in animatie", "De tekeningen van je kind<br>komen tot leven"),
     "pl": ("Dziecięce rysunki w ruchu", "Rysunki Twojego dziecka<br>ożywają"),
     "sv": ("Barnens teckningar i rörelse", "Barnets teckningar<br>väcks till liv"),
+    "tr": ("Çocuk çizimleri animasyonda", "Çocuğunuzun çizimleri<br>canlanıyor"),
 }
 
 # 바탕 · 글자색은 앱 화면과 같다: 하얀 종이, 따라 그리기 카드의 주황 점선, 도장 팔레트 색.

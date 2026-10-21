@@ -251,6 +251,16 @@ SHOTS["sv"] = [
     ("04-home.png", "hero", "Även med dina egna videor",
      "Rita ovanpå videor<br>du spelat in själv", "Alla verk väntar på startskärmen"),
 ]
+SHOTS["tr"] = [
+    ("01-trace-bunny.png", "hero", "Üstünden çiz ve canlandır",
+     "Çocuğunuzun çizimleri<br>canlanıyor", "Soluk çizgilerin üstünden sayfa sayfa çizin"),
+    ("02-trace-rocket.png", "tilt-left", "Sayfa sayfa",
+     "Çizgileri izle,<br>çizgi film yap", "Tavşan, roket, kurbağa ve daha fazlası: 10 set"),
+    ("03-stamps-fish.png", "tilt-right", "Damga paleti",
+     "Kalp, yıldız ve çiçek<br>damgalarını bas", "Okumak gerekmez, resimlere dokunmak yeter"),
+    ("04-home.png", "hero", "Kendi videolarınla da",
+     "Çektiğin videoların<br>üstüne çiz", "Tüm çalışmalar ana ekranda bekler"),
+]
 
 CSS = """
 * { margin:0; padding:0; box-sizing:border-box; }
