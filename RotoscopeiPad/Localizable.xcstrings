@@ -105,6 +105,12 @@
             "value": "%@ · Разовая покупка — навсегда"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · Engångsköp – ditt för alltid"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -234,6 +240,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Улучшенная поддержка VoiceOver"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bättre stöd för VoiceOver"
           }
         },
         "th": {
@@ -426,6 +438,12 @@
             "value": "Тонкая кисть"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tunn pensel"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -556,6 +574,12 @@
             "value": "Семейный доступ: пользуйтесь на всех iPad в семье"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Familjedelning: använd på alla familjens iPads"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -684,6 +708,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Политика конфиденциальности"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Integritetspolicy"
           }
         },
         "th": {
@@ -817,6 +847,12 @@
             "value": "Чёрный"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Svart"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -945,6 +981,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Восстановить покупки"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Återställ köp"
           }
         },
         "th": {
@@ -1078,6 +1120,12 @@
             "value": "Толстая кисть"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tjock pensel"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -1207,6 +1255,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Крупный текст не обрезается — экран аккуратно перестраивается."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Större text klipps aldrig av – skärmen ordnar om sig snyggt."
           }
         },
         "th": {
@@ -1340,6 +1394,12 @@
             "value": "Синхронизация между устройствами"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Synkronisering mellan enheter"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -1469,6 +1529,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Нажмите и удерживайте, чтобы удалить."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryck och håll för att radera."
           }
         },
         "th": {
@@ -1602,6 +1668,12 @@
             "value": "Штамп «Цветок»"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Blomstämpel"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -1730,6 +1802,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Рисуйте поверх своих видео без ограничений"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rita ovanpå dina egna videor utan begränsning"
           }
         },
         "th": {
@@ -1863,6 +1941,12 @@
             "value": "Моя работа"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mitt verk"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -1992,6 +2076,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Штамп «Квадрат»"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fyrkantsstämpel"
           }
         },
         "th": {
@@ -2125,6 +2215,12 @@
             "value": "Жёлтый"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gul"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -2254,6 +2350,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Остановить запись"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stoppa inspelningen"
           }
         },
         "th": {
@@ -2387,6 +2489,12 @@
             "value": "Продолжайте рисовать ту же работу на другом iPad."
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fortsätt rita på samma verk på en annan iPad."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -2515,6 +2623,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Повторить"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Försök igen"
           }
         },
         "th": {
@@ -2648,6 +2762,12 @@
             "value": "Далее"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nästa"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -2777,6 +2897,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Рисовать следующую картинку"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rita nästa bild"
           }
         },
         "th": {
@@ -2910,6 +3036,12 @@
             "value": "Рисуем следующую страницу"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rita nästa sida"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -3039,6 +3171,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Тёмная тема"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mörkt läge"
           }
         },
         "th": {
@@ -3172,6 +3310,12 @@
             "value": "Закрыть"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stäng"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -3301,6 +3445,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Всё хорошо читается при повышенной контрастности и когда трудно различать цвета."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Allt förblir läsbart med Öka kontrast på eller om det är svårt att skilja på färger."
           }
         },
         "th": {
@@ -3434,6 +3584,12 @@
             "value": "Штамп «Круг»"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cirkelstämpel"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -3563,6 +3719,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Открыть ссылку на видео"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öppna en videolänk"
           }
         },
         "th": {
@@ -3696,6 +3858,12 @@
             "value": "Показать видео на фоне"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Visa videobakgrund"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -3825,6 +3993,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Скрыть видео на фоне"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dölj videobakgrund"
           }
         },
         "th": {
@@ -3958,6 +4132,12 @@
             "value": "Снять видео"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spela in en video"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -4087,6 +4267,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Начните с видео, чистой страницы или набора для обводки."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Börja med en video, en tom sida eller ett rita av-set."
           }
         },
         "th": {
@@ -4219,6 +4405,12 @@
             "value": "Добавьте видео, чтобы начать!"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hämta in en video för att komma igång!"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -4347,6 +4539,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Не удалось добавить видео: %@"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Videon kunde inte hämtas in: %@"
           }
         },
         "th": {
@@ -4479,6 +4677,12 @@
             "value": "При создании видео что-то пошло не так."
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Något gick fel när videon skulle skapas."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -4607,6 +4811,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Открываем видео…"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öppnar videon …"
           }
         },
         "th": {
@@ -4739,6 +4949,12 @@
             "value": "Не удаётся прочитать это видео. Попробуем другое?"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Videon går inte att läsa. Vill du prova en annan?"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -4869,6 +5085,12 @@
             "value": "Это не видео. Выберите видео!"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det där är ingen video. Välj en video!"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -4997,6 +5219,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Видео нет."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det finns ingen video."
           }
         },
         "th": {
@@ -5130,6 +5358,12 @@
             "value": "Отменить"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ångra"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -5259,6 +5493,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Набор для обводки %lld"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rita av-set %lld"
           }
         },
         "th": {
@@ -5608,6 +5848,24 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "Наборов для обводки: %lld — и все новые в придачу"
+                }
+              }
+            }
+          }
+        },
+        "sv": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Alla %lld rita av-set och varje nytt"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Alla %lld rita av-set och varje nytt"
                 }
               }
             }
@@ -5977,6 +6235,24 @@
             }
           }
         },
+        "sv": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld rita av-set är gratis, resten låses upp med Livstidsåtkomst."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld rita av-set är gratis, resten låses upp med Livstidsåtkomst."
+                }
+              }
+            }
+          }
+        },
         "th": {
           "variations": {
             "plural": {
@@ -6119,6 +6395,12 @@
             "value": "Ссылка выглядит неправильно."
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Länken ser inte rätt ut."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -6248,6 +6530,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Нажмите на микрофон, чтобы записать голос, пока анимация проигрывается один раз."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryck på mikrofonen för att spela in din röst medan animationen spelas upp en gång."
           }
         },
         "th": {
@@ -6381,6 +6669,12 @@
             "value": "Написать нам"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mejla oss"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -6509,6 +6803,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Всё открыто"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Allt är upplåst"
           }
         },
         "th": {
@@ -6642,6 +6942,12 @@
             "value": "Добавьте свой голос"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lägg till din röst"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -6773,6 +7079,12 @@
             "value": "Записать голос"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spela in röst"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -6901,6 +7213,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Запись голоса без ограничения по времени"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ingen tidsgräns för röstinspelning"
           }
         },
         "th": {
@@ -7250,6 +7568,24 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "В бесплатной версии можно добавить видео: %lld."
+                }
+              }
+            }
+          }
+        },
+        "sv": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Gratisversionen låter dig hämta in %lld video."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Gratisversionen låter dig hämta in %lld videor."
                 }
               }
             }
@@ -7619,6 +7955,24 @@
             }
           }
         },
+        "sv": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Gratisversionen spelar in röst i upp till %lld sekund."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Gratisversionen spelar in röst i upp till %lld sekunder."
+                }
+              }
+            }
+          }
+        },
         "th": {
           "variations": {
             "plural": {
@@ -7978,6 +8332,24 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "В бесплатной версии в чистом флипбуке можно нарисовать до %lld страницы."
+                }
+              }
+            }
+          }
+        },
+        "sv": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Gratisversionen tillåter upp till %lld sida i en tom flipbook."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Gratisversionen tillåter upp till %lld sidor i en tom flipbook."
                 }
               }
             }
@@ -8347,6 +8719,24 @@
             }
           }
         },
+        "sv": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Gratisversionen sparar upp till %lld verk."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Gratisversionen sparar upp till %lld verk."
+                }
+              }
+            }
+          }
+        },
         "th": {
           "variations": {
             "plural": {
@@ -8490,6 +8880,12 @@
             "value": "Штамп «Звезда»"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stjärnstämpel"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -8619,6 +9015,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Удобные цвета и контрастность"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Färger och kontrast som är lättare att se"
           }
         },
         "th": {
@@ -8752,6 +9154,12 @@
             "value": "Фиолетовый"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lila"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -8883,6 +9291,12 @@
             "value": "Средняя кисть"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medeltjock pensel"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -9011,6 +9425,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Проверка для взрослых: нажмите ответ на пример ниже."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vuxenkontroll: tryck på svaret på räkneexemplet nedan."
           }
         },
         "th": {
@@ -9144,6 +9564,12 @@
             "value": "Розовый"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rosa"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -9275,6 +9701,12 @@
             "value": "Кисть"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pensel"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -9403,6 +9835,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Вставить"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klistra in"
           }
         },
         "th": {
@@ -9536,6 +9974,12 @@
             "value": "Чистый флипбук"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tom flipbook"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -9667,6 +10111,12 @@
             "value": "Новый чистый флипбук"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ny tom flipbook"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -9795,6 +10245,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Чистые флипбуки без ограничения страниц"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tomma flipbooks med obegränsat antal sidor"
           }
         },
         "th": {
@@ -9928,6 +10384,12 @@
             "value": "Красный"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Röd"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -10057,6 +10519,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Сохранить в «Фото»"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spara i Bilder"
           }
         },
         "th": {
@@ -10189,6 +10657,12 @@
             "value": "Чтобы сохранять в «Фото», разрешите доступ в настройках."
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tillåt åtkomst i Inställningar för att spara i Bilder."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -10317,6 +10791,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Загружаем из «Фото»… секундочку!"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hämtar från Bilder … ett ögonblick!"
           }
         },
         "th": {
@@ -10450,6 +10930,12 @@
             "value": "Выбрать видео из «Фото»"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Välj en video från Bilder"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -10578,6 +11064,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Не удалось загрузить варианты покупки."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Köpalternativen kunde inte laddas."
           }
         },
         "th": {
@@ -10711,6 +11203,12 @@
             "value": "Штамп «Птичка»"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fågelstämpel"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -10839,6 +11337,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Настройки"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inställningar"
           }
         },
         "th": {
@@ -10972,6 +11476,12 @@
             "value": "Штамп «Треугольник»"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Triangelstämpel"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -11101,6 +11611,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Начать"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kom igång"
           }
         },
         "th": {
@@ -11233,6 +11749,12 @@
             "value": "Детские рисунки оживают"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Barnens teckningar väcks till liv"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -11361,6 +11883,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Неизвестная проблема"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Okänt problem"
           }
         },
         "th": {
@@ -11494,6 +12022,12 @@
             "value": "Смотрите работы ребёнка прямо на экране «Домой», не открывая приложение."
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se barnets verk direkt på hemskärmen utan att öppna appen."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -11625,6 +12159,12 @@
             "value": "На тёмном экране текст и кнопки остаются чёткими."
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Text och knappar förblir skarpa och tydliga på en mörk skärm."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -11753,6 +12293,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Покажите это взрослому"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Visa det här för en vuxen"
           }
         },
         "th": {
@@ -11886,6 +12432,12 @@
             "value": "При первом запуске после обновления вы увидите, что нового."
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Första gången du öppnar appen efter en uppdatering ser du vad som är nytt."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -12015,6 +12567,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Что нового"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nyheter"
           }
         },
         "th": {
@@ -12147,6 +12705,12 @@
             "value": "Открыть"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öppna"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -12277,6 +12841,12 @@
             "value": "Не удалось открыть. Убедитесь, что это ссылка на видео."
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det gick inte att öppna. Kontrollera att det är en videolänk."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -12405,6 +12975,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Не удалось открыть. Проверьте ссылку и повторите попытку."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det gick inte att öppna. Kontrollera länken och försök igen."
           }
         },
         "th": {
@@ -12538,6 +13114,12 @@
             "value": "Уменьшение движения"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reducera rörelse"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -12667,6 +13249,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Когда включено «Уменьшение движения», эффекты на экране становятся спокойнее."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Med Reducera rörelse på blir animationerna lugnare."
           }
         },
         "th": {
@@ -12800,6 +13388,12 @@
             "value": "Удаляйте все работы в приложении разом, когда захотите."
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Radera alla verk i appen på en gång när du vill."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -12929,6 +13523,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Стереть всю страницу"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rensa den här sidan"
           }
         },
         "th": {
@@ -13061,6 +13661,12 @@
             "value": "Доступ"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lås upp"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -13189,6 +13795,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Условия использования"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Användarvillkor"
           }
         },
         "th": {
@@ -13322,6 +13934,12 @@
             "value": "Предыдущая картинка"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Föregående bild"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -13451,6 +14069,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Личное сообщение в Instagram (@lee25_ios)"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instagram-meddelande (@lee25_ios)"
           }
         },
         "th": {
@@ -13584,6 +14208,12 @@
             "value": "Пауза"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pausa"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -13713,6 +14343,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Штамп «Машинка»"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bilstämpel"
           }
         },
         "th": {
@@ -13846,6 +14482,12 @@
             "value": "Маленький штамп"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Liten stämpel"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -13975,6 +14617,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Резервное копирование работ"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Säkerhetskopiera verk"
           }
         },
         "th": {
@@ -14108,6 +14756,12 @@
             "value": "Удалить все работы разом"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Radera alla verk på en gång"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -14236,6 +14890,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Неограниченное хранение работ"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spara obegränsat med verk"
           }
         },
         "th": {
@@ -14369,6 +15029,12 @@
             "value": "Сохраняйте работы в файл и возвращайте их когда угодно."
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spara verk som en fil och hämta tillbaka dem när som helst."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -14498,6 +15164,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Закрыто"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Låst"
           }
         },
         "th": {
@@ -14631,6 +15303,12 @@
             "value": "Страницы"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sidor"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -14760,6 +15438,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Воспроизвести"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spela upp"
           }
         },
         "th": {
@@ -14893,6 +15577,12 @@
             "value": "Показать панель воспроизведения"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Visa uppspelningsfältet"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -15022,6 +15712,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Скрыть панель воспроизведения"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dölj uppspelningsfältet"
           }
         },
         "th": {
@@ -15155,6 +15851,12 @@
             "value": "Нажмите «Воспроизвести» — рисунок оживёт. Добавьте голос и сохраните в «Фото»."
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryck på spela upp så väcks teckningarna till liv. Lägg till din röst och spara i Bilder."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -15283,6 +15985,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Без карточки Palang Book в конце сохранённых видео"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inget Palang Book-kort i slutet av sparade videor"
           }
         },
         "th": {
@@ -15414,6 +16122,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Оранжевый"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Orange"
           }
         },
         "th": {
@@ -15768,6 +16482,24 @@
             }
           }
         },
+        "sv": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Klart! Det finns %lld scen. Börja rita 🎨"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Klart! Det finns %lld scener. Börja rita 🎨"
+                }
+              }
+            }
+          }
+        },
         "th": {
           "variations": {
             "plural": {
@@ -15911,6 +16643,12 @@
             "value": "Средний штамп"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medelstor stämpel"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -16040,6 +16778,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ластик"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suddgummi"
           }
         },
         "th": {
@@ -16172,6 +16916,12 @@
             "value": "Удалить"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Radera"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -16300,6 +17050,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Поддержка"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Support"
           }
         },
         "th": {
@@ -16433,6 +17189,12 @@
             "value": "Бирюзовый"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Turkos"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -16562,6 +17324,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Зелёный"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grön"
           }
         },
         "th": {
@@ -16695,6 +17463,12 @@
             "value": "Экраны под крупный текст"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Layouter som passar större text"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -16824,6 +17598,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Большой штамп"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stor stämpel"
           }
         },
         "th": {
@@ -16957,6 +17737,12 @@
             "value": "Синий"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Blå"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -17082,6 +17868,12 @@
           }
         },
         "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
+        },
+        "sv": {
           "stringUnit": {
             "state": "translated",
             "value": "Palang Book"
@@ -17217,6 +18009,12 @@
             "value": "Palang Book: пожизненный доступ"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book Livstidsåtkomst"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -17348,6 +18146,12 @@
             "value": "Открывает Palang Book с новым чистым флипбуком — можно сразу рисовать."
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Öppnar Palang Book med en ny tom flipbook, redo att rita i."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -17476,6 +18280,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Пожизненный доступ"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Livstidsåtkomst"
           }
         },
         "th": {
@@ -17609,6 +18419,12 @@
             "value": "Штамп «Сердце»"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hjärtstämpel"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -17739,6 +18555,12 @@
             "value": "Одна покупка открывает в Palang Book всё — навсегда."
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ett köp låser upp allt i Palang Book – för alltid."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -17867,6 +18689,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Разовый платёж, не подписка. Списывается с вашей учётной записи App Store."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Engångsbetalning, inte en prenumeration. Debiteras ditt App Store-konto."
           }
         },
         "th": {
@@ -18000,6 +18828,12 @@
             "value": "Нарисуйте страницу и нажмите оранжевую кнопку, чтобы рисовать следующую."
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rita en sida och tryck sedan på den orange knappen för att rita nästa."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -18129,6 +18963,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Закончили страницу? Нажмите оранжевую кнопку и рисуйте следующую картинку."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klar med sidan? Tryck på den orange knappen för att rita nästa bild."
           }
         },
         "th": {
@@ -18262,6 +19102,12 @@
             "value": "Стереть цифру"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Radera siffra"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -18391,6 +19237,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Виджеты для экрана «Домой»"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widgets för hemskärmen"
           }
         },
         "th": {
@@ -18524,6 +19376,12 @@
             "value": "Домой"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hem"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -18655,6 +19513,12 @@
             "value": "VoiceOver озвучивает все кнопки и инструменты рисования в правильном порядке."
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoiceOver läser upp varje knapp och ritverktyg i rätt ordning."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -18781,6 +19645,12 @@
           }
         },
         "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
+        "sv": {
           "stringUnit": {
             "state": "translated",
             "value": "OK"
@@ -18915,6 +19785,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Белый"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vit"
           }
         },
         "th": {

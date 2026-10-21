@@ -241,6 +241,16 @@ SHOTS["pl"] = [
     ("04-home.png", "hero", "Także z własnymi filmami",
      "Rysuj po filmach,<br>które sam nagrasz", "Wszystkie prace czekają na ekranie głównym"),
 ]
+SHOTS["sv"] = [
+    ("01-trace-bunny.png", "hero", "Rita av och animera",
+     "Barnets teckningar<br>väcks till liv", "Rita av ljusa konturer sida för sida"),
+    ("02-trace-rocket.png", "tilt-left", "Sida för sida",
+     "Följ linjerna,<br>gör en tecknad film", "Kanin, raket, groda och mer: 10 set"),
+    ("03-stamps-fish.png", "tilt-right", "Stämpelpalett",
+     "Stämpla hjärtan,<br>stjärnor och blommor", "Ingen läsning behövs, bara tryck på bilderna"),
+    ("04-home.png", "hero", "Även med dina egna videor",
+     "Rita ovanpå videor<br>du spelat in själv", "Alla verk väntar på startskärmen"),
+]
 
 CSS = """
 * { margin:0; padding:0; box-sizing:border-box; }

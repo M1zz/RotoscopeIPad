@@ -112,6 +112,12 @@
             "value": "Palang Book"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -247,6 +253,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Нужно, чтобы снимать видео, на которых можно рисовать."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Behövs för att spela in videor som du kan rita ovanpå."
           }
         },
         "th": {
@@ -386,6 +398,12 @@
             "value": "Нужно, чтобы записывать голос для анимаций."
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Behövs för att spela in röster till dina animationer."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -523,6 +541,12 @@
             "value": "Нужно, чтобы сохранять готовые анимации в «Фото»."
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Behövs för att spara färdiga animationer i Bilder."
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -658,6 +682,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Нужно, чтобы добавлять видео, на которых можно рисовать."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Behövs för att hämta in videor som du kan rita ovanpå."
           }
         },
         "th": {

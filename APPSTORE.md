@@ -1220,3 +1220,54 @@ Gotowe animacje zapisują się jako filmy w aplikacji Zdjęcia, gotowe do pokaza
 Wszystkie prace czekają na ekranie głównym, więc dziecko zawsze może wrócić do rysowania tam, gdzie skończyło.
 Za darmo na start, Dostęp na zawsze do wszystkiego
 Za darmo dziecko może obrysowywać 3 zestawy, przechowywać 3 prace, dodać 1 film, rysować w pustych flipbookach do 10 stron i nagrywać głos do 15 sekund. Jednorazowy Dostęp na zawsze odblokowuje wszystkie zestawy do obrysowania, także przyszłe, oraz nielimitowane prace, filmy, strony i czas nagrywania, a także usuwa kartę Palang Book na końcu zapisanych filmów. To nie subskrypcja i działa z Rodziną. Ekran zakupu otwiera się dopiero po tym, jak dorosły odpowie na krótkie pytanie.
+
+## sv
+
+### 지원 URL
+
+https://m1zz.github.io/RotoscopeIPad/sv/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/RotoscopeIPad/sv/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/RotoscopeIPad/sv/
+
+### 이름
+
+Palang Book: Barnens ritfilm
+
+### 부제
+
+Rita av och se det röra sig
+
+### 키워드
+
+rita,måla,barn,förskola,stämplar,pyssel,kreativ,konst,animation,stopmotion,småbarn,klottra
+
+### 프로모션 텍스트
+
+Rita av ljusa konturer sida för sida, tryck på spela upp, så väcks teckningen till liv. Lägg till stämplar, spela in rösten och spara en film som är helt barnets egen.
+
+### 설명
+
+Barnets teckningar blir en riktig animation.
+Barnet ritar av en ljus förlaga sida för sida, trycker på spela upp, och förlagan försvinner så att bara barnets egen teckning rör sig.
+I Palang Book är varje knapp en bild, så även barn som inte kan läsa än kommer igång på egen hand. Man ritar med fingret eller Apple Pencil.
+10 rita av-set
+En studsande boll, en hoppande kanin, en flygande fågel, en simmande fisk, en blomma som slår ut, en fjäril, en racerbil, en raket som lyfter, en groda och en vindsnurra. Varje set har cirka 20 sidor med förlagor, och föregående sida skymtar svagt igenom, så det är lätt att få nästa teckning att passa.
+Rita ovanpå dina egna videor
+Hämta in en video du spelat in själv, en från appen Bilder eller en länk till en videofil och rita av direkt ovanpå. Döljer du bakgrunden spelas bara de scener barnet ritat upp efter varandra på rent vitt papper.
+Tomma flipbooks
+Utan förlagor ritar barnet fritt på vitt papper och bläddrar sida för sida för att skapa sin alldeles egna flipbook.
+Stämplar och färger
+Dekorera med stämplar som hjärta, cirkel, fyrkant, triangel, stjärna, blomma, bil och fågel. Det finns tre stämpelstorlekar, tio färger och tre penselstorlekar. Det finns också suddgummi, ångra och en knapp som rensar hela sidan på en gång.
+Spela in röst
+Tryck på mikrofonen så loopar animationen medan barnet spelar in sin röst till den.
+Spara i Bilder
+Färdiga animationer sparas som videor i appen Bilder, redo att delas med familjen.
+Alla verk väntar på startskärmen, så barnet kan alltid rita vidare där det slutade.
+Gratis att börja med, Livstidsåtkomst till allt
+Gratis kan barnet rita av 3 set, spara 3 verk, hämta in 1 video, rita tomma flipbooks på upp till 10 sidor och spela in röst i upp till 15 sekunder. Livstidsåtkomst, ett engångsköp, låser upp alla rita av-set, även kommande, samt obegränsat med verk, videor, sidor och inspelningstid, och tar bort Palang Book-kortet i slutet av sparade videor. Det är ingen prenumeration och fungerar med Familjedelning. Köpskärmen öppnas först när en vuxen har svarat på en snabb fråga.

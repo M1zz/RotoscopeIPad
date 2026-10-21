@@ -111,6 +111,12 @@
             "value": "Новый флипбук в ${applicationName}"
           }
         },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ny flipbook i ${applicationName}"
+          }
+        },
         "th": {
           "stringUnit": {
             "state": "translated",
@@ -245,6 +251,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Рисовать в ${applicationName}"
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rita med ${applicationName}"
           }
         },
         "th": {
