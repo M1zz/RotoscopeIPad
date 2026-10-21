@@ -1169,3 +1169,54 @@ Voltooide animaties worden als video bewaard in de Foto’s-app, klaar om met he
 Elk kunstwerk wacht op het hoofdscherm, zodat je kind altijd verder kan tekenen waar het gebleven was.
 Gratis beginnen, Levenslange toegang voor alles
 Gratis kan je kind 3 sets overtrekken, 3 kunstwerken bewaren, 1 video toevoegen, lege flipboeken tekenen tot 10 pagina’s en stem opnemen tot 15 seconden. Eenmalige Levenslange toegang ontgrendelt alle overtreksets, ook toekomstige, plus onbeperkt kunstwerken, video’s, pagina’s en opnametijd, en haalt de Palang Book-kaart aan het eind van bewaarde video’s weg. Het is geen abonnement en werkt met Delen met gezin. Het aankoopscherm opent pas nadat een volwassene een korte vraag heeft beantwoord.
+
+## pl
+
+### 지원 URL
+
+https://m1zz.github.io/RotoscopeIPad/pl/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/RotoscopeIPad/pl/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/RotoscopeIPad/pl/
+
+### 이름
+
+Palang Book: Rysowane bajki
+
+### 부제
+
+Obrysuj, a rysunek ożyje
+
+### 키워드
+
+rysowanie,kolorowanki,dzieci,przedszkole,pieczątki,bazgroły,plastyka,animacja,malowanie,maluchy
+
+### 프로모션 텍스트
+
+Obrysowuj jasne kontury strona po stronie, naciśnij odtwarzanie, a rysunek dziecka ożyje. Dodaj pieczątki, nagraj głos i zapisz film, który dziecko zrobiło samo.
+
+### 설명
+
+Rysunki Twojego dziecka zamieniają się w prawdziwą animację.
+Dziecko obrysowuje jasny kontur strona po stronie, naciska odtwarzanie, a kontury znikają — rusza się tylko jego własny rysunek.
+W Palang Book każdy przycisk jest obrazkiem, więc nawet dzieci, które jeszcze nie czytają, poradzą sobie same. Rysować można palcem lub Apple Pencil.
+10 zestawów do obrysowania
+Podskakująca piłka, skaczący króliczek, lecący ptaszek, pływająca rybka, rozkwitający kwiat, motyl, samochód wyścigowy, startująca rakieta, żaba i wiatraczek. W każdym zestawie jest około 20 stron z konturami, a poprzednia strona delikatnie prześwituje, więc łatwo dopasować następny rysunek.
+Rysuj po własnych filmach
+Dodaj własnoręcznie nagrany film, film z aplikacji Zdjęcia albo link do pliku wideo i obrysowuj prosto po nim. Gdy ukryjesz tło, odtwarzane są tylko sceny narysowane przez dziecko, jedna po drugiej, na czystej białej kartce.
+Puste flipbooki
+Bez konturów dziecko rysuje swobodnie na białej kartce i przewraca strona po stronie, by stworzyć własny flipbook.
+Pieczątki i kolory
+Ozdabiaj pieczątkami: serce, kółko, kwadrat, trójkąt, gwiazdka, kwiatek, auto i ptaszek. Są trzy rozmiary pieczątek, dziesięć kolorów i trzy grubości pędzla. Jest też gumka, cofanie i przycisk, który czyści całą stronę naraz.
+Nagrywanie głosu
+Dotknij mikrofonu, a animacja będzie się zapętlać, gdy dziecko nagrywa swój głos.
+Zapis w Zdjęciach
+Gotowe animacje zapisują się jako filmy w aplikacji Zdjęcia, gotowe do pokazania całej rodzinie.
+Wszystkie prace czekają na ekranie głównym, więc dziecko zawsze może wrócić do rysowania tam, gdzie skończyło.
+Za darmo na start, Dostęp na zawsze do wszystkiego
+Za darmo dziecko może obrysowywać 3 zestawy, przechowywać 3 prace, dodać 1 film, rysować w pustych flipbookach do 10 stron i nagrywać głos do 15 sekund. Jednorazowy Dostęp na zawsze odblokowuje wszystkie zestawy do obrysowania, także przyszłe, oraz nielimitowane prace, filmy, strony i czas nagrywania, a także usuwa kartę Palang Book na końcu zapisanych filmów. To nie subskrypcja i działa z Rodziną. Ekran zakupu otwiera się dopiero po tym, jak dorosły odpowie na krótkie pytanie.

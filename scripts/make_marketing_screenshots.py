@@ -231,6 +231,16 @@ SHOTS["nl"] = [
     ("04-home.png", "hero", "Ook met je eigen video’s",
      "Teken over video’s<br>die je zelf opnam", "Elk kunstwerk wacht op het beginscherm"),
 ]
+SHOTS["pl"] = [
+    ("01-trace-bunny.png", "hero", "Obrysuj i animuj",
+     "Rysunki Twojego dziecka<br>ożywają", "Obrysowuj jasne kontury strona po stronie"),
+    ("02-trace-rocket.png", "tilt-left", "Strona po stronie",
+     "Podążaj za liniami,<br>zrób bajkę", "Króliczek, rakieta, żaba i inne: 10 zestawów"),
+    ("03-stamps-fish.png", "tilt-right", "Paleta pieczątek",
+     "Przybijaj serca,<br>gwiazdki i kwiatki", "Nie trzeba czytać, wystarczy dotykać obrazków"),
+    ("04-home.png", "hero", "Także z własnymi filmami",
+     "Rysuj po filmach,<br>które sam nagrasz", "Wszystkie prace czekają na ekranie głównym"),
+]
 
 CSS = """
 * { margin:0; padding:0; box-sizing:border-box; }

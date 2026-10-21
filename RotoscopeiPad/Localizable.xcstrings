@@ -87,6 +87,12 @@
             "value": "%@ · Eenmalige aankoop, voor altijd van jou"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · Jednorazowy zakup, Twój na zawsze"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -210,6 +216,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Betere ondersteuning voor VoiceOver"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lepsza obsługa VoiceOver"
           }
         },
         "pt-BR": {
@@ -396,6 +408,12 @@
             "value": "Dunne kwast"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cienki pędzel"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -520,6 +538,12 @@
             "value": "Delen met gezin: gebruik het op elke iPad in je gezin"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rodzina: korzystaj na każdym iPadzie w rodzinie"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -642,6 +666,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Privacybeleid"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Polityka prywatności"
           }
         },
         "pt-BR": {
@@ -769,6 +799,12 @@
             "value": "Zwart"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Czarny"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -891,6 +927,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aankopen herstellen"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przywróć zakupy"
           }
         },
         "pt-BR": {
@@ -1018,6 +1060,12 @@
             "value": "Dikke kwast"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gruby pędzel"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -1141,6 +1189,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Grotere tekst wordt nooit afgekapt — het scherm schikt zich netjes opnieuw."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Większy tekst nigdy się nie ucina — ekran sam się porządnie przestawia."
           }
         },
         "pt-BR": {
@@ -1268,6 +1322,12 @@
             "value": "Synchroniseren tussen apparaten"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Synchronizacja między urządzeniami"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -1391,6 +1451,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Houd ingedrukt om te verwijderen."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dotknij i przytrzymaj, aby usunąć."
           }
         },
         "pt-BR": {
@@ -1518,6 +1584,12 @@
             "value": "Bloemstempel"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pieczątka Kwiatek"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -1640,6 +1712,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Teken over je eigen video’s, onbeperkt"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rysuj po własnych filmach bez ograniczeń"
           }
         },
         "pt-BR": {
@@ -1767,6 +1845,12 @@
             "value": "Mijn kunstwerk"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Moja praca"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -1890,6 +1974,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vierkante stempel"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pieczątka Kwadrat"
           }
         },
         "pt-BR": {
@@ -2017,6 +2107,12 @@
             "value": "Geel"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Żółty"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -2140,6 +2236,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Opname stoppen"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zatrzymaj nagrywanie"
           }
         },
         "pt-BR": {
@@ -2267,6 +2369,12 @@
             "value": "Teken verder aan hetzelfde kunstwerk op een andere iPad."
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dokończ rysować tę samą pracę na innym iPadzie."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -2389,6 +2497,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Probeer opnieuw"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spróbuj ponownie"
           }
         },
         "pt-BR": {
@@ -2516,6 +2630,12 @@
             "value": "Volgende"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dalej"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -2639,6 +2759,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Teken het volgende plaatje"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Narysuj następny obrazek"
           }
         },
         "pt-BR": {
@@ -2766,6 +2892,12 @@
             "value": "Teken de volgende pagina"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Narysuj następną stronę"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -2889,6 +3021,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Donkere modus"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryb ciemny"
           }
         },
         "pt-BR": {
@@ -3016,6 +3154,12 @@
             "value": "Sluit"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zamknij"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -3139,6 +3283,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Alles blijft leesbaar met Verhoog contrast aan of als kleuren moeilijk te onderscheiden zijn."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wszystko pozostaje czytelne przy włączonym zwiększonym kontraście lub gdy trudno rozróżniać kolory."
           }
         },
         "pt-BR": {
@@ -3266,6 +3416,12 @@
             "value": "Cirkelstempel"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pieczątka Kółko"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -3389,6 +3545,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Videolink openen"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otwórz link do filmu"
           }
         },
         "pt-BR": {
@@ -3516,6 +3678,12 @@
             "value": "Videoachtergrond tonen"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pokaż film w tle"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -3639,6 +3807,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Videoachtergrond verbergen"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ukryj film w tle"
           }
         },
         "pt-BR": {
@@ -3766,6 +3940,12 @@
             "value": "Video opnemen"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nagraj film"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -3889,6 +4069,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Begin met een video, een lege pagina of een overtrekset."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zacznij od filmu, pustej strony lub zestawu do obrysowania."
           }
         },
         "pt-BR": {
@@ -4015,6 +4201,12 @@
             "value": "Haal een video erbij om te beginnen!"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj film, żeby zacząć!"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -4137,6 +4329,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "De video kon niet worden toegevoegd: %@"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie udało się dodać filmu: %@"
           }
         },
         "pt-BR": {
@@ -4263,6 +4461,12 @@
             "value": "Er ging iets mis bij het maken van de video."
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coś poszło nie tak podczas tworzenia filmu."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -4385,6 +4589,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Video openen…"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otwieram film…"
           }
         },
         "pt-BR": {
@@ -4511,6 +4721,12 @@
             "value": "Deze video kan niet worden gelezen. Wil je een andere proberen?"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie mogę odczytać tego filmu. Spróbujemy innego?"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -4635,6 +4851,12 @@
             "value": "Dat is geen video. Kies een video!"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To nie jest film. Wybierz film!"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -4757,6 +4979,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Er is geen video."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie ma filmu."
           }
         },
         "pt-BR": {
@@ -4884,6 +5112,12 @@
             "value": "Ongedaan maken"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cofnij"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -5007,6 +5241,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Overtrekset %lld"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zestaw do obrysowania %lld"
           }
         },
         "pt-BR": {
@@ -5290,6 +5530,36 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "Alle %lld overtreksets, plus elke nieuwe"
+                }
+              }
+            }
+          }
+        },
+        "pl": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wszystkie zestawy do obrysowania (%lld) i każdy nowy"
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wszystkie zestawy do obrysowania (%lld) i każdy nowy"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wszystkie zestawy do obrysowania (%lld) i każdy nowy"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wszystkie zestawy do obrysowania (%lld) i każdy nowy"
                 }
               }
             }
@@ -5629,6 +5899,36 @@
             }
           }
         },
+        "pl": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Za darmo: %lld zestaw do obrysowania, resztę odblokuje Dostęp na zawsze."
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Za darmo: %lld zestawy do obrysowania, resztę odblokuje Dostęp na zawsze."
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Za darmo: %lld zestawów do obrysowania, resztę odblokuje Dostęp na zawsze."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Za darmo: %lld zestawu do obrysowania, resztę odblokuje Dostęp na zawsze."
+                }
+              }
+            }
+          }
+        },
         "pt-BR": {
           "variations": {
             "plural": {
@@ -5801,6 +6101,12 @@
             "value": "Deze link ziet er niet goed uit."
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ten link wygląda nieprawidłowo."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -5924,6 +6230,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tik op de microfoon om je stem op te nemen terwijl de animatie één keer afspeelt."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dotknij mikrofonu, aby nagrać swój głos, gdy animacja odtwarza się jeden raz."
           }
         },
         "pt-BR": {
@@ -6051,6 +6363,12 @@
             "value": "Mail ons"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Napisz do nas"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -6173,6 +6491,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Alles is ontgrendeld"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wszystko jest odblokowane"
           }
         },
         "pt-BR": {
@@ -6300,6 +6624,12 @@
             "value": "Voeg je stem toe"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj swój głos"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -6425,6 +6755,12 @@
             "value": "Stem opnemen"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nagraj głos"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -6547,6 +6883,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Geen tijdslimiet voor stemopnames"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bez limitu czasu nagrywania głosu"
           }
         },
         "pt-BR": {
@@ -6830,6 +7172,36 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "In de gratis versie kun je %lld video’s toevoegen."
+                }
+              }
+            }
+          }
+        },
+        "pl": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "W wersji bezpłatnej możesz dodać %lld film."
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "W wersji bezpłatnej możesz dodać %lld filmy."
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "W wersji bezpłatnej możesz dodać %lld filmów."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "W wersji bezpłatnej możesz dodać %lld filmu."
                 }
               }
             }
@@ -7169,6 +7541,36 @@
             }
           }
         },
+        "pl": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wersja bezpłatna nagrywa głos do %lld sekundy."
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wersja bezpłatna nagrywa głos do %lld sekund."
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wersja bezpłatna nagrywa głos do %lld sekund."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wersja bezpłatna nagrywa głos do %lld sekundy."
+                }
+              }
+            }
+          }
+        },
         "pt-BR": {
           "variations": {
             "plural": {
@@ -7498,6 +7900,36 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "De gratis versie staat tot %lld pagina’s toe in een leeg flipboek."
+                }
+              }
+            }
+          }
+        },
+        "pl": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wersja bezpłatna pozwala narysować w pustym flipbooku do %lld strony."
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wersja bezpłatna pozwala narysować w pustym flipbooku do %lld stron."
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wersja bezpłatna pozwala narysować w pustym flipbooku do %lld stron."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wersja bezpłatna pozwala narysować w pustym flipbooku do %lld strony."
                 }
               }
             }
@@ -7837,6 +8269,36 @@
             }
           }
         },
+        "pl": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wersja bezpłatna przechowuje do %lld pracy."
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wersja bezpłatna przechowuje do %lld prac."
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wersja bezpłatna przechowuje do %lld prac."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Wersja bezpłatna przechowuje do %lld pracy."
+                }
+              }
+            }
+          }
+        },
         "pt-BR": {
           "variations": {
             "plural": {
@@ -8010,6 +8472,12 @@
             "value": "Sterrenstempel"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pieczątka Gwiazdka"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -8133,6 +8601,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kleuren en contrast die makkelijker te zien zijn"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Łatwiej widoczne kolory i kontrast"
           }
         },
         "pt-BR": {
@@ -8260,6 +8734,12 @@
             "value": "Paars"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fioletowy"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -8385,6 +8865,12 @@
             "value": "Middelgrote kwast"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Średni pędzel"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -8507,6 +8993,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Volwassenencontrole: tik op het antwoord op de som hieronder."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sprawdzian dla dorosłych: dotknij odpowiedzi do działania poniżej."
           }
         },
         "pt-BR": {
@@ -8634,6 +9126,12 @@
             "value": "Roze"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Różowy"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -8759,6 +9257,12 @@
             "value": "Kwast"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pędzel"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -8881,6 +9385,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Plak"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wklej"
           }
         },
         "pt-BR": {
@@ -9008,6 +9518,12 @@
             "value": "Leeg flipboek"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pusty flipbook"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -9133,6 +9649,12 @@
             "value": "Nieuw leeg flipboek"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nowy pusty flipbook"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -9255,6 +9777,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lege flipboeken met onbeperkt veel pagina’s"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Puste flipbooki bez limitu stron"
           }
         },
         "pt-BR": {
@@ -9382,6 +9910,12 @@
             "value": "Rood"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Czerwony"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -9505,6 +10039,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bewaar in Foto’s"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zapisz w Zdjęciach"
           }
         },
         "pt-BR": {
@@ -9631,6 +10171,12 @@
             "value": "Geef toegang in Instellingen om in Foto’s te bewaren."
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aby zapisywać w Zdjęciach, zezwól na dostęp w Ustawieniach."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -9753,6 +10299,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ophalen uit Foto’s… even geduld!"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pobieram ze Zdjęć… chwileczkę!"
           }
         },
         "pt-BR": {
@@ -9880,6 +10432,12 @@
             "value": "Kies een video uit Foto’s"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz film ze Zdjęć"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -10002,6 +10560,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "De aankoopopties konden niet worden geladen."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie udało się wczytać opcji zakupu."
           }
         },
         "pt-BR": {
@@ -10129,6 +10693,12 @@
             "value": "Vogelstempel"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pieczątka Ptaszek"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -10251,6 +10821,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Instellingen"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ustawienia"
           }
         },
         "pt-BR": {
@@ -10378,6 +10954,12 @@
             "value": "Driehoekstempel"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pieczątka Trójkąt"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -10501,6 +11083,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aan de slag"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zaczynamy"
           }
         },
         "pt-BR": {
@@ -10627,6 +11215,12 @@
             "value": "Kindertekeningen komen tot leven"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dziecięce rysunki ożywają"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -10749,6 +11343,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Onbekend probleem"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nieznany problem"
           }
         },
         "pt-BR": {
@@ -10876,6 +11476,12 @@
             "value": "Bekijk de kunstwerken van je kind meteen op het beginscherm, zonder de app te openen."
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oglądaj prace swojego dziecka prosto na ekranie początkowym, bez otwierania aplikacji."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -11001,6 +11607,12 @@
             "value": "Tekst en knoppen blijven scherp en duidelijk op een donker scherm."
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tekst i przyciski pozostają ostre i wyraźne na ciemnym ekranie."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -11123,6 +11735,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Laat dit aan een volwassene zien"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pokaż to dorosłemu"
           }
         },
         "pt-BR": {
@@ -11250,6 +11868,12 @@
             "value": "De eerste keer dat je de app opent na een update, zie je wat er nieuw is."
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przy pierwszym otwarciu aplikacji po aktualizacji zobaczysz, co nowego."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -11373,6 +11997,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nieuw"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Co nowego"
           }
         },
         "pt-BR": {
@@ -11499,6 +12129,12 @@
             "value": "Open"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otwórz"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -11623,6 +12259,12 @@
             "value": "Openen mislukt. Controleer of het een videolink is."
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie udało się otworzyć. Upewnij się, że to link do filmu."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -11745,6 +12387,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Openen mislukt. Controleer de link en probeer het opnieuw."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie udało się otworzyć. Sprawdź link i spróbuj ponownie."
           }
         },
         "pt-BR": {
@@ -11872,6 +12520,12 @@
             "value": "Beweging beperken"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ogranicz ruch"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -11995,6 +12649,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Met Beweging beperken aan worden effecten op het scherm rustiger."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Po włączeniu opcji Ogranicz ruch efekty na ekranie stają się spokojniejsze."
           }
         },
         "pt-BR": {
@@ -12122,6 +12782,12 @@
             "value": "Wis alle kunstwerken in de app in één keer wanneer je maar wilt."
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń wszystkie prace w aplikacji naraz, kiedy tylko chcesz."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -12245,6 +12911,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Deze pagina wissen"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyczyść tę stronę"
           }
         },
         "pt-BR": {
@@ -12371,6 +13043,12 @@
             "value": "Ontgrendelen"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odblokowanie"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -12493,6 +13171,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Gebruiksvoorwaarden"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Warunki korzystania"
           }
         },
         "pt-BR": {
@@ -12620,6 +13304,12 @@
             "value": "Vorig plaatje"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poprzedni obrazek"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -12743,6 +13433,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Instagram-bericht (@lee25_ios)"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wiadomość na Instagramie (@lee25_ios)"
           }
         },
         "pt-BR": {
@@ -12870,6 +13566,12 @@
             "value": "Pauze"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pauza"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -12993,6 +13695,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Autostempel"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pieczątka Auto"
           }
         },
         "pt-BR": {
@@ -13120,6 +13828,12 @@
             "value": "Kleine stempel"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mała pieczątka"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -13243,6 +13957,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Back-up van kunstwerken"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopia zapasowa prac"
           }
         },
         "pt-BR": {
@@ -13370,6 +14090,12 @@
             "value": "Alle kunstwerken in één keer verwijderen"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń wszystkie prace naraz"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -13492,6 +14218,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Onbeperkt kunstwerken bewaren"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przechowuj prace bez limitu"
           }
         },
         "pt-BR": {
@@ -13619,6 +14351,12 @@
             "value": "Bewaar kunstwerken als bestand en haal ze op elk moment terug."
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zapisz prace jako plik i przywróć je w dowolnej chwili."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -13742,6 +14480,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vergrendeld"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zablokowane"
           }
         },
         "pt-BR": {
@@ -13869,6 +14613,12 @@
             "value": "Pagina’s"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Strony"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -13992,6 +14742,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Afspelen"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odtwórz"
           }
         },
         "pt-BR": {
@@ -14119,6 +14875,12 @@
             "value": "Afspeelbalk tonen"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pokaż pasek odtwarzania"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -14242,6 +15004,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Afspeelbalk verbergen"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ukryj pasek odtwarzania"
           }
         },
         "pt-BR": {
@@ -14369,6 +15137,12 @@
             "value": "Druk op afspelen en je tekeningen komen tot leven. Voeg je stem toe en bewaar in Foto’s."
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Naciśnij odtwarzanie, a rysunki ożyją. Dodaj swój głos i zapisz w Zdjęciach."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -14491,6 +15265,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Geen Palang Book-kaart aan het eind van bewaarde video’s"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bez karty Palang Book na końcu zapisanych filmów"
           }
         },
         "pt-BR": {
@@ -14616,6 +15396,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Oranje"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pomarańczowy"
           }
         },
         "pt-BR": {
@@ -14904,6 +15690,36 @@
             }
           }
         },
+        "pl": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Gotowe! Liczba scen: %lld. Zacznij rysować 🎨"
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Gotowe! Liczba scen: %lld. Zacznij rysować 🎨"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Gotowe! Liczba scen: %lld. Zacznij rysować 🎨"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Gotowe! Liczba scen: %lld. Zacznij rysować 🎨"
+                }
+              }
+            }
+          }
+        },
         "pt-BR": {
           "variations": {
             "plural": {
@@ -15077,6 +15893,12 @@
             "value": "Middelgrote stempel"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Średnia pieczątka"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -15200,6 +16022,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Gum"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gumka"
           }
         },
         "pt-BR": {
@@ -15326,6 +16154,12 @@
             "value": "Verwijder"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -15448,6 +16282,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Support"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pomoc"
           }
         },
         "pt-BR": {
@@ -15575,6 +16415,12 @@
             "value": "Turquoise"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Turkusowy"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -15698,6 +16544,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Groen"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zielony"
           }
         },
         "pt-BR": {
@@ -15825,6 +16677,12 @@
             "value": "Indelingen die passen bij grotere tekst"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Układy dopasowane do większego tekstu"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -15948,6 +16806,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Grote stempel"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duża pieczątka"
           }
         },
         "pt-BR": {
@@ -16075,6 +16939,12 @@
             "value": "Blauw"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niebieski"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -16194,6 +17064,12 @@
           }
         },
         "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
+        },
+        "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "Palang Book"
@@ -16323,6 +17199,12 @@
             "value": "Palang Book Levenslange toegang"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book — Dostęp na zawsze"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -16448,6 +17330,12 @@
             "value": "Opent Palang Book met een nieuw leeg flipboek, klaar om te tekenen."
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otwiera Palang Book z nowym pustym flipbookiem, gotowym do rysowania."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -16570,6 +17458,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Levenslange toegang"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dostęp na zawsze"
           }
         },
         "pt-BR": {
@@ -16697,6 +17591,12 @@
             "value": "Hartstempel"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pieczątka Serce"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -16821,6 +17721,12 @@
             "value": "Eén aankoop ontgrendelt alles in Palang Book, voorgoed."
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jeden zakup odblokowuje w Palang Book wszystko — na zawsze."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -16943,6 +17849,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Eenmalige betaling, geen abonnement. Wordt in rekening gebracht via je App Store-account."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jednorazowa płatność, nie subskrypcja. Obciążenie konta App Store."
           }
         },
         "pt-BR": {
@@ -17070,6 +17982,12 @@
             "value": "Teken een pagina en tik dan op de oranje knop om de volgende te tekenen."
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Narysuj stronę, a potem dotknij pomarańczowego przycisku, aby rysować następną."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -17193,6 +18111,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Klaar met deze pagina? Tik op de oranje knop om het volgende plaatje te tekenen."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gotowa strona? Dotknij pomarańczowego przycisku, aby narysować następny obrazek."
           }
         },
         "pt-BR": {
@@ -17320,6 +18244,12 @@
             "value": "Cijfer wissen"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń cyfrę"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -17443,6 +18373,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Widgets voor het beginscherm"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widżety na ekran początkowy"
           }
         },
         "pt-BR": {
@@ -17570,6 +18506,12 @@
             "value": "Home"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Początek"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -17695,6 +18637,12 @@
             "value": "VoiceOver leest elke knop en elk tekengereedschap voor, in de juiste volgorde."
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoiceOver czyta każdy przycisk i narzędzie do rysowania we właściwej kolejności."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -17815,6 +18763,12 @@
           }
         },
         "nl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
+        "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "OK"
@@ -17943,6 +18897,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wit"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Biały"
           }
         },
         "pt-BR": {

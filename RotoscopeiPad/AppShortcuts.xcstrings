@@ -93,6 +93,12 @@
             "value": "Nieuw flipboek in ${applicationName}"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nowy flipbook w ${applicationName}"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -221,6 +227,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tekenen met ${applicationName}"
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rysuj w ${applicationName}"
           }
         },
         "pt-BR": {

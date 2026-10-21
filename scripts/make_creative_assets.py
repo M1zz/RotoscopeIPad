@@ -53,6 +53,7 @@ SEARCH = {
     "id": ("Gambar untuk anak", "Jiplak,<br>lalu lihat bergerak", "Halaman demi halaman, gambar pun bergerak"),
     "nb": ("Tegneapp for barn", "Tegn etter og<br>se det bevege seg", "Side for side, og tegningen beveger seg"),
     "nl": ("Tekenapp voor kinderen", "Overtrekken en<br>laten bewegen", "Pagina voor pagina en de tekening beweegt"),
+    "pl": ("Rysowanie dla dzieci", "Obrysuj i zobacz,<br>jak się rusza", "Strona po stronie, a rysunek się rusza"),
 }
 
 # 헤더 — 한 가지 약속: 아이가 그린 그림이 움직인다(부제: 내 아이가 그려주는 애니메이션).
@@ -78,6 +79,7 @@ HEADER = {
     "id": ("Gambar anak jadi animasi", "Gambar si kecil<br>jadi bergerak"),
     "nb": ("Barnas tegninger i animasjon", "Barnets tegninger<br>våkner til liv"),
     "nl": ("Kindertekeningen in animatie", "De tekeningen van je kind<br>komen tot leven"),
+    "pl": ("Dziecięce rysunki w ruchu", "Rysunki Twojego dziecka<br>ożywają"),
 }
 
 # 바탕 · 글자색은 앱 화면과 같다: 하얀 종이, 따라 그리기 카드의 주황 점선, 도장 팔레트 색.

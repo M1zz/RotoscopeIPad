@@ -94,6 +94,12 @@
             "value": "Palang Book"
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -223,6 +229,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nodig om video’s op te nemen waarover je kunt tekenen."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Potrzebne do nagrywania filmów, po których można rysować."
           }
         },
         "pt-BR": {
@@ -356,6 +368,12 @@
             "value": "Nodig om stemmen voor je animaties op te nemen."
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Potrzebne do nagrywania głosu do animacji."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -487,6 +505,12 @@
             "value": "Nodig om voltooide animaties in Foto’s te bewaren."
           }
         },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Potrzebne do zapisywania gotowych animacji w Zdjęciach."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -616,6 +640,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nodig om video’s toe te voegen waarover je kunt tekenen."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Potrzebne do dodawania filmów, po których można rysować."
           }
         },
         "pt-BR": {
