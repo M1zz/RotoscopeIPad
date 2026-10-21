@@ -51,6 +51,7 @@ SEARCH = {
     "el": ("Ζωγραφική για παιδιά", "Ζωγράφισε πάνω,<br>δες το να κινείται", "Σελίδα σελίδα και το σχέδιο κινείται"),
     "fi": ("Piirtoapp lapsille", "Jäljennä ja<br>katso liikkuvan", "Sivu kerrallaan, ja piirros liikkuu"),
     "id": ("Gambar untuk anak", "Jiplak,<br>lalu lihat bergerak", "Halaman demi halaman, gambar pun bergerak"),
+    "nb": ("Tegneapp for barn", "Tegn etter og<br>se det bevege seg", "Side for side, og tegningen beveger seg"),
 }
 
 # 헤더 — 한 가지 약속: 아이가 그린 그림이 움직인다(부제: 내 아이가 그려주는 애니메이션).
@@ -74,6 +75,7 @@ HEADER = {
     "el": ("Παιδικά σχέδια που κινούνται", "Τα σχέδια του παιδιού σας<br>ζωντανεύουν"),
     "fi": ("Lasten piirrokset animaationa", "Lapsesi piirrokset<br>heräävät eloon"),
     "id": ("Gambar anak jadi animasi", "Gambar si kecil<br>jadi bergerak"),
+    "nb": ("Barnas tegninger i animasjon", "Barnets tegninger<br>våkner til liv"),
 }
 
 # 바탕 · 글자색은 앱 화면과 같다: 하얀 종이, 따라 그리기 카드의 주황 점선, 도장 팔레트 색.

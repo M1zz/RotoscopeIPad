@@ -211,6 +211,16 @@ SHOTS["id"] = [
     ("04-home.png", "hero", "Bisa juga dengan videomu",
      "Gambar di atas video<br>yang kamu rekam", "Semua karya menunggu di layar utama"),
 ]
+SHOTS["nb"] = [
+    ("01-trace-bunny.png", "hero", "Tegn etter og animer",
+     "Barnets tegninger<br>våkner til liv", "Tegn etter lyse streker side for side"),
+    ("02-trace-rocket.png", "tilt-left", "Side for side",
+     "Følg strekene,<br>lag en tegnefilm", "Kanin, rakett, frosk og mer: 10 sett"),
+    ("03-stamps-fish.png", "tilt-right", "Stempelpalett",
+     "Trykk på hjerter,<br>stjerner og blomster", "Ingen lesing nødvendig, bare trykk på bildene"),
+    ("04-home.png", "hero", "Også dine egne videoer",
+     "Tegn oppå videoer<br>du har tatt opp selv", "Alle verkene venter på startskjermen"),
+]
 
 CSS = """
 * { margin:0; padding:0; box-sizing:border-box; }

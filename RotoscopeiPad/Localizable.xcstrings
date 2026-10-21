@@ -75,6 +75,12 @@
             "value": "%@・一度の購入でずっと使える"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · Engangskjøp – ditt for alltid"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -186,6 +192,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "VoiceOverをもっと快適に"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bedre støtte for VoiceOver"
           }
         },
         "pt-BR": {
@@ -360,6 +372,12 @@
             "value": "細いふで"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tynn pensel"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -472,6 +490,12 @@
             "value": "ファミリー共有で、家族みんなのiPadで使えます"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Familiedeling: bruk den på alle iPadene i familien"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -582,6 +606,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "プライバシーポリシー"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Personvernerklæring"
           }
         },
         "pt-BR": {
@@ -697,6 +727,12 @@
             "value": "くろ"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Svart"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -807,6 +843,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "購入を復元"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gjenopprett kjøp"
           }
         },
         "pt-BR": {
@@ -922,6 +964,12 @@
             "value": "太いふで"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tykk pensel"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -1033,6 +1081,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "文字を大きくしても切れずに、見やすく並び直します。"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Større tekst blir aldri avkuttet – skjermen ordner seg pent."
           }
         },
         "pt-BR": {
@@ -1148,6 +1202,12 @@
             "value": "デバイス間の同期"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Synkronisering mellom enheter"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -1259,6 +1319,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "長押しで削除できます。"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trykk og hold for å slette."
           }
         },
         "pt-BR": {
@@ -1374,6 +1440,12 @@
             "value": "はなのスタンプ"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Blomsterstempel"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -1484,6 +1556,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "自分の動画でなぞり描き　無制限"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tegn oppå dine egne videoer uten grenser"
           }
         },
         "pt-BR": {
@@ -1599,6 +1677,12 @@
             "value": "わたしの作品"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mitt verk"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -1710,6 +1794,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "しかくのスタンプ"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Firkantstempel"
           }
         },
         "pt-BR": {
@@ -1825,6 +1915,12 @@
             "value": "きいろ"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gul"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -1936,6 +2032,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "録音をやめる"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stopp opptak"
           }
         },
         "pt-BR": {
@@ -2051,6 +2153,12 @@
             "value": "別のiPadでも、かきかけの作品の続きをかけます。"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fortsett å tegne på det samme verket på en annen iPad."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -2161,6 +2269,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "再試行"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prøv igjen"
           }
         },
         "pt-BR": {
@@ -2276,6 +2390,12 @@
             "value": "次へ"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neste"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -2387,6 +2507,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "次の絵をかく"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tegn neste bilde"
           }
         },
         "pt-BR": {
@@ -2502,6 +2628,12 @@
             "value": "次のページをかこう"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tegn neste side"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -2613,6 +2745,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ダークモード"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mørk modus"
           }
         },
         "pt-BR": {
@@ -2728,6 +2866,12 @@
             "value": "閉じる"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lukk"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -2839,6 +2983,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "コントラストを上げても、色の区別が難しくても、内容をしっかり読み取れます。"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alt er fortsatt lesbart med økt kontrast på, eller hvis det er vanskelig å se forskjell på fargene."
           }
         },
         "pt-BR": {
@@ -2954,6 +3104,12 @@
             "value": "まるのスタンプ"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sirkelstempel"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -3065,6 +3221,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "動画のリンクを開く"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Åpne en videolenke"
           }
         },
         "pt-BR": {
@@ -3180,6 +3342,12 @@
             "value": "背景の動画を表示"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vis videobakgrunn"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -3291,6 +3459,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "背景の動画をかくす"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skjul videobakgrunn"
           }
         },
         "pt-BR": {
@@ -3406,6 +3580,12 @@
             "value": "動画を撮る"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ta opp en video"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -3517,6 +3697,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "動画、白紙、なぞり描きの中から選んで始めよう。"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start med en video, en tom side eller et tegn etter-sett."
           }
         },
         "pt-BR": {
@@ -3631,6 +3817,12 @@
             "value": "動画を読み込んだら始められるよ！"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hent inn en video for å komme i gang!"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -3741,6 +3933,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "動画を読み込めませんでした：%@"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kunne ikke hente inn videoen: %@"
           }
         },
         "pt-BR": {
@@ -3855,6 +4053,12 @@
             "value": "動画を作る途中で問題が起きました。"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Noe gikk galt da videoen ble laget."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -3965,6 +4169,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "動画を開いています…"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Åpner videoen …"
           }
         },
         "pt-BR": {
@@ -4079,6 +4289,12 @@
             "value": "この動画は読み込めません。ほかの動画で試してみる？"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kan ikke lese denne videoen. Vil du prøve en annen?"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -4191,6 +4407,12 @@
             "value": "動画ではありません。動画を選んでね！"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det er ikke en video. Velg en video!"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -4301,6 +4523,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "動画がありません。"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det finnes ingen video."
           }
         },
         "pt-BR": {
@@ -4416,6 +4644,12 @@
             "value": "取り消す"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Angre"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -4527,6 +4761,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "なぞり描き %lld"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tegn etter-sett %lld"
           }
         },
         "pt-BR": {
@@ -4777,6 +5017,24 @@
           "stringUnit": {
             "state": "translated",
             "value": "なぞり描き%lldセットすべて、これから出るセットも"
+          }
+        },
+        "nb": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Alle %lld tegn etter-sett og alle nye"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Alle %lld tegn etter-sett og alle nye"
+                }
+              }
+            }
           }
         },
         "pt-BR": {
@@ -5077,6 +5335,24 @@
             "value": "なぞり描き%lldセットは無料、残りは買い切りプランで使えます。"
           }
         },
+        "nb": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld tegn etter-sett er gratis, resten låses opp med Livstidstilgang."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld tegn etter-sett er gratis, resten låses opp med Livstidstilgang."
+                }
+              }
+            }
+          }
+        },
         "pt-BR": {
           "variations": {
             "plural": {
@@ -5237,6 +5513,12 @@
             "value": "リンクが正しくありません。"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lenken ser ikke riktig ut."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -5348,6 +5630,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "マイクをおすと、アニメが1回流れるあいだ声を録音できるよ。"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trykk på mikrofonen for å ta opp stemmen din mens animasjonen spilles av én gang."
           }
         },
         "pt-BR": {
@@ -5463,6 +5751,12 @@
             "value": "メールで問い合わせる"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Send oss e-post"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -5573,6 +5867,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "すべての機能が使えます"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alt er låst opp"
           }
         },
         "pt-BR": {
@@ -5688,6 +5988,12 @@
             "value": "声を入れよう"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Legg til stemmen din"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -5801,6 +6107,12 @@
             "value": "声を録音"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ta opp stemme"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -5911,6 +6223,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "声の録音　時間無制限"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ingen tidsgrense for stemmeopptak"
           }
         },
         "pt-BR": {
@@ -6161,6 +6479,24 @@
           "stringUnit": {
             "state": "translated",
             "value": "無料版では動画を%lld回まで読み込めます。"
+          }
+        },
+        "nb": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Gratisversjonen lar deg hente inn %lld video."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Gratisversjonen lar deg hente inn %lld videoer."
+                }
+              }
+            }
           }
         },
         "pt-BR": {
@@ -6461,6 +6797,24 @@
             "value": "無料版では声を%lld秒まで録音できます。"
           }
         },
+        "nb": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Gratisversjonen tar opp stemme i opptil %lld sekund."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Gratisversjonen tar opp stemme i opptil %lld sekunder."
+                }
+              }
+            }
+          }
+        },
         "pt-BR": {
           "variations": {
             "plural": {
@@ -6757,6 +7111,24 @@
           "stringUnit": {
             "state": "translated",
             "value": "無料版では白紙のパラパラ漫画を%lld枚までかけます。"
+          }
+        },
+        "nb": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Gratisversjonen tillater opptil %lld side i en tom flipbook."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Gratisversjonen tillater opptil %lld sider i en tom flipbook."
+                }
+              }
+            }
           }
         },
         "pt-BR": {
@@ -7057,6 +7429,24 @@
             "value": "無料版では作品を%lld個まで保存できます。"
           }
         },
+        "nb": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Gratisversjonen lagrer opptil %lld verk."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Gratisversjonen lagrer opptil %lld verk."
+                }
+              }
+            }
+          }
+        },
         "pt-BR": {
           "variations": {
             "plural": {
@@ -7218,6 +7608,12 @@
             "value": "ほしのスタンプ"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stjernestempel"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -7329,6 +7725,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "見やすい色とコントラスト"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Farger og kontrast som er lettere å se"
           }
         },
         "pt-BR": {
@@ -7444,6 +7846,12 @@
             "value": "むらさき"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lilla"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -7557,6 +7965,12 @@
             "value": "ふつうのふで"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Middels pensel"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -7667,6 +8081,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "保護者の確認：下の問題の答えをタップしてください。"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Voksensjekk: trykk på svaret på regnestykket under."
           }
         },
         "pt-BR": {
@@ -7782,6 +8202,12 @@
             "value": "ピンク"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rosa"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -7895,6 +8321,12 @@
             "value": "ふで"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pensel"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -8005,6 +8437,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ペースト"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lim inn"
           }
         },
         "pt-BR": {
@@ -8120,6 +8558,12 @@
             "value": "白紙のパラパラ漫画"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tom flipbook"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -8233,6 +8677,12 @@
             "value": "白紙のパラパラ漫画をつくる"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ny tom flipbook"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -8343,6 +8793,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "白紙のパラパラ漫画　枚数無制限"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tomme flipbooker med ubegrenset antall sider"
           }
         },
         "pt-BR": {
@@ -8458,6 +8914,12 @@
             "value": "あか"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rød"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -8569,6 +9031,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "写真に保存"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lagre i Bilder"
           }
         },
         "pt-BR": {
@@ -8683,6 +9151,12 @@
             "value": "写真アプリに保存するには、設定で許可してください。"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gi tilgang i Innstillinger for å lagre i Bilder."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -8793,6 +9267,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "写真から読み込み中…ちょっと待ってね！"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Henter fra Bilder … et øyeblikk!"
           }
         },
         "pt-BR": {
@@ -8908,6 +9388,12 @@
             "value": "写真から動画を選ぶ"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Velg en video fra Bilder"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -9018,6 +9504,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "商品を読み込めませんでした。"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kunne ikke laste kjøpsalternativene."
           }
         },
         "pt-BR": {
@@ -9133,6 +9625,12 @@
             "value": "とりのスタンプ"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fuglestempel"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -9243,6 +9741,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "設定"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Innstillinger"
           }
         },
         "pt-BR": {
@@ -9358,6 +9862,12 @@
             "value": "さんかくのスタンプ"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trekantstempel"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -9469,6 +9979,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "はじめる"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kom i gang"
           }
         },
         "pt-BR": {
@@ -9583,6 +10099,12 @@
             "value": "子どもの絵がパラパラ動きだす"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Barnas tegninger våkner til liv"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -9693,6 +10215,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "不明な問題"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ukjent problem"
           }
         },
         "pt-BR": {
@@ -9808,6 +10336,12 @@
             "value": "アプリを開かなくても、ホーム画面で子どもの作品をすぐに見られます。"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se barnets verk rett på Hjem-skjermen, uten å åpne appen."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -9921,6 +10455,12 @@
             "value": "暗い画面でも、文字やボタンがくっきり見えます。"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tekst og knapper er skarpe og tydelige på en mørk skjerm."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -10031,6 +10571,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "おとなの人に見せてね"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vis dette til en voksen"
           }
         },
         "pt-BR": {
@@ -10146,6 +10692,12 @@
             "value": "アップデート後に初めて開いたとき、新しくなった点をお知らせします。"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Første gang du åpner appen etter en oppdatering, ser du hva som er nytt."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -10257,6 +10809,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "アップデート情報"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nytt"
           }
         },
         "pt-BR": {
@@ -10371,6 +10929,12 @@
             "value": "開く"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Åpne"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -10483,6 +11047,12 @@
             "value": "開けませんでした。動画のリンクか確認してください。"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kunne ikke åpnes. Kontroller at det er en videolenke."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -10593,6 +11163,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "開けませんでした。リンクを確認して、もう一度試してください。"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kunne ikke åpnes. Sjekk lenken og prøv igjen."
           }
         },
         "pt-BR": {
@@ -10708,6 +11284,12 @@
             "value": "視差効果を減らす"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reduser bevegelse"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -10819,6 +11401,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "「視差効果を減らす」をオンにすると、画面の動きが控えめになります。"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Med Reduser bevegelse på blir animasjonene roligere."
           }
         },
         "pt-BR": {
@@ -10934,6 +11522,12 @@
             "value": "アプリ内の作品を、いつでもまとめて削除できます。"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Slett alle verkene i appen på én gang når du vil."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -11045,6 +11639,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "このページをぜんぶ消す"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tøm denne siden"
           }
         },
         "pt-BR": {
@@ -11159,6 +11759,12 @@
             "value": "プラン"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lås opp"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -11269,6 +11875,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "利用規約"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bruksvilkår"
           }
         },
         "pt-BR": {
@@ -11384,6 +11996,12 @@
             "value": "前の絵"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Forrige bilde"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -11495,6 +12113,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "InstagramでDM（@lee25_ios）"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instagram-melding (@lee25_ios)"
           }
         },
         "pt-BR": {
@@ -11610,6 +12234,12 @@
             "value": "一時停止"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pause"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -11721,6 +12351,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "くるまのスタンプ"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bilstempel"
           }
         },
         "pt-BR": {
@@ -11836,6 +12472,12 @@
             "value": "小さいスタンプ"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lite stempel"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -11947,6 +12589,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "作品のバックアップ"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sikkerhetskopier verk"
           }
         },
         "pt-BR": {
@@ -12062,6 +12710,12 @@
             "value": "作品をまとめて削除"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Slett alle verk på én gang"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -12172,6 +12826,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "作品を無制限に保存"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lagre ubegrenset med verk"
           }
         },
         "pt-BR": {
@@ -12287,6 +12947,12 @@
             "value": "作品をファイルに保存して、いつでも読み込み直せます。"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lagre verk som en fil og hent dem tilbake når som helst."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -12398,6 +13064,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ロック中"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Låst"
           }
         },
         "pt-BR": {
@@ -12513,6 +13185,12 @@
             "value": "ページ"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sider"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -12624,6 +13302,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "再生"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spill av"
           }
         },
         "pt-BR": {
@@ -12739,6 +13423,12 @@
             "value": "再生バーを表示"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vis avspillingslinjen"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -12850,6 +13540,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "再生バーをかくす"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skjul avspillingslinjen"
           }
         },
         "pt-BR": {
@@ -12965,6 +13661,12 @@
             "value": "再生すると絵がパラパラ動きだす。声を入れて写真に保存しよう。"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trykk på spill av, så våkner tegningene dine til liv. Legg til stemmen din og lagre i Bilder."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -13075,6 +13777,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "保存した動画の最後にPalang Bookカードなし"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ikke noe Palang Book-kort på slutten av lagrede videoer"
           }
         },
         "pt-BR": {
@@ -13188,6 +13896,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "オレンジ"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oransje"
           }
         },
         "pt-BR": {
@@ -13440,6 +14154,24 @@
             "value": "準備完了！%lld場面あります。絵をかいてみよう🎨"
           }
         },
+        "nb": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Klart! Det er %lld scene. Begynn å tegne 🎨"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Klart! Det er %lld scener. Begynn å tegne 🎨"
+                }
+              }
+            }
+          }
+        },
         "pt-BR": {
           "variations": {
             "plural": {
@@ -13601,6 +14333,12 @@
             "value": "中くらいのスタンプ"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Middels stempel"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -13712,6 +14450,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "消しゴム"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Viskelær"
           }
         },
         "pt-BR": {
@@ -13826,6 +14570,12 @@
             "value": "削除"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Slett"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -13936,6 +14686,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "サポート"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Støtte"
           }
         },
         "pt-BR": {
@@ -14051,6 +14807,12 @@
             "value": "エメラルド"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Turkis"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -14162,6 +14924,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "みどり"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grønn"
           }
         },
         "pt-BR": {
@@ -14277,6 +15045,12 @@
             "value": "大きな文字に合わせた画面"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oppsett som passer større tekst"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -14388,6 +15162,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "大きいスタンプ"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stort stempel"
           }
         },
         "pt-BR": {
@@ -14503,6 +15283,12 @@
             "value": "あお"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Blå"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -14610,6 +15396,12 @@
           }
         },
         "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "Palang Book"
@@ -14727,6 +15519,12 @@
             "value": "Palang Book 買い切りプラン"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book Livstidstilgang"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -14840,6 +15638,12 @@
             "value": "Palang Bookを開いて、新しい白紙のパラパラ漫画をすぐに始めます。"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Åpner Palang Book med en ny, tom flipbook, klar til å tegne i."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -14950,6 +15754,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "買い切りプラン"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Livstidstilgang"
           }
         },
         "pt-BR": {
@@ -15065,6 +15875,12 @@
             "value": "ハートのスタンプ"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hjertestempel"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -15177,6 +15993,12 @@
             "value": "一度の購入で、Palang Bookのすべての機能をずっと使えます。"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ett kjøp låser opp alt i Palang Book – for alltid."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -15287,6 +16109,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "1回限りのお支払いで、サブスクリプションではありません。お支払いはApp Storeアカウントに請求されます。"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Engangsbetaling, ikke et abonnement. Belastes App Store-kontoen din."
           }
         },
         "pt-BR": {
@@ -15402,6 +16230,12 @@
             "value": "1枚かいたら、オレンジのボタンで次のページへ。"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tegn én side, og trykk så på den oransje knappen for å tegne neste."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -15513,6 +16347,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "この1枚がかけたら、オレンジのボタンで次の絵へ。"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ferdig med siden? Trykk på den oransje knappen for å tegne neste bilde."
           }
         },
         "pt-BR": {
@@ -15628,6 +16468,12 @@
             "value": "1文字消す"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Slett siffer"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -15739,6 +16585,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ホーム画面ウィジェット"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widgeter for Hjem-skjermen"
           }
         },
         "pt-BR": {
@@ -15854,6 +16706,12 @@
             "value": "ホームへ"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hjem"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -15967,6 +16825,12 @@
             "value": "VoiceOverがボタンやお絵かき道具を漏れなく、正しい順番で読み上げます。"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoiceOver leser opp hver knapp og hvert tegneverktøy i riktig rekkefølge."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -16075,6 +16939,12 @@
           }
         },
         "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
+        "nb": {
           "stringUnit": {
             "state": "translated",
             "value": "OK"
@@ -16191,6 +17061,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "しろ"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hvit"
           }
         },
         "pt-BR": {

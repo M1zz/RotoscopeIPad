@@ -81,6 +81,12 @@
             "value": "${applicationName}에서 새 플립북 만들기"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ny flipbook i ${applicationName}"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -197,6 +203,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "${applicationName}으로 그림 그리기"
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tegn med ${applicationName}"
           }
         },
         "pt-BR": {

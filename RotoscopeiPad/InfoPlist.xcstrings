@@ -82,6 +82,12 @@
             "value": "팔랑북"
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -199,6 +205,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "동영상을 찍어서 그림을 그리기 위해 필요해요."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trengs for å ta opp videoer du kan tegne oppå."
           }
         },
         "pt-BR": {
@@ -320,6 +332,12 @@
             "value": "애니메이션에 목소리를 녹음하기 위해 필요해요."
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trengs for å ta opp stemmer til animasjonene dine."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -439,6 +457,12 @@
             "value": "완성한 애니메이션을 사진 앱에 저장하기 위해 필요해요."
           }
         },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trengs for å lagre ferdige animasjoner i Bilder."
+          }
+        },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
@@ -556,6 +580,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "그림을 그릴 동영상을 가져오기 위해 필요해요."
+          }
+        },
+        "nb": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trengs for å hente inn videoer du kan tegne oppå."
           }
         },
         "pt-BR": {

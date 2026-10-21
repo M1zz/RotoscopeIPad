@@ -11,7 +11,7 @@
 # 상태 막대의 날짜까지 그 언어로 나오도록 언어마다 시뮬레이터를 다시 켠다.
 set -e
 U=$1; shift
-LOCALES=(ko en-US ja zh-Hans zh-Hant es-MX de-DE fr-FR pt-BR it en-GB ru th vi cs da el fi id)
+LOCALES=(ko en-US ja zh-Hans zh-Hant es-MX de-DE fr-FR pt-BR it en-GB ru th vi cs da el fi id nb)
 (( $# )) && LOCALES=("$@")
 APP=com.leeo.RotoscopeiPad
 ROOT=${0:A:h:h}
@@ -21,8 +21,8 @@ DOCS=$(xcrun simctl get_app_container $U $APP data)/Documents/Projects
 
 # 스토어 로케일 → 시뮬레이터 언어 · 지역
 typeset -A LANG_OF LOCALE_OF
-LANG_OF=(ko ko en-US en ja ja zh-Hans zh-Hans zh-Hant zh-Hant es-MX es-MX de-DE de fr-FR fr pt-BR pt-BR it it en-GB en-GB ru ru th th vi vi cs cs da da el el fi fi id id)
-LOCALE_OF=(ko ko_KR en-US en_US ja ja_JP zh-Hans zh_CN zh-Hant zh_TW es-MX es_MX de-DE de_DE fr-FR fr_FR pt-BR pt_BR it it_IT en-GB en_GB ru ru_RU th th_TH vi vi_VN cs cs_CZ da da_DK el el_GR fi fi_FI id id_ID)
+LANG_OF=(ko ko en-US en ja ja zh-Hans zh-Hans zh-Hant zh-Hant es-MX es-MX de-DE de fr-FR fr pt-BR pt-BR it it en-GB en-GB ru ru th th vi vi cs cs da da el el fi fi id id nb nb)
+LOCALE_OF=(ko ko_KR en-US en_US ja ja_JP zh-Hans zh_CN zh-Hant zh_TW es-MX es_MX de-DE de_DE fr-FR fr_FR pt-BR pt_BR it it_IT en-GB en_GB ru ru_RU th th_TH vi vi_VN cs cs_CZ da da_DK el el_GR fi fi_FI id id_ID nb nb_NO)
 
 # 장면: 파일 이름 → 열 작품 (make_sample_projects.py 의 이름)
 SCENES=(01-trace-bunny:bunny 02-trace-rocket:rocket 03-stamps-fish:fish 04-home:home)

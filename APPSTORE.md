@@ -1067,3 +1067,54 @@ Animasi yang sudah jadi disimpan sebagai video di app Foto, siap dibagikan ke se
 Semua karya menunggu di layar utama, sehingga anak bisa melanjutkan menggambar kapan saja.
 Gratis untuk mulai, Akses Seumur Hidup untuk semuanya
 Gratis, anak bisa menjiplak 3 set, menyimpan 3 karya, memasukkan 1 video, menggambar flipbook kosong hingga 10 halaman, dan merekam suara hingga 15 detik. Akses Seumur Hidup sekali beli membuka semua set jiplakan, termasuk yang akan datang, plus karya, video, halaman, dan waktu rekam tanpa batas, serta menghapus kartu Palang Book di akhir video yang disimpan. Ini bukan langganan dan bisa dipakai dengan Berbagi Keluarga. Layar pembelian baru terbuka setelah orang dewasa menjawab pertanyaan singkat.
+
+## nb
+
+### 지원 URL
+
+https://m1zz.github.io/RotoscopeIPad/nb/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/RotoscopeIPad/nb/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/RotoscopeIPad/nb/
+
+### 이름
+
+Palang Book: Barnas tegnefilm
+
+### 부제
+
+Tegn etter, så beveger det seg
+
+### 키워드
+
+tegne,male,barn,fargelegging,barnehage,stempler,kreativ,krafse,kunst,animasjon,stopmotion,småbarn
+
+### 프로모션 텍스트
+
+Tegn etter lyse streker side for side, trykk på spill av, og tegningen våkner til liv. Legg til stempler, ta opp barnets stemme og lagre en film barnet har laget selv.
+
+### 설명
+
+Barnets tegninger blir til en ekte animasjon.
+Barnet tegner etter en lys skisse side for side, trykker på spill av, og skissen forsvinner, så bare barnets egen tegning beveger seg.
+Alle knappene i Palang Book er bilder, så selv barn som ikke kan lese ennå, kommer i gang på egen hånd. Man tegner med fingeren eller Apple Pencil.
+10 tegn etter-sett
+En sprettende ball, en hoppende kanin, en flygende fugl, en svømmende fisk, en blomst som springer ut, en sommerfugl, en racerbil, en rakett som tar av, en frosk og en vindmølle. Hvert sett har rundt 20 sider med skisser, og forrige side skinner svakt gjennom, så det er enkelt å få neste tegning til å passe.
+Tegn oppå dine egne videoer
+Hent inn en video du har tatt opp selv, en fra Bilder-appen eller en lenke til en videofil, og tegn rett oppå. Skjuler du bakgrunnen, spilles bare scenene barnet har tegnet av etter hverandre på rent hvitt papir.
+Tomme flipbooker
+Uten skisser kan barnet tegne fritt på hvitt papir og bla side for side for å lage sin helt egen flipbook.
+Stempler og farger
+Pynt med stempler som hjerte, sirkel, firkant, trekant, stjerne, blomst, bil og fugl. Det er tre stempelstørrelser, ti farger og tre penselstørrelser. Det finnes også viskelær, angre og en knapp som tømmer hele siden på én gang.
+Ta opp stemme
+Trykk på mikrofonen, så går animasjonen i løkke mens barnet tar opp stemmen sin.
+Lagre i Bilder
+Ferdige animasjoner lagres som videoer i Bilder-appen, klare til å deles med familien.
+Alle verkene venter på hovedskjermen, så barnet kan fortsette å tegne der det slapp.
+Gratis å starte, Livstidstilgang til alt
+Gratis kan barnet tegne etter 3 sett, lagre 3 verk, hente inn 1 video, tegne tomme flipbooker på opptil 10 sider og ta opp stemme i opptil 15 sekunder. Livstidstilgang, et engangskjøp, låser opp alle tegn etter-sett, også kommende, pluss ubegrenset med verk, videoer, sider og opptakstid, og fjerner Palang Book-kortet på slutten av lagrede videoer. Det er ikke et abonnement, og det fungerer med Familiedeling. Kjøpsskjermen åpnes først når en voksen har svart på et raskt spørsmål.
