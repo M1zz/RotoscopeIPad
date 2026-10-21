@@ -58,6 +58,12 @@
             "value": "Palang Book"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -169,6 +175,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nécessaire pour filmer des vidéos sur lesquelles dessiner."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diperlukan untuk merekam video yang bisa digambari."
           }
         },
         "it": {
@@ -284,6 +296,12 @@
             "value": "Nécessaire pour enregistrer des voix sur vos animations."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diperlukan untuk merekam suara untuk animasimu."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -397,6 +415,12 @@
             "value": "Nécessaire pour enregistrer les animations terminées dans Photos."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diperlukan untuk menyimpan animasi yang sudah jadi ke Foto."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -508,6 +532,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nécessaire pour importer des vidéos sur lesquelles dessiner."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diperlukan untuk memasukkan video yang bisa digambari."
           }
         },
         "it": {

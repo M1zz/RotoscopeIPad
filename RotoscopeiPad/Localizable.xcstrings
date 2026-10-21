@@ -57,6 +57,12 @@
             "value": "%@ · Un seul achat, pour toujours"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · Sekali beli, milikmu selamanya"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -162,6 +168,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Meilleure prise en charge de VoiceOver"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dukungan VoiceOver yang lebih baik"
           }
         },
         "it": {
@@ -330,6 +342,12 @@
             "value": "Pinceau fin"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kuas tipis"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -436,6 +454,12 @@
             "value": "Avec le Partage familial, sur tous les iPad de la famille"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Berbagi Keluarga: pakai di semua iPad keluarga"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -540,6 +564,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Politique de confidentialité"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kebijakan Privasi"
           }
         },
         "it": {
@@ -649,6 +679,12 @@
             "value": "Noir"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hitam"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -753,6 +789,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Restaurer les achats"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pulihkan Pembelian"
           }
         },
         "it": {
@@ -862,6 +904,12 @@
             "value": "Gros pinceau"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kuas tebal"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -967,6 +1015,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Même en grand, le texte n’est jamais coupé : tout se réorganise proprement."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teks yang lebih besar tidak akan terpotong — tampilan menyesuaikan diri dengan rapi."
           }
         },
         "it": {
@@ -1076,6 +1130,12 @@
             "value": "Synchronisation entre appareils"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sinkronisasi antarperangkat"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -1181,6 +1241,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Maintenez le doigt appuyé pour supprimer."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tekan dan tahan untuk menghapus."
           }
         },
         "it": {
@@ -1290,6 +1356,12 @@
             "value": "Tampon fleur"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stempel Bunga"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -1394,6 +1466,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dessiner sur vos propres vidéos, sans limite"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gambar di atas videomu sendiri tanpa batas"
           }
         },
         "it": {
@@ -1503,6 +1581,12 @@
             "value": "Mon œuvre"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Karyaku"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -1608,6 +1692,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tampon carré"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stempel Persegi"
           }
         },
         "it": {
@@ -1717,6 +1807,12 @@
             "value": "Jaune"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kuning"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -1822,6 +1918,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Arrêter l'enregistrement"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hentikan Rekaman"
           }
         },
         "it": {
@@ -1931,6 +2033,12 @@
             "value": "Continuez la même œuvre sur un autre iPad."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lanjutkan menggambar karya yang sama di iPad lain."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -2035,6 +2143,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Réessayer"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coba Lagi"
           }
         },
         "it": {
@@ -2144,6 +2258,12 @@
             "value": "Suivant"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Berikutnya"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -2249,6 +2369,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dessiner le suivant"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gambar Berikutnya"
           }
         },
         "it": {
@@ -2358,6 +2484,12 @@
             "value": "Dessine la page suivante"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gambar Halaman Berikutnya"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -2463,6 +2595,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mode sombre"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mode Gelap"
           }
         },
         "it": {
@@ -2572,6 +2710,12 @@
             "value": "Fermer"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tutup"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -2677,6 +2821,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tout reste lisible avec le contraste augmenté ou si vous distinguez mal les couleurs."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Semuanya tetap terbaca saat Tingkatkan Kontras aktif atau jika warna sulit dibedakan."
           }
         },
         "it": {
@@ -2786,6 +2936,12 @@
             "value": "Tampon rond"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stempel Lingkaran"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -2891,6 +3047,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ouvrir un lien vidéo"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buka Tautan Video"
           }
         },
         "it": {
@@ -3000,6 +3162,12 @@
             "value": "Afficher la vidéo de fond"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tampilkan Video Latar"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -3105,6 +3273,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Masquer la vidéo de fond"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sembunyikan Video Latar"
           }
         },
         "it": {
@@ -3214,6 +3388,12 @@
             "value": "Filmer une vidéo"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rekam Video"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -3319,6 +3499,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Commence avec une vidéo, une page blanche ou une série à décalquer."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mulai dari video, halaman kosong, atau set jiplakan."
           }
         },
         "it": {
@@ -3427,6 +3613,12 @@
             "value": "Importe une vidéo pour commencer !"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masukkan video untuk mulai!"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -3531,6 +3723,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Impossible d'importer la vidéo : %@"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Video tidak bisa dimasukkan: %@"
           }
         },
         "it": {
@@ -3639,6 +3837,12 @@
             "value": "Un problème est survenu pendant la création de la vidéo."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terjadi masalah saat membuat video."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -3743,6 +3947,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ouverture de la vidéo…"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Membuka video…"
           }
         },
         "it": {
@@ -3851,6 +4061,12 @@
             "value": "Impossible de lire cette vidéo. On essaie avec une autre ?"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Video ini tidak bisa dibaca. Coba video lain?"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -3957,6 +4173,12 @@
             "value": "Ce n'est pas une vidéo. Choisis une vidéo !"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Itu bukan video. Pilih video ya!"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -4061,6 +4283,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aucune vidéo."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tidak ada video."
           }
         },
         "it": {
@@ -4170,6 +4398,12 @@
             "value": "Annuler"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Urungkan"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -4275,6 +4509,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Série à décalquer %lld"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Set Jiplakan %lld"
           }
         },
         "it": {
@@ -4498,6 +4738,18 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "Les %lld séries à décalquer, et toutes les nouvelles"
+                }
+              }
+            }
+          }
+        },
+        "id": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Semua %lld set jiplakan, plus semua set baru"
                 }
               }
             }
@@ -4789,6 +5041,18 @@
             }
           }
         },
+        "id": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld set jiplakan gratis; sisanya terbuka dengan Akses Seumur Hidup."
+                }
+              }
+            }
+          }
+        },
         "it": {
           "variations": {
             "plural": {
@@ -4955,6 +5219,12 @@
             "value": "Ce lien n'est pas valide."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tautan ini sepertinya tidak benar."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -5060,6 +5330,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Touche le micro pour enregistrer ta voix pendant que l'animation se joue une fois."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ketuk mikrofon untuk merekam suaramu saat animasi diputar satu kali."
           }
         },
         "it": {
@@ -5169,6 +5445,12 @@
             "value": "Nous écrire par e-mail"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kirim Email ke Kami"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -5273,6 +5555,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tout est débloqué"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Semua sudah terbuka"
           }
         },
         "it": {
@@ -5382,6 +5670,12 @@
             "value": "Ajoute ta voix"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tambahkan Suaramu"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -5489,6 +5783,12 @@
             "value": "Enregistrer sa voix"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rekam Suara"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -5593,6 +5893,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Enregistrer la voix sans limite de durée"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rekam suara tanpa batas waktu"
           }
         },
         "it": {
@@ -5816,6 +6122,18 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "La version gratuite permet d'importer %lld vidéos."
+                }
+              }
+            }
+          }
+        },
+        "id": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Versi gratis bisa memasukkan %lld video."
                 }
               }
             }
@@ -6107,6 +6425,18 @@
             }
           }
         },
+        "id": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Versi gratis merekam suara hingga %lld detik."
+                }
+              }
+            }
+          }
+        },
         "it": {
           "variations": {
             "plural": {
@@ -6388,6 +6718,18 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "La version gratuite permet jusqu'à %lld pages dans un folioscope vierge."
+                }
+              }
+            }
+          }
+        },
+        "id": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Versi gratis mengizinkan hingga %lld halaman di flipbook kosong."
                 }
               }
             }
@@ -6679,6 +7021,18 @@
             }
           }
         },
+        "id": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Versi gratis menyimpan hingga %lld karya."
+                }
+              }
+            }
+          }
+        },
         "it": {
           "variations": {
             "plural": {
@@ -6846,6 +7200,12 @@
             "value": "Tampon étoile"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stempel Bintang"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -6951,6 +7311,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Couleurs et contraste plus lisibles"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Warna dan kontras yang lebih mudah dilihat"
           }
         },
         "it": {
@@ -7060,6 +7426,12 @@
             "value": "Violet"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ungu"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -7167,6 +7539,12 @@
             "value": "Pinceau moyen"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kuas sedang"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -7271,6 +7649,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vérification parentale : touchez la réponse au calcul ci-dessous."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pemeriksaan orang dewasa: ketuk jawaban soal di bawah ini."
           }
         },
         "it": {
@@ -7380,6 +7764,12 @@
             "value": "Rose"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Merah Muda"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -7487,6 +7877,12 @@
             "value": "Pinceau"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kuas"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -7591,6 +7987,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Coller"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tempel"
           }
         },
         "it": {
@@ -7700,6 +8102,12 @@
             "value": "Folioscope vierge"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Flipbook Kosong"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -7807,6 +8215,12 @@
             "value": "Nouveau folioscope vierge"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Flipbook Kosong Baru"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -7911,6 +8325,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Folioscopes vierges sans limite de pages"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Flipbook kosong dengan jumlah halaman tanpa batas"
           }
         },
         "it": {
@@ -8020,6 +8440,12 @@
             "value": "Rouge"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Merah"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -8125,6 +8551,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Enregistrer dans Photos"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Simpan ke Foto"
           }
         },
         "it": {
@@ -8233,6 +8665,12 @@
             "value": "Pour enregistrer dans Photos, autorisez l'accès dans Réglages."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Untuk menyimpan ke Foto, izinkan akses di Pengaturan."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -8337,6 +8775,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Import depuis Photos… un instant !"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mengambil dari Foto… tunggu sebentar ya!"
           }
         },
         "it": {
@@ -8446,6 +8890,12 @@
             "value": "Choisir une vidéo dans Photos"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pilih Video dari Foto"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -8550,6 +9000,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Impossible de charger les options d'achat."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pilihan pembelian tidak bisa dimuat."
           }
         },
         "it": {
@@ -8659,6 +9115,12 @@
             "value": "Tampon oiseau"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stempel Burung"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -8763,6 +9225,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Réglages"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pengaturan"
           }
         },
         "it": {
@@ -8872,6 +9340,12 @@
             "value": "Tampon triangle"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stempel Segitiga"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -8977,6 +9451,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Commencer"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mulai"
           }
         },
         "it": {
@@ -9085,6 +9565,12 @@
             "value": "Les dessins d'enfants prennent vie"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gambar anak jadi bergerak"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -9189,6 +9675,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Problème inconnu"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masalah tidak diketahui"
           }
         },
         "it": {
@@ -9298,6 +9790,12 @@
             "value": "Admirez les œuvres de votre enfant sur l’écran d’accueil, sans ouvrir l’app."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lihat karya anak langsung di Layar Utama tanpa membuka app."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -9405,6 +9903,12 @@
             "value": "Textes et boutons restent bien nets sur un écran sombre."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teks dan tombol tetap tajam dan jelas di layar gelap."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -9509,6 +10013,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Montre ça à un adulte"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tunjukkan ini ke orang dewasa"
           }
         },
         "it": {
@@ -9618,6 +10128,12 @@
             "value": "À la première ouverture après une mise à jour, découvrez ce qui a changé."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saat pertama kali membuka app setelah pembaruan, kamu akan melihat apa yang baru."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -9723,6 +10239,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nouveautés"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yang Baru"
           }
         },
         "it": {
@@ -9831,6 +10353,12 @@
             "value": "Ouvrir"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buka"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -9937,6 +10465,12 @@
             "value": "Impossible d'ouvrir. Vérifiez qu'il s'agit d'un lien vidéo."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tidak bisa dibuka. Pastikan itu tautan video."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -10041,6 +10575,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Impossible d'ouvrir. Vérifiez le lien et réessayez."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tidak bisa dibuka. Periksa tautannya lalu coba lagi."
           }
         },
         "it": {
@@ -10150,6 +10690,12 @@
             "value": "Réduire les animations"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kurangi Gerakan"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -10255,6 +10801,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Avec Réduire les animations activé, les effets se font plus discrets."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saat Kurangi Gerakan aktif, efek di layar menjadi lebih tenang."
           }
         },
         "it": {
@@ -10364,6 +10916,12 @@
             "value": "Effacez en une fois toutes les œuvres de l’app quand vous le souhaitez."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hapus semua karya di app sekaligus kapan pun kamu mau."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -10469,6 +11027,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Effacer cette page"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bersihkan Halaman Ini"
           }
         },
         "it": {
@@ -10577,6 +11141,12 @@
             "value": "Déblocage"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buka Kunci"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -10681,6 +11251,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Conditions d’utilisation"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ketentuan Penggunaan"
           }
         },
         "it": {
@@ -10790,6 +11366,12 @@
             "value": "Dessin précédent"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gambar Sebelumnya"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -10895,6 +11477,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Message Instagram (@lee25_ios)"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DM Instagram (@lee25_ios)"
           }
         },
         "it": {
@@ -11004,6 +11592,12 @@
             "value": "Pause"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jeda"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -11109,6 +11703,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tampon voiture"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stempel Mobil"
           }
         },
         "it": {
@@ -11218,6 +11818,12 @@
             "value": "Petit tampon"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stempel Kecil"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -11323,6 +11929,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sauvegarder les œuvres"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cadangkan karya"
           }
         },
         "it": {
@@ -11432,6 +12044,12 @@
             "value": "Supprimer toutes les œuvres d’un coup"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hapus semua karya sekaligus"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -11536,6 +12154,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Conserver des œuvres sans limite"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Simpan karya tanpa batas"
           }
         },
         "it": {
@@ -11645,6 +12269,12 @@
             "value": "Enregistrez les œuvres dans un fichier et récupérez-les à tout moment."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Simpan karya sebagai file dan kembalikan kapan saja."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -11750,6 +12380,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Verrouillé"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terkunci"
           }
         },
         "it": {
@@ -11859,6 +12495,12 @@
             "value": "Pages"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Halaman"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -11964,6 +12606,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lire"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Putar"
           }
         },
         "it": {
@@ -12073,6 +12721,12 @@
             "value": "Afficher la barre de lecture"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tampilkan Bilah Putar"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -12178,6 +12832,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Masquer la barre de lecture"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sembunyikan Bilah Putar"
           }
         },
         "it": {
@@ -12287,6 +12947,12 @@
             "value": "Appuie sur lecture et tes dessins prennent vie. Ajoute ta voix et enregistre le tout dans Photos."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tekan putar dan gambarmu bergerak. Tambahkan suaramu lalu simpan ke Foto."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -12391,6 +13057,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Plus de carte Palang Book à la fin des vidéos"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tanpa kartu Palang Book di akhir video yang disimpan"
           }
         },
         "it": {
@@ -12498,6 +13170,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Orange"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oranye"
           }
         },
         "it": {
@@ -12726,6 +13404,18 @@
             }
           }
         },
+        "id": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Siap! Ada %lld adegan. Ayo mulai menggambar 🎨"
+                }
+              }
+            }
+          }
+        },
         "it": {
           "variations": {
             "plural": {
@@ -12893,6 +13583,12 @@
             "value": "Tampon moyen"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stempel Sedang"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -12998,6 +13694,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Gomme"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Penghapus"
           }
         },
         "it": {
@@ -13106,6 +13808,12 @@
             "value": "Supprimer"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hapus"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -13210,6 +13918,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Assistance"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dukungan"
           }
         },
         "it": {
@@ -13319,6 +14033,12 @@
             "value": "Turquoise"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hijau Kebiruan"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -13424,6 +14144,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vert"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hijau"
           }
         },
         "it": {
@@ -13533,6 +14259,12 @@
             "value": "Mise en page adaptée aux grands textes"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tampilan yang cocok untuk teks besar"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -13638,6 +14370,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Grand tampon"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stempel Besar"
           }
         },
         "it": {
@@ -13747,6 +14485,12 @@
             "value": "Bleu"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Biru"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -13848,6 +14592,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
+        },
+        "id": {
           "stringUnit": {
             "state": "translated",
             "value": "Palang Book"
@@ -13959,6 +14709,12 @@
             "value": "Palang Book : Accès à vie"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book Akses Seumur Hidup"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -14066,6 +14822,12 @@
             "value": "Ouvre Palang Book sur un nouveau folioscope vierge, prêt à dessiner."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Membuka Palang Book dengan flipbook kosong baru, siap untuk menggambar."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -14170,6 +14932,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Accès à vie"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Akses Seumur Hidup"
           }
         },
         "it": {
@@ -14279,6 +15047,12 @@
             "value": "Tampon cœur"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stempel Hati"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -14385,6 +15159,12 @@
             "value": "Un seul achat débloque tout Palang Book, pour toujours."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sekali beli membuka semua yang ada di Palang Book, selamanya."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -14489,6 +15269,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Paiement unique, sans abonnement. Le montant est débité de votre compte App Store."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pembayaran sekali saja, bukan langganan. Ditagihkan ke akun App Store kamu."
           }
         },
         "it": {
@@ -14598,6 +15384,12 @@
             "value": "Dessine une page, puis touche le bouton orange pour passer à la suivante."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gambar satu halaman, lalu ketuk tombol oranye untuk menggambar halaman berikutnya."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -14703,6 +15495,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Page terminée ? Touche le bouton orange pour dessiner l'image suivante."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Halaman ini sudah selesai? Ketuk tombol oranye untuk menggambar gambar berikutnya."
           }
         },
         "it": {
@@ -14812,6 +15610,12 @@
             "value": "Effacer"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hapus Angka"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -14917,6 +15721,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Widgets sur l’écran d’accueil"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widget Layar Utama"
           }
         },
         "it": {
@@ -15026,6 +15836,12 @@
             "value": "Accueil"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beranda"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -15133,6 +15949,12 @@
             "value": "VoiceOver lit chaque bouton et chaque outil de dessin, dans le bon ordre."
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoiceOver membacakan setiap tombol dan alat gambar dengan urutan yang benar."
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -15235,6 +16057,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
+        "id": {
           "stringUnit": {
             "state": "translated",
             "value": "OK"
@@ -15345,6 +16173,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Blanc"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Putih"
           }
         },
         "it": {

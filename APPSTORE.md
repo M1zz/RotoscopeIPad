@@ -1016,3 +1016,54 @@ Valmiit animaatiot tallentuvat videoina Kuvat-appiin, ja ne on helppo jakaa perh
 Kaikki teokset odottavat päänäkymässä, joten lapsi voi jatkaa piirtämistä siitä, mihin jäi.
 Ilmainen alkuun, Elinikäinen käyttöoikeus kaikkeen
 Ilmaiseksi voi jäljentää 3 sarjaa, säilyttää 3 teosta, tuoda 1 videon, piirtää tyhjiä peukalokinoja enintään 10 sivun verran ja tallentaa ääntä enintään 15 sekuntia. Kertaostoksena tehtävä Elinikäinen käyttöoikeus avaa kaikki jäljennyssarjat tulevat mukaan lukien sekä rajattomasti teoksia, videoita, sivuja ja tallennusaikaa, ja poistaa Palang Book -kortin tallennettujen videoiden lopusta. Se ei ole tilaus, ja se toimii Perhejaon kanssa. Ostonäkymä aukeaa vasta, kun aikuinen on vastannut nopeaan kysymykseen.
+
+## id
+
+### 지원 URL
+
+https://m1zz.github.io/RotoscopeIPad/id/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/RotoscopeIPad/id/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/RotoscopeIPad/id/
+
+### 이름
+
+Palang Book: Animasi Anak
+
+### 부제
+
+Jiplak gambar, lihat bergerak
+
+### 키워드
+
+menggambar,mewarnai,anak,balita,paud,tk,stempel,kartun,corat-coret,kreatif,seni,stop motion,edukasi
+
+### 프로모션 텍스트
+
+Jiplak garis tipis halaman demi halaman, tekan putar, dan gambar si kecil pun bergerak. Tambahkan stempel, rekam suaranya, lalu simpan video buatannya sendiri.
+
+### 설명
+
+Gambar anak Anda berubah menjadi animasi sungguhan.
+Si kecil menjiplak garis tipis halaman demi halaman, lalu menekan putar. Garis panduan menghilang dan hanya gambarnya sendiri yang bergerak.
+Semua tombol di Palang Book berupa gambar, jadi anak yang belum bisa membaca pun bisa langsung bermain sendiri. Menggambarlah dengan jari atau Apple Pencil.
+10 set jiplakan
+Bola yang memantul, kelinci yang melompat, burung yang terbang, ikan yang berenang, bunga yang mekar, kupu-kupu, mobil balap, roket yang meluncur, katak, dan kincir angin. Setiap set berisi sekitar 20 halaman garis panduan, dan halaman sebelumnya tampak samar di bawahnya, sehingga gambar berikutnya mudah disejajarkan.
+Gambar di atas video Anda sendiri
+Masukkan video yang Anda rekam sendiri, video dari app Foto, atau tautan ke file video, lalu jiplak langsung di atasnya. Saat latar disembunyikan, hanya adegan yang digambar anak yang diputar berurutan di atas kertas putih bersih.
+Flipbook kosong
+Tanpa garis panduan, anak bebas menggambar di kertas putih lalu membalik halaman demi halaman untuk membuat flipbook buatannya sendiri.
+Stempel dan warna
+Hias dengan stempel hati, lingkaran, persegi, segitiga, bintang, bunga, mobil, dan burung. Ada tiga ukuran stempel, sepuluh warna, dan tiga ukuran kuas. Tersedia juga penghapus, urungkan, dan tombol untuk membersihkan seluruh halaman sekaligus.
+Rekam suara
+Ketuk mikrofon dan animasi akan terus berulang selagi anak merekam suaranya.
+Simpan ke Foto
+Animasi yang sudah jadi disimpan sebagai video di app Foto, siap dibagikan ke seluruh keluarga.
+Semua karya menunggu di layar utama, sehingga anak bisa melanjutkan menggambar kapan saja.
+Gratis untuk mulai, Akses Seumur Hidup untuk semuanya
+Gratis, anak bisa menjiplak 3 set, menyimpan 3 karya, memasukkan 1 video, menggambar flipbook kosong hingga 10 halaman, dan merekam suara hingga 15 detik. Akses Seumur Hidup sekali beli membuka semua set jiplakan, termasuk yang akan datang, plus karya, video, halaman, dan waktu rekam tanpa batas, serta menghapus kartu Palang Book di akhir video yang disimpan. Ini bukan langganan dan bisa dipakai dengan Berbagi Keluarga. Layar pembelian baru terbuka setelah orang dewasa menjawab pertanyaan singkat.

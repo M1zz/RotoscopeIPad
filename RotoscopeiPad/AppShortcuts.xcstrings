@@ -57,6 +57,12 @@
             "value": "Nouveau folioscope dans ${applicationName}"
           }
         },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Flipbook baru di ${applicationName}"
+          }
+        },
         "it": {
           "stringUnit": {
             "state": "translated",
@@ -167,6 +173,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dessiner avec ${applicationName}"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menggambar dengan ${applicationName}"
           }
         },
         "it": {

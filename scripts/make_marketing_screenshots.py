@@ -201,6 +201,16 @@ SHOTS["fi"] = [
     ("04-home.png", "hero", "Myös omilla videoilla",
      "Piirrä omien<br>videoidesi päälle", "Kaikki teokset odottavat aloitusnäytössä"),
 ]
+SHOTS["id"] = [
+    ("01-trace-bunny.png", "hero", "Jiplak dan animasikan",
+     "Gambar si kecil<br>jadi bergerak", "Jiplak garis tipis halaman demi halaman"),
+    ("02-trace-rocket.png", "tilt-left", "Halaman demi halaman",
+     "Ikuti garisnya,<br>jadi kartun", "Kelinci, roket, katak, dan lainnya: 10 set"),
+    ("03-stamps-fish.png", "tilt-right", "Palet stempel",
+     "Cap hati, bintang,<br>dan bunga", "Tak perlu bisa membaca, cukup ketuk gambarnya"),
+    ("04-home.png", "hero", "Bisa juga dengan videomu",
+     "Gambar di atas video<br>yang kamu rekam", "Semua karya menunggu di layar utama"),
+]
 
 CSS = """
 * { margin:0; padding:0; box-sizing:border-box; }
