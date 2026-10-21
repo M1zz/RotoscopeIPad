@@ -131,6 +131,16 @@ SHOTS["en-GB"] = [
     ("04-home.png", "hero", "Your own videos too",
      "Trace over videos<br>you filmed", "Every artwork waits on the home screen"),
 ]
+SHOTS["ru"] = [
+    ("01-trace-bunny.png", "hero", "Обводи и оживляй",
+     "Рисунки ребёнка<br>оживают", "Обводите бледные контуры страница за страницей"),
+    ("02-trace-rocket.png", "tilt-left", "Страница за страницей",
+     "Обведи линии —<br>получится мультфильм", "Зайчик, ракета, лягушка и другие: 10 наборов"),
+    ("03-stamps-fish.png", "tilt-right", "Палитра штампов",
+     "Сердца, звёзды и цветы<br>одним касанием", "Читать не нужно — просто нажимайте на картинки"),
+    ("04-home.png", "hero", "И с вашими видео",
+     "Рисуйте поверх<br>снятых видео", "Все работы ждут на главном экране"),
+]
 
 CSS = """
 * { margin:0; padding:0; box-sizing:border-box; }

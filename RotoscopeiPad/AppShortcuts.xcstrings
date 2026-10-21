@@ -57,6 +57,12 @@
             "value": "Novo flipbook no ${applicationName}"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Новый флипбук в ${applicationName}"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -125,6 +131,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Desenhar com o ${applicationName}"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Рисовать в ${applicationName}"
           }
         },
         "zh-Hans": {

@@ -58,6 +58,12 @@
             "value": "Palang Book"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -127,6 +133,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Usada para gravar vídeos e desenhar sobre eles."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нужно, чтобы снимать видео, на которых можно рисовать."
           }
         },
         "zh-Hans": {
@@ -200,6 +212,12 @@
             "value": "Usado para gravar vozes nas suas animações."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нужно, чтобы записывать голос для анимаций."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -271,6 +289,12 @@
             "value": "Usado para salvar as animações prontas no app Fotos."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нужно, чтобы сохранять готовые анимации в «Фото»."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -340,6 +364,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Usado para trazer vídeos para desenhar por cima."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нужно, чтобы добавлять видео, на которых можно рисовать."
           }
         },
         "zh-Hans": {

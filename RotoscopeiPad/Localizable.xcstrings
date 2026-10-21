@@ -51,6 +51,12 @@
             "value": "%@ · Pagamento único, para sempre"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · Разовая покупка — навсегда"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -114,6 +120,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "VoiceOver mais confortável"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Улучшенная поддержка VoiceOver"
           }
         },
         "zh-Hans": {
@@ -240,6 +252,12 @@
             "value": "Pincel fino"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Тонкая кисть"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -304,6 +322,12 @@
             "value": "Com o Compartilhamento Familiar, em todos os iPads da família"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Семейный доступ: пользуйтесь на всех iPad в семье"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -366,6 +390,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Política de Privacidade"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Политика конфиденциальности"
           }
         },
         "zh-Hans": {
@@ -433,6 +463,12 @@
             "value": "Preto"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Чёрный"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -495,6 +531,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Restaurar compras"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Восстановить покупки"
           }
         },
         "zh-Hans": {
@@ -562,6 +604,12 @@
             "value": "Pincel grosso"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Толстая кисть"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -625,6 +673,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mesmo com o texto maior, nada fica cortado e tudo se reorganiza bem."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Крупный текст не обрезается — экран аккуратно перестраивается."
           }
         },
         "zh-Hans": {
@@ -692,6 +746,12 @@
             "value": "Sincronização entre dispositivos"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Синхронизация между устройствами"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -755,6 +815,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Toque e segure para apagar."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нажмите и удерживайте, чтобы удалить."
           }
         },
         "zh-Hans": {
@@ -822,6 +888,12 @@
             "value": "Carimbo de flor"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Штамп «Цветок»"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -884,6 +956,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Desenhar sobre seus próprios vídeos, sem limite"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Рисуйте поверх своих видео без ограничений"
           }
         },
         "zh-Hans": {
@@ -951,6 +1029,12 @@
             "value": "Minha obra"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Моя работа"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1014,6 +1098,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Carimbo de quadrado"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Штамп «Квадрат»"
           }
         },
         "zh-Hans": {
@@ -1081,6 +1171,12 @@
             "value": "Amarelo"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Жёлтый"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1144,6 +1240,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Parar gravação"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Остановить запись"
           }
         },
         "zh-Hans": {
@@ -1211,6 +1313,12 @@
             "value": "Continue desenhando a mesma obra em outro iPad."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Продолжайте рисовать ту же работу на другом iPad."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1273,6 +1381,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tentar novamente"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Повторить"
           }
         },
         "zh-Hans": {
@@ -1340,6 +1454,12 @@
             "value": "Próximo"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Далее"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1403,6 +1523,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Desenhar o próximo"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Рисовать следующую картинку"
           }
         },
         "zh-Hans": {
@@ -1470,6 +1596,12 @@
             "value": "Desenhe a próxima página"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Рисуем следующую страницу"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1533,6 +1665,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Modo Escuro"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Тёмная тема"
           }
         },
         "zh-Hans": {
@@ -1600,6 +1738,12 @@
             "value": "Fechar"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Закрыть"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1663,6 +1807,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tudo fica legível com o contraste aumentado ou se for difícil distinguir cores."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Всё хорошо читается при повышенной контрастности и когда трудно различать цвета."
           }
         },
         "zh-Hans": {
@@ -1730,6 +1880,12 @@
             "value": "Carimbo de círculo"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Штамп «Круг»"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1793,6 +1949,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Abrir um link de vídeo"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открыть ссылку на видео"
           }
         },
         "zh-Hans": {
@@ -1860,6 +2022,12 @@
             "value": "Mostrar vídeo de fundo"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Показать видео на фоне"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1923,6 +2091,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ocultar vídeo de fundo"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скрыть видео на фоне"
           }
         },
         "zh-Hans": {
@@ -1990,6 +2164,12 @@
             "value": "Gravar um vídeo"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Снять видео"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2053,6 +2233,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Comece com um vídeo, uma folha em branco ou um conjunto para decalcar."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Начните с видео, чистой страницы или набора для обводки."
           }
         },
         "zh-Hans": {
@@ -2119,6 +2305,12 @@
             "value": "Traga um vídeo para começar!"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Добавьте видео, чтобы начать!"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2181,6 +2373,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Não foi possível trazer o vídeo: %@"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось добавить видео: %@"
           }
         },
         "zh-Hans": {
@@ -2247,6 +2445,12 @@
             "value": "Algo deu errado ao criar o vídeo."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "При создании видео что-то пошло не так."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2309,6 +2513,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Abrindo o vídeo…"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открываем видео…"
           }
         },
         "zh-Hans": {
@@ -2375,6 +2585,12 @@
             "value": "Não dá para ler este vídeo. Vamos tentar outro?"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удаётся прочитать это видео. Попробуем другое?"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2439,6 +2655,12 @@
             "value": "Isso não é um vídeo. Escolha um vídeo!"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Это не видео. Выберите видео!"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2501,6 +2723,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Não há nenhum vídeo."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Видео нет."
           }
         },
         "zh-Hans": {
@@ -2568,6 +2796,12 @@
             "value": "Desfazer"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Отменить"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2631,6 +2865,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Conjunto para decalcar %lld"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Набор для обводки %lld"
           }
         },
         "zh-Hans": {
@@ -2776,6 +3016,36 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "Todos os %lld conjuntos para decalcar, e os novos também"
+                }
+              }
+            }
+          }
+        },
+        "ru": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Наборов для обводки: %lld — и все новые в придачу"
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Наборов для обводки: %lld — и все новые в придачу"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Наборов для обводки: %lld — и все новые в придачу"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Наборов для обводки: %lld — и все новые в придачу"
                 }
               }
             }
@@ -2929,6 +3199,36 @@
             }
           }
         },
+        "ru": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Бесплатно: %lld набор для обводки, остальные открываются с пожизненным доступом."
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Бесплатно: %lld набора для обводки, остальные открываются с пожизненным доступом."
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Бесплатно: %lld наборов для обводки, остальные открываются с пожизненным доступом."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Бесплатно: %lld набора для обводки, остальные открываются с пожизненным доступом."
+                }
+              }
+            }
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2991,6 +3291,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Esse link não é válido."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ссылка выглядит неправильно."
           }
         },
         "zh-Hans": {
@@ -3058,6 +3364,12 @@
             "value": "Toque no microfone para gravar sua voz enquanto a animação toca uma vez."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нажмите на микрофон, чтобы записать голос, пока анимация проигрывается один раз."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3123,6 +3435,12 @@
             "value": "Fale conosco por e-mail"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Написать нам"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3185,6 +3503,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tudo está desbloqueado"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Всё открыто"
           }
         },
         "zh-Hans": {
@@ -3252,6 +3576,12 @@
             "value": "Grave sua voz"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Добавьте свой голос"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3317,6 +3647,12 @@
             "value": "Gravar voz"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Записать голос"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3379,6 +3715,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Gravar voz sem limite de tempo"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Запись голоса без ограничения по времени"
           }
         },
         "zh-Hans": {
@@ -3524,6 +3866,36 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "A versão gratuita permite trazer %lld vídeos."
+                }
+              }
+            }
+          }
+        },
+        "ru": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "В бесплатной версии можно добавить видео: %lld."
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "В бесплатной версии можно добавить видео: %lld."
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "В бесплатной версии можно добавить видео: %lld."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "В бесплатной версии можно добавить видео: %lld."
                 }
               }
             }
@@ -3677,6 +4049,36 @@
             }
           }
         },
+        "ru": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "В бесплатной версии голос записывается до %lld секунды."
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "В бесплатной версии голос записывается до %lld секунд."
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "В бесплатной версии голос записывается до %lld секунд."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "В бесплатной версии голос записывается до %lld секунды."
+                }
+              }
+            }
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3820,6 +4222,36 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "A versão gratuita permite até %lld páginas em um flipbook em branco."
+                }
+              }
+            }
+          }
+        },
+        "ru": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "В бесплатной версии в чистом флипбуке можно нарисовать до %lld страницы."
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "В бесплатной версии в чистом флипбуке можно нарисовать до %lld страниц."
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "В бесплатной версии в чистом флипбуке можно нарисовать до %lld страниц."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "В бесплатной версии в чистом флипбуке можно нарисовать до %lld страницы."
                 }
               }
             }
@@ -3973,6 +4405,36 @@
             }
           }
         },
+        "ru": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "В бесплатной версии хранится до %lld работы."
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "В бесплатной версии хранится до %lld работ."
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "В бесплатной версии хранится до %lld работ."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "В бесплатной версии хранится до %lld работы."
+                }
+              }
+            }
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4036,6 +4498,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Carimbo de estrela"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Штамп «Звезда»"
           }
         },
         "zh-Hans": {
@@ -4103,6 +4571,12 @@
             "value": "Cores e contraste mais legíveis"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удобные цвета и контрастность"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4166,6 +4640,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Roxo"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Фиолетовый"
           }
         },
         "zh-Hans": {
@@ -4233,6 +4713,12 @@
             "value": "Pincel médio"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Средняя кисть"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4295,6 +4781,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Verificação dos pais: toque na resposta da conta abaixo."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Проверка для взрослых: нажмите ответ на пример ниже."
           }
         },
         "zh-Hans": {
@@ -4362,6 +4854,12 @@
             "value": "Rosa"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Розовый"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4427,6 +4925,12 @@
             "value": "Pincel"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Кисть"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4489,6 +4993,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Colar"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вставить"
           }
         },
         "zh-Hans": {
@@ -4556,6 +5066,12 @@
             "value": "Flipbook em branco"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Чистый флипбук"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4621,6 +5137,12 @@
             "value": "Novo flipbook em branco"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Новый чистый флипбук"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4683,6 +5205,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Flipbooks em branco sem limite de páginas"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Чистые флипбуки без ограничения страниц"
           }
         },
         "zh-Hans": {
@@ -4750,6 +5278,12 @@
             "value": "Vermelho"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Красный"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4813,6 +5347,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Salvar no Fotos"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сохранить в «Фото»"
           }
         },
         "zh-Hans": {
@@ -4879,6 +5419,12 @@
             "value": "Para salvar no app Fotos, permita o acesso nos Ajustes."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Чтобы сохранять в «Фото», разрешите доступ в настройках."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4941,6 +5487,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Trazendo do Fotos… só um instante!"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Загружаем из «Фото»… секундочку!"
           }
         },
         "zh-Hans": {
@@ -5008,6 +5560,12 @@
             "value": "Escolher um vídeo do Fotos"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выбрать видео из «Фото»"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5070,6 +5628,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Não foi possível carregar as opções de compra."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось загрузить варианты покупки."
           }
         },
         "zh-Hans": {
@@ -5137,6 +5701,12 @@
             "value": "Carimbo de passarinho"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Штамп «Птичка»"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5199,6 +5769,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ajustes"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Настройки"
           }
         },
         "zh-Hans": {
@@ -5266,6 +5842,12 @@
             "value": "Carimbo de triângulo"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Штамп «Треугольник»"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5329,6 +5911,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Começar"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Начать"
           }
         },
         "zh-Hans": {
@@ -5395,6 +5983,12 @@
             "value": "Os desenhos das crianças ganham vida"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Детские рисунки оживают"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5457,6 +6051,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Problema desconhecido"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Неизвестная проблема"
           }
         },
         "zh-Hans": {
@@ -5524,6 +6124,12 @@
             "value": "Veja as obras do seu filho direto na Tela de Início, sem abrir o app."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Смотрите работы ребёнка прямо на экране «Домой», не открывая приложение."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5589,6 +6195,12 @@
             "value": "Textos e botões continuam nítidos com a tela escura."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "На тёмном экране текст и кнопки остаются чёткими."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5651,6 +6263,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mostre para um adulto"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Покажите это взрослому"
           }
         },
         "zh-Hans": {
@@ -5718,6 +6336,12 @@
             "value": "Na primeira vez que abrir o app após uma atualização, você verá as novidades."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "При первом запуске после обновления вы увидите, что нового."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5781,6 +6405,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Novidades"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Что нового"
           }
         },
         "zh-Hans": {
@@ -5847,6 +6477,12 @@
             "value": "Abrir"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открыть"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5911,6 +6547,12 @@
             "value": "Não foi possível abrir. Confira se é um link de vídeo."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось открыть. Убедитесь, что это ссылка на видео."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5973,6 +6615,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Não foi possível abrir. Confira o link e tente de novo."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Не удалось открыть. Проверьте ссылку и повторите попытку."
           }
         },
         "zh-Hans": {
@@ -6040,6 +6688,12 @@
             "value": "Reduzir Movimento"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Уменьшение движения"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6103,6 +6757,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Com Reduzir Movimento ativado, as animações ficam mais suaves."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Когда включено «Уменьшение движения», эффекты на экране становятся спокойнее."
           }
         },
         "zh-Hans": {
@@ -6170,6 +6830,12 @@
             "value": "Apague de uma vez todas as obras do app quando quiser."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удаляйте все работы в приложении разом, когда захотите."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6233,6 +6899,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Apagar esta página"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Стереть всю страницу"
           }
         },
         "zh-Hans": {
@@ -6299,6 +6971,12 @@
             "value": "Desbloqueio"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Доступ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6361,6 +7039,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Termos de Uso"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Условия использования"
           }
         },
         "zh-Hans": {
@@ -6428,6 +7112,12 @@
             "value": "Desenho anterior"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Предыдущая картинка"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6491,6 +7181,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "DM no Instagram (@lee25_ios)"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Личное сообщение в Instagram (@lee25_ios)"
           }
         },
         "zh-Hans": {
@@ -6558,6 +7254,12 @@
             "value": "Pausar"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пауза"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6621,6 +7323,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Carimbo de carro"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Штамп «Машинка»"
           }
         },
         "zh-Hans": {
@@ -6688,6 +7396,12 @@
             "value": "Carimbo pequeno"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Маленький штамп"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6751,6 +7465,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Backup das obras"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Резервное копирование работ"
           }
         },
         "zh-Hans": {
@@ -6818,6 +7538,12 @@
             "value": "Apagar todas as obras de uma vez"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалить все работы разом"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6880,6 +7606,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Guardar obras sem limite"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Неограниченное хранение работ"
           }
         },
         "zh-Hans": {
@@ -6947,6 +7679,12 @@
             "value": "Salve as obras em um arquivo e recupere quando quiser."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Сохраняйте работы в файл и возвращайте их когда угодно."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7010,6 +7748,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bloqueado"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Закрыто"
           }
         },
         "zh-Hans": {
@@ -7077,6 +7821,12 @@
             "value": "Páginas"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Страницы"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7140,6 +7890,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Reproduzir"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Воспроизвести"
           }
         },
         "zh-Hans": {
@@ -7207,6 +7963,12 @@
             "value": "Mostrar barra de reprodução"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Показать панель воспроизведения"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7270,6 +8032,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ocultar barra de reprodução"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Скрыть панель воспроизведения"
           }
         },
         "zh-Hans": {
@@ -7337,6 +8105,12 @@
             "value": "Aperte o play e seus desenhos ganham vida. Grave sua voz e salve no Fotos."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нажмите «Воспроизвести» — рисунок оживёт. Добавьте голос и сохраните в «Фото»."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7399,6 +8173,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sem o cartão do Palang Book no fim dos vídeos"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Без карточки Palang Book в конце сохранённых видео"
           }
         },
         "zh-Hans": {
@@ -7464,6 +8244,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Laranja"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Оранжевый"
           }
         },
         "zh-Hans": {
@@ -7614,6 +8400,36 @@
             }
           }
         },
+        "ru": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Готово! Сцен: %lld. Начинайте рисовать 🎨"
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Готово! Сцен: %lld. Начинайте рисовать 🎨"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Готово! Сцен: %lld. Начинайте рисовать 🎨"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Готово! Сцен: %lld. Начинайте рисовать 🎨"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7677,6 +8493,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Carimbo médio"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Средний штамп"
           }
         },
         "zh-Hans": {
@@ -7744,6 +8566,12 @@
             "value": "Borracha"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ластик"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7808,6 +8636,12 @@
             "value": "Apagar"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Удалить"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7870,6 +8704,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Suporte"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Поддержка"
           }
         },
         "zh-Hans": {
@@ -7937,6 +8777,12 @@
             "value": "Turquesa"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Бирюзовый"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8000,6 +8846,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Verde"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Зелёный"
           }
         },
         "zh-Hans": {
@@ -8067,6 +8919,12 @@
             "value": "Layout que se adapta a textos maiores"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Экраны под крупный текст"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8130,6 +8988,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Carimbo grande"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Большой штамп"
           }
         },
         "zh-Hans": {
@@ -8197,6 +9061,12 @@
             "value": "Azul"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Синий"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8256,6 +9126,12 @@
           }
         },
         "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
+        },
+        "ru": {
           "stringUnit": {
             "state": "translated",
             "value": "Palang Book"
@@ -8325,6 +9201,12 @@
             "value": "Palang Book: Acesso vitalício"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book: пожизненный доступ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8390,6 +9272,12 @@
             "value": "Abre o Palang Book com um novo flipbook em branco, pronto para desenhar."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открывает Palang Book с новым чистым флипбуком — можно сразу рисовать."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8452,6 +9340,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Acesso vitalício"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пожизненный доступ"
           }
         },
         "zh-Hans": {
@@ -8519,6 +9413,12 @@
             "value": "Carimbo de coração"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Штамп «Сердце»"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8583,6 +9483,12 @@
             "value": "Com um único pagamento, todo o Palang Book é seu para sempre."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Одна покупка открывает в Palang Book всё — навсегда."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8645,6 +9551,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pagamento único, não é assinatura. A cobrança é feita na sua conta da App Store."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Разовый платёж, не подписка. Списывается с вашей учётной записи App Store."
           }
         },
         "zh-Hans": {
@@ -8712,6 +9624,12 @@
             "value": "Desenhe uma página e toque no botão laranja para desenhar a próxima."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нарисуйте страницу и нажмите оранжевую кнопку, чтобы рисовать следующую."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8775,6 +9693,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Terminou esta página? Toque no botão laranja para desenhar a próxima."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Закончили страницу? Нажмите оранжевую кнопку и рисуйте следующую картинку."
           }
         },
         "zh-Hans": {
@@ -8842,6 +9766,12 @@
             "value": "Apagar"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Стереть цифру"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8905,6 +9835,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Widgets na Tela de Início"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Виджеты для экрана «Домой»"
           }
         },
         "zh-Hans": {
@@ -8972,6 +9908,12 @@
             "value": "Início"
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Домой"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9037,6 +9979,12 @@
             "value": "O VoiceOver lê todos os botões e ferramentas de desenho na ordem certa."
           }
         },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoiceOver озвучивает все кнопки и инструменты рисования в правильном порядке."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9097,6 +10045,12 @@
           }
         },
         "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
+        "ru": {
           "stringUnit": {
             "state": "translated",
             "value": "OK"
@@ -9165,6 +10119,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Branco"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Белый"
           }
         },
         "zh-Hans": {
