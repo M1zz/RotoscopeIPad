@@ -121,6 +121,16 @@ SHOTS["it"] = [
     ("04-home.png", "hero", "Anche con i tuoi video",
      "Disegna sopra<br>i tuoi video", "Tutte le opere restano nella schermata iniziale"),
 ]
+SHOTS["en-GB"] = [
+    ("01-trace-bunny.png", "hero", "Trace and animate",
+     "Your child's drawings<br>come to life", "Trace soft outlines one page at a time"),
+    ("02-trace-rocket.png", "tilt-left", "Page by page",
+     "Follow the lines,<br>make a cartoon", "Bunny, rocket, frog and more: 10 sets"),
+    ("03-stamps-fish.png", "tilt-right", "Stamp palette",
+     "Tap on hearts,<br>stars and flowers", "No reading needed, just tap the pictures"),
+    ("04-home.png", "hero", "Your own videos too",
+     "Trace over videos<br>you filmed", "Every artwork waits on the home screen"),
+]
 
 CSS = """
 * { margin:0; padding:0; box-sizing:border-box; }

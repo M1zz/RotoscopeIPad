@@ -15,6 +15,12 @@
             "value": "%@ · One-time purchase, yours forever"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · One-time purchase, yours forever"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -69,6 +75,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Better VoiceOver support"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Better VoiceOver support"
@@ -192,6 +204,12 @@
             "value": "Thin Brush"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thin Brush"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -250,6 +268,12 @@
             "value": "Family Sharing: use it on every iPad in your family"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Family Sharing: use it on every iPad in your family"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -303,6 +327,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privacy Policy"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Privacy Policy"
@@ -367,6 +397,12 @@
             "value": "Black"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Black"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -420,6 +456,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restore Purchases"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Restore Purchases"
@@ -484,6 +526,12 @@
             "value": "Thick Brush"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thick Brush"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -538,6 +586,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bigger text never gets cut off — the screen rearranges itself neatly."
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Bigger text never gets cut off — the screen rearranges itself neatly."
@@ -602,6 +656,12 @@
             "value": "Sync across devices"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sync across devices"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -656,6 +716,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Touch and hold to delete."
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Touch and hold to delete."
@@ -720,6 +786,12 @@
             "value": "Flower Stamp"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Flower Stamp"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -773,6 +845,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Draw over your own videos, unlimited"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Draw over your own videos, unlimited"
@@ -837,6 +915,12 @@
             "value": "My Artwork"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "My Artwork"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -891,6 +975,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Square Stamp"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Square Stamp"
@@ -955,6 +1045,12 @@
             "value": "Yellow"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yellow"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -1009,6 +1105,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stop Recording"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Stop Recording"
@@ -1073,6 +1175,12 @@
             "value": "Keep drawing the same artwork on another iPad."
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep drawing the same artwork on another iPad."
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -1126,6 +1234,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Try Again"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Try Again"
@@ -1190,6 +1304,12 @@
             "value": "Next"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -1244,6 +1364,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Draw Next Picture"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Draw Next Picture"
@@ -1308,6 +1434,12 @@
             "value": "Draw the Next Page"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Draw the Next Page"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -1362,6 +1494,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dark Mode"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Dark Mode"
@@ -1426,6 +1564,12 @@
             "value": "Close"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -1485,6 +1629,12 @@
             "value": "Everything stays readable with Increase Contrast on or if colors are hard to tell apart."
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Everything stays readable with Increase Contrast on or if colours are hard to tell apart."
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -1539,6 +1689,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Circle Stamp"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Circle Stamp"
@@ -1603,6 +1759,12 @@
             "value": "Open a Video Link"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open a Video Link"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -1657,6 +1819,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Video Background"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Show Video Background"
@@ -1721,6 +1889,12 @@
             "value": "Hide Video Background"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide Video Background"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -1775,6 +1949,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Record a Video"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Record a Video"
@@ -1839,6 +2019,12 @@
             "value": "Start with a video, a blank page, or a tracing set."
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start with a video, a blank page, or a tracing set."
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -1892,6 +2078,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bring in a video to get started!"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Bring in a video to get started!"
@@ -1955,6 +2147,12 @@
             "value": "Couldn't bring in the video: %@"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't bring in the video: %@"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -2008,6 +2206,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Something went wrong while making the video."
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Something went wrong while making the video."
@@ -2071,6 +2275,12 @@
             "value": "Opening the video…"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opening the video…"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -2124,6 +2334,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Can't read this video. Want to try another one?"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Can't read this video. Want to try another one?"
@@ -2187,6 +2403,12 @@
             "value": "That's not a video. Please pick a video!"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That's not a video. Please pick a video!"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -2240,6 +2462,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "There's no video."
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "There's no video."
@@ -2304,6 +2532,12 @@
             "value": "Undo"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Undo"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -2358,6 +2592,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tracing Set %lld"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Tracing Set %lld"
@@ -2428,6 +2668,24 @@
           }
         },
         "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "All %lld tracing set, plus every new one"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "All %lld tracing sets, plus every new one"
+                }
+              }
+            }
+          }
+        },
+        "en-GB": {
           "variations": {
             "plural": {
               "one": {
@@ -2575,6 +2833,24 @@
             }
           }
         },
+        "en-GB": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld tracing set is free; the rest unlock with the Lifetime Pass."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld tracing sets are free; the rest unlock with the Lifetime Pass."
+                }
+              }
+            }
+          }
+        },
         "es": {
           "variations": {
             "plural": {
@@ -2681,6 +2957,12 @@
             "value": "That link doesn't look right."
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "That link doesn't look right."
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -2735,6 +3017,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tap the microphone to record your voice while the animation plays once."
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Tap the microphone to record your voice while the animation plays once."
@@ -2799,6 +3087,12 @@
             "value": "Email Us"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Email Us"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -2852,6 +3146,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Everything is unlocked"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Everything is unlocked"
@@ -2916,6 +3216,12 @@
             "value": "Add Your Voice"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Your Voice"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -2975,6 +3281,12 @@
             "value": "Record Voice"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Record Voice"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -3028,6 +3340,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No limit on voice recording time"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "No limit on voice recording time"
@@ -3098,6 +3416,24 @@
           }
         },
         "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "The free version lets you bring in %lld video."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "The free version lets you bring in %lld videos."
+                }
+              }
+            }
+          }
+        },
+        "en-GB": {
           "variations": {
             "plural": {
               "one": {
@@ -3245,6 +3581,24 @@
             }
           }
         },
+        "en-GB": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "The free version records up to %lld second of voice."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "The free version records up to %lld seconds of voice."
+                }
+              }
+            }
+          }
+        },
         "es": {
           "variations": {
             "plural": {
@@ -3358,6 +3712,24 @@
           }
         },
         "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "The free version allows up to %lld page in a blank flipbook."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "The free version allows up to %lld pages in a blank flipbook."
+                }
+              }
+            }
+          }
+        },
+        "en-GB": {
           "variations": {
             "plural": {
               "one": {
@@ -3505,6 +3877,24 @@
             }
           }
         },
+        "en-GB": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "The free version keeps up to %lld artwork."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "The free version keeps up to %lld artworks."
+                }
+              }
+            }
+          }
+        },
         "es": {
           "variations": {
             "plural": {
@@ -3612,6 +4002,12 @@
             "value": "Star Stamp"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Star Stamp"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -3671,6 +4067,12 @@
             "value": "Easier-to-see colors and contrast"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Easier-to-see colours and contrast"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -3725,6 +4127,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Purple"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Purple"
@@ -3789,6 +4197,12 @@
             "value": "Medium Brush"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medium Brush"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -3842,6 +4256,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grown-up check: tap the answer to the problem below."
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Grown-up check: tap the answer to the problem below."
@@ -3906,6 +4326,12 @@
             "value": "Pink"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pink"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -3965,6 +4391,12 @@
             "value": "Brush"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brush"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -4018,6 +4450,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paste"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Paste"
@@ -4082,6 +4520,12 @@
             "value": "Blank Flipbook"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Blank Flipbook"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -4141,6 +4585,12 @@
             "value": "New Blank Flipbook"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New Blank Flipbook"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -4194,6 +4644,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Blank flipbooks with unlimited pages"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Blank flipbooks with unlimited pages"
@@ -4258,6 +4714,12 @@
             "value": "Red"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Red"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -4312,6 +4774,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save to Photos"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Save to Photos"
@@ -4375,6 +4843,12 @@
             "value": "To save to Photos, allow access in Settings."
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To save to Photos, allow access in Settings."
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -4428,6 +4902,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Getting it from Photos… just a moment!"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Getting it from Photos… just a moment!"
@@ -4492,6 +4972,12 @@
             "value": "Choose a Video from Photos"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose a Video from Photos"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -4545,6 +5031,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't load the purchase options."
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Couldn't load the purchase options."
@@ -4609,6 +5101,12 @@
             "value": "Bird Stamp"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bird Stamp"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -4662,6 +5160,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Settings"
@@ -4726,6 +5230,12 @@
             "value": "Triangle Stamp"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Triangle Stamp"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -4780,6 +5290,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Get Started"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Get Started"
@@ -4843,6 +5359,12 @@
             "value": "Kids' drawings come to life"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kids' drawings come to life"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -4896,6 +5418,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unknown problem"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Unknown problem"
@@ -4960,6 +5488,12 @@
             "value": "See your child’s artwork right on the Home Screen, without opening the app."
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "See your child’s artwork right on the Home Screen, without opening the app."
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -5019,6 +5553,12 @@
             "value": "Text and buttons stay crisp and clear on a dark screen."
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Text and buttons stay crisp and clear on a dark screen."
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -5072,6 +5612,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show this to a grown-up"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Show this to a grown-up"
@@ -5136,6 +5682,12 @@
             "value": "The first time you open the app after an update, you’ll see what’s new."
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The first time you open the app after an update, you’ll see what’s new."
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -5190,6 +5742,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What’s New"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "What’s New"
@@ -5253,6 +5811,12 @@
             "value": "Open"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -5311,6 +5875,12 @@
             "value": "Couldn't open it. Make sure it's a video link."
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't open it. Make sure it's a video link."
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -5364,6 +5934,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't open it. Check the link and try again."
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Couldn't open it. Check the link and try again."
@@ -5428,6 +6004,12 @@
             "value": "Reduce Motion"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reduce Motion"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -5482,6 +6064,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "With Reduce Motion on, animations become calmer."
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "With Reduce Motion on, animations become calmer."
@@ -5546,6 +6134,12 @@
             "value": "Erase every artwork in the app in one go whenever you want."
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erase every artwork in the app in one go whenever you want."
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -5600,6 +6194,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clear This Page"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Clear This Page"
@@ -5663,6 +6263,12 @@
             "value": "Unlock"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unlock"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -5716,6 +6322,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terms of Use"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Terms of Use"
@@ -5780,6 +6392,12 @@
             "value": "Previous Picture"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Previous Picture"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -5834,6 +6452,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instagram DM (@lee25_ios)"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Instagram DM (@lee25_ios)"
@@ -5898,6 +6522,12 @@
             "value": "Pause"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pause"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -5952,6 +6582,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Car Stamp"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Car Stamp"
@@ -6016,6 +6652,12 @@
             "value": "Small Stamp"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Small Stamp"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -6070,6 +6712,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Back up artwork"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Back up artwork"
@@ -6134,6 +6782,12 @@
             "value": "Delete all artwork at once"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete all artwork at once"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -6187,6 +6841,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep unlimited artworks"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Keep unlimited artworks"
@@ -6251,6 +6911,12 @@
             "value": "Save artwork as a file and bring it back anytime."
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save artwork as a file and bring it back anytime."
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -6305,6 +6971,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Locked"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Locked"
@@ -6369,6 +7041,12 @@
             "value": "Pages"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pages"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -6423,6 +7101,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Play"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Play"
@@ -6487,6 +7171,12 @@
             "value": "Show Play Bar"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Play Bar"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -6541,6 +7231,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide Play Bar"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Hide Play Bar"
@@ -6605,6 +7301,12 @@
             "value": "Press play and your drawings come to life. Add your voice and save it to Photos."
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Press play and your drawings come to life. Add your voice and save it to Photos."
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -6658,6 +7360,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Palang Book card at the end of saved videos"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "No Palang Book card at the end of saved videos"
@@ -6717,6 +7425,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Orange"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Orange"
@@ -6787,6 +7501,24 @@
           }
         },
         "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "All set! There's %lld scene. Start drawing 🎨"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "All set! There are %lld scenes. Start drawing 🎨"
+                }
+              }
+            }
+          }
+        },
+        "en-GB": {
           "variations": {
             "plural": {
               "one": {
@@ -6911,6 +7643,12 @@
             "value": "Medium Stamp"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Medium Stamp"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -6965,6 +7703,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eraser"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Eraser"
@@ -7028,6 +7772,12 @@
             "value": "Delete"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -7081,6 +7831,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Support"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Support"
@@ -7145,6 +7901,12 @@
             "value": "Teal"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teal"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -7199,6 +7961,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Green"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Green"
@@ -7263,6 +8031,12 @@
             "value": "Layouts that fit larger text"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Layouts that fit larger text"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -7317,6 +8091,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Big Stamp"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Big Stamp"
@@ -7381,6 +8161,12 @@
             "value": "Blue"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Blue"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -7439,6 +8225,12 @@
             "value": "Palang Book"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -7492,6 +8284,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book Lifetime Pass"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Palang Book Lifetime Pass"
@@ -7556,6 +8354,12 @@
             "value": "Opens Palang Book on a fresh blank flipbook, ready to draw."
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opens Palang Book on a fresh blank flipbook, ready to draw."
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -7609,6 +8413,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lifetime Pass"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Lifetime Pass"
@@ -7673,6 +8483,12 @@
             "value": "Heart Stamp"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Heart Stamp"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -7731,6 +8547,12 @@
             "value": "One purchase unlocks everything in Palang Book, for good."
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One purchase unlocks everything in Palang Book, for good."
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -7784,6 +8606,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One-time payment, not a subscription. Charged to your App Store account."
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "One-time payment, not a subscription. Charged to your App Store account."
@@ -7848,6 +8676,12 @@
             "value": "Draw one page, then tap the orange button to draw the next."
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Draw one page, then tap the orange button to draw the next."
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -7902,6 +8736,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finished this page? Tap the orange button to draw the next picture."
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Finished this page? Tap the orange button to draw the next picture."
@@ -7966,6 +8806,12 @@
             "value": "Delete"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -8020,6 +8866,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Home Screen widgets"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Home Screen widgets"
@@ -8084,6 +8936,12 @@
             "value": "Home"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Home"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -8138,6 +8996,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoiceOver reads every button and drawing tool, in the right order."
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "VoiceOver reads every button and drawing tool, in the right order."
@@ -8202,6 +9066,12 @@
             "value": "OK"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -8256,6 +9126,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "White"
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "White"

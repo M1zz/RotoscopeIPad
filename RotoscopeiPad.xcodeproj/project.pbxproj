@@ -274,6 +274,7 @@
 				fr,
 				"pt-BR",
 				it,
+				"en-GB",
 				Base,
 			);
 			mainGroup = B1000030;

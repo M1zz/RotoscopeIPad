@@ -16,6 +16,12 @@
             "value": "Palang Book"
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -76,6 +82,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Needed to record videos you can draw over."
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Needed to record videos you can draw over."
@@ -146,6 +158,12 @@
             "value": "Needed to record voices for your animations."
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Needed to record voices for your animations."
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -211,6 +229,12 @@
             "value": "Needed to save finished animations to Photos."
           }
         },
+        "en-GB": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Needed to save finished animations to Photos."
+          }
+        },
         "es": {
           "stringUnit": {
             "state": "translated",
@@ -271,6 +295,12 @@
           }
         },
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Needed to bring in videos to draw over."
+          }
+        },
+        "en-GB": {
           "stringUnit": {
             "state": "translated",
             "value": "Needed to bring in videos to draw over."

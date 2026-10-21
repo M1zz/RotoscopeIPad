@@ -599,3 +599,63 @@ Tutti i lavori restano nella schermata principale dell'app, pronti per essere ri
 
 Gratis per iniziare, Accesso a vita per avere tutto
 Gratis puoi ricalcare 3 serie, conservare 3 lavori, aprire 1 video, disegnare fino a 10 fogli bianchi e registrare fino a 15 secondi di voce. L'Accesso a vita, con un unico pagamento, sblocca tutte le serie da ricalcare, comprese quelle future, più lavori, video, pagine e tempo di registrazione senza limiti, e toglie la scheda di Palang Book alla fine dei video salvati. Non è un abbonamento e funziona con In famiglia. La schermata di acquisto si apre solo dopo che un adulto risponde a una breve domanda.
+
+## en-GB
+
+### 지원 URL
+
+https://m1zz.github.io/RotoscopeIPad/en/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/RotoscopeIPad/en/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/RotoscopeIPad/en/
+
+### 이름
+
+Palang Book: Kids Animation
+
+### 부제
+
+Draw a flipbook that moves
+
+### 키워드
+
+stopmotion,trace,cartoon,doodle,toddler,nursery,preschool,colouring,sketch,stamps,painting,art,craft
+
+### 프로모션 텍스트
+
+Trace soft outlines one page at a time, tap play, and your child's drawing comes to life. Add stamps, record their voice, and save a little film that's all their own.
+
+### 설명
+
+Your child's drawings become a real animation.
+Trace a soft outline page by page, tap play, and the outlines fade away so only your child's drawing moves.
+
+Every button in Palang Book is a picture, so even kids who can't read yet can jump right in. Draw with a finger or Apple Pencil.
+
+10 tracing sets
+A bouncing ball, a hopping bunny, a flying bird, a swimming fish, a blooming flower, a butterfly, a speeding car, a rocket taking off, a frog and a pinwheel. Each set comes with about 20 outline pages, and the page before shows through faintly, so the next drawing is easy to line up.
+
+Draw over your own videos
+Bring in a video you filmed, one from the Photos app, or a link to a video file, and trace right on top of it. Hide the background and only the scenes your child drew play back, one after another, on clean white paper.
+
+Blank flipbooks
+Skip the outlines and draw freely on white paper, turning page after page to make a flipbook of their own.
+
+Stamps and colours
+Decorate with heart, circle, square, triangle, star, flower, car and bird stamps. Pick from three stamp sizes, ten colours and three brush sizes. There's an eraser, undo, and a button that clears the whole page at once.
+
+Record a voice
+Tap the microphone and the animation keeps looping while your child records their voice to go with it.
+
+Save to Photos
+Finished animations are saved to the Photos app as videos, ready to share with the whole family.
+
+Every artwork waits on the main screen, so kids can pick up right where they left off.
+
+Free to start, Lifetime Pass for everything
+For free, kids can trace 3 sets, keep 3 artworks, bring in 1 video, draw blank flipbooks up to 10 pages and record up to 15 seconds of voice. A one-time Lifetime Pass unlocks every tracing set, including future ones, plus unlimited artworks, videos, pages and recording time, and removes the Palang Book card at the end of saved videos. It's not a subscription, and it works with Family Sharing. The purchase screen only opens after a grown-up answers a quick question.
