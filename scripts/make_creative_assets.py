@@ -46,6 +46,8 @@ SEARCH = {
     "ru": ("Детская рисовалка", "Обводи —<br>и рисунок оживёт", "Страница за страницей — и рисунок движется"),
     "th": ("แอปวาดรูปเด็ก", "วาดตามเส้น<br>ภาพก็ขยับ", "วาดตามเส้นทีละหน้า แล้วภาพวาดจะขยับ"),
     "vi": ("Ứng dụng vẽ cho bé", "Vẽ theo nét,<br>xem tranh chuyển động", "Vẽ từng trang và tranh sẽ chuyển động"),
+    "cs": ("Kreslení pro děti", "Obkresli a<br>sleduj, jak se hýbe", "Stránku po stránce a kresba ožije"),
+    "da": ("Tegneapp til børn", "Tegn efter og<br>se det bevæge sig", "Side for side, og tegningen bevæger sig"),
 }
 
 # 헤더 — 한 가지 약속: 아이가 그린 그림이 움직인다(부제: 내 아이가 그려주는 애니메이션).
@@ -64,6 +66,8 @@ HEADER = {
     "ru": ("Детские рисунки оживают", "Рисунки вашего ребёнка<br>оживают"),
     "th": ("ภาพวาดเด็กๆ ขยับได้", "ภาพวาดของลูก<br>ขยับได้"),
     "vi": ("Tranh của bé, hoạt hình", "Tranh của bé<br>biết chuyển động"),
+    "cs": ("Dětské kresby v animaci", "Kresby vašeho dítěte<br>ožívají"),
+    "da": ("Børns tegninger i animation", "Dit barns tegninger<br>vokser til live"),
 }
 
 # 바탕 · 글자색은 앱 화면과 같다: 하얀 종이, 따라 그리기 카드의 주황 점선, 도장 팔레트 색.

@@ -161,6 +161,26 @@ SHOTS["vi"] = [
     ("04-home.png", "hero", "Cả video của riêng bạn",
      "Vẽ lên những video<br>bạn tự quay", "Mọi tác phẩm chờ sẵn ở màn hình chính"),
 ]
+SHOTS["cs"] = [
+    ("01-trace-bunny.png", "hero", "Obkresli a rozpohybuj",
+     "Kresby vašeho dítěte<br>ožívají", "Obkreslujte světlé obrysy stránku po stránce"),
+    ("02-trace-rocket.png", "tilt-left", "Stránku po stránce",
+     "Sleduj čáry,<br>vznikne kreslený film", "Zajíček, raketa, žába a další: 10 sad"),
+    ("03-stamps-fish.png", "tilt-right", "Paleta razítek",
+     "Srdce, hvězdy a květy<br>jedním klepnutím", "Číst není třeba, stačí klepat na obrázky"),
+    ("04-home.png", "hero", "I s vlastními videi",
+     "Kreslete přes videa,<br>která jste natočili", "Všechna díla čekají na hlavní obrazovce"),
+]
+SHOTS["da"] = [
+    ("01-trace-bunny.png", "hero", "Tegn efter og animér",
+     "Dit barns tegninger<br>vokser til live", "Tegn efter lyse streger side for side"),
+    ("02-trace-rocket.png", "tilt-left", "Side for side",
+     "Følg stregerne,<br>lav en tegnefilm", "Kanin, raket, frø og mere: 10 sæt"),
+    ("03-stamps-fish.png", "tilt-right", "Stempelpalet",
+     "Tryk hjerter, stjerner<br>og blomster på", "Ingen læsning nødvendig, bare tryk på billederne"),
+    ("04-home.png", "hero", "Også dine egne videoer",
+     "Tegn oven på videoer,<br>du selv har optaget", "Alle værker venter på hjemmeskærmen"),
+]
 
 CSS = """
 * { margin:0; padding:0; box-sizing:border-box; }

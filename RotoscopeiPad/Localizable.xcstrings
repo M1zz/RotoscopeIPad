@@ -3,6 +3,18 @@
   "strings": {
     "%@ · 한 번 결제로 평생": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · Jednorázový nákup, navždy vaše"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · Engangskøb – dit for altid"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -86,6 +98,18 @@
     "VoiceOver로 더 편하게": {
       "comment": "Roadmap item: better VoiceOver support",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lepší podpora VoiceOveru"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bedre understøttelse af VoiceOver"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -228,6 +252,18 @@
     "가는 붓": {
       "comment": "VoiceOver: thinnest brush size",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tenký štětec"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tynd pensel"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -310,6 +346,18 @@
     },
     "가족 공유로 온 가족 아이패드에서 함께 써요": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sdílení v rodině: používejte na každém iPadu v rodině"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Familiedeling: brug den på alle familiens iPads"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -392,6 +440,18 @@
     },
     "개인정보처리방침": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zásady ochrany osobních údajů"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privatlivspolitik"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -475,6 +535,18 @@
     "검정": {
       "comment": "VoiceOver: paint color",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Černá"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sort"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -557,6 +629,18 @@
     },
     "구매 복원": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obnovit nákupy"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gendan køb"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -640,6 +724,18 @@
     "굵은 붓": {
       "comment": "VoiceOver: thickest brush size",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tlustý štětec"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tyk pensel"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -723,6 +819,18 @@
     "글자 크기를 키워도 잘리지 않고 보기 좋게 다시 배치돼요.": {
       "comment": "Roadmap item detail: Dynamic Type layouts",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Větší písmo se nikdy neuřízne — obrazovka se úhledně přeuspořádá."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Større tekst bliver aldrig klippet af – skærmen ordner sig pænt."
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -806,6 +914,18 @@
     "기기 간 동기화": {
       "comment": "Roadmap item: iCloud sync",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Synchronizace mezi zařízeními"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Synkronisering mellem enheder"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -889,6 +1009,18 @@
     "길게 누르면 지울 수 있어요": {
       "comment": "VoiceOver hint on a saved work",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Podržením smažete."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryk og hold for at slette."
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -972,6 +1104,18 @@
     "꽃 도장": {
       "comment": "VoiceOver: stamp shape",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Razítko květina"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Blomsterstempel"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -1054,6 +1198,18 @@
     },
     "내 동영상으로 그리기 무제한": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kreslete přes vlastní videa bez omezení"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tegn oven på dine egne videoer uden grænser"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -1137,6 +1293,18 @@
     "내 작품": {
       "comment": "VoiceOver: a saved work on the home grid",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Moje dílo"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mit værk"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -1220,6 +1388,18 @@
     "네모 도장": {
       "comment": "VoiceOver: stamp shape",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Razítko čtverec"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Firkantet stempel"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -1303,6 +1483,18 @@
     "노랑": {
       "comment": "VoiceOver: paint color",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Žlutá"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gul"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -1386,6 +1578,18 @@
     "녹음 멈추기": {
       "comment": "VoiceOver: stop voice recording",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zastavit nahrávání"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stop optagelse"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -1469,6 +1673,18 @@
     "다른 아이패드에서도 그리던 작품을 이어서 그려요.": {
       "comment": "Roadmap item detail: iCloud sync",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pokračujte v kreslení stejného díla na jiném iPadu."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tegn videre på det samme værk på en anden iPad."
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -1551,6 +1767,18 @@
     },
     "다시 시도": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zkusit znovu"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prøv igen"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -1634,6 +1862,18 @@
     "다음": {
       "comment": "VoiceOver: next step of the first-run guide",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Další"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Næste"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -1717,6 +1957,18 @@
     "다음 그림 그리기": {
       "comment": "VoiceOver: go to the next page to draw it",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nakreslit další obrázek"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tegn næste billede"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -1800,6 +2052,18 @@
     "다음 장 그리기": {
       "comment": "Tip title over the orange next-page button",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nakresli další stránku"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tegn næste side"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -1883,6 +2147,18 @@
     "다크 모드": {
       "comment": "Roadmap item: dark mode",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tmavý režim"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mørk tilstand"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -1966,6 +2242,18 @@
     "닫기": {
       "comment": "VoiceOver: close button",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zavřít"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Luk"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -2049,6 +2337,18 @@
     "대비를 높이거나 색을 구별하기 어려워도 내용을 알아볼 수 있어요.": {
       "comment": "Roadmap item detail: contrast and color",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vše zůstane čitelné se zvýšeným kontrastem i když je obtížné rozlišit barvy."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alt forbliver læseligt med øget kontrast, eller hvis farver er svære at skelne."
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -2132,6 +2432,18 @@
     "동그라미 도장": {
       "comment": "VoiceOver: stamp shape",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Razítko kruh"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rundt stempel"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -2215,6 +2527,18 @@
     "동영상 링크 열기": {
       "comment": "VoiceOver: home card, paste a video link",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otevřít odkaz na video"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Åbn et videolink"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -2298,6 +2622,18 @@
     "동영상 배경 보이기": {
       "comment": "VoiceOver: show the video behind the drawing again",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zobrazit video na pozadí"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vis videobaggrund"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -2381,6 +2717,18 @@
     "동영상 배경 숨기기": {
       "comment": "VoiceOver: hide the video behind the drawing",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skrýt video na pozadí"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skjul videobaggrund"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -2464,6 +2812,18 @@
     "동영상 찍기": {
       "comment": "VoiceOver: home card, record a new video with the camera",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Natočit video"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Optag en video"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -2547,6 +2907,18 @@
     "동영상, 빈 종이, 따라 그리기 중에서 골라 시작해요": {
       "comment": "First-run guide, step 1 (read by the grown-up)",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Začněte videem, prázdnou stránkou nebo sadou k obkreslování."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start med en video, en tom side eller et tegn efter-sæt."
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -2629,6 +3001,18 @@
     },
     "동영상을 가져오면 시작할 수 있어요!": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Přidej video a můžeš začít!"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hent en video for at komme i gang!"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -2711,6 +3095,18 @@
     },
     "동영상을 가져오지 못했어요: %@": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Video se nepodařilo přidat: %@"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Videoen kunne ikke hentes: %@"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -2793,6 +3189,18 @@
     },
     "동영상을 만들다가 문제가 생겼어요.": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Při vytváření videa se něco pokazilo."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Noget gik galt, da videoen skulle laves."
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -2875,6 +3283,18 @@
     },
     "동영상을 여는 중이에요…": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otevírám video…"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Åbner videoen …"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -2957,6 +3377,18 @@
     },
     "동영상을 읽을 수 없어요. 다른 동영상으로 해볼까요?": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toto video nelze přečíst. Zkusíme jiné?"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Videoen kan ikke læses. Vil du prøve en anden?"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -3039,6 +3471,18 @@
     },
     "동영상이 아니에요. 동영상을 골라 주세요!": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To není video. Vyber video!"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Det er ikke en video. Vælg en video!"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -3121,6 +3565,18 @@
     },
     "동영상이 없어요.": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Žádné video tu není."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Der er ingen video."
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -3204,6 +3660,18 @@
     "되돌리기": {
       "comment": "VoiceOver: undo last stroke",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zpět"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fortryd"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -3287,6 +3755,18 @@
     "따라 그리기 %lld": {
       "comment": "VoiceOver: home card, tracing set number N",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sada k obkreslování %lld"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tegn efter-sæt %lld"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -3369,6 +3849,54 @@
     },
     "따라 그리기 %lld세트 전부, 앞으로 나올 세트도": {
       "localizations": {
+        "cs": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Všechny sady k obkreslování (%lld) i všechny nové"
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Všechny sady k obkreslování (%lld) i všechny nové"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Všechny sady k obkreslování (%lld) i všechny nové"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Všechny sady k obkreslování (%lld) i všechny nové"
+                }
+              }
+            }
+          }
+        },
+        "da": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Alle %lld tegn efter-sæt og alle nye"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Alle %lld tegn efter-sæt og alle nye"
+                }
+              }
+            }
+          }
+        },
         "de": {
           "variations": {
             "plural": {
@@ -3571,6 +4099,54 @@
     },
     "따라 그리기 %lld세트는 무료, 나머지는 이용권으로 열려요.": {
       "localizations": {
+        "cs": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Zdarma: %lld sada k obkreslování, ostatní odemkne Doživotní přístup."
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Zdarma: %lld sady k obkreslování, ostatní odemkne Doživotní přístup."
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Zdarma: %lld sady k obkreslování, ostatní odemkne Doživotní přístup."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Zdarma: %lld sad k obkreslování, ostatní odemkne Doživotní přístup."
+                }
+              }
+            }
+          }
+        },
+        "da": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld tegn efter-sæt er gratis, resten låses op med Livstidsadgang."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld tegn efter-sæt er gratis, resten låses op med Livstidsadgang."
+                }
+              }
+            }
+          }
+        },
         "de": {
           "variations": {
             "plural": {
@@ -3773,6 +4349,18 @@
     },
     "링크가 올바르지 않아요.": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tento odkaz nevypadá správně."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Linket ser ikke rigtigt ud."
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -3856,6 +4444,18 @@
     "마이크를 누르면 그림이 한 번 재생되는 동안 목소리를 녹음해요.": {
       "comment": "Tip message over the microphone button",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Klepnutím na mikrofon nahrajete svůj hlas, zatímco se animace jednou přehraje."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryk på mikrofonen for at optage din stemme, mens animationen afspilles én gang."
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -3939,6 +4539,18 @@
     "메일로 문의하기": {
       "comment": "Settings row: opens Mail addressed to the developer",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Napsat e-mail"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Send os en e-mail"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -4021,6 +4633,18 @@
     },
     "모든 기능이 열려 있어요": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vše je odemčeno"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alt er låst op"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -4104,6 +4728,18 @@
     "목소리 넣기": {
       "comment": "Tip title over the microphone button",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Přidej svůj hlas"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tilføj din stemme"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -4187,6 +4823,18 @@
     "목소리 녹음": {
       "comment": "VoiceOver: start recording a voice over the animation",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nahrát hlas"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Optag stemme"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -4269,6 +4917,18 @@
     },
     "목소리 녹음 시간 제한 없음": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nahrávání hlasu bez časového limitu"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ingen tidsgrænse for stemmeoptagelse"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -4351,6 +5011,54 @@
     },
     "무료로는 동영상을 %lld번 불러올 수 있어요.": {
       "localizations": {
+        "cs": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Bezplatná verze umožňuje přidat %lld video."
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Bezplatná verze umožňuje přidat %lld videa."
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Bezplatná verze umožňuje přidat %lld videa."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Bezplatná verze umožňuje přidat %lld videí."
+                }
+              }
+            }
+          }
+        },
+        "da": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Den gratis version lader dig hente %lld video."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Den gratis version lader dig hente %lld videoer."
+                }
+              }
+            }
+          }
+        },
         "de": {
           "variations": {
             "plural": {
@@ -4553,6 +5261,54 @@
     },
     "무료로는 목소리를 %lld초까지 녹음할 수 있어요.": {
       "localizations": {
+        "cs": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Bezplatná verze nahraje hlas až %lld sekundu."
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Bezplatná verze nahraje hlas až %lld sekundy."
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Bezplatná verze nahraje hlas až %lld sekundy."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Bezplatná verze nahraje hlas až %lld sekund."
+                }
+              }
+            }
+          }
+        },
+        "da": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Den gratis version optager stemme i op til %lld sekund."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Den gratis version optager stemme i op til %lld sekunder."
+                }
+              }
+            }
+          }
+        },
         "de": {
           "variations": {
             "plural": {
@@ -4755,6 +5511,54 @@
     },
     "무료로는 빈 종이 플립북을 %lld장까지 그릴 수 있어요.": {
       "localizations": {
+        "cs": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Bezplatná verze umožňuje v prázdném flipbooku nakreslit až %lld stránku."
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Bezplatná verze umožňuje v prázdném flipbooku nakreslit až %lld stránky."
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Bezplatná verze umožňuje v prázdném flipbooku nakreslit až %lld stránky."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Bezplatná verze umožňuje v prázdném flipbooku nakreslit až %lld stránek."
+                }
+              }
+            }
+          }
+        },
+        "da": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Den gratis version tillader op til %lld side i en tom flipbog."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Den gratis version tillader op til %lld sider i en tom flipbog."
+                }
+              }
+            }
+          }
+        },
         "de": {
           "variations": {
             "plural": {
@@ -4957,6 +5761,54 @@
     },
     "무료로는 작품을 %lld개까지 보관할 수 있어요.": {
       "localizations": {
+        "cs": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Bezplatná verze uchová až %lld dílo."
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Bezplatná verze uchová až %lld díla."
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Bezplatná verze uchová až %lld díla."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Bezplatná verze uchová až %lld děl."
+                }
+              }
+            }
+          }
+        },
+        "da": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Den gratis version gemmer op til %lld værk."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Den gratis version gemmer op til %lld værker."
+                }
+              }
+            }
+          }
+        },
         "de": {
           "variations": {
             "plural": {
@@ -5160,6 +6012,18 @@
     "별 도장": {
       "comment": "VoiceOver: stamp shape",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Razítko hvězda"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stjernestempel"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -5243,6 +6107,18 @@
     "보기 편한 색과 대비": {
       "comment": "Roadmap item: contrast and color",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lépe viditelné barvy a kontrast"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Farver og kontrast, der er lettere at se"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -5326,6 +6202,18 @@
     "보라": {
       "comment": "VoiceOver: paint color",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fialová"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lilla"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -5409,6 +6297,18 @@
     "보통 붓": {
       "comment": "VoiceOver: medium brush size",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Střední štětec"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mellem pensel"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -5491,6 +6391,18 @@
     },
     "보호자 확인: 아래 문제의 답을 눌러 주세요.": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ověření pro dospělé: klepněte na odpověď k příkladu níže."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Voksentjek: tryk på svaret på regnestykket nedenfor."
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -5574,6 +6486,18 @@
     "분홍": {
       "comment": "VoiceOver: paint color",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Růžová"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lyserød"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -5657,6 +6581,18 @@
     "붓": {
       "comment": "VoiceOver: brush tool",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Štětec"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pensel"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -5739,6 +6675,18 @@
     },
     "붙여넣기": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vložit"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indsæt"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -5822,6 +6770,18 @@
     "빈 종이 플립북": {
       "comment": "Shortcuts app: short title of the New Blank Flipbook action",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prázdný flipbook"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tom flipbog"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -5905,6 +6865,18 @@
     "빈 종이 플립북 만들기": {
       "comment": "VoiceOver: home card, new blank flipbook",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nový prázdný flipbook"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ny tom flipbog"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -5987,6 +6959,18 @@
     },
     "빈 종이 플립북 장수 제한 없음": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prázdné flipbooky s neomezeným počtem stránek"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tomme flipbøger med ubegrænset antal sider"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -6070,6 +7054,18 @@
     "빨강": {
       "comment": "VoiceOver: paint color",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Červená"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rød"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -6153,6 +7149,18 @@
     "사진 앱에 저장": {
       "comment": "VoiceOver: export the animation as a video into Photos",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uložit do Fotek"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gem i Fotos"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -6235,6 +7243,18 @@
     },
     "사진 앱에 저장하려면 설정에서 허용해 주세요.": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chcete-li ukládat do Fotek, povolte přístup v Nastavení."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tillad adgang i Indstillinger for at gemme i Fotos."
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -6317,6 +7337,18 @@
     },
     "사진에서 가져오는 중… 조금만 기다려요!": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Načítám z Fotek… chviličku!"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Henter fra Fotos … et øjeblik!"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -6400,6 +7432,18 @@
     "사진에서 동영상 가져오기": {
       "comment": "VoiceOver: home card, pick a video from Photos",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vybrat video z Fotek"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vælg en video fra Fotos"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -6482,6 +7526,18 @@
     },
     "상품을 불러오지 못했어요.": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nabídku nákupu se nepodařilo načíst."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Købsmulighederne kunne ikke indlæses."
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -6565,6 +7621,18 @@
     "새 도장": {
       "comment": "VoiceOver: stamp shape (a bird)",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Razítko ptáček"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fuglestempel"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -6647,6 +7715,18 @@
     },
     "설정": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nastavení"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indstillinger"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -6730,6 +7810,18 @@
     "세모 도장": {
       "comment": "VoiceOver: stamp shape",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Razítko trojúhelník"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trekantet stempel"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -6813,6 +7905,18 @@
     "시작하기": {
       "comment": "VoiceOver: finish the first-run guide",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Začít"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kom i gang"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -6895,6 +7999,18 @@
     },
     "아이 그림이 팔랑팔랑 움직여요": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dětské kresby ožívají"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Børns tegninger vokser til live"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -6977,6 +8093,18 @@
     },
     "알 수 없는 문제": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neznámý problém"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ukendt problem"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -7060,6 +8188,18 @@
     "앱을 열지 않고 홈 화면에서 아이 작품을 바로 봐요.": {
       "comment": "Roadmap item detail: home screen widgets",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prohlížejte díla svého dítěte přímo na ploše, aniž byste otevírali aplikaci."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se dit barns værker direkte på hjemmeskærmen uden at åbne appen."
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -7143,6 +8283,18 @@
     "어두운 화면에서도 글자와 단추가 또렷하게 보여요.": {
       "comment": "Roadmap item detail: dark mode",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Text a tlačítka zůstanou ostré a čitelné i na tmavé obrazovce."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tekst og knapper forbliver skarpe og tydelige på en mørk skærm."
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -7225,6 +8377,18 @@
     },
     "어른에게 보여 주세요": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ukaž to dospělému"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vis det her til en voksen"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -7308,6 +8472,18 @@
     "업데이트 뒤 처음 열 때 무엇이 새로 생겼는지 알려 줘요.": {
       "comment": "Roadmap item detail: what's new",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Při prvním otevření aplikace po aktualizaci uvidíte, co je nového."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Første gang du åbner appen efter en opdatering, kan du se, hvad der er nyt."
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -7391,6 +8567,18 @@
     "업데이트 소식": {
       "comment": "Roadmap item: what's new",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Novinky"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nyheder"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -7473,6 +8661,18 @@
     },
     "열기": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otevřít"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Åbn"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -7555,6 +8755,18 @@
     },
     "열지 못했어요. 동영상 링크인지 확인해 주세요.": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nepodařilo se otevřít. Ujistěte se, že jde o odkaz na video."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kunne ikke åbnes. Kontrollér, at det er et videolink."
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -7637,6 +8849,18 @@
     },
     "열지 못했어요. 링크를 확인하고 다시 해보세요.": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nepodařilo se otevřít. Zkontrolujte odkaz a zkuste to znovu."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kunne ikke åbnes. Tjek linket, og prøv igen."
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -7720,6 +8944,18 @@
     "움직임 줄이기": {
       "comment": "Roadmap item: reduce motion",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Omezit pohyb"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reducer bevægelse"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -7803,6 +9039,18 @@
     "움직임 줄이기를 켜면 화면 효과가 차분해져요.": {
       "comment": "Roadmap item detail: reduce motion",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se zapnutou volbou Omezit pohyb jsou animace klidnější."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Med Reducer bevægelse slået til bliver animationerne mere rolige."
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -7886,6 +9134,18 @@
     "원하면 앱 안의 작품을 한 번에 모두 지울 수 있어요.": {
       "comment": "Roadmap item detail: delete all data",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Smažte všechna díla v aplikaci najednou, kdykoli budete chtít."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Slet alle værker i appen på én gang, når du vil."
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -7969,6 +9229,18 @@
     "이 장 모두 지우기": {
       "comment": "VoiceOver: wipe the whole current page",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vymazat celou stránku"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ryd denne side"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -8051,6 +9323,18 @@
     },
     "이용권": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Odemknutí"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lås op"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -8133,6 +9417,18 @@
     },
     "이용약관": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Podmínky použití"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Brugsvilkår"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -8216,6 +9512,18 @@
     "이전 그림": {
       "comment": "VoiceOver: go to the previous page",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Předchozí obrázek"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Forrige billede"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -8299,6 +9607,18 @@
     "인스타그램 DM (@lee25_ios)": {
       "comment": "Settings row: opens the developer's Instagram for a direct message. Keep the handle.",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zpráva na Instagramu (@lee25_ios)"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instagram-besked (@lee25_ios)"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -8382,6 +9702,18 @@
     "일시정지": {
       "comment": "VoiceOver: pause the animation",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pozastavit"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pause"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -8465,6 +9797,18 @@
     "자동차 도장": {
       "comment": "VoiceOver: stamp shape",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Razítko auto"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bilstempel"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -8548,6 +9892,18 @@
     "작은 도장": {
       "comment": "VoiceOver: small stamp size",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Malé razítko"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lille stempel"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -8631,6 +9987,18 @@
     "작품 백업하기": {
       "comment": "Roadmap item: backup and export",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Záloha děl"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sikkerhedskopiér værker"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -8714,6 +10082,18 @@
     "작품 한 번에 지우기": {
       "comment": "Roadmap item: delete all data",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Smazat všechna díla najednou"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Slet alle værker på én gang"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -8796,6 +10176,18 @@
     },
     "작품을 개수 제한 없이 보관": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ukládání děl bez omezení"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gem ubegrænset mange værker"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -8879,6 +10271,18 @@
     "작품을 파일로 저장해 두고 언제든 다시 불러와요.": {
       "comment": "Roadmap item detail: backup and export",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uložte díla do souboru a kdykoli je vraťte zpět."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gem værker som en fil, og hent dem tilbage, når du vil."
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -8962,6 +10366,18 @@
     "잠김": {
       "comment": "VoiceOver value: this card needs the Lifetime Pass",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zamčeno"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Låst"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -9045,6 +10461,18 @@
     "장 넘기기": {
       "comment": "VoiceOver: page slider",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stránky"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sider"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -9128,6 +10556,18 @@
     "재생": {
       "comment": "VoiceOver: play the animation",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Přehrát"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afspil"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -9211,6 +10651,18 @@
     "재생 막대 보이기": {
       "comment": "VoiceOver: bring the bottom play bar back",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zobrazit panel přehrávání"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vis afspilningslinjen"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -9294,6 +10746,18 @@
     "재생 막대 숨기기": {
       "comment": "VoiceOver: collapse the bottom play bar",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skrýt panel přehrávání"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Skjul afspilningslinjen"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -9377,6 +10841,18 @@
     "재생하면 그림이 팔랑팔랑 움직여요. 목소리를 넣고 사진 앱에 저장해요": {
       "comment": "First-run guide, step 3: play, record a voice, save to Photos",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stiskni přehrát a kresby ožijí. Přidej svůj hlas a ulož do Fotek."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryk på afspil, så vokser dine tegninger til live. Tilføj din stemme, og gem i Fotos."
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -9459,6 +10935,18 @@
     },
     "저장한 영상 끝에 팔랑북 카드 없음": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bez karty Palang Book na konci uložených videí"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Intet Palang Book-kort i slutningen af gemte videoer"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -9542,6 +11030,18 @@
     "주황": {
       "comment": "VoiceOver: paint color",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oranžová"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Orange"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -9624,6 +11124,54 @@
     },
     "준비 완료! 장면이 %lld개 있어요. 그림을 그려보세요 🎨": {
       "localizations": {
+        "cs": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Hotovo! Počet scén: %lld. Začni kreslit 🎨"
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Hotovo! Počet scén: %lld. Začni kreslit 🎨"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Hotovo! Počet scén: %lld. Začni kreslit 🎨"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Hotovo! Počet scén: %lld. Začni kreslit 🎨"
+                }
+              }
+            }
+          }
+        },
+        "da": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Klar! Der er %lld scene. Gå i gang med at tegne 🎨"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Klar! Der er %lld scener. Gå i gang med at tegne 🎨"
+                }
+              }
+            }
+          }
+        },
         "de": {
           "variations": {
             "plural": {
@@ -9827,6 +11375,18 @@
     "중간 도장": {
       "comment": "VoiceOver: medium stamp size",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Střední razítko"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mellem stempel"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -9910,6 +11470,18 @@
     "지우개": {
       "comment": "VoiceOver: eraser tool",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guma"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Viskelæder"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -9992,6 +11564,18 @@
     },
     "지우기": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Smazat"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Slet"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -10074,6 +11658,18 @@
     },
     "지원": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Podpora"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Support"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -10157,6 +11753,18 @@
     "청록": {
       "comment": "VoiceOver: paint color (teal)",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tyrkysová"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Turkis"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -10240,6 +11848,18 @@
     "초록": {
       "comment": "VoiceOver: paint color",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zelená"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grøn"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -10323,6 +11943,18 @@
     "큰 글씨에 맞춘 화면": {
       "comment": "Roadmap item: Dynamic Type layouts",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozvržení pro větší písmo"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Layout, der passer til større tekst"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -10406,6 +12038,18 @@
     "큰 도장": {
       "comment": "VoiceOver: big stamp size",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Velké razítko"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stort stempel"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -10489,6 +12133,18 @@
     "파랑": {
       "comment": "VoiceOver: paint color",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modrá"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Blå"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -10571,6 +12227,18 @@
     },
     "팔랑북": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -10653,6 +12321,18 @@
     },
     "팔랑북 평생 이용권": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book – Doživotní přístup"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book Livstidsadgang"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -10736,6 +12416,18 @@
     "팔랑북을 열고 새 빈 종이 플립북을 바로 시작해요.": {
       "comment": "Shortcuts app: description of the New Blank Flipbook action",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otevře Palang Book s novým prázdným flipbookem připraveným ke kreslení."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Åbner Palang Book med en ny, tom flipbog, klar til at tegne i."
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -10818,6 +12510,18 @@
     },
     "평생 이용권": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Doživotní přístup"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Livstidsadgang"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -10901,6 +12605,18 @@
     "하트 도장": {
       "comment": "VoiceOver: stamp shape",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Razítko srdce"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hjertestempel"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -10983,6 +12699,18 @@
     },
     "한 번 결제로 팔랑북의 모든 기능을 계속 쓸 수 있어요.": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jedním nákupem odemknete v Palang Book vše, navždy."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ét køb låser alt op i Palang Book – for altid."
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -11065,6 +12793,18 @@
     },
     "한 번만 결제하고 구독이 아니에요. 결제는 App Store 계정으로 청구됩니다.": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jednorázová platba, nejde o předplatné. Strhne se z vašeho účtu App Store."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Engangsbetaling, ikke et abonnement. Trækkes på din App Store-konto."
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -11148,6 +12888,18 @@
     "한 장을 그리고 주황 버튼을 누르면 다음 장을 그려요": {
       "comment": "First-run guide, step 2: the orange button goes to the next page",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nakresli stránku a klepnutím na oranžové tlačítko přejdi na další."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tegn én side, og tryk så på den orange knap for at tegne den næste."
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -11231,6 +12983,18 @@
     "한 장을 다 그렸으면 주황 버튼을 눌러 다음 그림을 그려요.": {
       "comment": "Tip message over the orange next-page button",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Máš tuhle stránku hotovou? Klepni na oranžové tlačítko a kresli další obrázek."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Færdig med siden? Tryk på den orange knap for at tegne næste billede."
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -11314,6 +13078,18 @@
     "한 칸 지우기": {
       "comment": "VoiceOver: parent-gate keypad backspace",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Smazat číslici"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Slet ciffer"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -11397,6 +13173,18 @@
     "홈 화면 위젯": {
       "comment": "Roadmap item: home screen widgets",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widgety na ploše"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Widgets til hjemmeskærmen"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -11480,6 +13268,18 @@
     "홈으로": {
       "comment": "VoiceOver: toolbar house button",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Domů"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hjem"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -11563,6 +13363,18 @@
     "화면 읽기 기능이 단추와 그리기 도구를 빠짐없이, 알맞은 순서로 읽어 줘요.": {
       "comment": "Roadmap item detail: better VoiceOver support",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoiceOver přečte každé tlačítko i nástroj ke kreslení ve správném pořadí."
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoiceOver læser hver knap og hvert tegneværktøj op i den rigtige rækkefølge."
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -11646,6 +13458,18 @@
     "확인": {
       "comment": "VoiceOver: parent-gate keypad confirm",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -11729,6 +13553,18 @@
     "흰색": {
       "comment": "VoiceOver: paint color",
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bílá"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hvid"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",

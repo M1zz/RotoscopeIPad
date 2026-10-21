@@ -3,6 +3,18 @@
   "strings": {
     "${applicationName}에서 새 플립북 만들기": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nový flipbook v ${applicationName}"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ny flipbog i ${applicationName}"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",
@@ -91,6 +103,18 @@
     },
     "${applicationName}으로 그림 그리기": {
       "localizations": {
+        "cs": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kreslit v ${applicationName}"
+          }
+        },
+        "da": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tegn med ${applicationName}"
+          }
+        },
         "de": {
           "stringUnit": {
             "state": "translated",

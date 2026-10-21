@@ -278,6 +278,8 @@
 				ru,
 				th,
 				vi,
+				cs,
+				da,
 				Base,
 			);
 			mainGroup = B1000030;

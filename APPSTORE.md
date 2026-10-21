@@ -812,3 +812,105 @@ Hoạt hình hoàn thành được lưu thành video trong ứng dụng Ảnh, s
 Mọi tác phẩm đều nằm trên màn hình chính, nên bé có thể vẽ tiếp bất cứ lúc nào.
 Dùng thử miễn phí, Gói trọn đời để mở mọi thứ
 Với bản miễn phí, bé có thể vẽ theo nét 3 bộ, lưu 3 tác phẩm, thêm 1 video, vẽ flipbook trắng tối đa 10 trang và ghi giọng nói tối đa 15 giây. Gói trọn đời mua một lần sẽ mở khóa mọi bộ vẽ theo nét, kể cả các bộ sắp ra mắt, cùng số lượng tác phẩm, video, trang và thời gian ghi âm không giới hạn, đồng thời bỏ thẻ Palang Book ở cuối video đã lưu. Đây không phải gói đăng ký và có thể dùng với Chia sẻ trong gia đình. Màn hình mua chỉ mở sau khi người lớn trả lời một câu hỏi nhanh.
+
+## cs
+
+### 지원 URL
+
+https://m1zz.github.io/RotoscopeIPad/cs/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/RotoscopeIPad/cs/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/RotoscopeIPad/cs/
+
+### 이름
+
+Palang Book: Kreslená animace
+
+### 부제
+
+Obkresli a nech to ožít
+
+### 키워드
+
+omalovánky,kreslení,děti,předškolák,školka,razítka,pohádky,tvoření,malování,výtvarka,stopmotion
+
+### 프로모션 텍스트
+
+Obkreslujte světlé obrysy stránku po stránce, stiskněte přehrát a kresba vašeho dítěte ožije. Přidejte razítka, nahrajte jeho hlas a uložte filmeček, který je celý jeho.
+
+### 설명
+
+Dětské kresby se promění v opravdovou animaci.
+Dítě obkresluje světlý obrys stránku po stránce, stiskne přehrát a obrysy zmizí – hýbe se jen jeho vlastní kresba.
+V Palang Book je každé tlačítko obrázek, takže si poradí i děti, které ještě neumějí číst. Kreslit lze prstem nebo Apple Pencilem.
+10 sad k obkreslování
+Poskakující míč, skákající zajíček, létající ptáček, plavající rybka, rozkvétající květina, motýl, závodní auto, startující raketa, žába a větrník. Každá sada obsahuje asi 20 stránek s obrysy a obrázek z předchozí stránky slabě prosvítá, takže další kresbu snadno srovnáte.
+Kreslení přes vlastní videa
+Přidejte video, které jste natočili, video z aplikace Fotky nebo odkaz na videosoubor a obkreslujte přímo přes něj. Když pozadí skryjete, přehrají se jen scény, které dítě nakreslilo, jedna po druhé na čistě bílém papíru.
+Prázdné flipbooky
+Bez obrysů, volně na bílý papír – otáčejte stránku za stránkou a vytvořte si vlastní flipbook.
+Razítka a barvy
+Ozdobte kresby razítky srdce, kruh, čtverec, trojúhelník, hvězda, květina, auto a ptáček. K dispozici jsou tři velikosti razítek, deset barev a tři tloušťky štětce. Najdete tu také gumu, krok zpět a tlačítko, které vymaže celou stránku najednou.
+Nahrávání hlasu
+Klepněte na mikrofon a animace se opakuje, zatímco dítě nahrává svůj hlas.
+Uložení do Fotek
+Hotové animace se ukládají jako videa do aplikace Fotky a lze je snadno sdílet s rodinou.
+Všechna díla čekají na hlavní obrazovce, takže dítě může kdykoli pokračovat tam, kde skončilo.
+Zdarma na zkoušku, Doživotní přístup na všechno
+Zdarma můžete obkreslovat 3 sady, uložit 3 díla, přidat 1 video, kreslit prázdné flipbooky až na 10 stránek a nahrát hlas až na 15 sekund. Jednorázový Doživotní přístup odemkne všechny sady k obkreslování včetně budoucích, neomezený počet děl, videí, stránek i délku nahrávání a odstraní kartu Palang Book na konci uložených videí. Nejde o předplatné a funguje se Sdílením v rodině. Obrazovka nákupu se otevře, až když dospělý odpoví na krátkou otázku.
+
+## da
+
+### 지원 URL
+
+https://m1zz.github.io/RotoscopeIPad/da/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/RotoscopeIPad/da/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/RotoscopeIPad/da/
+
+### 이름
+
+Palang Book: Børns tegnefilm
+
+### 부제
+
+Tegn efter, så bevæger det sig
+
+### 키워드
+
+tegne,male,børn,farvelægning,børnehave,stempler,kreativ,krible,kunst,animation,stopmotion,småbørn
+
+### 프로모션 텍스트
+
+Tegn efter lyse streger side for side, tryk på afspil, og tegningen vokser til live. Tilføj stempler, optag barnets stemme, og gem en lille film, der er helt dens egen.
+
+### 설명
+
+Dit barns tegninger bliver til en rigtig animation.
+Tegn efter en lys skabelon side for side, tryk på afspil, og skabelonen forsvinder, så kun barnets egen tegning bevæger sig.
+Alle knapper i Palang Book er billeder, så selv børn, der endnu ikke kan læse, kan gå i gang helt selv. Der tegnes med fingeren eller Apple Pencil.
+10 tegn efter-sæt
+En hoppende bold, en springende kanin, en flyvende fugl, en svømmende fisk, en blomst i fuldt flor, en sommerfugl, en racerbil, en raket på vej op, en frø og en vindmølle. Hvert sæt har omkring 20 sider med skabeloner, og forrige side skinner svagt igennem, så det er nemt at tegne den næste, så den passer.
+Tegn oven på dine egne videoer
+Hent en video, du selv har optaget, en fra appen Fotos eller et link til en videofil, og tegn direkte oven på den. Skjuler du baggrunden, afspilles kun de scener, barnet har tegnet, efter hinanden på rent hvidt papir.
+Tomme flipbøger
+Uden skabeloner kan barnet tegne frit på hvidt papir og bladre side for side for at lave sin helt egen flipbog.
+Stempler og farver
+Pynt med stempler som hjerte, cirkel, firkant, trekant, stjerne, blomst, bil og fugl. Der er tre stempelstørrelser, ti farver og tre penselstørrelser. Der er også et viskelæder, fortryd og en knap, der rydder hele siden på én gang.
+Optag en stemme
+Tryk på mikrofonen, så kører animationen i ring, mens barnet optager sin stemme til den.
+Gem i Fotos
+Færdige animationer gemmes som videoer i appen Fotos, klar til at dele med familien.
+Alle værker venter på hovedskærmen, så barnet altid kan tegne videre, hvor det slap.
+Gratis at starte med, Livstidsadgang til alt
+Gratis kan barnet tegne efter 3 sæt, gemme 3 værker, hente 1 video, tegne tomme flipbøger på op til 10 sider og optage stemme i op til 15 sekunder. Et engangskøb af Livstidsadgang låser alle tegn efter-sæt op, også kommende, samt ubegrænsede værker, videoer, sider og optagetid, og fjerner Palang Book-kortet i slutningen af gemte videoer. Det er ikke et abonnement, og det virker med Familiedeling. Købsskærmen åbner først, når en voksen har besvaret et hurtigt spørgsmål.
