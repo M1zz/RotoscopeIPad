@@ -46,6 +46,12 @@
             "value": "Palang Book"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -151,6 +157,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Se usa para grabar videos sobre los que dibujar."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tarvitaan sellaisten videoiden kuvaamiseen, joiden päälle voi piirtää."
           }
         },
         "fr": {
@@ -260,6 +272,12 @@
             "value": "Se usa para grabar voces en tus animaciones."
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tarvitaan äänen tallentamiseen animaatioihisi."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -367,6 +385,12 @@
             "value": "Se usa para guardar las animaciones terminadas en Fotos."
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tarvitaan valmiiden animaatioiden tallentamiseen Kuviin."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -472,6 +496,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Se usa para traer videos sobre los que dibujar."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tarvitaan sellaisten videoiden tuomiseen, joiden päälle voi piirtää."
           }
         },
         "fr": {

@@ -45,6 +45,12 @@
             "value": "%@ · Pago único, para siempre"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · Kertaostos, sinun ikuisesti"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -144,6 +150,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mejor compatibilidad con VoiceOver"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parempi VoiceOver-tuki"
           }
         },
         "fr": {
@@ -306,6 +318,12 @@
             "value": "Pincel fino"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ohut sivellin"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -406,6 +424,12 @@
             "value": "Con En familia, funciona en todos los iPad de casa"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Perhejako: käytä kaikilla perheen iPadeilla"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -504,6 +528,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Política de privacidad"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tietosuojakäytäntö"
           }
         },
         "fr": {
@@ -607,6 +637,12 @@
             "value": "Negro"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Musta"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -705,6 +741,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Restaurar compras"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palauta ostokset"
           }
         },
         "fr": {
@@ -808,6 +850,12 @@
             "value": "Pincel grueso"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paksu sivellin"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -907,6 +955,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aunque agrandes el texto, nada se corta y todo se reorganiza bien."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suurempi teksti ei koskaan leikkaudu – näkymä järjestyy siististi uudelleen."
           }
         },
         "fr": {
@@ -1010,6 +1064,12 @@
             "value": "Sincronización entre dispositivos"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Synkronointi laitteiden välillä"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1109,6 +1169,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mantén pulsado para eliminar."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poista painamalla pitkään."
           }
         },
         "fr": {
@@ -1212,6 +1278,12 @@
             "value": "Sello de flor"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kukkaleima"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1310,6 +1382,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dibujar sobre tus propios videos sin límite"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Piirrä omien videoidesi päälle rajattomasti"
           }
         },
         "fr": {
@@ -1413,6 +1491,12 @@
             "value": "Mi obra"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oma teokseni"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1512,6 +1596,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sello de cuadrado"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neliöleima"
           }
         },
         "fr": {
@@ -1615,6 +1705,12 @@
             "value": "Amarillo"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keltainen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1714,6 +1810,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Detener grabación"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lopeta tallennus"
           }
         },
         "fr": {
@@ -1817,6 +1919,12 @@
             "value": "Sigue dibujando la misma obra en otro iPad."
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jatka saman teoksen piirtämistä toisella iPadilla."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -1915,6 +2023,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Reintentar"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yritä uudelleen"
           }
         },
         "fr": {
@@ -2018,6 +2132,12 @@
             "value": "Siguiente"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seuraava"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2117,6 +2237,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dibujar el siguiente"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Piirrä seuraava kuva"
           }
         },
         "fr": {
@@ -2220,6 +2346,12 @@
             "value": "Dibuja la siguiente página"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Piirrä seuraava sivu"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2319,6 +2451,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Modo oscuro"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tumma tila"
           }
         },
         "fr": {
@@ -2422,6 +2560,12 @@
             "value": "Cerrar"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sulje"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2521,6 +2665,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Todo se lee bien con más contraste o si te cuesta distinguir colores."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaikki pysyy luettavana, kun Lisää kontrastia on päällä tai jos värejä on vaikea erottaa."
           }
         },
         "fr": {
@@ -2624,6 +2774,12 @@
             "value": "Sello de círculo"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ympyräleima"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2723,6 +2879,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Abrir un enlace de video"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avaa videolinkki"
           }
         },
         "fr": {
@@ -2826,6 +2988,12 @@
             "value": "Mostrar el video de fondo"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Näytä videotausta"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -2925,6 +3093,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ocultar el video de fondo"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Piilota videotausta"
           }
         },
         "fr": {
@@ -3028,6 +3202,12 @@
             "value": "Grabar un video"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kuvaa video"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3127,6 +3307,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Empieza con un video, una hoja en blanco o un set para calcar."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aloita videolla, tyhjällä sivulla tai jäljennyssarjalla."
           }
         },
         "fr": {
@@ -3229,6 +3415,12 @@
             "value": "¡Trae un video para empezar!"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tuo video, niin pääset alkuun!"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3327,6 +3519,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "No se pudo traer el video: %@"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Videota ei voitu tuoda: %@"
           }
         },
         "fr": {
@@ -3429,6 +3627,12 @@
             "value": "Algo salió mal al crear el video."
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Videon tekemisessä tapahtui virhe."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3527,6 +3731,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Abriendo el video…"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avataan videota…"
           }
         },
         "fr": {
@@ -3629,6 +3839,12 @@
             "value": "No se puede leer este video. ¿Probamos con otro?"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tätä videota ei voi lukea. Kokeillaanko toista?"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3729,6 +3945,12 @@
             "value": "Eso no es un video. ¡Elige un video!"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tämä ei ole video. Valitse video!"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -3827,6 +4049,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "No hay ningún video."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Videota ei ole."
           }
         },
         "fr": {
@@ -3930,6 +4158,12 @@
             "value": "Deshacer"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kumoa"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -4029,6 +4263,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Set para calcar %lld"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jäljennyssarja %lld"
           }
         },
         "fr": {
@@ -4222,6 +4462,24 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "Los %lld sets para calcar, y todos los nuevos"
+                }
+              }
+            }
+          }
+        },
+        "fi": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Kaikki %lld jäljennyssarjaa ja kaikki uudet"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Kaikki %lld jäljennyssarjaa ja kaikki uudet"
                 }
               }
             }
@@ -4495,6 +4753,24 @@
             }
           }
         },
+        "fi": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld jäljennyssarja on ilmainen, loput aukeavat Elinikäisellä käyttöoikeudella."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld jäljennyssarjaa on ilmaisia, loput aukeavat Elinikäisellä käyttöoikeudella."
+                }
+              }
+            }
+          }
+        },
         "fr": {
           "variations": {
             "plural": {
@@ -4667,6 +4943,12 @@
             "value": "Ese enlace no es válido."
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Linkki ei näytä oikealta."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -4766,6 +5048,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Toca el micrófono para grabar tu voz mientras la animación se reproduce una vez."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Napauta mikrofonia, niin äänesi tallentuu animaation toistuessa kerran."
           }
         },
         "fr": {
@@ -4869,6 +5157,12 @@
             "value": "Escríbenos por correo"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lähetä meille sähköpostia"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -4967,6 +5261,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Todo está desbloqueado"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kaikki on avattu"
           }
         },
         "fr": {
@@ -5070,6 +5370,12 @@
             "value": "Añade tu voz"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lisää oma äänesi"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -5171,6 +5477,12 @@
             "value": "Grabar voz"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tallenna ääni"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -5269,6 +5581,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Grabar voz sin límite de tiempo"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Äänen tallennukselle ei aikarajaa"
           }
         },
         "fr": {
@@ -5462,6 +5780,24 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "La versión gratis permite traer %lld videos."
+                }
+              }
+            }
+          }
+        },
+        "fi": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Ilmaisversiossa voi tuoda %lld videon."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Ilmaisversiossa voi tuoda %lld videota."
                 }
               }
             }
@@ -5735,6 +6071,24 @@
             }
           }
         },
+        "fi": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Ilmaisversio tallentaa ääntä enintään %lld sekunnin."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Ilmaisversio tallentaa ääntä enintään %lld sekuntia."
+                }
+              }
+            }
+          }
+        },
         "fr": {
           "variations": {
             "plural": {
@@ -5998,6 +6352,24 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "La versión gratis permite hasta %lld páginas en un libro animado en blanco."
+                }
+              }
+            }
+          }
+        },
+        "fi": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Ilmaisversiossa tyhjään peukalokinoon voi piirtää enintään %lld sivun."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Ilmaisversiossa tyhjään peukalokinoon voi piirtää enintään %lld sivua."
                 }
               }
             }
@@ -6271,6 +6643,24 @@
             }
           }
         },
+        "fi": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Ilmaisversio säilyttää enintään %lld teoksen."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Ilmaisversio säilyttää enintään %lld teosta."
+                }
+              }
+            }
+          }
+        },
         "fr": {
           "variations": {
             "plural": {
@@ -6444,6 +6834,12 @@
             "value": "Sello de estrella"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tähtileima"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -6543,6 +6939,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Colores y contraste más legibles"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Helpommin nähtävät värit ja kontrasti"
           }
         },
         "fr": {
@@ -6646,6 +7048,12 @@
             "value": "Morado"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Violetti"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -6747,6 +7155,12 @@
             "value": "Pincel mediano"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keskipaksu sivellin"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -6845,6 +7259,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Verificación para adultos: toca la respuesta de la operación de abajo."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aikuisen tarkistus: napauta alla olevan laskun vastausta."
           }
         },
         "fr": {
@@ -6948,6 +7368,12 @@
             "value": "Rosa"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vaaleanpunainen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -7049,6 +7475,12 @@
             "value": "Pincel"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sivellin"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -7147,6 +7579,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pegar"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Liitä"
           }
         },
         "fr": {
@@ -7250,6 +7688,12 @@
             "value": "Libro animado en blanco"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tyhjä peukalokino"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -7351,6 +7795,12 @@
             "value": "Nuevo libro animado en blanco"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uusi tyhjä peukalokino"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -7449,6 +7899,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Libros animados en blanco sin límite de páginas"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tyhjiä peukalokinoja rajattomalla sivumäärällä"
           }
         },
         "fr": {
@@ -7552,6 +8008,12 @@
             "value": "Rojo"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Punainen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -7651,6 +8113,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Guardar en Fotos"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tallenna Kuviin"
           }
         },
         "fr": {
@@ -7753,6 +8221,12 @@
             "value": "Para guardar en Fotos, permite el acceso en Configuración."
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salli pääsy Asetuksissa, jotta voit tallentaa Kuviin."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -7851,6 +8325,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Trayendo desde Fotos… ¡un momento!"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Haetaan Kuvista… hetki vain!"
           }
         },
         "fr": {
@@ -7954,6 +8434,12 @@
             "value": "Elegir un video de Fotos"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Valitse video Kuvista"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -8052,6 +8538,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "No se pudieron cargar las opciones de compra."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ostovaihtoehtoja ei voitu ladata."
           }
         },
         "fr": {
@@ -8155,6 +8647,12 @@
             "value": "Sello de pájaro"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lintuleima"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -8253,6 +8751,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Configuración"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Asetukset"
           }
         },
         "fr": {
@@ -8356,6 +8860,12 @@
             "value": "Sello de triángulo"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kolmioleima"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -8455,6 +8965,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Empezar"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aloita"
           }
         },
         "fr": {
@@ -8557,6 +9073,12 @@
             "value": "Los dibujos de los niños cobran vida"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lasten piirrokset heräävät eloon"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -8655,6 +9177,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Problema desconocido"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tuntematon ongelma"
           }
         },
         "fr": {
@@ -8758,6 +9286,12 @@
             "value": "Mira las obras de tu peque en la pantalla de inicio, sin abrir la app."
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Katso lapsesi teoksia suoraan Koti-valikosta avaamatta appia."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -8859,6 +9393,12 @@
             "value": "Textos y botones se ven nítidos también con la pantalla oscura."
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teksti ja painikkeet pysyvät terävinä ja selkeinä tummalla näytöllä."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -8957,6 +9497,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Muéstraselo a un adulto"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Näytä tämä aikuiselle"
           }
         },
         "fr": {
@@ -9060,6 +9606,12 @@
             "value": "La primera vez que abras la app tras una actualización, verás las novedades."
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kun avaat apin ensimmäisen kerran päivityksen jälkeen, näet mitä uutta on tullut."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -9159,6 +9711,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Novedades"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uutta"
           }
         },
         "fr": {
@@ -9261,6 +9819,12 @@
             "value": "Abrir"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avaa"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -9361,6 +9925,12 @@
             "value": "No se pudo abrir. Comprueba que sea un enlace de video."
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avaaminen ei onnistunut. Varmista, että kyseessä on videolinkki."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -9459,6 +10029,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "No se pudo abrir. Revisa el enlace e inténtalo de nuevo."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avaaminen ei onnistunut. Tarkista linkki ja yritä uudelleen."
           }
         },
         "fr": {
@@ -9562,6 +10138,12 @@
             "value": "Reducir movimiento"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vähennä liikettä"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -9661,6 +10243,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Con Reducir movimiento activado, las animaciones son más suaves."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kun Vähennä liikettä on päällä, näytön tehosteet rauhoittuvat."
           }
         },
         "fr": {
@@ -9764,6 +10352,12 @@
             "value": "Borra todas las obras de la app de una sola vez cuando quieras."
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poista kaikki apin teokset kerralla milloin haluat."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -9863,6 +10457,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Borrar esta página"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tyhjennä tämä sivu"
           }
         },
         "fr": {
@@ -9965,6 +10565,12 @@
             "value": "Desbloqueo"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avaus"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -10063,6 +10669,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Términos de uso"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Käyttöehdot"
           }
         },
         "fr": {
@@ -10166,6 +10778,12 @@
             "value": "Dibujo anterior"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edellinen kuva"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -10265,6 +10883,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "MD en Instagram (@lee25_ios)"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instagram-viesti (@lee25_ios)"
           }
         },
         "fr": {
@@ -10368,6 +10992,12 @@
             "value": "Pausar"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tauko"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -10467,6 +11097,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sello de coche"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Autoleima"
           }
         },
         "fr": {
@@ -10570,6 +11206,12 @@
             "value": "Sello pequeño"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pieni leima"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -10669,6 +11311,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copia de seguridad de las obras"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Varmuuskopioi teokset"
           }
         },
         "fr": {
@@ -10772,6 +11420,12 @@
             "value": "Borrar todas las obras a la vez"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poista kaikki teokset kerralla"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -10870,6 +11524,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Guardar obras sin límite"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Säilytä rajattomasti teoksia"
           }
         },
         "fr": {
@@ -10973,6 +11633,12 @@
             "value": "Guarda las obras en un archivo y recupéralas cuando quieras."
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tallenna teokset tiedostoksi ja tuo ne takaisin milloin tahansa."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -11072,6 +11738,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bloqueado"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lukittu"
           }
         },
         "fr": {
@@ -11175,6 +11847,12 @@
             "value": "Páginas"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sivut"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -11274,6 +11952,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Reproducir"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toista"
           }
         },
         "fr": {
@@ -11377,6 +12061,12 @@
             "value": "Mostrar la barra de reproducción"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Näytä toistopalkki"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -11476,6 +12166,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ocultar la barra de reproducción"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Piilota toistopalkki"
           }
         },
         "fr": {
@@ -11579,6 +12275,12 @@
             "value": "Dale a reproducir y tus dibujos cobran vida. Añade tu voz y guárdalo en Fotos."
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paina toista, niin piirroksesi heräävät eloon. Lisää äänesi ja tallenna Kuviin."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -11677,6 +12379,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sin la tarjeta de Palang Book al final de los videos"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ei Palang Book -korttia tallennettujen videoiden lopussa"
           }
         },
         "fr": {
@@ -11778,6 +12486,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Naranja"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oranssi"
           }
         },
         "fr": {
@@ -11976,6 +12690,24 @@
             }
           }
         },
+        "fi": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Valmista! Kohtauksia on %lld. Aloita piirtäminen 🎨"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Valmista! Kohtauksia on %lld. Aloita piirtäminen 🎨"
+                }
+              }
+            }
+          }
+        },
         "fr": {
           "variations": {
             "plural": {
@@ -12149,6 +12881,12 @@
             "value": "Sello mediano"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keskikokoinen leima"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -12248,6 +12986,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Borrador"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pyyhekumi"
           }
         },
         "fr": {
@@ -12350,6 +13094,12 @@
             "value": "Eliminar"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poista"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -12448,6 +13198,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Soporte"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tuki"
           }
         },
         "fr": {
@@ -12551,6 +13307,12 @@
             "value": "Turquesa"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Turkoosi"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -12650,6 +13412,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Verde"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vihreä"
           }
         },
         "fr": {
@@ -12753,6 +13521,12 @@
             "value": "Diseño adaptado a texto grande"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Näkymät, jotka sopivat suurempaan tekstiin"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -12852,6 +13626,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sello grande"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Iso leima"
           }
         },
         "fr": {
@@ -12955,6 +13735,12 @@
             "value": "Azul"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sininen"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -13050,6 +13836,12 @@
           }
         },
         "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
+        },
+        "fi": {
           "stringUnit": {
             "state": "translated",
             "value": "Palang Book"
@@ -13155,6 +13947,12 @@
             "value": "Palang Book: Acceso de por vida"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book – Elinikäinen käyttöoikeus"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -13256,6 +14054,12 @@
             "value": "Abre Palang Book con un nuevo libro animado en blanco, listo para dibujar."
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avaa Palang Bookin uudella tyhjällä peukalokinolla, valmiina piirrettäväksi."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -13354,6 +14158,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Acceso de por vida"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elinikäinen käyttöoikeus"
           }
         },
         "fr": {
@@ -13457,6 +14267,12 @@
             "value": "Sello de corazón"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sydänleima"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -13557,6 +14373,12 @@
             "value": "Con un solo pago, todo Palang Book es tuyo para siempre."
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yksi ostos avaa kaiken Palang Bookissa, lopullisesti."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -13655,6 +14477,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pago único, no es una suscripción. Se cobrará a tu cuenta del App Store."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kertamaksu, ei tilaus. Veloitetaan App Store -tililtäsi."
           }
         },
         "fr": {
@@ -13758,6 +14586,12 @@
             "value": "Dibuja una página y toca el botón naranja para dibujar la siguiente."
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Piirrä yksi sivu ja napauta sitten oranssia painiketta piirtääksesi seuraavan."
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -13857,6 +14691,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "¿Terminaste esta página? Toca el botón naranja para dibujar la siguiente."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Onko sivu valmis? Napauta oranssia painiketta piirtääksesi seuraavan kuvan."
           }
         },
         "fr": {
@@ -13960,6 +14800,12 @@
             "value": "Borrar"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Poista numero"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -14059,6 +14905,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Widgets en la pantalla de inicio"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Koti-valikon widgetit"
           }
         },
         "fr": {
@@ -14162,6 +15014,12 @@
             "value": "Inicio"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Koti"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -14261,6 +15119,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "VoiceOver lee todos los botones y herramientas de dibujo en el orden correcto."
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoiceOver lukee jokaisen painikkeen ja piirtotyökalun oikeassa järjestyksessä."
           }
         },
         "fr": {
@@ -14364,6 +15228,12 @@
             "value": "Aceptar"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -14463,6 +15333,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Blanco"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Valkoinen"
           }
         },
         "fr": {

@@ -191,6 +191,16 @@ SHOTS["el"] = [
     ("04-home.png", "hero", "Και με δικά σου βίντεο",
      "Ζωγράφισε πάνω στα βίντεο<br>που τράβηξες", "Όλα τα έργα περιμένουν στην αρχική οθόνη"),
 ]
+SHOTS["fi"] = [
+    ("01-trace-bunny.png", "hero", "Jäljennä ja animoi",
+     "Lapsesi piirrokset<br>heräävät eloon", "Jäljennä vaaleita ääriviivoja sivu kerrallaan"),
+    ("02-trace-rocket.png", "tilt-left", "Sivu kerrallaan",
+     "Seuraa viivoja,<br>tee piirretty", "Pupu, raketti, sammakko ja muita: 10 sarjaa"),
+    ("03-stamps-fish.png", "tilt-right", "Leimapaletti",
+     "Leimaa sydämiä,<br>tähtiä ja kukkia", "Lukutaitoa ei tarvita, napauta vain kuvia"),
+    ("04-home.png", "hero", "Myös omilla videoilla",
+     "Piirrä omien<br>videoidesi päälle", "Kaikki teokset odottavat aloitusnäytössä"),
+]
 
 CSS = """
 * { margin:0; padding:0; box-sizing:border-box; }

@@ -45,6 +45,12 @@
             "value": "Nuevo libro animado en ${applicationName}"
           }
         },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uusi peukalokino: ${applicationName}"
+          }
+        },
         "fr": {
           "stringUnit": {
             "state": "translated",
@@ -149,6 +155,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dibujar con ${applicationName}"
+          }
+        },
+        "fi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Piirrä sovelluksella ${applicationName}"
           }
         },
         "fr": {

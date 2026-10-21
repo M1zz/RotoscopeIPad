@@ -965,3 +965,54 @@ Palang Book: Παιδική ζωγραφική
 Όλα τα έργα περιμένουν στην αρχική οθόνη, ώστε το παιδί να συνεχίζει από εκεί που σταμάτησε.
 Δωρεάν για αρχή, Ισόβια πρόσβαση για όλα
 Δωρεάν, το παιδί μπορεί να ζωγραφίσει σε 3 σετ, να κρατήσει 3 έργα, να προσθέσει 1 βίντεο, να ζωγραφίσει λευκά flipbook έως 10 σελίδων και να ηχογραφήσει φωνή έως 15 δευτερόλεπτα. Η εφάπαξ Ισόβια πρόσβαση ξεκλειδώνει όλα τα σετ περιγραμμάτων, και τα μελλοντικά, καθώς και απεριόριστα έργα, βίντεο, σελίδες και χρόνο εγγραφής, και αφαιρεί την κάρτα Palang Book στο τέλος των αποθηκευμένων βίντεο. Δεν είναι συνδρομή και λειτουργεί με την Οικογενειακή κοινή χρήση. Η οθόνη αγοράς ανοίγει μόνο αφού ένας ενήλικας απαντήσει σε μια σύντομη ερώτηση.
+
+## fi
+
+### 지원 URL
+
+https://m1zz.github.io/RotoscopeIPad/fi/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/RotoscopeIPad/fi/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/RotoscopeIPad/fi/
+
+### 이름
+
+Palang Book: Lasten animaatio
+
+### 부제
+
+Jäljennä ja katso liikkuvan
+
+### 키워드
+
+piirtäminen,lapset,värittäminen,päiväkoti,leimat,piirrokset,askartelu,taide,pikkulapset,peukalokino
+
+### 프로모션 텍스트
+
+Jäljennä vaaleita ääriviivoja sivu kerrallaan, paina toista, ja lapsen piirros herää eloon. Lisää leimoja, tallenna lapsen ääni ja tee elokuva, joka on kokonaan hänen.
+
+### 설명
+
+Lapsesi piirroksista tulee oikea animaatio.
+Lapsi jäljentää vaaleaa ääriviivaa sivu kerrallaan, painaa toista, ja ääriviivat katoavat – vain hänen oma piirroksensa liikkuu.
+Palang Bookissa jokainen painike on kuva, joten pienikin pärjää, vaikka ei vielä osaisi lukea. Piirtää voi sormella tai Apple Pencilillä.
+10 jäljennyssarjaa
+Pomppiva pallo, hyppivä pupu, lentävä lintu, uiva kala, puhkeava kukka, perhonen, kilpa-auto, taivaalle nouseva raketti, sammakko ja tuulimylly. Jokaisessa sarjassa on noin 20 sivua ääriviivoja, ja edellinen sivu häämöttää himmeänä, joten seuraavan kuvan saa helposti kohdalleen.
+Piirrä omien videoidesi päälle
+Tuo itse kuvattu video, video Kuvat-apista tai linkki videotiedostoon ja jäljennä suoraan sen päälle. Kun piilotat taustan, vain lapsen piirtämät kohtaukset toistuvat peräkkäin puhtaalla valkoisella paperilla.
+Tyhjät peukalokinot
+Ilman ääriviivoja voi piirtää vapaasti valkoiselle paperille ja kääntää sivu sivulta oman peukalokinon.
+Leimat ja värit
+Koristele leimoilla: sydän, ympyrä, neliö, kolmio, tähti, kukka, auto ja lintu. Leimoja on kolmea kokoa, värejä kymmenen ja siveltimiä kolmea paksuutta. Mukana ovat myös pyyhekumi, kumoa ja painike, joka tyhjentää koko sivun kerralla.
+Äänen tallennus
+Napauta mikrofonia, niin animaatio toistuu silmukassa samalla, kun lapsi tallentaa äänensä sen mukaan.
+Tallennus Kuviin
+Valmiit animaatiot tallentuvat videoina Kuvat-appiin, ja ne on helppo jakaa perheelle.
+Kaikki teokset odottavat päänäkymässä, joten lapsi voi jatkaa piirtämistä siitä, mihin jäi.
+Ilmainen alkuun, Elinikäinen käyttöoikeus kaikkeen
+Ilmaiseksi voi jäljentää 3 sarjaa, säilyttää 3 teosta, tuoda 1 videon, piirtää tyhjiä peukalokinoja enintään 10 sivun verran ja tallentaa ääntä enintään 15 sekuntia. Kertaostoksena tehtävä Elinikäinen käyttöoikeus avaa kaikki jäljennyssarjat tulevat mukaan lukien sekä rajattomasti teoksia, videoita, sivuja ja tallennusaikaa, ja poistaa Palang Book -kortin tallennettujen videoiden lopusta. Se ei ole tilaus, ja se toimii Perhejaon kanssa. Ostonäkymä aukeaa vasta, kun aikuinen on vastannut nopeaan kysymykseen.
