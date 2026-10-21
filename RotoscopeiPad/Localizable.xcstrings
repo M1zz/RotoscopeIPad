@@ -21,6 +21,12 @@
             "value": "%@ · Einmal zahlen, für immer"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · Εφάπαξ αγορά, δική σας για πάντα"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -114,6 +120,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bessere VoiceOver-Unterstützung"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Καλύτερη υποστήριξη VoiceOver"
           }
         },
         "en": {
@@ -270,6 +282,12 @@
             "value": "Dünner Pinsel"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Λεπτό πινέλο"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -364,6 +382,12 @@
             "value": "Mit der Familienfreigabe auf allen iPads der Familie"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Οικογενειακή κοινή χρήση: χρησιμοποιήστε την σε κάθε iPad της οικογένειας"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -456,6 +480,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Datenschutzerklärung"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Πολιτική απορρήτου"
           }
         },
         "en": {
@@ -553,6 +583,12 @@
             "value": "Schwarz"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Μαύρο"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -645,6 +681,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Käufe wiederherstellen"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Επαναφορά αγορών"
           }
         },
         "en": {
@@ -742,6 +784,12 @@
             "value": "Dicker Pinsel"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Χοντρό πινέλο"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -835,6 +883,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Auch mit größerer Schrift wird nichts abgeschnitten – alles ordnet sich sauber neu an."
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Τα μεγαλύτερα γράμματα δεν κόβονται ποτέ — η οθόνη αναδιατάσσεται όμορφα."
           }
         },
         "en": {
@@ -932,6 +986,12 @@
             "value": "Geräteübergreifend synchronisieren"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Συγχρονισμός μεταξύ συσκευών"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1025,6 +1085,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Zum Löschen gedrückt halten."
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Πατήστε παρατεταμένα για διαγραφή."
           }
         },
         "en": {
@@ -1122,6 +1188,12 @@
             "value": "Blumen-Stempel"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Σφραγίδα λουλούδι"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1214,6 +1286,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Unbegrenzt über eigene Videos zeichnen"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ζωγραφίστε πάνω στα δικά σας βίντεο, χωρίς όριο"
           }
         },
         "en": {
@@ -1311,6 +1389,12 @@
             "value": "Mein Werk"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Το έργο μου"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1404,6 +1488,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Quadrat-Stempel"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Σφραγίδα τετράγωνο"
           }
         },
         "en": {
@@ -1501,6 +1591,12 @@
             "value": "Gelb"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Κίτρινο"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1594,6 +1690,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aufnahme beenden"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Διακοπή εγγραφής"
           }
         },
         "en": {
@@ -1691,6 +1793,12 @@
             "value": "Male dasselbe Werk auf einem anderen iPad einfach weiter."
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Συνεχίστε να ζωγραφίζετε το ίδιο έργο σε άλλο iPad."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1783,6 +1891,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Erneut versuchen"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Δοκιμάστε ξανά"
           }
         },
         "en": {
@@ -1880,6 +1994,12 @@
             "value": "Weiter"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Επόμενο"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -1973,6 +2093,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nächstes Bild malen"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ζωγράφισε την επόμενη εικόνα"
           }
         },
         "en": {
@@ -2070,6 +2196,12 @@
             "value": "Nächste Seite malen"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ζωγράφισε την επόμενη σελίδα"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -2163,6 +2295,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dunkelmodus"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Σκούρα εμφάνιση"
           }
         },
         "en": {
@@ -2260,6 +2398,12 @@
             "value": "Schließen"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Κλείσιμο"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -2353,6 +2497,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Alles bleibt lesbar – mit erhöhtem Kontrast oder wenn Farben schwer zu unterscheiden sind."
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Όλα παραμένουν ευανάγνωστα με αυξημένη αντίθεση ή όταν είναι δύσκολο να ξεχωρίσετε τα χρώματα."
           }
         },
         "en": {
@@ -2450,6 +2600,12 @@
             "value": "Kreis-Stempel"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Σφραγίδα κύκλος"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -2543,6 +2699,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Videolink öffnen"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Άνοιγμα συνδέσμου βίντεο"
           }
         },
         "en": {
@@ -2640,6 +2802,12 @@
             "value": "Videohintergrund einblenden"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Εμφάνιση βίντεο στο φόντο"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -2733,6 +2901,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Videohintergrund ausblenden"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Απόκρυψη βίντεο στο φόντο"
           }
         },
         "en": {
@@ -2830,6 +3004,12 @@
             "value": "Video aufnehmen"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Εγγραφή βίντεο"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -2923,6 +3103,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Starte mit einem Video, einem leeren Blatt oder einem Nachzeichen-Set."
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ξεκινήστε με ένα βίντεο, μια λευκή σελίδα ή ένα σετ περιγραμμάτων."
           }
         },
         "en": {
@@ -3019,6 +3205,12 @@
             "value": "Hol dir ein Video, dann geht's los!"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Φέρε ένα βίντεο για να ξεκινήσεις!"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -3111,6 +3303,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Das Video konnte nicht geladen werden: %@"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Δεν ήταν δυνατή η προσθήκη του βίντεο: %@"
           }
         },
         "en": {
@@ -3207,6 +3405,12 @@
             "value": "Beim Erstellen des Videos ist etwas schiefgelaufen."
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Κάτι πήγε στραβά κατά τη δημιουργία του βίντεο."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -3299,6 +3503,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Video wird geöffnet …"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Άνοιγμα του βίντεο…"
           }
         },
         "en": {
@@ -3395,6 +3605,12 @@
             "value": "Dieses Video lässt sich nicht lesen. Probieren wir ein anderes?"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Δεν μπορώ να διαβάσω αυτό το βίντεο. Να δοκιμάσουμε άλλο;"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -3489,6 +3705,12 @@
             "value": "Das ist kein Video. Bitte wähle ein Video aus!"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Αυτό δεν είναι βίντεο. Διάλεξε ένα βίντεο!"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -3581,6 +3803,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kein Video vorhanden."
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Δεν υπάρχει βίντεο."
           }
         },
         "en": {
@@ -3678,6 +3906,12 @@
             "value": "Widerrufen"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Αναίρεση"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -3771,6 +4005,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nachzeichen-Set %lld"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Σετ περιγραμμάτων %lld"
           }
         },
         "en": {
@@ -3910,6 +4150,24 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "Alle %lld Nachzeichen-Sets und alle neuen"
+                }
+              }
+            }
+          }
+        },
+        "el": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Και τα %lld σετ περιγραμμάτων, συν όλα τα νέα"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Και τα %lld σετ περιγραμμάτων, συν όλα τα νέα"
                 }
               }
             }
@@ -4165,6 +4423,24 @@
             }
           }
         },
+        "el": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld σετ περιγραμμάτων είναι δωρεάν· τα υπόλοιπα ξεκλειδώνουν με την Ισόβια πρόσβαση."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld σετ περιγραμμάτων είναι δωρεάν· τα υπόλοιπα ξεκλειδώνουν με την Ισόβια πρόσβαση."
+                }
+              }
+            }
+          }
+        },
         "en": {
           "variations": {
             "plural": {
@@ -4367,6 +4643,12 @@
             "value": "Dieser Link ist ungültig."
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ο σύνδεσμος δεν φαίνεται σωστός."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -4460,6 +4742,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tippe auf das Mikrofon: Während die Animation einmal läuft, wird deine Stimme aufgenommen."
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Πατήστε το μικρόφωνο για να ηχογραφήσετε τη φωνή σας ενώ η κινούμενη εικόνα παίζει μία φορά."
           }
         },
         "en": {
@@ -4557,6 +4845,12 @@
             "value": "Per E-Mail kontaktieren"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Στείλτε μας email"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -4649,6 +4943,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Alles ist freigeschaltet"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Όλα είναι ξεκλείδωτα"
           }
         },
         "en": {
@@ -4746,6 +5046,12 @@
             "value": "Sprich etwas dazu"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Πρόσθεσε τη φωνή σου"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -4841,6 +5147,12 @@
             "value": "Stimme aufnehmen"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Εγγραφή φωνής"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -4933,6 +5245,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sprachaufnahmen ohne Zeitlimit"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Χωρίς όριο χρόνου εγγραφής φωνής"
           }
         },
         "en": {
@@ -5072,6 +5390,24 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "In der Gratisversion kannst du %lld Videos laden."
+                }
+              }
+            }
+          }
+        },
+        "el": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Η δωρεάν έκδοση σάς επιτρέπει να προσθέσετε %lld βίντεο."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Η δωρεάν έκδοση σάς επιτρέπει να προσθέσετε %lld βίντεο."
                 }
               }
             }
@@ -5327,6 +5663,24 @@
             }
           }
         },
+        "el": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Η δωρεάν έκδοση ηχογραφεί φωνή έως και %lld δευτερόλεπτο."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Η δωρεάν έκδοση ηχογραφεί φωνή έως και %lld δευτερόλεπτα."
+                }
+              }
+            }
+          }
+        },
         "en": {
           "variations": {
             "plural": {
@@ -5572,6 +5926,24 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "In der Gratisversion hat ein leeres Daumenkino bis zu %lld Seiten."
+                }
+              }
+            }
+          }
+        },
+        "el": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Η δωρεάν έκδοση επιτρέπει έως και %lld σελίδα σε λευκό flipbook."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Η δωρεάν έκδοση επιτρέπει έως και %lld σελίδες σε λευκό flipbook."
                 }
               }
             }
@@ -5827,6 +6199,24 @@
             }
           }
         },
+        "el": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Η δωρεάν έκδοση αποθηκεύει έως και %lld έργο."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Η δωρεάν έκδοση αποθηκεύει έως και %lld έργα."
+                }
+              }
+            }
+          }
+        },
         "en": {
           "variations": {
             "plural": {
@@ -6030,6 +6420,12 @@
             "value": "Stern-Stempel"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Σφραγίδα αστέρι"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -6123,6 +6519,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Besser lesbare Farben und Kontraste"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Χρώματα και αντίθεση που φαίνονται πιο εύκολα"
           }
         },
         "en": {
@@ -6220,6 +6622,12 @@
             "value": "Lila"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Μωβ"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -6315,6 +6723,12 @@
             "value": "Mittlerer Pinsel"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Μεσαίο πινέλο"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -6407,6 +6821,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Elternkontrolle: Tippe auf die Lösung der Aufgabe unten."
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Έλεγχος ενηλίκου: πατήστε την απάντηση στο πρόβλημα παρακάτω."
           }
         },
         "en": {
@@ -6504,6 +6924,12 @@
             "value": "Rosa"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ροζ"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -6599,6 +7025,12 @@
             "value": "Pinsel"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Πινέλο"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -6691,6 +7123,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Einsetzen"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Επικόλληση"
           }
         },
         "en": {
@@ -6788,6 +7226,12 @@
             "value": "Leeres Daumenkino"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Λευκό flipbook"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -6883,6 +7327,12 @@
             "value": "Neues leeres Daumenkino"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Νέο λευκό flipbook"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -6975,6 +7425,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Leere Daumenkinos ohne Seitenlimit"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Λευκά flipbook με απεριόριστες σελίδες"
           }
         },
         "en": {
@@ -7072,6 +7528,12 @@
             "value": "Rot"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Κόκκινο"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -7165,6 +7627,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "In Fotos sichern"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Αποθήκευση στις Φωτογραφίες"
           }
         },
         "en": {
@@ -7261,6 +7729,12 @@
             "value": "Erlaube in den Einstellungen den Zugriff, um in Fotos zu sichern."
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Για αποθήκευση στις Φωτογραφίες, επιτρέψτε την πρόσβαση από τις Ρυθμίσεις."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -7353,6 +7827,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wird aus Fotos geladen … einen Moment!"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Φέρνω το βίντεο από τις Φωτογραφίες… μια στιγμή!"
           }
         },
         "en": {
@@ -7450,6 +7930,12 @@
             "value": "Video aus Fotos wählen"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Επιλογή βίντεο από τις Φωτογραφίες"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -7542,6 +8028,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kaufoptionen konnten nicht geladen werden."
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Δεν φορτώθηκαν οι επιλογές αγοράς."
           }
         },
         "en": {
@@ -7639,6 +8131,12 @@
             "value": "Vogel-Stempel"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Σφραγίδα πουλί"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -7731,6 +8229,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Einstellungen"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ρυθμίσεις"
           }
         },
         "en": {
@@ -7828,6 +8332,12 @@
             "value": "Dreieck-Stempel"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Σφραγίδα τρίγωνο"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -7921,6 +8431,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Los geht's"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ας ξεκινήσουμε"
           }
         },
         "en": {
@@ -8017,6 +8533,12 @@
             "value": "Kinderzeichnungen werden lebendig"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Τα σχέδια των παιδιών ζωντανεύουν"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -8109,6 +8631,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Unbekanntes Problem"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Άγνωστο πρόβλημα"
           }
         },
         "en": {
@@ -8206,6 +8734,12 @@
             "value": "Sieh die Werke deines Kindes direkt auf dem Home-Bildschirm, ohne die App zu öffnen."
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Δείτε τα έργα του παιδιού σας κατευθείαν στην Αρχική οθόνη, χωρίς να ανοίξετε την εφαρμογή."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -8301,6 +8835,12 @@
             "value": "Texte und Tasten bleiben auch auf dunklem Bildschirm gut erkennbar."
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Τα κείμενα και τα κουμπιά παραμένουν καθαρά και ευδιάκριτα σε σκούρα οθόνη."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -8393,6 +8933,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Zeig das einem Erwachsenen"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Δείξε το σε έναν μεγάλο"
           }
         },
         "en": {
@@ -8490,6 +9036,12 @@
             "value": "Beim ersten Öffnen nach einem Update siehst du, was neu ist."
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Την πρώτη φορά που θα ανοίξετε την εφαρμογή μετά από μια ενημέρωση, θα δείτε τι νέο υπάρχει."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -8583,6 +9135,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Neuigkeiten"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Τι νέο υπάρχει"
           }
         },
         "en": {
@@ -8679,6 +9237,12 @@
             "value": "Öffnen"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Άνοιγμα"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -8773,6 +9337,12 @@
             "value": "Konnte nicht geöffnet werden. Ist das ein Videolink?"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Δεν ήταν δυνατό το άνοιγμα. Βεβαιωθείτε ότι είναι σύνδεσμος βίντεο."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -8865,6 +9435,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Konnte nicht geöffnet werden. Prüfe den Link und versuch es noch mal."
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Δεν ήταν δυνατό το άνοιγμα. Ελέγξτε τον σύνδεσμο και δοκιμάστε ξανά."
           }
         },
         "en": {
@@ -8962,6 +9538,12 @@
             "value": "Bewegung reduzieren"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Μείωση κίνησης"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -9055,6 +9637,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ist „Bewegung reduzieren“ aktiv, werden Animationen ruhiger."
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Με ενεργή τη Μείωση κίνησης, τα εφέ στην οθόνη γίνονται πιο ήρεμα."
           }
         },
         "en": {
@@ -9152,6 +9740,12 @@
             "value": "Lösche bei Bedarf alle Werke in der App in einem Schritt."
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Διαγράψτε όλα τα έργα της εφαρμογής με μία κίνηση, όποτε θέλετε."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -9245,6 +9839,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Diese Seite leeren"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Καθαρισμός σελίδας"
           }
         },
         "en": {
@@ -9341,6 +9941,12 @@
             "value": "Freischaltung"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ξεκλείδωμα"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -9433,6 +10039,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nutzungsbedingungen"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Όροι χρήσης"
           }
         },
         "en": {
@@ -9530,6 +10142,12 @@
             "value": "Vorheriges Bild"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Προηγούμενη εικόνα"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -9623,6 +10241,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Instagram-DM (@lee25_ios)"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Μήνυμα στο Instagram (@lee25_ios)"
           }
         },
         "en": {
@@ -9720,6 +10344,12 @@
             "value": "Pause"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Παύση"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -9813,6 +10443,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Auto-Stempel"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Σφραγίδα αυτοκίνητο"
           }
         },
         "en": {
@@ -9910,6 +10546,12 @@
             "value": "Kleiner Stempel"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Μικρή σφραγίδα"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -10003,6 +10645,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Werke sichern"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Αντίγραφο ασφαλείας έργων"
           }
         },
         "en": {
@@ -10100,6 +10748,12 @@
             "value": "Alle Werke auf einmal löschen"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Διαγραφή όλων των έργων με μία κίνηση"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -10192,6 +10846,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Unbegrenzt viele Werke speichern"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Αποθήκευση απεριόριστων έργων"
           }
         },
         "en": {
@@ -10289,6 +10949,12 @@
             "value": "Speichere Werke als Datei und hol sie jederzeit zurück."
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Αποθηκεύστε τα έργα σε αρχείο και επαναφέρετέ τα όποτε θέλετε."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -10382,6 +11048,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Gesperrt"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Κλειδωμένο"
           }
         },
         "en": {
@@ -10479,6 +11151,12 @@
             "value": "Seiten"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Σελίδες"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -10572,6 +11250,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Abspielen"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Αναπαραγωγή"
           }
         },
         "en": {
@@ -10669,6 +11353,12 @@
             "value": "Wiedergabeleiste einblenden"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Εμφάνιση γραμμής αναπαραγωγής"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -10762,6 +11452,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wiedergabeleiste ausblenden"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Απόκρυψη γραμμής αναπαραγωγής"
           }
         },
         "en": {
@@ -10859,6 +11555,12 @@
             "value": "Drück auf Abspielen und deine Bilder bewegen sich. Sprich etwas dazu und sichere es in Fotos."
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Πάτα αναπαραγωγή και τα σχέδιά σου ζωντανεύουν. Πρόσθεσε τη φωνή σου και αποθήκευσε στις Φωτογραφίες."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -10951,6 +11653,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Keine Palang-Book-Karte am Ende gespeicherter Videos"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Χωρίς κάρτα Palang Book στο τέλος των αποθηκευμένων βίντεο"
           }
         },
         "en": {
@@ -11046,6 +11754,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Orange"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Πορτοκαλί"
           }
         },
         "en": {
@@ -11185,6 +11899,24 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "Fertig! Es gibt %lld Szenen. Jetzt wird gemalt 🎨"
+                }
+              }
+            }
+          }
+        },
+        "el": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Έτοιμο! Υπάρχει %lld σκηνή. Ξεκίνα να ζωγραφίζεις 🎨"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Έτοιμο! Υπάρχουν %lld σκηνές. Ξεκίνα να ζωγραφίζεις 🎨"
                 }
               }
             }
@@ -11393,6 +12125,12 @@
             "value": "Mittlerer Stempel"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Μεσαία σφραγίδα"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -11486,6 +12224,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Radiergummi"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Γόμα"
           }
         },
         "en": {
@@ -11582,6 +12326,12 @@
             "value": "Löschen"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Διαγραφή"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -11674,6 +12424,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Support"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Υποστήριξη"
           }
         },
         "en": {
@@ -11771,6 +12527,12 @@
             "value": "Türkis"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Τιρκουάζ"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -11864,6 +12626,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Grün"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Πράσινο"
           }
         },
         "en": {
@@ -11961,6 +12729,12 @@
             "value": "Layouts für größere Schrift"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Διατάξεις που ταιριάζουν σε μεγαλύτερα γράμματα"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -12054,6 +12828,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Großer Stempel"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Μεγάλη σφραγίδα"
           }
         },
         "en": {
@@ -12151,6 +12931,12 @@
             "value": "Blau"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Μπλε"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -12240,6 +13026,12 @@
           }
         },
         "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
+        },
+        "el": {
           "stringUnit": {
             "state": "translated",
             "value": "Palang Book"
@@ -12339,6 +13131,12 @@
             "value": "Palang Book: lebenslanger Zugang"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book — Ισόβια πρόσβαση"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -12434,6 +13232,12 @@
             "value": "Öffnet Palang Book direkt mit einem neuen leeren Daumenkino."
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ανοίγει το Palang Book με ένα νέο λευκό flipbook, έτοιμο για ζωγραφική."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -12526,6 +13330,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lebenslanger Zugang"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ισόβια πρόσβαση"
           }
         },
         "en": {
@@ -12623,6 +13433,12 @@
             "value": "Herz-Stempel"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Σφραγίδα καρδιά"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -12717,6 +13533,12 @@
             "value": "Einmal kaufen und alle Funktionen von Palang Book dauerhaft nutzen."
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Μία αγορά ξεκλειδώνει τα πάντα στο Palang Book, για πάντα."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -12809,6 +13631,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Einmalige Zahlung, kein Abo. Die Abrechnung erfolgt über deinen App Store-Account."
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Εφάπαξ πληρωμή, όχι συνδρομή. Η χρέωση γίνεται στον λογαριασμό σας στο App Store."
           }
         },
         "en": {
@@ -12906,6 +13734,12 @@
             "value": "Male eine Seite und tippe dann auf den orangen Knopf für die nächste."
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ζωγράφισε μια σελίδα και πάτα το πορτοκαλί κουμπί για να ζωγραφίσεις την επόμενη."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -12999,6 +13833,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Seite fertig? Tippe auf den orangen Knopf und male das nächste Bild."
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Τελείωσες τη σελίδα; Πάτα το πορτοκαλί κουμπί για να ζωγραφίσεις την επόμενη εικόνα."
           }
         },
         "en": {
@@ -13096,6 +13936,12 @@
             "value": "Löschen"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Διαγραφή ψηφίου"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -13189,6 +14035,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Widgets für den Home-Bildschirm"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Γραφικά στοιχεία Αρχικής οθόνης"
           }
         },
         "en": {
@@ -13286,6 +14138,12 @@
             "value": "Startseite"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Αρχική"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -13381,6 +14239,12 @@
             "value": "VoiceOver liest alle Tasten und Malwerkzeuge in der richtigen Reihenfolge vor."
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Το VoiceOver διαβάζει κάθε κουμπί και εργαλείο ζωγραφικής, με τη σωστή σειρά."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -13471,6 +14335,12 @@
           }
         },
         "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
+        "el": {
           "stringUnit": {
             "state": "translated",
             "value": "OK"
@@ -13569,6 +14439,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Weiß"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Λευκό"
           }
         },
         "en": {

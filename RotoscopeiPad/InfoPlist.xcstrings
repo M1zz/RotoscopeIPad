@@ -22,6 +22,12 @@
             "value": "Palang Book"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -121,6 +127,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wird benötigt, um Videos zum Nachzeichnen aufzunehmen."
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Απαραίτητο για την εγγραφή βίντεο πάνω στα οποία μπορείτε να ζωγραφίσετε."
           }
         },
         "en": {
@@ -224,6 +236,12 @@
             "value": "Wird benötigt, um Stimmen für Animationen aufzunehmen."
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Απαραίτητο για την εγγραφή φωνών στις κινούμενες εικόνες σας."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -325,6 +343,12 @@
             "value": "Wird benötigt, um fertige Animationen in Fotos zu sichern."
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Απαραίτητο για την αποθήκευση έτοιμων κινούμενων εικόνων στις Φωτογραφίες."
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -424,6 +448,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wird benötigt, um Videos zum Nachzeichnen zu laden."
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Απαραίτητο για την προσθήκη βίντεο πάνω στα οποία μπορείτε να ζωγραφίσετε."
           }
         },
         "en": {

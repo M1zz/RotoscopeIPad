@@ -21,6 +21,12 @@
             "value": "Neues Daumenkino in ${applicationName}"
           }
         },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Νέο flipbook στο ${applicationName}"
+          }
+        },
         "en": {
           "stringUnit": {
             "state": "translated",
@@ -119,6 +125,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mit ${applicationName} malen"
+          }
+        },
+        "el": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ζωγραφική με το ${applicationName}"
           }
         },
         "en": {
