@@ -69,6 +69,12 @@
             "value": "สร้างฟลิปบุ๊กใหม่ใน ${applicationName}"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Flipbook mới trong ${applicationName}"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -149,6 +155,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "วาดภาพด้วย ${applicationName}"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vẽ với ${applicationName}"
           }
         },
         "zh-Hans": {

@@ -70,6 +70,12 @@
             "value": "Palang Book"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -151,6 +157,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "จำเป็นสำหรับถ่ายวิดีโอเพื่อวาดทับ"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cần để quay video để vẽ lên."
           }
         },
         "zh-Hans": {
@@ -236,6 +248,12 @@
             "value": "จำเป็นสำหรับบันทึกเสียงใส่ในภาพเคลื่อนไหว"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cần để ghi giọng nói cho hoạt hình của bạn."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -319,6 +337,12 @@
             "value": "จำเป็นสำหรับบันทึกภาพเคลื่อนไหวที่เสร็จแล้วลงรูปภาพ"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cần để lưu hoạt hình đã hoàn thành vào Ảnh."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -400,6 +424,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "จำเป็นสำหรับนำเข้าวิดีโอเพื่อวาดทับ"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cần để thêm video để vẽ lên."
           }
         },
         "zh-Hans": {

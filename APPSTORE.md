@@ -761,3 +761,54 @@ Palang Book: วาดการ์ตูนเด็ก
 ผลงานทุกชิ้นรออยู่ที่หน้าหลัก ลูกจึงกลับมาวาดต่อจากที่ค้างไว้ได้ทุกเมื่อ
 ใช้ฟรี และมีสิทธิ์ใช้งานตลอดชีพสำหรับทุกอย่าง
 เวอร์ชันฟรีวาดตามเส้นได้ 3 ชุด เก็บผลงานได้ 3 ชิ้น นำเข้าวิดีโอได้ 1 ครั้ง วาดฟลิปบุ๊กเปล่าได้สูงสุด 10 หน้า และบันทึกเสียงได้สูงสุด 15 วินาที สิทธิ์ใช้งานตลอดชีพแบบจ่ายครั้งเดียวจะปลดล็อกทุกชุดวาดตามเส้น รวมถึงชุดใหม่ในอนาคต พร้อมผลงาน วิดีโอ จำนวนหน้า และเวลาบันทึกเสียงแบบไม่จำกัด และเอาการ์ด Palang Book ท้ายวิดีโอที่บันทึกออก ไม่ใช่การสมัครสมาชิก และใช้ร่วมกับการแชร์กับครอบครัวได้ หน้าจอการซื้อจะเปิดได้ก็ต่อเมื่อผู้ใหญ่ตอบคำถามสั้นๆ ถูกต้อง
+
+## vi
+
+### 지원 URL
+
+https://m1zz.github.io/RotoscopeIPad/vi/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/RotoscopeIPad/vi/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/RotoscopeIPad/vi/
+
+### 이름
+
+Palang Book: Hoạt hình cho bé
+
+### 부제
+
+Vẽ theo nét, tranh chuyển động
+
+### 키워드
+
+tô màu,vẽ tranh,trẻ em,mầm non,bé tập vẽ,con dấu,sáng tạo,nghệ thuật,tô theo,stop motion,hoạt hình
+
+### 프로모션 텍스트
+
+Vẽ theo nét mờ từng trang một, nhấn phát và tranh của bé sẽ chuyển động. Thêm con dấu, ghi lại giọng nói của bé và lưu thành một đoạn phim do chính bé làm ra.
+
+### 설명
+
+Tranh vẽ của bé biến thành một bộ phim hoạt hình thật sự.
+Bé vẽ theo nét mờ từng trang một, nhấn phát, nét mẫu sẽ biến mất và chỉ còn tranh của bé chuyển động.
+Mọi nút trong Palang Book đều là hình ảnh, nên ngay cả bé chưa biết đọc cũng tự chơi được. Bé có thể vẽ bằng ngón tay hoặc Apple Pencil.
+10 bộ vẽ theo nét
+Quả bóng nảy tưng tưng, chú thỏ nhảy chân sáo, chú chim bay lượn, chú cá bơi, đóa hoa nở, cánh bướm, chiếc xe đua, tên lửa cất cánh, chú ếch và chiếc chong chóng. Mỗi bộ có khoảng 20 trang nét mẫu, và tranh của trang trước hiện mờ phía dưới, giúp bé dễ vẽ tiếp trang sau cho khớp.
+Vẽ lên video của riêng bạn
+Thêm video bạn tự quay, video trong ứng dụng Ảnh hoặc liên kết tới một tệp video, rồi vẽ theo ngay trên đó. Khi ẩn nền, chỉ những cảnh bé đã vẽ mới được phát lần lượt trên nền giấy trắng sạch.
+Flipbook trắng
+Không cần nét mẫu, bé tự do vẽ trên giấy trắng rồi lật từng trang để làm flipbook của riêng mình.
+Con dấu và màu sắc
+Trang trí bằng con dấu hình trái tim, hình tròn, hình vuông, hình tam giác, ngôi sao, bông hoa, ô tô và chú chim. Có ba cỡ con dấu, mười màu và ba cỡ cọ. Có cả cục tẩy, hoàn tác và nút xóa sạch cả trang cùng lúc.
+Ghi giọng nói
+Chạm vào micrô, hoạt hình sẽ chạy lặp lại trong lúc bé ghi giọng nói của mình vào.
+Lưu vào Ảnh
+Hoạt hình hoàn thành được lưu thành video trong ứng dụng Ảnh, sẵn sàng chia sẻ với cả nhà.
+Mọi tác phẩm đều nằm trên màn hình chính, nên bé có thể vẽ tiếp bất cứ lúc nào.
+Dùng thử miễn phí, Gói trọn đời để mở mọi thứ
+Với bản miễn phí, bé có thể vẽ theo nét 3 bộ, lưu 3 tác phẩm, thêm 1 video, vẽ flipbook trắng tối đa 10 trang và ghi giọng nói tối đa 15 giây. Gói trọn đời mua một lần sẽ mở khóa mọi bộ vẽ theo nét, kể cả các bộ sắp ra mắt, cùng số lượng tác phẩm, video, trang và thời gian ghi âm không giới hạn, đồng thời bỏ thẻ Palang Book ở cuối video đã lưu. Đây không phải gói đăng ký và có thể dùng với Chia sẻ trong gia đình. Màn hình mua chỉ mở sau khi người lớn trả lời một câu hỏi nhanh.

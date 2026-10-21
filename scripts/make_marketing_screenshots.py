@@ -151,6 +151,16 @@ SHOTS["th"] = [
     ("04-home.png", "hero", "วิดีโอของคุณเองก็ได้",
      "วาดทับวิดีโอ<br>ที่ถ่ายเอง", "ผลงานทุกชิ้นรออยู่ที่หน้าหลัก"),
 ]
+SHOTS["vi"] = [
+    ("01-trace-bunny.png", "hero", "Vẽ theo và chuyển động",
+     "Tranh của bé<br>biết chuyển động", "Vẽ theo nét mờ từng trang một"),
+    ("02-trace-rocket.png", "tilt-left", "Từng trang một",
+     "Vẽ theo nét,<br>thành phim hoạt hình", "Thỏ, tên lửa, ếch và hơn nữa: 10 bộ"),
+    ("03-stamps-fish.png", "tilt-right", "Bảng con dấu",
+     "Đóng dấu trái tim,<br>ngôi sao và bông hoa", "Không cần biết đọc, chỉ cần chạm vào hình"),
+    ("04-home.png", "hero", "Cả video của riêng bạn",
+     "Vẽ lên những video<br>bạn tự quay", "Mọi tác phẩm chờ sẵn ở màn hình chính"),
+]
 
 CSS = """
 * { margin:0; padding:0; box-sizing:border-box; }

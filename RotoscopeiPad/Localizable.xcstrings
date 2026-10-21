@@ -63,6 +63,12 @@
             "value": "%@ · จ่ายครั้งเดียว ใช้ได้ตลอดไป"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · Mua một lần, dùng mãi mãi"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -138,6 +144,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "รองรับ VoiceOver ดียิ่งขึ้น"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hỗ trợ VoiceOver tốt hơn"
           }
         },
         "zh-Hans": {
@@ -276,6 +288,12 @@
             "value": "พู่กันเส้นบาง"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cọ nét mảnh"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -352,6 +370,12 @@
             "value": "แชร์กับครอบครัว: ใช้ได้บน iPad ทุกเครื่องในบ้าน"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chia sẻ trong gia đình: dùng trên mọi iPad của cả nhà"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -426,6 +450,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "นโยบายความเป็นส่วนตัว"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chính sách quyền riêng tư"
           }
         },
         "zh-Hans": {
@@ -505,6 +535,12 @@
             "value": "สีดำ"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đen"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -579,6 +615,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "กู้คืนการซื้อ"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khôi phục giao dịch mua"
           }
         },
         "zh-Hans": {
@@ -658,6 +700,12 @@
             "value": "พู่กันเส้นหนา"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cọ nét dày"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -733,6 +781,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ตัวอักษรใหญ่แค่ไหนก็ไม่ถูกตัด หน้าจอจะจัดเรียงใหม่ให้เรียบร้อย"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chữ lớn đến đâu cũng không bị cắt — màn hình tự sắp xếp lại gọn gàng."
           }
         },
         "zh-Hans": {
@@ -812,6 +866,12 @@
             "value": "ซิงค์ข้ามอุปกรณ์"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đồng bộ giữa các thiết bị"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -887,6 +947,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "แตะค้างไว้เพื่อลบ"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chạm và giữ để xóa."
           }
         },
         "zh-Hans": {
@@ -966,6 +1032,12 @@
             "value": "ตราประทับรูปดอกไม้"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con dấu hoa"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1040,6 +1112,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "วาดทับวิดีโอของคุณเองได้ไม่จำกัด"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vẽ lên video của riêng bạn, không giới hạn"
           }
         },
         "zh-Hans": {
@@ -1119,6 +1197,12 @@
             "value": "ผลงานของฉัน"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tác phẩm của tôi"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1194,6 +1278,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ตราประทับรูปสี่เหลี่ยม"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con dấu hình vuông"
           }
         },
         "zh-Hans": {
@@ -1273,6 +1363,12 @@
             "value": "สีเหลือง"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vàng"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1348,6 +1444,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "หยุดบันทึก"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dừng ghi âm"
           }
         },
         "zh-Hans": {
@@ -1427,6 +1529,12 @@
             "value": "วาดผลงานชิ้นเดิมต่อบน iPad เครื่องอื่นได้"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tiếp tục vẽ cùng một tác phẩm trên iPad khác."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1501,6 +1609,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ลองอีกครั้ง"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thử lại"
           }
         },
         "zh-Hans": {
@@ -1580,6 +1694,12 @@
             "value": "ถัดไป"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tiếp"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1655,6 +1775,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "วาดภาพถัดไป"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vẽ tranh tiếp theo"
           }
         },
         "zh-Hans": {
@@ -1734,6 +1860,12 @@
             "value": "วาดหน้าถัดไป"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vẽ trang tiếp theo"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1809,6 +1941,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "โหมดมืด"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chế độ tối"
           }
         },
         "zh-Hans": {
@@ -1888,6 +2026,12 @@
             "value": "ปิด"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đóng"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1963,6 +2107,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "อ่านได้ชัดเจนแม้เปิดการเพิ่มคอนทราสต์ หรือแยกสีได้ยาก"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mọi thứ vẫn dễ đọc khi bật Tăng độ tương phản hoặc khi khó phân biệt màu sắc."
           }
         },
         "zh-Hans": {
@@ -2042,6 +2192,12 @@
             "value": "ตราประทับรูปวงกลม"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con dấu hình tròn"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2117,6 +2273,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "เปิดลิงก์วิดีโอ"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mở liên kết video"
           }
         },
         "zh-Hans": {
@@ -2196,6 +2358,12 @@
             "value": "แสดงวิดีโอพื้นหลัง"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiện video nền"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2271,6 +2439,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ซ่อนวิดีโอพื้นหลัง"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ẩn video nền"
           }
         },
         "zh-Hans": {
@@ -2350,6 +2524,12 @@
             "value": "ถ่ายวิดีโอ"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quay video"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2425,6 +2605,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "เริ่มจากวิดีโอ กระดาษเปล่า หรือชุดวาดตามเส้น"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bắt đầu bằng video, trang giấy trắng hoặc một bộ vẽ theo nét."
           }
         },
         "zh-Hans": {
@@ -2503,6 +2689,12 @@
             "value": "นำเข้าวิดีโอเพื่อเริ่มกันเลย!"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thêm một video để bắt đầu nhé!"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2577,6 +2769,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "นำเข้าวิดีโอไม่ได้: %@"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không thêm được video: %@"
           }
         },
         "zh-Hans": {
@@ -2655,6 +2853,12 @@
             "value": "เกิดปัญหาระหว่างสร้างวิดีโอ"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã xảy ra sự cố khi tạo video."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2729,6 +2933,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "กำลังเปิดวิดีโอ…"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang mở video…"
           }
         },
         "zh-Hans": {
@@ -2807,6 +3017,12 @@
             "value": "อ่านวิดีโอนี้ไม่ได้ ลองเลือกวิดีโออื่นไหม"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không đọc được video này. Thử video khác nhé?"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2883,6 +3099,12 @@
             "value": "นี่ไม่ใช่วิดีโอ เลือกวิดีโอนะ!"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đây không phải video. Hãy chọn một video nhé!"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2957,6 +3179,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ไม่มีวิดีโอ"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không có video."
           }
         },
         "zh-Hans": {
@@ -3036,6 +3264,12 @@
             "value": "เลิกทำ"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hoàn tác"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3111,6 +3345,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ชุดวาดตามเส้น %lld"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bộ vẽ theo nét %lld"
           }
         },
         "zh-Hans": {
@@ -3298,6 +3538,18 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "ชุดวาดตามเส้นทั้ง %lld ชุด รวมถึงชุดใหม่ที่จะมาในอนาคต"
+                }
+              }
+            }
+          }
+        },
+        "vi": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Toàn bộ %lld bộ vẽ theo nét, cùng mọi bộ mới sắp có"
                 }
               }
             }
@@ -3493,6 +3745,18 @@
             }
           }
         },
+        "vi": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Miễn phí %lld bộ vẽ theo nét; các bộ còn lại mở khóa bằng Gói trọn đời."
+                }
+              }
+            }
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3567,6 +3831,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ลิงก์ดูไม่ถูกต้อง"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Liên kết này có vẻ không đúng."
           }
         },
         "zh-Hans": {
@@ -3646,6 +3916,12 @@
             "value": "แตะไมโครโฟนเพื่อบันทึกเสียงของคุณขณะที่ภาพเคลื่อนไหวเล่นหนึ่งรอบ"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chạm vào micrô để ghi giọng nói của bạn trong lúc hoạt hình chạy một lượt."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3723,6 +3999,12 @@
             "value": "ส่งอีเมลถึงเรา"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gửi email cho chúng tôi"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3797,6 +4079,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ปลดล็อกทุกอย่างแล้ว"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mọi thứ đã được mở khóa"
           }
         },
         "zh-Hans": {
@@ -3876,6 +4164,12 @@
             "value": "ใส่เสียงของคุณ"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thêm giọng nói của bạn"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3953,6 +4247,12 @@
             "value": "บันทึกเสียง"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ghi giọng nói"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4027,6 +4327,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "บันทึกเสียงได้ไม่จำกัดเวลา"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ghi giọng nói không giới hạn thời gian"
           }
         },
         "zh-Hans": {
@@ -4214,6 +4520,18 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "เวอร์ชันฟรีนำเข้าวิดีโอได้ %lld ครั้ง"
+                }
+              }
+            }
+          }
+        },
+        "vi": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Bản miễn phí cho thêm %lld video."
                 }
               }
             }
@@ -4409,6 +4727,18 @@
             }
           }
         },
+        "vi": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Bản miễn phí ghi giọng nói tối đa %lld giây."
+                }
+              }
+            }
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4594,6 +4924,18 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "เวอร์ชันฟรีวาดฟลิปบุ๊กเปล่าได้สูงสุด %lld หน้า"
+                }
+              }
+            }
+          }
+        },
+        "vi": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Bản miễn phí cho vẽ tối đa %lld trang trong flipbook trắng."
                 }
               }
             }
@@ -4789,6 +5131,18 @@
             }
           }
         },
+        "vi": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Bản miễn phí lưu tối đa %lld tác phẩm."
+                }
+              }
+            }
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4864,6 +5218,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ตราประทับรูปดาว"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con dấu ngôi sao"
           }
         },
         "zh-Hans": {
@@ -4943,6 +5303,12 @@
             "value": "สีและคอนทราสต์ที่มองเห็นง่ายขึ้น"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Màu sắc và độ tương phản dễ nhìn hơn"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5018,6 +5384,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "สีม่วง"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tím"
           }
         },
         "zh-Hans": {
@@ -5097,6 +5469,12 @@
             "value": "พู่กันเส้นกลาง"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cọ nét vừa"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5171,6 +5549,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ตรวจสอบผู้ใหญ่: แตะคำตอบของโจทย์ด้านล่าง"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kiểm tra người lớn: hãy chạm vào đáp án của bài toán bên dưới."
           }
         },
         "zh-Hans": {
@@ -5250,6 +5634,12 @@
             "value": "สีชมพู"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hồng"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5327,6 +5717,12 @@
             "value": "พู่กัน"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cọ vẽ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5401,6 +5797,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "วาง"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dán"
           }
         },
         "zh-Hans": {
@@ -5480,6 +5882,12 @@
             "value": "ฟลิปบุ๊กเปล่า"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Flipbook trắng"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5557,6 +5965,12 @@
             "value": "สร้างฟลิปบุ๊กเปล่าใหม่"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Flipbook trắng mới"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5631,6 +6045,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ฟลิปบุ๊กเปล่าไม่จำกัดจำนวนหน้า"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Flipbook trắng không giới hạn số trang"
           }
         },
         "zh-Hans": {
@@ -5710,6 +6130,12 @@
             "value": "สีแดง"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đỏ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5785,6 +6211,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "บันทึกลงรูปภาพ"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu vào Ảnh"
           }
         },
         "zh-Hans": {
@@ -5863,6 +6295,12 @@
             "value": "หากต้องการบันทึกลงรูปภาพ โปรดอนุญาตการเข้าถึงในการตั้งค่า"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Để lưu vào Ảnh, hãy cho phép truy cập trong Cài đặt."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5937,6 +6375,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "กำลังดึงจากรูปภาพ… รอสักครู่นะ!"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đang lấy từ Ảnh… đợi một chút nhé!"
           }
         },
         "zh-Hans": {
@@ -6016,6 +6460,12 @@
             "value": "เลือกวิดีโอจากรูปภาพ"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chọn video từ Ảnh"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6090,6 +6540,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "โหลดตัวเลือกการซื้อไม่ได้"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không tải được các lựa chọn mua."
           }
         },
         "zh-Hans": {
@@ -6169,6 +6625,12 @@
             "value": "ตราประทับรูปนก"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con dấu chim"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6243,6 +6705,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "การตั้งค่า"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cài đặt"
           }
         },
         "zh-Hans": {
@@ -6322,6 +6790,12 @@
             "value": "ตราประทับรูปสามเหลี่ยม"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con dấu hình tam giác"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6397,6 +6871,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "เริ่มเลย"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bắt đầu"
           }
         },
         "zh-Hans": {
@@ -6475,6 +6955,12 @@
             "value": "ภาพวาดของเด็กๆ ขยับได้"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tranh của bé biết chuyển động"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6549,6 +7035,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ปัญหาที่ไม่ทราบสาเหตุ"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sự cố không xác định"
           }
         },
         "zh-Hans": {
@@ -6628,6 +7120,12 @@
             "value": "ดูผลงานของลูกได้บนหน้าจอโฮมโดยไม่ต้องเปิดแอป"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xem tác phẩm của bé ngay trên Màn hình chính mà không cần mở ứng dụng."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6705,6 +7203,12 @@
             "value": "ตัวอักษรและปุ่มยังคมชัดแม้บนหน้าจอมืด"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chữ và nút vẫn sắc nét, rõ ràng trên màn hình tối."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6779,6 +7283,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ให้ผู้ใหญ่ดูหน่อยนะ"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hãy đưa cho người lớn xem nhé"
           }
         },
         "zh-Hans": {
@@ -6858,6 +7368,12 @@
             "value": "เปิดแอปครั้งแรกหลังอัปเดต คุณจะเห็นว่ามีอะไรใหม่"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lần đầu mở ứng dụng sau khi cập nhật, bạn sẽ thấy có gì mới."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6933,6 +7449,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "มีอะไรใหม่"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Có gì mới"
           }
         },
         "zh-Hans": {
@@ -7011,6 +7533,12 @@
             "value": "เปิด"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mở"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7087,6 +7615,12 @@
             "value": "เปิดไม่ได้ โปรดตรวจสอบว่าเป็นลิงก์วิดีโอ"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không mở được. Hãy kiểm tra xem đó có phải liên kết video không."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7161,6 +7695,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "เปิดไม่ได้ ตรวจสอบลิงก์แล้วลองอีกครั้ง"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không mở được. Hãy kiểm tra liên kết rồi thử lại."
           }
         },
         "zh-Hans": {
@@ -7240,6 +7780,12 @@
             "value": "ลดการเคลื่อนไหว"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Giảm chuyển động"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7315,6 +7861,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "เมื่อเปิดลดการเคลื่อนไหว เอฟเฟกต์บนหน้าจอจะนุ่มนวลขึ้น"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Khi bật Giảm chuyển động, các hiệu ứng trên màn hình sẽ dịu hơn."
           }
         },
         "zh-Hans": {
@@ -7394,6 +7946,12 @@
             "value": "ลบผลงานทั้งหมดในแอปได้ในคราวเดียวเมื่อใดก็ได้"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa toàn bộ tác phẩm trong ứng dụng cùng lúc bất cứ khi nào bạn muốn."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7469,6 +8027,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ล้างหน้านี้"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa sạch trang này"
           }
         },
         "zh-Hans": {
@@ -7547,6 +8111,12 @@
             "value": "ปลดล็อก"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mở khóa"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7621,6 +8191,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ข้อกำหนดการใช้งาน"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Điều khoản sử dụng"
           }
         },
         "zh-Hans": {
@@ -7700,6 +8276,12 @@
             "value": "ภาพก่อนหน้า"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tranh trước"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7775,6 +8357,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ส่ง DM ทาง Instagram (@lee25_ios)"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhắn tin Instagram (@lee25_ios)"
           }
         },
         "zh-Hans": {
@@ -7854,6 +8442,12 @@
             "value": "หยุดชั่วคราว"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tạm dừng"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7929,6 +8523,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ตราประทับรูปรถ"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con dấu ô tô"
           }
         },
         "zh-Hans": {
@@ -8008,6 +8608,12 @@
             "value": "ตราประทับขนาดเล็ก"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con dấu nhỏ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8083,6 +8689,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "สำรองผลงาน"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sao lưu tác phẩm"
           }
         },
         "zh-Hans": {
@@ -8162,6 +8774,12 @@
             "value": "ลบผลงานทั้งหมดในครั้งเดียว"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa tất cả tác phẩm cùng lúc"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8236,6 +8854,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "เก็บผลงานได้ไม่จำกัด"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu tác phẩm không giới hạn"
           }
         },
         "zh-Hans": {
@@ -8315,6 +8939,12 @@
             "value": "บันทึกผลงานเป็นไฟล์ แล้วนำกลับมาใช้ได้ทุกเมื่อ"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lưu tác phẩm thành tệp và mang lại bất cứ lúc nào."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8390,6 +9020,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ล็อกอยู่"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Đã khóa"
           }
         },
         "zh-Hans": {
@@ -8469,6 +9105,12 @@
             "value": "หน้า"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Các trang"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8544,6 +9186,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "เล่น"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phát"
           }
         },
         "zh-Hans": {
@@ -8623,6 +9271,12 @@
             "value": "แสดงแถบเล่น"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hiện thanh phát"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8698,6 +9352,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ซ่อนแถบเล่น"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ẩn thanh phát"
           }
         },
         "zh-Hans": {
@@ -8777,6 +9437,12 @@
             "value": "กดเล่นแล้วภาพวาดของคุณจะขยับ ใส่เสียงของคุณและบันทึกลงรูปภาพได้เลย"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nhấn phát và tranh của bạn sẽ chuyển động. Thêm giọng nói rồi lưu vào Ảnh."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8851,6 +9517,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ไม่มีการ์ด Palang Book ท้ายวิดีโอที่บันทึก"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Không có thẻ Palang Book ở cuối video đã lưu"
           }
         },
         "zh-Hans": {
@@ -8928,6 +9600,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "สีส้ม"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cam"
           }
         },
         "zh-Hans": {
@@ -9120,6 +9798,18 @@
             }
           }
         },
+        "vi": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Xong rồi! Có %lld cảnh. Bắt đầu vẽ thôi 🎨"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9195,6 +9885,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ตราประทับขนาดกลาง"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con dấu cỡ vừa"
           }
         },
         "zh-Hans": {
@@ -9274,6 +9970,12 @@
             "value": "ยางลบ"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cục tẩy"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9350,6 +10052,12 @@
             "value": "ลบ"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9424,6 +10132,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ช่วยเหลือ"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hỗ trợ"
           }
         },
         "zh-Hans": {
@@ -9503,6 +10217,12 @@
             "value": "สีเขียวน้ำทะเล"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xanh mòng két"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9578,6 +10298,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "สีเขียว"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xanh lá"
           }
         },
         "zh-Hans": {
@@ -9657,6 +10383,12 @@
             "value": "หน้าจอที่รองรับตัวอักษรขนาดใหญ่"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bố cục phù hợp chữ lớn"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9732,6 +10464,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ตราประทับขนาดใหญ่"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con dấu lớn"
           }
         },
         "zh-Hans": {
@@ -9811,6 +10549,12 @@
             "value": "สีน้ำเงิน"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xanh dương"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9882,6 +10626,12 @@
           }
         },
         "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
+        },
+        "vi": {
           "stringUnit": {
             "state": "translated",
             "value": "Palang Book"
@@ -9963,6 +10713,12 @@
             "value": "Palang Book สิทธิ์ใช้งานตลอดชีพ"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book — Gói trọn đời"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -10040,6 +10796,12 @@
             "value": "เปิด Palang Book พร้อมฟลิปบุ๊กเปล่าเล่มใหม่ ให้วาดได้ทันที"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mở Palang Book với một flipbook trắng mới, sẵn sàng để vẽ."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -10114,6 +10876,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "สิทธิ์ใช้งานตลอดชีพ"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gói trọn đời"
           }
         },
         "zh-Hans": {
@@ -10193,6 +10961,12 @@
             "value": "ตราประทับรูปหัวใจ"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con dấu trái tim"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -10269,6 +11043,12 @@
             "value": "ซื้อครั้งเดียว ปลดล็อกทุกอย่างใน Palang Book ตลอดไป"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mua một lần, mở khóa mọi thứ trong Palang Book mãi mãi."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -10343,6 +11123,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ชำระครั้งเดียว ไม่ใช่การสมัครสมาชิก เรียกเก็บผ่านบัญชี App Store ของคุณ"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thanh toán một lần, không phải gói đăng ký. Tính phí vào tài khoản App Store của bạn."
           }
         },
         "zh-Hans": {
@@ -10422,6 +11208,12 @@
             "value": "วาดหนึ่งหน้า แล้วแตะปุ่มสีส้มเพื่อวาดหน้าถัดไป"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vẽ xong một trang, rồi chạm nút màu cam để vẽ trang tiếp theo."
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -10497,6 +11289,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "วาดหน้านี้เสร็จแล้วใช่ไหม แตะปุ่มสีส้มเพื่อวาดภาพถัดไป"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vẽ xong trang này rồi? Chạm nút màu cam để vẽ tranh tiếp theo."
           }
         },
         "zh-Hans": {
@@ -10576,6 +11374,12 @@
             "value": "ลบตัวเลข"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xóa số"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -10651,6 +11455,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "วิดเจ็ตหน้าจอโฮม"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tiện ích Màn hình chính"
           }
         },
         "zh-Hans": {
@@ -10730,6 +11540,12 @@
             "value": "หน้าหลัก"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trang chủ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -10805,6 +11621,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "VoiceOver อ่านทุกปุ่มและเครื่องมือวาดภาพตามลำดับที่ถูกต้อง"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoiceOver đọc mọi nút và công cụ vẽ, theo đúng thứ tự."
           }
         },
         "zh-Hans": {
@@ -10884,6 +11706,12 @@
             "value": "ตกลง"
           }
         },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -10959,6 +11787,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "สีขาว"
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trắng"
           }
         },
         "zh-Hans": {
