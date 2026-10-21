@@ -276,6 +276,7 @@
 				it,
 				"en-GB",
 				ru,
+				th,
 				Base,
 			);
 			mainGroup = B1000030;

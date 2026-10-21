@@ -64,6 +64,12 @@
             "value": "Palang Book"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -139,6 +145,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Нужно, чтобы снимать видео, на которых можно рисовать."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "จำเป็นสำหรับถ่ายวิดีโอเพื่อวาดทับ"
           }
         },
         "zh-Hans": {
@@ -218,6 +230,12 @@
             "value": "Нужно, чтобы записывать голос для анимаций."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "จำเป็นสำหรับบันทึกเสียงใส่ในภาพเคลื่อนไหว"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -295,6 +313,12 @@
             "value": "Нужно, чтобы сохранять готовые анимации в «Фото»."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "จำเป็นสำหรับบันทึกภาพเคลื่อนไหวที่เสร็จแล้วลงรูปภาพ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -370,6 +394,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Нужно, чтобы добавлять видео, на которых можно рисовать."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "จำเป็นสำหรับนำเข้าวิดีโอเพื่อวาดทับ"
           }
         },
         "zh-Hans": {

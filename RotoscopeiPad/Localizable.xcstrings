@@ -57,6 +57,12 @@
             "value": "%@ · Разовая покупка — навсегда"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · จ่ายครั้งเดียว ใช้ได้ตลอดไป"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -126,6 +132,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Улучшенная поддержка VoiceOver"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "รองรับ VoiceOver ดียิ่งขึ้น"
           }
         },
         "zh-Hans": {
@@ -258,6 +270,12 @@
             "value": "Тонкая кисть"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "พู่กันเส้นบาง"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -328,6 +346,12 @@
             "value": "Семейный доступ: пользуйтесь на всех iPad в семье"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "แชร์กับครอบครัว: ใช้ได้บน iPad ทุกเครื่องในบ้าน"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -396,6 +420,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Политика конфиденциальности"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "นโยบายความเป็นส่วนตัว"
           }
         },
         "zh-Hans": {
@@ -469,6 +499,12 @@
             "value": "Чёрный"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "สีดำ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -537,6 +573,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Восстановить покупки"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "กู้คืนการซื้อ"
           }
         },
         "zh-Hans": {
@@ -610,6 +652,12 @@
             "value": "Толстая кисть"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "พู่กันเส้นหนา"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -679,6 +727,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Крупный текст не обрезается — экран аккуратно перестраивается."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ตัวอักษรใหญ่แค่ไหนก็ไม่ถูกตัด หน้าจอจะจัดเรียงใหม่ให้เรียบร้อย"
           }
         },
         "zh-Hans": {
@@ -752,6 +806,12 @@
             "value": "Синхронизация между устройствами"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ซิงค์ข้ามอุปกรณ์"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -821,6 +881,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Нажмите и удерживайте, чтобы удалить."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "แตะค้างไว้เพื่อลบ"
           }
         },
         "zh-Hans": {
@@ -894,6 +960,12 @@
             "value": "Штамп «Цветок»"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ตราประทับรูปดอกไม้"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -962,6 +1034,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Рисуйте поверх своих видео без ограничений"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "วาดทับวิดีโอของคุณเองได้ไม่จำกัด"
           }
         },
         "zh-Hans": {
@@ -1035,6 +1113,12 @@
             "value": "Моя работа"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ผลงานของฉัน"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1104,6 +1188,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Штамп «Квадрат»"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ตราประทับรูปสี่เหลี่ยม"
           }
         },
         "zh-Hans": {
@@ -1177,6 +1267,12 @@
             "value": "Жёлтый"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "สีเหลือง"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1246,6 +1342,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Остановить запись"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "หยุดบันทึก"
           }
         },
         "zh-Hans": {
@@ -1319,6 +1421,12 @@
             "value": "Продолжайте рисовать ту же работу на другом iPad."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "วาดผลงานชิ้นเดิมต่อบน iPad เครื่องอื่นได้"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1387,6 +1495,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Повторить"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ลองอีกครั้ง"
           }
         },
         "zh-Hans": {
@@ -1460,6 +1574,12 @@
             "value": "Далее"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ถัดไป"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1529,6 +1649,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Рисовать следующую картинку"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "วาดภาพถัดไป"
           }
         },
         "zh-Hans": {
@@ -1602,6 +1728,12 @@
             "value": "Рисуем следующую страницу"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "วาดหน้าถัดไป"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1671,6 +1803,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Тёмная тема"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "โหมดมืด"
           }
         },
         "zh-Hans": {
@@ -1744,6 +1882,12 @@
             "value": "Закрыть"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ปิด"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1813,6 +1957,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Всё хорошо читается при повышенной контрастности и когда трудно различать цвета."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "อ่านได้ชัดเจนแม้เปิดการเพิ่มคอนทราสต์ หรือแยกสีได้ยาก"
           }
         },
         "zh-Hans": {
@@ -1886,6 +2036,12 @@
             "value": "Штамп «Круг»"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ตราประทับรูปวงกลม"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -1955,6 +2111,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Открыть ссылку на видео"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เปิดลิงก์วิดีโอ"
           }
         },
         "zh-Hans": {
@@ -2028,6 +2190,12 @@
             "value": "Показать видео на фоне"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "แสดงวิดีโอพื้นหลัง"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2097,6 +2265,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Скрыть видео на фоне"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ซ่อนวิดีโอพื้นหลัง"
           }
         },
         "zh-Hans": {
@@ -2170,6 +2344,12 @@
             "value": "Снять видео"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ถ่ายวิดีโอ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2239,6 +2419,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Начните с видео, чистой страницы или набора для обводки."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เริ่มจากวิดีโอ กระดาษเปล่า หรือชุดวาดตามเส้น"
           }
         },
         "zh-Hans": {
@@ -2311,6 +2497,12 @@
             "value": "Добавьте видео, чтобы начать!"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "นำเข้าวิดีโอเพื่อเริ่มกันเลย!"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2379,6 +2571,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Не удалось добавить видео: %@"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "นำเข้าวิดีโอไม่ได้: %@"
           }
         },
         "zh-Hans": {
@@ -2451,6 +2649,12 @@
             "value": "При создании видео что-то пошло не так."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เกิดปัญหาระหว่างสร้างวิดีโอ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2519,6 +2723,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Открываем видео…"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "กำลังเปิดวิดีโอ…"
           }
         },
         "zh-Hans": {
@@ -2591,6 +2801,12 @@
             "value": "Не удаётся прочитать это видео. Попробуем другое?"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "อ่านวิดีโอนี้ไม่ได้ ลองเลือกวิดีโออื่นไหม"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2661,6 +2877,12 @@
             "value": "Это не видео. Выберите видео!"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "นี่ไม่ใช่วิดีโอ เลือกวิดีโอนะ!"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2729,6 +2951,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Видео нет."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ไม่มีวิดีโอ"
           }
         },
         "zh-Hans": {
@@ -2802,6 +3030,12 @@
             "value": "Отменить"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เลิกทำ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -2871,6 +3105,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Набор для обводки %lld"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ชุดวาดตามเส้น %lld"
           }
         },
         "zh-Hans": {
@@ -3046,6 +3286,18 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "Наборов для обводки: %lld — и все новые в придачу"
+                }
+              }
+            }
+          }
+        },
+        "th": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "ชุดวาดตามเส้นทั้ง %lld ชุด รวมถึงชุดใหม่ที่จะมาในอนาคต"
                 }
               }
             }
@@ -3229,6 +3481,18 @@
             }
           }
         },
+        "th": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "ใช้ชุดวาดตามเส้นฟรี %lld ชุด ส่วนที่เหลือปลดล็อกด้วยสิทธิ์ใช้งานตลอดชีพ"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3297,6 +3561,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ссылка выглядит неправильно."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ลิงก์ดูไม่ถูกต้อง"
           }
         },
         "zh-Hans": {
@@ -3370,6 +3640,12 @@
             "value": "Нажмите на микрофон, чтобы записать голос, пока анимация проигрывается один раз."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "แตะไมโครโฟนเพื่อบันทึกเสียงของคุณขณะที่ภาพเคลื่อนไหวเล่นหนึ่งรอบ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3441,6 +3717,12 @@
             "value": "Написать нам"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ส่งอีเมลถึงเรา"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3509,6 +3791,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Всё открыто"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ปลดล็อกทุกอย่างแล้ว"
           }
         },
         "zh-Hans": {
@@ -3582,6 +3870,12 @@
             "value": "Добавьте свой голос"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ใส่เสียงของคุณ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3653,6 +3947,12 @@
             "value": "Записать голос"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "บันทึกเสียง"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -3721,6 +4021,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Запись голоса без ограничения по времени"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "บันทึกเสียงได้ไม่จำกัดเวลา"
           }
         },
         "zh-Hans": {
@@ -3896,6 +4202,18 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "В бесплатной версии можно добавить видео: %lld."
+                }
+              }
+            }
+          }
+        },
+        "th": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "เวอร์ชันฟรีนำเข้าวิดีโอได้ %lld ครั้ง"
                 }
               }
             }
@@ -4079,6 +4397,18 @@
             }
           }
         },
+        "th": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "เวอร์ชันฟรีบันทึกเสียงได้สูงสุด %lld วินาที"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4252,6 +4582,18 @@
                 "stringUnit": {
                   "state": "translated",
                   "value": "В бесплатной версии в чистом флипбуке можно нарисовать до %lld страницы."
+                }
+              }
+            }
+          }
+        },
+        "th": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "เวอร์ชันฟรีวาดฟลิปบุ๊กเปล่าได้สูงสุด %lld หน้า"
                 }
               }
             }
@@ -4435,6 +4777,18 @@
             }
           }
         },
+        "th": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "เวอร์ชันฟรีเก็บผลงานได้สูงสุด %lld ชิ้น"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4504,6 +4858,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Штамп «Звезда»"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ตราประทับรูปดาว"
           }
         },
         "zh-Hans": {
@@ -4577,6 +4937,12 @@
             "value": "Удобные цвета и контрастность"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "สีและคอนทราสต์ที่มองเห็นง่ายขึ้น"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4646,6 +5012,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Фиолетовый"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "สีม่วง"
           }
         },
         "zh-Hans": {
@@ -4719,6 +5091,12 @@
             "value": "Средняя кисть"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "พู่กันเส้นกลาง"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4787,6 +5165,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Проверка для взрослых: нажмите ответ на пример ниже."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ตรวจสอบผู้ใหญ่: แตะคำตอบของโจทย์ด้านล่าง"
           }
         },
         "zh-Hans": {
@@ -4860,6 +5244,12 @@
             "value": "Розовый"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "สีชมพู"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4931,6 +5321,12 @@
             "value": "Кисть"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "พู่กัน"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -4999,6 +5395,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Вставить"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "วาง"
           }
         },
         "zh-Hans": {
@@ -5072,6 +5474,12 @@
             "value": "Чистый флипбук"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ฟลิปบุ๊กเปล่า"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5143,6 +5551,12 @@
             "value": "Новый чистый флипбук"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "สร้างฟลิปบุ๊กเปล่าใหม่"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5211,6 +5625,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Чистые флипбуки без ограничения страниц"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ฟลิปบุ๊กเปล่าไม่จำกัดจำนวนหน้า"
           }
         },
         "zh-Hans": {
@@ -5284,6 +5704,12 @@
             "value": "Красный"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "สีแดง"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5353,6 +5779,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Сохранить в «Фото»"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "บันทึกลงรูปภาพ"
           }
         },
         "zh-Hans": {
@@ -5425,6 +5857,12 @@
             "value": "Чтобы сохранять в «Фото», разрешите доступ в настройках."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "หากต้องการบันทึกลงรูปภาพ โปรดอนุญาตการเข้าถึงในการตั้งค่า"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5493,6 +5931,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Загружаем из «Фото»… секундочку!"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "กำลังดึงจากรูปภาพ… รอสักครู่นะ!"
           }
         },
         "zh-Hans": {
@@ -5566,6 +6010,12 @@
             "value": "Выбрать видео из «Фото»"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เลือกวิดีโอจากรูปภาพ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5634,6 +6084,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Не удалось загрузить варианты покупки."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "โหลดตัวเลือกการซื้อไม่ได้"
           }
         },
         "zh-Hans": {
@@ -5707,6 +6163,12 @@
             "value": "Штамп «Птичка»"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ตราประทับรูปนก"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5775,6 +6237,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Настройки"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "การตั้งค่า"
           }
         },
         "zh-Hans": {
@@ -5848,6 +6316,12 @@
             "value": "Штамп «Треугольник»"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ตราประทับรูปสามเหลี่ยม"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -5917,6 +6391,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Начать"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เริ่มเลย"
           }
         },
         "zh-Hans": {
@@ -5989,6 +6469,12 @@
             "value": "Детские рисунки оживают"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ภาพวาดของเด็กๆ ขยับได้"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6057,6 +6543,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Неизвестная проблема"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ปัญหาที่ไม่ทราบสาเหตุ"
           }
         },
         "zh-Hans": {
@@ -6130,6 +6622,12 @@
             "value": "Смотрите работы ребёнка прямо на экране «Домой», не открывая приложение."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ดูผลงานของลูกได้บนหน้าจอโฮมโดยไม่ต้องเปิดแอป"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6201,6 +6699,12 @@
             "value": "На тёмном экране текст и кнопки остаются чёткими."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ตัวอักษรและปุ่มยังคมชัดแม้บนหน้าจอมืด"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6269,6 +6773,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Покажите это взрослому"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ให้ผู้ใหญ่ดูหน่อยนะ"
           }
         },
         "zh-Hans": {
@@ -6342,6 +6852,12 @@
             "value": "При первом запуске после обновления вы увидите, что нового."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เปิดแอปครั้งแรกหลังอัปเดต คุณจะเห็นว่ามีอะไรใหม่"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6411,6 +6927,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Что нового"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "มีอะไรใหม่"
           }
         },
         "zh-Hans": {
@@ -6483,6 +7005,12 @@
             "value": "Открыть"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เปิด"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6553,6 +7081,12 @@
             "value": "Не удалось открыть. Убедитесь, что это ссылка на видео."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เปิดไม่ได้ โปรดตรวจสอบว่าเป็นลิงก์วิดีโอ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6621,6 +7155,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Не удалось открыть. Проверьте ссылку и повторите попытку."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เปิดไม่ได้ ตรวจสอบลิงก์แล้วลองอีกครั้ง"
           }
         },
         "zh-Hans": {
@@ -6694,6 +7234,12 @@
             "value": "Уменьшение движения"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ลดการเคลื่อนไหว"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6763,6 +7309,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Когда включено «Уменьшение движения», эффекты на экране становятся спокойнее."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เมื่อเปิดลดการเคลื่อนไหว เอฟเฟกต์บนหน้าจอจะนุ่มนวลขึ้น"
           }
         },
         "zh-Hans": {
@@ -6836,6 +7388,12 @@
             "value": "Удаляйте все работы в приложении разом, когда захотите."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ลบผลงานทั้งหมดในแอปได้ในคราวเดียวเมื่อใดก็ได้"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -6905,6 +7463,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Стереть всю страницу"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ล้างหน้านี้"
           }
         },
         "zh-Hans": {
@@ -6977,6 +7541,12 @@
             "value": "Доступ"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ปลดล็อก"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7045,6 +7615,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Условия использования"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ข้อกำหนดการใช้งาน"
           }
         },
         "zh-Hans": {
@@ -7118,6 +7694,12 @@
             "value": "Предыдущая картинка"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ภาพก่อนหน้า"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7187,6 +7769,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Личное сообщение в Instagram (@lee25_ios)"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ส่ง DM ทาง Instagram (@lee25_ios)"
           }
         },
         "zh-Hans": {
@@ -7260,6 +7848,12 @@
             "value": "Пауза"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "หยุดชั่วคราว"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7329,6 +7923,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Штамп «Машинка»"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ตราประทับรูปรถ"
           }
         },
         "zh-Hans": {
@@ -7402,6 +8002,12 @@
             "value": "Маленький штамп"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ตราประทับขนาดเล็ก"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7471,6 +8077,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Резервное копирование работ"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "สำรองผลงาน"
           }
         },
         "zh-Hans": {
@@ -7544,6 +8156,12 @@
             "value": "Удалить все работы разом"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ลบผลงานทั้งหมดในครั้งเดียว"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7612,6 +8230,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Неограниченное хранение работ"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เก็บผลงานได้ไม่จำกัด"
           }
         },
         "zh-Hans": {
@@ -7685,6 +8309,12 @@
             "value": "Сохраняйте работы в файл и возвращайте их когда угодно."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "บันทึกผลงานเป็นไฟล์ แล้วนำกลับมาใช้ได้ทุกเมื่อ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7754,6 +8384,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Закрыто"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ล็อกอยู่"
           }
         },
         "zh-Hans": {
@@ -7827,6 +8463,12 @@
             "value": "Страницы"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "หน้า"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -7896,6 +8538,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Воспроизвести"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เล่น"
           }
         },
         "zh-Hans": {
@@ -7969,6 +8617,12 @@
             "value": "Показать панель воспроизведения"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "แสดงแถบเล่น"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8038,6 +8692,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Скрыть панель воспроизведения"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ซ่อนแถบเล่น"
           }
         },
         "zh-Hans": {
@@ -8111,6 +8771,12 @@
             "value": "Нажмите «Воспроизвести» — рисунок оживёт. Добавьте голос и сохраните в «Фото»."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "กดเล่นแล้วภาพวาดของคุณจะขยับ ใส่เสียงของคุณและบันทึกลงรูปภาพได้เลย"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8179,6 +8845,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Без карточки Palang Book в конце сохранённых видео"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ไม่มีการ์ด Palang Book ท้ายวิดีโอที่บันทึก"
           }
         },
         "zh-Hans": {
@@ -8250,6 +8922,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Оранжевый"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "สีส้ม"
           }
         },
         "zh-Hans": {
@@ -8430,6 +9108,18 @@
             }
           }
         },
+        "th": {
+          "variations": {
+            "plural": {
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "พร้อมแล้ว! มี %lld ฉาก เริ่มวาดได้เลย 🎨"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8499,6 +9189,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Средний штамп"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ตราประทับขนาดกลาง"
           }
         },
         "zh-Hans": {
@@ -8572,6 +9268,12 @@
             "value": "Ластик"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ยางลบ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8642,6 +9344,12 @@
             "value": "Удалить"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ลบ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8710,6 +9418,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Поддержка"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ช่วยเหลือ"
           }
         },
         "zh-Hans": {
@@ -8783,6 +9497,12 @@
             "value": "Бирюзовый"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "สีเขียวน้ำทะเล"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8852,6 +9572,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Зелёный"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "สีเขียว"
           }
         },
         "zh-Hans": {
@@ -8925,6 +9651,12 @@
             "value": "Экраны под крупный текст"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "หน้าจอที่รองรับตัวอักษรขนาดใหญ่"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -8994,6 +9726,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Большой штамп"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ตราประทับขนาดใหญ่"
           }
         },
         "zh-Hans": {
@@ -9067,6 +9805,12 @@
             "value": "Синий"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "สีน้ำเงิน"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9132,6 +9876,12 @@
           }
         },
         "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
+        },
+        "th": {
           "stringUnit": {
             "state": "translated",
             "value": "Palang Book"
@@ -9207,6 +9957,12 @@
             "value": "Palang Book: пожизненный доступ"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book สิทธิ์ใช้งานตลอดชีพ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9278,6 +10034,12 @@
             "value": "Открывает Palang Book с новым чистым флипбуком — можно сразу рисовать."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เปิด Palang Book พร้อมฟลิปบุ๊กเปล่าเล่มใหม่ ให้วาดได้ทันที"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9346,6 +10108,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Пожизненный доступ"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "สิทธิ์ใช้งานตลอดชีพ"
           }
         },
         "zh-Hans": {
@@ -9419,6 +10187,12 @@
             "value": "Штамп «Сердце»"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ตราประทับรูปหัวใจ"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9489,6 +10263,12 @@
             "value": "Одна покупка открывает в Palang Book всё — навсегда."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ซื้อครั้งเดียว ปลดล็อกทุกอย่างใน Palang Book ตลอดไป"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9557,6 +10337,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Разовый платёж, не подписка. Списывается с вашей учётной записи App Store."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ชำระครั้งเดียว ไม่ใช่การสมัครสมาชิก เรียกเก็บผ่านบัญชี App Store ของคุณ"
           }
         },
         "zh-Hans": {
@@ -9630,6 +10416,12 @@
             "value": "Нарисуйте страницу и нажмите оранжевую кнопку, чтобы рисовать следующую."
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "วาดหนึ่งหน้า แล้วแตะปุ่มสีส้มเพื่อวาดหน้าถัดไป"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9699,6 +10491,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Закончили страницу? Нажмите оранжевую кнопку и рисуйте следующую картинку."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "วาดหน้านี้เสร็จแล้วใช่ไหม แตะปุ่มสีส้มเพื่อวาดภาพถัดไป"
           }
         },
         "zh-Hans": {
@@ -9772,6 +10570,12 @@
             "value": "Стереть цифру"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ลบตัวเลข"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9841,6 +10645,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Виджеты для экрана «Домой»"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "วิดเจ็ตหน้าจอโฮม"
           }
         },
         "zh-Hans": {
@@ -9914,6 +10724,12 @@
             "value": "Домой"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "หน้าหลัก"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -9983,6 +10799,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "VoiceOver озвучивает все кнопки и инструменты рисования в правильном порядке."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VoiceOver อ่านทุกปุ่มและเครื่องมือวาดภาพตามลำดับที่ถูกต้อง"
           }
         },
         "zh-Hans": {
@@ -10056,6 +10878,12 @@
             "value": "OK"
           }
         },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ตกลง"
+          }
+        },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
@@ -10125,6 +10953,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Белый"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "สีขาว"
           }
         },
         "zh-Hans": {
