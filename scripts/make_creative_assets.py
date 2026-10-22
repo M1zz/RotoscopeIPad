@@ -19,6 +19,8 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 RAW = ROOT / "docs" / "screenshots" / "raw"   # 스크린샷 원본을 같이 쓴다 (capture_screenshots.sh)
 OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+# 따로 쓰는 프로필 — 켜 둔 Chrome 이나 다른 headless 와 프로필을 나눠 쓰면 멈추거나 빈 그림이 나온다.
+PROFILE = tempfile.mkdtemp(prefix="palangbook-chrome-")
 
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
@@ -45,7 +47,7 @@ SEARCH = {
     "en-GB": ("Kids drawing app", "Trace it,<br>watch it move", "Trace page by page and the drawing moves"),
     "ru": ("Детская рисовалка", "Обводи —<br>и рисунок оживёт", "Страница за страницей — и рисунок движется"),
     "th": ("แอปวาดรูปเด็ก", "วาดตามเส้น<br>ภาพก็ขยับ", "วาดตามเส้นทีละหน้า แล้วภาพวาดจะขยับ"),
-    "vi": ("Ứng dụng vẽ cho bé", "Vẽ theo nét,<br>xem tranh chuyển động", "Vẽ từng trang và tranh sẽ chuyển động"),
+    "vi": ("Ứng dụng vẽ cho bé", "Vẽ theo nét,<br>tranh động đậy", "Vẽ từng trang và tranh sẽ chuyển động"),
     "cs": ("Kreslení pro děti", "Obkresli a<br>sleduj, jak se hýbe", "Stránku po stránce a kresba ožije"),
     "da": ("Tegneapp til børn", "Tegn efter og<br>se det bevæge sig", "Side for side, og tegningen bevæger sig"),
     "el": ("Ζωγραφική για παιδιά", "Ζωγράφισε πάνω,<br>δες το να κινείται", "Σελίδα σελίδα και το σχέδιο κινείται"),
@@ -213,9 +215,19 @@ def render(lang, kind):
     html_path = pathlib.Path(tempfile.gettempdir()) / f"palangbook-creative-{lang}-{kind}.html"
     html_path.write_text(page, encoding="utf-8")
     # 글이 끝까지 안 맞으면 그림을 만들지 않는다(잘린 글이 스토어에 올라가는 것보다 낫다).
-    dom = subprocess.run([CHROME, "--headless=new", "--dump-dom", f"--window-size={W},{H}",
-                          "--force-device-scale-factor=1", "--disable-gpu", "--virtual-time-budget=3000",
-                          html_path.as_uri()], capture_output=True, text=True, timeout=300).stdout
+    #    Chrome 이 DOM 을 다 내놓고 닫다가 멈추기도 한다 — 멈추면 그때까지 나온 글로 판단하고, 비었으면 다시 한다.
+    dom = ""
+    for _ in range(3):
+        try:
+            dom = subprocess.run([CHROME, "--headless=new", f"--user-data-dir={PROFILE}", "--dump-dom",
+                                  f"--window-size={W},{H}", "--force-device-scale-factor=1", "--disable-gpu",
+                                  "--virtual-time-budget=3000", html_path.as_uri()],
+                                 capture_output=True, text=True, timeout=120).stdout
+        except subprocess.TimeoutExpired as e:
+            out = e.stdout or b""
+            dom = out.decode("utf-8", "replace") if isinstance(out, bytes) else out
+        if 'data-done="1"' in dom:
+            break
     if 'data-done="1"' not in dom:
         raise SystemExit(f"글 맞추기가 끝나지 않았다: {lang} {kind}")
     if 'data-overflow="1"' in dom:
@@ -224,16 +236,18 @@ def render(lang, kind):
     out_dir.mkdir(parents=True, exist_ok=True)
     out_png = out_dir / f"{kind}.png"
     # ⚠️ Chrome 은 가끔 아무것도 안 그리고 끝나거나 멈춘다. 세 번까지 한다.
+    #    그림을 다 쓰고 닫다가 죽기도 해서(Teardown watchdog) 끝 코드 대신 새로 쓴 파일로 판단한다.
+    out_png.unlink(missing_ok=True)
     for _ in range(3):
         try:
-            r = subprocess.run([CHROME, "--headless=new", f"--screenshot={out_png}",
+            r = subprocess.run([CHROME, "--headless=new", f"--user-data-dir={PROFILE}", f"--screenshot={out_png}",
                                 f"--window-size={W},{H}", "--force-device-scale-factor=1",
                                 "--hide-scrollbars", "--disable-gpu", "--virtual-time-budget=3000",
                                 "--allow-file-access-from-files", html_path.as_uri()],
                                capture_output=True, timeout=300)
         except subprocess.TimeoutExpired:
             continue
-        if r.returncode == 0:
+        if out_png.exists() and out_png.stat().st_size > 0:
             break
     else:
         raise SystemExit(f"Chrome 이 그리지 못했다: {out_png}")

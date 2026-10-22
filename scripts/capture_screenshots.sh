@@ -52,8 +52,13 @@ for loc in $LOCALES; do
       xcrun simctl launch $U $APP >/dev/null
     fi
     wait_s 5
-    rm -f $out/$name.png   # simctl 은 있는 파일을 덮어쓰지 않고 실패한다
-    xcrun simctl io $U screenshot --type=png $out/$name.png >/dev/null
+    # Mac 이 바쁘면 앱이 아직 그리기 전(흰 화면)에 찍힌다 — 흰 화면은 파일이 작으니 크기로 보고 다시 찍는다.
+    for try in 1 2 3 4 5 6; do
+      rm -f $out/$name.png   # simctl 은 있는 파일을 덮어쓰지 않고 실패한다
+      xcrun simctl io $U screenshot --type=png $out/$name.png >/dev/null
+      (( $(stat -f %z $out/$name.png) > 250000 )) && break
+      wait_s 3
+    done
     echo "$loc $name"
   done
 done

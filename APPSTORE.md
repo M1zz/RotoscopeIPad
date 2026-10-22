@@ -939,7 +939,7 @@ Palang Book: Παιδική ζωγραφική
 
 ### 키워드
 
-ζωγραφική,παιδιά,νηπιαγωγείο,σχέδιο,χρωματισμός,σφραγίδες,κινούμενα,καρτούν,δημιουργικότητα,τέχνη
+παιδιά,νηπιαγωγείο,σχέδιο,χρωματισμός,σφραγίδες,κινούμενα,καρτούν,δημιουργικότητα,τέχνη,μπογιές
 
 ### 프로모션 텍스트
 
@@ -1041,7 +1041,7 @@ Jiplak gambar, lihat bergerak
 
 ### 키워드
 
-menggambar,mewarnai,anak,balita,paud,tk,stempel,kartun,corat-coret,kreatif,seni,stop motion,edukasi
+menggambar,mewarnai,balita,paud,tk,stempel,kartun,corat-coret,kreatif,seni,stop motion,edukasi,lukis
 
 ### 프로모션 텍스트
 
@@ -1296,7 +1296,7 @@ Palang Book: Çocuk Animasyonu
 
 ### 키워드
 
-çizim,boyama,çocuk,okul öncesi,damga,karalama,sanat,çizgi film,bebek,oyun,yaratıcı,stop motion
+çizim,boyama,resim,okul öncesi,damga,karalama,sanat,çizgi film,bebek,oyun,yaratıcı,stop motion
 
 ### 프로모션 텍스트
 

@@ -1,5 +1,199 @@
 # 팔랑북 릴리즈 노트
 
+## 1.0.3
+
+### 앱스토어 (한국어)
+
+처음 열면 그림 세 장으로 쓰는 법을 알려 줘요.
+Siri나 단축어로 새 플립북을 바로 열 수 있어요.
+화면 읽기 기능이 모든 버튼 이름을 읽어 줘요.
+설정에서 앞으로 만들 기능을 미리 볼 수 있어요.
+러시아어와 태국어 등 14개 언어가 늘었어요.
+
+### App Store (en-US)
+
+New users get a three-picture guide.
+Start a flipbook with Siri or Shortcuts.
+Screen readers now name every button.
+See what's coming next in Settings.
+Now in 14 more languages, like Russian.
+
+### App Store (en-GB)
+
+New users get a three-picture guide.
+Start a flipbook with Siri or Shortcuts.
+Screen readers now name every button.
+See what's coming next in Settings.
+Now in 14 more languages, like Russian.
+
+### 앱스토어 (일본어, ja)
+
+はじめて開くと、3枚の絵で使い方を案内します。
+Siriやショートカットで新しい作品をすぐ開けます。
+読み上げ機能ですべてのボタン名がわかります。
+設定から今後追加される機能を見られます。
+ロシア語やタイ語など14の言語が加わりました。
+
+### 앱스토어 (중국어 간체, zh-Hans)
+
+首次打开时，用三张图教你怎么玩。
+用 Siri 或快捷指令就能直接新建翻页书。
+读屏功能现在能读出每个按钮的名称。
+在设置里可以看到即将推出的功能。
+新增俄语、泰语等 14 种语言。
+
+### 앱스토어 (중국어 번체, zh-Hant)
+
+第一次打開時，用三張圖教你怎麼玩。
+用 Siri 或捷徑就能直接開新的翻頁書。
+螢幕朗讀現在會念出每個按鈕的名稱。
+在設定裡可以看到即將推出的功能。
+新增俄文、泰文等 14 種語言。
+
+### 앱스토어 (스페인어, es-MX)
+
+Una guía de tres dibujos para empezar.
+Abre un libro animado con Siri o Atajos.
+El lector de pantalla nombra cada botón.
+Mira lo que viene en Configuración.
+Ahora en 14 idiomas más, como el ruso.
+
+### 앱스토어 (독일어, de-DE)
+
+Eine Bilderanleitung beim ersten Start.
+Neues Daumenkino per Siri starten.
+Der Screenreader nennt jede Taste.
+Vorschau auf Neues in den Einstellungen.
+14 neue Sprachen, darunter Russisch.
+
+### 앱스토어 (프랑스어, fr-FR)
+
+Un guide en trois images au départ.
+Ouvrez un flip book avec Siri.
+Le lecteur d'écran nomme chaque bouton.
+Découvrez la suite dans les Réglages.
+14 nouvelles langues, dont le russe.
+
+### 앱스토어 (포르투갈어, pt-BR)
+
+Um guia em três imagens na primeira vez.
+Abra um flipbook com a Siri ou Atalhos.
+O leitor de tela diz o nome dos botões.
+Veja o que vem por aí nos Ajustes.
+Agora em mais 14 idiomas, como russo.
+
+### 앱스토어 (이탈리아어, it)
+
+Una guida in tre immagini all'inizio.
+Nuovo flipbook al volo con Siri.
+Il lettore schermo legge ogni pulsante.
+Le novità in arrivo nelle Impostazioni.
+Ora in altre 14 lingue, come il russo.
+
+### 앱스토어 (러시아어, ru)
+
+Подсказка из трёх картинок для новичков.
+Новый мультик можно открыть через Siri.
+Экранный диктор называет каждую кнопку.
+В настройках видно, что появится дальше.
+Теперь на русском и ещё 13 языках.
+
+### 앱스토어 (태국어, th)
+
+เปิดครั้งแรกมีภาพสามภาพสอนวิธีใช้
+เปิดสมุดภาพใหม่ด้วย Siri หรือคำสั่งลัด
+โปรแกรมอ่านหน้าจอบอกชื่อปุ่มได้ทุกปุ่ม
+ดูฟีเจอร์ที่กำลังจะมาได้ในการตั้งค่า
+ตอนนี้ใช้ภาษาไทยและอีก 13 ภาษาได้แล้ว
+
+### 앱스토어 (베트남어, vi)
+
+Ba tranh hướng dẫn khi mở lần đầu.
+Mở sổ lật mới bằng Siri hoặc Phím tắt.
+Trình đọc màn hình đọc tên mọi nút.
+Xem tính năng sắp ra mắt trong Cài đặt.
+Nay có tiếng Việt và 13 ngôn ngữ mới.
+
+### 앱스토어 (체코어, cs)
+
+Při prvním spuštění poradí tři obrázky.
+Nový flipbook otevřete přes Siri.
+Čtečka obrazovky čte každé tlačítko.
+V Nastavení uvidíte, co chystáme.
+Nově v češtině a dalších 13 jazycích.
+
+### 앱스토어 (덴마크어, da)
+
+En guide i tre billeder ved start.
+Åbn en flipbog med Siri eller Genveje.
+Skærmlæseren siger navnet på hver knap.
+Se, hvad der kommer, i Indstillinger.
+Nu på dansk og 13 andre nye sprog.
+
+### 앱스토어 (그리스어, el)
+
+Οδηγός τριών εικόνων στο πρώτο άνοιγμα.
+Νέο βιβλίο με Siri ή Συντομεύσεις.
+Ο αναγνώστης οθόνης λέει κάθε κουμπί.
+Δες τι έρχεται στις Ρυθμίσεις.
+Τώρα στα ελληνικά και 13 ακόμη γλώσσες.
+
+### 앱스토어 (핀란드어, fi)
+
+Kolmen kuvan opastus ensikertalaisille.
+Uusi lehtiö Sirillä tai Pikakomennoilla.
+Näytönlukija kertoo painikkeiden nimet.
+Asetuksista näet, mitä on tulossa.
+Nyt suomeksi ja 13 muulla kielellä.
+
+### 앱스토어 (인도네시아어, id)
+
+Panduan tiga gambar saat pertama dibuka.
+Buka buku baru lewat Siri atau Pintasan.
+Pembaca layar menyebut nama tiap tombol.
+Lihat fitur mendatang di Pengaturan.
+Kini berbahasa Indonesia dan 13 lainnya.
+
+### 앱스토어 (노르웨이어(보크말))
+
+En guide i tre bilder ved første start.
+Ny flippbok med Siri eller Snarveier.
+Skjermleseren sier navnet på hver knapp.
+Se hva som kommer, under Innstillinger.
+Nå på norsk og 13 andre nye språk.
+
+### 앱스토어 (네덜란드어, nl)
+
+Een uitleg in drie plaatjes bij start.
+Nieuw flipboek met Siri of Opdrachten.
+De schermlezer noemt nu elke knop.
+Zie in Instellingen wat er nog komt.
+Nu in het Nederlands en 13 andere talen.
+
+### 앱스토어 (폴란드어, pl)
+
+Krótki poradnik w trzech obrazkach.
+Nowy flipbook przez Siri lub Skróty.
+Czytnik ekranu czyta nazwy przycisków.
+W Ustawieniach zobaczysz, co planujemy.
+Teraz po polsku i w 13 innych językach.
+
+### 앱스토어 (스웨덴어, sv)
+
+En guide i tre bilder första gången.
+Ny blädderbok med Siri eller Genvägar.
+Skärmläsaren läser upp varje knapp.
+Se vad som kommer under Inställningar.
+Nu på svenska och 13 andra nya språk.
+
+### 앱스토어 (튀르키예어, tr)
+
+İlk açılışta üç resimli kısa rehber.
+Siri ile hemen yeni bir kitap açın.
+Ekran okuyucu her düğmeyi söylüyor.
+Yakında gelecekleri Ayarlar'da görün.
+Artık Türkçe ve 13 yeni dilde daha.
+
 ## 1.0.2
 
 ### 앱스토어 (한국어)

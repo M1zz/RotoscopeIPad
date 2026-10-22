@@ -15,6 +15,8 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "marketing"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+# 따로 쓰는 프로필 — 켜 둔 Chrome 이나 다른 headless 와 프로필을 나눠 쓰면 멈추거나 빈 그림이 나온다.
+PROFILE = tempfile.mkdtemp(prefix="palangbook-chrome-")
 W, H = 2064, 2752
 
 # (원본 파일, 배치, 눈썹글, 헤드라인, 보조 한 줄)
@@ -330,15 +332,17 @@ def render(lang):
         html = pathlib.Path(tempfile.gettempdir()) / f"palangbook-mkt-{lang}-{src}.html"
         html.write_text(page(lang, src, layout, eyebrow, headline, sub), encoding="utf-8")
         out = out_dir / src
+        # 그림을 다 쓰고 닫다가 죽기도 해서(Teardown watchdog) 끝 코드 대신 새로 쓴 파일로 판단한다.
+        out.unlink(missing_ok=True)
         for _ in range(3):
             try:
-                r = subprocess.run([CHROME, "--headless=new", f"--screenshot={out}", f"--window-size={W},{H}",
+                r = subprocess.run([CHROME, "--headless=new", f"--user-data-dir={PROFILE}", f"--screenshot={out}", f"--window-size={W},{H}",
                                     "--force-device-scale-factor=1", "--hide-scrollbars", "--disable-gpu",
                                     "--virtual-time-budget=3000", "--allow-file-access-from-files", html.as_uri()],
                                    capture_output=True, timeout=300)
             except subprocess.TimeoutExpired:
                 continue
-            if r.returncode == 0 and out.exists():
+            if out.exists() and out.stat().st_size > 0:
                 break
         else:
             raise SystemExit(f"Chrome 이 그리지 못했다: {out}")
