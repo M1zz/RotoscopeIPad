@@ -17,6 +17,11 @@ import LeeoKit
 
 extension RotoscopeiPadSpec {
     static var roadmap: [LeeoRoadmapItem] {[
+        // MARK: 만들고 있어요
+        .init(id: "gift", status: .building,
+              title: NSLocalizedString("평생 이용권 선물하기", comment: "Roadmap item: gift the lifetime pass"),
+              detail: NSLocalizedString("내가 결제하면, 고른 사람이 모든 기능을 평생 쓸 수 있어요.", comment: "Roadmap item detail: gift the lifetime pass")),
+
         // MARK: 다음에 만들어요
         .init(id: "a11y.voiceover", status: .planned,
               title: NSLocalizedString("VoiceOver로 더 편하게", comment: "Roadmap item: better VoiceOver support"),

@@ -21,6 +21,26 @@
       "productID" : "com.leeo.RotoscopeiPad.lifetime",
       "referenceName" : "Lifetime",
       "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "9900",
+      "familyShareable" : false,
+      "internalID" : "6F3A2C12",
+      "localizations" : [
+        {
+          "description" : "다른 사람에게 평생 이용권을 선물해요. 코드를 보내 주세요.",
+          "displayName" : "팔랑북 Pro 선물",
+          "locale" : "ko"
+        },
+        {
+          "description" : "Give the lifetime pass to someone else with a gift code.",
+          "displayName" : "Gift Palang Book Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.leeo.RotoscopeiPad.gift.pro",
+      "referenceName" : "Gift Pro",
+      "type" : "Consumable"
     }
   ],
   "settings" : {

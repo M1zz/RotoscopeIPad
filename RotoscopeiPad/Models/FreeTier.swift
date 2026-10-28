@@ -8,6 +8,9 @@ import LeeoKit
 enum FreeTier {
     /// The one thing we sell: a non-consumable "평생 이용권" (Family Sharing on).
     static let lifetimeProductID = "com.leeo.RotoscopeiPad.lifetime"
+    /// A consumable a grown-up buys to give the lifetime pass to someone
+    /// else (`RotoscopeiPadSpec.monetization.gift`). Never sold as Pro itself.
+    static let giftProductID = "com.leeo.RotoscopeiPad.gift.pro"
 
     // Gate keys (see RotoscopeiPadSpec.monetization).
     static let projectKey = "project"            // saved works on the home grid

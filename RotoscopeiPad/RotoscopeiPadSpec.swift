@@ -44,7 +44,16 @@ enum RotoscopeiPadSpec: LeeoAppSpec {
                     FreeTier.videoImportKey: 1,
                     FreeTier.recordSecondsKey: 15
                 ],
-                proOnly: [FreeTier.premiumPresetKey])))
+                proOnly: [FreeTier.premiumPresetKey]),
+            // Gift the lifetime pass: the sender buys a consumable gift, the
+            // receiver gets the same as buying `lifetimeProductID`. Gift records
+            // live in the FeedbackHub public DB (already in the entitlements).
+            // ⚠️ Never put the gift product in productIDs / entitlementIDs —
+            //    the buyer would unlock Pro themselves.
+            gift: LeeoGiftConfig(
+                productID: FreeTier.giftProductID,
+                grantsProductID: FreeTier.lifetimeProductID,
+                containerIdentifier: "iCloud.com.Ysoup.FeedbackHub")))
 }
 
 /// Features that can be switched off from the CloudKit dashboard without an
