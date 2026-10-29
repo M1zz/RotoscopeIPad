@@ -18,6 +18,10 @@ final class DrawingInputView: UIView {
         super.init(frame: frame)
         addGestureRecognizer(UIHoverGestureRecognizer(
             target: self, action: #selector(handleHover(_:))))
+        // VoiceOver 를 켜도 손가락으로 바로 그릴 수 있게 직접 조작 영역으로 둔다.
+        isAccessibilityElement = true
+        accessibilityLabel = String(localized: "그림판")
+        accessibilityTraits = .allowsDirectInteraction
     }
 
     required init?(coder: NSCoder) { fatalError("init(coder:) is not used") }

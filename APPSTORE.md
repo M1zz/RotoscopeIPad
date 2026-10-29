@@ -1322,3 +1322,14 @@ Tamamlanan animasyonlar Fotoğraflar uygulamasına video olarak kaydedilir ve t�
 Tüm çalışmalar ana ekranda bekler, böylece çocuk istediği zaman kaldığı yerden çizmeye devam edebilir.
 Başlamak ücretsiz, her şey için Ömür Boyu Erişim
 Ücretsiz olarak 3 set üzerinden çizilebilir, 3 çalışma saklanabilir, 1 video getirilebilir, boş flipbook'lara en fazla 10 sayfa çizilebilir ve en fazla 15 saniye ses kaydedilebilir. Tek seferlik Ömür Boyu Erişim, gelecekte çıkacaklar dâhil tüm üzerinden çizme setlerini ve sınırsız çalışma, video, sayfa ile kayıt süresini açar, ayrıca kaydedilen videoların sonundaki Palang Book kartını kaldırır. Abonelik değildir ve Aile Paylaşımı ile çalışır. Satın alma ekranı yalnızca bir yetişkin kısa bir soruyu yanıtladıktan sonra açılır.
+
+## 손쉬운 사용
+
+<!-- DeployBar 가 App Store Connect '앱의 손쉬운 사용' 에 올린다. 실제로 확인한 것만 적는다. -->
+
+### iPad
+largerText
+darkInterface
+differentiateWithoutColor
+sufficientContrast
+reducedMotion

@@ -23,10 +23,10 @@ extension RotoscopeiPadSpec {
               detail: NSLocalizedString("내가 결제하면, 고른 사람이 모든 기능을 평생 쓸 수 있어요.", comment: "Roadmap item detail: gift the lifetime pass")),
 
         // MARK: 다음에 만들어요
-        .init(id: "a11y.voiceover", status: .planned,
+        .init(id: "a11y.voiceover", status: .building,
               title: NSLocalizedString("VoiceOver로 더 편하게", comment: "Roadmap item: better VoiceOver support"),
               detail: NSLocalizedString("화면 읽기 기능이 단추와 그리기 도구를 빠짐없이, 알맞은 순서로 읽어 줘요.", comment: "Roadmap item detail: better VoiceOver support")),
-        .init(id: "a11y.largetext", status: .planned,
+        .init(id: "a11y.largetext", status: .building,
               title: NSLocalizedString("큰 글씨에 맞춘 화면", comment: "Roadmap item: Dynamic Type layouts"),
               detail: NSLocalizedString("글자 크기를 키워도 잘리지 않고 보기 좋게 다시 배치돼요.", comment: "Roadmap item detail: Dynamic Type layouts")),
         .init(id: "display.dark", status: .planned,
@@ -35,7 +35,7 @@ extension RotoscopeiPadSpec {
         .init(id: "a11y.contrast", status: .planned,
               title: NSLocalizedString("보기 편한 색과 대비", comment: "Roadmap item: contrast and color"),
               detail: NSLocalizedString("대비를 높이거나 색을 구별하기 어려워도 내용을 알아볼 수 있어요.", comment: "Roadmap item detail: contrast and color")),
-        .init(id: "a11y.motion", status: .planned,
+        .init(id: "a11y.motion", status: .building,
               title: NSLocalizedString("움직임 줄이기", comment: "Roadmap item: reduce motion"),
               detail: NSLocalizedString("움직임 줄이기를 켜면 화면 효과가 차분해져요.", comment: "Roadmap item detail: reduce motion")),
         .init(id: "whatsnew", status: .planned,

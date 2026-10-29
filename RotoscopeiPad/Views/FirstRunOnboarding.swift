@@ -82,7 +82,7 @@ struct FirstRunOnboardingView: View {
             }
             .accessibilityHidden(true)
             Text(step.caption)
-                .font(.system(size: 28, weight: .semibold, design: .rounded))
+                .font(.system(.title, design: .rounded, weight: .semibold))
                 .multilineTextAlignment(.center)
                 .frame(maxWidth: 640)
             Spacer(minLength: 0)

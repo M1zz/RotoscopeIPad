@@ -16,6 +16,8 @@ struct ContentView: View {
     @State private var showSupport = false
     @State private var showOnboarding = false
     @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding = false
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @Environment(\.accessibilityDifferentiateWithoutColor) private var differentiateWithoutColor
     private let nextPageTip = NextPageTip()
     @ObservedObject private var shortcuts = ShortcutRouter.shared
     private let dubTip = DubTip()
@@ -220,8 +222,9 @@ struct ContentView: View {
                 .padding(.horizontal, 36)
                 .padding(.vertical, 20)
                 .background(Capsule().fill(Color.black.opacity(0.6)))
-                .transition(.opacity.combined(with: .scale(scale: 0.9)))
+                .transition(reduceMotion ? .opacity : .opacity.combined(with: .scale(scale: 0.9)))
                 .allowsHitTesting(false)
+                .accessibilityHidden(true)
         }
     }
 
@@ -264,10 +267,20 @@ struct ContentView: View {
                     Image(systemName: project.isRecording ? "stop.fill" : "mic.fill")
                         .font(.system(size: 26))
                         .frame(width: 56, height: 48)
+                        // 보라색만으로 '녹음 있음'을 말하지 않는다.
+                        .overlay(alignment: .topTrailing) {
+                            if differentiateWithoutColor && project.hasAudio && !project.isRecording {
+                                Image(systemName: "checkmark.circle.fill")
+                                    .font(.system(size: 14, weight: .bold))
+                                    .offset(x: 6, y: -4)
+                            }
+                        }
                 }
                 .buttonStyle(.borderedProminent)
                 .tint(project.isRecording ? .red : (project.hasAudio ? .purple : .gray))
                 .accessibilityLabel(project.isRecording ? Text("녹음 멈추기") : Text("목소리 녹음"))
+                .accessibilityValue(project.hasAudio && !project.isRecording ? Text("녹음 있음") : Text(verbatim: ""))
+                .accessibilityShowsLargeContentViewer()
                 .popoverTip(dubTip, arrowEdge: .top)
 
                 Button { project.togglePlayback() } label: {
@@ -278,6 +291,7 @@ struct ContentView: View {
                 .buttonStyle(.borderedProminent)
                 .keyboardShortcut(.space, modifiers: [])
                 .accessibilityLabel(project.isPlaying ? Text("일시정지") : Text("재생"))
+                .accessibilityShowsLargeContentViewer()
 
                 // Hide the video background: play/export only the drawing.
                 if project.hasVideo {
@@ -304,6 +318,8 @@ struct ContentView: View {
                 .tint(.green)
                 .disabled(project.isExporting)
                 .accessibilityLabel(Text("사진 앱에 저장"))
+                .accessibilityInputLabels([Text("저장"), Text("사진 앱에 저장")])
+                .accessibilityShowsLargeContentViewer()
             }
 
             HStack(spacing: 16) {
@@ -332,6 +348,7 @@ struct ContentView: View {
         }
         .buttonStyle(.bordered)
         .accessibilityLabel(Text(label))
+        .accessibilityShowsLargeContentViewer()
     }
 
     private func toolButton(_ symbol: String, tool: ToolMode,
@@ -349,6 +366,7 @@ struct ContentView: View {
         )
         .accessibilityLabel(Text(label))
         .accessibilityAddTraits(project.tool == tool ? .isSelected : [])
+        .accessibilityShowsLargeContentViewer()
     }
 
     private func colorDot(_ hex: String) -> some View {
@@ -444,6 +462,8 @@ struct ContentView: View {
             .buttonStyle(.bordered)
             .disabled(project.currentFrame == 0)
             .accessibilityLabel(Text("이전 그림"))
+            .accessibilityInputLabels([Text("이전"), Text("이전 그림")])
+            .accessibilityShowsLargeContentViewer()
 
             // "다음 그림 그리기" — the main action, so it's big and colored:
             // a pencil with an arrow, meaning "now draw the next picture".
@@ -459,6 +479,8 @@ struct ContentView: View {
             .tint(.orange)
             .disabled(!project.isBlank && project.currentFrame >= project.frameCount - 1)
             .accessibilityLabel(Text("다음 그림 그리기"))
+            .accessibilityInputLabels([Text("다음"), Text("다음 그림 그리기")])
+            .accessibilityShowsLargeContentViewer()
             .popoverTip(nextPageTip, arrowEdge: .bottom)
 
             Slider(value: Binding(
@@ -541,7 +563,8 @@ struct ContentView: View {
                 .font(.system(size: 140))
                 .foregroundStyle(.green)
                 .shadow(radius: 8)
-                .transition(.scale.combined(with: .opacity))
+                .transition(reduceMotion ? .opacity : .scale.combined(with: .opacity))
+                .accessibilityHidden(true)
         }
     }
 
@@ -567,7 +590,9 @@ struct ContentView: View {
                 // feeds "Enjoying Palang Book?", which is only ever asked in
                 // Settings, after the grown-up check — never to the kid here.
                 LeeoEngagement.shared.registerSignificantEvent()
-                withAnimation(.bouncy) { showDone = true }
+                withAnimation(reduceMotion ? .easeOut : .bouncy) { showDone = true }
+                // 큰 체크 표시가 보이지 않는 사람에게도 끝났다고 알린다.
+                AccessibilityNotification.Announcement(String(localized: "사진 앱에 저장했어요")).post()
                 try? await Task.sleep(nanoseconds: 2_000_000_000)
                 withAnimation { showDone = false }
             } catch {

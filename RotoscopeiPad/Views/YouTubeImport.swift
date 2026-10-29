@@ -29,7 +29,7 @@ struct VideoLinkImportSheet: View {
 
             TextField("https://…", text: $urlText)
                 .textFieldStyle(.roundedBorder)
-                .font(.system(size: 18))
+                .font(.body)
                 .keyboardType(.URL)
                 .textInputAutocapitalization(.never)
                 .autocorrectionDisabled()
