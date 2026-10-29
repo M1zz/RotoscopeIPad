@@ -11,6 +11,13 @@ enum FreeTier {
     /// A consumable a grown-up buys to give the lifetime pass to someone
     /// else (`RotoscopeiPadSpec.monetization.gift`). Never sold as Pro itself.
     static let giftProductID = "com.leeo.RotoscopeiPad.gift.pro"
+    /// 개발자 응원(팁) 소모성 세 가지, 작은 것부터 (`RotoscopeiPadSpec.monetization.tipJar`).
+    /// ⚠️ productIDs / entitlementIDs 에 넣지 않는다 — 기능을 열지 않는다.
+    static let tipProductIDs = [
+        "com.leeo.RotoscopeiPad.tip.small",
+        "com.leeo.RotoscopeiPad.tip.medium",
+        "com.leeo.RotoscopeiPad.tip.large"
+    ]
 
     // Gate keys (see RotoscopeiPadSpec.monetization).
     static let projectKey = "project"            // saved works on the home grid

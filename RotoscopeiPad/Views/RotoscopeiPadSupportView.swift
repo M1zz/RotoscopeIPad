@@ -54,6 +54,9 @@ struct RotoscopeiPadSupportView: View {
                 if let gift = store.gift {
                     GiftRows(gift: gift, hasPro: store.hasPro)
                 }
+                if let tipJar = store.tipJar {
+                    TipRows(tipJar: tipJar, hasPro: store.hasPro)
+                }
                 Section {
                     LeeoSupportSection<RotoscopeiPadSpec>()
                     NavigationLink(LeeoRoadmapText.entry) { RoadmapScreen() }
@@ -123,6 +126,75 @@ private struct GiftRows: View {
                     LeeoFeedbackView<RotoscopeiPadSpec>(initialType: .bug, extraInfo: gift.supportLines,
                                                         initialCategory: .purchase)
                 }
+            }
+        }
+    }
+}
+
+// MARK: - 개발자 응원 (팁)
+
+/// 팔랑북이 그 집에 준 것: 끝까지 만들어 사진에 담은 플립북 수.
+/// 내보내기가 끝날 때마다 늘어나는 `LeeoEngagement` 의 의미 있는 행동 수가 바로 그 수다 (ContentView.runExport).
+enum PalangTipMoments {
+    /// 큰 것부터.
+    static let flipbooks = [50, 20, 5]
+
+    static func reached(flipbooks count: Int) -> [LeeoTipMoment] {
+        flipbooks.filter { count >= $0 }.map { threshold in
+            LeeoTipMoment(id: "flipbooks.\(threshold)",
+                          message: String(localized: "지금까지 플립북 \(count)편을 완성했어요",
+                                          comment: "Tip ask card: how many flipbooks the family finished and saved to Photos"))
+        }
+    }
+
+    static var reachedNow: [LeeoTipMoment] {
+        reached(flipbooks: LeeoEngagement.shared.significantEventCount)
+    }
+}
+
+/// 이용권·선물 바로 아래: 고마운 순간의 부탁 카드(이미 Pro 를 가진 어른에게만)와 '개발자 응원하기' 줄.
+///
+/// 카드는 아이 화면이 아니라 어른 확인을 지난 여기에만 선다 — 아이가 결제 화면에 닿지 않게.
+/// 얼마나 드물게 물을지는 LeeoKit 규칙(`LeeoTipAskPolicy`)이 정한다.
+/// ⚠️ `LeeoTipAskSlot` 을 쓰지 않는다: 카드가 없을 때 빈 `Group` 이라 `onAppear` 가 불리지 않아 카드가 끝내 서지 않는다.
+///    그래서 늘 서 있는 줄(`LeeoTipJarLink`)에서 물을 때인지 본다.
+/// ⚠️ 줄과 카드는 팁 상품이 App Store 에서 와야 선다.
+private struct TipRows: View {
+    @ObservedObject var tipJar: LeeoTipJar
+    let hasPro: Bool
+    @State private var moment: LeeoTipMoment?
+    @State private var showTipJar = false
+
+    var body: some View {
+        if tipJar.isAvailable {
+            if let moment {
+                Section {
+                    LeeoTipAskCard(tipJar: tipJar, moment: moment,
+                                   onSupport: { showTipJar = true },
+                                   onLater: { withAnimation(.easeInOut(duration: 0.2)) { self.moment = nil } })
+                        // 카드가 실제로 섰을 때 물은 것으로 적는다. 함께 넘어선 작은 순간도 다 쓴 것으로 친다.
+                        .onAppear { tipJar.markAsked(covering: PalangTipMoments.reachedNow) }
+                        .listRowInsets(EdgeInsets())
+                        .listRowBackground(Color.clear)
+                }
+                .sheet(isPresented: $showTipJar, onDismiss: { self.moment = nil }) {
+                    NavigationStack {
+                        LeeoTipJarView<RotoscopeiPadSpec>(tipJar: tipJar)
+                            .toolbar {
+                                ToolbarItem(placement: .cancellationAction) {
+                                    Button("닫기") { showTipJar = false }
+                                }
+                            }
+                    }
+                }
+            }
+            Section {
+                LeeoTipJarLink<RotoscopeiPadSpec>(tipJar: tipJar)
+                    .onAppear {
+                        // 아직 안 산 사람에게는 이용권이 맞는 길이라 묻지 않는다.
+                        guard hasPro, moment == nil else { return }
+                        moment = tipJar.momentToAsk(from: PalangTipMoments.reachedNow)
+                    }
             }
         }
     }

@@ -53,7 +53,9 @@ enum RotoscopeiPadSpec: LeeoAppSpec {
             gift: LeeoGiftConfig(
                 productID: FreeTier.giftProductID,
                 grantsProductID: FreeTier.lifetimeProductID,
-                containerIdentifier: "iCloud.com.Ysoup.FeedbackHub")))
+                containerIdentifier: "iCloud.com.Ysoup.FeedbackHub"),
+            // 개발자 응원(팁). 이미 Pro 를 가진 어른에게만 묻는다 (RotoscopeiPadSupportView).
+            tipJar: LeeoTipJarConfig(productIDs: FreeTier.tipProductIDs)))
 }
 
 /// Features that can be switched off from the CloudKit dashboard without an
