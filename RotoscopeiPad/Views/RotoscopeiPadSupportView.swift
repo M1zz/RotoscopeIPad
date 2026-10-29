@@ -156,45 +156,24 @@ enum PalangTipMoments {
 ///
 /// 카드는 아이 화면이 아니라 어른 확인을 지난 여기에만 선다 — 아이가 결제 화면에 닿지 않게.
 /// 얼마나 드물게 물을지는 LeeoKit 규칙(`LeeoTipAskPolicy`)이 정한다.
-/// ⚠️ `LeeoTipAskSlot` 을 쓰지 않는다: 카드가 없을 때 빈 `Group` 이라 `onAppear` 가 불리지 않아 카드가 끝내 서지 않는다.
-///    그래서 늘 서 있는 줄(`LeeoTipJarLink`)에서 물을 때인지 본다.
 /// ⚠️ 줄과 카드는 팁 상품이 App Store 에서 와야 선다.
 private struct TipRows: View {
     @ObservedObject var tipJar: LeeoTipJar
     let hasPro: Bool
-    @State private var moment: LeeoTipMoment?
-    @State private var showTipJar = false
 
     var body: some View {
+        // 상품이 없으면 빈 칸도 남기지 않는다.
         if tipJar.isAvailable {
-            if let moment {
+            // 아직 안 산 사람에게는 이용권이 맞는 길이라 묻지 않는다.
+            if hasPro {
                 Section {
-                    LeeoTipAskCard(tipJar: tipJar, moment: moment,
-                                   onSupport: { showTipJar = true },
-                                   onLater: { withAnimation(.easeInOut(duration: 0.2)) { self.moment = nil } })
-                        // 카드가 실제로 섰을 때 물은 것으로 적는다. 함께 넘어선 작은 순간도 다 쓴 것으로 친다.
-                        .onAppear { tipJar.markAsked(covering: PalangTipMoments.reachedNow) }
+                    LeeoTipAskSlot<RotoscopeiPadSpec>(tipJar: tipJar, reached: PalangTipMoments.reachedNow)
                         .listRowInsets(EdgeInsets())
                         .listRowBackground(Color.clear)
-                }
-                .sheet(isPresented: $showTipJar, onDismiss: { self.moment = nil }) {
-                    NavigationStack {
-                        LeeoTipJarView<RotoscopeiPadSpec>(tipJar: tipJar)
-                            .toolbar {
-                                ToolbarItem(placement: .cancellationAction) {
-                                    Button("닫기") { showTipJar = false }
-                                }
-                            }
-                    }
                 }
             }
             Section {
                 LeeoTipJarLink<RotoscopeiPadSpec>(tipJar: tipJar)
-                    .onAppear {
-                        // 아직 안 산 사람에게는 이용권이 맞는 길이라 묻지 않는다.
-                        guard hasPro, moment == nil else { return }
-                        moment = tipJar.momentToAsk(from: PalangTipMoments.reachedNow)
-                    }
             }
         }
     }
