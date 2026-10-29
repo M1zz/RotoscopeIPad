@@ -1,5 +1,199 @@
 # 팔랑북 릴리즈 노트
 
+## 1.0.4
+
+### 앱스토어 (한국어)
+
+고마울 때 개발자에게 작은 팁을 보낼 수 있어요.
+친구에게 Pro를 선물할 수 있어요.
+화면 읽기를 켜도 손가락으로 그릴 수 있어요.
+큰 글씨와 동작 줄이기 설정을 따라요.
+색을 구별하기 어려워도 알아보기 쉬워졌어요.
+
+### App Store (en-US)
+
+Thank the developer with a small tip.
+You can now gift Pro to a friend.
+You can draw with VoiceOver turned on.
+Follows larger text and Reduce Motion.
+Easier to use if you're color-blind.
+
+### App Store (en-GB)
+
+Thank the developer with a small tip.
+You can now gift Pro to a friend.
+You can draw with VoiceOver turned on.
+Follows larger text and Reduce Motion.
+Easier to use if you're colour-blind.
+
+### 앱스토어 (일본어, ja)
+
+開発者にささやかなチップを送れます。
+友だちにProをプレゼントできます。
+VoiceOverをオンにしても指で描けます。
+文字サイズと視差効果を減らす設定に対応しました。
+色の見分けが苦手でもわかりやすくなりました。
+
+### 앱스토어 (중국어 간체, zh-Hans)
+
+可以给开发者送上一点小费表达感谢。
+可以把 Pro 送给朋友。
+开启旁白时也能用手指绘画。
+支持大字体和减弱动态效果。
+难以分辨颜色时也更容易看清。
+
+### 앱스토어 (중국어 번체, zh-Hant)
+
+可以給開發者一點小費表達謝意。
+可以把 Pro 送給朋友。
+開啟旁白時也能用手指畫畫。
+支援大字體和減少動態效果。
+難以分辨顏色時也更容易看清。
+
+### 앱스토어 (스페인어, es-MX)
+
+Deja una propina al desarrollador.
+Regala Pro a un amigo.
+Dibuja con el dedo, aun con VoiceOver.
+Respeta texto grande y menos movimiento.
+Más fácil si confundes los colores.
+
+### 앱스토어 (독일어, de-DE)
+
+Sag Danke mit einem kleinen Trinkgeld.
+Verschenke Pro an Freunde.
+Auch mit VoiceOver per Finger zeichnen.
+Beachtet Schriftgröße und Bewegung.
+Einfacher bei Farbsehschwäche.
+
+### 앱스토어 (프랑스어, fr-FR)
+
+Offrez un pourboire au développeur.
+Offrez Pro à un ami.
+Dessinez au doigt même avec VoiceOver.
+Suit vos réglages texte et animations.
+Plus simple pour les daltoniens.
+
+### 앱스토어 (포르투갈어, pt-BR)
+
+Mande uma gorjeta para o desenvolvedor.
+Presenteie um amigo com o Pro.
+Desenhe com o dedo mesmo com VoiceOver.
+Segue texto grande e Reduzir Movimento.
+Mais fácil para quem confunde cores.
+
+### 앱스토어 (이탈리아어, it)
+
+Offri una mancia allo sviluppatore.
+Regala Pro a un amico.
+Disegna col dito anche con VoiceOver.
+Segue testo grande e Riduci movimento.
+Più facile se distingui male i colori.
+
+### 앱스토어 (러시아어, ru)
+
+Можно отправить разработчику чаевые.
+Pro теперь можно подарить другу.
+Рисуйте пальцем даже с VoiceOver.
+Следует настройкам шрифта и движения.
+Понятнее, если трудно различать цвета.
+
+### 앱스토어 (태국어, th)
+
+ส่งทิปเล็กๆ ให้นักพัฒนาเพื่อขอบคุณได้
+มอบ Pro เป็นของขวัญให้เพื่อนได้
+เปิด VoiceOver ก็ยังวาดด้วยนิ้วได้
+รองรับตัวอักษรใหญ่และลดการเคลื่อนไหว
+แยกแยะง่ายขึ้นแม้มองสีได้ไม่ชัด
+
+### 앱스토어 (베트남어, vi)
+
+Gửi nhà phát triển chút tiền tip cảm ơn.
+Tặng Pro cho bạn bè.
+Vẽ bằng ngón tay cả khi bật VoiceOver.
+Hỗ trợ chữ lớn và giảm chuyển động.
+Dễ nhận biết hơn nếu khó phân biệt màu.
+
+### 앱스토어 (체코어, cs)
+
+Pošlete vývojáři malé spropitné.
+Darujte Pro kamarádovi.
+Kreslete prstem i s VoiceOverem.
+Respektuje větší písmo a omezení pohybu.
+Snazší, když špatně rozlišujete barvy.
+
+### 앱스토어 (덴마크어, da)
+
+Giv udvikleren lidt drikkepenge som tak.
+Giv Pro i gave til en ven.
+Tegn med fingeren, også med VoiceOver.
+Følger stor tekst og Reducer bevægelse.
+Lettere, hvis du har svært ved farver.
+
+### 앱스토어 (그리스어, el)
+
+Στείλτε φιλοδώρημα στον δημιουργό.
+Χαρίστε το Pro σε έναν φίλο.
+Ζωγραφίστε με δάχτυλο και με VoiceOver.
+Ακολουθεί μέγεθος κειμένου και κίνηση.
+Πιο εύκολο αν μπερδεύετε τα χρώματα.
+
+### 앱스토어 (핀란드어, fi)
+
+Lähetä kehittäjälle pieni tippi.
+Anna Pro lahjaksi ystävälle.
+Piirrä sormella myös VoiceOverilla.
+Tukee isoa tekstiä ja Vähennä liikettä.
+Helpompi, jos värejä on vaikea erottaa.
+
+### 앱스토어 (인도네시아어, id)
+
+Kirim tip kecil untuk pengembang.
+Hadiahkan Pro untuk teman.
+Gambar pakai jari meski VoiceOver aktif.
+Ikuti teks besar dan Kurangi Gerakan.
+Lebih mudah jika sulit membedakan warna.
+
+### 앱스토어 (노르웨이어(보크말))
+
+Gi utvikleren litt tips som takk.
+Gi Pro i gave til en venn.
+Tegn med fingeren, også med VoiceOver.
+Følger stor tekst og Reduser bevegelse.
+Enklere om du blander farger.
+
+### 앱스토어 (네덜란드어, nl)
+
+Geef de ontwikkelaar een kleine fooi.
+Geef Pro cadeau aan een vriend.
+Teken met je vinger, ook met VoiceOver.
+Volgt grote tekst en Verminder beweging.
+Makkelijker als je kleuren slecht ziet.
+
+### 앱스토어 (폴란드어, pl)
+
+Wyślij twórcy mały napiwek.
+Podaruj Pro znajomemu.
+Rysuj palcem nawet z VoiceOver.
+Obsługuje duży tekst i mniej ruchu.
+Łatwiej, gdy trudno rozróżnić kolory.
+
+### 앱스토어 (스웨덴어, sv)
+
+Ge utvecklaren lite dricks som tack.
+Ge bort Pro till en vän.
+Rita med fingret, även med VoiceOver.
+Följer stor text och Minska rörelse.
+Enklare om färger är svåra att skilja.
+
+### 앱스토어 (튀르키예어, tr)
+
+Geliştiriciye küçük bir bahşiş gönderin.
+Pro'yu bir arkadaşınıza hediye edin.
+VoiceOver açıkken de parmakla çizin.
+Büyük metni ve Hareketi Azalt'ı izler.
+Renkleri ayırt etmek zorsa daha kolay.
+
 ## 1.0.3
 
 ### 앱스토어 (한국어)
