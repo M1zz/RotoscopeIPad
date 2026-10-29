@@ -1,0 +1,159 @@
+{
+  "title": "Palang Book: o app de flipbook para iPad que dá vida aos desenhos das crianças",
+  "description": "A criança decalca um guia página por página, toca em reproduzir e só o desenho dela se mexe. Botões com desenhos, carimbos e voz. 3 conjuntos grátis.",
+  "hero": {
+    "headline": "Decalque as linhas\ne veja ganhar vida",
+    "lead": "A criança decalca um guia clarinho, uma página de cada vez. Ao tocar em reproduzir, o guia some e só os traços dela continuam, em movimento. Todos os botões são desenhos, então dá para brincar sozinho antes mesmo de saber ler.",
+    "cta": "Baixe grátis na App Store",
+    "note": "Para iPad. 3 conjuntos para decalcar são grátis."
+  },
+  "demo": {
+    "title": "Desenhe algumas páginas",
+    "lead": "Desenhe alguma coisa e toque na seta laranja para ir à próxima página. A página anterior aparece clarinha por baixo. Depois de duas ou três páginas, toque no botão azul de reproduzir.",
+    "hint": "Desenhe aqui com o dedo ou o mouse",
+    "canvas": "Folha de desenho",
+    "colors": "Cores",
+    "undo": "Desfazer",
+    "clear": "Apagar esta página",
+    "play": "Reproduzir",
+    "stop": "Parar",
+    "prev": "Página anterior",
+    "next": "Próxima página",
+    "note": "Funciona como o flipbook em branco do app, a 8 páginas por segundo. No app também dá para decalcar guias, colocar carimbos, gravar a voz e salvar um vídeo."
+  },
+  "problem": {
+    "title": "Não é uma pena um desenho tão lindo ficar parado?",
+    "text": "Animar é desenhar quase a mesma coisa várias vezes, mudando só um pouquinho, e sozinha a criança nem sabe por onde começar. O Palang Book coloca por baixo um guia clarinho que já traz o movimento, e ela só precisa seguir a linha. No instante em que toca em reproduzir, o desenho dela se mexe."
+  },
+  "features": [
+    {
+      "title": "Siga a linha e pronto: animação",
+      "text": "Uma bola quicando, um coelho pulando, um passarinho voando, um peixe nadando, uma flor desabrochando, uma borboleta, um carro correndo, um foguete, um sapo e um cata-vento. Cada conjunto vem com cerca de 20 páginas de guia.\nA página anterior aparece clarinha por baixo para facilitar a próxima, e na hora de reproduzir o guia some e só o desenho da criança se mexe.",
+      "shot": "02-trace-rocket"
+    },
+    {
+      "title": "Carimbos e dez cores",
+      "text": "Coração, círculo, quadrado, triângulo, estrela, flor, carro e passarinho: é só tocar para carimbar. Carimbos e pincéis têm três tamanhos cada, com dez cores para escolher.\nCom a borracha e o desfazer, errar não é problema. Dá para desenhar com o dedo ou com o Apple Pencil.",
+      "shot": "03-stamps-fish"
+    },
+    {
+      "title": "Sobre seus próprios vídeos ou no papel em branco",
+      "text": "Abra um vídeo que você gravou ou um do app Fotos e decalque por cima. Escondendo o fundo, só as cenas desenhadas aparecem, uma depois da outra, sobre o papel branco. Também tem um flipbook em branco, sem guia nenhum.\nToque no microfone para gravar a voz da criança junto, e salve a obra pronta como vídeo no Fotos para compartilhar com a família.",
+      "shot": "04-home"
+    }
+  ],
+  "steps": {
+    "title": "Três passos para começar",
+    "items": [
+      {
+        "title": "Toque num cartão de guia",
+        "text": "Os cartões com borda laranja pontilhada na tela inicial são para decalcar."
+      },
+      {
+        "title": "Desenhe e vire a página",
+        "text": "A seta laranja leva para a próxima página."
+      },
+      {
+        "title": "Toque em reproduzir",
+        "text": "Toque no botão azul de reproduzir e o desenho se mexe."
+      }
+    ]
+  },
+  "reference": {
+    "title": "O que cada botão faz",
+    "rows": [
+      ["Cartão laranja pontilhado", "Começar um conjunto para decalcar"],
+      ["Cartão cinza pontilhado", "Flipbook em branco"],
+      ["Câmera azul", "Desenhar sobre um vídeo que você gravar"],
+      ["Vídeo verde", "Abrir um vídeo do Fotos"],
+      ["Link anil", "Colar o link de um arquivo de vídeo"],
+      ["Seta laranja", "Próxima página"],
+      ["Reproduzir azul", "Reproduzir a animação, tocar de novo para parar"],
+      ["Seta curva", "Desfazer o último traço"],
+      ["Lixeira vermelha", "Apagar a página inteira (o desfazer traz de volta)"],
+      ["Microfone", "Gravar a voz enquanto a animação se repete"],
+      ["Ícone de vídeo", "Esconder o fundo do vídeo (com listras rosa, só os desenhos)"],
+      ["Salvar verde", "Salvar como vídeo no Fotos"]
+    ],
+    "note": "Para apagar uma obra, toque e segure o cartão dela na tela inicial. Os desenhos, a gravação e o vídeo importado são apagados junto."
+  },
+  "pricing": {
+    "title": "Bastante coisa para testar de graça. O Acesso vitalício, se gostar.",
+    "free": {
+      "name": "Grátis",
+      "items": [
+        "3 conjuntos para decalcar (bola, coelho e flor)",
+        "Guarde 3 obras",
+        "Abra 1 vídeo",
+        "Flipbooks em branco de até 10 páginas",
+        "Gravação de voz de até 15 segundos",
+        "Carimbos, cores, pincéis e salvar no Fotos"
+      ]
+    },
+    "pro": {
+      "name": "Acesso vitalício",
+      "items": [
+        "Todos os conjuntos para decalcar, inclusive os que vierem",
+        "Obras, páginas, vídeos e tempo de gravação sem limite",
+        "Sem o cartão do Palang Book no fim dos vídeos salvos"
+      ],
+      "note": "Pagamento único, não é assinatura. Funciona com o Compartilhamento Familiar em todos os iPads da família."
+    },
+    "note": "Os vídeos salvos de graça terminam com um cartãozinho do Palang Book. Se você já usava o Palang Book antes do Acesso vitalício, tudo continua liberado para você."
+  },
+  "faq": {
+    "title": "Perguntas frequentes",
+    "items": [
+      {
+        "q": "Como funcionam os guias?",
+        "a": "As linhas azul-claras são o guia. A criança decalca por cima e, ao tocar em reproduzir, o guia some e só os traços dela se mexem. Depois de umas 20 páginas, a animação fica pronta."
+      },
+      {
+        "q": "Quero reproduzir e salvar só o desenho, sem o vídeo.",
+        "a": "Num projeto com vídeo, toque no ícone de vídeo na barra de cima até ele ficar rosa com listras. Assim, ao reproduzir e ao salvar, só aparece o desenho sobre fundo branco. Só as cenas desenhadas são reproduzidas, então poucos desenhos sobre um vídeo longo já viram uma animação curtinha."
+      },
+      {
+        "q": "Onde fica salvo o vídeo pronto?",
+        "a": "Toque no botão verde de salvar, na ponta direita da barra, e um vídeo mp4 é salvo no Fotos. Na primeira vez, permita o acesso às fotos."
+      },
+      {
+        "q": "Como coloco uma voz?",
+        "a": "Toque no botão do microfone para gravar enquanto a animação se repete, e toque em parar para terminar. Gravar de novo substitui a gravação anterior. Ao salvar, a voz vai junto no vídeo."
+      },
+      {
+        "q": "O link de um vídeo não abre.",
+        "a": "Confira a conexão com a internet e se o endereço leva direto a um arquivo de vídeo (terminado em .mp4 ou parecido). Links de páginas de sites de compartilhamento de vídeos não abrem. Para respeitar os direitos autorais, use vídeos gravados por você ou de uso livre."
+      },
+      {
+        "q": "A palma da mão encosta e faz riscos.",
+        "a": "A seta curva apaga o último traço, e a lixeira vermelha apaga a página inteira (o desfazer traz de volta). Se acontecer muito, mande um e-mail que a gente ajuda."
+      },
+      {
+        "q": "Por que aparece uma conta antes da tela de compra?",
+        "a": "Para a criança não chegar sozinha à tela de compra. Quando ela toca em algo bloqueado, aparece um cadeado grande com o aviso \"Mostre para um adulto\", e a tela de compra só abre depois que um adulto responde a uma multiplicação."
+      },
+      {
+        "q": "Como restauro minha compra?",
+        "a": "Toque na engrenagem no canto superior direito da tela inicial, escolha Acesso vitalício, responda à pergunta para adultos e toque em Restaurar compras. É preciso estar conectado com a mesma Conta Apple usada na compra."
+      },
+      {
+        "q": "Como envio feedback pelo app?",
+        "a": "Toque na engrenagem na tela inicial e escolha Enviar feedback. Dá para anexar uma captura de tela e, se quiser resposta, deixar nome e e-mail. Pedimos que o feedback seja enviado por um adulto responsável."
+      },
+      {
+        "q": "Vocês coletam informações sobre a criança?",
+        "a": "Não. O Palang Book não coleta nenhum dado pessoal, e os desenhos e gravações ficam no seu iPad. Veja a Política de Privacidade para mais detalhes."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Dê vida ao desenho\nde hoje",
+    "cta": "Baixe grátis na App Store"
+  },
+  "ui": {
+    "skip": "Pular para o conteúdo",
+    "languages": "Idioma",
+    "privacy": "Política de Privacidade",
+    "contact": "Dúvidas ou algum problema? Mande um e-mail para {email}. Costumamos responder em 2 a 3 dias."
+  }
+}

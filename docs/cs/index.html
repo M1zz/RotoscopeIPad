@@ -1,102 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="cs">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Palang Book — flipbook animace pro děti</title>
-<meta name="description" content="Obkreslujte stránku po stránce a sledujte, jak vaše kresba ožívá. Palang Book je aplikace pro iPad, ve které děti tvoří flipbook animace. Dítě obkresluje světlý obrys stránku po stránce a stiskne přehrát: obrys zmizí a hýbe se jen jeho vlastní kresba. Každé tlačítko je obrázek, takže aplikaci zvládnou i děti, které ještě neumějí číst – prstem nebo Apple Pencilem.">
-<link rel="canonical" href="https://m1zz.github.io/RotoscopeIPad/cs/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/RotoscopeIPad/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/RotoscopeIPad/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/RotoscopeIPad/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/RotoscopeIPad/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/RotoscopeIPad/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/RotoscopeIPad/zh-Hant/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/RotoscopeIPad/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/RotoscopeIPad/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/RotoscopeIPad/fr/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/RotoscopeIPad/pt-BR/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/RotoscopeIPad/it/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/RotoscopeIPad/ru/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/RotoscopeIPad/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/RotoscopeIPad/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/RotoscopeIPad/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/RotoscopeIPad/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/RotoscopeIPad/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/RotoscopeIPad/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/RotoscopeIPad/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/RotoscopeIPad/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/RotoscopeIPad/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/RotoscopeIPad/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/RotoscopeIPad/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/RotoscopeIPad/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/RotoscopeIPad/">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Palang Book: flipbook pro iPad, ve kterém dětské kresby ožívají</title>
+  <meta name="description" content="Dítě obkresluje světlý obrys stránku po stránce, stiskne přehrát a hýbe se jen jeho kresba. Obrázková tlačítka, razítka, hlas. 3 sady zdarma.">
+  <meta name="theme-color" content="#B85400" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6789852144">
+  <link rel="canonical" href="https://m1zz.github.io/RotoscopeIPad/cs/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/RotoscopeIPad/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/RotoscopeIPad/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/RotoscopeIPad/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/RotoscopeIPad/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/RotoscopeIPad/zh-Hant/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/RotoscopeIPad/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/RotoscopeIPad/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/RotoscopeIPad/fr/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/RotoscopeIPad/pt-BR/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/RotoscopeIPad/it/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/RotoscopeIPad/ru/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/RotoscopeIPad/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/RotoscopeIPad/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/RotoscopeIPad/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/RotoscopeIPad/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/RotoscopeIPad/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/RotoscopeIPad/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/RotoscopeIPad/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/RotoscopeIPad/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/RotoscopeIPad/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/RotoscopeIPad/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/RotoscopeIPad/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/RotoscopeIPad/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/RotoscopeIPad/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Palang Book: flipbook pro iPad, ve kterém dětské kresby ožívají">
+  <meta property="og:description" content="Dítě obkresluje světlý obrys stránku po stránce, stiskne přehrát a hýbe se jen jeho kresba. Obrázková tlačítka, razítka, hlas. 3 sady zdarma.">
+  <meta property="og:url" content="https://m1zz.github.io/RotoscopeIPad/cs/">
+  <meta property="og:image" content="https://m1zz.github.io/RotoscopeIPad/img/cs/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#B85400}@media (prefers-color-scheme:dark){:root{--accent:#FF9F0A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<main>
-  <nav class="langs" aria-label="Jazyk"><ul>
-    <li><a href="../" hreflang="ko" lang="ko">한국어</a></li>
-    <li><a href="../en/" hreflang="en" lang="en">English</a></li>
-    <li><a href="../ja/" hreflang="ja" lang="ja">日本語</a></li>
-    <li><a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
-    <li><a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
-    <li><a href="../es/" hreflang="es" lang="es-419">Español</a></li>
-    <li><a href="../de/" hreflang="de" lang="de">Deutsch</a></li>
-    <li><a href="../fr/" hreflang="fr" lang="fr">Français</a></li>
-    <li><a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li>
-    <li><a href="../it/" hreflang="it" lang="it">Italiano</a></li>
-    <li><a href="../ru/" hreflang="ru" lang="ru">Русский</a></li>
-    <li><a href="../th/" hreflang="th" lang="th">ไทย</a></li>
-    <li><a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a></li>
-    <li><span aria-current="page" lang="cs">Čeština</span></li>
-    <li><a href="../da/" hreflang="da" lang="da">Dansk</a></li>
-    <li><a href="../el/" hreflang="el" lang="el">Ελληνικά</a></li>
-    <li><a href="../fi/" hreflang="fi" lang="fi">Suomi</a></li>
-    <li><a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a></li>
-    <li><a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a></li>
-    <li><a href="../nl/" hreflang="nl" lang="nl">Nederlands</a></li>
-    <li><a href="../pl/" hreflang="pl" lang="pl">Polski</a></li>
-    <li><a href="../sv/" hreflang="sv" lang="sv">Svenska</a></li>
-    <li><a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></li>
-  </ul></nav>
-  <div class="logo">📖✏️</div>
-  <h1>Palang Book</h1>
-  <p class="sub">Obkreslujte stránku po stránce a sledujte, jak vaše kresba ožívá.</p>
+  <a class="skip" href="#main">Přejít na obsah</a>
+  <header class="bar">
+    <a class="brand" href="../cs/"><img src="../icon.png" alt="" width="32" height="32">Palang Book</a>
+    <a class="lang-link" href="#languages">Jazyk</a>
+  </header>
 
-  <p>Palang Book je aplikace pro iPad, ve které děti tvoří flipbook animace. Dítě obkresluje světlý obrys stránku po stránce a stiskne přehrát: obrys zmizí a hýbe se jen jeho vlastní kresba. Každé tlačítko je obrázek, takže aplikaci zvládnou i děti, které ještě neumějí číst – prstem nebo Apple Pencilem.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Obkresli obrázek<br>a sleduj, jak ožije</h1>
+        <p class="lead">Dítě obkresluje světlý obrys, jednu stránku za druhou. Stiskněte přehrát a obrys zmizí, hýbou se jen čáry, které nakreslilo samo. Všechna tlačítka jsou obrázky, takže to zvládne i dítě, které ještě neumí číst.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6789852144">Stáhnout zdarma v App Store</a><a class="try" href="#try">Nakreslete pár stránek ↓</a></div>
+        <p class="muted small">Pro iPad. Tři sady k obkreslování jsou zdarma.</p>
+      </div>
+      <div class="plain"><img src="../img/cs/01-trace-bunny.jpg" alt="Obkresli obrázek a sleduj, jak ožije" width="720" height="960" decoding="async"></div>
+    </section>
 
-  <h2>Co v aplikaci najdete</h2>
-  <ul class="features">
-    <li><strong>10 sad k obkreslování</strong><br>Poskakující míč, skákající zajíček, létající ptáček, plavající rybka, rozkvétající květina, motýl, závodní auto, raketa, žába a větrník. Každá sada má asi 20 stránek s obrysy a předchozí stránka slabě prosvítá, takže další kresbu snadno srovnáte.</li>
-    <li><strong>Kreslení přes vlastní videa</strong><br>Natočte video kamerou, vyberte ho z aplikace Fotky nebo otevřete odkaz na videosoubor a obkreslujte přes něj. Když pozadí skryjete, přehrají se jen stránky, které jste nakreslili, na čistě bílém papíru.</li>
-    <li><strong>Prázdný flipbook</strong><br>Žádné obrysy, jen bílé stránky. Kreslete, otáčejte stránky a vytvořte flipbook od nuly.</li>
-    <li><strong>Razítka a barvy</strong><br>Razítka srdce, kruh, čtverec, trojúhelník, hvězda, květina, auto a ptáček ve třech velikostech, deset barev a tři tloušťky štětce, k tomu guma, krok zpět a tlačítko, které vymaže celou stránku.</li>
-    <li><strong>Nahrávání hlasu</strong><br>Klepněte na mikrofon – animace se opakuje a hlas vašeho dítěte se nahrává rovnou do ní.</li>
-    <li><strong>Uložení do Fotek</strong><br>Hotové animace se ukládají jako videa do aplikace Fotky a lze je snadno sdílet s rodinou.</li>
-    <li><strong>Kresby zůstávají na iPadu</strong><br>Žádné účty, reklamy ani sledování. Kresby a nahrávky nikdy neopustí zařízení.</li>
-  </ul>
 
-  <h2>Zdarma na zkoušku, jeden Doživotní přístup</h2>
-  <p>Bez placení můžete používat 3 sady k obkreslování, uložit 3 díla, přidat 1 video, nakreslit až 10 stránek v prázdném flipbooku a nahrát hlas až na 15 sekund. <strong>Doživotní přístup</strong> je jednorázový nákup, který navždy odemkne všechno. Nejde o předplatné a funguje se Sdílením v rodině. Obrazovka nákupu se otevře, až když dospělý vyřeší jednoduchý matematický příklad.</p>
+    <section class="reveal" id="try">
+      <h2>Nakreslete pár stránek</h2>
+      <p class="muted">Něco nakreslete a klepnutím na oranžovou šipku přejděte na další stránku. Předchozí stránka slabě prosvítá. Po dvou nebo třech stránkách klepněte na modré tlačítko přehrát.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Nakreslete pár stránek&quot;, &quot;lead&quot;: &quot;Něco nakreslete a klepnutím na oranžovou šipku přejděte na další stránku. Předchozí stránka slabě prosvítá. Po dvou nebo třech stránkách klepněte na modré tlačítko přehrát.&quot;, &quot;hint&quot;: &quot;Kreslete sem prstem nebo myší&quot;, &quot;canvas&quot;: &quot;Papír na kreslení&quot;, &quot;colors&quot;: &quot;Barvy&quot;, &quot;undo&quot;: &quot;Zpět&quot;, &quot;clear&quot;: &quot;Vymazat tuto stránku&quot;, &quot;play&quot;: &quot;Přehrát&quot;, &quot;stop&quot;: &quot;Zastavit&quot;, &quot;prev&quot;: &quot;Předchozí stránka&quot;, &quot;next&quot;: &quot;Další stránka&quot;, &quot;note&quot;: &quot;Funguje to stejně jako prázdný flipbook v aplikaci, 8 stránek za sekundu. V aplikaci můžete navíc obkreslovat obrysy, přidávat razítka, nahrávat hlas a ukládat video.&quot;}"></div>
+    </section>
 
-  <h2>Kontakt</h2>
-  <div class="contact">
-    <strong>Kontakt</strong><br>
-    Máte otázky nebo potíže? Napište nám kdykoli.<br>
-    📮 <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a><br>
-    <span class="sub">Obvykle odpovídáme do 2–3 dnů.</span>
-  </div>
+    <section class="problem reveal">
+      <h2>Škoda, aby povedená kresba jen tak stála, ne?</h2>
+      <p>Animace znamená kreslit pořád skoro stejný obrázek s nepatrnými změnami a dítě samo neví, kde začít. Palang Book podloží světlý obrys, ve kterém už je pohyb připravený, a stačí jen jít po čáře. Jakmile dítě stiskne přehrát, jeho kresba se rozpohybuje.</p>
+    </section>
 
-  <h2>Nápověda a soukromí</h2>
-  <ul>
-    <li><a href="support.html">Podpora a časté dotazy</a></li>
-    <li><a href="privacy.html">Zásady ochrany osobních údajů</a></li>
-  </ul>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Stačí jít po čáře a je z toho animace</h2>
+        <p>Skákající míč, poskakující zajíček, letící ptáček, plavající rybka, rozkvétající květina, motýl, závodní auto, raketa, žába a větrník. Každá sada má asi 20 stránek s obrysy.<br>Předchozí stránka slabě prosvítá, takže se další kreslí snadno, a při přehrávání obrys zmizí a hýbe se jen kresba vašeho dítěte.</p>
+      </div>
+      <div class="plain"><img src="../img/cs/02-trace-rocket.jpg" alt="Stačí jít po čáře a je z toho animace" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Razítka a deset barev</h2>
+        <p>Jedním klepnutím se razí srdíčka, kruhy, čtverce, trojúhelníky, hvězdy, kytičky, autíčka a ptáčci. Razítka i štětce mají po třech velikostech a barev je deset.<br>Guma a krok zpět chyby hned spraví. Kreslí se prstem nebo Apple Pencilem.</p>
+      </div>
+      <div class="plain"><img src="../img/cs/03-stamps-fish.jpg" alt="Razítka a deset barev" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Na vlastní videa i na prázdný papír</h2>
+        <p>Přidejte video, které jste natočili, nebo video z Fotek a obkreslujte přímo přes něj. Když skryjete pozadí, přehrají se jen nakreslené scény, jedna po druhé na bílém papíru. Je tu i prázdný flipbook úplně bez obrysů.<br>Klepnutím na mikrofon nahrajete k animaci hlas dítěte a hotové dílo uložíte do Fotek jako video, které můžete poslat rodině.</p>
+      </div>
+      <div class="plain"><img src="../img/cs/04-home.jpg" alt="Na vlastní videa i na prázdný papír" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Začít jde ve třech krocích</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Klepněte na kartu s obrysem</h3><p>Karty s oranžovým čárkovaným okrajem na úvodní obrazovce jsou k obkreslování.</p></li>
+<li class="card"><span class="n">2</span><h3>Nakreslete a otočte</h3><p>Oranžová šipka vás přenese na další stránku.</p></li>
+<li class="card"><span class="n">3</span><h3>Stiskněte přehrát</h3><p>Klepněte na modré tlačítko přehrát a kresba se rozpohybuje.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Co dělají tlačítka</h2>
+      <div class="card table">
+        <dl><div><dt>Oranžová čárkovaná karta</dt><dd>Začít obkreslovat</dd></div><div><dt>Šedá čárkovaná karta</dt><dd>Prázdný flipbook</dd></div><div><dt>Modrá kamera</dt><dd>Kreslit přes video, které natočíte</dd></div><div><dt>Zelené video</dt><dd>Přidat video z Fotek</dd></div><div><dt>Indigový odkaz</dt><dd>Vložit odkaz na videosoubor</dd></div><div><dt>Oranžová šipka</dt><dd>Další stránka</dd></div><div><dt>Modré přehrát</dt><dd>Přehrát animaci, dalším klepnutím zastavit</dd></div><div><dt>Zakřivená šipka</dt><dd>Vrátit poslední čáru</dd></div><div><dt>Červený koš</dt><dd>Vymazat celou stránku (krok zpět ji vrátí)</dd></div><div><dt>Mikrofon</dt><dd>Nahrát hlas, zatímco se animace opakuje</dd></div><div><dt>Ikona videa</dt><dd>Skrýt pozadí videa (růžové proužky znamenají jen kresby)</dd></div><div><dt>Zelené uložit</dt><dd>Uložit do Fotek jako video</dd></div></dl>
+      </div>
+      <p class="muted">Dílo smažete tak, že na úvodní obrazovce podržíte jeho kartu. Smažou se s ním i kresby, nahrávka a přidané video.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Spoustu věcí vyzkoušíte zdarma. Když vás to chytne, je tu Doživotní přístup.</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Zdarma</h3>
+          <ul><li>3 sady k obkreslování (míč, zajíček, květina)</li><li>Uložení 3 děl</li><li>Přidání 1 videa</li><li>Prázdné flipbooky až na 10 stránek</li><li>Nahrávání hlasu až 15 sekund</li><li>Razítka, barvy, štětce a ukládání do Fotek</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Doživotní přístup</h3>
+          <ul><li>Všechny sady k obkreslování včetně budoucích</li><li>Bez omezení počtu děl, stránek, videí i délky nahrávání</li><li>Bez karty Palang Book na konci uložených videí</li></ul>
+          <p class="muted">Jednorázový nákup, žádné předplatné. Díky Sdílení v rodině funguje na všech iPadech v rodině.</p>
+        </div>
+      </div>
+      <p class="muted">Videa uložená zdarma končí krátkou kartou Palang Book. Pokud jste Palang Book používali ještě před zavedením Doživotního přístupu, máte všechno odemčené.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Otázky</h2>
+      <div class="faq"><details><summary>Jak fungují obrysy?</summary><p>Světle modré čáry jsou obrys. Dítě po nich kreslí, a když stisknete přehrát, obrys zmizí a hýbou se jen jeho čáry. Asi po 20 stránkách je animace hotová.</p></details>
+<details><summary>Chci přehrát a uložit jen kresbu, bez videa.</summary><p>V díle s videem klepněte na ikonu videa v horním panelu nástrojů, až zrůžoví a bude pruhovaná. Přehrávání i ukládání pak ukáže jen kresbu na bílém pozadí. Přehrají se jen nakreslené scény, takže pár kreseb přes dlouhé video dá krátkou animaci.</p></details>
+<details><summary>Kam se uloží hotové video?</summary><p>Klepněte na zelené tlačítko uložení na pravém konci panelu a video mp4 se uloží do Fotek. Při prvním ukládání povolte přístup k fotkám.</p></details>
+<details><summary>Jak přidáme hlas?</summary><p>Klepnutím na mikrofon spustíte nahrávání, zatímco se animace opakuje, a tlačítkem stop ho ukončíte. Nová nahrávka nahradí tu předchozí. Při uložení videa se hlas přidá.</p></details>
+<details><summary>Odkaz na video se neotevře.</summary><p>Zkontrolujte připojení k internetu a ověřte, že adresa vede přímo na videosoubor (končí třeba na .mp4). Odkazy na stránky videoportálů otevřít nejde. Používejte vlastní videa nebo videa, která lze volně použít.</p></details>
+<details><summary>Dlaň pořád nechává stopy.</summary><p>Zakřivená šipka odstraní poslední čáru a červený koš vymaže celou stránku (krok zpět ji vrátí). Pokud se to stává často, napište nám a pomůžeme.</p></details>
+<details><summary>Proč je před obrazovkou nákupu příklad na násobení?</summary><p>Aby se děti k nákupu nedostaly samy. Když dítě klepne na něco zamčeného, objeví se velký zámek s nápisem „Ukaž to dospělému“ a obrazovka nákupu se otevře, až když dospělý vyřeší příklad na násobení.</p></details>
+<details><summary>Jak obnovím nákup?</summary><p>Klepněte na ozubené kolečko vpravo nahoře na úvodní obrazovce, zvolte Doživotní přístup, odpovězte na otázku pro dospělé a klepněte na Obnovit nákupy. Musíte být přihlášeni stejným účtem Apple, kterým jste nakupovali.</p></details>
+<details><summary>Jak pošlu zpětnou vazbu z aplikace?</summary><p>Klepněte na ozubené kolečko na úvodní obrazovce a zvolte Odeslat zpětnou vazbu. Můžete přiložit snímek obrazovky, a pokud chcete odpověď, nechte nám jméno a e-mail. Prosíme, ať zpětnou vazbu posílá rodič.</p></details>
+<details><summary>Sbíráte nějaké údaje o mém dítěti?</summary><p>Ne. Palang Book nesbírá žádné osobní údaje a kresby i nahrávky zůstávají ve vašem iPadu. Podrobnosti najdete v Zásadách ochrany osobních údajů.</p></details></div>
+      <p class="contact">Máte otázku nebo potíž? Napište na <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>. Obvykle odpovídáme do 2 až 3 dnů.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Rozpohybujte<br>dnešní obrázek</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6789852144">Stáhnout zdarma v App Store</a>
+    </section>
+  </main>
 
   <footer>
-    © 2026 Palang Book · <span aria-current="page">Domů</span> · <a href="support.html">Podpora</a> · <a href="privacy.html">Zásady ochrany osobních údajů</a>
+    <nav id="languages" class="langs" aria-label="Jazyk"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs" aria-current="page">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Zásady ochrany osobních údajů</a> · <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> · © 2026 Palang Book</p>
   </footer>
-</main>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

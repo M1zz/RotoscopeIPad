@@ -1,102 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Palang Book — Hoạt hình flipbook cho trẻ em</title>
-<meta name="description" content="Vẽ theo nét từng trang và xem tranh của bé chuyển động. Palang Book là ứng dụng làm hoạt hình flipbook cho trẻ em trên iPad. Bé vẽ theo nét mẫu mờ từng trang một, rồi nhấn phát: nét mẫu biến mất và chỉ còn tranh của bé chuyển động. Mọi nút đều là hình ảnh, nên ngay cả bé chưa biết đọc cũng tự dùng được, bằng ngón tay hoặc Apple Pencil.">
-<link rel="canonical" href="https://m1zz.github.io/RotoscopeIPad/vi/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/RotoscopeIPad/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/RotoscopeIPad/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/RotoscopeIPad/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/RotoscopeIPad/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/RotoscopeIPad/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/RotoscopeIPad/zh-Hant/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/RotoscopeIPad/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/RotoscopeIPad/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/RotoscopeIPad/fr/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/RotoscopeIPad/pt-BR/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/RotoscopeIPad/it/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/RotoscopeIPad/ru/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/RotoscopeIPad/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/RotoscopeIPad/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/RotoscopeIPad/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/RotoscopeIPad/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/RotoscopeIPad/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/RotoscopeIPad/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/RotoscopeIPad/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/RotoscopeIPad/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/RotoscopeIPad/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/RotoscopeIPad/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/RotoscopeIPad/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/RotoscopeIPad/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/RotoscopeIPad/">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Palang Book: ứng dụng flipbook trên iPad giúp tranh của bé chuyển động</title>
+  <meta name="description" content="Bé vẽ theo nét mờ từng trang, nhấn phát và chỉ tranh của bé chuyển động. Nút toàn bằng hình, có con dấu và ghi giọng nói. Miễn phí 3 bộ vẽ theo nét.">
+  <meta name="theme-color" content="#B85400" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6789852144">
+  <link rel="canonical" href="https://m1zz.github.io/RotoscopeIPad/vi/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/RotoscopeIPad/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/RotoscopeIPad/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/RotoscopeIPad/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/RotoscopeIPad/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/RotoscopeIPad/zh-Hant/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/RotoscopeIPad/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/RotoscopeIPad/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/RotoscopeIPad/fr/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/RotoscopeIPad/pt-BR/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/RotoscopeIPad/it/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/RotoscopeIPad/ru/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/RotoscopeIPad/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/RotoscopeIPad/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/RotoscopeIPad/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/RotoscopeIPad/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/RotoscopeIPad/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/RotoscopeIPad/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/RotoscopeIPad/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/RotoscopeIPad/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/RotoscopeIPad/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/RotoscopeIPad/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/RotoscopeIPad/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/RotoscopeIPad/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/RotoscopeIPad/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Palang Book: ứng dụng flipbook trên iPad giúp tranh của bé chuyển động">
+  <meta property="og:description" content="Bé vẽ theo nét mờ từng trang, nhấn phát và chỉ tranh của bé chuyển động. Nút toàn bằng hình, có con dấu và ghi giọng nói. Miễn phí 3 bộ vẽ theo nét.">
+  <meta property="og:url" content="https://m1zz.github.io/RotoscopeIPad/vi/">
+  <meta property="og:image" content="https://m1zz.github.io/RotoscopeIPad/img/vi/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#B85400}@media (prefers-color-scheme:dark){:root{--accent:#FF9F0A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<main>
-  <nav class="langs" aria-label="Ngôn ngữ"><ul>
-    <li><a href="../" hreflang="ko" lang="ko">한국어</a></li>
-    <li><a href="../en/" hreflang="en" lang="en">English</a></li>
-    <li><a href="../ja/" hreflang="ja" lang="ja">日本語</a></li>
-    <li><a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
-    <li><a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
-    <li><a href="../es/" hreflang="es" lang="es-419">Español</a></li>
-    <li><a href="../de/" hreflang="de" lang="de">Deutsch</a></li>
-    <li><a href="../fr/" hreflang="fr" lang="fr">Français</a></li>
-    <li><a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li>
-    <li><a href="../it/" hreflang="it" lang="it">Italiano</a></li>
-    <li><a href="../ru/" hreflang="ru" lang="ru">Русский</a></li>
-    <li><a href="../th/" hreflang="th" lang="th">ไทย</a></li>
-    <li><span aria-current="page" lang="vi">Tiếng Việt</span></li>
-    <li><a href="../cs/" hreflang="cs" lang="cs">Čeština</a></li>
-    <li><a href="../da/" hreflang="da" lang="da">Dansk</a></li>
-    <li><a href="../el/" hreflang="el" lang="el">Ελληνικά</a></li>
-    <li><a href="../fi/" hreflang="fi" lang="fi">Suomi</a></li>
-    <li><a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a></li>
-    <li><a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a></li>
-    <li><a href="../nl/" hreflang="nl" lang="nl">Nederlands</a></li>
-    <li><a href="../pl/" hreflang="pl" lang="pl">Polski</a></li>
-    <li><a href="../sv/" hreflang="sv" lang="sv">Svenska</a></li>
-    <li><a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></li>
-  </ul></nav>
-  <div class="logo">📖✏️</div>
-  <h1>Palang Book</h1>
-  <p class="sub">Vẽ theo nét từng trang và xem tranh của bé chuyển động.</p>
+  <a class="skip" href="#main">Chuyển đến nội dung</a>
+  <header class="bar">
+    <a class="brand" href="../vi/"><img src="../icon.png" alt="" width="32" height="32">Palang Book</a>
+    <a class="lang-link" href="#languages">Ngôn ngữ</a>
+  </header>
 
-  <p>Palang Book là ứng dụng làm hoạt hình flipbook cho trẻ em trên iPad. Bé vẽ theo nét mẫu mờ từng trang một, rồi nhấn phát: nét mẫu biến mất và chỉ còn tranh của bé chuyển động. Mọi nút đều là hình ảnh, nên ngay cả bé chưa biết đọc cũng tự dùng được, bằng ngón tay hoặc Apple Pencil.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Vẽ theo nét,<br>xem tranh chuyển động</h1>
+        <p class="lead">Bé vẽ theo nét mẫu mờ, mỗi lần một trang. Nhấn phát, nét mẫu biến mất và chỉ còn những nét bé vẽ đang chuyển động. Mọi nút đều là hình ảnh nên bé tự chơi được dù chưa biết đọc.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6789852144">Tải miễn phí trên App Store</a><a class="try" href="#try">Thử vẽ vài trang nhé ↓</a></div>
+        <p class="muted small">Dành cho iPad. Miễn phí 3 bộ vẽ theo nét.</p>
+      </div>
+      <div class="plain"><img src="../img/vi/01-trace-bunny.jpg" alt="Vẽ theo nét, xem tranh chuyển động" width="720" height="960" decoding="async"></div>
+    </section>
 
-  <h2>Bên trong có gì</h2>
-  <ul class="features">
-    <li><strong>10 bộ vẽ theo nét</strong><br>Quả bóng nảy tưng tưng, chú thỏ nhảy chân sáo, chú chim bay lượn, chú cá bơi, đóa hoa nở, cánh bướm, chiếc xe đua, tên lửa, chú ếch và chiếc chong chóng. Mỗi bộ có khoảng 20 trang nét mẫu, và trang trước hiện mờ phía dưới, giúp dễ vẽ tiếp trang sau cho khớp.</li>
-    <li><strong>Vẽ lên video của riêng bạn</strong><br>Quay video bằng camera, chọn video trong ứng dụng Ảnh hoặc mở liên kết tới một tệp video rồi vẽ theo trên đó. Khi ẩn nền, chỉ những trang bạn đã vẽ mới được phát, trên nền giấy trắng sạch.</li>
-    <li><strong>Flipbook trắng</strong><br>Không có nét mẫu, chỉ có những trang giấy trắng. Vẽ, lật trang và tự làm flipbook từ đầu.</li>
-    <li><strong>Con dấu và màu sắc</strong><br>Con dấu hình trái tim, hình tròn, hình vuông, hình tam giác, ngôi sao, bông hoa, ô tô và chú chim với ba cỡ, mười màu và ba cỡ cọ, cùng cục tẩy, hoàn tác và nút xóa sạch cả trang.</li>
-    <li><strong>Ghi giọng nói</strong><br>Chạm vào micrô, hoạt hình sẽ chạy lặp lại trong lúc giọng nói của bé được ghi thẳng vào đó.</li>
-    <li><strong>Lưu vào Ảnh</strong><br>Hoạt hình hoàn thành được lưu thành video trong ứng dụng Ảnh, sẵn sàng chia sẻ với gia đình.</li>
-    <li><strong>Tranh vẽ nằm lại trên iPad</strong><br>Không tài khoản, không quảng cáo, không theo dõi. Tranh vẽ và bản ghi âm không bao giờ rời khỏi thiết bị.</li>
-  </ul>
 
-  <h2>Dùng thử miễn phí, chỉ một Gói trọn đời</h2>
-  <p>Không cần trả tiền, bạn có thể dùng 3 bộ vẽ theo nét, lưu 3 tác phẩm, thêm 1 video, vẽ tối đa 10 trang trong flipbook trắng và ghi giọng nói tối đa 15 giây. <strong>Gói trọn đời</strong> là giao dịch mua một lần, mở khóa mọi thứ mãi mãi. Đây không phải gói đăng ký và có thể dùng với Chia sẻ trong gia đình. Màn hình mua chỉ mở sau khi người lớn giải một bài toán nhanh.</p>
+    <section class="reveal" id="try">
+      <h2>Thử vẽ vài trang nhé</h2>
+      <p class="muted">Vẽ một hình, rồi chạm mũi tên màu cam để sang trang mới. Trang trước sẽ hiện mờ phía dưới. Vẽ được hai, ba trang thì chạm nút phát màu xanh dương.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Thử vẽ vài trang nhé&quot;, &quot;lead&quot;: &quot;Vẽ một hình, rồi chạm mũi tên màu cam để sang trang mới. Trang trước sẽ hiện mờ phía dưới. Vẽ được hai, ba trang thì chạm nút phát màu xanh dương.&quot;, &quot;hint&quot;: &quot;Vẽ ở đây bằng ngón tay hoặc chuột&quot;, &quot;canvas&quot;: &quot;Giấy vẽ&quot;, &quot;colors&quot;: &quot;Màu sắc&quot;, &quot;undo&quot;: &quot;Hoàn tác&quot;, &quot;clear&quot;: &quot;Xóa trang này&quot;, &quot;play&quot;: &quot;Phát&quot;, &quot;stop&quot;: &quot;Dừng&quot;, &quot;prev&quot;: &quot;Trang trước&quot;, &quot;next&quot;: &quot;Trang sau&quot;, &quot;note&quot;: &quot;Cách này giống flipbook trắng trong ứng dụng, chạy 8 trang mỗi giây. Trong ứng dụng, bé còn có thể vẽ theo nét mẫu, đóng con dấu, ghi giọng nói và lưu thành video.&quot;}"></div>
+    </section>
 
-  <h2>Liên hệ</h2>
-  <div class="contact">
-    <strong>Liên hệ</strong><br>
-    Có câu hỏi hoặc sự cố? Hãy gửi email cho chúng tôi bất cứ lúc nào.<br>
-    📮 <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a><br>
-    <span class="sub">Chúng tôi thường trả lời trong vòng 2–3 ngày.</span>
-  </div>
+    <section class="problem reveal">
+      <h2>Bức tranh đẹp thế mà cứ đứng yên thì tiếc lắm, phải không?</h2>
+      <p>Làm hoạt hình là vẽ gần như cùng một hình nhiều lần, mỗi lần đổi một chút, nên tự bé sẽ không biết bắt đầu từ đâu. Palang Book đặt sẵn nét mẫu mờ đã chứa chuyển động, bé chỉ cần vẽ theo. Nhấn phát là tranh của bé chuyển động ngay.</p>
+    </section>
 
-  <h2>Trợ giúp và quyền riêng tư</h2>
-  <ul>
-    <li><a href="support.html">Hỗ trợ và câu hỏi thường gặp</a></li>
-    <li><a href="privacy.html">Chính sách quyền riêng tư</a></li>
-  </ul>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Vẽ theo nét là có hoạt hình</h2>
+        <p>Quả bóng nảy, chú thỏ nhảy, chú chim bay, chú cá bơi, bông hoa nở, cánh bướm, xe đua, tên lửa, chú ếch và chiếc chong chóng. Mỗi bộ có khoảng 20 trang nét mẫu.<br>Trang trước hiện mờ để bé dễ vẽ trang sau, và khi phát, nét mẫu biến mất, chỉ còn tranh của bé chuyển động.</p>
+      </div>
+      <div class="plain"><img src="../img/vi/02-trace-rocket.jpg" alt="Vẽ theo nét là có hoạt hình" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Con dấu và mười màu</h2>
+        <p>Chạm là đóng được trái tim, hình tròn, hình vuông, hình tam giác, ngôi sao, bông hoa, ô tô và chú chim. Con dấu và cọ đều có ba cỡ, cùng mười màu để chọn.<br>Có cục tẩy và hoàn tác nên vẽ sai cũng sửa được ngay. Vẽ bằng ngón tay hoặc Apple Pencil.</p>
+      </div>
+      <div class="plain"><img src="../img/vi/03-stamps-fish.jpg" alt="Con dấu và mười màu" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Trên video của bạn hoặc trên giấy trắng</h2>
+        <p>Thêm video bạn tự quay hoặc video trong Ảnh rồi vẽ theo ngay trên đó. Khi ẩn nền, chỉ những cảnh đã vẽ được phát lần lượt trên giấy trắng. Còn có flipbook trắng hoàn toàn không có nét mẫu.<br>Chạm micrô để ghi giọng của bé đi kèm, rồi lưu tác phẩm thành video vào Ảnh để khoe với cả nhà.</p>
+      </div>
+      <div class="plain"><img src="../img/vi/04-home.jpg" alt="Trên video của bạn hoặc trên giấy trắng" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Bắt đầu chỉ với ba bước</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Chạm vào thẻ nét mẫu</h3><p>Những thẻ có viền đứt nét màu cam trên màn hình chính là bộ vẽ theo nét.</p></li>
+<li class="card"><span class="n">2</span><h3>Vẽ rồi lật trang</h3><p>Mũi tên màu cam đưa bé sang trang sau.</p></li>
+<li class="card"><span class="n">3</span><h3>Nhấn phát</h3><p>Chạm nút phát màu xanh dương là tranh chuyển động.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Các nút dùng để làm gì</h2>
+      <div class="card table">
+        <dl><div><dt>Thẻ viền đứt nét màu cam</dt><dd>Bắt đầu vẽ theo nét</dd></div><div><dt>Thẻ viền đứt nét màu xám</dt><dd>Flipbook trắng</dd></div><div><dt>Camera xanh dương</dt><dd>Vẽ lên video bạn tự quay</dd></div><div><dt>Video xanh lá</dt><dd>Thêm video từ Ảnh</dd></div><div><dt>Liên kết màu chàm</dt><dd>Dán liên kết tới tệp video</dd></div><div><dt>Mũi tên cam</dt><dd>Trang sau</dd></div><div><dt>Nút phát xanh dương</dt><dd>Phát hoạt hình, chạm lần nữa để dừng</dd></div><div><dt>Mũi tên cong</dt><dd>Hoàn tác nét vừa vẽ</dd></div><div><dt>Thùng rác đỏ</dt><dd>Xóa cả trang (hoàn tác để lấy lại)</dd></div><div><dt>Micrô</dt><dd>Ghi giọng nói trong lúc hoạt hình chạy lặp lại</dd></div><div><dt>Biểu tượng video</dt><dd>Ẩn nền video (sọc hồng nghĩa là chỉ hiện tranh vẽ)</dd></div><div><dt>Nút lưu xanh lá</dt><dd>Lưu thành video vào Ảnh</dd></div></dl>
+      </div>
+      <p class="muted">Muốn xóa một tác phẩm, hãy chạm và giữ thẻ của nó trên màn hình chính. Tranh vẽ, bản ghi âm và video đã thêm sẽ bị xóa cùng.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Miễn phí đã có nhiều thứ để thử. Thích thì có Gói trọn đời.</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Miễn phí</h3>
+          <ul><li>3 bộ vẽ theo nét (quả bóng, chú thỏ, bông hoa)</li><li>Lưu giữ 3 tác phẩm</li><li>Thêm 1 video</li><li>Flipbook trắng tối đa 10 trang</li><li>Ghi giọng nói tối đa 15 giây</li><li>Con dấu, màu, cọ và lưu vào Ảnh</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Gói trọn đời</h3>
+          <ul><li>Mọi bộ vẽ theo nét, kể cả các bộ sắp ra mắt</li><li>Không giới hạn tác phẩm, số trang, video và thời gian ghi âm</li><li>Bỏ thẻ Palang Book ở cuối video đã lưu</li></ul>
+          <p class="muted">Mua một lần, không phải gói đăng ký. Dùng được trên mọi iPad trong nhà qua Chia sẻ trong gia đình.</p>
+        </div>
+      </div>
+      <p class="muted">Video lưu ở bản miễn phí sẽ kết thúc bằng một thẻ Palang Book ngắn. Nếu bạn đã dùng Palang Book từ trước khi có Gói trọn đời, mọi thứ đã được mở sẵn cho bạn.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Câu hỏi thường gặp</h2>
+      <div class="faq"><details><summary>Nét mẫu hoạt động thế nào?</summary><p>Những nét màu xanh da trời nhạt là nét mẫu. Bé vẽ đè lên theo, và khi bạn nhấn phát, nét mẫu biến mất, chỉ còn nét của bé chuyển động. Vẽ xong khoảng 20 trang là có hoạt hình.</p></details>
+<details><summary>Tôi muốn phát và lưu riêng tranh vẽ, không kèm video.</summary><p>Trong tác phẩm có video, chạm biểu tượng video trên thanh công cụ phía trên cho đến khi nó chuyển sang sọc hồng. Khi đó cả lúc phát lẫn lúc lưu đều chỉ hiện tranh vẽ trên nền trắng. Chỉ những cảnh đã vẽ mới được phát, nên vẽ vài trang trên một video dài cũng thành một hoạt hình ngắn.</p></details>
+<details><summary>Video hoàn thành được lưu ở đâu?</summary><p>Chạm nút lưu màu xanh lá ở đầu bên phải thanh công cụ, video mp4 sẽ được lưu vào Ảnh. Lần đầu lưu, hãy cho phép truy cập ảnh.</p></details>
+<details><summary>Làm sao để thêm giọng nói?</summary><p>Chạm nút micrô để ghi âm trong lúc hoạt hình chạy lặp lại, rồi chạm dừng để kết thúc. Ghi lại sẽ thay bản ghi cũ. Giọng nói được đưa vào video khi bạn lưu.</p></details>
+<details><summary>Liên kết video không mở được.</summary><p>Hãy kiểm tra kết nối internet và chắc rằng địa chỉ trỏ thẳng tới tệp video (kết thúc bằng .mp4 hoặc tương tự). Liên kết tới trang của các trang web chia sẻ video thì không mở được. Hãy dùng video bạn tự quay hoặc video được phép dùng tự do.</p></details>
+<details><summary>Lòng bàn tay cứ để lại vết.</summary><p>Mũi tên cong xóa nét vừa vẽ, còn thùng rác đỏ xóa cả trang (hoàn tác để lấy lại). Nếu xảy ra thường xuyên, hãy gửi email để chúng tôi hỗ trợ.</p></details>
+<details><summary>Sao lại có phép tính trước màn hình mua?</summary><p>Để các bé không tự vào được màn hình mua. Khi bé chạm vào thứ đang bị khóa, một ổ khóa lớn hiện ra kèm dòng “Hãy đưa cho người lớn xem nhé”, và màn hình mua chỉ mở sau khi người lớn trả lời một phép nhân.</p></details>
+<details><summary>Làm sao để khôi phục giao dịch mua?</summary><p>Chạm bánh răng ở góc trên bên phải màn hình chính, chọn Gói trọn đời, trả lời câu hỏi dành cho người lớn rồi chạm Khôi phục giao dịch mua. Bạn cần đăng nhập bằng đúng tài khoản Apple đã dùng để mua.</p></details>
+<details><summary>Làm sao để gửi phản hồi từ ứng dụng?</summary><p>Chạm bánh răng trên màn hình chính và chọn Gửi phản hồi. Bạn có thể đính kèm ảnh chụp màn hình, và để lại tên cùng email nếu muốn được trả lời. Mong phụ huynh là người gửi phản hồi.</p></details>
+<details><summary>Ứng dụng có thu thập thông tin của bé không?</summary><p>Không. Palang Book không thu thập bất kỳ thông tin cá nhân nào, tranh vẽ và bản ghi âm chỉ nằm trên iPad của bạn. Xem chi tiết trong Chính sách quyền riêng tư.</p></details></div>
+      <p class="contact">Có câu hỏi hoặc gặp sự cố? Gửi email tới <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>. Chúng tôi thường trả lời trong vòng 2 đến 3 ngày.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Cho bức tranh hôm nay<br>chuyển động nào</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6789852144">Tải miễn phí trên App Store</a>
+    </section>
+  </main>
 
   <footer>
-    © 2026 Palang Book · <span aria-current="page">Trang chủ</span> · <a href="support.html">Hỗ trợ</a> · <a href="privacy.html">Chính sách quyền riêng tư</a>
+    <nav id="languages" class="langs" aria-label="Ngôn ngữ"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi" aria-current="page">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Chính sách quyền riêng tư</a> · <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> · © 2026 Palang Book</p>
   </footer>
-</main>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

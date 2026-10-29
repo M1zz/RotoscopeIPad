@@ -1,0 +1,39 @@
+/* 팔랑북 웹 데모. 앱처럼 글자 없는 그림 버튼: 위에 도구줄, 가운데 흰 종이, 아래 장 넘기기. */
+.demo-card { display: grid; gap: var(--s4); }
+.demo-card > * { width: 100%; max-width: 760px; margin-inline: auto; }
+.fb-bar, .fb-nav { display: flex; align-items: center; gap: var(--s2); flex-wrap: wrap; }
+.fb-nav { justify-content: center; gap: var(--s4); }
+.fb-colors { display: flex; flex-wrap: wrap; gap: var(--s1); flex: 1; justify-content: center; }
+
+.fb-btn { display: inline-grid; place-items: center; width: 48px; height: 48px; border: 0; border-radius: 999px;
+          background: var(--bg); color: var(--text); cursor: pointer;
+          transition: transform .15s var(--ease), opacity .2s var(--ease); }
+.fb-btn:active:not(:disabled) { transform: scale(.92); }
+.fb-btn:disabled { opacity: .35; cursor: default; }
+.fb-btn.primary { background: #007AFF; color: #fff; }
+.fb-btn.danger { color: #FF3B30; }
+.fb-btn.accent { background: var(--accent); color: var(--on-accent); width: 72px; }
+.fb-btn.hint { animation: fb-hint 1.6s var(--ease) infinite; }
+@keyframes fb-hint { 50% { box-shadow: 0 0 0 8px color-mix(in srgb, var(--accent) 25%, transparent); } }
+
+.fb-color { width: 44px; height: 44px; border: 0; border-radius: 50%; background: transparent; cursor: pointer;
+            display: grid; place-items: center; padding: 0; }
+.fb-color::before { content: ""; width: 26px; height: 26px; border-radius: 50%; background: var(--c);
+                    box-shadow: inset 0 0 0 1px rgb(0 0 0 / .12); transition: transform .15s var(--ease); }
+.fb-color[aria-checked="true"]::before { transform: scale(1.2); box-shadow: 0 0 0 3px var(--surface), 0 0 0 5px var(--c); }
+
+.fb-paper { position: relative; border-radius: var(--r-inner); overflow: hidden; background: #fff;
+            box-shadow: 0 0 0 1px var(--line), 0 8px 28px rgb(0 0 0 / .08); }
+.fb-paper canvas { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; touch-action: none; cursor: crosshair; }
+.fb-hint { position: absolute; inset: 0; margin: 0; display: grid; place-items: center; padding: var(--s5);
+           text-align: center; color: #8a9399; pointer-events: none; }
+.fb-hint[hidden] { display: none; }
+.fb-page { min-width: 4.5em; text-align: center; color: var(--muted); font-variant-numeric: tabular-nums; }
+.fb-note { margin: 0; text-align: center; }
+
+@media (prefers-reduced-motion: reduce) { .fb-btn.hint { animation: none; } .fb-btn, .fb-color::before { transition: none; } }
+@media (max-width: 600px) {
+  .fb-bar { justify-content: space-between; }
+  .fb-colors { order: 3; flex-basis: 100%; }
+  .fb-bar .primary { margin-left: auto; }
+}

@@ -1,0 +1,159 @@
+{
+  "title": "Palang Book: de flipboek-app voor iPad waarmee kindertekeningen tot leven komen",
+  "description": "Trek een licht voorbeeld over, druk op afspelen en alleen de tekening van je kind beweegt. Plaatjesknoppen, stempels, stemopname. 3 sets gratis.",
+  "hero": {
+    "headline": "Trek de lijnen over.\nZie ze bewegen.",
+    "lead": "Je kind trekt een lichte voorbeeldtekening over, pagina voor pagina. Druk op afspelen en het voorbeeld verdwijnt: alleen de eigen lijnen bewegen. Elke knop is een plaatje, dus ook wie nog niet kan lezen, gaat zelf aan de slag.",
+    "cta": "Gratis in de App Store",
+    "note": "Voor iPad. Drie overtreksets zijn gratis."
+  },
+  "demo": {
+    "title": "Teken een paar pagina’s",
+    "lead": "Teken iets en tik op de oranje pijl voor de volgende pagina. De vorige pagina schemert zwak door. Tik na twee of drie pagina’s op de blauwe afspeelknop.",
+    "hint": "Teken hier met je vinger of muis",
+    "canvas": "Tekenpapier",
+    "colors": "Kleuren",
+    "undo": "Ongedaan maken",
+    "clear": "Deze pagina wissen",
+    "play": "Afspelen",
+    "stop": "Stop",
+    "prev": "Vorige pagina",
+    "next": "Volgende pagina",
+    "note": "Dit werkt net als het lege flipboek in de app, met 8 pagina’s per seconde. In de app kun je ook voorbeelden overtrekken, stempels zetten, stemmen opnemen en alles als video bewaren."
+  },
+  "problem": {
+    "title": "Zonde als zo’n mooie tekening stil blijft staan, toch?",
+    "text": "Animeren betekent bijna dezelfde tekening steeds opnieuw maken met kleine verschillen, en in hun eentje weten kinderen niet waar ze moeten beginnen. Palang Book legt een lichte voorbeeldtekening klaar waar de beweging al in zit, zodat je kind alleen de lijn hoeft te volgen. Zodra het op afspelen drukt, beweegt de tekening."
+  },
+  "features": [
+    {
+      "title": "Volg de lijn en je hebt een animatie",
+      "text": "Een stuiterende bal, een huppelend konijn, een vliegende vogel, een zwemmende vis, een bloeiende bloem, een vlinder, een racewagen, een raket, een kikker en een windmolen. Elke set heeft zo’n 20 voorbeeldpagina’s.\nDe vorige pagina schemert zwak door, zodat de volgende makkelijk aansluit, en bij het afspelen verdwijnt het voorbeeld: alleen de tekening van je kind beweegt.",
+      "shot": "02-trace-rocket"
+    },
+    {
+      "title": "Stempels en tien kleuren",
+      "text": "Stempel hartjes, cirkels, vierkanten, driehoeken, sterren, bloemen, auto’s en vogels. Stempels en kwasten zijn er in drie formaten, en er zijn tien kleuren om uit te kiezen.\nMet de gum en ongedaan maken is een foutje zo hersteld. Teken met je vinger of Apple Pencil.",
+      "shot": "03-stamps-fish"
+    },
+    {
+      "title": "Over je eigen video’s, of op wit papier",
+      "text": "Voeg een zelf gefilmde video toe of een uit Foto’s en trek eroverheen. Verberg de achtergrond en alleen de getekende scènes spelen na elkaar af op wit papier. Er is ook een leeg flipboek helemaal zonder voorbeeld.\nTik op de microfoon om de stem van je kind erbij op te nemen en bewaar het resultaat als video in Foto’s, om met de familie te delen.",
+      "shot": "04-home"
+    }
+  ],
+  "steps": {
+    "title": "In drie stappen aan de slag",
+    "items": [
+      {
+        "title": "Tik op een voorbeeldkaart",
+        "text": "De kaarten met een oranje stippellijn op het beginscherm zijn overtreksets."
+      },
+      {
+        "title": "Teken en blader verder",
+        "text": "De oranje pijl brengt je naar de volgende pagina."
+      },
+      {
+        "title": "Tik op afspelen",
+        "text": "Tik op de blauwe afspeelknop en de tekening beweegt."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Wat de knoppen doen",
+    "rows": [
+      ["Kaart met oranje stippellijn", "Begin met overtrekken"],
+      ["Kaart met grijze stippellijn", "Leeg flipboek"],
+      ["Blauwe camera", "Teken over een video die je opneemt"],
+      ["Groene video", "Voeg een video uit Foto’s toe"],
+      ["Indigo link", "Plak een link naar een videobestand"],
+      ["Oranje pijl", "Volgende pagina"],
+      ["Blauwe afspeelknop", "Speel de animatie af, tik nog eens om te stoppen"],
+      ["Gebogen pijl", "Laatste lijn ongedaan maken"],
+      ["Rode prullenbak", "Hele pagina wissen (ongedaan maken haalt hem terug)"],
+      ["Microfoon", "Stem opnemen terwijl de animatie herhaalt"],
+      ["Video-icoon", "Videoachtergrond verbergen (roze met streep: alleen tekeningen)"],
+      ["Groene bewaarknop", "Als video bewaren in Foto’s"]
+    ],
+    "note": "Wil je een kunstwerk verwijderen, houd dan de kaart op het beginscherm ingedrukt. De tekeningen, de opname en de toegevoegde video verdwijnen dan ook."
+  },
+  "pricing": {
+    "title": "Volop gratis uit te proberen. Levenslange toegang als je er verliefd op wordt.",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "3 overtreksets (bal, konijn, bloem)",
+        "3 kunstwerken bewaren",
+        "1 video toevoegen",
+        "Lege flipboeken tot 10 pagina’s",
+        "Stem opnemen tot 15 seconden",
+        "Stempels, kleuren, kwasten en bewaren in Foto’s"
+      ]
+    },
+    "pro": {
+      "name": "Levenslange toegang",
+      "items": [
+        "Alle overtreksets, ook toekomstige",
+        "Geen limiet op kunstwerken, pagina’s, video’s of opnametijd",
+        "Geen Palang Book-kaart aan het eind van bewaarde video’s"
+      ],
+      "note": "Eenmalige aankoop, geen abonnement. Werkt met Delen met gezin op elke iPad in het gezin."
+    },
+    "note": "Gratis bewaarde video’s eindigen met een korte Palang Book-kaart. Gebruikte je Palang Book al voordat Levenslange toegang bestond, dan is alles voor jou al ontgrendeld."
+  },
+  "faq": {
+    "title": "Vragen",
+    "items": [
+      {
+        "q": "Hoe werken de voorbeelden?",
+        "a": "De lichtblauwe lijnen zijn het voorbeeld. Je kind trekt ze over, en als je op afspelen drukt, verdwijnt het voorbeeld en bewegen alleen de lijnen van je kind. Maak ongeveer 20 pagina’s af en de animatie is klaar."
+      },
+      {
+        "q": "Ik wil alleen de tekening afspelen en bewaren, zonder de video.",
+        "a": "Tik in een videoproject op het video-icoon in de werkbalk bovenaan, zodat het roze wordt met een streep erdoor. Afspelen en bewaren tonen dan alleen de tekening op een witte achtergrond. Alleen de getekende scènes worden afgespeeld, dus een paar tekeningen over een lange clip worden een korte animatie."
+      },
+      {
+        "q": "Waar komt de video terecht?",
+        "a": "Tik op de groene bewaarknop uiterst rechts in de werkbalk en er wordt een mp4-video in Foto’s bewaard. Geef de eerste keer toegang tot Foto’s."
+      },
+      {
+        "q": "Hoe voeg ik een stem toe?",
+        "a": "Tik op de microfoonknop om op te nemen terwijl de animatie herhaalt, en tik op stop om te eindigen. Opnieuw opnemen vervangt de vorige opname. De stem gaat mee als je de video bewaart."
+      },
+      {
+        "q": "Een videolink gaat niet open.",
+        "a": "Controleer je internetverbinding en zorg dat het adres rechtstreeks naar een videobestand wijst (eindigend op .mp4 of iets vergelijkbaars). Links naar pagina’s van videosites kunnen niet worden geopend. Gebruik graag video’s die je zelf hebt gemaakt of die vrij te gebruiken zijn."
+      },
+      {
+        "q": "Mijn handpalm laat steeds vegen achter.",
+        "a": "De gebogen pijl haalt de laatste lijn weg en de rode prullenbak wist de hele pagina (ongedaan maken haalt hem terug). Gebeurt het vaak, mail ons dan en we helpen je."
+      },
+      {
+        "q": "Waarom komt er een rekensom vóór het aankoopscherm?",
+        "a": "Zodat kinderen niet zelf bij het aankoopscherm komen. Tikt je kind op iets wat op slot zit, dan verschijnt een groot hangslot met de vraag het aan een volwassene te laten zien. Het aankoopscherm opent pas als een volwassene een keersom heeft beantwoord."
+      },
+      {
+        "q": "Hoe herstel ik mijn aankoop?",
+        "a": "Tik op het tandwiel rechtsboven op het beginscherm, kies Levenslange toegang, beantwoord de volwassenenvraag en tik op Aankopen herstellen. Je moet zijn ingelogd met hetzelfde Apple-account waarmee je hebt gekocht."
+      },
+      {
+        "q": "Hoe stuur ik feedback vanuit de app?",
+        "a": "Tik op het tandwiel op het beginscherm en kies Feedback sturen. Je kunt een schermafbeelding bijvoegen en een naam en e-mailadres achterlaten als je antwoord wilt. We vragen of een ouder de feedback stuurt."
+      },
+      {
+        "q": "Verzamelen jullie gegevens over mijn kind?",
+        "a": "Nee. Palang Book verzamelt geen persoonsgegevens, en tekeningen en opnames blijven op je iPad. Zie het Privacybeleid voor details."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Laat de tekening\nvan vandaag bewegen",
+    "cta": "Gratis in de App Store"
+  },
+  "ui": {
+    "skip": "Naar de inhoud",
+    "languages": "Taal",
+    "privacy": "Privacybeleid",
+    "contact": "Vragen of problemen? Mail naar {email}. We reageren meestal binnen 2 à 3 dagen."
+  }
+}

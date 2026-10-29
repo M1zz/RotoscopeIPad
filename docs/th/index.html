@@ -1,102 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="th">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Palang Book — แอนิเมชันฟลิปบุ๊กสำหรับเด็ก</title>
-<meta name="description" content="วาดตามเส้นทีละหน้า แล้วดูภาพวาดของคุณขยับได้ Palang Book เป็นแอปแอนิเมชันฟลิปบุ๊กสำหรับเด็กบน iPad เด็กๆ วาดตามเส้นนำจางๆ ทีละหน้า แล้วกดเล่น เส้นนำจะหายไปและเหลือแต่ภาพวาดของพวกเขาที่ขยับได้ ปุ่มทุกปุ่มเป็นรูปภาพ เด็กที่ยังอ่านไม่ออกก็ใช้เองได้ ด้วยนิ้วหรือ Apple Pencil">
-<link rel="canonical" href="https://m1zz.github.io/RotoscopeIPad/th/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/RotoscopeIPad/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/RotoscopeIPad/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/RotoscopeIPad/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/RotoscopeIPad/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/RotoscopeIPad/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/RotoscopeIPad/zh-Hant/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/RotoscopeIPad/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/RotoscopeIPad/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/RotoscopeIPad/fr/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/RotoscopeIPad/pt-BR/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/RotoscopeIPad/it/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/RotoscopeIPad/ru/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/RotoscopeIPad/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/RotoscopeIPad/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/RotoscopeIPad/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/RotoscopeIPad/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/RotoscopeIPad/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/RotoscopeIPad/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/RotoscopeIPad/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/RotoscopeIPad/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/RotoscopeIPad/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/RotoscopeIPad/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/RotoscopeIPad/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/RotoscopeIPad/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/RotoscopeIPad/">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Palang Book: แอปฟลิปบุ๊กบน iPad ที่ทำให้ภาพวาดของลูกขยับได้</title>
+  <meta name="description" content="วาดตามเส้นจางๆ ทีละหน้า กดเล่น แล้วมีแค่ภาพวาดของลูกที่ขยับ ปุ่มเป็นรูปภาพทั้งหมด มีตราประทับและบันทึกเสียง ชุดวาดตามเส้น 3 ชุดใช้ฟรี">
+  <meta name="theme-color" content="#B85400" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6789852144">
+  <link rel="canonical" href="https://m1zz.github.io/RotoscopeIPad/th/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/RotoscopeIPad/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/RotoscopeIPad/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/RotoscopeIPad/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/RotoscopeIPad/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/RotoscopeIPad/zh-Hant/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/RotoscopeIPad/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/RotoscopeIPad/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/RotoscopeIPad/fr/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/RotoscopeIPad/pt-BR/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/RotoscopeIPad/it/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/RotoscopeIPad/ru/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/RotoscopeIPad/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/RotoscopeIPad/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/RotoscopeIPad/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/RotoscopeIPad/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/RotoscopeIPad/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/RotoscopeIPad/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/RotoscopeIPad/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/RotoscopeIPad/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/RotoscopeIPad/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/RotoscopeIPad/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/RotoscopeIPad/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/RotoscopeIPad/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/RotoscopeIPad/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Palang Book: แอปฟลิปบุ๊กบน iPad ที่ทำให้ภาพวาดของลูกขยับได้">
+  <meta property="og:description" content="วาดตามเส้นจางๆ ทีละหน้า กดเล่น แล้วมีแค่ภาพวาดของลูกที่ขยับ ปุ่มเป็นรูปภาพทั้งหมด มีตราประทับและบันทึกเสียง ชุดวาดตามเส้น 3 ชุดใช้ฟรี">
+  <meta property="og:url" content="https://m1zz.github.io/RotoscopeIPad/th/">
+  <meta property="og:image" content="https://m1zz.github.io/RotoscopeIPad/img/th/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#B85400}@media (prefers-color-scheme:dark){:root{--accent:#FF9F0A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<main>
-  <nav class="langs" aria-label="ภาษา"><ul>
-    <li><a href="../" hreflang="ko" lang="ko">한국어</a></li>
-    <li><a href="../en/" hreflang="en" lang="en">English</a></li>
-    <li><a href="../ja/" hreflang="ja" lang="ja">日本語</a></li>
-    <li><a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
-    <li><a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
-    <li><a href="../es/" hreflang="es" lang="es-419">Español</a></li>
-    <li><a href="../de/" hreflang="de" lang="de">Deutsch</a></li>
-    <li><a href="../fr/" hreflang="fr" lang="fr">Français</a></li>
-    <li><a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li>
-    <li><a href="../it/" hreflang="it" lang="it">Italiano</a></li>
-    <li><a href="../ru/" hreflang="ru" lang="ru">Русский</a></li>
-    <li><span aria-current="page" lang="th">ไทย</span></li>
-    <li><a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a></li>
-    <li><a href="../cs/" hreflang="cs" lang="cs">Čeština</a></li>
-    <li><a href="../da/" hreflang="da" lang="da">Dansk</a></li>
-    <li><a href="../el/" hreflang="el" lang="el">Ελληνικά</a></li>
-    <li><a href="../fi/" hreflang="fi" lang="fi">Suomi</a></li>
-    <li><a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a></li>
-    <li><a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a></li>
-    <li><a href="../nl/" hreflang="nl" lang="nl">Nederlands</a></li>
-    <li><a href="../pl/" hreflang="pl" lang="pl">Polski</a></li>
-    <li><a href="../sv/" hreflang="sv" lang="sv">Svenska</a></li>
-    <li><a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></li>
-  </ul></nav>
-  <div class="logo">📖✏️</div>
-  <h1>Palang Book</h1>
-  <p class="sub">วาดตามเส้นทีละหน้า แล้วดูภาพวาดของคุณขยับได้</p>
+  <a class="skip" href="#main">ข้ามไปยังเนื้อหา</a>
+  <header class="bar">
+    <a class="brand" href="../th/"><img src="../icon.png" alt="" width="32" height="32">Palang Book</a>
+    <a class="lang-link" href="#languages">ภาษา</a>
+  </header>
 
-  <p>Palang Book เป็นแอปแอนิเมชันฟลิปบุ๊กสำหรับเด็กบน iPad เด็กๆ วาดตามเส้นนำจางๆ ทีละหน้า แล้วกดเล่น เส้นนำจะหายไปและเหลือแต่ภาพวาดของพวกเขาที่ขยับได้ ปุ่มทุกปุ่มเป็นรูปภาพ เด็กที่ยังอ่านไม่ออกก็ใช้เองได้ ด้วยนิ้วหรือ Apple Pencil</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>วาดตามเส้น<br>แล้วดูภาพขยับ</h1>
+        <p class="lead">ลูกวาดตามเส้นนำจางๆ ทีละหน้า กดเล่นแล้วเส้นนำจะหายไป เหลือแต่เส้นที่ลูกวาดเองขยับไปมา ปุ่มทุกปุ่มเป็นรูปภาพ ลูกจึงเล่นเองได้แม้ยังอ่านไม่ออก</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6789852144">โหลดฟรีบน App Store</a><a class="try" href="#try">ลองวาดดูสักสองสามหน้า ↓</a></div>
+        <p class="muted small">สำหรับ iPad ชุดวาดตามเส้น 3 ชุดใช้ได้ฟรี</p>
+      </div>
+      <div class="plain"><img src="../img/th/01-trace-bunny.jpg" alt="วาดตามเส้น แล้วดูภาพขยับ" width="720" height="960" decoding="async"></div>
+    </section>
 
-  <h2>มีอะไรอยู่ข้างใน</h2>
-  <ul class="features">
-    <li><strong>ชุดวาดตามเส้น 10 ชุด</strong><br>ลูกบอลที่เด้งดึ๋ง กระต่ายกระโดด นกบิน ปลาว่ายน้ำ ดอกไม้ที่กำลังบาน ผีเสื้อ รถแข่ง จรวด กบ และกังหันลม แต่ละชุดมีหน้าเส้นนำประมาณ 20 หน้า และภาพของหน้าก่อนหน้าจะจางๆ ให้เห็นอยู่ด้านล่าง ทำให้วาดหน้าต่อไปให้ตรงกันได้ง่าย</li>
-    <li><strong>วาดทับวิดีโอของคุณเอง</strong><br>ถ่ายวิดีโอด้วยกล้อง เลือกจากแอปรูปภาพ หรือเปิดลิงก์ไปยังไฟล์วิดีโอ แล้ววาดตามเส้นทับลงไป เมื่อซ่อนพื้นหลัง จะเล่นเฉพาะหน้าที่คุณวาดบนกระดาษขาวสะอาด</li>
-    <li><strong>ฟลิปบุ๊กเปล่า</strong><br>ไม่มีเส้นนำ มีแต่กระดาษขาว วาด พลิกหน้า แล้วสร้างฟลิปบุ๊กตั้งแต่ต้น</li>
-    <li><strong>ตราประทับและสี</strong><br>ตราประทับรูปหัวใจ วงกลม สี่เหลี่ยม สามเหลี่ยม ดาว ดอกไม้ รถ และนก 3 ขนาด สี 10 สี และพู่กัน 3 ขนาด พร้อมยางลบ เลิกทำ และปุ่มล้างทั้งหน้า</li>
-    <li><strong>บันทึกเสียง</strong><br>แตะไมโครโฟน แล้วภาพเคลื่อนไหวจะเล่นวนไประหว่างที่บันทึกเสียงของลูกใส่ลงไปโดยตรง</li>
-    <li><strong>บันทึกลงรูปภาพ</strong><br>ภาพเคลื่อนไหวที่เสร็จแล้วจะบันทึกเป็นวิดีโอในแอปรูปภาพ พร้อมแชร์ให้ครอบครัวได้เลย</li>
-    <li><strong>ภาพวาดอยู่ใน iPad ของคุณ</strong><br>ไม่มีบัญชี ไม่มีโฆษณา ไม่มีการติดตาม ภาพวาดและเสียงที่บันทึกไม่เคยออกจากอุปกรณ์</li>
-  </ul>
 
-  <h2>ลองใช้ฟรี และมีสิทธิ์ใช้งานตลอดชีพเพียงอย่างเดียว</h2>
-  <p>ถ้าไม่จ่ายเงิน คุณใช้ชุดวาดตามเส้นได้ 3 ชุด เก็บผลงานได้ 3 ชิ้น นำเข้าวิดีโอได้ 1 ครั้ง วาดฟลิปบุ๊กเปล่าได้สูงสุด 10 หน้า และบันทึกเสียงได้สูงสุด 15 วินาที <strong>สิทธิ์ใช้งานตลอดชีพ</strong>เป็นการซื้อครั้งเดียวที่ปลดล็อกทุกอย่างตลอดไป ไม่ใช่การสมัครสมาชิก และใช้ร่วมกับการแชร์กับครอบครัวได้ หน้าจอการซื้อจะเปิดได้ก็ต่อเมื่อผู้ใหญ่แก้โจทย์เลขสั้นๆ ได้</p>
+    <section class="reveal" id="try">
+      <h2>ลองวาดดูสักสองสามหน้า</h2>
+      <p class="muted">วาดอะไรก็ได้ แล้วแตะลูกศรสีส้มเพื่อไปหน้าถัดไป หน้าก่อนหน้าจะจางๆ ให้เห็น วาดสักสองสามหน้าแล้วแตะปุ่มเล่นสีน้ำเงิน</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;ลองวาดดูสักสองสามหน้า&quot;, &quot;lead&quot;: &quot;วาดอะไรก็ได้ แล้วแตะลูกศรสีส้มเพื่อไปหน้าถัดไป หน้าก่อนหน้าจะจางๆ ให้เห็น วาดสักสองสามหน้าแล้วแตะปุ่มเล่นสีน้ำเงิน&quot;, &quot;hint&quot;: &quot;วาดตรงนี้ด้วยนิ้วหรือเมาส์&quot;, &quot;canvas&quot;: &quot;กระดาษวาดรูป&quot;, &quot;colors&quot;: &quot;สี&quot;, &quot;undo&quot;: &quot;เลิกทำ&quot;, &quot;clear&quot;: &quot;ล้างหน้านี้&quot;, &quot;play&quot;: &quot;เล่น&quot;, &quot;stop&quot;: &quot;หยุด&quot;, &quot;prev&quot;: &quot;หน้าก่อนหน้า&quot;, &quot;next&quot;: &quot;หน้าถัดไป&quot;, &quot;note&quot;: &quot;ทำงานแบบเดียวกับฟลิปบุ๊กเปล่าในแอป เล่น 8 หน้าต่อวินาที ในแอปยังวาดตามเส้นนำ ใส่ตราประทับ บันทึกเสียง และบันทึกเป็นวิดีโอได้ด้วย&quot;}"></div>
+    </section>
 
-  <h2>ติดต่อ</h2>
-  <div class="contact">
-    <strong>ติดต่อเรา</strong><br>
-    มีคำถามหรือปัญหา ส่งอีเมลหาเราได้ทุกเมื่อ<br>
-    📮 <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a><br>
-    <span class="sub">โดยปกติเราจะตอบกลับภายใน 2–3 วัน</span>
-  </div>
+    <section class="problem reveal">
+      <h2>ภาพสวยๆ แบบนี้ ปล่อยให้นิ่งอยู่ก็น่าเสียดายนะ</h2>
+      <p>แอนิเมชันต้องวาดภาพที่เกือบเหมือนเดิมซ้ำหลายๆ หน้า โดยขยับทีละนิด เด็กๆ จึงไม่รู้จะเริ่มตรงไหน Palang Book วางเส้นนำจางๆ ที่มีท่าทางการเคลื่อนไหวไว้ให้แล้ว ลูกแค่วาดตามเส้นไป พอกดเล่น ภาพของลูกก็ขยับทันที</p>
+    </section>
 
-  <h2>ความช่วยเหลือและความเป็นส่วนตัว</h2>
-  <ul>
-    <li><a href="support.html">ช่วยเหลือและคำถามที่พบบ่อย</a></li>
-    <li><a href="privacy.html">นโยบายความเป็นส่วนตัว</a></li>
-  </ul>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>วาดตามเส้น ก็ได้แอนิเมชัน</h2>
+        <p>ลูกบอลเด้งดึ๋ง กระต่ายกระโดด นกบิน ปลาว่ายน้ำ ดอกไม้บาน ผีเสื้อ รถแข่ง จรวด กบ และกังหันลม แต่ละชุดมีเส้นนำประมาณ 20 หน้า<br>หน้าก่อนหน้าจะจางๆ ให้เห็นเพื่อให้วาดหน้าถัดไปได้ง่าย และเมื่อเล่น เส้นนำจะหายไป เหลือแต่ภาพของลูกที่ขยับ</p>
+      </div>
+      <div class="plain"><img src="../img/th/02-trace-rocket.jpg" alt="วาดตามเส้น ก็ได้แอนิเมชัน" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>ตราประทับและสี 10 สี</h2>
+        <p>แตะประทับรูปหัวใจ วงกลม สี่เหลี่ยม สามเหลี่ยม ดาว ดอกไม้ รถ และนกได้เลย ตราประทับและพู่กันมีอย่างละ 3 ขนาด พร้อมสีให้เลือก 10 สี<br>มียางลบและปุ่มเลิกทำ วาดผิดก็แก้ได้ง่าย วาดด้วยนิ้วหรือ Apple Pencil ก็ได้</p>
+      </div>
+      <div class="plain"><img src="../img/th/03-stamps-fish.jpg" alt="ตราประทับและสี 10 สี" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>วาดทับวิดีโอของคุณ หรือบนกระดาษเปล่า</h2>
+        <p>นำเข้าวิดีโอที่ถ่ายเองหรือวิดีโอจากแอปรูปภาพ แล้ววาดตามทับลงไปได้เลย เมื่อซ่อนพื้นหลัง จะเล่นเฉพาะฉากที่วาดไว้ต่อกันบนกระดาษขาว และยังมีฟลิปบุ๊กเปล่าที่ไม่มีเส้นนำเลยด้วย<br>แตะไมโครโฟนเพื่ออัดเสียงลูกไปพร้อมกัน แล้วบันทึกผลงานเป็นวิดีโอลงในรูปภาพ เพื่อส่งให้คนในครอบครัวดู</p>
+      </div>
+      <div class="plain"><img src="../img/th/04-home.jpg" alt="วาดทับวิดีโอของคุณ หรือบนกระดาษเปล่า" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>เริ่มได้ใน 3 ขั้นตอน</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>แตะการ์ดเส้นนำ</h3><p>การ์ดขอบประสีส้มบนหน้าหลักคือชุดวาดตามเส้น</p></li>
+<li class="card"><span class="n">2</span><h3>วาดแล้วพลิกหน้า</h3><p>ลูกศรสีส้มพาไปหน้าถัดไป</p></li>
+<li class="card"><span class="n">3</span><h3>กดเล่น</h3><p>แตะปุ่มเล่นสีน้ำเงิน แล้วภาพจะขยับ</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>ปุ่มแต่ละปุ่มทำอะไร</h2>
+      <div class="card table">
+        <dl><div><dt>การ์ดขอบประสีส้ม</dt><dd>เริ่มวาดตามเส้น</dd></div><div><dt>การ์ดขอบประสีเทา</dt><dd>ฟลิปบุ๊กเปล่า</dd></div><div><dt>กล้องสีน้ำเงิน</dt><dd>วาดทับวิดีโอที่ถ่ายเอง</dd></div><div><dt>วิดีโอสีเขียว</dt><dd>นำเข้าวิดีโอจากแอปรูปภาพ</dd></div><div><dt>ลิงก์สีคราม</dt><dd>วางลิงก์ไปยังไฟล์วิดีโอ</dd></div><div><dt>ลูกศรสีส้ม</dt><dd>หน้าถัดไป</dd></div><div><dt>ปุ่มเล่นสีน้ำเงิน</dt><dd>เล่นแอนิเมชัน แตะอีกครั้งเพื่อหยุด</dd></div><div><dt>ลูกศรโค้ง</dt><dd>เลิกทำเส้นล่าสุด</dd></div><div><dt>ถังขยะสีแดง</dt><dd>ล้างทั้งหน้า (กดเลิกทำเพื่อเอากลับมาได้)</dd></div><div><dt>ไมโครโฟน</dt><dd>อัดเสียงระหว่างที่แอนิเมชันเล่นวน</dd></div><div><dt>ไอคอนวิดีโอ</dt><dd>ซ่อนพื้นหลังวิดีโอ (ลายขีดสีชมพูคือแสดงแค่ภาพวาด)</dd></div><div><dt>ปุ่มบันทึกสีเขียว</dt><dd>บันทึกเป็นวิดีโอลงในรูปภาพ</dd></div></dl>
+      </div>
+      <p class="muted">ถ้าจะลบผลงาน ให้แตะการ์ดของผลงานนั้นบนหน้าหลักค้างไว้ ภาพวาด เสียงที่อัด และวิดีโอที่นำเข้าจะถูกลบไปด้วย</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>ลองฟรีได้เยอะ ถ้าชอบก็มีสิทธิ์ใช้งานตลอดชีพ</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>ฟรี</h3>
+          <ul><li>ชุดวาดตามเส้น 3 ชุด (ลูกบอล กระต่าย ดอกไม้)</li><li>เก็บผลงานได้ 3 ชิ้น</li><li>นำเข้าวิดีโอได้ 1 รายการ</li><li>ฟลิปบุ๊กเปล่าได้สูงสุด 10 หน้า</li><li>บันทึกเสียงได้สูงสุด 15 วินาที</li><li>ตราประทับ สี พู่กัน และบันทึกลงรูปภาพ</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>สิทธิ์ใช้งานตลอดชีพ</h3>
+          <ul><li>ชุดวาดตามเส้นทุกชุด รวมถึงชุดใหม่ในอนาคต</li><li>ไม่จำกัดผลงาน จำนวนหน้า วิดีโอ และเวลาบันทึกเสียง</li><li>ไม่มีการ์ด Palang Book ท้ายวิดีโอที่บันทึก</li></ul>
+          <p class="muted">จ่ายครั้งเดียว ไม่ใช่การสมัครสมาชิก ใช้กับการแชร์กับครอบครัวได้บน iPad ทุกเครื่องในบ้าน</p>
+        </div>
+      </div>
+      <p class="muted">วิดีโอที่บันทึกในเวอร์ชันฟรีจะมีการ์ด Palang Book สั้นๆ ต่อท้าย ถ้าคุณใช้ Palang Book มาก่อนที่จะมีสิทธิ์ใช้งานตลอดชีพ ทุกอย่างจะปลดล็อกไว้ให้แล้ว</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>คำถามที่พบบ่อย</h2>
+      <div class="faq"><details><summary>เส้นนำใช้งานอย่างไร</summary><p>เส้นสีฟ้าอ่อนคือเส้นนำ ลูกวาดทับตามเส้นนั้น และเมื่อกดเล่น เส้นนำจะหายไป เหลือแต่เส้นของลูกที่ขยับ วาดครบประมาณ 20 หน้าก็ได้แอนิเมชันแล้ว</p></details>
+<details><summary>อยากเล่นและบันทึกเฉพาะภาพวาด ไม่เอาวิดีโอ</summary><p>ในผลงานที่มีวิดีโอ ให้แตะไอคอนวิดีโอที่แถบเครื่องมือด้านบนจนเป็นลายขีดสีชมพู จากนั้นทั้งการเล่นและการบันทึกจะแสดงแค่ภาพวาดบนพื้นขาว และจะเล่นเฉพาะฉากที่วาดไว้ วาดไม่กี่หน้าบนวิดีโอยาวๆ ก็ได้แอนิเมชันสั้นๆ</p></details>
+<details><summary>วิดีโอที่เสร็จแล้วไปอยู่ที่ไหน</summary><p>แตะปุ่มบันทึกสีเขียวที่ขวาสุดของแถบเครื่องมือ วิดีโอ mp4 จะถูกบันทึกลงในรูปภาพ ครั้งแรกที่บันทึก โปรดอนุญาตการเข้าถึงรูปภาพ</p></details>
+<details><summary>ใส่เสียงได้อย่างไร</summary><p>แตะปุ่มไมโครโฟนเพื่ออัดเสียงระหว่างที่แอนิเมชันเล่นวน แล้วแตะหยุดเมื่ออัดเสร็จ ถ้าอัดใหม่ เสียงเดิมจะถูกแทนที่ เสียงจะรวมอยู่ในวิดีโอเมื่อบันทึก</p></details>
+<details><summary>เปิดลิงก์วิดีโอไม่ได้</summary><p>ตรวจสอบการเชื่อมต่ออินเทอร์เน็ต และดูว่าลิงก์ชี้ไปที่ไฟล์วิดีโอโดยตรง (ลงท้ายด้วย .mp4 หรือคล้ายกัน) ลิงก์หน้าเว็บของเว็บไซต์แชร์วิดีโอจะเปิดไม่ได้ โปรดใช้วิดีโอที่ถ่ายเองหรือวิดีโอที่ใช้ได้อย่างอิสระ</p></details>
+<details><summary>ฝ่ามือไปโดนจอแล้วเกิดรอย</summary><p>ลูกศรโค้งจะลบเส้นล่าสุด ส่วนถังขยะสีแดงจะล้างทั้งหน้า (กดเลิกทำเพื่อเอากลับมาได้) ถ้าเกิดบ่อย ส่งอีเมลหาเรา เรายินดีช่วย</p></details>
+<details><summary>ทำไมมีโจทย์เลขก่อนเข้าหน้าจอการซื้อ</summary><p>เพื่อไม่ให้เด็กเข้าไปที่หน้าจอการซื้อเองได้ เมื่อลูกแตะสิ่งที่ล็อกอยู่ จะเห็นแม่กุญแจใหญ่และข้อความ “ให้ผู้ใหญ่ดูหน่อยนะ” หน้าจอการซื้อจะเปิดได้ก็ต่อเมื่อผู้ใหญ่ตอบโจทย์การคูณ</p></details>
+<details><summary>จะกู้คืนการซื้อได้อย่างไร</summary><p>แตะเฟืองที่มุมขวาบนของหน้าหลัก เลือกสิทธิ์ใช้งานตลอดชีพ ตอบคำถามสำหรับผู้ใหญ่ แล้วแตะกู้คืนการซื้อ ต้องลงชื่อเข้าใช้ด้วยบัญชี Apple เดียวกับที่ใช้ซื้อ</p></details>
+<details><summary>จะส่งความคิดเห็นจากในแอปได้อย่างไร</summary><p>แตะเฟืองบนหน้าหลักแล้วเลือกส่งความคิดเห็น แนบภาพหน้าจอได้ และใส่ชื่อกับอีเมลไว้ถ้าต้องการให้ตอบกลับ เราขอให้ผู้ปกครองเป็นผู้ส่ง</p></details>
+<details><summary>แอปเก็บข้อมูลของลูกไหม</summary><p>ไม่เก็บเลย Palang Book ไม่เก็บข้อมูลส่วนบุคคลใดๆ ภาพวาดและเสียงที่อัดจะอยู่ใน iPad ของคุณเท่านั้น ดูรายละเอียดได้ในนโยบายความเป็นส่วนตัว</p></details></div>
+      <p class="contact">มีคำถามหรือปัญหา ส่งอีเมลมาที่ <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> โดยปกติเราจะตอบกลับภายใน 2 ถึง 3 วัน</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>ให้ภาพที่วาดวันนี้<br>ขยับได้</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6789852144">โหลดฟรีบน App Store</a>
+    </section>
+  </main>
 
   <footer>
-    © 2026 Palang Book · <span aria-current="page">หน้าหลัก</span> · <a href="support.html">ช่วยเหลือ</a> · <a href="privacy.html">นโยบายความเป็นส่วนตัว</a>
+    <nav id="languages" class="langs" aria-label="ภาษา"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../th/" hreflang="th" lang="th" aria-current="page">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">นโยบายความเป็นส่วนตัว</a> · <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> · © 2026 Palang Book</p>
   </footer>
-</main>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

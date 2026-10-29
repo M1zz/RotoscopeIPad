@@ -1,0 +1,159 @@
+{
+  "title": "Palang Book: die Daumenkino-App für das iPad, in der Kinderbilder lebendig werden",
+  "description": "Zarte Vorlagen nachzeichnen, abspielen, und nur das Bild Ihres Kindes bewegt sich. Bild-Tasten, Stempel, Sprachaufnahme. 3 Vorlagen gratis.",
+  "hero": {
+    "headline": "Nachzeichnen.\nUnd es bewegt sich!",
+    "lead": "Ihr Kind zeichnet eine zarte Vorlage Seite für Seite nach. Ein Tipp auf Abspielen, und die Vorlage verschwindet. Übrig bleiben nur seine eigenen Striche, und die bewegen sich. Alle Tasten sind Bilder, so klappt es auch ganz allein, lange bevor Ihr Kind lesen kann.",
+    "cta": "Gratis im App Store laden",
+    "note": "Für das iPad. 3 Vorlagen zum Nachzeichnen sind kostenlos."
+  },
+  "demo": {
+    "title": "Ein paar Seiten malen",
+    "lead": "Malen Sie etwas und tippen Sie dann auf den orangefarbenen Pfeil für die nächste Seite. Die vorige Seite schimmert leicht durch. Nach zwei, drei Seiten auf die blaue Abspieltaste tippen.",
+    "hint": "Hier mit Finger oder Maus malen",
+    "canvas": "Malpapier",
+    "colors": "Farben",
+    "undo": "Widerrufen",
+    "clear": "Diese Seite löschen",
+    "play": "Abspielen",
+    "stop": "Stopp",
+    "prev": "Vorige Seite",
+    "next": "Nächste Seite",
+    "note": "Das funktioniert wie das leere Daumenkino in der App, mit 8 Seiten pro Sekunde. In der App kann Ihr Kind außerdem Vorlagen nachzeichnen, stempeln, seine Stimme aufnehmen und ein Video sichern."
+  },
+  "problem": {
+    "title": "Schade, wenn ein tolles Bild einfach stillsteht, oder?",
+    "text": "Für einen Trickfilm malt man fast dasselbe Bild immer wieder, jedes Mal ein kleines bisschen anders. Allein wissen Kinder kaum, wo sie anfangen sollen. Palang Book legt eine zarte Vorlage darunter, in der die Bewegung schon steckt, und Ihr Kind folgt einfach der Linie. Sobald es auf Abspielen tippt, bewegt sich sein Bild."
+  },
+  "features": [
+    {
+      "title": "Der Linie folgen, und fertig ist der Trickfilm",
+      "text": "Ein hüpfender Ball, ein springender Hase, ein fliegender Vogel, ein schwimmender Fisch, eine aufblühende Blume, ein Schmetterling, ein flitzendes Auto, eine Rakete, ein Frosch und ein Windrad. Jede Vorlage hat rund 20 Seiten.\nDie vorige Seite schimmert leicht durch, so gelingt die nächste ganz leicht. Beim Abspielen verschwindet die Vorlage, und nur das Bild Ihres Kindes bewegt sich.",
+      "shot": "02-trace-rocket"
+    },
+    {
+      "title": "Stempel und zehn Farben",
+      "text": "Herz, Kreis, Quadrat, Dreieck, Stern, Blume, Auto und Vogel lassen sich einfach aufstempeln. Stempel und Pinsel gibt es in je drei Größen, dazu zehn Farben.\nMit Radiergummi und Widerrufen sind Fehler schnell behoben. Gemalt wird mit dem Finger oder dem Apple Pencil.",
+      "shot": "03-stamps-fish"
+    },
+    {
+      "title": "Über eigene Videos oder auf leerem Papier",
+      "text": "Laden Sie ein selbst gedrehtes Video oder eines aus der Fotos App und zeichnen Sie darüber. Wird der Hintergrund ausgeblendet, laufen nur die bemalten Szenen nacheinander auf weißem Papier ab. Außerdem gibt es ein leeres Daumenkino ganz ohne Vorlage.\nEin Tipp aufs Mikrofon, und die Stimme Ihres Kindes wird mit aufgenommen. Das fertige Werk sichern Sie als Video in Fotos und teilen es mit der Familie.",
+      "shot": "04-home"
+    }
+  ],
+  "steps": {
+    "title": "In drei Schritten startklar",
+    "items": [
+      {
+        "title": "Vorlagenkarte antippen",
+        "text": "Die Karten mit orange gepunktetem Rand auf dem Startbildschirm sind die Vorlagen."
+      },
+      {
+        "title": "Malen und umblättern",
+        "text": "Der orangefarbene Pfeil führt zur nächsten Seite."
+      },
+      {
+        "title": "Auf Abspielen tippen",
+        "text": "Ein Tipp auf die blaue Abspieltaste, und das Bild bewegt sich."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Was die Tasten bewirken",
+    "rows": [
+      ["Orange gepunktete Karte", "Vorlage nachzeichnen"],
+      ["Grau gepunktete Karte", "Leeres Daumenkino"],
+      ["Blaue Kamera", "Über ein selbst gedrehtes Video malen"],
+      ["Grünes Video", "Video aus Fotos laden"],
+      ["Indigoblauer Link", "Link zu einer Videodatei einfügen"],
+      ["Orangefarbener Pfeil", "Nächste Seite"],
+      ["Blaue Abspieltaste", "Animation abspielen, erneut tippen zum Anhalten"],
+      ["Gebogener Pfeil", "Letzten Strich widerrufen"],
+      ["Roter Papierkorb", "Ganze Seite löschen (mit Widerrufen zurückholen)"],
+      ["Mikrofon", "Stimme aufnehmen, während die Animation in Schleife läuft"],
+      ["Video-Symbol", "Videohintergrund ausblenden (rosa Streifen heißt: nur die Zeichnung)"],
+      ["Grünes Sichern", "Als Video in Fotos sichern"]
+    ],
+    "note": "Um ein Werk zu löschen, halten Sie seine Karte auf dem Startbildschirm gedrückt. Zeichnungen, Aufnahme und importiertes Video werden mitgelöscht."
+  },
+  "pricing": {
+    "title": "Kostenlos ausgiebig ausprobieren. Den lebenslangen Zugang, wenn es gefällt.",
+    "free": {
+      "name": "Kostenlos",
+      "items": [
+        "3 Vorlagen (Ball, Hase, Blume)",
+        "3 gespeicherte Werke",
+        "1 Video laden",
+        "Leere Daumenkinos mit bis zu 10 Seiten",
+        "Sprachaufnahme bis 15 Sekunden",
+        "Stempel, Farben, Pinsel und Sichern in Fotos"
+      ]
+    },
+    "pro": {
+      "name": "Lebenslanger Zugang",
+      "items": [
+        "Alle Vorlagen, auch künftige",
+        "Unbegrenzt Werke, Seiten, Videos und Aufnahmezeit",
+        "Keine Palang Book Karte am Ende gesicherter Videos"
+      ],
+      "note": "Einmal kaufen, kein Abo. Mit Familienfreigabe auf jedem iPad der Familie."
+    },
+    "note": "Kostenlos gesicherte Videos enden mit einer kurzen Palang Book Karte. Wer Palang Book schon vor dem lebenslangen Zugang genutzt hat, hat bereits alles freigeschaltet."
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "items": [
+      {
+        "q": "Wie funktionieren die Vorlagen?",
+        "a": "Die zarten hellblauen Linien sind die Vorlage. Ihr Kind zeichnet sie nach, und beim Abspielen verschwindet die Vorlage, sodass sich nur seine eigenen Striche bewegen. Nach etwa 20 Seiten ist der Trickfilm fertig."
+      },
+      {
+        "q": "Ich möchte nur die Zeichnung abspielen und sichern, ohne das Video.",
+        "a": "Tippen Sie in einem Videoprojekt oben in der Werkzeugleiste auf das Video-Symbol, bis es rosa gestreift ist. Beim Abspielen und Sichern erscheint dann nur die Zeichnung auf weißem Hintergrund. Es laufen nur die bemalten Szenen, so wird aus ein paar Zeichnungen über einem langen Clip ein kurzer Trickfilm."
+      },
+      {
+        "q": "Wo landet das fertige Video?",
+        "a": "Tippen Sie auf die grüne Sichern-Taste ganz rechts in der Werkzeugleiste, dann wird ein mp4 Video in Fotos gesichert. Erlauben Sie beim ersten Mal den Zugriff auf Ihre Fotos."
+      },
+      {
+        "q": "Wie kommt eine Stimme dazu?",
+        "a": "Tippen Sie auf das Mikrofon, um aufzunehmen, während die Animation in Schleife läuft, und auf Stopp, um die Aufnahme zu beenden. Eine neue Aufnahme ersetzt die alte. Beim Sichern ist die Stimme im Video enthalten."
+      },
+      {
+        "q": "Ein Videolink lässt sich nicht öffnen.",
+        "a": "Prüfen Sie die Internetverbindung und ob die Adresse direkt auf eine Videodatei zeigt (also zum Beispiel auf .mp4 endet). Links zu Seiten von Videoplattformen lassen sich nicht öffnen. Bitte verwenden Sie selbst gedrehte oder frei nutzbare Videos."
+      },
+      {
+        "q": "Der Handballen malt ständig mit.",
+        "a": "Der gebogene Pfeil entfernt den letzten Strich, der rote Papierkorb löscht die ganze Seite (Widerrufen holt sie zurück). Passiert das oft, schreiben Sie uns, wir helfen gern."
+      },
+      {
+        "q": "Warum kommt vor dem Kaufbildschirm eine Rechenaufgabe?",
+        "a": "Damit Kinder nicht allein zum Kaufbildschirm gelangen. Tippt ein Kind auf etwas Gesperrtes, erscheint ein großes Schloss mit dem Hinweis „Zeig das einem Erwachsenen“. Der Kaufbildschirm öffnet sich erst, wenn ein Erwachsener eine Malaufgabe löst."
+      },
+      {
+        "q": "Wie stelle ich meinen Kauf wieder her?",
+        "a": "Tippen Sie oben rechts auf dem Startbildschirm auf das Zahnrad, wählen Sie Lebenslanger Zugang, beantworten Sie die Frage für Erwachsene und tippen Sie auf Käufe wiederherstellen. Sie müssen mit demselben Apple Account angemeldet sein, mit dem Sie gekauft haben."
+      },
+      {
+        "q": "Wie sende ich Feedback aus der App?",
+        "a": "Tippen Sie auf dem Startbildschirm auf das Zahnrad und wählen Sie Feedback senden. Sie können ein Bildschirmfoto anhängen und für eine Antwort Namen und E-Mail-Adresse angeben. Feedback sollte bitte von einem Elternteil gesendet werden."
+      },
+      {
+        "q": "Sammeln Sie Daten über mein Kind?",
+        "a": "Nein. Palang Book sammelt keinerlei personenbezogene Daten, Zeichnungen und Aufnahmen bleiben auf Ihrem iPad. Details finden Sie in der Datenschutzerklärung."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Das Bild von heute\nzum Leben erwecken",
+    "cta": "Gratis im App Store laden"
+  },
+  "ui": {
+    "skip": "Zum Inhalt springen",
+    "languages": "Sprache",
+    "privacy": "Datenschutzerklärung",
+    "contact": "Fragen oder Probleme? Schreiben Sie an {email}. Wir antworten in der Regel innerhalb von 2 bis 3 Tagen."
+  }
+}

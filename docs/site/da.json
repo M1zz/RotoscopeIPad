@@ -1,0 +1,159 @@
+{
+  "title": "Palang Book: flipbog-appen til iPad, hvor børnenes tegninger kommer til live",
+  "description": "Tegn efter en lys skabelon side for side, tryk på afspil, og kun barnets tegning bevæger sig. Billedknapper, stempler og stemme. 3 sæt er gratis.",
+  "hero": {
+    "headline": "Tegn efter stregen.\nSe den bevæge sig.",
+    "lead": "Barnet tegner efter en lys skabelon, én side ad gangen. Tryk på afspil, så forsvinder skabelonen, og kun barnets egne streger bevæger sig. Alle knapper er billeder, så barnet kan klare det selv, før det kan læse.",
+    "cta": "Hent gratis i App Store",
+    "note": "Til iPad. Tre tegn efter-sæt er gratis."
+  },
+  "demo": {
+    "title": "Tegn et par sider",
+    "lead": "Tegn noget, og tryk på den orange pil for at gå til næste side. Siden før skinner svagt igennem. Når du har tegnet to eller tre sider, trykker du på den blå afspil-knap.",
+    "hint": "Tegn her med fingeren eller musen",
+    "canvas": "Tegnepapir",
+    "colors": "Farver",
+    "undo": "Fortryd",
+    "clear": "Ryd denne side",
+    "play": "Afspil",
+    "stop": "Stop",
+    "prev": "Forrige side",
+    "next": "Næste side",
+    "note": "Det virker ligesom appens tomme flipbog, med 8 sider i sekundet. I appen kan man også tegne efter skabeloner, sætte stempler, optage stemmer og gemme en video."
+  },
+  "problem": {
+    "title": "Synd at en god tegning bare skal stå stille, ikke?",
+    "text": "Animation betyder, at man tegner næsten den samme tegning igen og igen med små ændringer, og alene ved børn ikke, hvor de skal starte. Palang Book lægger en lys skabelon ind, hvor bevægelsen allerede er klar, så barnet bare følger stregen. Så snart der trykkes på afspil, bevæger tegningen sig."
+  },
+  "features": [
+    {
+      "title": "Følg stregen, og du har en animation",
+      "text": "En hoppende bold, en springende kanin, en flyvende fugl, en svømmende fisk, en blomst, der springer ud, en sommerfugl, en racerbil, en raket, en frø og en vindmølle. Hvert sæt har omkring 20 skabelonsider.\nForrige side skinner svagt igennem, så den næste er nem at tegne, og ved afspilning forsvinder skabelonen, så kun barnets tegning bevæger sig.",
+      "shot": "02-trace-rocket"
+    },
+    {
+      "title": "Stempler og ti farver",
+      "text": "Tryk hjerter, cirkler, firkanter, trekanter, stjerner, blomster, biler og fugle på siden. Stempler og pensler findes i tre størrelser hver, og der er ti farver at vælge imellem.\nMed viskelæder og fortryd er fejl hurtigt rettet. Tegn med fingeren eller Apple Pencil.",
+      "shot": "03-stamps-fish"
+    },
+    {
+      "title": "Oven på dine egne videoer eller på hvidt papir",
+      "text": "Hent en video, du selv har optaget, eller en fra Fotos, og tegn direkte oven på den. Skjuler du baggrunden, afspilles kun de tegnede scener efter hinanden på hvidt papir. Der er også en tom flipbog helt uden skabelon.\nTryk på mikrofonen for at optage barnets stemme til, og gem det færdige værk som video i Fotos, så resten af familien kan se det.",
+      "shot": "04-home"
+    }
+  ],
+  "steps": {
+    "title": "Kom i gang i tre trin",
+    "items": [
+      {
+        "title": "Tryk på et skabelonkort",
+        "text": "Kortene med orange stiplet kant på hjemmeskærmen er tegn efter-sæt."
+      },
+      {
+        "title": "Tegn og bladr",
+        "text": "Den orange pil fører dig til næste side."
+      },
+      {
+        "title": "Tryk på afspil",
+        "text": "Tryk på den blå afspil-knap, så bevæger tegningen sig."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Hvad knapperne gør",
+    "rows": [
+      ["Orange stiplet kort", "Start et tegn efter-sæt"],
+      ["Gråt stiplet kort", "Tom flipbog"],
+      ["Blåt kamera", "Tegn oven på en video, du optager"],
+      ["Grøn video", "Hent en video fra Fotos"],
+      ["Indigo link", "Indsæt et link til en videofil"],
+      ["Orange pil", "Næste side"],
+      ["Blå afspil", "Afspil animationen, tryk igen for at stoppe"],
+      ["Buet pil", "Fortryd den sidste streg"],
+      ["Rød skraldespand", "Ryd hele siden (fortryd henter den tilbage)"],
+      ["Mikrofon", "Optag en stemme, mens animationen kører i ring"],
+      ["Videoikon", "Skjul videobaggrunden (lyserøde striber betyder kun tegninger)"],
+      ["Grøn gem", "Gem som video i Fotos"]
+    ],
+    "note": "Hold fingeren på et værks kort på hjemmeskærmen for at slette det. Tegninger, optagelse og hentet video slettes sammen med det."
+  },
+  "pricing": {
+    "title": "Masser at prøve gratis. Livstidsadgang, hvis I er vilde med det.",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "3 tegn efter-sæt (bold, kanin, blomst)",
+        "Gem 3 værker",
+        "Hent 1 video",
+        "Tomme flipbøger på op til 10 sider",
+        "Stemmeoptagelse på op til 15 sekunder",
+        "Stempler, farver, pensler og gem i Fotos"
+      ]
+    },
+    "pro": {
+      "name": "Livstidsadgang",
+      "items": [
+        "Alle tegn efter-sæt, også dem der kommer",
+        "Ingen grænser for værker, sider, videoer og optagetid",
+        "Intet Palang Book-kort til sidst i gemte videoer"
+      ],
+      "note": "Et engangskøb, ikke et abonnement. Virker med Familiedeling på alle familiens iPads."
+    },
+    "note": "Videoer, der gemmes gratis, slutter med et kort Palang Book-kort. Har du brugt Palang Book, før Livstidsadgang fandtes, er alt allerede låst op for dig."
+  },
+  "faq": {
+    "title": "Spørgsmål",
+    "items": [
+      {
+        "q": "Hvordan virker skabelonerne?",
+        "a": "De lyseblå streger er skabelonen. Barnet tegner oven på dem, og når du trykker på afspil, forsvinder skabelonen, og kun barnets streger bevæger sig. Efter omkring 20 sider er animationen færdig."
+      },
+      {
+        "q": "Jeg vil kun afspille og gemme tegningen, uden videoen.",
+        "a": "I et videoværk trykker du på videoikonet i værktøjslinjen øverst, så det bliver lyserødt med striber. Så viser både afspilning og lagring kun tegningen på hvid baggrund. Kun de tegnede scener afspilles, så nogle få tegninger oven på et langt klip giver en kort animation."
+      },
+      {
+        "q": "Hvor ender den færdige video?",
+        "a": "Tryk på den grønne gem-knap yderst til højre i værktøjslinjen, så gemmes en mp4-video i Fotos. Giv adgang til fotos, første gang du gemmer."
+      },
+      {
+        "q": "Hvordan tilføjer jeg en stemme?",
+        "a": "Tryk på mikrofonknappen for at optage, mens animationen kører i ring, og tryk på stop for at afslutte. Optager du igen, erstattes den gamle optagelse. Stemmen kommer med, når du gemmer videoen."
+      },
+      {
+        "q": "Et videolink vil ikke åbne.",
+        "a": "Tjek internetforbindelsen, og sørg for, at adressen peger direkte på en videofil (der ender på .mp4 eller lignende). Links til sider på videodelingstjenester kan ikke åbnes. Brug videoer, du selv har lavet, eller som er frie at bruge."
+      },
+      {
+        "q": "Min håndflade bliver ved med at sætte mærker.",
+        "a": "Den buede pil fjerner den sidste streg, og den røde skraldespand rydder hele siden (fortryd henter den tilbage). Sker det tit, så skriv til os, så hjælper vi."
+      },
+      {
+        "q": "Hvorfor kommer der et regnestykke før købsskærmen?",
+        "a": "Så børn ikke selv kan komme ind på købsskærmen. Når et barn trykker på noget låst, vises en stor hængelås med teksten „Vis det her til en voksen“, og købsskærmen åbner først, når en voksen har løst et gangestykke."
+      },
+      {
+        "q": "Hvordan gendanner jeg mit køb?",
+        "a": "Tryk på tandhjulet øverst til højre på hjemmeskærmen, vælg Livstidsadgang, svar på voksenspørgsmålet, og tryk på Gendan køb. Du skal være logget ind med den samme Apple-konto, som du købte med."
+      },
+      {
+        "q": "Hvordan sender jeg feedback fra appen?",
+        "a": "Tryk på tandhjulet på hjemmeskærmen, og vælg Send feedback. Du kan vedhæfte et skærmbillede og skrive navn og e-mail, hvis du gerne vil have svar. Vi beder om, at det er en forælder, der sender feedback."
+      },
+      {
+        "q": "Indsamler I oplysninger om mit barn?",
+        "a": "Nej. Palang Book indsamler ingen personoplysninger, og tegninger og optagelser bliver på din iPad. Læs mere i privatlivspolitikken."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Få dagens tegning\ntil at bevæge sig",
+    "cta": "Hent gratis i App Store"
+  },
+  "ui": {
+    "skip": "Gå til indhold",
+    "languages": "Sprog",
+    "privacy": "Privatlivspolitik",
+    "contact": "Spørgsmål eller problemer? Skriv til {email}. Vi svarer som regel inden for 2 til 3 dage."
+  }
+}

@@ -1,102 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Palang Book — 子ども向けパラパラアニメお絵かき</title>
-<meta name="description" content="1枚ずつなぞって描けば、自分の絵が動き出す。 Palang Book は、iPad で遊べる子ども向けのパラパラアニメアプリです。うすい下絵を1枚ずつなぞって描き、再生ボタンを押すと、下絵は消えてお子さまが描いた線だけが動き出します。ボタンはすべて絵だけなので、まだ字が読めない小さなお子さまでも、指や Apple Pencil でひとりで遊べます。">
-<link rel="canonical" href="https://m1zz.github.io/RotoscopeIPad/ja/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/RotoscopeIPad/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/RotoscopeIPad/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/RotoscopeIPad/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/RotoscopeIPad/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/RotoscopeIPad/zh-Hant/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/RotoscopeIPad/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/RotoscopeIPad/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/RotoscopeIPad/fr/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/RotoscopeIPad/pt-BR/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/RotoscopeIPad/it/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/RotoscopeIPad/en/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/RotoscopeIPad/ru/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/RotoscopeIPad/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/RotoscopeIPad/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/RotoscopeIPad/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/RotoscopeIPad/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/RotoscopeIPad/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/RotoscopeIPad/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/RotoscopeIPad/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/RotoscopeIPad/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/RotoscopeIPad/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/RotoscopeIPad/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/RotoscopeIPad/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/RotoscopeIPad/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/RotoscopeIPad/">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Palang Book: 子どもの絵がパラパラ動く iPad のパラパラ漫画アプリ</title>
+  <meta name="description" content="うすい下絵を1枚ずつなぞって再生すると、子どもの絵だけが動くアニメに。字が読めなくても使える絵のボタン、スタンプ、声の録音。なぞり描き3セットは無料です。">
+  <meta name="theme-color" content="#B85400" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6789852144">
+  <link rel="canonical" href="https://m1zz.github.io/RotoscopeIPad/ja/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/RotoscopeIPad/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/RotoscopeIPad/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/RotoscopeIPad/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/RotoscopeIPad/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/RotoscopeIPad/zh-Hant/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/RotoscopeIPad/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/RotoscopeIPad/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/RotoscopeIPad/fr/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/RotoscopeIPad/pt-BR/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/RotoscopeIPad/it/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/RotoscopeIPad/ru/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/RotoscopeIPad/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/RotoscopeIPad/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/RotoscopeIPad/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/RotoscopeIPad/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/RotoscopeIPad/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/RotoscopeIPad/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/RotoscopeIPad/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/RotoscopeIPad/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/RotoscopeIPad/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/RotoscopeIPad/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/RotoscopeIPad/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/RotoscopeIPad/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/RotoscopeIPad/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Palang Book: 子どもの絵がパラパラ動く iPad のパラパラ漫画アプリ">
+  <meta property="og:description" content="うすい下絵を1枚ずつなぞって再生すると、子どもの絵だけが動くアニメに。字が読めなくても使える絵のボタン、スタンプ、声の録音。なぞり描き3セットは無料です。">
+  <meta property="og:url" content="https://m1zz.github.io/RotoscopeIPad/ja/">
+  <meta property="og:image" content="https://m1zz.github.io/RotoscopeIPad/img/ja/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#B85400}@media (prefers-color-scheme:dark){:root{--accent:#FF9F0A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<main>
-  <nav class="langs" aria-label="言語"><ul>
-    <li><a href="../" hreflang="ko" lang="ko">한국어</a></li>
-    <li><a href="../en/" hreflang="en" lang="en">English</a></li>
-    <li><span aria-current="page" lang="ja">日本語</span></li>
-    <li><a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
-    <li><a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
-    <li><a href="../es/" hreflang="es" lang="es-419">Español</a></li>
-    <li><a href="../de/" hreflang="de" lang="de">Deutsch</a></li>
-    <li><a href="../fr/" hreflang="fr" lang="fr">Français</a></li>
-    <li><a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li>
-    <li><a href="../it/" hreflang="it" lang="it">Italiano</a></li>
-    <li><a href="../ru/" hreflang="ru" lang="ru">Русский</a></li>
-    <li><a href="../th/" hreflang="th" lang="th">ไทย</a></li>
-    <li><a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a></li>
-    <li><a href="../cs/" hreflang="cs" lang="cs">Čeština</a></li>
-    <li><a href="../da/" hreflang="da" lang="da">Dansk</a></li>
-    <li><a href="../el/" hreflang="el" lang="el">Ελληνικά</a></li>
-    <li><a href="../fi/" hreflang="fi" lang="fi">Suomi</a></li>
-    <li><a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a></li>
-    <li><a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a></li>
-    <li><a href="../nl/" hreflang="nl" lang="nl">Nederlands</a></li>
-    <li><a href="../pl/" hreflang="pl" lang="pl">Polski</a></li>
-    <li><a href="../sv/" hreflang="sv" lang="sv">Svenska</a></li>
-    <li><a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></li>
-  </ul></nav>
-  <div class="logo">📖✏️</div>
-  <h1>Palang Book</h1>
-  <p class="sub">1枚ずつなぞって描けば、自分の絵が動き出す。</p>
+  <a class="skip" href="#main">本文へスキップ</a>
+  <header class="bar">
+    <a class="brand" href="../ja/"><img src="../icon.png" alt="" width="32" height="32">Palang Book</a>
+    <a class="lang-link" href="#languages">言語</a>
+  </header>
 
-  <p>Palang Book は、iPad で遊べる子ども向けのパラパラアニメアプリです。うすい下絵を1枚ずつなぞって描き、再生ボタンを押すと、下絵は消えてお子さまが描いた線だけが動き出します。ボタンはすべて絵だけなので、まだ字が読めない小さなお子さまでも、指や Apple Pencil でひとりで遊べます。</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>なぞった絵が<br>パラパラ動く</h1>
+        <p class="lead">うすい下絵を1枚ずつなぞって再生ボタンを押すと、下絵は消えて、子どもが描いた線だけが動き出します。ボタンはすべて絵なので、まだ字が読めなくてもひとりで遊べます。</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6789852144">App Storeで無料ダウンロード</a><a class="try" href="#try">1枚ずつ描いてみよう ↓</a></div>
+        <p class="muted small">iPad 専用です。なぞり描き3セットは無料です。</p>
+      </div>
+      <div class="plain"><img src="../img/ja/01-trace-bunny.jpg" alt="なぞった絵が パラパラ動く" width="720" height="960" decoding="async"></div>
+    </section>
 
-  <h2>できること</h2>
-  <ul class="features">
-    <li><strong>なぞって描ける10種類の下絵</strong><br>はずむボール、ぴょんぴょん跳ねるウサギ、空を飛ぶ鳥、泳ぐ魚、咲く花、チョウチョ、走る車、飛び立つロケット、カエル、かざぐるま。どのセットにも約20枚の下絵が入っています。前のページの絵がうっすら透けて見えるので、次の1枚もつなげて描きやすくなっています。</li>
-    <li><strong>自分の動画の上に描く</strong><br>カメラで撮った動画や「写真」アプリの動画、動画ファイルのリンクを読み込んで、その上からなぞって描けます。背景を隠すと、絵を描いたページだけが白い紙の上で再生されます。</li>
-    <li><strong>まっさらなパラパラ帳</strong><br>下絵なしの白い紙に自由に描いて、ページをめくりながらオリジナルのパラパラマンガを作れます。</li>
-    <li><strong>スタンプと色</strong><br>ハート、まる、しかく、さんかく、星、花、車、鳥のスタンプ（大きさは3段階）、10色の絵の具、3種類の筆の太さ。消しゴム、ひとつ戻る、ページをまるごと消すボタンもあります。</li>
-    <li><strong>声を録音</strong><br>マイクを押すと、アニメーションがくり返し再生されている間にお子さまの声を録音して、作品に入れられます。</li>
-    <li><strong>「写真」アプリに保存</strong><br>できあがったアニメーションは動画として「写真」アプリに保存されるので、家族にも見せられます。</li>
-    <li><strong>作品はすべて iPad の中に</strong><br>アカウント登録も広告も追跡もありません。描いた絵や録音した声が端末の外に出ることはありません。</li>
-  </ul>
 
-  <h2>無料で試せて、買い切りプランですべて開放</h2>
-  <p>無料のままでも、なぞり描きの下絵3セット、作品3つの保存、動画の読み込み1回、白紙のパラパラ帳10ページまで、声の録音15秒までを使えます。<strong>買い切りプラン</strong>は、一度購入すればすべての機能がずっと使えるようになります。サブスクリプションではなく、ファミリー共有にも対応しています。購入画面は、大人がかんたんな計算問題に答えないと開きません。</p>
+    <section class="reveal" id="try">
+      <h2>1枚ずつ描いてみよう</h2>
+      <p class="muted">1枚描いたら、オレンジの矢印で次のページへ。前のページがうっすら透けて見えます。2〜3枚描いたら、青い再生ボタンを押してみてください。</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;1枚ずつ描いてみよう&quot;, &quot;lead&quot;: &quot;1枚描いたら、オレンジの矢印で次のページへ。前のページがうっすら透けて見えます。2〜3枚描いたら、青い再生ボタンを押してみてください。&quot;, &quot;hint&quot;: &quot;ここに指やマウスで描いてみてね&quot;, &quot;canvas&quot;: &quot;お絵かきの紙&quot;, &quot;colors&quot;: &quot;色&quot;, &quot;undo&quot;: &quot;取り消す&quot;, &quot;clear&quot;: &quot;このページを消す&quot;, &quot;play&quot;: &quot;再生&quot;, &quot;stop&quot;: &quot;停止&quot;, &quot;prev&quot;: &quot;前のページ&quot;, &quot;next&quot;: &quot;次のページ&quot;, &quot;note&quot;: &quot;アプリの白紙のパラパラ漫画と同じしくみで、1秒に8枚めくれます。アプリでは、下絵のなぞり描き、スタンプ、声の録音、動画の保存までできます。&quot;}"></div>
+    </section>
 
-  <h2>お問い合わせ</h2>
-  <div class="contact">
-    <strong>お問い合わせ</strong><br>
-    わからないことや不具合があれば、いつでもメールでご連絡ください。<br>
-    📮 <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a><br>
-    <span class="sub">通常2〜3日以内にお返事します。</span>
-  </div>
+    <section class="problem reveal">
+      <h2>せっかく描いた絵、1枚で終わらせるのはもったいなくないですか？</h2>
+      <p>アニメーションは、少しずつ違う絵を何枚も描かなければならないので、子どもひとりではどこから描けばいいのか迷ってしまいます。Palang Book は動きの入ったうすい下絵を用意しているので、子どもは線をなぞるだけ。再生を押した瞬間、自分の絵が動くのを目にします。</p>
+    </section>
 
-  <h2>サポートとプライバシー</h2>
-  <ul>
-    <li><a href="support.html">サポート・よくある質問</a></li>
-    <li><a href="privacy.html">プライバシーポリシー</a></li>
-  </ul>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>なぞるだけでアニメーション</h2>
+        <p>はずむボール、ぴょんと跳ねるウサギ、空を飛ぶ鳥、泳ぐ魚、咲いていく花、ちょうちょ、走る車、飛び立つロケット、カエル、かざぐるま。各セットに約20枚の下絵が入っています。<br>前のページの絵がうっすら透けて見えるので続きを描きやすく、再生すると下絵は消えて子どもの絵だけが動きます。</p>
+      </div>
+      <div class="plain"><img src="../img/ja/02-trace-rocket.jpg" alt="なぞるだけでアニメーション" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>スタンプをポン、色は10色</h2>
+        <p>ハート、まる、しかく、さんかく、星、花、車、鳥のスタンプをポンと押して飾れます。スタンプの大きさと筆の太さは3種類ずつ、色は10色です。<br>消しゴムと取り消しがあるので、まちがえてもすぐに描き直せます。指でも Apple Pencil でも描けます。</p>
+      </div>
+      <div class="plain"><img src="../img/ja/03-stamps-fish.jpg" alt="スタンプをポン、色は10色" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>自分の動画の上にも、白い紙にも</h2>
+        <p>撮影した動画や写真アプリの動画を読み込んで、その上からなぞれます。背景を隠すと、絵を描いた場面だけが白い紙の上で続けて再生されます。下絵なしで白い紙に自由に描くパラパラ漫画もあります。<br>マイクを押せば子どもの声も録音していっしょに残せて、完成した作品は動画として写真アプリに保存し、家族と共有できます。</p>
+      </div>
+      <div class="plain"><img src="../img/ja/04-home.jpg" alt="自分の動画の上にも、白い紙にも" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>はじめかたは3ステップ</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>下絵カードをタップ</h3><p>ホーム画面のオレンジの点線カードがなぞり描きです。</p></li>
+<li class="card"><span class="n">2</span><h3>1枚描いてめくる</h3><p>オレンジの矢印を押すと次のページへ進みます。</p></li>
+<li class="card"><span class="n">3</span><h3>再生を押す</h3><p>青い再生ボタンを押すと、自分の絵が動きます。</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>ボタンの案内</h2>
+      <div class="card table">
+        <dl><div><dt>オレンジの点線カード</dt><dd>なぞり描きを始める</dd></div><div><dt>グレーの点線カード</dt><dd>白紙のパラパラ漫画</dd></div><div><dt>青いカメラ</dt><dd>撮影した動画に描く</dd></div><div><dt>緑のビデオ</dt><dd>写真アプリの動画を読み込む</dd></div><div><dt>藍色のリンク</dt><dd>動画ファイルのリンクを貼り付けて開く</dd></div><div><dt>オレンジの矢印</dt><dd>次のページへ</dd></div><div><dt>青い再生</dt><dd>アニメを再生、もう一度押すと停止</dd></div><div><dt>曲がった矢印</dt><dd>最後の線を取り消す</dd></div><div><dt>赤いゴミ箱</dt><dd>このページをまるごと消す（取り消しで元に戻せます）</dd></div><div><dt>マイク</dt><dd>くり返し再生の間に声を録音</dd></div><div><dt>ビデオのアイコン</dt><dd>動画の背景を隠す（ピンクの斜線になると絵だけを再生）</dd></div><div><dt>緑の保存</dt><dd>写真アプリに動画として保存</dd></div></dl>
+      </div>
+      <p class="muted">作品を削除するときは、ホーム画面で作品のカードを長押ししてください。絵、録音、読み込んだ動画もいっしょに削除されます。</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>まずは無料でたっぷり。気に入ったら買い切りプランを</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>無料</h3>
+          <ul><li>なぞり描き3セット（ボール、ウサギ、花）</li><li>作品の保存3つまで</li><li>動画の読み込み1回</li><li>白紙のパラパラ漫画10枚まで</li><li>声の録音15秒まで</li><li>スタンプ、色、筆、写真アプリへの保存</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>買い切りプラン</h3>
+          <ul><li>なぞり描きの全セット、これから出るセットも</li><li>作品数、ページ数、動画、録音時間の制限なし</li><li>保存した動画の最後の Palang Book カードなし</li></ul>
+          <p class="muted">サブスクリプションではない、一度きりの購入です。ファミリー共有で、家族の iPad でもいっしょに使えます。</p>
+        </div>
+      </div>
+      <p class="muted">無料で保存した動画の最後には、短い Palang Book のカードが入ります。買い切りプランが登場する前から Palang Book をお使いの方は、すべての機能がそのまま使えます。</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>よくある質問</h2>
+      <div class="faq"><details><summary>下絵はどう使うのですか？</summary><p>うすい水色の線が下絵です。お子さまはその上をなぞって描くだけ。再生を押すと下絵は消えて、お子さまが描いた線だけが動きます。約20枚を描き終えたら完成です。</p></details>
+<details><summary>動画なしで、絵だけを再生・保存したいです。</summary><p>動画の作品で、上のツールバーにあるビデオのアイコンをタップしてピンクの斜線にすると、再生でも保存でも白い背景に絵だけが表示されます。絵を描いた場面だけをつないで再生するので、長い動画に数枚描くだけでも短いアニメーションになります。</p></details>
+<details><summary>できあがった動画はどこに保存されますか？</summary><p>ツールバー右端の緑の保存ボタンを押すと、mp4 の動画が写真アプリに保存されます。初めて保存するときは、写真へのアクセスを許可してください。</p></details>
+<details><summary>声はどうやって入れるのですか？</summary><p>マイクのボタンを押すと、アニメーションがくり返し再生される間に声が録音され、停止ボタンを押すと録音が終わります。録音し直すと前の録音は上書きされます。保存すると、動画に声もいっしょに入ります。</p></details>
+<details><summary>動画のリンクが開けません。</summary><p>インターネットに接続されているか、貼り付けたアドレスが動画ファイルそのもののリンク（末尾が .mp4 などのアドレス）になっているかを確認してください。動画共有サイトのページのリンクは開けません。著作権に配慮して、ご自身で撮影した動画や自由に使える動画をご利用ください。</p></details>
+<details><summary>手のひらが触れて線が引かれてしまいます。</summary><p>曲がった矢印で最後の線を消せます。赤いゴミ箱はページをまるごと消せて、取り消しで元に戻すこともできます。何度も起きる場合はメールでお知らせください。お手伝いします。</p></details>
+<details><summary>購入画面の前に、なぜ計算問題が出るのですか？</summary><p>お子さまがひとりで購入画面に進まないようにするためです。お子さまが鍵のかかったものを押すと、大きな鍵と「おとなの人に見せてね」が表示され、大人がかけ算の答えを入力すると購入画面が開きます。</p></details>
+<details><summary>購入を復元するには？</summary><p>ホーム画面右上の歯車をタップし、買い切りプランを選んで大人向けの問題に答えたあと、購入を復元をタップしてください。購入したときと同じ Apple アカウントでサインインしている必要があります。</p></details>
+<details><summary>アプリからフィードバックを送るには？</summary><p>ホーム画面の歯車をタップし、フィードバックを送るを選んでください。スクリーンショットを添付でき、返信をご希望の場合はお名前とメールアドレスを入力してください。フィードバックは保護者の方が送ってください。</p></details>
+<details><summary>子どもの情報を集めていますか？</summary><p>いいえ。Palang Book は個人情報を一切集めません。絵と録音はこの iPad の中だけに保存されます。くわしくはプライバシーポリシーをご覧ください。</p></details></div>
+      <p class="contact">ご質問や不具合は <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> までメールでご連絡ください。通常2〜3日以内にお返事します。</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>今日描いた絵を<br>動かしてみよう</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6789852144">App Storeで無料ダウンロード</a>
+    </section>
+  </main>
 
   <footer>
-    © 2026 Palang Book · <span aria-current="page">ホーム</span> · <a href="support.html">サポート</a> · <a href="privacy.html">プライバシーポリシー</a>
+    <nav id="languages" class="langs" aria-label="言語"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja" aria-current="page">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">プライバシーポリシー</a> · <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> · © 2026 Palang Book</p>
   </footer>
-</main>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

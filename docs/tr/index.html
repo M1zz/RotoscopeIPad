@@ -1,102 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Palang Book — Çocuklar için flipbook animasyonu</title>
-<meta name="description" content="Sayfa sayfa üstünden çizin ve çiziminizin canlanışını izleyin. Palang Book, iPad’de çocuklar için flipbook animasyonu yapan bir uygulamadır. Çocuk, soluk bir kılavuz çizimin üstünden sayfa sayfa çizer ve Oynat’a basar: kılavuz kaybolur, yalnızca kendi çizimi hareket eder. Her düğme bir resim olduğundan, henüz okuma bilmeyen çocuklar bile uygulamayı kendi başına kullanabilir; parmakla ya da Apple Pencil ile.">
-<link rel="canonical" href="https://m1zz.github.io/RotoscopeIPad/tr/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/RotoscopeIPad/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/RotoscopeIPad/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/RotoscopeIPad/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/RotoscopeIPad/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/RotoscopeIPad/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/RotoscopeIPad/zh-Hant/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/RotoscopeIPad/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/RotoscopeIPad/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/RotoscopeIPad/fr/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/RotoscopeIPad/pt-BR/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/RotoscopeIPad/it/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/RotoscopeIPad/ru/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/RotoscopeIPad/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/RotoscopeIPad/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/RotoscopeIPad/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/RotoscopeIPad/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/RotoscopeIPad/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/RotoscopeIPad/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/RotoscopeIPad/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/RotoscopeIPad/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/RotoscopeIPad/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/RotoscopeIPad/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/RotoscopeIPad/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/RotoscopeIPad/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/RotoscopeIPad/">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Palang Book: çocukların çizimlerini canlandıran iPad flipbook uygulaması</title>
+  <meta name="description" content="Soluk kılavuzun üstünden sayfa sayfa çizin, Oynat&#x27;a basın, yalnızca çocuğun çizimi canlansın. Resimli düğmeler, damgalar, ses kaydı. 3 set ücretsiz.">
+  <meta name="theme-color" content="#B85400" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6789852144">
+  <link rel="canonical" href="https://m1zz.github.io/RotoscopeIPad/tr/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/RotoscopeIPad/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/RotoscopeIPad/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/RotoscopeIPad/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/RotoscopeIPad/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/RotoscopeIPad/zh-Hant/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/RotoscopeIPad/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/RotoscopeIPad/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/RotoscopeIPad/fr/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/RotoscopeIPad/pt-BR/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/RotoscopeIPad/it/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/RotoscopeIPad/ru/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/RotoscopeIPad/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/RotoscopeIPad/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/RotoscopeIPad/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/RotoscopeIPad/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/RotoscopeIPad/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/RotoscopeIPad/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/RotoscopeIPad/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/RotoscopeIPad/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/RotoscopeIPad/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/RotoscopeIPad/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/RotoscopeIPad/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/RotoscopeIPad/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/RotoscopeIPad/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Palang Book: çocukların çizimlerini canlandıran iPad flipbook uygulaması">
+  <meta property="og:description" content="Soluk kılavuzun üstünden sayfa sayfa çizin, Oynat&#x27;a basın, yalnızca çocuğun çizimi canlansın. Resimli düğmeler, damgalar, ses kaydı. 3 set ücretsiz.">
+  <meta property="og:url" content="https://m1zz.github.io/RotoscopeIPad/tr/">
+  <meta property="og:image" content="https://m1zz.github.io/RotoscopeIPad/img/tr/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#B85400}@media (prefers-color-scheme:dark){:root{--accent:#FF9F0A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<main>
-  <nav class="langs" aria-label="Dil"><ul>
-    <li><a href="../" hreflang="ko" lang="ko">한국어</a></li>
-    <li><a href="../en/" hreflang="en" lang="en">English</a></li>
-    <li><a href="../ja/" hreflang="ja" lang="ja">日本語</a></li>
-    <li><a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
-    <li><a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
-    <li><a href="../es/" hreflang="es" lang="es-419">Español</a></li>
-    <li><a href="../de/" hreflang="de" lang="de">Deutsch</a></li>
-    <li><a href="../fr/" hreflang="fr" lang="fr">Français</a></li>
-    <li><a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li>
-    <li><a href="../it/" hreflang="it" lang="it">Italiano</a></li>
-    <li><a href="../ru/" hreflang="ru" lang="ru">Русский</a></li>
-    <li><a href="../th/" hreflang="th" lang="th">ไทย</a></li>
-    <li><a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a></li>
-    <li><a href="../cs/" hreflang="cs" lang="cs">Čeština</a></li>
-    <li><a href="../da/" hreflang="da" lang="da">Dansk</a></li>
-    <li><a href="../el/" hreflang="el" lang="el">Ελληνικά</a></li>
-    <li><a href="../fi/" hreflang="fi" lang="fi">Suomi</a></li>
-    <li><a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a></li>
-    <li><a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a></li>
-    <li><a href="../nl/" hreflang="nl" lang="nl">Nederlands</a></li>
-    <li><a href="../pl/" hreflang="pl" lang="pl">Polski</a></li>
-    <li><a href="../sv/" hreflang="sv" lang="sv">Svenska</a></li>
-    <li><span aria-current="page" lang="tr">Türkçe</span></li>
-  </ul></nav>
-  <div class="logo">📖✏️</div>
-  <h1>Palang Book</h1>
-  <p class="sub">Sayfa sayfa üstünden çizin ve çiziminizin canlanışını izleyin.</p>
+  <a class="skip" href="#main">İçeriğe geç</a>
+  <header class="bar">
+    <a class="brand" href="../tr/"><img src="../icon.png" alt="" width="32" height="32">Palang Book</a>
+    <a class="lang-link" href="#languages">Dil</a>
+  </header>
 
-  <p>Palang Book, iPad’de çocuklar için flipbook animasyonu yapan bir uygulamadır. Çocuk, soluk bir kılavuz çizimin üstünden sayfa sayfa çizer ve Oynat’a basar: kılavuz kaybolur, yalnızca kendi çizimi hareket eder. Her düğme bir resim olduğundan, henüz okuma bilmeyen çocuklar bile uygulamayı kendi başına kullanabilir; parmakla ya da Apple Pencil ile.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Üstünden çiz,<br>çizimin canlansın</h1>
+        <p class="lead">Çocuk soluk bir kılavuzun üstünden sayfa sayfa çizer. Oynat'a bastığında kılavuz kaybolur, yalnızca kendi çizgileri hareket eder. Her düğme bir resim olduğu için okumayı bilmeden de kendi başına yapabilir.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6789852144">App Store'dan ücretsiz indir</a><a class="try" href="#try">Birkaç sayfa çizin ↓</a></div>
+        <p class="muted small">iPad için. Üç üzerinden çizme seti ücretsiz.</p>
+      </div>
+      <div class="plain"><img src="../img/tr/01-trace-bunny.jpg" alt="Üstünden çiz, çizimin canlansın" width="720" height="960" decoding="async"></div>
+    </section>
 
-  <h2>Uygulamada neler var</h2>
-  <ul class="features">
-    <li><strong>10 üzerinden çizme seti</strong><br>Zıplayan bir top, hoplayan bir tavşan, uçan bir kuş, yüzen bir balık, açan bir çiçek, bir kelebek, bir yarış arabası, bir roket, bir kurbağa ve bir rüzgâr gülü. Her sette yaklaşık 20 kılavuz sayfa bulunur; önceki sayfa altta hafifçe görünür, bu yüzden sıradaki çizimi hizalamak kolaydır.</li>
-    <li><strong>Kendi videolarınızın üzerine çizin</strong><br>Kamerayla bir video çekin, Fotoğraflar uygulamasından bir tane seçin veya bir video dosyasının bağlantısını açın ve üstünden çizin. Arka planı gizlerseniz yalnızca çizdiğiniz sayfalar, temiz beyaz kâğıt üzerinde oynatılır.</li>
-    <li><strong>Boş flipbook</strong><br>Kılavuz yok, yalnızca beyaz sayfalar. Çizin, sayfayı çevirin ve sıfırdan bir flipbook oluşturun.</li>
-    <li><strong>Damgalar ve renkler</strong><br>Kalp, daire, kare, üçgen, yıldız, çiçek, araba ve kuş damgaları üç boyutta, on renk ve üç fırça kalınlığı; ayrıca silgi, geri alma ve tüm sayfayı temizleyen bir düğme.</li>
-    <li><strong>Ses kaydı</strong><br>Mikrofona dokunun; çocuğunuzun sesi doğrudan animasyona kaydedilirken animasyon tekrar tekrar oynar.</li>
-    <li><strong>Fotoğraflar’a kaydet</strong><br>Tamamlanan animasyonlar Fotoğraflar uygulamasına video olarak kaydedilir ve aileyle paylaşılmaya hazırdır.</li>
-    <li><strong>Çizimler iPad’inizde kalır</strong><br>Hesap, reklam ve izleme yok. Çizimler ve kayıtlar cihazdan asla ayrılmaz.</li>
-  </ul>
 
-  <h2>Ücretsiz deneyin, tek bir Ömür Boyu Erişim</h2>
-  <p>Ödeme yapmadan 3 üzerinden çizme setini kullanabilir, 3 çalışma saklayabilir, 1 video getirebilir, boş bir flipbook’a en fazla 10 sayfa çizebilir ve en fazla 15 saniye ses kaydedebilirsiniz. <strong>Ömür Boyu Erişim</strong>, her şeyi sonsuza dek açan tek seferlik bir satın almadır. Abonelik değildir ve Aile Paylaşımı ile çalışır. Satın alma ekranı yalnızca bir yetişkin kısa bir matematik sorusunu çözdükten sonra açılır.</p>
+    <section class="reveal" id="try">
+      <h2>Birkaç sayfa çizin</h2>
+      <p class="muted">Bir şey çizin, sonra sonraki sayfa için turuncu oka dokunun. Önceki sayfa hafifçe görünür. İki üç sayfa çizdikten sonra mavi Oynat düğmesine dokunun.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Birkaç sayfa çizin&quot;, &quot;lead&quot;: &quot;Bir şey çizin, sonra sonraki sayfa için turuncu oka dokunun. Önceki sayfa hafifçe görünür. İki üç sayfa çizdikten sonra mavi Oynat düğmesine dokunun.&quot;, &quot;hint&quot;: &quot;Buraya parmağınızla ya da fareyle çizin&quot;, &quot;canvas&quot;: &quot;Çizim kâğıdı&quot;, &quot;colors&quot;: &quot;Renkler&quot;, &quot;undo&quot;: &quot;Geri al&quot;, &quot;clear&quot;: &quot;Bu sayfayı temizle&quot;, &quot;play&quot;: &quot;Oynat&quot;, &quot;stop&quot;: &quot;Durdur&quot;, &quot;prev&quot;: &quot;Önceki sayfa&quot;, &quot;next&quot;: &quot;Sonraki sayfa&quot;, &quot;note&quot;: &quot;Bu, uygulamadaki boş flipbook gibi saniyede 8 sayfa çalışır. Uygulamada ayrıca kılavuzların üstünden çizebilir, damga ekleyebilir, ses kaydedebilir ve hepsini video olarak saklayabilirsiniz.&quot;}"></div>
+    </section>
 
-  <h2>İletişim</h2>
-  <div class="contact">
-    <strong>Bize ulaşın</strong><br>
-    Sorularınız veya sorunlarınız mı var? İstediğiniz zaman e-posta gönderin.<br>
-    📮 <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a><br>
-    <span class="sub">Genellikle 2–3 gün içinde yanıt veriyoruz.</span>
-  </div>
+    <section class="problem reveal">
+      <h2>Bu güzel çizimin öylece durması yazık olmaz mı?</h2>
+      <p>Animasyon, neredeyse aynı resmi küçük değişikliklerle tekrar tekrar çizmek demektir ve çocuklar tek başlarına nereden başlayacaklarını bilemez. Palang Book, hareketi zaten içinde taşıyan soluk bir kılavuz serer, çocuğa yalnızca çizgiyi takip etmek kalır. Oynat'a bastığı anda çizimi hareket eder.</p>
+    </section>
 
-  <h2>Yardım ve gizlilik</h2>
-  <ul>
-    <li><a href="support.html">Destek ve sık sorulan sorular</a></li>
-    <li><a href="privacy.html">Gizlilik Politikası</a></li>
-  </ul>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Çizgiyi takip et, animasyon hazır</h2>
+        <p>Zıplayan bir top, hoplayan bir tavşan, uçan bir kuş, yüzen bir balık, açan bir çiçek, bir kelebek, bir yarış arabası, bir roket, bir kurbağa ve bir rüzgâr gülü. Her sette yaklaşık 20 kılavuz sayfa var.<br>Önceki sayfa hafifçe göründüğü için sıradakini çizmek kolaydır. Oynatınca kılavuz kaybolur ve yalnızca çocuğunuzun çizimi hareket eder.</p>
+      </div>
+      <div class="plain"><img src="../img/tr/02-trace-rocket.jpg" alt="Çizgiyi takip et, animasyon hazır" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Damgalar ve on renk</h2>
+        <p>Kalp, daire, kare, üçgen, yıldız, çiçek, araba ve kuş damgalarını dokunarak basın. Damgalar ve fırçalar üçer boyutta, renkler ise tam on tane.<br>Silgi ve geri alma sayesinde hatalar kolayca düzelir. Parmakla ya da Apple Pencil ile çizin.</p>
+      </div>
+      <div class="plain"><img src="../img/tr/03-stamps-fish.jpg" alt="Damgalar ve on renk" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Kendi videolarınızın üstüne ya da boş kâğıda</h2>
+        <p>Kendi çektiğiniz bir videoyu veya Fotoğraflar'dan bir videoyu getirip üstünden çizin. Arka planı gizleyince yalnızca çizilen sahneler beyaz kâğıt üzerinde art arda oynatılır. Hiç kılavuz olmayan boş bir flipbook da var.<br>Mikrofona dokunup çocuğunuzun sesini de kaydedin, bitmiş eseri video olarak Fotoğraflar'a kaydedip ailenizle paylaşın.</p>
+      </div>
+      <div class="plain"><img src="../img/tr/04-home.jpg" alt="Kendi videolarınızın üstüne ya da boş kâğıda" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Üç adımda başlayın</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Bir kılavuz kartına dokunun</h3><p>Ana ekrandaki turuncu kesik çizgili kartlar üzerinden çizme setleridir.</p></li>
+<li class="card"><span class="n">2</span><h3>Çizin, sayfayı çevirin</h3><p>Turuncu ok sizi sonraki sayfaya götürür.</p></li>
+<li class="card"><span class="n">3</span><h3>Oynat'a dokunun</h3><p>Mavi Oynat düğmesine dokunun, çizim hareket etsin.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Düğmeler ne işe yarar</h2>
+      <div class="card table">
+        <dl><div><dt>Turuncu kesik çizgili kart</dt><dd>Üzerinden çizmeye başla</dd></div><div><dt>Gri kesik çizgili kart</dt><dd>Boş flipbook</dd></div><div><dt>Mavi kamera</dt><dd>Video çek, üstüne çiz</dd></div><div><dt>Yeşil video</dt><dd>Fotoğraflar'dan video getir</dd></div><div><dt>Çivit mavisi bağlantı</dt><dd>Bir video dosyasının bağlantısını yapıştır</dd></div><div><dt>Turuncu ok</dt><dd>Sonraki sayfa</dd></div><div><dt>Mavi Oynat</dt><dd>Animasyonu oynat, durdurmak için tekrar dokun</dd></div><div><dt>Kıvrık ok</dt><dd>Son çizgiyi geri al</dd></div><div><dt>Kırmızı çöp kutusu</dt><dd>Tüm sayfayı temizle (geri al ile geri gelir)</dd></div><div><dt>Mikrofon</dt><dd>Animasyon tekrar ederken ses kaydet</dd></div><div><dt>Video simgesi</dt><dd>Video arka planını gizle (pembe ve çizgiliyse yalnızca çizimler)</dd></div><div><dt>Yeşil kaydet</dt><dd>Fotoğraflar'a video olarak kaydet</dd></div></dl>
+      </div>
+      <p class="muted">Bir çalışmayı silmek için ana ekranda kartına dokunup basılı tutun. Çizimleri, ses kaydı ve getirilen video da birlikte silinir.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Ücretsiz deneyecek çok şey var. Sevdiyseniz Ömür Boyu Erişim.</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Ücretsiz</h3>
+          <ul><li>3 üzerinden çizme seti (top, tavşan, çiçek)</li><li>3 çalışma saklama</li><li>1 video getirme</li><li>10 sayfaya kadar boş flipbook</li><li>15 saniyeye kadar ses kaydı</li><li>Damgalar, renkler, fırçalar ve Fotoğraflar'a kaydetme</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Ömür Boyu Erişim</h3>
+          <ul><li>Gelecekte çıkacaklar dâhil tüm üzerinden çizme setleri</li><li>Çalışma, sayfa, video ve kayıt süresinde sınır yok</li><li>Kaydedilen videoların sonunda Palang Book kartı yok</li></ul>
+          <p class="muted">Abonelik değil, tek seferlik satın alma. Aile Paylaşımı ile ailedeki her iPad'de çalışır.</p>
+        </div>
+      </div>
+      <p class="muted">Ücretsiz kaydedilen videolar kısa bir Palang Book kartıyla biter. Palang Book'u Ömür Boyu Erişim çıkmadan önce kullanıyorduysanız her şey zaten sizin için açık.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Sorular</h2>
+      <div class="faq"><details><summary>Kılavuzlar nasıl çalışır?</summary><p>Açık gök mavisi çizgiler kılavuzdur. Çocuğunuz bunların üstünden çizer. Oynat'a bastığınızda kılavuz kaybolur ve yalnızca onun çizgileri hareket eder. Yaklaşık 20 sayfayı bitirince animasyon hazırdır.</p></details>
+<details><summary>Videosuz, yalnızca çizimi oynatmak ve kaydetmek istiyorum.</summary><p>Bir video projesinde üstteki araç çubuğunda video simgesine dokunun, simge pembe ve çizgili olsun. Artık oynatma ve kaydetmede yalnızca beyaz zemindeki çizim görünür. Yalnızca çizilen sahneler oynatıldığı için uzun bir videonun üstündeki birkaç çizim kısa bir animasyona dönüşür.</p></details>
+<details><summary>Bitmiş video nereye kaydedilir?</summary><p>Araç çubuğunun sağ ucundaki yeşil kaydet düğmesine dokunun, mp4 videosu Fotoğraflar'a kaydedilir. İlk kaydedişte Fotoğraflar erişimine izin verin.</p></details>
+<details><summary>Nasıl ses eklerim?</summary><p>Animasyon tekrar ederken kayıt için mikrofon düğmesine, bitirmek için durdur düğmesine dokunun. Yeniden kaydetmek eski kaydın yerine geçer. Videoyu kaydettiğinizde ses de içinde olur.</p></details>
+<details><summary>Bir video bağlantısı açılmıyor.</summary><p>İnternet bağlantınızı kontrol edin ve adresin doğrudan bir video dosyasına gittiğinden emin olun (.mp4 ya da benzeriyle biten). Video paylaşım sitelerindeki sayfa bağlantıları açılamaz. Lütfen kendi çektiğiniz ya da serbestçe kullanılabilen videoları kullanın.</p></details>
+<details><summary>Avucum sürekli iz bırakıyor.</summary><p>Kıvrık ok son çizgiyi siler, kırmızı çöp kutusu tüm sayfayı temizler (geri al ile geri gelir). Sık oluyorsa bize e-posta gönderin, yardımcı olalım.</p></details>
+<details><summary>Satın alma ekranından önce neden bir matematik sorusu var?</summary><p>Çocuklar satın alma ekranına kendi başlarına ulaşamasın diye. Çocuk kilitli bir şeye dokunduğunda büyük bir kilit ve bunu bir yetişkine göstermesini söyleyen bir not çıkar. Satın alma ekranı ancak bir yetişkin çarpma sorusunu yanıtlayınca açılır.</p></details>
+<details><summary>Satın alımımı nasıl geri yüklerim?</summary><p>Ana ekranın sağ üstündeki dişli simgesine dokunun, Ömür Boyu Erişim'i seçin, yetişkin sorusunu yanıtlayın ve Satın Alımları Geri Yükle'ye dokunun. Satın alırken kullandığınız Apple Hesabı ile oturum açmış olmanız gerekir.</p></details>
+<details><summary>Uygulamadan nasıl geri bildirim gönderirim?</summary><p>Ana ekrandaki dişli simgesine dokunun ve Geri Bildirim Gönder'i seçin. Ekran görüntüsü ekleyebilir, yanıt isterseniz ad ve e-posta bırakabilirsiniz. Geri bildirimi lütfen bir ebeveyn göndersin.</p></details>
+<details><summary>Çocuğum hakkında bilgi topluyor musunuz?</summary><p>Hayır. Palang Book hiçbir kişisel bilgi toplamaz, çizimler ve kayıtlar iPad'inizde kalır. Ayrıntılar için Gizlilik Politikası'na bakın.</p></details></div>
+      <p class="contact">Sorunuz ya da bir sorununuz mu var? <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> adresine yazın. Genellikle 2–3 gün içinde yanıt veriyoruz.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Bugünkü çizimini<br>hareket ettir</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6789852144">App Store'dan ücretsiz indir</a>
+    </section>
+  </main>
 
   <footer>
-    © 2026 Palang Book · <span aria-current="page">Ana Sayfa</span> · <a href="support.html">Destek</a> · <a href="privacy.html">Gizlilik Politikası</a>
+    <nav id="languages" class="langs" aria-label="Dil"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr" aria-current="page">Türkçe</a></nav>
+    <p><a href="privacy.html">Gizlilik Politikası</a> · <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> · © 2026 Palang Book</p>
   </footer>
-</main>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

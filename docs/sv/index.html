@@ -1,102 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="sv">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Palang Book — flipbook-animation för barn</title>
-<meta name="description" content="Rita av sida för sida och se teckningen väckas till liv. Palang Book är en flipbook-animationsapp för barn på iPad. Barnen ritar av en ljus förlaga sida för sida och trycker på spela upp: förlagan försvinner och bara deras egen teckning rör sig. Varje knapp är en bild, så även barn som inte kan läsa än kan använda appen på egen hand – med fingret eller Apple Pencil.">
-<link rel="canonical" href="https://m1zz.github.io/RotoscopeIPad/sv/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/RotoscopeIPad/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/RotoscopeIPad/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/RotoscopeIPad/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/RotoscopeIPad/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/RotoscopeIPad/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/RotoscopeIPad/zh-Hant/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/RotoscopeIPad/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/RotoscopeIPad/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/RotoscopeIPad/fr/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/RotoscopeIPad/pt-BR/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/RotoscopeIPad/it/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/RotoscopeIPad/ru/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/RotoscopeIPad/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/RotoscopeIPad/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/RotoscopeIPad/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/RotoscopeIPad/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/RotoscopeIPad/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/RotoscopeIPad/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/RotoscopeIPad/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/RotoscopeIPad/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/RotoscopeIPad/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/RotoscopeIPad/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/RotoscopeIPad/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/RotoscopeIPad/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/RotoscopeIPad/">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Palang Book: flipbook-appen för iPad där barnens teckningar får liv</title>
+  <meta name="description" content="Rita av en ljus förlaga sida för sida, tryck på spela upp, och bara barnets teckning rör sig. Bildknappar, stämplar och röstinspelning. 3 set gratis.">
+  <meta name="theme-color" content="#B85400" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6789852144">
+  <link rel="canonical" href="https://m1zz.github.io/RotoscopeIPad/sv/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/RotoscopeIPad/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/RotoscopeIPad/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/RotoscopeIPad/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/RotoscopeIPad/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/RotoscopeIPad/zh-Hant/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/RotoscopeIPad/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/RotoscopeIPad/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/RotoscopeIPad/fr/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/RotoscopeIPad/pt-BR/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/RotoscopeIPad/it/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/RotoscopeIPad/ru/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/RotoscopeIPad/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/RotoscopeIPad/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/RotoscopeIPad/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/RotoscopeIPad/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/RotoscopeIPad/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/RotoscopeIPad/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/RotoscopeIPad/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/RotoscopeIPad/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/RotoscopeIPad/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/RotoscopeIPad/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/RotoscopeIPad/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/RotoscopeIPad/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/RotoscopeIPad/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Palang Book: flipbook-appen för iPad där barnens teckningar får liv">
+  <meta property="og:description" content="Rita av en ljus förlaga sida för sida, tryck på spela upp, och bara barnets teckning rör sig. Bildknappar, stämplar och röstinspelning. 3 set gratis.">
+  <meta property="og:url" content="https://m1zz.github.io/RotoscopeIPad/sv/">
+  <meta property="og:image" content="https://m1zz.github.io/RotoscopeIPad/img/sv/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#B85400}@media (prefers-color-scheme:dark){:root{--accent:#FF9F0A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<main>
-  <nav class="langs" aria-label="Språk"><ul>
-    <li><a href="../" hreflang="ko" lang="ko">한국어</a></li>
-    <li><a href="../en/" hreflang="en" lang="en">English</a></li>
-    <li><a href="../ja/" hreflang="ja" lang="ja">日本語</a></li>
-    <li><a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
-    <li><a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
-    <li><a href="../es/" hreflang="es" lang="es-419">Español</a></li>
-    <li><a href="../de/" hreflang="de" lang="de">Deutsch</a></li>
-    <li><a href="../fr/" hreflang="fr" lang="fr">Français</a></li>
-    <li><a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li>
-    <li><a href="../it/" hreflang="it" lang="it">Italiano</a></li>
-    <li><a href="../ru/" hreflang="ru" lang="ru">Русский</a></li>
-    <li><a href="../th/" hreflang="th" lang="th">ไทย</a></li>
-    <li><a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a></li>
-    <li><a href="../cs/" hreflang="cs" lang="cs">Čeština</a></li>
-    <li><a href="../da/" hreflang="da" lang="da">Dansk</a></li>
-    <li><a href="../el/" hreflang="el" lang="el">Ελληνικά</a></li>
-    <li><a href="../fi/" hreflang="fi" lang="fi">Suomi</a></li>
-    <li><a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a></li>
-    <li><a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a></li>
-    <li><a href="../nl/" hreflang="nl" lang="nl">Nederlands</a></li>
-    <li><a href="../pl/" hreflang="pl" lang="pl">Polski</a></li>
-    <li><span aria-current="page" lang="sv">Svenska</span></li>
-    <li><a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></li>
-  </ul></nav>
-  <div class="logo">📖✏️</div>
-  <h1>Palang Book</h1>
-  <p class="sub">Rita av sida för sida och se teckningen väckas till liv.</p>
+  <a class="skip" href="#main">Hoppa till innehållet</a>
+  <header class="bar">
+    <a class="brand" href="../sv/"><img src="../icon.png" alt="" width="32" height="32">Palang Book</a>
+    <a class="lang-link" href="#languages">Språk</a>
+  </header>
 
-  <p>Palang Book är en flipbook-animationsapp för barn på iPad. Barnen ritar av en ljus förlaga sida för sida och trycker på spela upp: förlagan försvinner och bara deras egen teckning rör sig. Varje knapp är en bild, så även barn som inte kan läsa än kan använda appen på egen hand – med fingret eller Apple Pencil.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Rita av linjerna.<br>Se dem röra sig.</h1>
+        <p class="lead">Barnet ritar av en ljus förlaga, en sida i taget. Tryck på spela upp så försvinner förlagan och bara barnets egna linjer rör sig. Alla knappar är bilder, så barnet klarar det på egen hand redan innan det kan läsa.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6789852144">Hämta gratis i App Store</a><a class="try" href="#try">Rita några sidor ↓</a></div>
+        <p class="muted small">För iPad. Tre rita av-set är gratis.</p>
+      </div>
+      <div class="plain"><img src="../img/sv/01-trace-bunny.jpg" alt="Rita av linjerna. Se dem röra sig." width="720" height="960" decoding="async"></div>
+    </section>
 
-  <h2>Det här ingår</h2>
-  <ul class="features">
-    <li><strong>10 rita av-set</strong><br>En studsande boll, en hoppande kanin, en flygande fågel, en simmande fisk, en blomma som slår ut, en fjäril, en racerbil, en raket, en groda och en vindsnurra. Varje set har cirka 20 sidor med förlagor, och föregående sida skymtar svagt igenom, så det är lätt att få nästa teckning att passa.</li>
-    <li><strong>Rita ovanpå dina egna videor</strong><br>Spela in en video med kameran, välj en från appen Bilder eller öppna en länk till en videofil och rita av ovanpå. Dölj bakgrunden så spelas bara de sidor du ritat upp, på rent vitt papper.</li>
-    <li><strong>Tom flipbook</strong><br>Inga förlagor, bara vita sidor. Rita, bläddra och skapa en flipbook från grunden.</li>
-    <li><strong>Stämplar och färger</strong><br>Stämplar som hjärta, cirkel, fyrkant, triangel, stjärna, blomma, bil och fågel i tre storlekar, tio färger och tre penselstorlekar, plus suddgummi, ångra och en knapp som rensar hela sidan.</li>
-    <li><strong>Spela in röst</strong><br>Tryck på mikrofonen så loopar animationen medan barnets röst spelas in direkt i den.</li>
-    <li><strong>Spara i Bilder</strong><br>Färdiga animationer sparas som videor i appen Bilder, redo att delas med familjen.</li>
-    <li><strong>Teckningarna stannar på iPad</strong><br>Inga konton, ingen reklam, ingen spårning. Teckningar och inspelningar lämnar aldrig enheten.</li>
-  </ul>
 
-  <h2>Gratis att prova, en Livstidsåtkomst</h2>
-  <p>Utan att betala kan du använda 3 rita av-set, spara 3 verk, hämta in 1 video, rita upp till 10 sidor i en tom flipbook och spela in röst i upp till 15 sekunder. <strong>Livstidsåtkomst</strong> är ett engångsköp som låser upp allt för alltid. Det är ingen prenumeration och fungerar med Familjedelning. Köpskärmen öppnas först när en vuxen har löst ett snabbt räkneexempel.</p>
+    <section class="reveal" id="try">
+      <h2>Rita några sidor</h2>
+      <p class="muted">Rita något och tryck på den orange pilen för nästa sida. Föregående sida skymtar svagt igenom. Efter två eller tre sidor trycker du på den blå uppspelningsknappen.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Rita några sidor&quot;, &quot;lead&quot;: &quot;Rita något och tryck på den orange pilen för nästa sida. Föregående sida skymtar svagt igenom. Efter två eller tre sidor trycker du på den blå uppspelningsknappen.&quot;, &quot;hint&quot;: &quot;Rita här med fingret eller musen&quot;, &quot;canvas&quot;: &quot;Ritpapper&quot;, &quot;colors&quot;: &quot;Färger&quot;, &quot;undo&quot;: &quot;Ångra&quot;, &quot;clear&quot;: &quot;Rensa den här sidan&quot;, &quot;play&quot;: &quot;Spela upp&quot;, &quot;stop&quot;: &quot;Stoppa&quot;, &quot;prev&quot;: &quot;Föregående sida&quot;, &quot;next&quot;: &quot;Nästa sida&quot;, &quot;note&quot;: &quot;Det fungerar som appens tomma flipbook, med 8 sidor i sekunden. I appen kan barnet också rita av förlagor, stämpla, spela in röster och spara alltihop som video.&quot;}"></div>
+    </section>
 
-  <h2>Kontakt</h2>
-  <div class="contact">
-    <strong>Kontakt</strong><br>
-    Frågor eller problem? Mejla oss när som helst.<br>
-    📮 <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a><br>
-    <span class="sub">Vi svarar oftast inom 2–3 dagar.</span>
-  </div>
+    <section class="problem reveal">
+      <h2>Synd att en fin teckning bara ska stå still, eller hur?</h2>
+      <p>Animation innebär att rita nästan samma bild om och om igen med små ändringar, och på egen hand vet barn inte var de ska börja. Palang Book lägger fram en ljus förlaga där rörelsen redan finns, så barnet behöver bara följa linjen. Så fort barnet trycker på spela upp rör sig teckningen.</p>
+    </section>
 
-  <h2>Hjälp och integritet</h2>
-  <ul>
-    <li><a href="support.html">Support och vanliga frågor</a></li>
-    <li><a href="privacy.html">Integritetspolicy</a></li>
-  </ul>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Följ linjen, så blir det animation</h2>
+        <p>En studsande boll, en hoppande kanin, en flygande fågel, en simmande fisk, en blomma som slår ut, en fjäril, en racerbil, en raket, en groda och en vindsnurra. Varje set har cirka 20 sidor med förlagor.<br>Föregående sida skymtar svagt igenom så att nästa blir lätt att rita, och vid uppspelning försvinner förlagan så att bara barnets teckning rör sig.</p>
+      </div>
+      <div class="plain"><img src="../img/sv/02-trace-rocket.jpg" alt="Följ linjen, så blir det animation" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Stämplar och tio färger</h2>
+        <p>Stämpla hjärtan, cirklar, fyrkanter, trianglar, stjärnor, blommor, bilar och fåglar. Stämplar och penslar finns i tre storlekar, och det finns tio färger att välja bland.<br>Med suddgummi och ångra är misstag lätta att rätta till. Rita med fingret eller Apple Pencil.</p>
+      </div>
+      <div class="plain"><img src="../img/sv/03-stamps-fish.jpg" alt="Stämplar och tio färger" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Ovanpå egna videor, eller på tomt papper</h2>
+        <p>Hämta in en video du spelat in själv eller en från Bilder och rita av ovanpå. Dölj bakgrunden så spelas bara de ritade scenerna upp efter varandra på vitt papper. Det finns också en tom flipbook helt utan förlaga.<br>Tryck på mikrofonen för att spela in barnets röst till animationen, och spara sedan verket som video i Bilder för att dela med familjen.</p>
+      </div>
+      <div class="plain"><img src="../img/sv/04-home.jpg" alt="Ovanpå egna videor, eller på tomt papper" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Tre steg för att komma igång</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Tryck på ett förlagekort</h3><p>Korten med orange streckad kant på startskärmen är rita av-set.</p></li>
+<li class="card"><span class="n">2</span><h3>Rita och bläddra</h3><p>Den orange pilen tar dig till nästa sida.</p></li>
+<li class="card"><span class="n">3</span><h3>Tryck på spela upp</h3><p>Tryck på den blå uppspelningsknappen så rör sig teckningen.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Vad knapparna gör</h2>
+      <div class="card table">
+        <dl><div><dt>Orange streckat kort</dt><dd>Börja rita av</dd></div><div><dt>Grått streckat kort</dt><dd>Tom flipbook</dd></div><div><dt>Blå kamera</dt><dd>Rita ovanpå en video du spelar in</dd></div><div><dt>Grön video</dt><dd>Hämta in en video från Bilder</dd></div><div><dt>Indigo länk</dt><dd>Klistra in en länk till en videofil</dd></div><div><dt>Orange pil</dt><dd>Nästa sida</dd></div><div><dt>Blå uppspelning</dt><dd>Spela upp animationen, tryck igen för att stoppa</dd></div><div><dt>Böjd pil</dt><dd>Ångra den senaste linjen</dd></div><div><dt>Röd papperskorg</dt><dd>Rensa hela sidan (ångra tar tillbaka den)</dd></div><div><dt>Mikrofon</dt><dd>Spela in röst medan animationen loopar</dd></div><div><dt>Videoikon</dt><dd>Dölj videobakgrunden (rosa med streck: bara teckningar)</dd></div><div><dt>Grön spara</dt><dd>Spara som video i Bilder</dd></div></dl>
+      </div>
+      <p class="muted">Vill du radera ett verk trycker och håller du på kortet på startskärmen. Teckningarna, inspelningen och den inhämtade videon raderas samtidigt.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Mycket att prova gratis. Livstidsåtkomst om ni fastnar för det.</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Gratis</h3>
+          <ul><li>3 rita av-set (boll, kanin, blomma)</li><li>Spara 3 verk</li><li>Hämta in 1 video</li><li>Tomma flipbooks på upp till 10 sidor</li><li>Röstinspelning i upp till 15 sekunder</li><li>Stämplar, färger, penslar och sparande i Bilder</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Livstidsåtkomst</h3>
+          <ul><li>Alla rita av-set, även kommande</li><li>Inga gränser för verk, sidor, videor eller inspelningstid</li><li>Inget Palang Book-kort i slutet av sparade videor</li></ul>
+          <p class="muted">Ett engångsköp, ingen prenumeration. Med Familjedelning fungerar det på alla familjens iPads.</p>
+        </div>
+      </div>
+      <p class="muted">Videor som sparas gratis slutar med ett kort Palang Book-kort. Använde du Palang Book innan Livstidsåtkomst fanns är allt redan upplåst för dig.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Frågor</h2>
+      <div class="faq"><details><summary>Hur fungerar förlagorna?</summary><p>De ljust himmelsblå linjerna är förlagan. Barnet ritar av dem, och när du trycker på spela upp försvinner förlagan och bara barnets linjer rör sig. Gör klart ungefär 20 sidor så är animationen färdig.</p></details>
+<details><summary>Jag vill spela upp och spara bara teckningen, utan videon.</summary><p>I ett videoprojekt trycker du på videoikonen i verktygsfältet högst upp så att den blir rosa med ett streck över. Då visar både uppspelning och sparande bara teckningen mot vit bakgrund. Bara de ritade scenerna spelas upp, så några teckningar ovanpå ett långt klipp blir en kort animation.</p></details>
+<details><summary>Var hamnar den färdiga videon?</summary><p>Tryck på den gröna sparaknappen längst till höger i verktygsfältet så sparas en mp4-video i Bilder. Tillåt åtkomst till Bilder första gången du sparar.</p></details>
+<details><summary>Hur lägger jag till en röst?</summary><p>Tryck på mikrofonknappen för att spela in medan animationen loopar, och tryck på stopp för att avsluta. En ny inspelning ersätter den gamla. Rösten följer med när du sparar videon.</p></details>
+<details><summary>En videolänk öppnas inte.</summary><p>Kontrollera internetanslutningen och se till att adressen pekar direkt på en videofil (som slutar på .mp4 eller liknande). Länkar till sidor på videodelningssajter går inte att öppna. Använd gärna videor du gjort själv eller som är fria att använda.</p></details>
+<details><summary>Handflatan lämnar hela tiden märken.</summary><p>Den böjda pilen tar bort den senaste linjen och den röda papperskorgen rensar hela sidan (ångra tar tillbaka den). Händer det ofta, mejla oss så hjälper vi dig.</p></details>
+<details><summary>Varför kommer det ett räkneexempel före köpskärmen?</summary><p>Så att barn inte kommer till köpskärmen på egen hand. När ett barn trycker på något som är låst visas ett stort hänglås och en uppmaning att visa det för en vuxen, och köpskärmen öppnas först när en vuxen har svarat på en multiplikation.</p></details>
+<details><summary>Hur återställer jag mitt köp?</summary><p>Tryck på kugghjulet uppe till höger på startskärmen, välj Livstidsåtkomst, svara på vuxenfrågan och tryck på Återställ köp. Du måste vara inloggad med samma Apple-konto som du köpte med.</p></details>
+<details><summary>Hur skickar jag feedback från appen?</summary><p>Tryck på kugghjulet på startskärmen och välj Skicka feedback. Du kan bifoga en skärmbild och lämna namn och e-post om du vill ha svar. Vi ber att en förälder skickar feedbacken.</p></details>
+<details><summary>Samlar ni in uppgifter om mitt barn?</summary><p>Nej. Palang Book samlar inte in några personuppgifter, och teckningar och inspelningar stannar på din iPad. Läs mer i integritetspolicyn.</p></details></div>
+      <p class="contact">Frågor eller problem? Mejla <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>. Vi svarar oftast inom 2–3 dagar.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Få dagens teckning<br>att röra sig</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6789852144">Hämta gratis i App Store</a>
+    </section>
+  </main>
 
   <footer>
-    © 2026 Palang Book · <span aria-current="page">Hem</span> · <a href="support.html">Support</a> · <a href="privacy.html">Integritetspolicy</a>
+    <nav id="languages" class="langs" aria-label="Språk"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv" aria-current="page">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Integritetspolicy</a> · <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> · © 2026 Palang Book</p>
   </footer>
-</main>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

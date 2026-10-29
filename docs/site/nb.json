@@ -1,0 +1,159 @@
+{
+  "title": "Palang Book: flipbook-appen for iPad der barnas tegninger våkner til liv",
+  "description": "Tegn etter en lys skisse side for side, trykk på spill av, og bare barnets tegning beveger seg. Bildeknapper, stempler og stemmeopptak. 3 sett gratis.",
+  "hero": {
+    "headline": "Tegn etter strekene.\nSe dem bevege seg.",
+    "lead": "Barnet tegner etter en lys skisse, én side om gangen. Trykk på spill av, så forsvinner skissen og bare barnets egne streker beveger seg. Alle knappene er bilder, så barnet klarer seg selv før det kan lese.",
+    "cta": "Last ned gratis i App Store",
+    "note": "For iPad. Tre tegn etter-sett er gratis."
+  },
+  "demo": {
+    "title": "Tegn noen sider",
+    "lead": "Tegn noe, og trykk på den oransje pilen for å gå til neste side. Forrige side skinner svakt gjennom. Etter to eller tre sider trykker du på den blå spill av-knappen.",
+    "hint": "Tegn her med fingeren eller musen",
+    "canvas": "Tegnepapir",
+    "colors": "Farger",
+    "undo": "Angre",
+    "clear": "Tøm denne siden",
+    "play": "Spill av",
+    "stop": "Stopp",
+    "prev": "Forrige side",
+    "next": "Neste side",
+    "note": "Dette fungerer som den tomme flipbooken i appen, med 8 sider i sekundet. I appen kan barnet også tegne etter skisser, bruke stempler, ta opp stemmen sin og lagre det hele som video."
+  },
+  "problem": {
+    "title": "Synd at en fin tegning bare skal stå stille, ikke sant?",
+    "text": "Animasjon betyr å tegne nesten den samme tegningen om og om igjen med små endringer, og alene vet barn ikke hvor de skal begynne. Palang Book legger ut en lys skisse der bevegelsen allerede ligger inne, så barnet trenger bare å følge streken. I det øyeblikket barnet trykker på spill av, beveger tegningen seg."
+  },
+  "features": [
+    {
+      "title": "Følg streken, så får du en animasjon",
+      "text": "En sprettende ball, en hoppende kanin, en flygende fugl, en svømmende fisk, en blomst som springer ut, en sommerfugl, en racerbil, en rakett, en frosk og en vindmølle. Hvert sett har rundt 20 sider med skisser.\nForrige side skinner svakt gjennom, så neste side blir lett å tegne, og ved avspilling forsvinner skissen, så bare barnets tegning beveger seg.",
+      "shot": "02-trace-rocket"
+    },
+    {
+      "title": "Stempler og ti farger",
+      "text": "Trykk ut hjerter, sirkler, firkanter, trekanter, stjerner, blomster, biler og fugler. Stempler og pensler finnes i tre størrelser, og det er ti farger å velge mellom.\nMed viskelær og angre er feil lette å rette. Tegn med fingeren eller Apple Pencil.",
+      "shot": "03-stamps-fish"
+    },
+    {
+      "title": "Oppå egne videoer eller på blankt papir",
+      "text": "Hent inn en video du har tatt opp selv eller en fra Bilder, og tegn oppå. Skjul bakgrunnen, så spilles bare scenene dere har tegnet, av etter hverandre på hvitt papir. Det finnes også en tom flipbook helt uten skisser.\nTrykk på mikrofonen for å ta opp barnets stemme samtidig, og lagre det ferdige verket som video i Bilder for å dele det med familien.",
+      "shot": "04-home"
+    }
+  ],
+  "steps": {
+    "title": "Tre steg, så er dere i gang",
+    "items": [
+      {
+        "title": "Trykk på et skissekort",
+        "text": "Kortene med oransje stiplet kant på startskjermen er tegn etter-sett."
+      },
+      {
+        "title": "Tegn og bla videre",
+        "text": "Den oransje pilen tar deg til neste side."
+      },
+      {
+        "title": "Trykk på spill av",
+        "text": "Trykk på den blå spill av-knappen, så beveger tegningen seg."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Hva knappene gjør",
+    "rows": [
+      ["Oransje stiplet kort", "Start et tegn etter-sett"],
+      ["Grått stiplet kort", "Tom flipbook"],
+      ["Blått kamera", "Tegn oppå en video du tar opp"],
+      ["Grønn video", "Hent inn en video fra Bilder"],
+      ["Indigo lenke", "Lim inn en lenke til en videofil"],
+      ["Oransje pil", "Neste side"],
+      ["Blå spill av", "Spill av animasjonen, trykk igjen for å stoppe"],
+      ["Buet pil", "Angre siste strek"],
+      ["Rød søppelkasse", "Tøm hele siden (angre henter den tilbake)"],
+      ["Mikrofon", "Ta opp stemme mens animasjonen går i løkke"],
+      ["Videoikon", "Skjul videobakgrunnen (rosa med strek betyr bare tegninger)"],
+      ["Grønn lagring", "Lagre som video i Bilder"]
+    ],
+    "note": "Vil du slette et verk, trykker og holder du på kortet på startskjermen. Tegningene, opptaket og den innhentede videoen slettes samtidig."
+  },
+  "pricing": {
+    "title": "Mye å prøve gratis. Livstidstilgang hvis dere blir glad i det.",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "3 tegn etter-sett (ball, kanin, blomst)",
+        "Lagre 3 verk",
+        "Hent inn 1 video",
+        "Tomme flipbooker på opptil 10 sider",
+        "Stemmeopptak på opptil 15 sekunder",
+        "Stempler, farger, pensler og lagring i Bilder"
+      ]
+    },
+    "pro": {
+      "name": "Livstidstilgang",
+      "items": [
+        "Alle tegn etter-sett, også kommende",
+        "Ingen grenser for verk, sider, videoer eller opptakstid",
+        "Ikke noe Palang Book-kort på slutten av lagrede videoer"
+      ],
+      "note": "Et engangskjøp, ikke et abonnement. Med Familiedeling fungerer det på alle iPadene i familien."
+    },
+    "note": "Videoer som lagres gratis, slutter med et kort Palang Book-kort. Brukte du Palang Book før Livstidstilgang fantes, er alt allerede låst opp for deg."
+  },
+  "faq": {
+    "title": "Spørsmål",
+    "items": [
+      {
+        "q": "Hvordan fungerer skissene?",
+        "a": "De lyse himmelblå strekene er skissen. Barnet tegner oppå dem, og når du trykker på spill av, forsvinner skissen og bare barnets streker beveger seg. Gjør ferdig rundt 20 sider, så er animasjonen klar."
+      },
+      {
+        "q": "Jeg vil spille av og lagre bare tegningen, uten videoen.",
+        "a": "I et videoprosjekt trykker du på videoikonet i verktøylinjen øverst, så det blir rosa med strek over. Da viser både avspilling og lagring bare tegningen på hvit bakgrunn. Bare scenene dere har tegnet, spilles av, så noen få tegninger oppå et langt klipp blir en kort animasjon."
+      },
+      {
+        "q": "Hvor havner den ferdige videoen?",
+        "a": "Trykk på den grønne lagreknappen helt til høyre i verktøylinjen, så lagres en mp4-video i Bilder. Gi tilgang til Bilder første gang du lagrer."
+      },
+      {
+        "q": "Hvordan legger jeg til stemme?",
+        "a": "Trykk på mikrofonknappen for å ta opp mens animasjonen går i løkke, og trykk på stopp for å avslutte. Et nytt opptak erstatter det gamle. Stemmen kommer med når du lagrer videoen."
+      },
+      {
+        "q": "En videolenke åpnes ikke.",
+        "a": "Sjekk internettforbindelsen, og pass på at adressen peker rett til en videofil (en som slutter på .mp4 eller lignende). Lenker til sider på videodelingstjenester kan ikke åpnes. Bruk gjerne videoer du har laget selv, eller som er frie å bruke."
+      },
+      {
+        "q": "Håndflaten lager stadig merker.",
+        "a": "Den buede pilen fjerner siste strek, og den røde søppelkassen tømmer hele siden (angre henter den tilbake). Skjer det ofte, send oss en e-post, så hjelper vi deg."
+      },
+      {
+        "q": "Hvorfor kommer det et regnestykke før kjøpsskjermen?",
+        "a": "Så barn ikke kommer til kjøpsskjermen på egen hånd. Når et barn trykker på noe som er låst, vises en stor hengelås og beskjed om å vise det til en voksen, og kjøpsskjermen åpnes først når en voksen har svart på et gangestykke."
+      },
+      {
+        "q": "Hvordan gjenoppretter jeg kjøpet?",
+        "a": "Trykk på tannhjulet øverst til høyre på startskjermen, velg Livstidstilgang, svar på voksenspørsmålet og trykk på Gjenopprett kjøp. Du må være logget inn med den samme Apple-kontoen som du kjøpte med."
+      },
+      {
+        "q": "Hvordan sender jeg tilbakemelding fra appen?",
+        "a": "Trykk på tannhjulet på startskjermen og velg Send tilbakemelding. Du kan legge ved et skjermbilde og legge igjen navn og e-post hvis du ønsker svar. Vi ber om at en forelder sender tilbakemeldingen."
+      },
+      {
+        "q": "Samler dere inn opplysninger om barnet mitt?",
+        "a": "Nei. Palang Book samler ikke inn noen personopplysninger, og tegninger og opptak blir værende på iPaden din. Se personvernerklæringen for detaljer."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Få dagens tegning\ntil å bevege seg",
+    "cta": "Last ned gratis i App Store"
+  },
+  "ui": {
+    "skip": "Hopp til innholdet",
+    "languages": "Språk",
+    "privacy": "Personvernerklæring",
+    "contact": "Spørsmål eller problemer? Send en e-post til {email}. Vi svarer vanligvis innen 2–3 dager."
+  }
+}

@@ -1,102 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="nb">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Palang Book — flipbook-animasjon for barn</title>
-<meta name="description" content="Tegn etter side for side og se tegningen våkne til liv. Palang Book er en flipbook-animasjonsapp for barn på iPad. Barna tegner etter en lys skisse side for side og trykker på spill av: skissen forsvinner, og bare deres egen tegning beveger seg. Alle knappene er bilder, så selv barn som ikke kan lese ennå, kan bruke appen på egen hånd – med fingeren eller Apple Pencil.">
-<link rel="canonical" href="https://m1zz.github.io/RotoscopeIPad/nb/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/RotoscopeIPad/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/RotoscopeIPad/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/RotoscopeIPad/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/RotoscopeIPad/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/RotoscopeIPad/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/RotoscopeIPad/zh-Hant/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/RotoscopeIPad/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/RotoscopeIPad/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/RotoscopeIPad/fr/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/RotoscopeIPad/pt-BR/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/RotoscopeIPad/it/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/RotoscopeIPad/ru/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/RotoscopeIPad/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/RotoscopeIPad/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/RotoscopeIPad/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/RotoscopeIPad/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/RotoscopeIPad/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/RotoscopeIPad/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/RotoscopeIPad/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/RotoscopeIPad/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/RotoscopeIPad/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/RotoscopeIPad/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/RotoscopeIPad/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/RotoscopeIPad/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/RotoscopeIPad/">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Palang Book: flipbook-appen for iPad der barnas tegninger våkner til liv</title>
+  <meta name="description" content="Tegn etter en lys skisse side for side, trykk på spill av, og bare barnets tegning beveger seg. Bildeknapper, stempler og stemmeopptak. 3 sett gratis.">
+  <meta name="theme-color" content="#B85400" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6789852144">
+  <link rel="canonical" href="https://m1zz.github.io/RotoscopeIPad/nb/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/RotoscopeIPad/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/RotoscopeIPad/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/RotoscopeIPad/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/RotoscopeIPad/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/RotoscopeIPad/zh-Hant/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/RotoscopeIPad/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/RotoscopeIPad/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/RotoscopeIPad/fr/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/RotoscopeIPad/pt-BR/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/RotoscopeIPad/it/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/RotoscopeIPad/ru/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/RotoscopeIPad/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/RotoscopeIPad/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/RotoscopeIPad/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/RotoscopeIPad/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/RotoscopeIPad/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/RotoscopeIPad/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/RotoscopeIPad/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/RotoscopeIPad/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/RotoscopeIPad/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/RotoscopeIPad/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/RotoscopeIPad/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/RotoscopeIPad/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/RotoscopeIPad/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Palang Book: flipbook-appen for iPad der barnas tegninger våkner til liv">
+  <meta property="og:description" content="Tegn etter en lys skisse side for side, trykk på spill av, og bare barnets tegning beveger seg. Bildeknapper, stempler og stemmeopptak. 3 sett gratis.">
+  <meta property="og:url" content="https://m1zz.github.io/RotoscopeIPad/nb/">
+  <meta property="og:image" content="https://m1zz.github.io/RotoscopeIPad/img/nb/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#B85400}@media (prefers-color-scheme:dark){:root{--accent:#FF9F0A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<main>
-  <nav class="langs" aria-label="Språk"><ul>
-    <li><a href="../" hreflang="ko" lang="ko">한국어</a></li>
-    <li><a href="../en/" hreflang="en" lang="en">English</a></li>
-    <li><a href="../ja/" hreflang="ja" lang="ja">日本語</a></li>
-    <li><a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
-    <li><a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
-    <li><a href="../es/" hreflang="es" lang="es-419">Español</a></li>
-    <li><a href="../de/" hreflang="de" lang="de">Deutsch</a></li>
-    <li><a href="../fr/" hreflang="fr" lang="fr">Français</a></li>
-    <li><a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li>
-    <li><a href="../it/" hreflang="it" lang="it">Italiano</a></li>
-    <li><a href="../ru/" hreflang="ru" lang="ru">Русский</a></li>
-    <li><a href="../th/" hreflang="th" lang="th">ไทย</a></li>
-    <li><a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a></li>
-    <li><a href="../cs/" hreflang="cs" lang="cs">Čeština</a></li>
-    <li><a href="../da/" hreflang="da" lang="da">Dansk</a></li>
-    <li><a href="../el/" hreflang="el" lang="el">Ελληνικά</a></li>
-    <li><a href="../fi/" hreflang="fi" lang="fi">Suomi</a></li>
-    <li><a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a></li>
-    <li><span aria-current="page" lang="nb">Norsk bokmål</span></li>
-    <li><a href="../nl/" hreflang="nl" lang="nl">Nederlands</a></li>
-    <li><a href="../pl/" hreflang="pl" lang="pl">Polski</a></li>
-    <li><a href="../sv/" hreflang="sv" lang="sv">Svenska</a></li>
-    <li><a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></li>
-  </ul></nav>
-  <div class="logo">📖✏️</div>
-  <h1>Palang Book</h1>
-  <p class="sub">Tegn etter side for side og se tegningen våkne til liv.</p>
+  <a class="skip" href="#main">Hopp til innholdet</a>
+  <header class="bar">
+    <a class="brand" href="../nb/"><img src="../icon.png" alt="" width="32" height="32">Palang Book</a>
+    <a class="lang-link" href="#languages">Språk</a>
+  </header>
 
-  <p>Palang Book er en flipbook-animasjonsapp for barn på iPad. Barna tegner etter en lys skisse side for side og trykker på spill av: skissen forsvinner, og bare deres egen tegning beveger seg. Alle knappene er bilder, så selv barn som ikke kan lese ennå, kan bruke appen på egen hånd – med fingeren eller Apple Pencil.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Tegn etter strekene.<br>Se dem bevege seg.</h1>
+        <p class="lead">Barnet tegner etter en lys skisse, én side om gangen. Trykk på spill av, så forsvinner skissen og bare barnets egne streker beveger seg. Alle knappene er bilder, så barnet klarer seg selv før det kan lese.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6789852144">Last ned gratis i App Store</a><a class="try" href="#try">Tegn noen sider ↓</a></div>
+        <p class="muted small">For iPad. Tre tegn etter-sett er gratis.</p>
+      </div>
+      <div class="plain"><img src="../img/nb/01-trace-bunny.jpg" alt="Tegn etter strekene. Se dem bevege seg." width="720" height="960" decoding="async"></div>
+    </section>
 
-  <h2>Dette får du</h2>
-  <ul class="features">
-    <li><strong>10 tegn etter-sett</strong><br>En sprettende ball, en hoppende kanin, en flygende fugl, en svømmende fisk, en blomst som springer ut, en sommerfugl, en racerbil, en rakett, en frosk og en vindmølle. Hvert sett har rundt 20 sider med skisser, og forrige side skinner svakt gjennom under, så det er enkelt å få neste tegning til å passe.</li>
-    <li><strong>Tegn oppå dine egne videoer</strong><br>Ta opp en video med kameraet, velg en fra Bilder-appen eller åpne en lenke til en videofil, og tegn oppå den. Skjul bakgrunnen, så spilles bare sidene du har tegnet av, på rent hvitt papir.</li>
-    <li><strong>Tom flipbook</strong><br>Ingen skisser, bare hvite sider. Tegn, bla om og lag en flipbook helt fra bunnen av.</li>
-    <li><strong>Stempler og farger</strong><br>Stempler som hjerte, sirkel, firkant, trekant, stjerne, blomst, bil og fugl i tre størrelser, ti farger og tre penselstørrelser, pluss viskelær, angre og en knapp som tømmer hele siden.</li>
-    <li><strong>Ta opp stemme</strong><br>Trykk på mikrofonen, så går animasjonen i løkke mens barnets stemme tas opp rett inn i den.</li>
-    <li><strong>Lagre i Bilder</strong><br>Ferdige animasjoner lagres som videoer i Bilder-appen, klare til å deles med familien.</li>
-    <li><strong>Tegningene blir på iPaden</strong><br>Ingen kontoer, ingen reklame, ingen sporing. Tegninger og opptak forlater aldri enheten.</li>
-  </ul>
 
-  <h2>Gratis å prøve, én Livstidstilgang</h2>
-  <p>Uten å betale kan du bruke 3 tegn etter-sett, lagre 3 verk, hente inn 1 video, tegne opptil 10 sider i en tom flipbook og ta opp stemme i opptil 15 sekunder. <strong>Livstidstilgang</strong> er et engangskjøp som låser opp alt for alltid. Det er ikke et abonnement, og det fungerer med Familiedeling. Kjøpsskjermen åpnes først når en voksen har løst et raskt regnestykke.</p>
+    <section class="reveal" id="try">
+      <h2>Tegn noen sider</h2>
+      <p class="muted">Tegn noe, og trykk på den oransje pilen for å gå til neste side. Forrige side skinner svakt gjennom. Etter to eller tre sider trykker du på den blå spill av-knappen.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Tegn noen sider&quot;, &quot;lead&quot;: &quot;Tegn noe, og trykk på den oransje pilen for å gå til neste side. Forrige side skinner svakt gjennom. Etter to eller tre sider trykker du på den blå spill av-knappen.&quot;, &quot;hint&quot;: &quot;Tegn her med fingeren eller musen&quot;, &quot;canvas&quot;: &quot;Tegnepapir&quot;, &quot;colors&quot;: &quot;Farger&quot;, &quot;undo&quot;: &quot;Angre&quot;, &quot;clear&quot;: &quot;Tøm denne siden&quot;, &quot;play&quot;: &quot;Spill av&quot;, &quot;stop&quot;: &quot;Stopp&quot;, &quot;prev&quot;: &quot;Forrige side&quot;, &quot;next&quot;: &quot;Neste side&quot;, &quot;note&quot;: &quot;Dette fungerer som den tomme flipbooken i appen, med 8 sider i sekundet. I appen kan barnet også tegne etter skisser, bruke stempler, ta opp stemmen sin og lagre det hele som video.&quot;}"></div>
+    </section>
 
-  <h2>Kontakt</h2>
-  <div class="contact">
-    <strong>Ta kontakt</strong><br>
-    Spørsmål eller problemer? Send oss en e-post når som helst.<br>
-    📮 <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a><br>
-    <span class="sub">Vi svarer vanligvis innen 2–3 dager.</span>
-  </div>
+    <section class="problem reveal">
+      <h2>Synd at en fin tegning bare skal stå stille, ikke sant?</h2>
+      <p>Animasjon betyr å tegne nesten den samme tegningen om og om igjen med små endringer, og alene vet barn ikke hvor de skal begynne. Palang Book legger ut en lys skisse der bevegelsen allerede ligger inne, så barnet trenger bare å følge streken. I det øyeblikket barnet trykker på spill av, beveger tegningen seg.</p>
+    </section>
 
-  <h2>Hjelp og personvern</h2>
-  <ul>
-    <li><a href="support.html">Støtte og vanlige spørsmål</a></li>
-    <li><a href="privacy.html">Personvernerklæring</a></li>
-  </ul>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Følg streken, så får du en animasjon</h2>
+        <p>En sprettende ball, en hoppende kanin, en flygende fugl, en svømmende fisk, en blomst som springer ut, en sommerfugl, en racerbil, en rakett, en frosk og en vindmølle. Hvert sett har rundt 20 sider med skisser.<br>Forrige side skinner svakt gjennom, så neste side blir lett å tegne, og ved avspilling forsvinner skissen, så bare barnets tegning beveger seg.</p>
+      </div>
+      <div class="plain"><img src="../img/nb/02-trace-rocket.jpg" alt="Følg streken, så får du en animasjon" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Stempler og ti farger</h2>
+        <p>Trykk ut hjerter, sirkler, firkanter, trekanter, stjerner, blomster, biler og fugler. Stempler og pensler finnes i tre størrelser, og det er ti farger å velge mellom.<br>Med viskelær og angre er feil lette å rette. Tegn med fingeren eller Apple Pencil.</p>
+      </div>
+      <div class="plain"><img src="../img/nb/03-stamps-fish.jpg" alt="Stempler og ti farger" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Oppå egne videoer eller på blankt papir</h2>
+        <p>Hent inn en video du har tatt opp selv eller en fra Bilder, og tegn oppå. Skjul bakgrunnen, så spilles bare scenene dere har tegnet, av etter hverandre på hvitt papir. Det finnes også en tom flipbook helt uten skisser.<br>Trykk på mikrofonen for å ta opp barnets stemme samtidig, og lagre det ferdige verket som video i Bilder for å dele det med familien.</p>
+      </div>
+      <div class="plain"><img src="../img/nb/04-home.jpg" alt="Oppå egne videoer eller på blankt papir" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Tre steg, så er dere i gang</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Trykk på et skissekort</h3><p>Kortene med oransje stiplet kant på startskjermen er tegn etter-sett.</p></li>
+<li class="card"><span class="n">2</span><h3>Tegn og bla videre</h3><p>Den oransje pilen tar deg til neste side.</p></li>
+<li class="card"><span class="n">3</span><h3>Trykk på spill av</h3><p>Trykk på den blå spill av-knappen, så beveger tegningen seg.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Hva knappene gjør</h2>
+      <div class="card table">
+        <dl><div><dt>Oransje stiplet kort</dt><dd>Start et tegn etter-sett</dd></div><div><dt>Grått stiplet kort</dt><dd>Tom flipbook</dd></div><div><dt>Blått kamera</dt><dd>Tegn oppå en video du tar opp</dd></div><div><dt>Grønn video</dt><dd>Hent inn en video fra Bilder</dd></div><div><dt>Indigo lenke</dt><dd>Lim inn en lenke til en videofil</dd></div><div><dt>Oransje pil</dt><dd>Neste side</dd></div><div><dt>Blå spill av</dt><dd>Spill av animasjonen, trykk igjen for å stoppe</dd></div><div><dt>Buet pil</dt><dd>Angre siste strek</dd></div><div><dt>Rød søppelkasse</dt><dd>Tøm hele siden (angre henter den tilbake)</dd></div><div><dt>Mikrofon</dt><dd>Ta opp stemme mens animasjonen går i løkke</dd></div><div><dt>Videoikon</dt><dd>Skjul videobakgrunnen (rosa med strek betyr bare tegninger)</dd></div><div><dt>Grønn lagring</dt><dd>Lagre som video i Bilder</dd></div></dl>
+      </div>
+      <p class="muted">Vil du slette et verk, trykker og holder du på kortet på startskjermen. Tegningene, opptaket og den innhentede videoen slettes samtidig.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Mye å prøve gratis. Livstidstilgang hvis dere blir glad i det.</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Gratis</h3>
+          <ul><li>3 tegn etter-sett (ball, kanin, blomst)</li><li>Lagre 3 verk</li><li>Hent inn 1 video</li><li>Tomme flipbooker på opptil 10 sider</li><li>Stemmeopptak på opptil 15 sekunder</li><li>Stempler, farger, pensler og lagring i Bilder</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Livstidstilgang</h3>
+          <ul><li>Alle tegn etter-sett, også kommende</li><li>Ingen grenser for verk, sider, videoer eller opptakstid</li><li>Ikke noe Palang Book-kort på slutten av lagrede videoer</li></ul>
+          <p class="muted">Et engangskjøp, ikke et abonnement. Med Familiedeling fungerer det på alle iPadene i familien.</p>
+        </div>
+      </div>
+      <p class="muted">Videoer som lagres gratis, slutter med et kort Palang Book-kort. Brukte du Palang Book før Livstidstilgang fantes, er alt allerede låst opp for deg.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Spørsmål</h2>
+      <div class="faq"><details><summary>Hvordan fungerer skissene?</summary><p>De lyse himmelblå strekene er skissen. Barnet tegner oppå dem, og når du trykker på spill av, forsvinner skissen og bare barnets streker beveger seg. Gjør ferdig rundt 20 sider, så er animasjonen klar.</p></details>
+<details><summary>Jeg vil spille av og lagre bare tegningen, uten videoen.</summary><p>I et videoprosjekt trykker du på videoikonet i verktøylinjen øverst, så det blir rosa med strek over. Da viser både avspilling og lagring bare tegningen på hvit bakgrunn. Bare scenene dere har tegnet, spilles av, så noen få tegninger oppå et langt klipp blir en kort animasjon.</p></details>
+<details><summary>Hvor havner den ferdige videoen?</summary><p>Trykk på den grønne lagreknappen helt til høyre i verktøylinjen, så lagres en mp4-video i Bilder. Gi tilgang til Bilder første gang du lagrer.</p></details>
+<details><summary>Hvordan legger jeg til stemme?</summary><p>Trykk på mikrofonknappen for å ta opp mens animasjonen går i løkke, og trykk på stopp for å avslutte. Et nytt opptak erstatter det gamle. Stemmen kommer med når du lagrer videoen.</p></details>
+<details><summary>En videolenke åpnes ikke.</summary><p>Sjekk internettforbindelsen, og pass på at adressen peker rett til en videofil (en som slutter på .mp4 eller lignende). Lenker til sider på videodelingstjenester kan ikke åpnes. Bruk gjerne videoer du har laget selv, eller som er frie å bruke.</p></details>
+<details><summary>Håndflaten lager stadig merker.</summary><p>Den buede pilen fjerner siste strek, og den røde søppelkassen tømmer hele siden (angre henter den tilbake). Skjer det ofte, send oss en e-post, så hjelper vi deg.</p></details>
+<details><summary>Hvorfor kommer det et regnestykke før kjøpsskjermen?</summary><p>Så barn ikke kommer til kjøpsskjermen på egen hånd. Når et barn trykker på noe som er låst, vises en stor hengelås og beskjed om å vise det til en voksen, og kjøpsskjermen åpnes først når en voksen har svart på et gangestykke.</p></details>
+<details><summary>Hvordan gjenoppretter jeg kjøpet?</summary><p>Trykk på tannhjulet øverst til høyre på startskjermen, velg Livstidstilgang, svar på voksenspørsmålet og trykk på Gjenopprett kjøp. Du må være logget inn med den samme Apple-kontoen som du kjøpte med.</p></details>
+<details><summary>Hvordan sender jeg tilbakemelding fra appen?</summary><p>Trykk på tannhjulet på startskjermen og velg Send tilbakemelding. Du kan legge ved et skjermbilde og legge igjen navn og e-post hvis du ønsker svar. Vi ber om at en forelder sender tilbakemeldingen.</p></details>
+<details><summary>Samler dere inn opplysninger om barnet mitt?</summary><p>Nei. Palang Book samler ikke inn noen personopplysninger, og tegninger og opptak blir værende på iPaden din. Se personvernerklæringen for detaljer.</p></details></div>
+      <p class="contact">Spørsmål eller problemer? Send en e-post til <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>. Vi svarer vanligvis innen 2–3 dager.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Få dagens tegning<br>til å bevege seg</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6789852144">Last ned gratis i App Store</a>
+    </section>
+  </main>
 
   <footer>
-    © 2026 Palang Book · <span aria-current="page">Hjem</span> · <a href="support.html">Støtte</a> · <a href="privacy.html">Personvernerklæring</a>
+    <nav id="languages" class="langs" aria-label="Språk"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb" aria-current="page">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Personvernerklæring</a> · <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> · © 2026 Palang Book</p>
   </footer>
-</main>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

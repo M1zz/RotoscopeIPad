@@ -1,102 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="el">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Palang Book — Κινούμενα flipbook για παιδιά</title>
-<meta name="description" content="Ζωγραφίστε πάνω στο περίγραμμα σελίδα σελίδα και δείτε το σχέδιό σας να ζωντανεύει. Το Palang Book είναι μια εφαρμογή για iPad όπου τα παιδιά φτιάχνουν κινούμενα flipbook. Το παιδί ζωγραφίζει πάνω σε ένα αχνό περίγραμμα σελίδα σελίδα και πατάει αναπαραγωγή: το περίγραμμα εξαφανίζεται και κινείται μόνο το δικό του σχέδιο. Κάθε κουμπί είναι εικόνα, οπότε ακόμη και παιδιά που δεν ξέρουν να διαβάζουν το χρησιμοποιούν μόνα τους, με το δάχτυλο ή το Apple Pencil.">
-<link rel="canonical" href="https://m1zz.github.io/RotoscopeIPad/el/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/RotoscopeIPad/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/RotoscopeIPad/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/RotoscopeIPad/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/RotoscopeIPad/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/RotoscopeIPad/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/RotoscopeIPad/zh-Hant/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/RotoscopeIPad/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/RotoscopeIPad/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/RotoscopeIPad/fr/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/RotoscopeIPad/pt-BR/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/RotoscopeIPad/it/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/RotoscopeIPad/ru/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/RotoscopeIPad/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/RotoscopeIPad/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/RotoscopeIPad/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/RotoscopeIPad/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/RotoscopeIPad/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/RotoscopeIPad/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/RotoscopeIPad/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/RotoscopeIPad/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/RotoscopeIPad/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/RotoscopeIPad/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/RotoscopeIPad/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/RotoscopeIPad/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/RotoscopeIPad/">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Palang Book: η εφαρμογή flipbook για iPad που ζωντανεύει τις ζωγραφιές των παιδιών</title>
+  <meta name="description" content="Ζωγραφίζει πάνω σε αχνό περίγραμμα σελίδα σελίδα, πατάει αναπαραγωγή και κινείται μόνο η ζωγραφιά του. Κουμπιά-εικόνες, σφραγίδες, φωνή. 3 σετ δωρεάν.">
+  <meta name="theme-color" content="#B85400" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6789852144">
+  <link rel="canonical" href="https://m1zz.github.io/RotoscopeIPad/el/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/RotoscopeIPad/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/RotoscopeIPad/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/RotoscopeIPad/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/RotoscopeIPad/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/RotoscopeIPad/zh-Hant/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/RotoscopeIPad/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/RotoscopeIPad/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/RotoscopeIPad/fr/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/RotoscopeIPad/pt-BR/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/RotoscopeIPad/it/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/RotoscopeIPad/ru/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/RotoscopeIPad/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/RotoscopeIPad/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/RotoscopeIPad/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/RotoscopeIPad/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/RotoscopeIPad/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/RotoscopeIPad/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/RotoscopeIPad/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/RotoscopeIPad/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/RotoscopeIPad/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/RotoscopeIPad/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/RotoscopeIPad/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/RotoscopeIPad/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/RotoscopeIPad/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Palang Book: η εφαρμογή flipbook για iPad που ζωντανεύει τις ζωγραφιές των παιδιών">
+  <meta property="og:description" content="Ζωγραφίζει πάνω σε αχνό περίγραμμα σελίδα σελίδα, πατάει αναπαραγωγή και κινείται μόνο η ζωγραφιά του. Κουμπιά-εικόνες, σφραγίδες, φωνή. 3 σετ δωρεάν.">
+  <meta property="og:url" content="https://m1zz.github.io/RotoscopeIPad/el/">
+  <meta property="og:image" content="https://m1zz.github.io/RotoscopeIPad/img/el/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#B85400}@media (prefers-color-scheme:dark){:root{--accent:#FF9F0A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<main>
-  <nav class="langs" aria-label="Γλώσσα"><ul>
-    <li><a href="../" hreflang="ko" lang="ko">한국어</a></li>
-    <li><a href="../en/" hreflang="en" lang="en">English</a></li>
-    <li><a href="../ja/" hreflang="ja" lang="ja">日本語</a></li>
-    <li><a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
-    <li><a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
-    <li><a href="../es/" hreflang="es" lang="es-419">Español</a></li>
-    <li><a href="../de/" hreflang="de" lang="de">Deutsch</a></li>
-    <li><a href="../fr/" hreflang="fr" lang="fr">Français</a></li>
-    <li><a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li>
-    <li><a href="../it/" hreflang="it" lang="it">Italiano</a></li>
-    <li><a href="../ru/" hreflang="ru" lang="ru">Русский</a></li>
-    <li><a href="../th/" hreflang="th" lang="th">ไทย</a></li>
-    <li><a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a></li>
-    <li><a href="../cs/" hreflang="cs" lang="cs">Čeština</a></li>
-    <li><a href="../da/" hreflang="da" lang="da">Dansk</a></li>
-    <li><span aria-current="page" lang="el">Ελληνικά</span></li>
-    <li><a href="../fi/" hreflang="fi" lang="fi">Suomi</a></li>
-    <li><a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a></li>
-    <li><a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a></li>
-    <li><a href="../nl/" hreflang="nl" lang="nl">Nederlands</a></li>
-    <li><a href="../pl/" hreflang="pl" lang="pl">Polski</a></li>
-    <li><a href="../sv/" hreflang="sv" lang="sv">Svenska</a></li>
-    <li><a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></li>
-  </ul></nav>
-  <div class="logo">📖✏️</div>
-  <h1>Palang Book</h1>
-  <p class="sub">Ζωγραφίστε πάνω στο περίγραμμα σελίδα σελίδα και δείτε το σχέδιό σας να ζωντανεύει.</p>
+  <a class="skip" href="#main">Μετάβαση στο περιεχόμενο</a>
+  <header class="bar">
+    <a class="brand" href="../el/"><img src="../icon.png" alt="" width="32" height="32">Palang Book</a>
+    <a class="lang-link" href="#languages">Γλώσσα</a>
+  </header>
 
-  <p>Το Palang Book είναι μια εφαρμογή για iPad όπου τα παιδιά φτιάχνουν κινούμενα flipbook. Το παιδί ζωγραφίζει πάνω σε ένα αχνό περίγραμμα σελίδα σελίδα και πατάει αναπαραγωγή: το περίγραμμα εξαφανίζεται και κινείται μόνο το δικό του σχέδιο. Κάθε κουμπί είναι εικόνα, οπότε ακόμη και παιδιά που δεν ξέρουν να διαβάζουν το χρησιμοποιούν μόνα τους, με το δάχτυλο ή το Apple Pencil.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Ζωγράφισε τις γραμμές.<br>Δες τες να κινούνται.</h1>
+        <p class="lead">Το παιδί ζωγραφίζει πάνω σε ένα αχνό περίγραμμα, μία σελίδα κάθε φορά. Πατήστε αναπαραγωγή: το περίγραμμα χάνεται και μένουν μόνο οι δικές του γραμμές, που κινούνται. Κάθε κουμπί είναι εικόνα, οπότε τα καταφέρνει μόνο του πριν μάθει να διαβάζει.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6789852144">Δωρεάν στο App Store</a><a class="try" href="#try">Ζωγραφίστε μερικές σελίδες ↓</a></div>
+        <p class="muted small">Για iPad. Τρία σετ περιγραμμάτων είναι δωρεάν.</p>
+      </div>
+      <div class="plain"><img src="../img/el/01-trace-bunny.jpg" alt="Ζωγράφισε τις γραμμές. Δες τες να κινούνται." width="720" height="960" decoding="async"></div>
+    </section>
 
-  <h2>Τι περιλαμβάνει</h2>
-  <ul class="features">
-    <li><strong>10 σετ περιγραμμάτων</strong><br>Μια μπάλα που αναπηδά, ένα λαγουδάκι που πηδά, ένα πουλί που πετά, ένα ψάρι που κολυμπά, ένα λουλούδι που ανθίζει, μια πεταλούδα, ένα αγωνιστικό αυτοκίνητο, ένας πύραυλος, ένας βάτραχος και ένας ανεμόμυλος. Κάθε σετ έχει περίπου 20 σελίδες με περιγράμματα και η προηγούμενη σελίδα διαφαίνεται αχνά από κάτω, ώστε να ταιριάζει εύκολα η επόμενη ζωγραφιά.</li>
-    <li><strong>Ζωγραφίστε πάνω στα δικά σας βίντεο</strong><br>Τραβήξτε ένα βίντεο με την κάμερα, διαλέξτε ένα από την εφαρμογή Φωτογραφίες ή ανοίξτε έναν σύνδεσμο προς αρχείο βίντεο και ζωγραφίστε από πάνω. Αν κρύψετε το φόντο, παίζονται μόνο οι σελίδες που ζωγραφίσατε, σε καθαρό λευκό χαρτί.</li>
-    <li><strong>Λευκό flipbook</strong><br>Χωρίς περιγράμματα, μόνο λευκές σελίδες. Ζωγραφίστε, γυρίστε σελίδα και φτιάξτε ένα flipbook από το μηδέν.</li>
-    <li><strong>Σφραγίδες και χρώματα</strong><br>Σφραγίδες καρδιάς, κύκλου, τετραγώνου, τριγώνου, αστεριού, λουλουδιού, αυτοκινήτου και πουλιού σε τρία μεγέθη, δέκα χρώματα και τρία πάχη πινέλου, καθώς και γόμα, αναίρεση και ένα κουμπί που καθαρίζει όλη τη σελίδα.</li>
-    <li><strong>Εγγραφή φωνής</strong><br>Πατήστε το μικρόφωνο και η κινούμενη εικόνα παίζει σε επανάληψη, ενώ η φωνή του παιδιού ηχογραφείται κατευθείαν μέσα της.</li>
-    <li><strong>Αποθήκευση στις Φωτογραφίες</strong><br>Οι έτοιμες κινούμενες εικόνες αποθηκεύονται ως βίντεο στην εφαρμογή Φωτογραφίες και μοιράζονται εύκολα με την οικογένεια.</li>
-    <li><strong>Τα σχέδια μένουν στο iPad</strong><br>Χωρίς λογαριασμούς, χωρίς διαφημίσεις, χωρίς παρακολούθηση. Τα σχέδια και οι ηχογραφήσεις δεν φεύγουν ποτέ από τη συσκευή.</li>
-  </ul>
 
-  <h2>Δωρεάν δοκιμή, μία Ισόβια πρόσβαση</h2>
-  <p>Χωρίς πληρωμή μπορείτε να χρησιμοποιείτε 3 σετ περιγραμμάτων, να κρατάτε 3 έργα, να προσθέσετε 1 βίντεο, να ζωγραφίσετε έως 10 σελίδες σε λευκό flipbook και να ηχογραφήσετε φωνή έως 15 δευτερόλεπτα. Η <strong>Ισόβια πρόσβαση</strong> είναι μια εφάπαξ αγορά που ξεκλειδώνει τα πάντα για πάντα. Δεν είναι συνδρομή και λειτουργεί με την Οικογενειακή κοινή χρήση. Η οθόνη αγοράς ανοίγει μόνο αφού ένας ενήλικας λύσει μια σύντομη πράξη.</p>
+    <section class="reveal" id="try">
+      <h2>Ζωγραφίστε μερικές σελίδες</h2>
+      <p class="muted">Ζωγραφίστε κάτι και πατήστε το πορτοκαλί βέλος για την επόμενη σελίδα. Η προηγούμενη διαφαίνεται αχνά. Μετά από δύο τρεις σελίδες, πατήστε το μπλε κουμπί αναπαραγωγής.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Ζωγραφίστε μερικές σελίδες&quot;, &quot;lead&quot;: &quot;Ζωγραφίστε κάτι και πατήστε το πορτοκαλί βέλος για την επόμενη σελίδα. Η προηγούμενη διαφαίνεται αχνά. Μετά από δύο τρεις σελίδες, πατήστε το μπλε κουμπί αναπαραγωγής.&quot;, &quot;hint&quot;: &quot;Ζωγραφίστε εδώ με το δάχτυλο ή το ποντίκι&quot;, &quot;canvas&quot;: &quot;Χαρτί ζωγραφικής&quot;, &quot;colors&quot;: &quot;Χρώματα&quot;, &quot;undo&quot;: &quot;Αναίρεση&quot;, &quot;clear&quot;: &quot;Καθαρισμός σελίδας&quot;, &quot;play&quot;: &quot;Αναπαραγωγή&quot;, &quot;stop&quot;: &quot;Διακοπή&quot;, &quot;prev&quot;: &quot;Προηγούμενη σελίδα&quot;, &quot;next&quot;: &quot;Επόμενη σελίδα&quot;, &quot;note&quot;: &quot;Λειτουργεί όπως το λευκό flipbook της εφαρμογής, με 8 σελίδες το δευτερόλεπτο. Στην εφαρμογή μπορείτε επίσης να ζωγραφίζετε πάνω σε περιγράμματα, να βάζετε σφραγίδες, να ηχογραφείτε φωνή και να αποθηκεύετε βίντεο.&quot;}"></div>
+    </section>
 
-  <h2>Επικοινωνία</h2>
-  <div class="contact">
-    <strong>Επικοινωνία</strong><br>
-    Έχετε ερωτήσεις ή προβλήματα; Στείλτε μας email όποτε θέλετε.<br>
-    📮 <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a><br>
-    <span class="sub">Συνήθως απαντάμε μέσα σε 2–3 ημέρες.</span>
-  </div>
+    <section class="problem reveal">
+      <h2>Κρίμα μια ωραία ζωγραφιά να μένει ακίνητη, δεν είναι;</h2>
+      <p>Κινούμενη εικόνα σημαίνει να ζωγραφίζεις σχεδόν την ίδια εικόνα ξανά και ξανά με μικρές αλλαγές, και μόνο του ένα παιδί δεν ξέρει από πού να ξεκινήσει. Το Palang Book βάζει από κάτω ένα αχνό περίγραμμα που έχει ήδη μέσα την κίνηση, οπότε αρκεί να ακολουθεί τη γραμμή. Μόλις πατήσει αναπαραγωγή, η ζωγραφιά του κινείται.</p>
+    </section>
 
-  <h2>Βοήθεια και απόρρητο</h2>
-  <ul>
-    <li><a href="support.html">Υποστήριξη και συχνές ερωτήσεις</a></li>
-    <li><a href="privacy.html">Πολιτική απορρήτου</a></li>
-  </ul>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Ακολούθησε τη γραμμή, να και το κινούμενο σχέδιο</h2>
+        <p>Μια μπάλα που αναπηδά, ένα λαγουδάκι που πηδά, ένα πουλί που πετά, ένα ψάρι που κολυμπά, ένα λουλούδι που ανθίζει, μια πεταλούδα, ένα αγωνιστικό αυτοκίνητο, ένας πύραυλος, ένας βάτραχος και ένας ανεμόμυλος. Κάθε σετ έχει περίπου 20 σελίδες με περιγράμματα.<br>Η προηγούμενη σελίδα διαφαίνεται αχνά για να βγαίνει εύκολα η επόμενη, και στην αναπαραγωγή το περίγραμμα χάνεται, ώστε να κινείται μόνο η ζωγραφιά του παιδιού.</p>
+      </div>
+      <div class="plain"><img src="../img/el/02-trace-rocket.jpg" alt="Ακολούθησε τη γραμμή, να και το κινούμενο σχέδιο" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Σφραγίδες και δέκα χρώματα</h2>
+        <p>Με ένα άγγιγμα μπαίνουν καρδιές, κύκλοι, τετράγωνα, τρίγωνα, αστέρια, λουλούδια, αυτοκινητάκια και πουλάκια. Σφραγίδες και πινέλα έχουν από τρία μεγέθη, και τα χρώματα είναι δέκα.<br>Με τη γόμα και την αναίρεση τα λάθη διορθώνονται αμέσως. Ζωγραφίζει με το δάχτυλο ή με Apple Pencil.</p>
+      </div>
+      <div class="plain"><img src="../img/el/03-stamps-fish.jpg" alt="Σφραγίδες και δέκα χρώματα" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Πάνω στα δικά σας βίντεο ή σε λευκό χαρτί</h2>
+        <p>Φέρτε ένα βίντεο που τραβήξατε ή ένα από τις Φωτογραφίες και ζωγραφίστε κατευθείαν πάνω του. Αν κρύψετε το φόντο, παίζουν μόνο οι σκηνές με ζωγραφιά, η μία μετά την άλλη, σε λευκό χαρτί. Υπάρχει και λευκό flipbook χωρίς κανένα περίγραμμα.<br>Πατήστε το μικρόφωνο για να ηχογραφήσετε τη φωνή του παιδιού μαζί, και αποθηκεύστε το έργο ως βίντεο στις Φωτογραφίες για να το δει όλη η οικογένεια.</p>
+      </div>
+      <div class="plain"><img src="../img/el/04-home.jpg" alt="Πάνω στα δικά σας βίντεο ή σε λευκό χαρτί" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Ξεκινάτε σε τρία βήματα</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Πατήστε μια κάρτα περιγράμματος</h3><p>Οι κάρτες με πορτοκαλί διακεκομμένο περίγραμμα στην αρχική οθόνη είναι τα σετ περιγραμμάτων.</p></li>
+<li class="card"><span class="n">2</span><h3>Ζωγραφίστε και γυρίστε σελίδα</h3><p>Το πορτοκαλί βέλος πηγαίνει στην επόμενη σελίδα.</p></li>
+<li class="card"><span class="n">3</span><h3>Πατήστε αναπαραγωγή</h3><p>Πατήστε το μπλε κουμπί αναπαραγωγής και η ζωγραφιά κινείται.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Τι κάνουν τα κουμπιά</h2>
+      <div class="card table">
+        <dl><div><dt>Πορτοκαλί διακεκομμένη κάρτα</dt><dd>Έναρξη σετ περιγραμμάτων</dd></div><div><dt>Γκρι διακεκομμένη κάρτα</dt><dd>Λευκό flipbook</dd></div><div><dt>Μπλε κάμερα</dt><dd>Ζωγραφική πάνω σε βίντεο που τραβάτε</dd></div><div><dt>Πράσινο βίντεο</dt><dd>Βίντεο από τις Φωτογραφίες</dd></div><div><dt>Λουλακί σύνδεσμος</dt><dd>Επικόλληση συνδέσμου προς αρχείο βίντεο</dd></div><div><dt>Πορτοκαλί βέλος</dt><dd>Επόμενη σελίδα</dd></div><div><dt>Μπλε αναπαραγωγή</dt><dd>Παίζει την κινούμενη εικόνα, πατήστε ξανά για διακοπή</dd></div><div><dt>Καμπύλο βέλος</dt><dd>Αναίρεση της τελευταίας γραμμής</dd></div><div><dt>Κόκκινος κάδος</dt><dd>Καθαρίζει όλη τη σελίδα (η αναίρεση τη φέρνει πίσω)</dd></div><div><dt>Μικρόφωνο</dt><dd>Ηχογράφηση φωνής όσο η κινούμενη εικόνα παίζει σε επανάληψη</dd></div><div><dt>Εικονίδιο βίντεο</dt><dd>Απόκρυψη φόντου βίντεο (ροζ ρίγες σημαίνει μόνο ζωγραφιές)</dd></div><div><dt>Πράσινη αποθήκευση</dt><dd>Αποθήκευση ως βίντεο στις Φωτογραφίες</dd></div></dl>
+      </div>
+      <p class="muted">Για να διαγράψετε ένα έργο, κρατήστε πατημένη την κάρτα του στην αρχική οθόνη. Μαζί του διαγράφονται οι ζωγραφιές, η ηχογράφηση και το βίντεο που προσθέσατε.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Πολλά για να δοκιμάσετε δωρεάν. Ισόβια πρόσβαση, αν σας αρέσει.</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Δωρεάν</h3>
+          <ul><li>3 σετ περιγραμμάτων (μπάλα, λαγουδάκι, λουλούδι)</li><li>Φύλαξη 3 έργων</li><li>Προσθήκη 1 βίντεο</li><li>Λευκά flipbook έως 10 σελίδες</li><li>Ηχογράφηση φωνής έως 15 δευτερόλεπτα</li><li>Σφραγίδες, χρώματα, πινέλα και αποθήκευση στις Φωτογραφίες</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Ισόβια πρόσβαση</h3>
+          <ul><li>Όλα τα σετ περιγραμμάτων, και όσα έρθουν στο μέλλον</li><li>Χωρίς όρια σε έργα, σελίδες, βίντεο και χρόνο ηχογράφησης</li><li>Χωρίς την κάρτα Palang Book στο τέλος των αποθηκευμένων βίντεο</li></ul>
+          <p class="muted">Εφάπαξ αγορά, όχι συνδρομή. Με την Οικογενειακή κοινή χρήση λειτουργεί σε κάθε iPad της οικογένειας.</p>
+        </div>
+      </div>
+      <p class="muted">Τα βίντεο που αποθηκεύονται δωρεάν τελειώνουν με μια σύντομη κάρτα Palang Book. Αν χρησιμοποιούσατε το Palang Book πριν υπάρξει η Ισόβια πρόσβαση, τα έχετε ήδη όλα ξεκλείδωτα.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Ερωτήσεις</h2>
+      <div class="faq"><details><summary>Πώς λειτουργούν τα περιγράμματα;</summary><p>Οι ανοιχτογάλαζες γραμμές είναι το περίγραμμα. Το παιδί ζωγραφίζει από πάνω τους και, όταν πατήσετε αναπαραγωγή, το περίγραμμα χάνεται και κινούνται μόνο οι δικές του γραμμές. Με περίπου 20 σελίδες η κινούμενη εικόνα είναι έτοιμη.</p></details>
+<details><summary>Θέλω να παίξω και να αποθηκεύσω μόνο τη ζωγραφιά, χωρίς το βίντεο.</summary><p>Σε ένα έργο με βίντεο, πατήστε το εικονίδιο βίντεο στη γραμμή εργαλείων πάνω, ώστε να γίνει ροζ με ρίγες. Τότε η αναπαραγωγή και η αποθήκευση δείχνουν μόνο τη ζωγραφιά σε λευκό φόντο. Παίζουν μόνο οι σκηνές με ζωγραφιά, οπότε λίγες ζωγραφιές πάνω σε ένα μεγάλο βίντεο δίνουν μια σύντομη κινούμενη εικόνα.</p></details>
+<details><summary>Πού πηγαίνει το έτοιμο βίντεο;</summary><p>Πατήστε το πράσινο κουμπί αποθήκευσης στη δεξιά άκρη της γραμμής εργαλείων και ένα βίντεο mp4 αποθηκεύεται στις Φωτογραφίες. Την πρώτη φορά, επιτρέψτε την πρόσβαση στις φωτογραφίες.</p></details>
+<details><summary>Πώς προσθέτω φωνή;</summary><p>Πατήστε το κουμπί του μικροφώνου για να ηχογραφήσετε όσο η κινούμενη εικόνα παίζει σε επανάληψη και πατήστε διακοπή για να τελειώσετε. Μια νέα ηχογράφηση αντικαθιστά την παλιά. Η φωνή μπαίνει στο βίντεο όταν το αποθηκεύσετε.</p></details>
+<details><summary>Ένας σύνδεσμος βίντεο δεν ανοίγει.</summary><p>Ελέγξτε τη σύνδεση στο διαδίκτυο και βεβαιωθείτε ότι η διεύθυνση οδηγεί κατευθείαν σε αρχείο βίντεο (που τελειώνει σε .mp4 ή κάτι παρόμοιο). Σύνδεσμοι προς σελίδες ιστότοπων κοινοποίησης βίντεο δεν ανοίγουν. Χρησιμοποιήστε δικά σας βίντεο ή βίντεο ελεύθερα προς χρήση.</p></details>
+<details><summary>Η παλάμη μου αφήνει σημάδια.</summary><p>Το καμπύλο βέλος σβήνει την τελευταία γραμμή και ο κόκκινος κάδος καθαρίζει όλη τη σελίδα (η αναίρεση τη φέρνει πίσω). Αν συμβαίνει συχνά, στείλτε μας email και θα σας βοηθήσουμε.</p></details>
+<details><summary>Γιατί υπάρχει μια πράξη πριν από την οθόνη αγοράς;</summary><p>Για να μη φτάνουν τα παιδιά μόνα τους στην οθόνη αγοράς. Όταν ένα παιδί πατήσει κάτι κλειδωμένο, εμφανίζεται ένα μεγάλο λουκέτο με το μήνυμα «Δείξε το σε έναν μεγάλο», και η οθόνη αγοράς ανοίγει μόνο αφού ένας ενήλικας λύσει έναν πολλαπλασιασμό.</p></details>
+<details><summary>Πώς επαναφέρω την αγορά μου;</summary><p>Πατήστε το γρανάζι πάνω δεξιά στην αρχική οθόνη, επιλέξτε Ισόβια πρόσβαση, απαντήστε στην ερώτηση για ενήλικες και πατήστε Επαναφορά αγορών. Πρέπει να είστε συνδεδεμένοι με τον ίδιο λογαριασμό Apple με τον οποίο κάνατε την αγορά.</p></details>
+<details><summary>Πώς στέλνω σχόλια από την εφαρμογή;</summary><p>Πατήστε το γρανάζι στην αρχική οθόνη και επιλέξτε Αποστολή σχολίων. Μπορείτε να επισυνάψετε στιγμιότυπο οθόνης και να αφήσετε όνομα και email αν θέλετε απάντηση. Παρακαλούμε τα σχόλια να τα στέλνει ένας γονέας.</p></details>
+<details><summary>Συλλέγετε στοιχεία για το παιδί μου;</summary><p>Όχι. Το Palang Book δεν συλλέγει κανένα προσωπικό στοιχείο, και οι ζωγραφιές και οι ηχογραφήσεις μένουν στο iPad σας. Δείτε την Πολιτική απορρήτου για λεπτομέρειες.</p></details></div>
+      <p class="contact">Ερωτήσεις ή προβλήματα; Γράψτε μας στο <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>. Συνήθως απαντάμε μέσα σε 2 με 3 ημέρες.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Ζωντάνεψε<br>τη σημερινή ζωγραφιά</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6789852144">Δωρεάν στο App Store</a>
+    </section>
+  </main>
 
   <footer>
-    © 2026 Palang Book · <span aria-current="page">Αρχική</span> · <a href="support.html">Υποστήριξη</a> · <a href="privacy.html">Πολιτική απορρήτου</a>
+    <nav id="languages" class="langs" aria-label="Γλώσσα"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el" aria-current="page">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Πολιτική απορρήτου</a> · <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> · © 2026 Palang Book</p>
   </footer>
-</main>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

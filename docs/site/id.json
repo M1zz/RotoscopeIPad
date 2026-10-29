@@ -1,0 +1,159 @@
+{
+  "title": "Palang Book: app flipbook iPad yang membuat gambar anak bergerak",
+  "description": "Jiplak garis tipis halaman demi halaman, tekan putar, dan hanya gambar si kecil yang bergerak. Tombol bergambar, stempel, rekam suara. 3 set gratis.",
+  "hero": {
+    "headline": "Jiplak garisnya,\nlihat gambarnya hidup",
+    "lead": "Si kecil menjiplak garis panduan tipis halaman demi halaman. Tekan putar, garis panduan menghilang, dan hanya goresannya sendiri yang bergerak. Semua tombol berupa gambar, jadi anak yang belum bisa membaca pun bisa bermain sendiri.",
+    "cta": "Unduh gratis di App Store",
+    "note": "Untuk iPad. 3 set jiplakan bisa dipakai gratis."
+  },
+  "demo": {
+    "title": "Coba gambar beberapa halaman",
+    "lead": "Gambar sesuatu, lalu ketuk panah oranye untuk pindah ke halaman berikutnya. Halaman sebelumnya tampak samar di bawahnya. Setelah dua atau tiga halaman, ketuk tombol putar biru.",
+    "hint": "Gambar di sini dengan jari atau mouse",
+    "canvas": "Kertas gambar",
+    "colors": "Warna",
+    "undo": "Urungkan",
+    "clear": "Bersihkan halaman ini",
+    "play": "Putar",
+    "stop": "Berhenti",
+    "prev": "Halaman sebelumnya",
+    "next": "Halaman berikutnya",
+    "note": "Cara kerjanya sama seperti flipbook kosong di app, 8 halaman per detik. Di app, anak juga bisa menjiplak garis panduan, menambah stempel, merekam suara, dan menyimpan hasilnya sebagai video."
+  },
+  "problem": {
+    "title": "Sayang, kan, kalau gambar sebagus itu cuma diam?",
+    "text": "Membuat animasi berarti menggambar hal yang hampir sama berulang kali dengan sedikit perubahan, dan anak sendirian tidak tahu harus mulai dari mana. Palang Book menyediakan garis panduan tipis yang sudah berisi gerakannya, jadi anak cukup mengikuti garis. Begitu tombol putar ditekan, gambarnya bergerak."
+  },
+  "features": [
+    {
+      "title": "Ikuti garisnya, jadilah animasi",
+      "text": "Bola yang memantul, kelinci yang melompat, burung yang terbang, ikan yang berenang, bunga yang mekar, kupu-kupu, mobil balap, roket, katak, dan kincir angin. Setiap set berisi sekitar 20 halaman garis panduan.\nHalaman sebelumnya tampak samar sehingga halaman berikutnya mudah digambar, dan saat diputar garis panduan menghilang sehingga hanya gambar si kecil yang bergerak.",
+      "shot": "02-trace-rocket"
+    },
+    {
+      "title": "Stempel dan sepuluh warna",
+      "text": "Ketuk untuk menempelkan stempel hati, lingkaran, persegi, segitiga, bintang, bunga, mobil, dan burung. Stempel dan kuas masing-masing punya tiga ukuran, dengan sepuluh warna untuk dipilih.\nAda penghapus dan urungkan, jadi kesalahan mudah diperbaiki. Menggambar bisa dengan jari atau Apple Pencil.",
+      "shot": "03-stamps-fish"
+    },
+    {
+      "title": "Di atas video sendiri, atau di kertas kosong",
+      "text": "Masukkan video yang Anda rekam sendiri atau video dari app Foto, lalu jiplak di atasnya. Sembunyikan latarnya, dan hanya adegan yang digambar yang diputar berurutan di atas kertas putih. Ada juga flipbook kosong tanpa garis panduan sama sekali.\nKetuk mikrofon untuk ikut merekam suara si kecil, lalu simpan karyanya sebagai video di app Foto untuk dibagikan ke keluarga.",
+      "shot": "04-home"
+    }
+  ],
+  "steps": {
+    "title": "Mulai dalam tiga langkah",
+    "items": [
+      {
+        "title": "Ketuk kartu panduan",
+        "text": "Kartu bertepi putus-putus oranye di layar utama adalah set jiplakan."
+      },
+      {
+        "title": "Gambar, lalu balik halaman",
+        "text": "Panah oranye membawa Anda ke halaman berikutnya."
+      },
+      {
+        "title": "Ketuk putar",
+        "text": "Ketuk tombol putar biru, dan gambarnya bergerak."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Fungsi tiap tombol",
+    "rows": [
+      ["Kartu putus-putus oranye", "Mulai menjiplak"],
+      ["Kartu putus-putus abu-abu", "Flipbook kosong"],
+      ["Kamera biru", "Gambar di atas video yang Anda rekam"],
+      ["Video hijau", "Masukkan video dari app Foto"],
+      ["Tautan indigo", "Tempel tautan ke file video"],
+      ["Panah oranye", "Halaman berikutnya"],
+      ["Putar biru", "Putar animasi, ketuk lagi untuk berhenti"],
+      ["Panah melengkung", "Urungkan garis terakhir"],
+      ["Tempat sampah merah", "Bersihkan seluruh halaman (urungkan mengembalikannya)"],
+      ["Mikrofon", "Rekam suara selagi animasi berulang"],
+      ["Ikon video", "Sembunyikan latar video (merah muda bergaris berarti hanya gambar)"],
+      ["Simpan hijau", "Simpan ke Foto sebagai video"]
+    ],
+    "note": "Untuk menghapus karya, tekan dan tahan kartunya di layar utama. Gambar, rekaman, dan video yang dimasukkan ikut terhapus."
+  },
+  "pricing": {
+    "title": "Banyak yang bisa dicoba gratis. Akses Seumur Hidup kalau si kecil suka.",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "3 set jiplakan (bola, kelinci, bunga)",
+        "Simpan 3 karya",
+        "Masukkan 1 video",
+        "Flipbook kosong hingga 10 halaman",
+        "Rekam suara hingga 15 detik",
+        "Stempel, warna, kuas, dan simpan ke Foto"
+      ]
+    },
+    "pro": {
+      "name": "Akses Seumur Hidup",
+      "items": [
+        "Semua set jiplakan, termasuk yang akan datang",
+        "Karya, halaman, video, dan waktu rekam tanpa batas",
+        "Tanpa kartu Palang Book di akhir video yang disimpan"
+      ],
+      "note": "Sekali beli, bukan langganan. Lewat Berbagi Keluarga, bisa dipakai di semua iPad keluarga."
+    },
+    "note": "Video yang disimpan secara gratis diakhiri kartu Palang Book singkat. Jika Anda sudah memakai Palang Book sebelum ada Akses Seumur Hidup, semuanya sudah terbuka untuk Anda."
+  },
+  "faq": {
+    "title": "Pertanyaan",
+    "items": [
+      {
+        "q": "Bagaimana cara kerja garis panduan?",
+        "a": "Garis biru langit muda adalah garis panduan. Anak menjiplak di atasnya, dan saat tombol putar ditekan, garis panduan menghilang sehingga hanya garis anak yang bergerak. Selesaikan sekitar 20 halaman, dan animasinya pun jadi."
+      },
+      {
+        "q": "Saya ingin memutar dan menyimpan gambarnya saja, tanpa video.",
+        "a": "Di proyek video, ketuk ikon video di bilah alat atas hingga berubah merah muda bergaris. Pemutaran dan penyimpanan lalu hanya menampilkan gambar di latar putih. Hanya adegan yang digambar yang diputar, jadi beberapa gambar di atas video panjang menjadi animasi pendek."
+      },
+      {
+        "q": "Ke mana video yang sudah jadi disimpan?",
+        "a": "Ketuk tombol simpan hijau di ujung kanan bilah alat, dan video mp4 tersimpan di app Foto. Izinkan akses ke Foto saat pertama kali menyimpan."
+      },
+      {
+        "q": "Bagaimana cara menambahkan suara?",
+        "a": "Ketuk tombol mikrofon untuk merekam selagi animasi berulang, lalu ketuk berhenti untuk selesai. Merekam lagi akan menggantikan rekaman lama. Suara ikut masuk saat video disimpan."
+      },
+      {
+        "q": "Tautan video tidak bisa dibuka.",
+        "a": "Periksa koneksi internet, dan pastikan alamatnya langsung mengarah ke file video (yang berakhiran .mp4 atau sejenisnya). Tautan ke halaman situs berbagi video tidak bisa dibuka. Gunakan video buatan sendiri atau video yang bebas dipakai, ya."
+      },
+      {
+        "q": "Telapak tangan terus meninggalkan bekas.",
+        "a": "Panah melengkung menghapus garis terakhir, dan tempat sampah merah membersihkan seluruh halaman (urungkan mengembalikannya). Jika sering terjadi, kirim email kepada kami dan kami akan membantu."
+      },
+      {
+        "q": "Mengapa ada soal hitungan sebelum layar pembelian?",
+        "a": "Supaya anak tidak bisa sampai ke layar pembelian sendirian. Saat anak mengetuk sesuatu yang terkunci, muncul gembok besar dengan pesan untuk menunjukkannya ke orang dewasa, dan layar pembelian baru terbuka setelah orang dewasa menjawab soal perkalian."
+      },
+      {
+        "q": "Bagaimana cara memulihkan pembelian?",
+        "a": "Ketuk roda gigi di kanan atas layar utama, pilih Akses Seumur Hidup, jawab pertanyaan untuk orang dewasa, lalu ketuk Pulihkan Pembelian. Pastikan Anda masuk dengan Akun Apple yang sama seperti saat membeli."
+      },
+      {
+        "q": "Bagaimana cara mengirim masukan dari app?",
+        "a": "Ketuk roda gigi di layar utama dan pilih Kirim Masukan. Anda bisa melampirkan tangkapan layar, serta meninggalkan nama dan email jika ingin dibalas. Kami mohon masukan dikirim oleh orang tua."
+      },
+      {
+        "q": "Apakah data anak saya dikumpulkan?",
+        "a": "Tidak. Palang Book tidak mengumpulkan informasi pribadi apa pun, dan gambar serta rekaman tetap tersimpan di iPad Anda. Lihat Kebijakan Privasi untuk detailnya."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Ayo hidupkan\ngambar hari ini",
+    "cta": "Unduh gratis di App Store"
+  },
+  "ui": {
+    "skip": "Langsung ke konten",
+    "languages": "Bahasa",
+    "privacy": "Kebijakan Privasi",
+    "contact": "Ada pertanyaan atau masalah? Kirim email ke {email}. Kami biasanya membalas dalam 2–3 hari."
+  }
+}

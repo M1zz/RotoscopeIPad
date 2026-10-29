@@ -1,102 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Palang Book — флипбук-анимация для детей</title>
-<meta name="description" content="Обводите страницу за страницей — и рисунок оживёт. Palang Book — приложение для iPad, в котором дети делают флипбук-анимацию. Ребёнок обводит бледный контур страницу за страницей и нажимает «Воспроизвести»: контур исчезает, и двигается только его рисунок. Все кнопки — картинки, поэтому приложением можно пользоваться, ещё не умея читать, — пальцем или Apple Pencil.">
-<link rel="canonical" href="https://m1zz.github.io/RotoscopeIPad/ru/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/RotoscopeIPad/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/RotoscopeIPad/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/RotoscopeIPad/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/RotoscopeIPad/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/RotoscopeIPad/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/RotoscopeIPad/zh-Hant/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/RotoscopeIPad/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/RotoscopeIPad/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/RotoscopeIPad/fr/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/RotoscopeIPad/pt-BR/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/RotoscopeIPad/it/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/RotoscopeIPad/ru/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/RotoscopeIPad/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/RotoscopeIPad/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/RotoscopeIPad/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/RotoscopeIPad/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/RotoscopeIPad/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/RotoscopeIPad/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/RotoscopeIPad/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/RotoscopeIPad/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/RotoscopeIPad/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/RotoscopeIPad/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/RotoscopeIPad/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/RotoscopeIPad/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/RotoscopeIPad/">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Palang Book: флипбук для iPad, в котором детские рисунки оживают</title>
+  <meta name="description" content="Обводите контур лист за листом, нажмите «Воспроизвести», и двигается только рисунок ребёнка. Кнопки-картинки, штампы, голос. 3 набора бесплатно.">
+  <meta name="theme-color" content="#B85400" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6789852144">
+  <link rel="canonical" href="https://m1zz.github.io/RotoscopeIPad/ru/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/RotoscopeIPad/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/RotoscopeIPad/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/RotoscopeIPad/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/RotoscopeIPad/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/RotoscopeIPad/zh-Hant/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/RotoscopeIPad/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/RotoscopeIPad/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/RotoscopeIPad/fr/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/RotoscopeIPad/pt-BR/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/RotoscopeIPad/it/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/RotoscopeIPad/ru/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/RotoscopeIPad/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/RotoscopeIPad/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/RotoscopeIPad/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/RotoscopeIPad/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/RotoscopeIPad/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/RotoscopeIPad/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/RotoscopeIPad/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/RotoscopeIPad/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/RotoscopeIPad/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/RotoscopeIPad/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/RotoscopeIPad/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/RotoscopeIPad/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/RotoscopeIPad/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Palang Book: флипбук для iPad, в котором детские рисунки оживают">
+  <meta property="og:description" content="Обводите контур лист за листом, нажмите «Воспроизвести», и двигается только рисунок ребёнка. Кнопки-картинки, штампы, голос. 3 набора бесплатно.">
+  <meta property="og:url" content="https://m1zz.github.io/RotoscopeIPad/ru/">
+  <meta property="og:image" content="https://m1zz.github.io/RotoscopeIPad/img/ru/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#B85400}@media (prefers-color-scheme:dark){:root{--accent:#FF9F0A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<main>
-  <nav class="langs" aria-label="Язык"><ul>
-    <li><a href="../" hreflang="ko" lang="ko">한국어</a></li>
-    <li><a href="../en/" hreflang="en" lang="en">English</a></li>
-    <li><a href="../ja/" hreflang="ja" lang="ja">日本語</a></li>
-    <li><a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
-    <li><a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
-    <li><a href="../es/" hreflang="es" lang="es-419">Español</a></li>
-    <li><a href="../de/" hreflang="de" lang="de">Deutsch</a></li>
-    <li><a href="../fr/" hreflang="fr" lang="fr">Français</a></li>
-    <li><a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li>
-    <li><a href="../it/" hreflang="it" lang="it">Italiano</a></li>
-    <li><span aria-current="page" lang="ru">Русский</span></li>
-    <li><a href="../th/" hreflang="th" lang="th">ไทย</a></li>
-    <li><a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a></li>
-    <li><a href="../cs/" hreflang="cs" lang="cs">Čeština</a></li>
-    <li><a href="../da/" hreflang="da" lang="da">Dansk</a></li>
-    <li><a href="../el/" hreflang="el" lang="el">Ελληνικά</a></li>
-    <li><a href="../fi/" hreflang="fi" lang="fi">Suomi</a></li>
-    <li><a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a></li>
-    <li><a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a></li>
-    <li><a href="../nl/" hreflang="nl" lang="nl">Nederlands</a></li>
-    <li><a href="../pl/" hreflang="pl" lang="pl">Polski</a></li>
-    <li><a href="../sv/" hreflang="sv" lang="sv">Svenska</a></li>
-    <li><a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></li>
-  </ul></nav>
-  <div class="logo">📖✏️</div>
-  <h1>Palang Book</h1>
-  <p class="sub">Обводите страницу за страницей — и рисунок оживёт.</p>
+  <a class="skip" href="#main">Перейти к содержанию</a>
+  <header class="bar">
+    <a class="brand" href="../ru/"><img src="../icon.png" alt="" width="32" height="32">Palang Book</a>
+    <a class="lang-link" href="#languages">Язык</a>
+  </header>
 
-  <p>Palang Book — приложение для iPad, в котором дети делают флипбук-анимацию. Ребёнок обводит бледный контур страницу за страницей и нажимает «Воспроизвести»: контур исчезает, и двигается только его рисунок. Все кнопки — картинки, поэтому приложением можно пользоваться, ещё не умея читать, — пальцем или Apple Pencil.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Обведи рисунок,<br>и он оживёт</h1>
+        <p class="lead">Ребёнок обводит бледный контур, страницу за страницей. Нажмите «Воспроизвести»: контур исчезнет, и двигаться будут только его собственные линии. Все кнопки здесь картинки, поэтому справиться можно самому, даже не умея читать.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6789852144">Бесплатно в App Store</a><a class="try" href="#try">Нарисуйте несколько страниц ↓</a></div>
+        <p class="muted small">Для iPad. Три набора для обводки бесплатны.</p>
+      </div>
+      <div class="plain"><img src="../img/ru/01-trace-bunny.jpg" alt="Обведи рисунок, и он оживёт" width="720" height="960" decoding="async"></div>
+    </section>
 
-  <h2>Что внутри</h2>
-  <ul class="features">
-    <li><strong>10 наборов для обводки</strong><br>Прыгающий мячик, скачущий зайчик, летящая птица, плывущая рыбка, распускающийся цветок, бабочка, гоночная машинка, ракета, лягушка и вертушка. В каждом наборе около 20 страниц с контурами, а предыдущая страница слегка просвечивает снизу, так что следующий рисунок легко совместить.</li>
-    <li><strong>Рисуйте поверх своих видео</strong><br>Снимите видео камерой, выберите ролик в приложении «Фото» или откройте ссылку на видеофайл — и обводите его. Если скрыть фон, на чистой белой бумаге проигрываются только нарисованные вами страницы.</li>
-    <li><strong>Чистый флипбук</strong><br>Без контуров, только белые страницы. Рисуйте, переворачивайте страницу и создавайте флипбук с нуля.</li>
-    <li><strong>Штампы и цвета</strong><br>Штампы «Сердце», «Круг», «Квадрат», «Треугольник», «Звезда», «Цветок», «Машинка» и «Птичка» трёх размеров, десять цветов и три толщины кисти, а ещё ластик, отмена и кнопка, которая стирает всю страницу.</li>
-    <li><strong>Запись голоса</strong><br>Нажмите на микрофон — анимация повторяется, а голос ребёнка записывается прямо в неё.</li>
-    <li><strong>Сохранение в «Фото»</strong><br>Готовые анимации сохраняются как видео в приложении «Фото», и ими легко поделиться с семьёй.</li>
-    <li><strong>Рисунки остаются на iPad</strong><br>Без учётных записей, рекламы и отслеживания. Рисунки и записи никогда не покидают устройство.</li>
-  </ul>
 
-  <h2>Бесплатно попробовать, один пожизненный доступ</h2>
-  <p>Без оплаты доступны 3 набора для обводки, 3 сохранённые работы, 1 импорт видео, до 10 страниц в чистом флипбуке и запись голоса до 15 секунд. <strong>Пожизненный доступ</strong> — разовая покупка, которая открывает всё навсегда. Это не подписка, и ею можно делиться через Семейный доступ. Экран покупки открывается только после того, как взрослый решит простой пример на умножение.</p>
+    <section class="reveal" id="try">
+      <h2>Нарисуйте несколько страниц</h2>
+      <p class="muted">Нарисуйте что-нибудь и нажмите оранжевую стрелку, чтобы перейти к следующей странице. Предыдущая будет слегка просвечивать. Через две-три страницы нажмите синюю кнопку воспроизведения.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Нарисуйте несколько страниц&quot;, &quot;lead&quot;: &quot;Нарисуйте что-нибудь и нажмите оранжевую стрелку, чтобы перейти к следующей странице. Предыдущая будет слегка просвечивать. Через две-три страницы нажмите синюю кнопку воспроизведения.&quot;, &quot;hint&quot;: &quot;Рисуйте здесь пальцем или мышкой&quot;, &quot;canvas&quot;: &quot;Лист для рисования&quot;, &quot;colors&quot;: &quot;Цвета&quot;, &quot;undo&quot;: &quot;Отменить&quot;, &quot;clear&quot;: &quot;Очистить страницу&quot;, &quot;play&quot;: &quot;Воспроизвести&quot;, &quot;stop&quot;: &quot;Стоп&quot;, &quot;prev&quot;: &quot;Предыдущая страница&quot;, &quot;next&quot;: &quot;Следующая страница&quot;, &quot;note&quot;: &quot;Так работает чистый флипбук в приложении: 8 страниц в секунду. В самом приложении можно ещё обводить контуры, ставить штампы, записывать голос и сохранять видео.&quot;}"></div>
+    </section>
 
-  <h2>Контакты</h2>
-  <div class="contact">
-    <strong>Связаться с нами</strong><br>
-    Есть вопросы или проблемы? Пишите в любое время.<br>
-    📮 <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a><br>
-    <span class="sub">Обычно мы отвечаем в течение 2–3 дней.</span>
-  </div>
+    <section class="problem reveal">
+      <h2>Жаль, когда отличный рисунок так и остаётся неподвижным</h2>
+      <p>Анимация означает рисовать почти одну и ту же картинку снова и снова с крошечными изменениями, и сам ребёнок не знает, с чего начать. Palang Book подкладывает бледный контур, в котором движение уже заложено, так что остаётся только вести по линии. Нажали «Воспроизвести», и рисунок ожил.</p>
+    </section>
 
-  <h2>Помощь и конфиденциальность</h2>
-  <ul>
-    <li><a href="support.html">Поддержка и вопросы</a></li>
-    <li><a href="privacy.html">Политика конфиденциальности</a></li>
-  </ul>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Ведите по линии, и получится мультик</h2>
+        <p>Прыгающий мячик, скачущий зайчик, летящая птица, плывущая рыбка, распускающийся цветок, бабочка, гоночная машинка, ракета, лягушка и вертушка. В каждом наборе около 20 страниц с контурами.<br>Предыдущая страница слегка просвечивает, чтобы следующую было легко нарисовать, а при воспроизведении контур исчезает, и двигается только рисунок ребёнка.</p>
+      </div>
+      <div class="plain"><img src="../img/ru/02-trace-rocket.jpg" alt="Ведите по линии, и получится мультик" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Штампы и десять цветов</h2>
+        <p>Одним касанием ставятся сердечки, круги, квадраты, треугольники, звёзды, цветы, машинки и птички. У штампов и кистей по три размера, а цветов десять.<br>Ластик и отмена помогают быстро исправить ошибку. Рисовать можно пальцем или Apple Pencil.</p>
+      </div>
+      <div class="plain"><img src="../img/ru/03-stamps-fish.jpg" alt="Штампы и десять цветов" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Поверх своих видео или на чистом листе</h2>
+        <p>Добавьте видео, которое сняли сами или нашли в приложении «Фото», и обводите прямо по нему. Если скрыть фон, на белом листе одна за другой проиграются только нарисованные сцены. Есть и чистый флипбук совсем без контуров.<br>Нажмите на микрофон, чтобы записать голос ребёнка вместе с анимацией, а готовую работу сохраните в «Фото» как видео и покажите родным.</p>
+      </div>
+      <div class="plain"><img src="../img/ru/04-home.jpg" alt="Поверх своих видео или на чистом листе" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Начать можно в три шага</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Выберите карточку с контуром</h3><p>Карточки с оранжевой пунктирной рамкой на главном экране предназначены для обводки.</p></li>
+<li class="card"><span class="n">2</span><h3>Нарисуйте и листайте</h3><p>Оранжевая стрелка переносит на следующую страницу.</p></li>
+<li class="card"><span class="n">3</span><h3>Нажмите «Воспроизвести»</h3><p>Нажмите синюю кнопку воспроизведения, и рисунок задвигается.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Что делают кнопки</h2>
+      <div class="card table">
+        <dl><div><dt>Оранжевая пунктирная карточка</dt><dd>Начать обводку по контуру</dd></div><div><dt>Серая пунктирная карточка</dt><dd>Чистый флипбук</dd></div><div><dt>Синяя камера</dt><dd>Рисовать поверх снятого видео</dd></div><div><dt>Зелёное видео</dt><dd>Добавить видео из «Фото»</dd></div><div><dt>Ссылка цвета индиго</dt><dd>Вставить ссылку на видеофайл</dd></div><div><dt>Оранжевая стрелка</dt><dd>Следующая страница</dd></div><div><dt>Синяя кнопка воспроизведения</dt><dd>Запустить анимацию, повторное нажатие останавливает</dd></div><div><dt>Изогнутая стрелка</dt><dd>Отменить последнюю линию</dd></div><div><dt>Красная корзина</dt><dd>Очистить всю страницу (отмена всё вернёт)</dd></div><div><dt>Микрофон</dt><dd>Записать голос, пока анимация повторяется</dd></div><div><dt>Значок видео</dt><dd>Скрыть видеофон (розовые полоски значат, что видны только рисунки)</dd></div><div><dt>Зелёная кнопка сохранения</dt><dd>Сохранить в «Фото» как видео</dd></div></dl>
+      </div>
+      <p class="muted">Чтобы удалить работу, нажмите и удерживайте её карточку на главном экране. Вместе с ней удалятся рисунки, запись голоса и добавленное видео.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Многое можно попробовать бесплатно. Понравится, есть пожизненный доступ.</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Бесплатно</h3>
+          <ul><li>3 набора для обводки (мячик, зайчик, цветок)</li><li>Хранение 3 работ</li><li>Добавление 1 видео</li><li>Чистые флипбуки до 10 страниц</li><li>Запись голоса до 15 секунд</li><li>Штампы, цвета, кисти и сохранение в «Фото»</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Пожизненный доступ</h3>
+          <ul><li>Все наборы для обводки, включая будущие</li><li>Без ограничений на работы, страницы, видео и время записи</li><li>Без карточки Palang Book в конце сохранённых видео</li></ul>
+          <p class="muted">Разовая покупка, а не подписка. Через Семейный доступ работает на всех iPad в семье.</p>
+        </div>
+      </div>
+      <p class="muted">Видео, сохранённые бесплатно, заканчиваются короткой карточкой Palang Book. Если вы пользовались Palang Book ещё до появления пожизненного доступа, у вас уже всё открыто.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Вопросы</h2>
+      <div class="faq"><details><summary>Как работают контуры?</summary><p>Светло-голубые линии и есть контур. Ребёнок обводит их, а когда вы нажимаете «Воспроизвести», контур исчезает и двигаются только его линии. Около 20 страниц, и анимация готова.</p></details>
+<details><summary>Хочу воспроизвести и сохранить только рисунок, без видео.</summary><p>В работе с видео нажмите значок видео на верхней панели, чтобы он стал розовым в полоску. Тогда и при воспроизведении, и при сохранении будет только рисунок на белом фоне. Проигрываются лишь нарисованные сцены, так что несколько рисунков поверх длинного ролика дадут короткую анимацию.</p></details>
+<details><summary>Куда сохраняется готовое видео?</summary><p>Нажмите зелёную кнопку сохранения у правого края панели, и видео mp4 сохранится в «Фото». При первом сохранении разрешите доступ к фотографиям.</p></details>
+<details><summary>Как добавить голос?</summary><p>Нажмите кнопку микрофона, чтобы записывать, пока анимация повторяется, и кнопку стоп, чтобы закончить. Новая запись заменяет старую. Голос попадёт в видео при сохранении.</p></details>
+<details><summary>Ссылка на видео не открывается.</summary><p>Проверьте подключение к интернету и убедитесь, что адрес ведёт прямо на видеофайл (например, заканчивается на .mp4). Ссылки на страницы видеохостингов открыть нельзя. Используйте свои видео или те, что разрешено свободно использовать.</p></details>
+<details><summary>Ладонь оставляет следы.</summary><p>Изогнутая стрелка убирает последнюю линию, а красная корзина очищает всю страницу (отмена всё вернёт). Если такое случается часто, напишите нам, и мы поможем.</p></details>
+<details><summary>Зачем пример на умножение перед экраном покупки?</summary><p>Чтобы дети не попадали на экран покупки сами. Когда ребёнок нажимает на что-то закрытое, появляется большой замок и надпись «Покажите это взрослому», а экран покупки открывается, только когда взрослый решит пример на умножение.</p></details>
+<details><summary>Как восстановить покупку?</summary><p>Нажмите шестерёнку в правом верхнем углу главного экрана, выберите «Пожизненный доступ», ответьте на вопрос для взрослых и нажмите «Восстановить покупки». Нужно войти с той же учётной записью Apple, с которой была сделана покупка.</p></details>
+<details><summary>Как отправить отзыв из приложения?</summary><p>Нажмите шестерёнку на главном экране и выберите «Отправить отзыв». Можно приложить скриншот, а если хотите получить ответ, оставьте имя и почту. Просим, чтобы отзывы отправлял кто-то из родителей.</p></details>
+<details><summary>Вы собираете данные о моём ребёнке?</summary><p>Нет. Palang Book не собирает никаких личных данных, а рисунки и записи остаются на вашем iPad. Подробности в Политике конфиденциальности.</p></details></div>
+      <p class="contact">Вопросы или проблемы? Пишите на <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>. Обычно мы отвечаем в течение 2–3 дней.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Оживите<br>сегодняшний рисунок</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6789852144">Бесплатно в App Store</a>
+    </section>
+  </main>
 
   <footer>
-    © 2026 Palang Book · <span aria-current="page">Главная</span> · <a href="support.html">Поддержка</a> · <a href="privacy.html">Политика конфиденциальности</a>
+    <nav id="languages" class="langs" aria-label="Язык"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../ru/" hreflang="ru" lang="ru" aria-current="page">Русский</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Политика конфиденциальности</a> · <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> · © 2026 Palang Book</p>
   </footer>
-</main>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

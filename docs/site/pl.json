@@ -1,0 +1,159 @@
+{
+  "title": "Palang Book: flipbook na iPada, w którym rysunki dzieci ożywają",
+  "description": "Obrysuj jasny kontur strona po stronie, a po odtworzeniu ożyje sam rysunek dziecka. Obrazkowe przyciski, pieczątki, nagrania głosu. 3 zestawy gratis.",
+  "hero": {
+    "headline": "Obrysuj linie.\nPatrz, jak ożywają.",
+    "lead": "Dziecko obrysowuje jasny kontur, strona po stronie. Po naciśnięciu odtwarzania kontur znika i ruszają się tylko jego własne linie. Każdy przycisk to obrazek, więc maluch poradzi sobie sam, zanim jeszcze nauczy się czytać.",
+    "cta": "Pobierz za darmo z App Store",
+    "note": "Na iPada. Trzy zestawy do obrysowania są za darmo."
+  },
+  "demo": {
+    "title": "Narysuj kilka stron",
+    "lead": "Narysuj coś i dotknij pomarańczowej strzałki, by przejść do następnej strony. Poprzednia strona delikatnie prześwituje. Po dwóch, trzech stronach dotknij niebieskiego przycisku odtwarzania.",
+    "hint": "Rysuj tutaj palcem lub myszką",
+    "canvas": "Kartka do rysowania",
+    "colors": "Kolory",
+    "undo": "Cofnij",
+    "clear": "Wyczyść tę stronę",
+    "play": "Odtwórz",
+    "stop": "Zatrzymaj",
+    "prev": "Poprzednia strona",
+    "next": "Następna strona",
+    "note": "Działa to jak pusty flipbook w aplikacji, 8 stron na sekundę. W aplikacji można też obrysowywać kontury, dodawać pieczątki, nagrywać głos i zapisać całość jako film."
+  },
+  "problem": {
+    "title": "Szkoda, żeby taki piękny rysunek tylko stał w miejscu, prawda?",
+    "text": "Animacja to rysowanie prawie tego samego obrazka wiele razy z drobnymi zmianami, a dziecko samo nie wie, od czego zacząć. Palang Book podkłada jasny kontur, w którym ruch jest już rozpisany, więc wystarczy podążać za linią. W chwili naciśnięcia odtwarzania rysunek zaczyna się ruszać."
+  },
+  "features": [
+    {
+      "title": "Podążaj za linią, a powstanie animacja",
+      "text": "Podskakująca piłka, skaczący króliczek, lecący ptaszek, pływająca rybka, rozkwitający kwiat, motyl, samochód wyścigowy, rakieta, żaba i wiatraczek. W każdym zestawie jest około 20 stron z konturami.\nPoprzednia strona delikatnie prześwituje, więc łatwo narysować następną, a podczas odtwarzania kontur znika i rusza się tylko rysunek dziecka.",
+      "shot": "02-trace-rocket"
+    },
+    {
+      "title": "Pieczątki i dziesięć kolorów",
+      "text": "Odbijaj serduszka, kółka, kwadraty, trójkąty, gwiazdki, kwiatki, auta i ptaszki. Pieczątki i pędzle mają po trzy rozmiary, a do wyboru jest dziesięć kolorów.\nGumka i cofanie pozwalają łatwo poprawić pomyłki. Rysuj palcem lub Apple Pencil.",
+      "shot": "03-stamps-fish"
+    },
+    {
+      "title": "Na własnych filmach albo na pustej kartce",
+      "text": "Dodaj film nagrany samodzielnie albo z aplikacji Zdjęcia i rysuj po nim. Gdy ukryjesz tło, odtwarzane są tylko narysowane sceny, jedna po drugiej, na białej kartce. Jest też pusty flipbook zupełnie bez konturów.\nDotknij mikrofonu, by nagrać przy tym głos dziecka, a gotowe dzieło zapisz jako film w Zdjęciach i pokaż rodzinie.",
+      "shot": "04-home"
+    }
+  ],
+  "steps": {
+    "title": "Trzy kroki na start",
+    "items": [
+      {
+        "title": "Dotknij karty z konturem",
+        "text": "Karty z pomarańczową przerywaną ramką na ekranie głównym to zestawy do obrysowania."
+      },
+      {
+        "title": "Rysuj i przewracaj",
+        "text": "Pomarańczowa strzałka prowadzi do następnej strony."
+      },
+      {
+        "title": "Dotknij odtwarzania",
+        "text": "Dotknij niebieskiego przycisku odtwarzania, a rysunek się poruszy."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Do czego służą przyciski",
+    "rows": [
+      ["Pomarańczowa przerywana karta", "Zacznij obrysowywanie"],
+      ["Szara przerywana karta", "Pusty flipbook"],
+      ["Niebieski aparat", "Rysuj po nagranym przez siebie filmie"],
+      ["Zielony film", "Dodaj film z aplikacji Zdjęcia"],
+      ["Granatowy link", "Wklej link do pliku wideo"],
+      ["Pomarańczowa strzałka", "Następna strona"],
+      ["Niebieskie odtwarzanie", "Odtwórz animację, dotknij ponownie, by zatrzymać"],
+      ["Zakrzywiona strzałka", "Cofnij ostatnią linię"],
+      ["Czerwony kosz", "Wyczyść całą stronę (cofanie ją przywraca)"],
+      ["Mikrofon", "Nagraj głos, gdy animacja się zapętla"],
+      ["Ikona filmu", "Ukryj tło filmu (różowa z kreską: same rysunki)"],
+      ["Zielony zapis", "Zapisz jako film w Zdjęciach"]
+    ],
+    "note": "Aby usunąć pracę, dotknij i przytrzymaj jej kartę na ekranie głównym. Razem z nią znikną rysunki, nagranie i dodany film."
+  },
+  "pricing": {
+    "title": "Dużo do wypróbowania za darmo. Dostęp na zawsze, jeśli pokochacie.",
+    "free": {
+      "name": "Za darmo",
+      "items": [
+        "3 zestawy do obrysowania (piłka, króliczek, kwiat)",
+        "3 zapisane prace",
+        "1 dodany film",
+        "Puste flipbooki do 10 stron",
+        "Nagrywanie głosu do 15 sekund",
+        "Pieczątki, kolory, pędzle i zapis w Zdjęciach"
+      ]
+    },
+    "pro": {
+      "name": "Dostęp na zawsze",
+      "items": [
+        "Wszystkie zestawy do obrysowania, także przyszłe",
+        "Bez limitu prac, stron, filmów i czasu nagrywania",
+        "Bez karty Palang Book na końcu zapisanych filmów"
+      ],
+      "note": "Jednorazowy zakup, nie subskrypcja. Dzięki Rodzinie działa na każdym iPadzie w rodzinie."
+    },
+    "note": "Filmy zapisane za darmo kończą się krótką kartą Palang Book. Jeśli używaliście Palang Book, zanim pojawił się Dostęp na zawsze, wszystko jest już dla Was odblokowane."
+  },
+  "faq": {
+    "title": "Pytania",
+    "items": [
+      {
+        "q": "Jak działają kontury?",
+        "a": "Jasnoniebieskie linie to kontur. Dziecko je obrysowuje, a po naciśnięciu odtwarzania kontur znika i ruszają się tylko jego linie. Wystarczy skończyć około 20 stron, a animacja jest gotowa."
+      },
+      {
+        "q": "Chcę odtworzyć i zapisać sam rysunek, bez filmu.",
+        "a": "W projekcie z filmem dotknij ikony filmu na górnym pasku narzędzi, aż zrobi się różowa i przekreślona. Wtedy odtwarzanie i zapis pokazują tylko rysunek na białym tle. Odtwarzane są tylko narysowane sceny, więc kilka rysunków na długim nagraniu daje krótką animację."
+      },
+      {
+        "q": "Gdzie trafia gotowy film?",
+        "a": "Dotknij zielonego przycisku zapisu na prawym końcu paska narzędzi, a film mp4 zapisze się w Zdjęciach. Przy pierwszym zapisie zezwól na dostęp do Zdjęć."
+      },
+      {
+        "q": "Jak dodać głos?",
+        "a": "Dotknij przycisku mikrofonu, by nagrywać, gdy animacja się zapętla, a potem dotknij stop, by skończyć. Nowe nagranie zastępuje poprzednie. Głos trafia do filmu przy zapisie."
+      },
+      {
+        "q": "Link do filmu się nie otwiera.",
+        "a": "Sprawdź połączenie z internetem i upewnij się, że adres prowadzi prosto do pliku wideo (kończącego się na .mp4 lub podobnie). Linków do stron serwisów wideo nie da się otworzyć. Prosimy używać własnych filmów albo takich, z których można swobodnie korzystać."
+      },
+      {
+        "q": "Dłoń ciągle zostawia ślady.",
+        "a": "Zakrzywiona strzałka usuwa ostatnią linię, a czerwony kosz czyści całą stronę (cofanie ją przywraca). Jeśli zdarza się to często, napisz do nas, a pomożemy."
+      },
+      {
+        "q": "Dlaczego przed ekranem zakupu jest działanie do rozwiązania?",
+        "a": "Żeby dzieci nie dotarły do ekranu zakupu same. Gdy dziecko dotknie czegoś zablokowanego, pojawia się duża kłódka z prośbą, by pokazać to dorosłemu, a ekran zakupu otwiera się dopiero wtedy, gdy dorosły poda wynik mnożenia."
+      },
+      {
+        "q": "Jak przywrócić zakup?",
+        "a": "Dotknij zębatki w prawym górnym rogu ekranu głównego, wybierz Dostęp na zawsze, odpowiedz na pytanie dla dorosłych i dotknij Przywróć zakupy. Trzeba być zalogowanym na to samo konto Apple, na którym dokonano zakupu."
+      },
+      {
+        "q": "Jak wysłać opinię z aplikacji?",
+        "a": "Dotknij zębatki na ekranie głównym i wybierz Wyślij opinię. Możesz dołączyć zrzut ekranu oraz zostawić imię i adres e-mail, jeśli chcesz dostać odpowiedź. Prosimy, aby opinię wysyłał rodzic."
+      },
+      {
+        "q": "Czy zbieracie dane o moim dziecku?",
+        "a": "Nie. Palang Book nie zbiera żadnych danych osobowych, a rysunki i nagrania zostają na Twoim iPadzie. Szczegóły znajdziesz w Polityce prywatności."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Niech dzisiejszy\nrysunek ożyje",
+    "cta": "Pobierz za darmo z App Store"
+  },
+  "ui": {
+    "skip": "Przejdź do treści",
+    "languages": "Język",
+    "privacy": "Polityka prywatności",
+    "contact": "Pytania lub problemy? Napisz na {email}. Zwykle odpowiadamy w ciągu 2–3 dni."
+  }
+}

@@ -1,102 +1,192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fi">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Palang Book — peukalokino-animaatio lapsille</title>
-<meta name="description" content="Jäljennä sivu kerrallaan ja katso piirroksesi heräävän eloon. Palang Book on iPadille tehty peukalokino-animaatioapp lapsille. Lapsi jäljentää vaaleaa ääriviivaa sivu kerrallaan ja painaa toista: ääriviivat katoavat ja vain hänen oma piirroksensa liikkuu. Jokainen painike on kuva, joten pienikin pärjää, vaikka ei vielä osaisi lukea – sormella tai Apple Pencilillä.">
-<link rel="canonical" href="https://m1zz.github.io/RotoscopeIPad/fi/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/RotoscopeIPad/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/RotoscopeIPad/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/RotoscopeIPad/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/RotoscopeIPad/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/RotoscopeIPad/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/RotoscopeIPad/zh-Hant/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/RotoscopeIPad/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/RotoscopeIPad/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/RotoscopeIPad/fr/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/RotoscopeIPad/pt-BR/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/RotoscopeIPad/it/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/RotoscopeIPad/ru/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/RotoscopeIPad/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/RotoscopeIPad/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/RotoscopeIPad/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/RotoscopeIPad/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/RotoscopeIPad/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/RotoscopeIPad/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/RotoscopeIPad/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/RotoscopeIPad/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/RotoscopeIPad/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/RotoscopeIPad/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/RotoscopeIPad/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/RotoscopeIPad/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/RotoscopeIPad/">
-<link rel="stylesheet" href="../style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Palang Book: iPadin peukalokinoappi, jossa lapsen piirrokset heräävät eloon</title>
+  <meta name="description" content="Lapsi jäljentää vaaleaa ääriviivaa sivu sivulta, painaa toista, ja vain hänen kuvansa liikkuu. Kuvapainikkeet, leimat, äänitys. 3 sarjaa ilmaiseksi.">
+  <meta name="theme-color" content="#B85400" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6789852144">
+  <link rel="canonical" href="https://m1zz.github.io/RotoscopeIPad/fi/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/RotoscopeIPad/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/RotoscopeIPad/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/RotoscopeIPad/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/RotoscopeIPad/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/RotoscopeIPad/zh-Hant/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/RotoscopeIPad/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/RotoscopeIPad/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/RotoscopeIPad/fr/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/RotoscopeIPad/pt-BR/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/RotoscopeIPad/it/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/RotoscopeIPad/ru/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/RotoscopeIPad/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/RotoscopeIPad/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/RotoscopeIPad/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/RotoscopeIPad/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/RotoscopeIPad/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/RotoscopeIPad/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/RotoscopeIPad/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/RotoscopeIPad/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/RotoscopeIPad/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/RotoscopeIPad/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/RotoscopeIPad/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/RotoscopeIPad/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/RotoscopeIPad/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Palang Book: iPadin peukalokinoappi, jossa lapsen piirrokset heräävät eloon">
+  <meta property="og:description" content="Lapsi jäljentää vaaleaa ääriviivaa sivu sivulta, painaa toista, ja vain hänen kuvansa liikkuu. Kuvapainikkeet, leimat, äänitys. 3 sarjaa ilmaiseksi.">
+  <meta property="og:url" content="https://m1zz.github.io/RotoscopeIPad/fi/">
+  <meta property="og:image" content="https://m1zz.github.io/RotoscopeIPad/img/fi/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#B85400}@media (prefers-color-scheme:dark){:root{--accent:#FF9F0A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<main>
-  <nav class="langs" aria-label="Kieli"><ul>
-    <li><a href="../" hreflang="ko" lang="ko">한국어</a></li>
-    <li><a href="../en/" hreflang="en" lang="en">English</a></li>
-    <li><a href="../ja/" hreflang="ja" lang="ja">日本語</a></li>
-    <li><a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li>
-    <li><a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li>
-    <li><a href="../es/" hreflang="es" lang="es-419">Español</a></li>
-    <li><a href="../de/" hreflang="de" lang="de">Deutsch</a></li>
-    <li><a href="../fr/" hreflang="fr" lang="fr">Français</a></li>
-    <li><a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li>
-    <li><a href="../it/" hreflang="it" lang="it">Italiano</a></li>
-    <li><a href="../ru/" hreflang="ru" lang="ru">Русский</a></li>
-    <li><a href="../th/" hreflang="th" lang="th">ไทย</a></li>
-    <li><a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a></li>
-    <li><a href="../cs/" hreflang="cs" lang="cs">Čeština</a></li>
-    <li><a href="../da/" hreflang="da" lang="da">Dansk</a></li>
-    <li><a href="../el/" hreflang="el" lang="el">Ελληνικά</a></li>
-    <li><span aria-current="page" lang="fi">Suomi</span></li>
-    <li><a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a></li>
-    <li><a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a></li>
-    <li><a href="../nl/" hreflang="nl" lang="nl">Nederlands</a></li>
-    <li><a href="../pl/" hreflang="pl" lang="pl">Polski</a></li>
-    <li><a href="../sv/" hreflang="sv" lang="sv">Svenska</a></li>
-    <li><a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></li>
-  </ul></nav>
-  <div class="logo">📖✏️</div>
-  <h1>Palang Book</h1>
-  <p class="sub">Jäljennä sivu kerrallaan ja katso piirroksesi heräävän eloon.</p>
+  <a class="skip" href="#main">Siirry sisältöön</a>
+  <header class="bar">
+    <a class="brand" href="../fi/"><img src="../icon.png" alt="" width="32" height="32">Palang Book</a>
+    <a class="lang-link" href="#languages">Kieli</a>
+  </header>
 
-  <p>Palang Book on iPadille tehty peukalokino-animaatioapp lapsille. Lapsi jäljentää vaaleaa ääriviivaa sivu kerrallaan ja painaa toista: ääriviivat katoavat ja vain hänen oma piirroksensa liikkuu. Jokainen painike on kuva, joten pienikin pärjää, vaikka ei vielä osaisi lukea – sormella tai Apple Pencilillä.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Jäljennä viivat,<br>niin kuva herää eloon</h1>
+        <p class="lead">Lapsi jäljentää vaaleaa ääriviivaa sivu kerrallaan. Kun hän painaa toista, ääriviiva katoaa ja vain hänen omat viivansa liikkuvat. Jokainen painike on kuva, joten pienikin pärjää omin päin jo ennen kuin osaa lukea.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6789852144">Lataa maksutta App Storesta</a><a class="try" href="#try">Piirrä muutama sivu ↓</a></div>
+        <p class="muted small">iPadille. Kolme jäljennyssarjaa on ilmaisia.</p>
+      </div>
+      <div class="plain"><img src="../img/fi/01-trace-bunny.jpg" alt="Jäljennä viivat, niin kuva herää eloon" width="720" height="960" decoding="async"></div>
+    </section>
 
-  <h2>Mitä sisällä on</h2>
-  <ul class="features">
-    <li><strong>10 jäljennyssarjaa</strong><br>Pomppiva pallo, hyppivä pupu, lentävä lintu, uiva kala, puhkeava kukka, perhonen, kilpa-auto, raketti, sammakko ja tuulimylly. Jokaisessa sarjassa on noin 20 sivua ääriviivoja, ja edellinen sivu häämöttää himmeänä alla, joten seuraavan kuvan saa helposti kohdalleen.</li>
-    <li><strong>Piirrä omien videoidesi päälle</strong><br>Kuvaa video kameralla, valitse video Kuvat-apista tai avaa linkki videotiedostoon ja jäljennä sen päälle. Kun piilotat taustan, toistuvat vain piirtämäsi sivut puhtaalla valkoisella paperilla.</li>
-    <li><strong>Tyhjä peukalokino</strong><br>Ei ääriviivoja, vain valkoisia sivuja. Piirrä, käännä sivua ja tee peukalokino alusta alkaen.</li>
-    <li><strong>Leimat ja värit</strong><br>Sydän-, ympyrä-, neliö-, kolmio-, tähti-, kukka-, auto- ja lintuleimat kolmessa koossa, kymmenen väriä ja kolme sivellinpaksuutta sekä pyyhekumi, kumoa ja painike, joka tyhjentää koko sivun.</li>
-    <li><strong>Äänen tallennus</strong><br>Napauta mikrofonia, niin animaatio toistuu silmukassa ja lapsen ääni tallentuu suoraan siihen.</li>
-    <li><strong>Tallennus Kuviin</strong><br>Valmiit animaatiot tallentuvat videoina Kuvat-appiin, ja ne on helppo jakaa perheelle.</li>
-    <li><strong>Piirrokset pysyvät iPadillä</strong><br>Ei tilejä, ei mainoksia, ei seurantaa. Piirrokset ja äänitteet eivät koskaan poistu laitteelta.</li>
-  </ul>
 
-  <h2>Kokeile ilmaiseksi, yksi Elinikäinen käyttöoikeus</h2>
-  <p>Maksutta voit käyttää 3 jäljennyssarjaa, säilyttää 3 teosta, tuoda 1 videon, piirtää tyhjään peukalokinoon enintään 10 sivua ja tallentaa ääntä enintään 15 sekuntia. <strong>Elinikäinen käyttöoikeus</strong> on kertaostos, joka avaa kaiken pysyvästi. Se ei ole tilaus, ja se toimii Perhejaon kanssa. Ostonäkymä aukeaa vasta, kun aikuinen on ratkaissut nopean laskutehtävän.</p>
+    <section class="reveal" id="try">
+      <h2>Piirrä muutama sivu</h2>
+      <p class="muted">Piirrä jotain ja siirry seuraavalle sivulle oranssilla nuolella. Edellinen sivu näkyy himmeänä läpi. Kun sivuja on kaksi tai kolme, napauta sinistä toistopainiketta.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Piirrä muutama sivu&quot;, &quot;lead&quot;: &quot;Piirrä jotain ja siirry seuraavalle sivulle oranssilla nuolella. Edellinen sivu näkyy himmeänä läpi. Kun sivuja on kaksi tai kolme, napauta sinistä toistopainiketta.&quot;, &quot;hint&quot;: &quot;Piirrä tähän sormella tai hiirellä&quot;, &quot;canvas&quot;: &quot;Piirrospaperi&quot;, &quot;colors&quot;: &quot;Värit&quot;, &quot;undo&quot;: &quot;Kumoa&quot;, &quot;clear&quot;: &quot;Tyhjennä tämä sivu&quot;, &quot;play&quot;: &quot;Toista&quot;, &quot;stop&quot;: &quot;Pysäytä&quot;, &quot;prev&quot;: &quot;Edellinen sivu&quot;, &quot;next&quot;: &quot;Seuraava sivu&quot;, &quot;note&quot;: &quot;Tämä toimii kuten apin tyhjä peukalokino, 8 sivua sekunnissa. Apissa voi lisäksi jäljentää ääriviivoja, lisätä leimoja, äänittää ja tallentaa valmiin työn videona.&quot;}"></div>
+    </section>
 
-  <h2>Yhteystiedot</h2>
-  <div class="contact">
-    <strong>Ota yhteyttä</strong><br>
-    Kysyttävää tai ongelmia? Lähetä meille sähköpostia milloin tahansa.<br>
-    📮 <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a><br>
-    <span class="sub">Vastaamme yleensä 2–3 päivän kuluessa.</span>
-  </div>
+    <section class="problem reveal">
+      <h2>Eikö olisi sääli, jos hieno piirros jäisi paikalleen?</h2>
+      <p>Animaatiossa piirretään lähes sama kuva yhä uudelleen pienin muutoksin, eikä lapsi yksin tiedä, mistä aloittaa. Palang Book antaa vaalean ääriviivan, johon liike on jo valmiiksi piirretty, joten lapsen tarvitsee vain seurata viivaa. Heti kun hän painaa toista, piirros liikkuu.</p>
+    </section>
 
-  <h2>Ohjeet ja tietosuoja</h2>
-  <ul>
-    <li><a href="support.html">Tuki ja usein kysytyt kysymykset</a></li>
-    <li><a href="privacy.html">Tietosuojakäytäntö</a></li>
-  </ul>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Seuraa viivaa, niin syntyy animaatio</h2>
+        <p>Pomppiva pallo, hyppivä pupu, lentävä lintu, uiva kala, puhkeava kukka, perhonen, kilpa-auto, raketti, sammakko ja tuulimylly. Jokaisessa sarjassa on noin 20 sivua ääriviivoja.<br>Edellinen sivu näkyy himmeänä läpi, joten seuraavan piirtäminen on helppoa. Toistettaessa ääriviivat katoavat, ja vain lapsen oma piirros liikkuu.</p>
+      </div>
+      <div class="plain"><img src="../img/fi/02-trace-rocket.jpg" alt="Seuraa viivaa, niin syntyy animaatio" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Leimat ja kymmenen väriä</h2>
+        <p>Napauta paperille sydämiä, ympyröitä, neliöitä, kolmioita, tähtiä, kukkia, autoja ja lintuja. Leimoja ja siveltimiä on kolmea kokoa, ja värejä on kymmenen.<br>Pyyhekumilla ja kumoa-painikkeella virheet korjaantuvat helposti. Piirtää voi sormella tai Apple Pencilillä.</p>
+      </div>
+      <div class="plain"><img src="../img/fi/03-stamps-fish.jpg" alt="Leimat ja kymmenen väriä" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Omien videoiden päälle tai tyhjälle paperille</h2>
+        <p>Tuo itse kuvaamasi video tai video Kuvat-apista ja jäljennä sen päälle. Kun piilotat taustan, vain piirretyt kohtaukset toistuvat peräkkäin valkoisella paperilla. Mukana on myös tyhjä peukalokino kokonaan ilman ääriviivoja.<br>Napauta mikrofonia, niin lapsen ääni tallentuu mukaan. Valmiin teoksen voi tallentaa videona Kuviin ja jakaa perheelle.</p>
+      </div>
+      <div class="plain"><img src="../img/fi/04-home.jpg" alt="Omien videoiden päälle tai tyhjälle paperille" width="720" height="960" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Kolme askelta alkuun</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Napauta ääriviivakorttia</h3><p>Aloitusnäytön kortit, joissa on oranssi katkoviivareunus, ovat jäljennyssarjoja.</p></li>
+<li class="card"><span class="n">2</span><h3>Piirrä ja käännä sivua</h3><p>Oranssi nuoli vie seuraavalle sivulle.</p></li>
+<li class="card"><span class="n">3</span><h3>Paina toista</h3><p>Napauta sinistä toistopainiketta, niin piirros liikkuu.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Mitä painikkeet tekevät</h2>
+      <div class="card table">
+        <dl><div><dt>Oranssi katkoviivakortti</dt><dd>Aloita jäljentäminen</dd></div><div><dt>Harmaa katkoviivakortti</dt><dd>Tyhjä peukalokino</dd></div><div><dt>Sininen kamera</dt><dd>Piirrä itse kuvaamasi videon päälle</dd></div><div><dt>Vihreä video</dt><dd>Tuo video Kuvat-apista</dd></div><div><dt>Indigonsininen linkki</dt><dd>Liitä linkki videotiedostoon</dd></div><div><dt>Oranssi nuoli</dt><dd>Seuraava sivu</dd></div><div><dt>Sininen toisto</dt><dd>Toista animaatio, uusi napautus pysäyttää</dd></div><div><dt>Kaareva nuoli</dt><dd>Kumoa viimeinen viiva</dd></div><div><dt>Punainen roskakori</dt><dd>Tyhjennä koko sivu (kumoa tuo sen takaisin)</dd></div><div><dt>Mikrofoni</dt><dd>Äänitä, kun animaatio pyörii silmukassa</dd></div><div><dt>Videokuvake</dt><dd>Piilota videotausta (vaaleanpunainen ja yliviivattu: vain piirrokset)</dd></div><div><dt>Vihreä tallennus</dt><dd>Tallenna videona Kuviin</dd></div></dl>
+      </div>
+      <p class="muted">Voit poistaa teoksen painamalla sen korttia pitkään aloitusnäytössä. Samalla poistuvat sen piirrokset, äänitys ja tuotu video.</p>
+    </section>
+
+
+    <section class="reveal" id="pricing">
+      <h2>Paljon kokeiltavaa ilmaiseksi. Elinikäinen käyttöoikeus, jos ihastutte.</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Ilmainen</h3>
+          <ul><li>3 jäljennyssarjaa (pallo, pupu, kukka)</li><li>3 teosta tallessa</li><li>1 tuotu video</li><li>Tyhjät peukalokinot enintään 10 sivua</li><li>Äänitys enintään 15 sekuntia</li><li>Leimat, värit, siveltimet ja tallennus Kuviin</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Elinikäinen käyttöoikeus</h3>
+          <ul><li>Kaikki jäljennyssarjat, myös tulevat</li><li>Ei rajoja teoksille, sivuille, videoille eikä äänitysajalle</li><li>Ei Palang Book -korttia tallennettujen videoiden lopussa</li></ul>
+          <p class="muted">Kertaostos, ei tilaus. Perhejaon ansiosta se toimii jokaisella perheen iPadilla.</p>
+        </div>
+      </div>
+      <p class="muted">Ilmaiseksi tallennetut videot päättyvät lyhyeen Palang Book -korttiin. Jos käytit Palang Bookia jo ennen Elinikäistä käyttöoikeutta, kaikki on sinulle jo avattu.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Kysymyksiä</h2>
+      <div class="faq"><details><summary>Miten ääriviivat toimivat?</summary><p>Vaaleansiniset viivat ovat ääriviiva. Lapsi jäljentää niiden päälle, ja kun painat toista, ääriviiva katoaa ja vain lapsen viivat liikkuvat. Kun noin 20 sivua on piirretty, animaatio on valmis.</p></details>
+<details><summary>Haluan toistaa ja tallentaa pelkän piirroksen ilman videota.</summary><p>Napauta videoprojektissa yläreunan työkalupalkin videokuvaketta niin, että se muuttuu vaaleanpunaiseksi ja yliviivatuksi. Silloin toistossa ja tallennuksessa näkyy vain piirros valkoisella taustalla. Vain piirretyt kohtaukset toistetaan, joten muutamasta piirroksesta pitkän videon päällä syntyy lyhyt animaatio.</p></details>
+<details><summary>Minne valmis video tallentuu?</summary><p>Napauta työkalupalkin oikeassa reunassa olevaa vihreää tallennuspainiketta, niin mp4-video tallentuu Kuviin. Salli pääsy Kuviin ensimmäisellä tallennuskerralla.</p></details>
+<details><summary>Miten lisään äänen?</summary><p>Napauta mikrofonipainiketta, niin ääni tallentuu animaation pyöriessä silmukassa. Lopeta napauttamalla pysäytyspainiketta. Uusi äänitys korvaa vanhan. Ääni tulee mukaan, kun tallennat videon.</p></details>
+<details><summary>Videolinkki ei avaudu.</summary><p>Tarkista internetyhteys ja varmista, että osoite vie suoraan videotiedostoon (esimerkiksi .mp4-päätteiseen). Videonjakopalvelujen sivulinkkejä ei voi avata. Käytäthän omia videoitasi tai videoita, joita saa vapaasti käyttää.</p></details>
+<details><summary>Kämmen jättää jatkuvasti jälkiä.</summary><p>Kaareva nuoli poistaa viimeisen viivan, ja punainen roskakori tyhjentää koko sivun (kumoa tuo sen takaisin). Jos tätä tapahtuu usein, lähetä meille sähköpostia, niin autamme.</p></details>
+<details><summary>Miksi ennen ostonäkymää tulee laskutehtävä?</summary><p>Jotta lapsi ei pääse ostonäkymään omin päin. Kun lapsi napauttaa jotain lukittua, näkyviin tulee iso lukko ja kehotus näyttää se aikuiselle. Ostonäkymä aukeaa vasta, kun aikuinen vastaa kertolaskuun.</p></details>
+<details><summary>Miten palautan ostokseni?</summary><p>Napauta aloitusnäytön oikean yläkulman hammasratasta, valitse Elinikäinen käyttöoikeus, vastaa aikuisen kysymykseen ja napauta Palauta ostokset. Sinun on oltava kirjautuneena samalla Apple-tilillä, jolla teit oston.</p></details>
+<details><summary>Miten lähetän palautetta apista?</summary><p>Napauta aloitusnäytön hammasratasta ja valitse Lähetä palautetta. Voit liittää mukaan kuvakaappauksen ja jättää nimen ja sähköpostiosoitteen, jos haluat vastauksen. Toivomme, että palautteen lähettää vanhempi.</p></details>
+<details><summary>Keräättekö tietoja lapsestani?</summary><p>Emme. Palang Book ei kerää mitään henkilötietoja, ja piirrokset ja äänitykset pysyvät iPadillasi. Lisätietoja on tietosuojakäytännössä.</p></details></div>
+      <p class="contact">Kysyttävää tai ongelmia? Lähetä sähköpostia osoitteeseen <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>. Vastaamme yleensä 2–3 päivän kuluessa.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Herätä tämän päivän<br>piirros eloon</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6789852144">Lataa maksutta App Storesta</a>
+    </section>
+  </main>
 
   <footer>
-    © 2026 Palang Book · <span aria-current="page">Koti</span> · <a href="support.html">Tuki</a> · <a href="privacy.html">Tietosuojakäytäntö</a>
+    <nav id="languages" class="langs" aria-label="Kieli"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi" aria-current="page">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Tietosuojakäytäntö</a> · <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> · © 2026 Palang Book</p>
   </footer>
-</main>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>
