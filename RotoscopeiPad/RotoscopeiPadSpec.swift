@@ -3,7 +3,7 @@ import LeeoKit
 
 enum RotoscopeiPadSpec: LeeoAppSpec {
     static let appName = "팔랑북"
-    static let developerEmail = "mizzking75@gmail.com"
+    static let developerEmail = "leeo@kakao.com"
     static let feedback = LeeoFeedbackConfig(containerIdentifier: "iCloud.com.Ysoup.FeedbackHub", appIdentifier: "com.leeo.RotoscopeiPad")
 
     // 익명 사용 통계 → FeedbackHub. 없으면 bootstrap 이 스냅샷·app_open 을 건너뛴다.
