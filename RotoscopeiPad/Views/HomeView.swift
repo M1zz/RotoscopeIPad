@@ -1,3 +1,4 @@
+import AppIntents
 import SwiftUI
 import LeeoKit
 
@@ -240,7 +241,12 @@ struct HomeView: View {
     /// 빈 화면: a plain white page with a big plus — a new project that starts
     /// from nothing, just empty pages to draw on.
     private var blankCell: some View {
-        Button { if canAddProject() { project.createBlank() } } label: {
+        Button {
+            guard canAddProject() else { return }
+            project.createBlank()
+            // Teach Siri that starting a blank flipbook is something this app does.
+            IntentDonationManager.shared.donate(intent: NewBlankFlipbookIntent())
+        } label: {
             ZStack {
                 Color.white
                 VStack(spacing: 12) {

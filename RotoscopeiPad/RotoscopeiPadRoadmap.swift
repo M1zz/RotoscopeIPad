@@ -53,6 +53,9 @@ extension RotoscopeiPadSpec {
         .init(id: "data.delete", status: .planned,
               title: NSLocalizedString("작품 한 번에 지우기", comment: "Roadmap item: delete all data"),
               detail: NSLocalizedString("원하면 앱 안의 작품을 한 번에 모두 지울 수 있어요.", comment: "Roadmap item detail: delete all data")),
+        .init(id: "siri-ai", status: .planned,
+              title: NSLocalizedString("Siri에게 그냥 말하기", comment: "Roadmap item: ask Siri without naming the app"),
+              detail: NSLocalizedString("앱 이름을 말하지 않아도 Siri가 알아듣고 새 플립북을 바로 열어 줘요.", comment: "Roadmap item detail: ask Siri without naming the app")),
     ]}
 }
 
