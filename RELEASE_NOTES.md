@@ -1,5 +1,151 @@
 # 팔랑북 릴리즈 노트
 
+## 1.0.5
+
+### 앱스토어 (한국어)
+
+작품이 매일, 그리고 업데이트 직전에 자동으로 백업돼요.
+백업은 iCloud나 파일에서 언제든 되살릴 수 있어요.
+Siri가 새 플립북 만들기를 알맞은 때 제안해 줘요.
+
+### App Store (en-US)
+
+Your work now backs up daily and right before updates.
+Restore a backup from iCloud or a file anytime.
+Siri can suggest starting a new flipbook.
+
+### App Store (en-GB)
+
+Your work now backs up daily and right before updates.
+Restore a backup from iCloud or a file at any time.
+Siri can suggest starting a new flipbook.
+
+### 앱스토어 (일본어, ja)
+
+作品が毎日とアップデート直前に自動でバックアップされます。
+バックアップはiCloudやファイルからいつでも復元できます。
+新しいパラパラ漫画をSiriが提案してくれます。
+
+### 앱스토어 (중국어 간체, zh-Hans)
+
+作品每天以及更新前都会自动备份。
+可随时从 iCloud 或文件恢复备份。
+Siri 会适时建议你新建翻页书。
+
+### 앱스토어 (중국어 번체, zh-Hant)
+
+作品每天以及更新前都會自動備份。
+可隨時從 iCloud 或檔案還原備份。
+Siri 會適時建議你新增翻頁書。
+
+### 앱스토어 (스페인어, es-MX)
+
+Tus obras se respaldan cada día y antes de actualizar.
+Restaura un respaldo desde iCloud o un archivo.
+Siri puede sugerirte empezar un libro animado.
+
+### 앱스토어 (독일어, de-DE)
+
+Deine Werke werden täglich und vor Updates gesichert.
+Stelle Sicherungen aus iCloud oder einer Datei wieder her.
+Siri schlägt dir vor, ein neues Daumenkino zu starten.
+
+### 앱스토어 (프랑스어, fr-FR)
+
+Vos œuvres sont sauvegardées chaque jour et avant les mises à jour.
+Restaurez une sauvegarde depuis iCloud ou un fichier.
+Siri peut vous proposer de créer un folioscope.
+
+### 앱스토어 (포르투갈어, pt-BR)
+
+Suas obras ganham backup todo dia e antes de atualizar.
+Restaure um backup do iCloud ou de um arquivo.
+A Siri pode sugerir começar um novo flipbook.
+
+### 앱스토어 (이탈리아어, it)
+
+Le tue opere vengono salvate ogni giorno e prima degli aggiornamenti.
+Ripristina un backup da iCloud o da un file.
+Siri può suggerirti di iniziare un nuovo flipbook.
+
+### 앱스토어 (러시아어, ru)
+
+Работы сохраняются каждый день и перед обновлением.
+Копию можно восстановить из iCloud или из файла.
+Siri подскажет, когда начать новый флипбук.
+
+### 앱스토어 (태국어, th)
+
+ผลงานสำรองอัตโนมัติทุกวันและก่อนอัปเดต
+กู้คืนข้อมูลสำรองจาก iCloud หรือไฟล์ได้ทุกเมื่อ
+Siri แนะนำให้เริ่มฟลิปบุ๊กใหม่ได้
+
+### 앱스토어 (베트남어, vi)
+
+Tác phẩm được sao lưu mỗi ngày và trước khi cập nhật.
+Khôi phục bản sao lưu từ iCloud hoặc tệp bất cứ lúc nào.
+Siri có thể gợi ý bạn tạo flipbook mới.
+
+### 앱스토어 (체코어, cs)
+
+Vaše díla se zálohují každý den a před aktualizací.
+Zálohu obnovíte z iCloudu nebo ze souboru.
+Siri vám může navrhnout nový flipbook.
+
+### 앱스토어 (덴마크어, da)
+
+Dine værker sikkerhedskopieres dagligt og før opdateringer.
+Gendan en sikkerhedskopi fra iCloud eller en fil.
+Siri kan foreslå at starte en ny flipbog.
+
+### 앱스토어 (그리스어, el)
+
+Τα έργα σας αποθηκεύονται κάθε μέρα και πριν από ενημερώσεις.
+Επαναφέρετε αντίγραφο από το iCloud ή από αρχείο.
+Η Siri μπορεί να σας προτείνει νέο flipbook.
+
+### 앱스토어 (핀란드어, fi)
+
+Työsi varmuuskopioidaan päivittäin ja ennen päivitystä.
+Palauta varmuuskopio iCloudista tai tiedostosta.
+Siri voi ehdottaa uuden peukalokinon aloittamista.
+
+### 앱스토어 (인도네시아어, id)
+
+Karya dicadangkan otomatis setiap hari dan sebelum pembaruan.
+Pulihkan cadangan dari iCloud atau file kapan saja.
+Siri bisa menyarankan membuat flipbook baru.
+
+### 앱스토어 (노르웨이어(보크말))
+
+Verkene dine sikkerhetskopieres daglig og før oppdateringer.
+Gjenopprett en sikkerhetskopi fra iCloud eller en fil.
+Siri kan foreslå å starte en ny flipbook.
+
+### 앱스토어 (네덜란드어, nl)
+
+Je werk krijgt elke dag en vóór een update een back-up.
+Zet een back-up terug vanuit iCloud of een bestand.
+Siri kan voorstellen een nieuw flipboek te starten.
+
+### 앱스토어 (폴란드어, pl)
+
+Twoje prace są kopiowane codziennie i przed aktualizacją.
+Przywróć kopię z iCloud lub z pliku.
+Siri może zaproponować nowy flipbook.
+
+### 앱스토어 (스웨덴어, sv)
+
+Dina verk säkerhetskopieras dagligen och före uppdateringar.
+Återställ en säkerhetskopia från iCloud eller en fil.
+Siri kan föreslå att du startar en ny flipbook.
+
+### 앱스토어 (튀르키예어, tr)
+
+Çalışmalarınız her gün ve güncellemeden önce yedeklenir.
+Yedeği iCloud'dan veya bir dosyadan geri yükleyin.
+Siri yeni bir flipbook başlatmayı önerebilir.
+
 ## 1.0.4
 
 ### 앱스토어 (한국어)
