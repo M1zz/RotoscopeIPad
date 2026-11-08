@@ -169,77 +169,51 @@ private struct PurchaseView: View {
     // window on iPad — the bare Product.purchase() fails there (review 2.1(b)).
     @Environment(\.purchase) private var purchaseAction
 
-    private static let benefits: [(icon: String, text: String)] = [
-        ("pencil.tip.crop.circle.badge.plus", String(localized: "따라 그리기 \(PresetLibrary.all.count)세트 전부, 앞으로 나올 세트도")),
-        ("square.grid.2x2.fill", String(localized: "작품을 개수 제한 없이 보관")),
-        ("book.pages.fill", String(localized: "빈 종이 플립북 장수 제한 없음")),
-        ("video.fill", String(localized: "내 동영상으로 그리기 무제한")),
-        ("mic.fill", String(localized: "목소리 녹음 시간 제한 없음")),
-        ("film", String(localized: "저장한 영상 끝에 팔랑북 카드 없음"))
-    ]
-
     var body: some View {
-        // Centered in the page-sized iPad sheet; scrolls when it doesn't fit.
-        GeometryReader { geo in
-            ScrollView {
-                VStack(spacing: 24) {
-                    VStack(spacing: 10) {
-                        Image(systemName: "star.circle.fill")
-                            .font(.system(size: 56))
-                            .foregroundStyle(.orange)
-                            .padding(.top, 36)
-                        Text("팔랑북 평생 이용권")
-                            .font(.largeTitle.bold())
-                        Text(reason.message)
-                            .foregroundStyle(.secondary)
-                            .multilineTextAlignment(.center)
-                    }
-
-                    VStack(alignment: .leading, spacing: 14) {
-                        ForEach(Self.benefits, id: \.text) { item in
-                            HStack(spacing: 14) {
-                                Image(systemName: item.icon)
-                                    .font(.title3)
-                                    .foregroundStyle(.orange)
-                                    .frame(width: 32)
-                                Text(item.text)
-                                Spacer(minLength: 0)
-                            }
-                        }
-                    }
-                    .padding(20)
-                    .background(RoundedRectangle(cornerRadius: 18).fill(Color.orange.opacity(0.08)))
-
-                    purchaseSection
-
-                    VStack(spacing: 10) {
-                        Button {
-                            Task { await store.restore() }
-                        } label: {
-                            if store.isRestoring { ProgressView() } else { Text("구매 복원") }
-                        }
-                        .disabled(store.isRestoring)
-
-                        Text("한 번만 결제하고 구독이 아니에요. 결제는 App Store 계정으로 청구됩니다.")
-                            .font(.caption)
-                            .foregroundStyle(.secondary)
-                            .multilineTextAlignment(.center)
-
-                        HStack(spacing: 16) {
-                            Link("개인정보처리방침", destination: RotoscopeiPadSpec.legal.privacyURL)
-                            if let terms = RotoscopeiPadSpec.legal.termsURL {
-                                Link("이용약관", destination: terms)
-                            }
-                        }
-                        .font(.caption)
-                    }
-                }
-                .padding(24)
-                .frame(maxWidth: 560)
-                .frame(maxWidth: .infinity, minHeight: geo.size.height)
+        // Pictures sell it (LeeoKit `LeeoShowcasePaywall`, as in 클립키보드):
+        // the benefits as swipeable drawings, the buy button always in view.
+        LeeoShowcasePaywall(showcases: PaywallShowcases.all(first: reason)) {
+            VStack(spacing: 8) {
+                Text("팔랑북 평생 이용권")
+                    .font(.title.bold())
+                Text(reason.message)
+                    .foregroundStyle(.secondary)
+                    .multilineTextAlignment(.center)
             }
+            .padding(.top, 48)   // clear of the sheet's close button
+        } plans: {
+            EmptyView()
+        } button: {
+            purchaseSection
+        } details: {
+            fineprint
         }
+        .leeoStyle(LeeoStyle(accent: .orange))
         .task { await store.loadProducts() }
+    }
+
+    private var fineprint: some View {
+        VStack(spacing: 10) {
+            Button {
+                Task { await store.restore() }
+            } label: {
+                if store.isRestoring { ProgressView() } else { Text("구매 복원") }
+            }
+            .disabled(store.isRestoring)
+
+            Text("한 번만 결제하고 구독이 아니에요. 결제는 App Store 계정으로 청구됩니다.")
+                .font(.caption)
+                .foregroundStyle(.secondary)
+                .multilineTextAlignment(.center)
+
+            HStack(spacing: 16) {
+                Link("개인정보처리방침", destination: RotoscopeiPadSpec.legal.privacyURL)
+                if let terms = RotoscopeiPadSpec.legal.termsURL {
+                    Link("이용약관", destination: terms)
+                }
+            }
+            .font(.caption)
+        }
     }
 
     @ViewBuilder

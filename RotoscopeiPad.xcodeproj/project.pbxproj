@@ -24,6 +24,7 @@
 		B100001A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1000009 /* Assets.xcassets */; };
 		B1000021 /* StrokeGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000022 /* StrokeGeometry.swift */; };
 		F7EE0A010000000000000022 /* WorksManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EE0A010000000000000021 /* WorksManagerView.swift */; };
+		F7EE0A010000000000000032 /* PaywallShowcases.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EE0A010000000000000031 /* PaywallShowcases.swift */; };
 		B1000024 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000023 /* HomeView.swift */; };
 		B1000026 /* PresetLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000025 /* PresetLibrary.swift */; };
 		F7EE0A010000000000000012 /* ProLatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EE0A010000000000000011 /* ProLatch.swift */; };
@@ -73,6 +74,7 @@
 		B100000D /* Pickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickers.swift; sourceTree = "<group>"; };
 		B1000022 /* StrokeGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeGeometry.swift; sourceTree = "<group>"; };
 		F7EE0A010000000000000021 /* WorksManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorksManagerView.swift; sourceTree = "<group>"; };
+		F7EE0A010000000000000031 /* PaywallShowcases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallShowcases.swift; sourceTree = "<group>"; };
 		B1000023 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B1000025 /* PresetLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetLibrary.swift; sourceTree = "<group>"; };
 		F7EE0A010000000000000011 /* ProLatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProLatch.swift; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 				B1000003 /* CanvasView.swift */,
 				B100000D /* Pickers.swift */,
 				F7EE0A010000000000000021 /* WorksManagerView.swift */,
+				F7EE0A010000000000000031 /* PaywallShowcases.swift */,
 				B1000023 /* HomeView.swift */,
 				B100002B /* YouTubeImport.swift */,
 				925FF54F8FD6B11267BD271D /* RotoscopeiPadSupportView.swift */,
@@ -349,6 +352,7 @@
 				B1000018 /* Exporter.swift in Sources */,
 				B1000019 /* Pickers.swift in Sources */,
 				F7EE0A010000000000000022 /* WorksManagerView.swift in Sources */,
+				F7EE0A010000000000000032 /* PaywallShowcases.swift in Sources */,
 				B1000024 /* HomeView.swift in Sources */,
 				B1000029 /* YouTubeImport.swift in Sources */,
 				B1000091 /* Stamps.swift in Sources */,
