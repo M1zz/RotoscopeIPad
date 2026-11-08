@@ -10,6 +10,8 @@ struct ContentView: View {
     @State private var lock: LockReason?
     @State private var showGiftShot = false
     @State private var showDone = false
+    /// The trash asks first: a big O to wipe the page, a big X to keep it.
+    @State private var askClear = false
     @State private var restoredLastProject = false
     @State private var showPageFlash = false
     @State private var pageFlashTask: Task<Void, Never>?
@@ -59,6 +61,7 @@ struct ContentView: View {
         }
         .overlay { pageFlashOverlay }
         .overlay { exportOverlay }
+        .overlay { clearAskOverlay }
         .onChange(of: project.currentFrame) {
             guard project.isOpen, !project.isPlaying else { return }
             flashPageNumber()
@@ -380,14 +383,56 @@ struct ContentView: View {
     }
 
     private var clearPageButton: some View {
-        // Wipe the whole page at once.
-        Button { project.clearCurrentMask() } label: {
+        // Wipe the whole page — after the O / X question (no undo).
+        Button { withAnimation(.snappy) { askClear = true } } label: {
             Image(systemName: "trash.fill")
                 .modifier(ToolIcon())
         }
-        .buttonStyle(.bordered)
+        .buttonStyle(.borderedProminent)
         .tint(.red)
         .accessibilityLabel(Text("이 장 모두 지우기"))
+    }
+
+    /// "Wipe this page?" without words: the trash, then O (yes) and X (no).
+    @ViewBuilder
+    private var clearAskOverlay: some View {
+        if askClear {
+            ZStack {
+                Color.black.opacity(0.5)
+                    .ignoresSafeArea()
+                    .onTapGesture { withAnimation(.snappy) { askClear = false } }
+                VStack(spacing: 32) {
+                    Image(systemName: "trash.fill")
+                        .font(.system(size: 64))
+                        .foregroundStyle(.white)
+                        .accessibilityHidden(true)
+                    HStack(spacing: 40) {
+                        answerButton("circle", tint: .blue, label: "지우기") {
+                            project.clearCurrentMask()
+                        }
+                        answerButton("xmark", tint: .red, label: "닫기") {}
+                    }
+                }
+            }
+            .transition(.opacity)
+        }
+    }
+
+    private func answerButton(_ symbol: String, tint: Color, label: LocalizedStringKey,
+                              action: @escaping () -> Void) -> some View {
+        Button {
+            action()
+            withAnimation(.snappy) { askClear = false }
+        } label: {
+            Image(systemName: symbol)
+                .font(.system(size: 64, weight: .black))
+                .foregroundStyle(.white)
+                .frame(width: 130, height: 130)
+                .background(Circle().fill(tint))
+                .shadow(radius: 6)
+        }
+        .buttonStyle(.plain)
+        .accessibilityLabel(Text(label))
     }
 
     private var dubButton: some View {
