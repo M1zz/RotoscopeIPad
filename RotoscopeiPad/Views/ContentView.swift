@@ -24,33 +24,9 @@ struct ContentView: View {
     private let dubTip = DubTip()
 
     var body: some View {
-        VStack(spacing: 0) {
-            if project.isOpen {
-                toolbar
-                Divider()
-                canvasArea
-                if showTransport {
-                    Divider()
-                    transport
-                }
-            } else {
-                HomeView()
-            }
-        }
+        screen
         // Settings gear, shown on the home screen so it never covers the canvas.
-        .overlay(alignment: .topTrailing) {
-            if !project.isOpen {
-                Button { showSupport = true } label: {
-                    Image(systemName: "gearshape")
-                        .font(.system(size: 26))
-                        .frame(width: 48, height: 48)
-                }
-                .buttonStyle(.bordered)
-                .accessibilityLabel(Text("설정"))
-                .padding(.trailing, 16)
-                .padding(.top, 8)
-            }
-        }
+        .overlay(alignment: .topTrailing) { settingsGear }
         .sheet(isPresented: $showSupport) {
             RotoscopeiPadSupportView()
         }
@@ -72,11 +48,7 @@ struct ContentView: View {
         .sheet(item: $lock) { reason in
             UnlockSheet(reason: reason)
         }
-        .sheet(isPresented: $showGiftShot) {
-            if let gift = store.gift, let price = Screenshot.giftPrice {
-                NavigationStack { LeeoGiftView<RotoscopeiPadSpec>(previewPrice: price, gift: gift) }
-            }
-        }
+        .sheet(isPresented: $showGiftShot) { giftShot }
         .onChange(of: project.recordingLimitReached) { _, reached in
             guard reached else { return }
             project.recordingLimitReached = false
@@ -84,37 +56,79 @@ struct ContentView: View {
         }
         .overlay { pageFlashOverlay }
         .overlay { exportOverlay }
-        .onChange(of: project.currentFrame) { _ in
+        .onChange(of: project.currentFrame) {
             guard project.isOpen, !project.isPlaying else { return }
             flashPageNumber()
         }
-        .onAppear {
-            // Come back right where you left off.
-            guard !restoredLastProject else { return }
-            restoredLastProject = true
-            #if DEBUG
-            // Store screenshots of the home grid (scripts/capture_screenshots.sh).
-            if ProcessInfo.processInfo.arguments.contains("-ScreenshotHome") { return }
-            #endif
-            if Screenshot.paywallPrice != nil {
-                lock = .general
-                return
+        .onAppear(perform: restoreOnLaunch)
+    }
+
+    /// The editor while a work is open, the home grid otherwise.
+    private var screen: some View {
+        VStack(spacing: 0) {
+            if project.isOpen {
+                toolbar
+                Divider()
+                canvasArea
+                if showTransport {
+                    Divider()
+                    transport
+                }
+            } else {
+                HomeView()
             }
-            if Screenshot.giftPrice != nil {
-                showGiftShot = true
-                return
+        }
+    }
+
+    @ViewBuilder
+    private var settingsGear: some View {
+        if !project.isOpen {
+            Button { showSupport = true } label: {
+                Image(systemName: "gearshape")
+                    .font(.system(size: 26))
+                    .frame(width: 48, height: 48)
             }
-            let saved = RotoProject.listProjects()
-            // First run: a short picture guide. Anyone who already has works
-            // knows the app, so they never see it.
-            if saved.isEmpty, !hasSeenOnboarding {
-                showOnboarding = true
-            } else if !hasSeenOnboarding {
-                hasSeenOnboarding = true
-            }
-            if let last = saved.first {
-                project.openProject(at: last)
-            }
+            .buttonStyle(.bordered)
+            .accessibilityLabel(Text("설정"))
+            .padding(.trailing, 16)
+            .padding(.top, 8)
+        }
+    }
+
+    /// Debug-only gift review screenshot (`-ScreenshotGift`).
+    @ViewBuilder
+    private var giftShot: some View {
+        if let gift = store.gift, let price = Screenshot.giftPrice {
+            NavigationStack { LeeoGiftView<RotoscopeiPadSpec>(previewPrice: price, gift: gift) }
+        }
+    }
+
+    /// Come back right where you left off — once per launch.
+    private func restoreOnLaunch() {
+        guard !restoredLastProject else { return }
+        restoredLastProject = true
+        #if DEBUG
+        // Store screenshots of the home grid (scripts/capture_screenshots.sh).
+        if ProcessInfo.processInfo.arguments.contains("-ScreenshotHome") { return }
+        #endif
+        if Screenshot.paywallPrice != nil {
+            lock = .general
+            return
+        }
+        if Screenshot.giftPrice != nil {
+            showGiftShot = true
+            return
+        }
+        let saved = RotoProject.listProjects()
+        // First run: a short picture guide. Anyone who already has works
+        // knows the app, so they never see it.
+        if saved.isEmpty, !hasSeenOnboarding {
+            showOnboarding = true
+        } else if !hasSeenOnboarding {
+            hasSeenOnboarding = true
+        }
+        if let last = saved.first {
+            project.openProject(at: last)
         }
     }
 
@@ -244,109 +258,136 @@ struct ContentView: View {
     // Row 1: actions. Row 2: colors and brush sizes.
     private var toolbar: some View {
         VStack(spacing: 8) {
-            HStack(spacing: 16) {
-                iconButton("house.fill", label: "홈으로") { project.goHome() }
-
-                Divider().frame(height: 34)
-
-                toolButton("paintbrush.pointed.fill", tool: .brush, label: "붓")
-                toolButton("eraser.fill", tool: .erase, label: "지우개")
-                iconButton("arrow.uturn.backward", label: "되돌리기") { project.undoLastStroke() }
-
-                // Wipe the whole page at once (undo brings it back).
-                Button { project.clearCurrentMask() } label: {
-                    Image(systemName: "trash.fill")
-                        .font(.system(size: 26))
-                        .frame(width: 56, height: 48)
-                }
-                .buttonStyle(.bordered)
-                .tint(.red)
-                .accessibilityLabel(Text("이 장 모두 지우기"))
-
-                Divider().frame(height: 34)
-
-                // Dub: animation plays once while the mic records the kid.
-                Button {
-                    dubTip.invalidate(reason: .actionPerformed)
-                    if project.isRecording {
-                        project.stopPlayback()
-                    } else {
-                        project.startDubbing(limit: FreeTier.recordingLimit(hasPro: store.hasPro))
-                    }
-                } label: {
-                    Image(systemName: project.isRecording ? "stop.fill" : "mic.fill")
-                        .font(.system(size: 26))
-                        .frame(width: 56, height: 48)
-                        // 보라색만으로 '녹음 있음'을 말하지 않는다.
-                        .overlay(alignment: .topTrailing) {
-                            if differentiateWithoutColor && project.hasAudio && !project.isRecording {
-                                Image(systemName: "checkmark.circle.fill")
-                                    .font(.system(size: 14, weight: .bold))
-                                    .offset(x: 6, y: -4)
-                            }
-                        }
-                }
-                .buttonStyle(.borderedProminent)
-                .tint(project.isRecording ? .red : (project.hasAudio ? .purple : .gray))
-                .accessibilityLabel(project.isRecording ? Text("녹음 멈추기") : Text("목소리 녹음"))
-                .accessibilityValue(project.hasAudio && !project.isRecording ? Text("녹음 있음") : Text(verbatim: ""))
-                .accessibilityShowsLargeContentViewer()
-                .popoverTip(dubTip, arrowEdge: .top)
-
-                Button { project.togglePlayback() } label: {
-                    Image(systemName: project.isPlaying ? "pause.fill" : "play.fill")
-                        .font(.system(size: 26))
-                        .frame(width: 56, height: 48)
-                }
-                .buttonStyle(.borderedProminent)
-                .keyboardShortcut(.space, modifiers: [])
-                .accessibilityLabel(project.isPlaying ? Text("일시정지") : Text("재생"))
-                .accessibilityShowsLargeContentViewer()
-
-                // Hide the video background: play/export only the drawing.
-                if project.hasVideo {
-                    Button { project.toggleHideBackground() } label: {
-                        Image(systemName: project.hideBackground
-                              ? "video.slash.fill" : "video.fill")
-                            .font(.system(size: 26))
-                            .frame(width: 56, height: 48)
-                    }
-                    .buttonStyle(.borderedProminent)
-                    .tint(project.hideBackground ? .pink : .gray)
-                    .accessibilityLabel(project.hideBackground
-                                        ? Text("동영상 배경 보이기") : Text("동영상 배경 숨기기"))
-                }
-
-                Divider().frame(height: 34)
-
-                Button { runExport() } label: {
-                    Image(systemName: "square.and.arrow.down.fill")
-                        .font(.system(size: 26))
-                        .frame(width: 56, height: 48)
-                }
-                .buttonStyle(.borderedProminent)
-                .tint(.green)
-                .disabled(project.isExporting)
-                .accessibilityLabel(Text("사진 앱에 저장"))
-                .accessibilityInputLabels([Text("저장"), Text("사진 앱에 저장")])
-                .accessibilityShowsLargeContentViewer()
-            }
-
-            HStack(spacing: 16) {
-                ForEach(RotoProject.palette, id: \.self) { hex in
-                    colorDot(hex)
-                }
-
-                Divider().frame(height: 34)
-
-                ForEach(RotoProject.widthPresets, id: \.name) { preset in
-                    sizeDot(preset.value)
-                }
-            }
+            toolRow
+            paletteRow
         }
         .frame(maxWidth: .infinity)
         .padding(.horizontal, 16)
         .padding(.vertical, 10)
+    }
+
+    /// Home · drawing tools · page actions · sound and playback · save.
+    private var toolRow: some View {
+        HStack(spacing: 16) {
+            iconButton("house.fill", label: "홈으로") { project.goHome() }
+
+            Divider().frame(height: 34)
+
+            toolButton("paintbrush.pointed.fill", tool: .brush, label: "붓")
+            toolButton("eraser.fill", tool: .erase, label: "지우개")
+            iconButton("arrow.uturn.backward", label: "되돌리기") { project.undoLastStroke() }
+            clearPageButton
+
+            Divider().frame(height: 34)
+
+            dubButton
+            playButton
+            backgroundButton
+
+            Divider().frame(height: 34)
+
+            exportButton
+        }
+    }
+
+    /// Colors, then brush sizes.
+    private var paletteRow: some View {
+        HStack(spacing: 16) {
+            ForEach(RotoProject.palette, id: \.self) { hex in
+                colorDot(hex)
+            }
+
+            Divider().frame(height: 34)
+
+            ForEach(RotoProject.widthPresets, id: \.name) { preset in
+                sizeDot(preset.value)
+            }
+        }
+    }
+
+    private var clearPageButton: some View {
+        // Wipe the whole page at once (undo brings it back).
+        Button { project.clearCurrentMask() } label: {
+            Image(systemName: "trash.fill")
+                .font(.system(size: 26))
+                .frame(width: 56, height: 48)
+        }
+        .buttonStyle(.bordered)
+        .tint(.red)
+        .accessibilityLabel(Text("이 장 모두 지우기"))
+    }
+
+    private var dubButton: some View {
+        // Dub: animation plays once while the mic records the kid.
+        Button {
+            dubTip.invalidate(reason: .actionPerformed)
+            if project.isRecording {
+                project.stopPlayback()
+            } else {
+                project.startDubbing(limit: FreeTier.recordingLimit(hasPro: store.hasPro))
+            }
+        } label: {
+            Image(systemName: project.isRecording ? "stop.fill" : "mic.fill")
+                .font(.system(size: 26))
+                .frame(width: 56, height: 48)
+                // 보라색만으로 '녹음 있음'을 말하지 않는다.
+                .overlay(alignment: .topTrailing) {
+                    if differentiateWithoutColor && project.hasAudio && !project.isRecording {
+                        Image(systemName: "checkmark.circle.fill")
+                            .font(.system(size: 14, weight: .bold))
+                            .offset(x: 6, y: -4)
+                    }
+                }
+        }
+        .buttonStyle(.borderedProminent)
+        .tint(project.isRecording ? .red : (project.hasAudio ? .purple : .gray))
+        .accessibilityLabel(project.isRecording ? Text("녹음 멈추기") : Text("목소리 녹음"))
+        .accessibilityValue(project.hasAudio && !project.isRecording ? Text("녹음 있음") : Text(verbatim: ""))
+        .accessibilityShowsLargeContentViewer()
+        .popoverTip(dubTip, arrowEdge: .top)
+    }
+
+    private var playButton: some View {
+        Button { project.togglePlayback() } label: {
+            Image(systemName: project.isPlaying ? "pause.fill" : "play.fill")
+                .font(.system(size: 26))
+                .frame(width: 56, height: 48)
+        }
+        .buttonStyle(.borderedProminent)
+        .keyboardShortcut(.space, modifiers: [])
+        .accessibilityLabel(project.isPlaying ? Text("일시정지") : Text("재생"))
+        .accessibilityShowsLargeContentViewer()
+    }
+
+    @ViewBuilder
+    private var backgroundButton: some View {
+        // Hide the video background: play/export only the drawing.
+        if project.hasVideo {
+            Button { project.toggleHideBackground() } label: {
+                Image(systemName: project.hideBackground
+                      ? "video.slash.fill" : "video.fill")
+                    .font(.system(size: 26))
+                    .frame(width: 56, height: 48)
+            }
+            .buttonStyle(.borderedProminent)
+            .tint(project.hideBackground ? .pink : .gray)
+            .accessibilityLabel(project.hideBackground
+                                ? Text("동영상 배경 보이기") : Text("동영상 배경 숨기기"))
+        }
+    }
+
+    private var exportButton: some View {
+        Button { runExport() } label: {
+            Image(systemName: "square.and.arrow.down.fill")
+                .font(.system(size: 26))
+                .frame(width: 56, height: 48)
+        }
+        .buttonStyle(.borderedProminent)
+        .tint(.green)
+        .disabled(project.isExporting)
+        .accessibilityLabel(Text("사진 앱에 저장"))
+        .accessibilityInputLabels([Text("저장"), Text("사진 앱에 저장")])
+        .accessibilityShowsLargeContentViewer()
     }
 
     private func iconButton(_ symbol: String, label: LocalizedStringKey,

@@ -138,7 +138,7 @@ final class RotoProject: ObservableObject {
     /// after that many seconds.
     func startDubbing(limit: TimeInterval? = nil) {
         guard isOpen, frameCount > 1, !isRecording, let audioURL else { return }
-        AVAudioSession.sharedInstance().requestRecordPermission { [weak self] granted in
+        AVAudioApplication.requestRecordPermission { [weak self] granted in
             DispatchQueue.main.async {
                 guard granted, let self else { return }
                 self.beginDubbing(to: audioURL, limit: limit)
@@ -309,8 +309,10 @@ final class RotoProject: ObservableObject {
     static func listProjects() -> [URL] {
         guard let dirs = try? FileManager.default.contentsOfDirectory(at: projectsRoot,
                                                                       includingPropertiesForKeys: nil) else { return [] }
-        return dirs.filter { $0.hasDirectoryPath }
-            .sorted { (editedAt($0) ?? .distantPast) > (editedAt($1) ?? .distantPast) }
+        // Read each date once, not on every comparison — the shelf can hold dozens of works.
+        let dated: [(dir: URL, at: Date)] = dirs.filter(\.hasDirectoryPath)
+            .map { ($0, editedAt($0) ?? .distantPast) }
+        return dated.sorted { $0.at > $1.at }.map(\.dir)
     }
 
     /// When a work was last drawn on (its project.json was saved).
@@ -324,11 +326,34 @@ final class RotoProject: ObservableObject {
 
     /// Deletes a project folder (video, drawings, thumbnail).
     static func deleteProject(at dir: URL) {
-        // Only ever remove folders that live under our Projects root.
-        guard dir.resolvingSymlinksInPath().path
-            .hasPrefix(projectsRoot.resolvingSymlinksInPath().path) else { return }
-        try? FileManager.default.removeItem(at: dir)
+        deleteProjects([dir])
+    }
+
+    /// Deletes many works and tells the screens once.
+    static func deleteProjects(_ dirs: some Sequence<URL>) {
+        let root = projectsRoot.resolvingSymlinksInPath().path
+        for dir in dirs {
+            // Only ever remove folders that live under our Projects root.
+            guard dir.resolvingSymlinksInPath().path.hasPrefix(root) else { continue }
+            try? FileManager.default.removeItem(at: dir)
+            thumbnails.removeObject(forKey: dir as NSURL)
+        }
         NotificationCenter.default.post(name: projectsDidChange, object: nil)
+    }
+
+    // MARK: - Thumbnails
+
+    /// Decoded home-grid pictures. The grid redraws often and a busy shelf has
+    /// dozens of works; decoding every PNG on each redraw made scrolling stutter.
+    private static let thumbnails = NSCache<NSURL, UIImage>()
+
+    /// A work's thumbnail, decoded once and kept until the work changes.
+    static func thumbnail(for dir: URL) -> UIImage? {
+        if let hit = thumbnails.object(forKey: dir as NSURL) { return hit }
+        guard let image = UIImage(contentsOfFile: dir.appendingPathComponent("thumb.png").path)?
+            .preparingForDisplay() else { return nil }
+        thumbnails.setObject(image, forKey: dir as NSURL)
+        return image
     }
 
     // MARK: - Create / open / close
@@ -351,7 +376,12 @@ final class RotoProject: ObservableObject {
             return
         }
 
-        guard let src = VideoSource(url: dest) else {
+        Task { await start(videoAt: dest, in: dir) }
+    }
+
+    /// Second half of `load(url:)`: the copy is in place, read it and begin.
+    private func start(videoAt dest: URL, in dir: URL) async {
+        guard let src = await VideoSource.load(url: dest) else {
             statusMessage = String(localized: "동영상을 읽을 수 없어요. 다른 동영상으로 해볼까요?")
             try? FileManager.default.removeItem(at: dir)
             return
@@ -452,13 +482,22 @@ final class RotoProject: ObservableObject {
         } else {
             guard let name = data.videoFileName else { return }
             let vurl = dir.appendingPathComponent(name)
-            guard let src = VideoSource(url: vurl) else { return }
-            source = src
-            videoURL = vurl
-            isBlank = false
-            blankPageCount = 1
-            clearPreset()
+            Task {
+                guard let src = await VideoSource.load(url: vurl) else { return }
+                source = src
+                videoURL = vurl
+                isBlank = false
+                blankPageCount = 1
+                clearPreset()
+                restore(data, from: dir)
+            }
+            return
         }
+        restore(data, from: dir)
+    }
+
+    /// The part of reopening every kind of project shares: pages, drawings, position.
+    private func restore(_ data: ProjectData, from dir: URL) {
         projectDirectory = dir
         frameStep = max(1, data.frameStep)
         hideBackground = data.hideBackground
@@ -537,6 +576,7 @@ final class RotoProject: ObservableObject {
             }
         }
         try? data.write(to: dir.appendingPathComponent("thumb.png"))
+        Self.thumbnails.removeObject(forKey: dir as NSURL)
     }
 
     // MARK: - Playback

@@ -42,63 +42,12 @@ struct RotoscopeiPadSupportView: View {
     private var settings: some View {
         NavigationStack {
             List {
-                // 요금제 → 응원 → 선물 → 구매 복원, one place for everything that costs money.
-                Section {
-                    if store.hasPro {
-                        Label("모든 기능이 열려 있어요", systemImage: "checkmark.seal.fill")
-                            .foregroundStyle(.green)
-                    } else {
-                        Button { showUnlock = true } label: {
-                            Label("평생 이용권", systemImage: "star.fill")
-                        }
-                    }
-                    // The supporter badge rides on this row (LeeoTipJarLink).
-                    if let tipJar = store.tipJar {
-                        TipLink(tipJar: tipJar)
-                    }
-                    if let gift = store.gift {
-                        GiftRow(gift: gift, hasPro: store.hasPro)
-                    }
-                    // A family with the pass has nothing to restore; everyone else finds it last.
-                    if !store.hasPro {
-                        Button {
-                            Task { await store.restore() }
-                        } label: {
-                            if store.isRestoring {
-                                ProgressView()
-                            } else {
-                                Label("구매 복원", systemImage: "arrow.clockwise")
-                            }
-                        }
-                        .disabled(store.isRestoring)
-                    }
-                } header: { Text("요금제와 응원") }
+                planSection
                 if let tipJar = store.tipJar, store.hasPro {
                     TipAskCard(tipJar: tipJar)
                 }
-                // Kids fill the home grid fast; a grown-up clears many works at once here.
-                Section {
-                    NavigationLink { WorksManagerView() } label: {
-                        LabeledContent {
-                            Text(verbatim: "\(workCount)")
-                        } label: {
-                            Label("작품 정리", systemImage: "square.grid.2x2")
-                        }
-                    }
-                } header: { Text("내 작품") }
-                Section {
-                    LeeoSupportSection<RotoscopeiPadSpec>()
-                    NavigationLink(LeeoRoadmapText.entry) { RoadmapScreen() }
-                    if let mail = Self.mailURL {
-                        Link(destination: mail) {
-                            Label("메일로 문의하기", systemImage: "envelope")
-                        }
-                    }
-                    // Only the handle is a proper noun; the label is translated.
-                    Link(destination: URL(string: "https://instagram.com/lee25_ios")!) {
-                        Label("인스타그램 DM (@lee25_ios)", systemImage: "paperplane")
-                    }
-                } header: { Text("지원") }
+                worksSection
+                supportSection
             }
             .navigationTitle("설정")
             .onReceive(NotificationCenter.default.publisher(for: RotoProject.projectsDidChange)) { _ in
@@ -114,6 +63,73 @@ struct RotoscopeiPadSupportView: View {
             .navigationBarTitleDisplayMode(.inline)
             #endif
         }
+    }
+
+    /// 요금제 → 응원 → 선물 → 구매 복원, one place for everything that costs money.
+    private var planSection: some View {
+        Section {
+            if store.hasPro {
+                Label("모든 기능이 열려 있어요", systemImage: "checkmark.seal.fill")
+                    .foregroundStyle(.green)
+            } else {
+                Button { showUnlock = true } label: {
+                    Label("평생 이용권", systemImage: "star.fill")
+                }
+            }
+            // The supporter badge rides on this row (LeeoTipJarLink).
+            if let tipJar = store.tipJar {
+                TipLink(tipJar: tipJar)
+            }
+            if let gift = store.gift {
+                GiftRow(gift: gift, hasPro: store.hasPro)
+            }
+            // A family with the pass has nothing to restore; everyone else finds it last.
+            if !store.hasPro {
+                restoreButton
+            }
+        } header: { Text("요금제와 응원") }
+    }
+
+    private var restoreButton: some View {
+        Button {
+            Task { await store.restore() }
+        } label: {
+            if store.isRestoring {
+                ProgressView()
+            } else {
+                Label("구매 복원", systemImage: "arrow.clockwise")
+            }
+        }
+        .disabled(store.isRestoring)
+    }
+
+    /// Kids fill the home grid fast; a grown-up clears many works at once here.
+    private var worksSection: some View {
+        Section {
+            NavigationLink { WorksManagerView() } label: {
+                LabeledContent {
+                    Text(verbatim: "\(workCount)")
+                } label: {
+                    Label("작품 정리", systemImage: "square.grid.2x2")
+                }
+            }
+        } header: { Text("내 작품") }
+    }
+
+    private var supportSection: some View {
+        Section {
+            LeeoSupportSection<RotoscopeiPadSpec>()
+            NavigationLink(LeeoRoadmapText.entry) { RoadmapScreen() }
+            if let mail = Self.mailURL {
+                Link(destination: mail) {
+                    Label("메일로 문의하기", systemImage: "envelope")
+                }
+            }
+            // Only the handle is a proper noun; the label is translated.
+            Link(destination: URL(string: "https://instagram.com/lee25_ios")!) {
+                Label("인스타그램 DM (@lee25_ios)", systemImage: "paperplane")
+            }
+        } header: { Text("지원") }
     }
 }
 

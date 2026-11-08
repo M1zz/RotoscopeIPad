@@ -8,20 +8,19 @@ struct GuidePreset: Identifiable {
     /// saved project can find its guides again.
     let id: String
     let frameURLs: [URL]
+    /// Mid-animation frame — usually the most recognizable pose. Decoded once:
+    /// the home grid draws it on every redraw.
+    let thumbnail: UIImage?
+    /// Drawing surface size. Every page shares it, so the thumbnail tells it —
+    /// the canvas asks for this on every layout, so it must not touch the disk.
+    let canvasSize: CGSize
 
-    /// Drawing surface size, taken from the first guide image.
-    var canvasSize: CGSize {
-        guard let first = frameURLs.first,
-              let img = UIImage(contentsOfFile: first.path) else {
-            return RotoProject.blankCanvasSize
-        }
-        return img.size
-    }
-
-    /// Mid-animation frame — usually the most recognizable pose.
-    var thumbnail: UIImage? {
-        guard !frameURLs.isEmpty else { return nil }
-        return UIImage(contentsOfFile: frameURLs[frameURLs.count / 2].path)
+    init(id: String, frameURLs: [URL]) {
+        self.id = id
+        self.frameURLs = frameURLs
+        let mid = frameURLs.isEmpty ? nil : frameURLs[frameURLs.count / 2]
+        thumbnail = mid.flatMap { UIImage(contentsOfFile: $0.path)?.preparingForDisplay() }
+        canvasSize = thumbnail?.size ?? RotoProject.blankCanvasSize
     }
 
     func image(forScene i: Int) -> UIImage? {
@@ -51,15 +50,18 @@ enum PresetLibrary {
         return folders
             .filter(\.hasDirectoryPath)
             .sorted { $0.lastPathComponent < $1.lastPathComponent }
-            .compactMap { folder in
-                guard let files = try? fm.contentsOfDirectory(at: folder,
-                                                              includingPropertiesForKeys: nil)
-                else { return nil }
-                let frames = files
-                    .filter { $0.pathExtension.lowercased() == "png" }
-                    .sorted { $0.lastPathComponent < $1.lastPathComponent }
-                guard !frames.isEmpty else { return nil }
-                return GuidePreset(id: folder.lastPathComponent, frameURLs: frames)
-            }
+            .compactMap(preset(in:))
+    }
+
+    /// One folder of numbered PNG pages → a guide set (nil when it holds no pages).
+    private static func preset(in folder: URL) -> GuidePreset? {
+        guard let files = try? FileManager.default.contentsOfDirectory(at: folder,
+                                                                       includingPropertiesForKeys: nil)
+        else { return nil }
+        let frames: [URL] = files
+            .filter { $0.pathExtension.lowercased() == "png" }
+            .sorted { $0.lastPathComponent < $1.lastPathComponent }
+        guard !frames.isEmpty else { return nil }
+        return GuidePreset(id: folder.lastPathComponent, frameURLs: frames)
     }
 }

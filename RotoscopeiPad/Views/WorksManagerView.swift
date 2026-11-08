@@ -68,7 +68,7 @@ struct WorksManagerView: View {
     }
 
     private func deleteSelected() {
-        for dir in selected { RotoProject.deleteProject(at: dir) }
+        RotoProject.deleteProjects(selected)
         selected = []
         works = RotoProject.listProjects()
     }
@@ -80,42 +80,37 @@ private struct WorkTile: View {
     let isSelected: Bool
     let toggle: () -> Void
 
+    private var date: Text? {
+        RotoProject.editedAt(dir).map { Text($0, format: .dateTime.year().month().day()) }
+    }
+
     var body: some View {
         Button(action: toggle) {
             VStack(spacing: 6) {
-                thumbnail
-                    .aspectRatio(4 / 3, contentMode: .fit)
-                    .clipShape(RoundedRectangle(cornerRadius: 12))
-                    .overlay(RoundedRectangle(cornerRadius: 12)
-                        .strokeBorder(isSelected ? Color.accentColor : Color.primary.opacity(0.12),
-                                      lineWidth: isSelected ? 4 : 1))
-                    .overlay(alignment: .topTrailing) {
-                        // Drawings sit on white paper, so the empty circle needs its own outline.
-                        Image(systemName: isSelected ? "checkmark.circle.fill" : "circle")
-                            .font(.title)
-                            .foregroundStyle(isSelected ? Color.white : Color.secondary,
-                                             Color.accentColor)
-                            .background(Circle().fill(isSelected ? Color.accentColor : Color.white.opacity(0.85)))
-                            .padding(8)
-                    }
-                if let date = RotoProject.editedAt(dir) {
-                    Text(date, format: .dateTime.year().month().day())
-                        .font(.footnote)
-                        .foregroundStyle(.secondary)
-                }
+                picture
+                date?
+                    .font(.footnote)
+                    .foregroundStyle(.secondary)
             }
         }
         .buttonStyle(.plain)
         .accessibilityLabel(Text("내 작품"))
-        .accessibilityValue(RotoProject.editedAt(dir).map {
-            Text($0, format: .dateTime.year().month().day())
-        } ?? Text(verbatim: ""))
+        .accessibilityValue(date ?? Text(verbatim: ""))
         .accessibilityAddTraits(isSelected ? .isSelected : [])
+    }
+
+    private var picture: some View {
+        let edge: Color = isSelected ? .accentColor : .primary.opacity(0.12)
+        return thumbnail
+            .aspectRatio(4 / 3, contentMode: .fit)
+            .clipShape(RoundedRectangle(cornerRadius: 12))
+            .overlay(RoundedRectangle(cornerRadius: 12).strokeBorder(edge, lineWidth: isSelected ? 4 : 1))
+            .overlay(alignment: .topTrailing) { SelectionMark(isSelected: isSelected).padding(8) }
     }
 
     @ViewBuilder
     private var thumbnail: some View {
-        if let ui = UIImage(contentsOfFile: dir.appendingPathComponent("thumb.png").path) {
+        if let ui = RotoProject.thumbnail(for: dir) {
             Color.white.overlay(Image(uiImage: ui).resizable().aspectRatio(contentMode: .fill))
         } else {
             Image(systemName: "film")
@@ -123,6 +118,26 @@ private struct WorkTile: View {
                 .foregroundStyle(.secondary)
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .background(Color.gray.opacity(0.12))
+        }
+    }
+}
+
+/// A filled check when picked, an outlined circle when not.
+/// Drawings sit on white paper, so the empty circle carries its own backing.
+private struct SelectionMark: View {
+    let isSelected: Bool
+
+    var body: some View {
+        if isSelected {
+            Image(systemName: "checkmark.circle.fill")
+                .font(.title)
+                .foregroundStyle(.white, Color.accentColor)
+                .background(Circle().fill(Color.accentColor))
+        } else {
+            Image(systemName: "circle")
+                .font(.title)
+                .foregroundStyle(.secondary)
+                .background(Circle().fill(.white.opacity(0.85)))
         }
     }
 }

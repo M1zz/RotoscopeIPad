@@ -30,10 +30,12 @@ struct RotoscopeiPadApp: App {
                 .environmentObject(store)
                 // Re-read the pass when it changes (purchase, offer code) and on every return.
                 .task(id: store.hasPro) { await syncLatch() }
-                .onChange(of: scenePhase) { _, phase in
-                    if phase == .active { Task { await syncLatch() } }
-                }
+                .onChange(of: scenePhase, onReturn)
         }
+    }
+
+    private func onReturn(_: ScenePhase, to phase: ScenePhase) {
+        if phase == .active { Task { await syncLatch() } }
     }
 
     private func syncLatch() async {

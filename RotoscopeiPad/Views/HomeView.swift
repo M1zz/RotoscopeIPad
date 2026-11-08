@@ -299,9 +299,8 @@ struct HomeView: View {
     }
 
     private func thumbnail(for dir: URL) -> some View {
-        let thumbPath = dir.appendingPathComponent("thumb.png").path
-        return Group {
-            if let ui = UIImage(contentsOfFile: thumbPath) {
+        Group {
+            if let ui = RotoProject.thumbnail(for: dir) {
                 Color.clear
                     .overlay(
                         Image(uiImage: ui)

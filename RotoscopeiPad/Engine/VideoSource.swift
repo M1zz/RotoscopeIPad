@@ -17,20 +17,25 @@ final class VideoSource {
     private let previewGenerator: AVAssetImageGenerator
     private let previewCache = NSCache<NSNumber, UIImage>()
 
-    init?(url: URL) {
-        let asset = AVAsset(url: url)
-        guard let track = asset.tracks(withMediaType: .video).first else { return nil }
+    /// Reads the video's track, frame rate, length and size, then builds the source.
+    /// nil when the file has no video track or can't be read.
+    static func load(url: URL) async -> VideoSource? {
+        let asset = AVURLAsset(url: url)
+        guard let track = try? await asset.loadTracks(withMediaType: .video).first,
+              let (rate, size, transform) = try? await track.load(.nominalFrameRate, .naturalSize,
+                                                                  .preferredTransform),
+              let duration = try? await asset.load(.duration) else { return nil }
+        let turned = size.applying(transform)
+        return VideoSource(asset: asset, track: track, frameRate: rate > 0 ? rate : 30, duration: duration,
+                           naturalSize: CGSize(width: abs(turned.width), height: abs(turned.height)))
+    }
+
+    private init(asset: AVAsset, track: AVAssetTrack, frameRate: Float, duration: CMTime, naturalSize: CGSize) {
         self.asset = asset
         self.track = track
-        self.frameRate = track.nominalFrameRate > 0 ? track.nominalFrameRate : 30
-
-        let dur = asset.duration
-        let total = Int((CMTimeGetSeconds(dur) * Double(frameRate)).rounded())
-        self.frameCount = max(total, 1)
-
-        let raw = track.naturalSize
-        let transformed = raw.applying(track.preferredTransform)
-        self.naturalSize = CGSize(width: abs(transformed.width), height: abs(transformed.height))
+        self.frameRate = frameRate
+        self.frameCount = max(Int((CMTimeGetSeconds(duration) * Double(frameRate)).rounded()), 1)
+        self.naturalSize = naturalSize
 
         let gen = AVAssetImageGenerator(asset: asset)
         gen.appliesPreferredTrackTransform = true
