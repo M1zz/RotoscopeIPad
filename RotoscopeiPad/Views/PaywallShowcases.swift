@@ -17,9 +17,6 @@ enum PaywallShowcases {
             LeeoShowcase(id: LockReason.projects.rawValue,
                          title: String(localized: "작품을 개수 제한 없이 보관"),
                          detail: "") { Fitted { ProjectsArt() } },
-            LeeoShowcase(id: LockReason.pages.rawValue,
-                         title: String(localized: "빈 종이 플립북 장수 제한 없음"),
-                         detail: "") { Fitted { PagesArt() } },
             LeeoShowcase(id: LockReason.video.rawValue,
                          title: String(localized: "내 동영상으로 그리기 무제한"),
                          detail: "") { Fitted { VideoArt() } },
@@ -120,22 +117,6 @@ private struct ProjectsArt: View {
                         Sheet(preset: i + 2, crayon: crayons[i], width: 112)
                     }
                 }
-            }
-        }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .overlay(alignment: .topTrailing) { InfinityBadge() }
-    }
-}
-
-/// A fanned stack of flipbook pages, and ∞.
-private struct PagesArt: View {
-    var body: some View {
-        ZStack {
-            ForEach(0..<5, id: \.self) { i in
-                Sheet(preset: 1, crayon: i == 4 ? .orange : nil, width: 200)
-                    .opacity(i == 4 ? 1 : 0.5)
-                    .rotationEffect(.degrees(Double(i - 4) * 4), anchor: .bottomLeading)
-                    .offset(x: CGFloat(4 - i) * -6)
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)

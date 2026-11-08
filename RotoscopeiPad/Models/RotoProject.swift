@@ -83,6 +83,9 @@ final class RotoProject: ObservableObject {
                                 isAdditive: true, closed: true,
                                 colorHex: brushColorHex, width: 0.004,
                                 opacity: brushOpacity, smooth: stampShape.smooth))
+        // One tap, one stamp, then back to the pen — kids couldn't find
+        // their way out of stamping.
+        tool = .brush
     }
 
     // MARK: - Hover preview
@@ -210,11 +213,10 @@ final class RotoProject: ObservableObject {
     /// How many video frames one drawn scene covers (1 = every frame).
     @Published private(set) var frameStep: Int = 1
 
-    // MARK: - Blank flipbook projects (no video, just pages)
+    // MARK: - Blank projects (no video): a one-page sketchbook
 
     nonisolated static let blankCanvasSize = CGSize(width: 1600, height: 1200)
     static let blankFPS: Double = 8
-    static let maxBlankPages = 600
 
     @Published var isBlank = false
     @Published var blankPageCount = 1
@@ -229,6 +231,9 @@ final class RotoProject: ObservableObject {
     private var guidePreset: GuidePreset?
 
     var isPreset: Bool { presetId != nil }
+    /// 빈 종이: a single-page sketchbook — no page turning, playing or voice.
+    /// (Blank works from before it became a sketchbook keep their pages.)
+    var isSketchbook: Bool { isBlank && blankPageCount == 1 }
 
     /// Drawing surface size: the video frame, the guide page, or the blank page.
     var canvasSize: CGSize {
@@ -403,8 +408,7 @@ final class RotoProject: ObservableObject {
         writeThumbnail()
     }
 
-    /// Creates a blank flipbook project: white pages, no video. New pages are
-    /// added by tapping "next" on the last page.
+    /// Creates a sketchbook: one white page, no video.
     func createBlank() {
         stopPlayback()
         let dir = Self.projectsRoot.appendingPathComponent(UUID().uuidString, isDirectory: true)
@@ -674,11 +678,6 @@ final class RotoProject: ObservableObject {
     func step(by delta: Int) {
         guard isOpen else { return }
         stopPlayback()
-        // Blank flipbook: stepping forward past the last page adds a new one.
-        if isBlank, delta > 0, currentFrame == frameCount - 1,
-           blankPageCount < Self.maxBlankPages {
-            blankPageCount += 1
-        }
         let next = min(max(currentFrame + delta, 0), frameCount - 1)
         if next != currentFrame {
             currentFrame = next

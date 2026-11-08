@@ -51,11 +51,6 @@ final class PaletteAndFreeTierTests: XCTestCase {
         XCTAssertFalse(freeGate.evaluate(FreeTier.projectKey, current: 3).isAllowed)
     }
 
-    func testFreeBlankFlipbookStopsAtTenPages() {
-        XCTAssertTrue(freeGate.evaluate(FreeTier.blankPageKey, current: 9).isAllowed)
-        XCTAssertFalse(freeGate.evaluate(FreeTier.blankPageKey, current: 10).isAllowed)
-    }
-
     func testOnlyOneFreeVideoImport() {
         XCTAssertTrue(freeGate.evaluate(FreeTier.videoImportKey, current: 0).isAllowed)
         XCTAssertFalse(freeGate.evaluate(FreeTier.videoImportKey, current: 1).isAllowed)
@@ -85,7 +80,7 @@ final class PaletteAndFreeTierTests: XCTestCase {
     }
 
     func testEveryLockReasonHasAPictureAndAMessage() {
-        for reason in [LockReason.projects, .presets, .video, .pages, .recording, .general] {
+        for reason in [LockReason.projects, .presets, .video, .recording, .general] {
             XCTAssertFalse(reason.icon.isEmpty)
             XCTAssertFalse(reason.message.isEmpty)
         }

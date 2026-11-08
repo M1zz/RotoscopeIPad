@@ -21,7 +21,6 @@ enum FreeTier {
 
     // Gate keys (see RotoscopeiPadSpec.monetization).
     static let projectKey = "project"            // saved works on the home grid
-    static let blankPageKey = "blankPage"        // pages in one blank flipbook
     static let videoImportKey = "videoImport"    // videos ever brought in
     static let recordSecondsKey = "recordSeconds"
     static let premiumPresetKey = "premiumPreset"
@@ -102,7 +101,7 @@ enum FreeTier {
 
 /// Why the unlock sheet came up — picks the icon and the line the parent reads.
 enum LockReason: String, Identifiable {
-    case projects, presets, video, pages, recording, general
+    case projects, presets, video, recording, general
 
     var id: String { rawValue }
 
@@ -112,7 +111,6 @@ enum LockReason: String, Identifiable {
         case .projects:  return "square.grid.2x2.fill"
         case .presets:   return "pencil.tip.crop.circle.badge.plus"
         case .video:     return "video.fill"
-        case .pages:     return "book.pages.fill"
         case .recording: return "mic.fill"
         case .general:   return "star.fill"
         }
@@ -128,8 +126,6 @@ enum LockReason: String, Identifiable {
             return String(localized: "따라 그리기 \(FreeTier.freePresetIDs.count)세트는 무료, 나머지는 이용권으로 열려요.")
         case .video:
             return String(localized: "무료로는 동영상을 \(limits[FreeTier.videoImportKey] ?? 0)번 불러올 수 있어요.")
-        case .pages:
-            return String(localized: "무료로는 빈 종이 플립북을 \(limits[FreeTier.blankPageKey] ?? 0)장까지 그릴 수 있어요.")
         case .recording:
             return String(localized: "무료로는 목소리를 \(limits[FreeTier.recordSecondsKey] ?? 0)초까지 녹음할 수 있어요.")
         case .general:

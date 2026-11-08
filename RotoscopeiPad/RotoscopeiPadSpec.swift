@@ -40,7 +40,6 @@ enum RotoscopeiPadSpec: LeeoAppSpec {
             gate: LeeoGatePolicy(
                 freeLimits: [
                     FreeTier.projectKey: 3,
-                    FreeTier.blankPageKey: 10,
                     FreeTier.videoImportKey: 1,
                     FreeTier.recordSecondsKey: 15
                 ],

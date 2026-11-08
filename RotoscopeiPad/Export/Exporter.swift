@@ -247,6 +247,25 @@ final class Exporter {
         return session.status == .completed ? outURL : videoURL
     }
 
+    /// A sketchbook page into Photos as a picture: the drawing on white.
+    func savePicture() async throws {
+        let size = project.canvasSize
+        let image = UIGraphicsImageRenderer(size: size).image { rc in
+            UIColor.white.setFill()
+            rc.fill(CGRect(origin: .zero, size: size))
+            if let paint = MaskRasterizer.paintLayer(for: project.currentMask, size: size) {
+                UIImage(cgImage: paint).draw(in: CGRect(origin: .zero, size: size))
+            }
+        }
+        let status = await PHPhotoLibrary.requestAuthorization(for: .addOnly)
+        guard status == .authorized || status == .limited else {
+            throw ExportError.photosAccessDenied
+        }
+        try await PHPhotoLibrary.shared().performChanges {
+            PHAssetChangeRequest.creationRequestForAsset(from: image)
+        }
+    }
+
     /// Saves the mp4 into the user's photo library (add-only access).
     private func saveVideoToPhotos(url: URL) async throws {
         let status = await PHPhotoLibrary.requestAuthorization(for: .addOnly)

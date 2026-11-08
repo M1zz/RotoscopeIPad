@@ -73,7 +73,8 @@ struct ContentView: View {
                 toolbar
                 Divider()
                 canvasArea
-                if showTransport {
+                // A sketchbook is one page: nothing to turn or play.
+                if showTransport, !project.isSketchbook {
                     Divider()
                     transport
                 }
@@ -159,7 +160,7 @@ struct ContentView: View {
             .background(Color.black)
 
             // Bring the hidden play bar back.
-            if !showTransport {
+            if !showTransport, !project.isSketchbook {
                 Button {
                     withAnimation { showTransport = true }
                 } label: {
@@ -300,12 +301,13 @@ struct ContentView: View {
             iconButton("house.fill", label: "홈으로") { project.goHome() }
             toolButton("paintbrush.pointed.fill", tool: .brush, label: "붓")
             toolButton("eraser.fill", tool: .erase, label: "지우개")
-            iconButton("arrow.uturn.backward", label: "되돌리기") { project.undoLastStroke() }
             clearPageButton
         }
         HStack(spacing: 6) {
-            dubButton
-            playButton
+            if !project.isSketchbook {
+                dubButton
+                playButton
+            }
             backgroundButton
             exportButton
             Divider().frame(height: 30)
@@ -346,13 +348,14 @@ struct ContentView: View {
 
             toolButton("paintbrush.pointed.fill", tool: .brush, label: "붓")
             toolButton("eraser.fill", tool: .erase, label: "지우개")
-            iconButton("arrow.uturn.backward", label: "되돌리기") { project.undoLastStroke() }
             clearPageButton
 
             Divider().frame(height: 34)
 
-            dubButton
-            playButton
+            if !project.isSketchbook {
+                dubButton
+                playButton
+            }
             backgroundButton
 
             Divider().frame(height: 34)
@@ -377,7 +380,7 @@ struct ContentView: View {
     }
 
     private var clearPageButton: some View {
-        // Wipe the whole page at once (undo brings it back).
+        // Wipe the whole page at once.
         Button { project.clearCurrentMask() } label: {
             Image(systemName: "trash.fill")
                 .modifier(ToolIcon())
@@ -497,9 +500,8 @@ struct ContentView: View {
             )
             .onTapGesture {
                 project.brushColorHex = hex
-                // Picking a color means "draw" — but stamps keep stamping,
-                // just in the new color.
-                if project.tool != .stamp { project.tool = .brush }
+                // Picking a color means "draw" — always back to the pen.
+                project.tool = .brush
             }
             // A bare circle with a tap gesture: tell VoiceOver it's a button.
             .accessibilityElement()
@@ -592,7 +594,7 @@ struct ContentView: View {
             }
             .buttonStyle(.borderedProminent)
             .tint(.orange)
-            .disabled(!project.isBlank && project.currentFrame >= project.frameCount - 1)
+            .disabled(project.currentFrame >= project.frameCount - 1)
             .accessibilityLabel(Text("다음 그림 그리기"))
             .accessibilityInputLabels([Text("다음"), Text("다음 그림 그리기")])
             .accessibilityShowsLargeContentViewer()
@@ -620,15 +622,8 @@ struct ContentView: View {
         .padding(.vertical, isCompact ? 8 : 12)
     }
 
-    /// Turning past the last blank page adds one — within the free page count.
     private func nextPage() {
         nextPageTip.invalidate(reason: .actionPerformed)
-        let addsPage = project.isBlank && project.currentFrame == project.frameCount - 1
-        if addsPage, !store.gate.evaluate(FreeTier.blankPageKey,
-                                          current: project.blankPageCount).isAllowed {
-            lock = .pages
-            return
-        }
         project.step(by: 1)
         Task { await DubTip.turnedPage.donate() }
     }
@@ -698,8 +693,13 @@ struct ContentView: View {
 
         Task {
             do {
-                _ = try await exporter.export(options: opts) { p in
-                    project.exportProgress = p
+                if project.isSketchbook {
+                    // One page: a picture, not a movie.
+                    try await exporter.savePicture()
+                } else {
+                    _ = try await exporter.export(options: opts) { p in
+                        project.exportProgress = p
+                    }
                 }
                 // A finished flipbook in Photos is what this app is for. The count
                 // feeds "Enjoying Palang Book?", which is only ever asked in
