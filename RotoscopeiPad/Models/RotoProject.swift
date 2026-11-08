@@ -8,6 +8,7 @@ enum ToolMode: String, CaseIterable {
     case brush   = "붓"
     case erase   = "지우개"
     case stamp   = "도장"
+    case move    = "옮기기"
 }
 
 /// How the export bakes strokes into each frame.
@@ -59,7 +60,7 @@ final class RotoProject: ObservableObject {
 
     /// Where a stamp centered at `p` would land, in normalized coordinates.
     /// Shared by the actual stamp and the hover preview so they always match.
-    func stampPoints(centeredAt p: CGPoint) -> [CGPoint] {
+    func stampParts(centeredAt p: CGPoint) -> [StampPart] {
         // y is normalized by height, x by width — scale y by the aspect
         // ratio so stamps stay square on screen.
         let aspect = canvasSize.width / max(canvasSize.height, 1)
@@ -70,22 +71,81 @@ final class RotoProject: ObservableObject {
         }
         let cx = clamped(p.x, margin: halfX)
         let cy = clamped(p.y, margin: halfY)
-        return stampShape.unitPoints.map {
-            CGPoint(x: cx + $0.x * halfX, y: cy + $0.y * halfY)
+        return stampShape.parts.map { part in
+            StampPart(points: part.points.map { CGPoint(x: cx + $0.x * halfX, y: cy + $0.y * halfY) },
+                      smooth: part.smooth)
         }
     }
 
-    /// Stamps the selected shape at a normalized canvas point, as a regular
-    /// closed stroke in the current color (so erase/undo/export just work).
+    /// Stamps the selected shape at a normalized canvas point, as regular
+    /// closed strokes in the current color (so erase/export just work).
     func stamp(at p: CGPoint) {
         guard isOpen, !isPlaying else { return }
-        commitStroke(MaskStroke(points: stampPoints(centeredAt: p),
-                                isAdditive: true, closed: true,
-                                colorHex: brushColorHex, width: 0.004,
-                                opacity: brushOpacity, smooth: stampShape.smooth))
+        let group = UUID()
+        for part in stampParts(centeredAt: p) {
+            var piece = MaskStroke(points: part.points,
+                                   isAdditive: true, closed: true,
+                                   colorHex: brushColorHex, width: 0.004,
+                                   opacity: brushOpacity, smooth: part.smooth)
+            piece.group = group
+            commitStroke(piece)
+        }
         // One tap, one stamp, then back to the pen — kids couldn't find
         // their way out of stamping.
         tool = .brush
+    }
+
+    // MARK: - The hand: move a shape
+    // Shapes (stamps and closed polygons) can be picked up and slid around
+    // the page; lines stay where they were drawn.
+
+    /// The strokes under the hand and where the finger was last.
+    private var grabbed: (ids: Set<UUID>, last: CGPoint)?
+
+    /// Picks up the topmost shape under `p`, with all of its stamp pieces.
+    func grabShape(at p: CGPoint) {
+        guard let strokes = masks[currentFrame]?.strokes,
+              let hit = strokes.last(where: { $0.isAdditive && $0.closed && Self.contains($0.points, p) })
+        else { return }
+        let ids = strokes.filter { $0.id == hit.id || (hit.group != nil && $0.group == hit.group) }.map(\.id)
+        grabbed = (Set(ids), p)
+    }
+
+    /// Slides the picked-up shape with the finger, never off the page.
+    func dragShape(to p: CGPoint) {
+        guard let g = grabbed, var m = masks[currentFrame] else { return }
+        let points = m.strokes.filter { g.ids.contains($0.id) }.flatMap(\.points)
+        guard let minX = points.map(\.x).min(), let maxX = points.map(\.x).max(),
+              let minY = points.map(\.y).min(), let maxY = points.map(\.y).max() else { return }
+        let dx = min(max(p.x - g.last.x, -minX), 1 - maxX)
+        let dy = min(max(p.y - g.last.y, -minY), 1 - maxY)
+        for i in m.strokes.indices where g.ids.contains(m.strokes[i].id) {
+            m.strokes[i].points = m.strokes[i].points.map { CGPoint(x: $0.x + dx, y: $0.y + dy) }
+        }
+        masks[currentFrame] = m
+        grabbed?.last = CGPoint(x: g.last.x + dx, y: g.last.y + dy)
+    }
+
+    func dropShape() {
+        guard grabbed != nil else { return }
+        grabbed = nil
+        scheduleSave()
+        writeThumbnail()
+    }
+
+    /// Even-odd point-in-polygon test in normalized space.
+    private static func contains(_ polygon: [CGPoint], _ p: CGPoint) -> Bool {
+        var inside = false
+        var j = polygon.count - 1
+        for i in polygon.indices {
+            let a = polygon[i], b = polygon[j]
+            if (a.y > p.y) != (b.y > p.y),
+               p.x < (b.x - a.x) * (p.y - a.y) / (b.y - a.y) + a.x {
+                inside.toggle()
+            }
+            j = i
+        }
+        return inside
     }
 
     // MARK: - Hover preview
@@ -93,6 +153,9 @@ final class RotoProject: ObservableObject {
     // stamp will land before it touches the page.
 
     @Published var hoverPoint: CGPoint?
+    /// A stamp held under the finger: it appears on touch, follows the
+    /// drag, and lands where the finger lifts.
+    @Published var heldStamp: CGPoint?
 
     /// What the export bakes into each frame. Paint = colored drawing over the
     /// footage; Cutout = the original alpha matte behavior.
@@ -225,6 +288,16 @@ final class RotoProject: ObservableObject {
     /// Older blank works with drawings stay 4:3.
     @Published private(set) var pageSize: CGSize?
 
+    // MARK: - A grown-up's picture under the page
+    // A sketchbook can start from a picture a grown-up brought in
+    // (PictureLibrary). It sits on the page, faded or not, and the kid
+    // draws over it; the saved picture keeps it.
+
+    static let pictureFileName = "picture.jpg"
+    @Published private(set) var picture: UIImage?
+    @Published private(set) var pictureFaded = false
+    var pictureOpacity: Double { pictureFaded ? PictureLibrary.fadedOpacity : 1 }
+
     // MARK: - Guide presets (따라 그리기)
     // A bundled sequence of light line-art pages. The kid traces each page;
     // playback and export hide the guides, so only the drawing animates.
@@ -247,7 +320,7 @@ final class RotoProject: ObservableObject {
     /// Shapes a sketchbook's page to the drawing area (long side 1600) while
     /// it's still empty — once drawn on, its shape never changes.
     func fitPage(to area: CGSize) {
-        guard isSketchbook, area.width > 1, area.height > 1,
+        guard isSketchbook, picture == nil, area.width > 1, area.height > 1,
               masks.values.allSatisfy(\.strokes.isEmpty) else { return }
         let scale = Self.blankCanvasSize.width / max(area.width, area.height)
         let size = CGSize(width: (area.width * scale).rounded(), height: (area.height * scale).rounded())
@@ -294,10 +367,13 @@ final class RotoProject: ObservableObject {
         var presetId: String?
         var hideBackground: Bool
         var pageSize: CGSize?
+        var pictureFaded: Bool?
 
         init(frameStep: Int, currentFrame: Int, masks: [Int: FrameMask],
              videoFileName: String?, isBlank: Bool, blankPageCount: Int,
-             presetId: String?, hideBackground: Bool, pageSize: CGSize?) {
+             presetId: String?, hideBackground: Bool, pageSize: CGSize?,
+             pictureFaded: Bool? = nil) {
+            self.pictureFaded = pictureFaded
             self.frameStep = frameStep
             self.currentFrame = currentFrame
             self.masks = masks
@@ -321,6 +397,7 @@ final class RotoProject: ObservableObject {
             presetId = try c.decodeIfPresent(String.self, forKey: .presetId)
             hideBackground = try c.decodeIfPresent(Bool.self, forKey: .hideBackground) ?? false
             pageSize = try c.decodeIfPresent(CGSize.self, forKey: .pageSize)
+            pictureFaded = try c.decodeIfPresent(Bool.self, forKey: .pictureFaded)
         }
     }
 
@@ -330,8 +407,11 @@ final class RotoProject: ObservableObject {
     }
 
     /// Project folders, most recently edited first.
-    static func listProjects() -> [URL] {
-        guard let dirs = try? FileManager.default.contentsOfDirectory(at: projectsRoot,
+    static func listProjects() -> [URL] { listWorks(in: projectsRoot) }
+
+    /// Work folders under a root (the shelf or the trash), most recently edited first.
+    private static func listWorks(in root: URL) -> [URL] {
+        guard let dirs = try? FileManager.default.contentsOfDirectory(at: root,
                                                                       includingPropertiesForKeys: nil) else { return [] }
         // Read each date once, not on every comparison — the shelf can hold dozens of works.
         let dated: [(dir: URL, at: Date)] = dirs.filter(\.hasDirectoryPath)
@@ -348,21 +428,70 @@ final class RotoProject: ObservableObject {
     /// Posted after works are deleted, so the home grid redraws behind the settings sheet.
     static let projectsDidChange = Notification.Name("RotoProject.projectsDidChange")
 
-    /// Deletes a project folder (video, drawings, thumbnail).
-    static func deleteProject(at dir: URL) {
-        deleteProjects([dir])
+    // MARK: - Trash (휴지통)
+    // Nothing a kid throws away is gone for good: a page wiped with the trash
+    // button and a work deleted from the shelf wait here, behind the grown-up
+    // check, until a grown-up brings them back or deletes them for good.
+
+    static var trashRoot: URL {
+        FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
+            .appendingPathComponent("Trash", isDirectory: true)
     }
 
-    /// Deletes many works and tells the screens once.
-    static func deleteProjects(_ dirs: some Sequence<URL>) {
-        let root = projectsRoot.resolvingSymlinksInPath().path
+    /// Works in the trash, most recently edited first.
+    static func listTrash() -> [URL] { listWorks(in: trashRoot) }
+
+    /// Shelf → trash.
+    static func moveToTrash(_ dirs: some Sequence<URL>) {
+        move(dirs, from: projectsRoot, to: trashRoot)
+    }
+
+    /// Trash → shelf: back on the home grid.
+    static func restoreFromTrash(_ dirs: some Sequence<URL>) {
+        move(dirs, from: trashRoot, to: projectsRoot)
+    }
+
+    /// Deletes works in the trash for good (video, drawings, thumbnail).
+    static func deleteFromTrash(_ dirs: some Sequence<URL>) {
+        let root = trashRoot.resolvingSymlinksInPath().path
         for dir in dirs {
-            // Only ever remove folders that live under our Projects root.
+            // Only ever remove folders that live in the trash.
             guard dir.resolvingSymlinksInPath().path.hasPrefix(root) else { continue }
             try? FileManager.default.removeItem(at: dir)
             thumbnails.removeObject(forKey: dir as NSURL)
         }
         NotificationCenter.default.post(name: projectsDidChange, object: nil)
+    }
+
+    private static func move(_ dirs: some Sequence<URL>, from source: URL, to target: URL) {
+        let root = source.resolvingSymlinksInPath().path
+        try? FileManager.default.createDirectory(at: target, withIntermediateDirectories: true)
+        for dir in dirs where dir.resolvingSymlinksInPath().path.hasPrefix(root) {
+            try? FileManager.default.moveItem(at: dir, to: target.appendingPathComponent(dir.lastPathComponent))
+            thumbnails.removeObject(forKey: dir as NSURL)
+        }
+        NotificationCenter.default.post(name: projectsDidChange, object: nil)
+    }
+
+    /// A wiped page goes to the trash as a one-page sketchbook of its own.
+    private func keepInTrash(_ mask: FrameMask) {
+        let dir = Self.trashRoot.appendingPathComponent(UUID().uuidString, isDirectory: true)
+        guard (try? FileManager.default.createDirectory(at: dir, withIntermediateDirectories: true)) != nil
+        else { return }
+        let data = ProjectData(frameStep: 1, currentFrame: 0, masks: [0: mask], videoFileName: nil,
+                               isBlank: true, blankPageCount: 1, presetId: nil,
+                               hideBackground: false, pageSize: canvasSize,
+                               pictureFaded: picture == nil ? nil : pictureFaded)
+        if let json = try? JSONEncoder().encode(data) {
+            try? json.write(to: dir.appendingPathComponent("project.json"), options: .atomic)
+        }
+        // The picture under the page goes along, so it comes back whole.
+        if let work = projectDirectory, picture != nil {
+            try? FileManager.default.copyItem(at: work.appendingPathComponent(Self.pictureFileName),
+                                              to: dir.appendingPathComponent(Self.pictureFileName))
+        }
+        Self.writeThumbnail(to: dir, base: nil, guide: picture, guideAlpha: pictureOpacity,
+                            mask: mask, canvasSize: canvasSize)
     }
 
     // MARK: - Thumbnails
@@ -450,6 +579,20 @@ final class RotoProject: ObservableObject {
         writeThumbnail()
     }
 
+    /// Starts a sketchbook over a grown-up's picture; the page takes the
+    /// picture's shape.
+    func createFromPicture(_ url: URL, faded: Bool) {
+        guard let image = UIImage(contentsOfFile: url.path) else { return }
+        createBlank()
+        guard let dir = projectDirectory else { return }
+        try? FileManager.default.copyItem(at: url, to: dir.appendingPathComponent(Self.pictureFileName))
+        picture = image
+        pictureFaded = faded
+        pageSize = image.size
+        saveNow()
+        writeThumbnail()
+    }
+
     /// Starts a new "따라 그리기" project from a bundled guide set.
     func createFromPreset(_ preset: GuidePreset) {
         stopPlayback()
@@ -465,6 +608,7 @@ final class RotoProject: ObservableObject {
         blankPageCount = 1
         presetId = preset.id
         guidePreset = preset
+        picture = nil
         frameStep = 1
         masks = [:]
         currentFrame = 0
@@ -474,7 +618,9 @@ final class RotoProject: ObservableObject {
         writeThumbnail()
     }
 
+    /// Clears whatever lay under the page: a guide set or a picture.
     private func clearPreset() {
+        picture = nil
         presetId = nil
         guidePreset = nil
         guideImage = nil
@@ -504,6 +650,8 @@ final class RotoProject: ObservableObject {
             blankPageCount = max(1, data.blankPageCount)
             pageSize = data.pageSize ?? Self.blankCanvasSize
             clearPreset()
+            picture = UIImage(contentsOfFile: dir.appendingPathComponent(Self.pictureFileName).path)
+            pictureFaded = data.pictureFaded ?? false
         } else {
             guard let name = data.videoFileName else { return }
             let vurl = dir.appendingPathComponent(name)
@@ -573,7 +721,8 @@ final class RotoProject: ObservableObject {
                                isBlank: isBlank,
                                blankPageCount: isPreset ? frameCount : blankPageCount,
                                presetId: presetId, hideBackground: hideBackground,
-                               pageSize: pageSize)
+                               pageSize: pageSize,
+                               pictureFaded: picture == nil ? nil : pictureFaded)
         if let json = try? JSONEncoder().encode(data) {
             try? json.write(to: dir.appendingPathComponent("project.json"), options: .atomic)
         }
@@ -582,7 +731,14 @@ final class RotoProject: ObservableObject {
     /// Home-grid thumbnail: the current frame (or white page) with its drawing.
     private func writeThumbnail() {
         guard let dir = projectDirectory else { return }
-        let base = displayImage
+        Self.writeThumbnail(to: dir, base: displayImage, guide: guideImage ?? picture,
+                            guideAlpha: picture == nil ? 0.6 : pictureOpacity,
+                            mask: currentMask, canvasSize: canvasSize)
+    }
+
+    private static func writeThumbnail(to dir: URL, base: UIImage?, guide: UIImage?,
+                                       guideAlpha: CGFloat = 0.6,
+                                       mask: FrameMask, canvasSize: CGSize) {
         let srcSize = base?.size ?? canvasSize
         let scale = min(1, 480 / max(srcSize.width, 1))
         let size = CGSize(width: srcSize.width * scale, height: srcSize.height * scale)
@@ -595,15 +751,15 @@ final class RotoProject: ObservableObject {
                 rc.fill(CGRect(origin: .zero, size: size))
                 // The guide shows through so the card stays recognizable
                 // even before the kid has traced anything.
-                guideImage?.draw(in: CGRect(origin: .zero, size: size),
-                                 blendMode: .normal, alpha: 0.6)
+                guide?.draw(in: CGRect(origin: .zero, size: size),
+                            blendMode: .normal, alpha: guideAlpha)
             }
-            if let paint = MaskRasterizer.paintLayer(for: currentMask, size: size) {
+            if let paint = MaskRasterizer.paintLayer(for: mask, size: size) {
                 UIImage(cgImage: paint).draw(in: CGRect(origin: .zero, size: size))
             }
         }
         try? data.write(to: dir.appendingPathComponent("thumb.png"))
-        Self.thumbnails.removeObject(forKey: dir as NSURL)
+        thumbnails.removeObject(forKey: dir as NSURL)
     }
 
     // MARK: - Playback
@@ -747,15 +903,10 @@ final class RotoProject: ObservableObject {
         writeThumbnail()
     }
 
-    // The last "지우기 전부" wipe, so one undo brings the drawing back if a
-    // kid hits the trash button by accident.
-    private var lastClearedMask: FrameMask?
-    private var lastClearedFrame: Int?
-
+    /// The trash button: the page goes blank, the drawing goes to the trash.
     func clearCurrentMask() {
         guard let m = masks[currentFrame], !m.isEmpty else { return }
-        lastClearedMask = m
-        lastClearedFrame = currentFrame
+        keepInTrash(m)
         masks[currentFrame] = FrameMask()
         scheduleSave()
         writeThumbnail()
@@ -764,23 +915,6 @@ final class RotoProject: ObservableObject {
     func copyMaskFromPrevious() {
         guard currentFrame > 0, let prev = masks[currentFrame - 1] else { return }
         masks[currentFrame] = prev
-        scheduleSave()
-    }
-
-    func undoLastStroke() {
-        // Undo right after a full wipe restores the whole page.
-        if let cleared = lastClearedMask, lastClearedFrame == currentFrame,
-           masks[currentFrame]?.isEmpty != false {
-            masks[currentFrame] = cleared
-            lastClearedMask = nil
-            lastClearedFrame = nil
-            scheduleSave()
-            writeThumbnail()
-            return
-        }
-        guard var m = masks[currentFrame], !m.strokes.isEmpty else { return }
-        m.strokes.removeLast()
-        masks[currentFrame] = m
         scheduleSave()
     }
 }

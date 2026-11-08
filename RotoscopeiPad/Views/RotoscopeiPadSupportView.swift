@@ -9,7 +9,10 @@ struct RotoscopeiPadSupportView: View {
     @State private var parentVerified = false
     @Environment(\.dismiss) private var dismiss
     @State private var workCount = RotoProject.listProjects().count
+    @State private var trashCount = RotoProject.listTrash().count
+    @State private var pictureCount = PictureLibrary.list().count
     @AppStorage(Flipbooks.key) private var flipbooksOpen = false
+    @AppStorage(StampShape.storageKey) private var stampIDs = StampShape.starterIDs
 
     var body: some View {
         if parentVerified {
@@ -54,6 +57,8 @@ struct RotoscopeiPadSupportView: View {
             .navigationTitle("설정")
             .onReceive(NotificationCenter.default.publisher(for: RotoProject.projectsDidChange)) { _ in
                 workCount = RotoProject.listProjects().count
+                trashCount = RotoProject.listTrash().count
+                pictureCount = PictureLibrary.list().count
             }
             .sheet(isPresented: $showUnlock) {
                 UnlockSheet(reason: .general)
@@ -111,6 +116,20 @@ struct RotoscopeiPadSupportView: View {
             Toggle(isOn: $flipbooksOpen) {
                 Label("움직이는 그림 만들기", systemImage: "book.pages")
             }
+            NavigationLink { StampPickerView() } label: {
+                LabeledContent {
+                    Text(verbatim: "\(StampShape.chosen(stampIDs).count)")
+                } label: {
+                    Label("도장 고르기", systemImage: "star.square.on.square")
+                }
+            }
+            NavigationLink { PicturesView() } label: {
+                LabeledContent {
+                    Text(verbatim: "\(pictureCount)")
+                } label: {
+                    Label("그림 넣기", systemImage: "photo.on.rectangle.angled")
+                }
+            }
         } header: {
             Text("그리기")
         } footer: {
@@ -119,6 +138,7 @@ struct RotoscopeiPadSupportView: View {
     }
 
     /// Kids fill the home grid fast; a grown-up clears many works at once here.
+    /// What a kid throws away waits in the trash for a grown-up's call.
     private var worksSection: some View {
         Section {
             NavigationLink { WorksManagerView() } label: {
@@ -128,7 +148,18 @@ struct RotoscopeiPadSupportView: View {
                     Label("작품 정리", systemImage: "square.grid.2x2")
                 }
             }
-        } header: { Text("내 작품") }
+            NavigationLink { WorksManagerView(place: .trash) } label: {
+                LabeledContent {
+                    Text(verbatim: "\(trashCount)")
+                } label: {
+                    Label("휴지통", systemImage: "trash")
+                }
+            }
+        } header: {
+            Text("내 작품")
+        } footer: {
+            Text("아이가 지운 그림과 작품은 휴지통에 모여요. 되살리면 홈에 다시 나와요.")
+        }
     }
 
     private var supportSection: some View {

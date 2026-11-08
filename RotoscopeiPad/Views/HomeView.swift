@@ -9,6 +9,9 @@ struct HomeView: View {
     @EnvironmentObject var project: RotoProject
     @EnvironmentObject var store: LeeoStore
     @State private var projects: [URL] = []
+    /// Pictures a grown-up added in Settings, to draw over.
+    @State private var pictures: [URL] = []
+    @AppStorage(PictureLibrary.fadedKey) private var picturesFaded = true
     @State private var lock: LockReason?
     /// Off: just the sketchbook. A grown-up opens flipbooks in Settings.
     @AppStorage(Flipbooks.key) private var flipbooksOpen = false
@@ -19,6 +22,7 @@ struct HomeView: View {
         case video             // pick a video from Photos
         case link              // paste a video URL (parent enters it)
         case blank             // 빈 화면: empty white flipbook, no video
+        case picture(URL)      // a grown-up's picture to draw over
         case preset(GuidePreset)
         case project(URL)
 
@@ -28,6 +32,7 @@ struct HomeView: View {
             case .video: return "video"
             case .link: return "link"
             case .blank: return "blank"
+            case .picture(let url): return "picture-\(url.path)"
             case .preset(let p): return "preset-\(p.id)"
             case .project(let url): return url.path
             }
@@ -35,7 +40,7 @@ struct HomeView: View {
     }
 
     private var items: [Item] {
-        var list: [Item] = [.blank]
+        var list: [Item] = [.blank] + pictures.map { .picture($0) }
         if flipbooksOpen {
             if CameraVideoPicker.isAvailable { list.append(.camera) }
             list.append(.video)
@@ -84,9 +89,9 @@ struct HomeView: View {
         }
         // Room for the settings gear (top right) so it never sits on a card.
         .padding(.top, 56)
-        .onAppear { projects = RotoProject.listProjects() }
+        .onAppear(perform: reload)
         .onReceive(NotificationCenter.default.publisher(for: RotoProject.projectsDidChange)) { _ in
-            projects = RotoProject.listProjects()
+            reload()
         }
         .sheet(isPresented: $project.showLinkImport) {
             VideoLinkImportSheet()
@@ -99,6 +104,11 @@ struct HomeView: View {
                               onPick: { url in project.load(url: url) })
             .ignoresSafeArea()
         }
+    }
+
+    private func reload() {
+        projects = RotoProject.listProjects()
+        pictures = PictureLibrary.list()
     }
 
     // MARK: - Grid geometry
@@ -156,6 +166,14 @@ struct HomeView: View {
             }
         case .blank:
             blankCell
+        case .picture(let url):
+            Button {
+                if canAddProject() { project.createFromPicture(url, faded: picturesFaded) }
+            } label: {
+                pictureCard(url)
+            }
+            .buttonStyle(.plain)
+            .accessibilityLabel(Text("그림 위에 그리기"))
         case .preset(let preset):
             let locked = !FreeTier.isFree(preset) && !store.gate.allows(FreeTier.premiumPresetKey)
             Button {
@@ -178,9 +196,9 @@ struct HomeView: View {
             .accessibilityLabel(Text("내 작품"))
             .accessibilityHint(Text("길게 누르면 지울 수 있어요"))
             .contextMenu {
-                // Long-press → red trash to delete.
+                // Long-press → red trash: into the trash, where a grown-up can bring it back.
                 Button(role: .destructive) {
-                    RotoProject.deleteProject(at: dir)
+                    RotoProject.moveToTrash([dir])
                 } label: {
                     Label("지우기", systemImage: "trash")
                 }
@@ -300,6 +318,31 @@ struct HomeView: View {
         .clipShape(RoundedRectangle(cornerRadius: 16))
         .overlay(RoundedRectangle(cornerRadius: 16)
             .strokeBorder(Color.orange.opacity(0.6),
+                          style: StrokeStyle(lineWidth: 2, dash: [7, 5])))
+    }
+
+    /// A grown-up's picture, the way it will lie on the page, with the
+    /// same dashed "draw on me" border and a plus.
+    private func pictureCard(_ url: URL) -> some View {
+        ZStack(alignment: .bottomTrailing) {
+            Color.white
+                .overlay {
+                    if let image = PictureLibrary.thumbnail(url) {
+                        Image(uiImage: image)
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .opacity(picturesFaded ? PictureLibrary.fadedOpacity : 1)
+                    }
+                }
+            Image(systemName: "plus.circle.fill")
+                .font(.system(size: 30))
+                .foregroundStyle(.white, Color.gray.opacity(0.7))
+                .padding(8)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .clipShape(RoundedRectangle(cornerRadius: 16))
+        .overlay(RoundedRectangle(cornerRadius: 16)
+            .strokeBorder(Color.gray.opacity(0.45),
                           style: StrokeStyle(lineWidth: 2, dash: [7, 5])))
     }
 

@@ -1,13 +1,16 @@
 import SwiftUI
 
-/// Settings ▸ 작품 정리: a grown-up picks many works at once and deletes them.
+/// Settings ▸ 작품 정리 and 휴지통: a grown-up picks many works at once.
 ///
-/// Kids make a lot of flipbooks and the home grid fills up fast; one-by-one
-/// long-press deleting forty of them is a chore. This page sits behind the
-/// grown-up check (settings), so a kid can't clear the shelf by accident.
+/// 작품 정리 sends them to the trash; the trash brings them back to the home
+/// grid or deletes them for good — the only place anything is truly deleted.
+/// Both sit behind the grown-up check (settings), so a kid can't do either.
 /// Newest first, with the date under each, so old scribbles are easy to find.
 struct WorksManagerView: View {
-    @State private var works: [URL] = RotoProject.listProjects()
+    enum Place { case shelf, trash }
+    var place: Place = .shelf
+
+    @State private var works: [URL] = []
     @State private var selected: Set<URL> = []
     @State private var confirmDelete = false
 
@@ -17,7 +20,11 @@ struct WorksManagerView: View {
     var body: some View {
         Group {
             if works.isEmpty {
-                ContentUnavailableView("아직 작품이 없어요", systemImage: "square.grid.2x2")
+                if place == .shelf {
+                    ContentUnavailableView("아직 작품이 없어요", systemImage: "square.grid.2x2")
+                } else {
+                    ContentUnavailableView("휴지통이 비어 있어요", systemImage: "trash")
+                }
             } else {
                 ScrollView {
                     LazyVGrid(columns: columns, spacing: 16) {
@@ -31,7 +38,8 @@ struct WorksManagerView: View {
                 }
             }
         }
-        .navigationTitle("작품 정리")
+        .navigationTitle(place == .shelf ? Text("작품 정리") : Text("휴지통"))
+        .onAppear(perform: reload)
         .toolbar {
             ToolbarItem(placement: .primaryAction) {
                 if !works.isEmpty {
@@ -43,21 +51,35 @@ struct WorksManagerView: View {
         }
         .safeAreaInset(edge: .bottom) {
             if !selected.isEmpty {
-                Button(role: .destructive) { confirmDelete = true } label: {
-                    Label("작품 \(selected.count)개 지우기", systemImage: "trash")
-                        .font(.headline)
-                        .frame(maxWidth: .infinity)
-                        .padding(.vertical, 8)
+                VStack(spacing: 10) {
+                    if place == .trash {
+                        Button { done { RotoProject.restoreFromTrash($0) } } label: {
+                            Label("작품 \(selected.count)개 되살리기", systemImage: "arrow.uturn.backward")
+                                .font(.headline)
+                                .frame(maxWidth: .infinity)
+                                .padding(.vertical, 8)
+                        }
+                        .buttonStyle(.borderedProminent)
+                    }
+                    Button(role: .destructive) {
+                        // Off the shelf is only into the trash; from the trash it's for good.
+                        if place == .shelf { done { RotoProject.moveToTrash($0) } } else { confirmDelete = true }
+                    } label: {
+                        Label("작품 \(selected.count)개 지우기", systemImage: "trash")
+                            .font(.headline)
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 8)
+                    }
+                    .buttonStyle(.borderedProminent)
+                    .tint(.red)
                 }
-                .buttonStyle(.borderedProminent)
-                .tint(.red)
                 .padding(16)
                 .background(.bar)
             }
         }
         .confirmationDialog("작품 \(selected.count)개를 지울까요?", isPresented: $confirmDelete,
                             titleVisibility: .visible) {
-            Button("지우기", role: .destructive, action: deleteSelected)
+            Button("지우기", role: .destructive) { done { RotoProject.deleteFromTrash($0) } }
         } message: {
             Text("지운 작품은 되돌릴 수 없어요.")
         }
@@ -67,10 +89,15 @@ struct WorksManagerView: View {
         if selected.contains(dir) { selected.remove(dir) } else { selected.insert(dir) }
     }
 
-    private func deleteSelected() {
-        RotoProject.deleteProjects(selected)
+    /// Moves or deletes the picked works, then shows what's left.
+    private func done(_ action: (Set<URL>) -> Void) {
+        action(selected)
         selected = []
-        works = RotoProject.listProjects()
+        reload()
+    }
+
+    private func reload() {
+        works = place == .shelf ? RotoProject.listProjects() : RotoProject.listTrash()
     }
 }
 

@@ -24,6 +24,8 @@
 		B100001A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1000009 /* Assets.xcassets */; };
 		B1000021 /* StrokeGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000022 /* StrokeGeometry.swift */; };
 		F7EE0A010000000000000022 /* WorksManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EE0A010000000000000021 /* WorksManagerView.swift */; };
+		F7EE0A010000000000000042 /* StampPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EE0A010000000000000041 /* StampPicker.swift */; };
+		F7EE0A010000000000000052 /* Pictures.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EE0A010000000000000051 /* Pictures.swift */; };
 		F7EE0A010000000000000032 /* PaywallShowcases.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EE0A010000000000000031 /* PaywallShowcases.swift */; };
 		B1000024 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000023 /* HomeView.swift */; };
 		B1000026 /* PresetLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000025 /* PresetLibrary.swift */; };
@@ -75,6 +77,8 @@
 		B100000D /* Pickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickers.swift; sourceTree = "<group>"; };
 		B1000022 /* StrokeGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeGeometry.swift; sourceTree = "<group>"; };
 		F7EE0A010000000000000021 /* WorksManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorksManagerView.swift; sourceTree = "<group>"; };
+		F7EE0A010000000000000041 /* StampPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampPicker.swift; sourceTree = "<group>"; };
+		F7EE0A010000000000000051 /* Pictures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pictures.swift; sourceTree = "<group>"; };
 		F7EE0A010000000000000031 /* PaywallShowcases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallShowcases.swift; sourceTree = "<group>"; };
 		B1000023 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B1000025 /* PresetLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetLibrary.swift; sourceTree = "<group>"; };
@@ -175,6 +179,8 @@
 				B1000003 /* CanvasView.swift */,
 				B100000D /* Pickers.swift */,
 				F7EE0A010000000000000021 /* WorksManagerView.swift */,
+				F7EE0A010000000000000041 /* StampPicker.swift */,
+				F7EE0A010000000000000051 /* Pictures.swift */,
 				F7EE0A010000000000000031 /* PaywallShowcases.swift */,
 				B1000023 /* HomeView.swift */,
 				B100002B /* YouTubeImport.swift */,
@@ -355,6 +361,8 @@
 				B1000018 /* Exporter.swift in Sources */,
 				B1000019 /* Pickers.swift in Sources */,
 				F7EE0A010000000000000022 /* WorksManagerView.swift in Sources */,
+				F7EE0A010000000000000042 /* StampPicker.swift in Sources */,
+				F7EE0A010000000000000052 /* Pictures.swift in Sources */,
 				F7EE0A010000000000000032 /* PaywallShowcases.swift in Sources */,
 				B1000024 /* HomeView.swift in Sources */,
 				B1000029 /* YouTubeImport.swift in Sources */,

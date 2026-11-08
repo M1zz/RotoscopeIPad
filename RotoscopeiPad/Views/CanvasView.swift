@@ -10,7 +10,8 @@ final class DrawingInputView: UIView {
     /// Called with a normalized point (0...1) and a phase.
     var onBegan: ((CGPoint) -> Void)?
     var onMoved: ((CGPoint) -> Void)?
-    var onEnded: (() -> Void)?
+    /// `cancelled` is true when the system took the touch away.
+    var onEnded: ((_ cancelled: Bool) -> Void)?
     /// Pencil hover / trackpad pointer position, nil when it leaves.
     var onHover: ((CGPoint?) -> Void)?
 
@@ -70,10 +71,10 @@ final class DrawingInputView: UIView {
         onMoved?(normalized(t.location(in: self)))
     }
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        onEnded?()
+        onEnded?(false)
     }
     override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
-        onEnded?()
+        onEnded?(true)
     }
 }
 
@@ -86,10 +87,14 @@ struct DrawingInputBridge: UIViewRepresentable {
         v.isMultipleTouchEnabled = false
         v.project = project
         v.onBegan = { p in
-            // Stamp tool: one tap, one stamp — no live stroke.
+            // Stamp tool: the stamp appears under the finger and is only
+            // put down when the finger lifts, so it can be dragged into place.
             if project.tool == .stamp {
-                project.stamp(at: p)
-                Task { await NextPageTip.drewOnPage.donate() }
+                project.heldStamp = p
+                return
+            }
+            if project.tool == .move {
+                project.grabShape(at: p)
                 return
             }
             let additive = project.tool != .erase
@@ -99,9 +104,25 @@ struct DrawingInputBridge: UIViewRepresentable {
                 colorHex: project.brushColorHex, width: project.brushWidth,
                 opacity: project.brushOpacity, smooth: project.brushSmoothing)
         }
-        v.onMoved = { p in project.liveStroke?.points.append(p) }
-        v.onEnded = {
-            if let s = project.liveStroke, s.points.count > 1 {
+        v.onMoved = { p in
+            if project.heldStamp != nil {
+                project.heldStamp = p
+            } else if project.tool == .move {
+                project.dragShape(to: p)
+            } else {
+                project.liveStroke?.points.append(p)
+            }
+        }
+        v.onEnded = { cancelled in
+            if project.tool == .move {
+                project.dropShape()
+            } else if let p = project.heldStamp {
+                project.heldStamp = nil
+                if !cancelled {
+                    project.stamp(at: p)
+                    Task { await NextPageTip.drewOnPage.donate() }
+                }
+            } else if let s = project.liveStroke, s.points.count > 1 {
                 project.commitStroke(s)
                 Task { await NextPageTip.drewOnPage.donate() }
             } else {
@@ -147,6 +168,14 @@ struct CanvasView: View {
                         .fill(Color.white)
                         .aspectRatio(project.canvasSize.width / project.canvasSize.height,
                                      contentMode: .fit)
+                    // A grown-up's picture under the sketchbook page.
+                    if let picture = project.picture {
+                        Image(uiImage: picture)
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .opacity(project.pictureOpacity)
+                            .allowsHitTesting(false)
+                    }
                     // Tracing guide: visible while drawing, hidden during
                     // playback so only the kid's drawing animates.
                     if !project.isPlaying, let guide = project.guideImage {
@@ -177,8 +206,17 @@ struct CanvasView: View {
                             drawStroke(stroke, in: layer, rect: rect)
                         }
                     }
+                    // Hand tool: every shape that can be moved gets an outline
+                    // in the hand's color, so the kid sees what to grab.
+                    if project.tool == .move, !project.isPlaying {
+                        drawMovableOutlines(in: ctx, rect: rect)
+                    }
+                    // A stamp held under the finger, not put down yet.
+                    if let held = project.heldStamp {
+                        drawStamp(at: held, in: ctx, rect: rect, held: true)
+                    }
                     // Hovering pencil/pointer: ghost of what a touch would draw.
-                    if !project.isPlaying, project.liveStroke == nil,
+                    else if !project.isPlaying, project.liveStroke == nil,
                        let hover = project.hoverPoint {
                         drawHoverPreview(at: hover, in: ctx, rect: rect)
                     }
@@ -201,23 +239,58 @@ struct CanvasView: View {
         return CGRect(x: (size.width - w) / 2, y: (size.height - h) / 2, width: w, height: h)
     }
 
+    /// A halo around each movable shape (stamps and closed shapes). Pieces
+    /// of one stamp merge: stroke them all wide, then cut their insides out,
+    /// so only the outer edge of the whole shape remains.
+    private func drawMovableOutlines(in ctx: GraphicsContext, rect: CGRect) {
+        let pieces = project.currentMask.strokes
+            .filter { $0.isAdditive && $0.closed }
+            .map { stroke in
+                Path(StrokeGeometry.path(points: stroke.points.map {
+                    CGPoint(x: rect.minX + $0.x * rect.width, y: rect.minY + $0.y * rect.height)
+                }, closed: true, smooth: stroke.smooth))
+            }
+        guard !pieces.isEmpty else { return }
+        ctx.drawLayer { layer in
+            for piece in pieces {
+                layer.stroke(piece, with: .color(.green), style: StrokeStyle(lineWidth: 8, lineJoin: .round))
+            }
+            layer.blendMode = .destinationOut
+            for piece in pieces { layer.fill(piece, with: .color(.black)) }
+        }
+    }
+
+    /// The stamp as it would land at `p`. Hovering shows a faint dashed
+    /// ghost; a stamp held under the finger shows almost solid, ready to drop.
+    private func drawStamp(at p: CGPoint, in ctx: GraphicsContext,
+                           rect: CGRect, held: Bool) {
+        let color = Color(rgbHex: project.brushColorHex)
+        let pieces = project.stampParts(centeredAt: p).map { part in
+            Path(StrokeGeometry.path(points: part.points.map {
+                CGPoint(x: rect.minX + $0.x * rect.width, y: rect.minY + $0.y * rect.height)
+            }, closed: true, smooth: part.smooth))
+        }
+        // Pieces overlap: fill them opaque in one layer, then fade the
+        // whole layer, so the stamp is one even shape.
+        var layerCtx = ctx
+        layerCtx.opacity = held ? 0.75 * project.brushOpacity : 0.22
+        layerCtx.drawLayer { layer in
+            for piece in pieces { layer.fill(piece, with: .color(color)) }
+        }
+        guard !held else { return }
+        for piece in pieces {
+            ctx.stroke(piece, with: .color(color.opacity(0.8)),
+                       style: StrokeStyle(lineWidth: 2, dash: [6, 4]))
+        }
+    }
+
     /// Ghost preview under a hovering pencil/pointer: the stamp outline for
     /// the stamp tool, otherwise a circle the size of the brush/eraser tip.
     private func drawHoverPreview(at p: CGPoint, in ctx: GraphicsContext,
                                   rect: CGRect) {
         if project.tool == .stamp {
-            let pts = project.stampPoints(centeredAt: p).map {
-                CGPoint(x: rect.minX + $0.x * rect.width,
-                        y: rect.minY + $0.y * rect.height)
-            }
-            guard pts.count > 1 else { return }
-            let path = Path(StrokeGeometry.path(points: pts, closed: true,
-                                                smooth: project.stampShape.smooth))
-            let color = Color(rgbHex: project.brushColorHex)
-            ctx.fill(path, with: .color(color.opacity(0.22)))
-            ctx.stroke(path, with: .color(color.opacity(0.8)),
-                       style: StrokeStyle(lineWidth: 2, dash: [6, 4]))
-        } else {
+            drawStamp(at: p, in: ctx, rect: rect, held: false)
+        } else if project.tool != .move {
             let d = max(project.brushWidth * min(rect.width, rect.height), 6)
             let tip = CGRect(x: rect.minX + p.x * rect.width - d / 2,
                              y: rect.minY + p.y * rect.height - d / 2,

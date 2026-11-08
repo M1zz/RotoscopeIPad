@@ -15,6 +15,8 @@ struct MaskStroke: Identifiable, Codable, Equatable {
     var width: Double              // brush width as a fraction of the frame's min dimension
     var opacity: Double            // 0...1
     var smooth: Bool               // Catmull-Rom smoothing of the point chain
+    /// Pieces of one stamp share a group, so the hand moves them together.
+    var group: UUID?
 
     init(points: [CGPoint] = [], isAdditive: Bool = true, closed: Bool = true,
          colorHex: String = "FF3B30", width: Double = 0.012,
@@ -40,6 +42,7 @@ struct MaskStroke: Identifiable, Codable, Equatable {
         width = try c.decodeIfPresent(Double.self, forKey: .width) ?? 0.012
         opacity = try c.decodeIfPresent(Double.self, forKey: .opacity) ?? 1.0
         smooth = try c.decodeIfPresent(Bool.self, forKey: .smooth) ?? true
+        group = try c.decodeIfPresent(UUID.self, forKey: .group)
     }
 }
 

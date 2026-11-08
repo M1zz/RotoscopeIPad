@@ -247,12 +247,15 @@ final class Exporter {
         return session.status == .completed ? outURL : videoURL
     }
 
-    /// A sketchbook page into Photos as a picture: the drawing on white.
+    /// A sketchbook page into Photos as a picture: the drawing on white,
+    /// over the grown-up's picture when the page started from one.
     func savePicture() async throws {
         let size = project.canvasSize
         let image = UIGraphicsImageRenderer(size: size).image { rc in
             UIColor.white.setFill()
             rc.fill(CGRect(origin: .zero, size: size))
+            project.picture?.draw(in: CGRect(origin: .zero, size: size),
+                                  blendMode: .normal, alpha: project.pictureOpacity)
             if let paint = MaskRasterizer.paintLayer(for: project.currentMask, size: size) {
                 UIImage(cgImage: paint).draw(in: CGRect(origin: .zero, size: size))
             }

@@ -1,5 +1,199 @@
 # 팔랑북 릴리즈 노트
 
+## 1.0.6
+
+### 앱스토어 (한국어)
+
+아이패드 화면 가득 그림을 그릴 수 있어요
+도장을 끌어다 놓고 손으로 옮길 수 있어요
+부모님이 넣은 그림 위에 그릴 수 있어요
+지운 그림은 휴지통에서 되살릴 수 있어요
+따라 그리기 그림이 훨씬 예뻐졌어요
+
+### App Store (en-US)
+
+Draw on a page that fills the whole iPad
+Drag stamps into place and move them
+Draw over pictures a parent adds
+Restore erased drawings from the Trash
+The trace-along pictures look much nicer
+
+### App Store (en-GB)
+
+Draw on a page that fills the whole iPad
+Drag stamps into place and move them
+Draw over pictures a parent adds
+Restore rubbed-out drawings from the Bin
+The trace-along pictures look much nicer
+
+### 앱스토어 (일본어, ja)
+
+iPadの画面いっぱいに絵がかけます
+スタンプをドラッグして置き、手で動かせます
+保護者が入れた絵の上にかけます
+消した絵はゴミ箱から戻せます
+なぞりがきの絵がぐっとかわいくなりました
+
+### 앱스토어 (중국어 간체, zh-Hans)
+
+在铺满 iPad 的画纸上画画
+拖动印章放好，还能用手移动
+可以在家长添加的图片上画画
+擦掉的画可以从废纸篓找回
+描画用的图片变得更好看了
+
+### 앱스토어 (중국어 번체, zh-Hant)
+
+在佔滿 iPad 的畫紙上畫畫
+拖曳印章放好，還能用手移動
+可以在家長加入的圖片上畫畫
+擦掉的畫可以從垃圾桶找回
+描畫用的圖片變得更好看了
+
+### 앱스토어 (스페인어, es-MX)
+
+Dibuja en una hoja del tamaño del iPad
+Arrastra los sellos y muévelos
+Dibuja sobre imágenes de un adulto
+Recupera dibujos borrados
+Los dibujos para calcar lucen mejor
+
+### 앱스토어 (독일어, de-DE)
+
+Malen auf einem iPad-großen Blatt
+Stempel ziehen, ablegen und verschieben
+Auf Bildern malen, die Eltern hinzufügen
+Gelöschte Bilder zurückholen
+Die Nachmal-Bilder sind viel schöner
+
+### 앱스토어 (프랑스어, fr-FR)
+
+Dessinez sur une page qui remplit l’iPad
+Glissez les tampons et déplacez-les
+Dessinez sur les images d’un parent
+Récupérez les dessins effacés
+Les modèles à décalquer sont plus jolis
+
+### 앱스토어 (포르투갈어, pt-BR)
+
+Desenhe numa folha que ocupa todo o iPad
+Arraste os carimbos e mova com a mão
+Desenhe sobre imagens de um adulto
+Recupere desenhos apagados no lixo
+Figuras para decalcar mais bonitas
+
+### 앱스토어 (이탈리아어, it)
+
+Disegna su un foglio grande come l’iPad
+Trascina i timbri e spostali con la mano
+Disegna sulle immagini di un adulto
+Recupera i disegni dal cestino
+I disegni da ricalcare sono più belli
+
+### 앱스토어 (러시아어, ru)
+
+Рисуйте на листе во весь экран iPad
+Перетаскивайте штампы и двигайте рукой
+Рисуйте поверх картинок от родителей
+Стёртые рисунки можно вернуть из корзины
+Картинки для обводки стали красивее
+
+### 앱스토어 (태국어, th)
+
+วาดบนกระดาษเต็มจอ iPad ได้แล้ว
+ลากตัวปั๊มไปวางและย้ายด้วยมือได้
+วาดทับรูปที่พ่อแม่ใส่ไว้ได้
+ภาพที่ลบไปแล้วกู้คืนจากถังขยะได้
+ภาพสำหรับลากเส้นตามสวยขึ้นมาก
+
+### 앱스토어 (베트남어, vi)
+
+Vẽ trên trang giấy phủ kín iPad
+Kéo con dấu để đặt và di chuyển bằng tay
+Vẽ lên ảnh do bố mẹ thêm vào
+Lấy lại tranh đã xóa từ thùng rác
+Tranh mẫu để tô theo đẹp hơn nhiều
+
+### 앱스토어 (체코어, cs)
+
+Kreslete na papír přes celý iPad
+Razítka přetáhněte a posouvejte rukou
+Kreslete přes obrázky od rodičů
+Smazané kresby vrátíte z koše
+Obrázky k obkreslení jsou mnohem hezčí
+
+### 앱스토어 (덴마크어, da)
+
+Tegn på et ark, der fylder hele iPad'en
+Træk stempler på plads og flyt dem
+Tegn oven på billeder fra en voksen
+Hent slettede tegninger fra papirkurven
+Billederne at tegne efter er pænere
+
+### 앱스토어 (그리스어, el)
+
+Ζωγράφισε σε σελίδα που γεμίζει το iPad
+Σύρε τις σφραγίδες και μετακίνησέ τες
+Ζωγράφισε πάνω σε εικόνες των γονιών
+Φέρε πίσω σβησμένες ζωγραφιές
+Πιο όμορφες εικόνες για ξεσήκωμα
+
+### 앱스토어 (핀란드어, fi)
+
+Piirrä koko iPadin täyttävälle sivulle
+Vedä leimat paikalleen ja siirrä niitä
+Piirrä aikuisen lisäämien kuvien päälle
+Palauta poistetut piirrokset
+Jäljennettävät kuvat ovat kauniimpia
+
+### 앱스토어 (인도네시아어, id)
+
+Menggambar di kertas selebar layar iPad
+Seret stempel dan pindahkan
+Menggambar di atas gambar dari orang tua
+Gambar terhapus bisa dikembalikan
+Gambar jiplakan jadi lebih bagus
+
+### 앱스토어 (노르웨이어(보크말))
+
+Tegn på et ark som fyller hele iPaden
+Dra stempler på plass og flytt dem
+Tegn oppå bilder en voksen legger til
+Hent slettede tegninger fra papirkurven
+Bildene å tegne etter er mye finere
+
+### 앱스토어 (네덜란드어, nl)
+
+Teken op een blad zo groot als de iPad
+Sleep stempels en verschuif ze
+Teken over afbeeldingen van een ouder
+Haal gewiste tekeningen terug
+De overtrekplaatjes zijn veel mooier
+
+### 앱스토어 (폴란드어, pl)
+
+Rysuj na kartce na cały ekran iPada
+Przeciągaj pieczątki i przesuwaj je ręką
+Rysuj na obrazkach od rodzica
+Przywracaj usunięte rysunki z kosza
+Obrazki do odrysowania są ładniejsze
+
+### 앱스토어 (스웨덴어, sv)
+
+Rita på ett blad som fyller hela iPaden
+Dra stämplar på plats och flytta dem
+Rita ovanpå bilder från en vuxen
+Återställ raderade teckningar
+Bilderna att rita av är mycket finare
+
+### 앱스토어 (튀르키예어, tr)
+
+iPad ekranını dolduran sayfada çiz
+Damgaları sürükle, elinle taşı
+Ebeveynin eklediği resimlere çiz
+Silinen çizimleri çöp kutusundan geri al
+Üzerinden çizilen resimler daha güzel
+
 ## 1.0.5
 
 ### 앱스토어 (한국어)
