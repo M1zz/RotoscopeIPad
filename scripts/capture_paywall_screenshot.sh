@@ -2,14 +2,18 @@
 # 앱 내 구입 심사용 스크린샷 — 어른 확인을 지난 결제 화면 (아이패드 13", 2064x2752).
 #
 # 사용법: scripts/capture_paywall_screenshot.sh <시뮬레이터 UDID> [로케일:가격 ...]
-#         (없으면 en-US:\$9.99 ko:₩9,900)
+#         (없으면 en-US:\$9.99 ko:₩17,000)
+#         SCREEN=Gift 를 앞에 붙이면 선물 화면 → docs/screenshots/iap-review/gift-<로케일>.png
 #
 # 준비: Debug 빌드를 그 시뮬레이터에 설치한다. 상품이 아직 App Store Connect 에 없어
 #       시뮬레이터가 가격을 못 불러오므로, Debug 전용 -ScreenshotPaywall 인자로 가격을 준다.
 # 결과: docs/screenshots/iap-review/<로케일>.png → App Store Connect ▸ 인앱 구입 ▸ 심사 정보
 set -e
 U=$1; shift
-SHOTS=(en-US:\$9.99 ko:₩9,900)
+SHOTS=(en-US:\$9.99 ko:₩17,000)
+SCREEN=${SCREEN:-Paywall}           # Paywall | Gift
+PREFIX=""
+[[ $SCREEN == Gift ]] && PREFIX=gift-
 (( $# )) && SHOTS=("$@")
 APP=com.leeo.RotoscopeiPad
 ROOT=${0:A:h:h}
@@ -34,10 +38,10 @@ for shot in $SHOTS; do
     --wifiMode active --wifiBars 3 --cellularMode notSupported
   # 앱별 언어 설정이 남아 있으면 시스템 언어를 무시하므로 인자로 못 박는다
   xcrun simctl launch $U $APP -AppleLanguages "(${LANG_OF[$loc]})" -AppleLocale ${LOCALE_OF[$loc]} \
-    -ScreenshotPaywall "$price" >/dev/null
-  sleep 6
-  rm -f $OUT/$loc.png   # simctl 은 있는 파일을 덮어쓰지 않고 실패한다
-  xcrun simctl io $U screenshot --type=png $OUT/$loc.png >/dev/null
+    -Screenshot$SCREEN "$price" >/dev/null
+  sleep 10   # 시트가 다 올라온 뒤에 찍는다
+  rm -f $OUT/$PREFIX$loc.png   # simctl 은 있는 파일을 덮어쓰지 않고 실패한다
+  xcrun simctl io $U screenshot --type=png $OUT/$PREFIX$loc.png >/dev/null
   xcrun simctl terminate $U $APP 2>/dev/null || true
-  echo "$loc $price → $OUT/$loc.png"
+  echo "$loc $price → $OUT/$PREFIX$loc.png"
 done

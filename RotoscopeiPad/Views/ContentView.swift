@@ -8,6 +8,7 @@ struct ContentView: View {
     @EnvironmentObject var project: RotoProject
     @EnvironmentObject var store: LeeoStore
     @State private var lock: LockReason?
+    @State private var showGiftShot = false
     @State private var showDone = false
     @State private var restoredLastProject = false
     @State private var showPageFlash = false
@@ -71,6 +72,11 @@ struct ContentView: View {
         .sheet(item: $lock) { reason in
             UnlockSheet(reason: reason)
         }
+        .sheet(isPresented: $showGiftShot) {
+            if let gift = store.gift, let price = Screenshot.giftPrice {
+                NavigationStack { LeeoGiftView<RotoscopeiPadSpec>(previewPrice: price, gift: gift) }
+            }
+        }
         .onChange(of: project.recordingLimitReached) { _, reached in
             guard reached else { return }
             project.recordingLimitReached = false
@@ -92,6 +98,10 @@ struct ContentView: View {
             #endif
             if Screenshot.paywallPrice != nil {
                 lock = .general
+                return
+            }
+            if Screenshot.giftPrice != nil {
+                showGiftShot = true
                 return
             }
             let saved = RotoProject.listProjects()

@@ -315,4 +315,14 @@ enum Screenshot {
         nil
         #endif
     }
+
+    /// `-ScreenshotGift '$9.99'` opens the gift screen straight away with that
+    /// price — the gift product's review screenshot.
+    static var giftPrice: String? {
+        #if DEBUG
+        UserDefaults.standard.string(forKey: "ScreenshotGift")
+        #else
+        nil
+        #endif
+    }
 }
