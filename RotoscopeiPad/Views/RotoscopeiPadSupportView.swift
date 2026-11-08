@@ -41,6 +41,7 @@ struct RotoscopeiPadSupportView: View {
     private var settings: some View {
         NavigationStack {
             List {
+                // 요금제 → 응원 → 선물 → 구매 복원, one place for everything that costs money.
                 Section {
                     if store.hasPro {
                         Label("모든 기능이 열려 있어요", systemImage: "checkmark.seal.fill")
@@ -50,12 +51,26 @@ struct RotoscopeiPadSupportView: View {
                             Label("평생 이용권", systemImage: "star.fill")
                         }
                     }
-                } header: { Text("이용권") }
-                if let gift = store.gift {
-                    GiftRows(gift: gift, hasPro: store.hasPro)
-                }
-                if let tipJar = store.tipJar {
-                    TipRows(tipJar: tipJar, hasPro: store.hasPro)
+                    // The supporter badge rides on this row (LeeoTipJarLink).
+                    if let tipJar = store.tipJar {
+                        TipLink(tipJar: tipJar)
+                    }
+                    if let gift = store.gift {
+                        GiftRows(gift: gift, hasPro: store.hasPro)
+                    }
+                    Button {
+                        Task { await store.restore() }
+                    } label: {
+                        if store.isRestoring {
+                            ProgressView()
+                        } else {
+                            Label("구매 복원", systemImage: "arrow.clockwise")
+                        }
+                    }
+                    .disabled(store.isRestoring)
+                } header: { Text("요금제와 응원") }
+                if let tipJar = store.tipJar, store.hasPro {
+                    TipAskCard(tipJar: tipJar)
                 }
                 Section {
                     LeeoSupportSection<RotoscopeiPadSpec>()
@@ -85,7 +100,7 @@ struct RotoscopeiPadSupportView: View {
     }
 }
 
-/// "Gift Pro" and "Enter a gift code", right under the pass section.
+/// "Gift Pro" and "Enter a gift code", inside the plan-and-support section.
 ///
 /// The sender buys a consumable gift; the receiver gets the lifetime pass
 /// (`RotoscopeiPadSpec.monetization.gift`). Row titles and the screens
@@ -103,7 +118,7 @@ private struct GiftRows: View {
 
     var body: some View {
         if gift.isAvailable || gift.pendingCount > 0 || !gift.sentGifts.isEmpty || gift.redeemed != nil {
-            Section {
+            Group {
                 NavigationLink {
                     // If a gift gets stuck, the bug report carries the payment and code.
                     LeeoGiftView<RotoscopeiPadSpec>(gift: gift, showsRedeemLink: false,
@@ -152,28 +167,29 @@ enum PalangTipMoments {
     }
 }
 
-/// 이용권·선물 바로 아래: 고마운 순간의 부탁 카드(이미 Pro 를 가진 어른에게만)와 '개발자 응원하기' 줄.
-///
-/// 카드는 아이 화면이 아니라 어른 확인을 지난 여기에만 선다 — 아이가 결제 화면에 닿지 않게.
-/// 얼마나 드물게 물을지는 LeeoKit 규칙(`LeeoTipAskPolicy`)이 정한다.
-/// ⚠️ 줄과 카드는 팁 상품이 App Store 에서 와야 선다.
-private struct TipRows: View {
+/// '개발자 응원하기' 줄. 상품이 App Store 에서 와야 선다 — 없으면 빈 줄도 남기지 않는다.
+private struct TipLink: View {
     @ObservedObject var tipJar: LeeoTipJar
-    let hasPro: Bool
 
     var body: some View {
-        // 상품이 없으면 빈 칸도 남기지 않는다.
         if tipJar.isAvailable {
-            // 아직 안 산 사람에게는 이용권이 맞는 길이라 묻지 않는다.
-            if hasPro {
-                Section {
-                    LeeoTipAskSlot<RotoscopeiPadSpec>(tipJar: tipJar, reached: PalangTipMoments.reachedNow)
-                        .listRowInsets(EdgeInsets())
-                        .listRowBackground(Color.clear)
-                }
-            }
+            LeeoTipJarLink<RotoscopeiPadSpec>(tipJar: tipJar)
+        }
+    }
+}
+
+/// 고마운 순간의 부탁 카드. 이미 Pro 를 가진 어른에게만, 어른 확인을 지난 여기에만 선다
+/// (아직 안 산 사람에게는 이용권이 맞는 길이라 묻지 않는다).
+/// 얼마나 드물게 물을지는 LeeoKit 규칙(`LeeoTipAskPolicy`)이 정한다.
+private struct TipAskCard: View {
+    @ObservedObject var tipJar: LeeoTipJar
+
+    var body: some View {
+        if tipJar.isAvailable {
             Section {
-                LeeoTipJarLink<RotoscopeiPadSpec>(tipJar: tipJar)
+                LeeoTipAskSlot<RotoscopeiPadSpec>(tipJar: tipJar, reached: PalangTipMoments.reachedNow)
+                    .listRowInsets(EdgeInsets())
+                    .listRowBackground(Color.clear)
             }
         }
     }

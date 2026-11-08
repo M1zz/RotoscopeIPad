@@ -45,15 +45,17 @@ enum RotoscopeiPadSpec: LeeoAppSpec {
                     FreeTier.recordSecondsKey: 15
                 ],
                 proOnly: [FreeTier.premiumPresetKey]),
-            // Gift the lifetime pass: the sender buys a consumable gift, the
-            // receiver gets the same as buying `lifetimeProductID`. Gift records
-            // live in the FeedbackHub public DB (already in the entitlements).
+            // Gift the lifetime pass: the sender buys a consumable gift and gets
+            // an App Store offer code for `lifetimeProductID` (pool "LeeoKit Gift",
+            // filled from FeedbackHub). The App Store unlocks it — never a code
+            // the app made itself (guideline 3.1.1).
             // ⚠️ Never put the gift product in productIDs / entitlementIDs —
             //    the buyer would unlock Pro themselves.
             gift: LeeoGiftConfig(
                 productID: FreeTier.giftProductID,
                 grantsProductID: FreeTier.lifetimeProductID,
-                containerIdentifier: "iCloud.com.Ysoup.FeedbackHub"),
+                containerIdentifier: "iCloud.com.Ysoup.FeedbackHub",
+                sellsGifts: true),
             // 개발자 응원(팁). 이미 Pro 를 가진 어른에게만 묻는다 (RotoscopeiPadSupportView).
             tipJar: LeeoTipJarConfig(productIDs: FreeTier.tipProductIDs)))
 }

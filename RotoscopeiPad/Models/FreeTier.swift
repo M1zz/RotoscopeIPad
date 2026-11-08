@@ -87,9 +87,15 @@ enum FreeTier {
         guard case .verified(let transaction)? = try? await AppTransaction.shared,
               // Sandbox and Xcode always report "1.0" — only trust the App Store.
               transaction.environment == .production,
-              let firstBuild = Int(transaction.originalAppVersion) else {
+              isFreeEraBuild(transaction.originalAppVersion) else {
             return false
         }
+        return true
+    }
+
+    /// `originalAppVersion` (the CFBundleVersion first downloaded) → was it free then?
+    static func isFreeEraBuild(_ originalAppVersion: String) -> Bool {
+        guard let firstBuild = Int(originalAppVersion) else { return false }
         return firstBuild <= lastFreeBuild
     }
 }

@@ -25,6 +25,7 @@
 		B1000021 /* StrokeGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000022 /* StrokeGeometry.swift */; };
 		B1000024 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000023 /* HomeView.swift */; };
 		B1000026 /* PresetLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000025 /* PresetLibrary.swift */; };
+		F7EE0A010000000000000012 /* ProLatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EE0A010000000000000011 /* ProLatch.swift */; };
 		F7EE0A010000000000000002 /* FreeTier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EE0A010000000000000001 /* FreeTier.swift */; };
 		F7EE0A010000000000000004 /* UnlockSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EE0A010000000000000003 /* UnlockSheet.swift */; };
 		B1000028 /* Presets in Resources */ = {isa = PBXBuildFile; fileRef = B1000027 /* Presets */; };
@@ -37,6 +38,7 @@
 		E5A1000000000000000000C2 /* PalangShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A1000000000000000000C1 /* PalangShortcuts.swift */; };
 		E5A1000000000000000000D2 /* AppShortcuts.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E5A1000000000000000000D1 /* AppShortcuts.xcstrings */; };
 		E5A100000000000000000E02 /* DrawingModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A100000000000000000E01 /* DrawingModelTests.swift */; };
+		E5A100000000000000000E14 /* MonetizationRulesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A100000000000000000E13 /* MonetizationRulesTests.swift */; };
 		E5A100000000000000000E04 /* PaletteAndFreeTierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A100000000000000000E03 /* PaletteAndFreeTierTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +73,7 @@
 		B1000022 /* StrokeGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeGeometry.swift; sourceTree = "<group>"; };
 		B1000023 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B1000025 /* PresetLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetLibrary.swift; sourceTree = "<group>"; };
+		F7EE0A010000000000000011 /* ProLatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProLatch.swift; sourceTree = "<group>"; };
 		F7EE0A010000000000000001 /* FreeTier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeTier.swift; sourceTree = "<group>"; };
 		F7EE0A010000000000000003 /* UnlockSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockSheet.swift; sourceTree = "<group>"; };
 		B1000027 /* Presets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Presets; sourceTree = "<group>"; };
@@ -81,6 +84,7 @@
 		E5A1000000000000000000C1 /* PalangShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalangShortcuts.swift; sourceTree = "<group>"; };
 		E5A1000000000000000000D1 /* AppShortcuts.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = AppShortcuts.xcstrings; sourceTree = "<group>"; };
 		E5A100000000000000000E01 /* DrawingModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingModelTests.swift; sourceTree = "<group>"; };
+		E5A100000000000000000E13 /* MonetizationRulesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonetizationRulesTests.swift; sourceTree = "<group>"; };
 		E5A100000000000000000E03 /* PaletteAndFreeTierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteAndFreeTierTests.swift; sourceTree = "<group>"; };
 		E5A100000000000000000E05 /* RotoscopeiPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotoscopeiPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -150,6 +154,7 @@
 				B1000004 /* MaskModels.swift */,
 				B1000005 /* RotoProject.swift */,
 				B1000025 /* PresetLibrary.swift */,
+				F7EE0A010000000000000011 /* ProLatch.swift */,
 				F7EE0A010000000000000001 /* FreeTier.swift */,
 				B1000090 /* Stamps.swift */,
 			);
@@ -194,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				E5A100000000000000000E01 /* DrawingModelTests.swift */,
+				E5A100000000000000000E13 /* MonetizationRulesTests.swift */,
 				E5A100000000000000000E03 /* PaletteAndFreeTierTests.swift */,
 			);
 			path = RotoscopeiPadTests;
@@ -331,6 +337,7 @@
 				B1000014 /* MaskModels.swift in Sources */,
 				B1000015 /* RotoProject.swift in Sources */,
 				B1000026 /* PresetLibrary.swift in Sources */,
+				F7EE0A010000000000000012 /* ProLatch.swift in Sources */,
 				F7EE0A010000000000000002 /* FreeTier.swift in Sources */,
 				F7EE0A010000000000000004 /* UnlockSheet.swift in Sources */,
 				B1000016 /* VideoSource.swift in Sources */,
@@ -355,6 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5A100000000000000000E02 /* DrawingModelTests.swift in Sources */,
+				E5A100000000000000000E14 /* MonetizationRulesTests.swift in Sources */,
 				E5A100000000000000000E04 /* PaletteAndFreeTierTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -529,7 +537,7 @@
 			repositoryURL = "https://github.com/M1zz/LeeoKit.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.38.1;
+				minimumVersion = 3.40.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
