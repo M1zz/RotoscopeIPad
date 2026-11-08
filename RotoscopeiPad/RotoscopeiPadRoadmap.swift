@@ -46,7 +46,7 @@ extension RotoscopeiPadSpec {
               detail: NSLocalizedString("앱을 열지 않고 홈 화면에서 아이 작품을 바로 봐요.", comment: "Roadmap item detail: home screen widgets")),
         .init(id: "sync.icloud", status: .planned,
               title: NSLocalizedString("기기 간 동기화", comment: "Roadmap item: iCloud sync"),
-              detail: NSLocalizedString("다른 아이패드에서도 그리던 작품을 이어서 그려요.", comment: "Roadmap item detail: iCloud sync")),
+              detail: NSLocalizedString("다른 기기에서도 그리던 작품을 이어서 그려요.", comment: "Roadmap item detail: iCloud sync")),
         .init(id: "backup", status: .planned,
               title: NSLocalizedString("작품 백업하기", comment: "Roadmap item: backup and export"),
               detail: NSLocalizedString("작품을 파일로 저장해 두고 언제든 다시 불러와요.", comment: "Roadmap item detail: backup and export")),

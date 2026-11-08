@@ -79,6 +79,8 @@ struct HomeView: View {
                 }
             }
         }
+        // Room for the settings gear (top right) so it never sits on a card.
+        .padding(.top, 56)
         .onAppear { projects = RotoProject.listProjects() }
         .onReceive(NotificationCenter.default.publisher(for: RotoProject.projectsDidChange)) { _ in
             projects = RotoProject.listProjects()

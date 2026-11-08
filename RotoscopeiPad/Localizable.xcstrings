@@ -488,144 +488,144 @@
         }
       }
     },
-    "가족 공유로 온 가족 아이패드에서 함께 써요": {
+    "가족 공유로 온 가족 기기에서 함께 써요": {
       "localizations": {
         "cs": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sdílení v rodině: používejte na každém iPadu v rodině"
+            "value": "Sdílení v rodině: používejte na všech zařízeních v rodině"
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Familiedeling: brug den på alle familiens iPads"
+            "value": "Familiedeling: brug den på alle familiens enheder"
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Mit der Familienfreigabe auf allen iPads der Familie"
+            "value": "Mit der Familienfreigabe auf allen Geräten der Familie"
           }
         },
         "el": {
           "stringUnit": {
             "state": "translated",
-            "value": "Οικογενειακή κοινή χρήση: χρησιμοποιήστε την σε κάθε iPad της οικογένειας"
+            "value": "Οικογενειακή κοινή χρήση: σε όλες τις συσκευές της οικογένειας"
           }
         },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Family Sharing: use it on every iPad in your family"
+            "value": "Family Sharing: use it on every device in your family"
           }
         },
         "en-GB": {
           "stringUnit": {
             "state": "translated",
-            "value": "Family Sharing: use it on every iPad in your family"
+            "value": "Family Sharing: use it on every device in your family"
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Con En familia, funciona en todos los iPad de casa"
+            "value": "Con En familia, funciona en todos los dispositivos de casa"
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Perhejako: käytä kaikilla perheen iPadeilla"
+            "value": "Perhejako: käytä kaikilla perheen laitteilla"
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Avec le Partage familial, sur tous les iPad de la famille"
+            "value": "Avec le Partage familial, sur tous les appareils de la famille"
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Berbagi Keluarga: pakai di semua iPad keluarga"
+            "value": "Berbagi Keluarga: pakai di semua perangkat keluarga"
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Con In famiglia, su tutti gli iPad della famiglia"
+            "value": "Con In famiglia, su tutti i dispositivi della famiglia"
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "ファミリー共有で、家族みんなのiPadで使えます"
+            "value": "ファミリー共有で、家族みんなのデバイスで使えます"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Familiedeling: bruk den på alle iPadene i familien"
+            "value": "Familiedeling: bruk den på alle enhetene i familien"
           }
         },
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Delen met gezin: gebruik het op elke iPad in je gezin"
+            "value": "Delen met gezin: gebruik het op elk apparaat in je gezin"
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Rodzina: korzystaj na każdym iPadzie w rodzinie"
+            "value": "Rodzina: korzystaj na każdym urządzeniu w rodzinie"
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Com o Compartilhamento Familiar, em todos os iPads da família"
+            "value": "Com o Compartilhamento Familiar, em todos os aparelhos da família"
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Семейный доступ: пользуйтесь на всех iPad в семье"
+            "value": "Семейный доступ: пользуйтесь на всех устройствах в семье"
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Familjedelning: använd på alla familjens iPads"
+            "value": "Familjedelning: använd på alla familjens enheter"
           }
         },
         "th": {
           "stringUnit": {
             "state": "translated",
-            "value": "แชร์กับครอบครัว: ใช้ได้บน iPad ทุกเครื่องในบ้าน"
+            "value": "แชร์กับครอบครัว: ใช้ได้บนทุกเครื่องในบ้าน"
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Aile Paylaşımı: ailendeki her iPad'de kullan"
+            "value": "Aile Paylaşımı: ailendeki her cihazda kullan"
           }
         },
         "vi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Chia sẻ trong gia đình: dùng trên mọi iPad của cả nhà"
+            "value": "Chia sẻ trong gia đình: dùng trên mọi thiết bị của cả nhà"
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "支持家人共享，全家的 iPad 都能用"
+            "value": "支持家人共享，全家的设备都能用"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "支援家人共享，全家的 iPad 都能用"
+            "value": "支援家人共享，全家的裝置都能用"
           }
         }
       }
@@ -2486,145 +2486,145 @@
         }
       }
     },
-    "다른 아이패드에서도 그리던 작품을 이어서 그려요.": {
+    "다른 기기에서도 그리던 작품을 이어서 그려요.": {
       "comment": "Roadmap item detail: iCloud sync",
       "localizations": {
         "cs": {
           "stringUnit": {
             "state": "translated",
-            "value": "Pokračujte v kreslení stejného díla na jiném iPadu."
+            "value": "Pokračujte v kreslení stejného díla na jiném zařízení."
           }
         },
         "da": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tegn videre på det samme værk på en anden iPad."
+            "value": "Tegn videre på det samme værk på en anden enhed."
           }
         },
         "de": {
           "stringUnit": {
             "state": "translated",
-            "value": "Male dasselbe Werk auf einem anderen iPad einfach weiter."
+            "value": "Male dasselbe Werk auf einem anderen Gerät einfach weiter."
           }
         },
         "el": {
           "stringUnit": {
             "state": "translated",
-            "value": "Συνεχίστε να ζωγραφίζετε το ίδιο έργο σε άλλο iPad."
+            "value": "Συνεχίστε να ζωγραφίζετε το ίδιο έργο σε άλλη συσκευή."
           }
         },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Keep drawing the same artwork on another iPad."
+            "value": "Keep drawing the same artwork on another device."
           }
         },
         "en-GB": {
           "stringUnit": {
             "state": "translated",
-            "value": "Keep drawing the same artwork on another iPad."
+            "value": "Keep drawing the same artwork on another device."
           }
         },
         "es": {
           "stringUnit": {
             "state": "translated",
-            "value": "Sigue dibujando la misma obra en otro iPad."
+            "value": "Sigue dibujando la misma obra en otro dispositivo."
           }
         },
         "fi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Jatka saman teoksen piirtämistä toisella iPadilla."
+            "value": "Jatka saman teoksen piirtämistä toisella laitteella."
           }
         },
         "fr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Continuez la même œuvre sur un autre iPad."
+            "value": "Continuez la même œuvre sur un autre appareil."
           }
         },
         "id": {
           "stringUnit": {
             "state": "translated",
-            "value": "Lanjutkan menggambar karya yang sama di iPad lain."
+            "value": "Lanjutkan menggambar karya yang sama di perangkat lain."
           }
         },
         "it": {
           "stringUnit": {
             "state": "translated",
-            "value": "Continua lo stesso disegno su un altro iPad."
+            "value": "Continua lo stesso disegno su un altro dispositivo."
           }
         },
         "ja": {
           "stringUnit": {
             "state": "translated",
-            "value": "別のiPadでも、かきかけの作品の続きをかけます。"
+            "value": "別のデバイスでも、かきかけの作品の続きをかけます。"
           }
         },
         "nb": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fortsett å tegne på det samme verket på en annen iPad."
+            "value": "Fortsett å tegne på det samme verket på en annen enhet."
           }
         },
         "nl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Teken verder aan hetzelfde kunstwerk op een andere iPad."
+            "value": "Teken verder aan hetzelfde kunstwerk op een ander apparaat."
           }
         },
         "pl": {
           "stringUnit": {
             "state": "translated",
-            "value": "Dokończ rysować tę samą pracę na innym iPadzie."
+            "value": "Dokończ rysować tę samą pracę na innym urządzeniu."
           }
         },
         "pt-BR": {
           "stringUnit": {
             "state": "translated",
-            "value": "Continue desenhando a mesma obra em outro iPad."
+            "value": "Continue desenhando a mesma obra em outro aparelho."
           }
         },
         "ru": {
           "stringUnit": {
             "state": "translated",
-            "value": "Продолжайте рисовать ту же работу на другом iPad."
+            "value": "Продолжайте рисовать ту же работу на другом устройстве."
           }
         },
         "sv": {
           "stringUnit": {
             "state": "translated",
-            "value": "Fortsätt rita på samma verk på en annan iPad."
+            "value": "Fortsätt rita på samma verk på en annan enhet."
           }
         },
         "th": {
           "stringUnit": {
             "state": "translated",
-            "value": "วาดผลงานชิ้นเดิมต่อบน iPad เครื่องอื่นได้"
+            "value": "วาดผลงานชิ้นเดิมต่อบนเครื่องอื่นได้"
           }
         },
         "tr": {
           "stringUnit": {
             "state": "translated",
-            "value": "Aynı çalışmayı başka bir iPad'de çizmeye devam et."
+            "value": "Aynı çalışmayı başka bir cihazda çizmeye devam et."
           }
         },
         "vi": {
           "stringUnit": {
             "state": "translated",
-            "value": "Tiếp tục vẽ cùng một tác phẩm trên iPad khác."
+            "value": "Tiếp tục vẽ cùng một tác phẩm trên thiết bị khác."
           }
         },
         "zh-Hans": {
           "stringUnit": {
             "state": "translated",
-            "value": "在另一台 iPad 上也能接着画同一幅作品。"
+            "value": "在另一台设备上也能接着画同一幅作品。"
           }
         },
         "zh-Hant": {
           "stringUnit": {
             "state": "translated",
-            "value": "在另一台 iPad 上也能接著畫同一件作品。"
+            "value": "在另一台裝置上也能接著畫同一件作品。"
           }
         }
       }

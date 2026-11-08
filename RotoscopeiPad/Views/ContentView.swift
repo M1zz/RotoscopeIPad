@@ -19,6 +19,9 @@ struct ContentView: View {
     @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding = false
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @Environment(\.accessibilityDifferentiateWithoutColor) private var differentiateWithoutColor
+    @Environment(\.horizontalSizeClass) private var sizeClass
+    /// iPhone (and a narrow iPad window): rows split up, stamps go under the canvas.
+    private var isCompact: Bool { sizeClass == .compact }
     private let nextPageTip = NextPageTip()
     @ObservedObject private var shortcuts = ShortcutRouter.shared
     private let dubTip = DubTip()
@@ -138,10 +141,20 @@ struct ContentView: View {
 
     private var canvasArea: some View {
         ZStack(alignment: .bottomTrailing) {
-            HStack(spacing: 0) {
-                stampColumn(Array(StampShape.allCases.prefix(4)))
-                CanvasView()
-                stampColumn(Array(StampShape.allCases.suffix(4)), sizes: true)
+            Group {
+                if isCompact {
+                    // No room beside the canvas on a phone: one stamp row underneath.
+                    VStack(spacing: 0) {
+                        CanvasView()
+                        stampRow
+                    }
+                } else {
+                    HStack(spacing: 0) {
+                        stampColumn(Array(StampShape.allCases.prefix(4)))
+                        CanvasView()
+                        stampColumn(Array(StampShape.allCases.suffix(4)), sizes: true)
+                    }
+                }
             }
             .background(Color.black)
 
@@ -181,6 +194,14 @@ struct ContentView: View {
         .frame(maxHeight: .infinity)
     }
 
+    /// Every stamp in one row; the stamp sizes sit with the brush sizes up top.
+    private var stampRow: some View {
+        HStack(spacing: 6) {
+            ForEach(StampShape.allCases) { stampButton($0) }
+        }
+        .padding(8)
+    }
+
     /// 도장 크기: three dots whose size previews the stamp size.
     private func stampSizeButton(_ value: Double) -> some View {
         let selected = abs(project.stampSize - value) < 0.001
@@ -208,9 +229,10 @@ struct ContentView: View {
             project.tool = .stamp
         } label: {
             Image(systemName: shape.symbol)
-                .font(.system(size: 26))
+                .font(.system(size: isCompact ? 20 : 26))
                 .foregroundStyle(selected ? Color(rgbHex: project.brushColorHex) : .white)
-                .frame(width: 58, height: 58)
+                .frame(width: isCompact ? nil : 58, height: isCompact ? 40 : 58)
+                .frame(maxWidth: isCompact ? .infinity : nil)
                 .background(
                     RoundedRectangle(cornerRadius: 14)
                         .fill(selected ? Color.white : Color.white.opacity(0.14))
@@ -258,12 +280,61 @@ struct ContentView: View {
     // Row 1: actions. Row 2: colors and brush sizes.
     private var toolbar: some View {
         VStack(spacing: 8) {
-            toolRow
-            paletteRow
+            if isCompact {
+                compactRows
+            } else {
+                toolRow
+                paletteRow
+            }
         }
         .frame(maxWidth: .infinity)
-        .padding(.horizontal, 16)
-        .padding(.vertical, 10)
+        .padding(.horizontal, isCompact ? 12 : 16)
+        .padding(.vertical, isCompact ? 8 : 10)
+    }
+
+    /// The same buttons on a phone, in three rows that share the width:
+    /// home and drawing tools · sound, playback, save and sizes · colors.
+    @ViewBuilder
+    private var compactRows: some View {
+        HStack(spacing: 6) {
+            iconButton("house.fill", label: "홈으로") { project.goHome() }
+            toolButton("paintbrush.pointed.fill", tool: .brush, label: "붓")
+            toolButton("eraser.fill", tool: .erase, label: "지우개")
+            iconButton("arrow.uturn.backward", label: "되돌리기") { project.undoLastStroke() }
+            clearPageButton
+        }
+        HStack(spacing: 6) {
+            dubButton
+            playButton
+            backgroundButton
+            exportButton
+            Divider().frame(height: 30)
+            // Stamping: the stamp sizes; otherwise the brush sizes.
+            if project.tool == .stamp {
+                ForEach(RotoProject.stampSizePresets, id: \.self) { stampSizeDot($0) }
+            } else {
+                ForEach(RotoProject.widthPresets, id: \.name) { sizeDot($0.value) }
+            }
+        }
+        HStack(spacing: 0) {
+            ForEach(RotoProject.palette, id: \.self) { hex in
+                colorDot(hex).frame(maxWidth: .infinity)
+            }
+        }
+    }
+
+    /// A stamp size among the toolbar's size dots (phone layout).
+    private func stampSizeDot(_ value: Double) -> some View {
+        let selected = abs(project.stampSize - value) < 0.001
+        return Button { project.stampSize = value } label: {
+            Circle()
+                .fill(Color.primary)
+                .frame(width: 6 + value * 60, height: 6 + value * 60)
+                .frame(width: 36, height: 36)
+        }
+        .background(Circle().fill(selected ? Color.accentColor.opacity(0.25) : .clear))
+        .accessibilityLabel(Self.stampSizeLabel(value))
+        .accessibilityAddTraits(selected ? .isSelected : [])
     }
 
     /// Home · drawing tools · page actions · sound and playback · save.
@@ -309,8 +380,7 @@ struct ContentView: View {
         // Wipe the whole page at once (undo brings it back).
         Button { project.clearCurrentMask() } label: {
             Image(systemName: "trash.fill")
-                .font(.system(size: 26))
-                .frame(width: 56, height: 48)
+                .modifier(ToolIcon())
         }
         .buttonStyle(.bordered)
         .tint(.red)
@@ -328,8 +398,7 @@ struct ContentView: View {
             }
         } label: {
             Image(systemName: project.isRecording ? "stop.fill" : "mic.fill")
-                .font(.system(size: 26))
-                .frame(width: 56, height: 48)
+                .modifier(ToolIcon())
                 // 보라색만으로 '녹음 있음'을 말하지 않는다.
                 .overlay(alignment: .topTrailing) {
                     if differentiateWithoutColor && project.hasAudio && !project.isRecording {
@@ -350,8 +419,7 @@ struct ContentView: View {
     private var playButton: some View {
         Button { project.togglePlayback() } label: {
             Image(systemName: project.isPlaying ? "pause.fill" : "play.fill")
-                .font(.system(size: 26))
-                .frame(width: 56, height: 48)
+                .modifier(ToolIcon())
         }
         .buttonStyle(.borderedProminent)
         .keyboardShortcut(.space, modifiers: [])
@@ -366,8 +434,7 @@ struct ContentView: View {
             Button { project.toggleHideBackground() } label: {
                 Image(systemName: project.hideBackground
                       ? "video.slash.fill" : "video.fill")
-                    .font(.system(size: 26))
-                    .frame(width: 56, height: 48)
+                    .modifier(ToolIcon())
             }
             .buttonStyle(.borderedProminent)
             .tint(project.hideBackground ? .pink : .gray)
@@ -379,8 +446,7 @@ struct ContentView: View {
     private var exportButton: some View {
         Button { runExport() } label: {
             Image(systemName: "square.and.arrow.down.fill")
-                .font(.system(size: 26))
-                .frame(width: 56, height: 48)
+                .modifier(ToolIcon())
         }
         .buttonStyle(.borderedProminent)
         .tint(.green)
@@ -394,8 +460,7 @@ struct ContentView: View {
                             action: @escaping () -> Void) -> some View {
         Button(action: action) {
             Image(systemName: symbol)
-                .font(.system(size: 26))
-                .frame(width: 56, height: 48)
+                .modifier(ToolIcon())
         }
         .buttonStyle(.bordered)
         .accessibilityLabel(Text(label))
@@ -406,8 +471,7 @@ struct ContentView: View {
                             label: LocalizedStringKey) -> some View {
         Button { project.tool = tool } label: {
             Image(systemName: symbol)
-                .font(.system(size: 26))
-                .frame(width: 56, height: 48)
+                .modifier(ToolIcon())
         }
         .buttonStyle(.bordered)
         .tint(project.tool == tool ? .accentColor : .secondary)
@@ -425,7 +489,7 @@ struct ContentView: View {
             && (project.tool == .brush || project.tool == .stamp)
         return Circle()
             .fill(Color(rgbHex: hex))
-            .frame(width: 36, height: 36)
+            .frame(width: isCompact ? 26 : 36, height: isCompact ? 26 : 36)
             .overlay(Circle().stroke(Color.primary.opacity(0.2), lineWidth: 1))
             .overlay(
                 Circle().stroke(Color.accentColor, lineWidth: selected ? 4 : 0)
@@ -449,7 +513,7 @@ struct ContentView: View {
             Circle()
                 .fill(Color.primary)
                 .frame(width: 8 + value * 500, height: 8 + value * 500)
-                .frame(width: 44, height: 44)
+                .frame(width: isCompact ? 36 : 44, height: isCompact ? 36 : 44)
         }
         .background(
             Circle().fill(selected ? Color.accentColor.opacity(0.25) : .clear)
@@ -500,15 +564,15 @@ struct ContentView: View {
     // MARK: - Transport (frame navigation + play)
 
     private var transport: some View {
-        HStack(spacing: 18) {
+        HStack(spacing: isCompact ? 10 : 18) {
             // "이전 그림" — mirrors the next button, quieter color.
             Button { project.step(by: -1) } label: {
                 HStack(spacing: 6) {
                     Image(systemName: "arrow.left")
                     Image(systemName: "photo")
                 }
-                .font(.system(size: 24))
-                .frame(width: 88, height: 52)
+                .font(.system(size: isCompact ? 20 : 24))
+                .frame(width: isCompact ? 60 : 88, height: isCompact ? 44 : 52)
             }
             .buttonStyle(.bordered)
             .disabled(project.currentFrame == 0)
@@ -523,8 +587,8 @@ struct ContentView: View {
                     Image(systemName: "pencil.and.outline")
                     Image(systemName: "arrow.right")
                 }
-                .font(.system(size: 26))
-                .frame(width: 96, height: 52)
+                .font(.system(size: isCompact ? 22 : 26))
+                .frame(width: isCompact ? 72 : 96, height: isCompact ? 44 : 52)
             }
             .buttonStyle(.borderedProminent)
             .tint(.orange)
@@ -546,14 +610,14 @@ struct ContentView: View {
                 withAnimation { showTransport = false }
             } label: {
                 Image(systemName: "chevron.down")
-                    .font(.system(size: 24, weight: .bold))
-                    .frame(width: 56, height: 52)
+                    .font(.system(size: isCompact ? 20 : 24, weight: .bold))
+                    .frame(width: isCompact ? 36 : 56, height: isCompact ? 44 : 52)
             }
             .buttonStyle(.bordered)
             .accessibilityLabel(Text("재생 막대 숨기기"))
         }
-        .padding(.horizontal, 16)
-        .padding(.vertical, 12)
+        .padding(.horizontal, isCompact ? 12 : 16)
+        .padding(.vertical, isCompact ? 8 : 12)
     }
 
     /// Turning past the last blank page adds one — within the free page count.
@@ -666,6 +730,24 @@ extension StampShape {
         case .flower:   return Text("꽃 도장")
         case .car:      return Text("자동차 도장")
         case .bird:     return Text("새 도장")
+        }
+    }
+}
+
+/// A toolbar icon: big on iPad; on a phone the buttons in a row share its width.
+private struct ToolIcon: ViewModifier {
+    @Environment(\.horizontalSizeClass) private var sizeClass
+
+    func body(content: Content) -> some View {
+        if sizeClass == .compact {
+            content
+                .font(.system(size: 20))
+                .frame(maxWidth: .infinity)
+                .frame(height: 36)
+        } else {
+            content
+                .font(.system(size: 26))
+                .frame(width: 56, height: 48)
         }
     }
 }

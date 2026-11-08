@@ -13,28 +13,43 @@ enum PaywallShowcases {
         let items = [
             LeeoShowcase(id: LockReason.presets.rawValue,
                          title: String(localized: "따라 그리기 \(PresetLibrary.all.count)세트 전부, 앞으로 나올 세트도"),
-                         detail: "") { PresetsArt() },
+                         detail: "") { Fitted { PresetsArt() } },
             LeeoShowcase(id: LockReason.projects.rawValue,
                          title: String(localized: "작품을 개수 제한 없이 보관"),
-                         detail: "") { ProjectsArt() },
+                         detail: "") { Fitted { ProjectsArt() } },
             LeeoShowcase(id: LockReason.pages.rawValue,
                          title: String(localized: "빈 종이 플립북 장수 제한 없음"),
-                         detail: "") { PagesArt() },
+                         detail: "") { Fitted { PagesArt() } },
             LeeoShowcase(id: LockReason.video.rawValue,
                          title: String(localized: "내 동영상으로 그리기 무제한"),
-                         detail: "") { VideoArt() },
+                         detail: "") { Fitted { VideoArt() } },
             LeeoShowcase(id: LockReason.recording.rawValue,
                          title: String(localized: "목소리 녹음 시간 제한 없음"),
-                         detail: "") { RecordingArt() },
+                         detail: "") { Fitted { RecordingArt() } },
             LeeoShowcase(id: "endCard",
                          title: String(localized: "저장한 영상 끝에 팔랑북 카드 없음"),
-                         detail: "") { EndCardArt() }
+                         detail: "") { Fitted { EndCardArt() } }
         ]
         return items.filter { $0.id == reason.rawValue } + items.filter { $0.id != reason.rawValue }
     }
 }
 
 // MARK: - Pieces
+
+/// Draws a picture at its iPad size and shrinks it to fit a phone's card.
+private struct Fitted<Art: View>: View {
+    @ViewBuilder let art: Art
+    private let designWidth: CGFloat = 470
+
+    var body: some View {
+        GeometryReader { geo in
+            art
+                .frame(width: designWidth, height: geo.size.height)
+                .scaleEffect(min(1, geo.size.width / designWidth))
+                .frame(width: geo.size.width, height: geo.size.height)
+        }
+    }
+}
 
 private let crayons: [Color] = [.orange, .pink, .blue, .green, .purple, .red]
 

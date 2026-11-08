@@ -260,7 +260,7 @@ private struct PurchaseView: View {
             .disabled(store.purchasingProductID != nil)
 
             if familyShareable {
-                Label("가족 공유로 온 가족 아이패드에서 함께 써요", systemImage: "person.3.fill")
+                Label("가족 공유로 온 가족 기기에서 함께 써요", systemImage: "person.3.fill")
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
             }
