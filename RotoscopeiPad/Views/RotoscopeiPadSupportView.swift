@@ -56,18 +56,21 @@ struct RotoscopeiPadSupportView: View {
                         TipLink(tipJar: tipJar)
                     }
                     if let gift = store.gift {
-                        GiftRows(gift: gift, hasPro: store.hasPro)
+                        GiftRow(gift: gift, hasPro: store.hasPro)
                     }
-                    Button {
-                        Task { await store.restore() }
-                    } label: {
-                        if store.isRestoring {
-                            ProgressView()
-                        } else {
-                            Label("구매 복원", systemImage: "arrow.clockwise")
+                    // A family with the pass has nothing to restore; everyone else finds it last.
+                    if !store.hasPro {
+                        Button {
+                            Task { await store.restore() }
+                        } label: {
+                            if store.isRestoring {
+                                ProgressView()
+                            } else {
+                                Label("구매 복원", systemImage: "arrow.clockwise")
+                            }
                         }
+                        .disabled(store.isRestoring)
                     }
-                    .disabled(store.isRestoring)
                 } header: { Text("요금제와 응원") }
                 if let tipJar = store.tipJar, store.hasPro {
                     TipAskCard(tipJar: tipJar)
@@ -100,48 +103,49 @@ struct RotoscopeiPadSupportView: View {
     }
 }
 
-/// "Gift Pro" and "Enter a gift code", inside the plan-and-support section.
+/// One "Gift Pro" row → the gift page; entering a code someone sent sits at
+/// the bottom of that page. Same shape as 클립키보드's settings.
 ///
-/// The sender buys a consumable gift; the receiver gets the lifetime pass
-/// (`RotoscopeiPadSpec.monetization.gift`). Row titles and the screens
-/// themselves come from LeeoKit (`LeeoGiftText`), already in every language.
-/// ⚠️ Rows only appear once the gift product loads from the App Store, so a
-///    build that ships before the product exists shows nothing dead. Anyone
-///    who already paid for, sent or redeemed a gift still sees them, so they
-///    can find their code or reach support on a day the product won't load.
+/// The sender buys a consumable gift and shares an App Store offer-code link;
+/// the App Store unlocks the lifetime pass (`RotoscopeiPadSpec.monetization.gift`).
+/// Titles and screens come from LeeoKit (`LeeoGiftText`), already in every language.
+/// ⚠️ The row appears once the gift product loads, or while there's a sent or
+///    pending gift to look back at, or a code to enter — never a dead row.
 /// ⚠️ `LeeoGiftStore` is observed on its own: the product arrives after
 ///    launch and `LeeoStore` doesn't republish that change.
-private struct GiftRows: View {
+private struct GiftRow: View {
     @ObservedObject var gift: LeeoGiftStore
     let hasPro: Bool
     @State private var showSupport = false
 
+    private var canSend: Bool { gift.isAvailable || gift.pendingCount > 0 || !gift.sentGifts.isEmpty }
+    /// Only someone without the pass has a code to enter.
+    private var canRedeem: Bool { gift.canRedeem && !hasPro }
+
     var body: some View {
-        if gift.isAvailable || gift.pendingCount > 0 || !gift.sentGifts.isEmpty || gift.redeemed != nil {
-            Group {
-                NavigationLink {
+        if canSend || canRedeem {
+            NavigationLink {
+                page
                     // If a gift gets stuck, the bug report carries the payment and code.
-                    LeeoGiftView<RotoscopeiPadSpec>(gift: gift, showsRedeemLink: false,
-                                                    onContactSupport: { showSupport = true })
-                } label: {
-                    Label(LeeoGiftText.sendEntry, systemImage: "gift.fill")
-                }
-                // A Pro user has nothing to redeem; keep the row only to revisit a gift they got.
-                if !hasPro || gift.redeemed != nil {
-                    NavigationLink {
-                        LeeoGiftRedeemView<RotoscopeiPadSpec>(gift: gift,
-                                                              onContactSupport: { showSupport = true })
-                    } label: {
-                        Label(LeeoGiftText.redeemEntry, systemImage: "giftcard")
+                    .sheet(isPresented: $showSupport) {
+                        NavigationStack {
+                            LeeoFeedbackView<RotoscopeiPadSpec>(initialType: .bug, extraInfo: gift.supportLines,
+                                                                initialCategory: .purchase)
+                        }
                     }
-                }
+            } label: {
+                Label(LeeoGiftText.sendEntry, systemImage: "gift.fill")
             }
-            .sheet(isPresented: $showSupport) {
-                NavigationStack {
-                    LeeoFeedbackView<RotoscopeiPadSpec>(initialType: .bug, extraInfo: gift.supportLines,
-                                                        initialCategory: .purchase)
-                }
-            }
+        }
+    }
+
+    @ViewBuilder
+    private var page: some View {
+        if canSend {
+            LeeoGiftView<RotoscopeiPadSpec>(gift: gift, showsRedeemLink: canRedeem,
+                                            onContactSupport: { showSupport = true })
+        } else {
+            LeeoGiftRedeemView<RotoscopeiPadSpec>(gift: gift, onContactSupport: { showSupport = true })
         }
     }
 }
