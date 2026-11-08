@@ -32,10 +32,10 @@ final class RotoProject: ObservableObject {
 
     // MARK: - Brush / palette
 
-    /// Kid palette: a few bright, clearly different colors.
+    /// Kid palette: the rainbow in order (빨주노초파남보), then pink, white, black.
     static let palette: [String] = [
-        "FF3B30", "FF9500", "FFCC00", "34C759", "00C7BE",
-        "007AFF", "AF52DE", "FF2D55", "FFFFFF", "000000"
+        "FF3B30", "FF9500", "FFCC00", "34C759", "007AFF",
+        "3A3FBF", "AF52DE", "FF2D55", "FFFFFF", "000000"
     ]
 
     /// Three brush sizes: small, medium, big.
@@ -220,6 +220,10 @@ final class RotoProject: ObservableObject {
 
     @Published var isBlank = false
     @Published var blankPageCount = 1
+    /// A sketchbook page takes the shape of the screen it's drawn on, so it
+    /// fills the editor; it follows the screen until the first line lands.
+    /// Older blank works with drawings stay 4:3.
+    @Published private(set) var pageSize: CGSize?
 
     // MARK: - Guide presets (따라 그리기)
     // A bundled sequence of light line-art pages. The kid traces each page;
@@ -237,7 +241,19 @@ final class RotoProject: ObservableObject {
 
     /// Drawing surface size: the video frame, the guide page, or the blank page.
     var canvasSize: CGSize {
-        source?.naturalSize ?? guidePreset?.canvasSize ?? Self.blankCanvasSize
+        source?.naturalSize ?? guidePreset?.canvasSize ?? pageSize ?? Self.blankCanvasSize
+    }
+
+    /// Shapes a sketchbook's page to the drawing area (long side 1600) while
+    /// it's still empty — once drawn on, its shape never changes.
+    func fitPage(to area: CGSize) {
+        guard isSketchbook, area.width > 1, area.height > 1,
+              masks.values.allSatisfy(\.strokes.isEmpty) else { return }
+        let scale = Self.blankCanvasSize.width / max(area.width, area.height)
+        let size = CGSize(width: (area.width * scale).rounded(), height: (area.height * scale).rounded())
+        guard size != pageSize else { return }
+        pageSize = size
+        saveNow()
     }
 
     /// Number of drawable scenes (sampled frames, guide pages or blank pages).
@@ -277,10 +293,11 @@ final class RotoProject: ObservableObject {
         var blankPageCount: Int
         var presetId: String?
         var hideBackground: Bool
+        var pageSize: CGSize?
 
         init(frameStep: Int, currentFrame: Int, masks: [Int: FrameMask],
              videoFileName: String?, isBlank: Bool, blankPageCount: Int,
-             presetId: String?, hideBackground: Bool) {
+             presetId: String?, hideBackground: Bool, pageSize: CGSize?) {
             self.frameStep = frameStep
             self.currentFrame = currentFrame
             self.masks = masks
@@ -289,6 +306,7 @@ final class RotoProject: ObservableObject {
             self.blankPageCount = blankPageCount
             self.presetId = presetId
             self.hideBackground = hideBackground
+            self.pageSize = pageSize
         }
 
         // Defaults keep projects saved before blank/preset support loading fine.
@@ -302,6 +320,7 @@ final class RotoProject: ObservableObject {
             blankPageCount = try c.decodeIfPresent(Int.self, forKey: .blankPageCount) ?? 1
             presetId = try c.decodeIfPresent(String.self, forKey: .presetId)
             hideBackground = try c.decodeIfPresent(Bool.self, forKey: .hideBackground) ?? false
+            pageSize = try c.decodeIfPresent(CGSize.self, forKey: .pageSize)
         }
     }
 
@@ -421,6 +440,7 @@ final class RotoProject: ObservableObject {
         projectDirectory = dir
         isBlank = true
         blankPageCount = 1
+        pageSize = nil   // set by the canvas on first show
         clearPreset()
         frameStep = 1
         masks = [:]
@@ -482,6 +502,7 @@ final class RotoProject: ObservableObject {
             displayImage = nil
             isBlank = true
             blankPageCount = max(1, data.blankPageCount)
+            pageSize = data.pageSize ?? Self.blankCanvasSize
             clearPreset()
         } else {
             guard let name = data.videoFileName else { return }
@@ -522,6 +543,7 @@ final class RotoProject: ObservableObject {
         projectDirectory = nil
         isBlank = false
         blankPageCount = 1
+        pageSize = nil
         clearPreset()
         hideBackground = false
         masks = [:]
@@ -550,7 +572,8 @@ final class RotoProject: ObservableObject {
                                masks: masks, videoFileName: videoURL?.lastPathComponent,
                                isBlank: isBlank,
                                blankPageCount: isPreset ? frameCount : blankPageCount,
-                               presetId: presetId, hideBackground: hideBackground)
+                               presetId: presetId, hideBackground: hideBackground,
+                               pageSize: pageSize)
         if let json = try? JSONEncoder().encode(data) {
             try? json.write(to: dir.appendingPathComponent("project.json"), options: .atomic)
         }

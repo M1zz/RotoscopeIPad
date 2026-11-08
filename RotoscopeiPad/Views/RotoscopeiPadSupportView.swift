@@ -9,6 +9,7 @@ struct RotoscopeiPadSupportView: View {
     @State private var parentVerified = false
     @Environment(\.dismiss) private var dismiss
     @State private var workCount = RotoProject.listProjects().count
+    @AppStorage(Flipbooks.key) private var flipbooksOpen = false
 
     var body: some View {
         if parentVerified {
@@ -46,6 +47,7 @@ struct RotoscopeiPadSupportView: View {
                 if let tipJar = store.tipJar, store.hasPro {
                     TipAskCard(tipJar: tipJar)
                 }
+                drawingSection
                 worksSection
                 supportSection
             }
@@ -101,6 +103,19 @@ struct RotoscopeiPadSupportView: View {
             }
         }
         .disabled(store.isRestoring)
+    }
+
+    /// Out of the box a kid gets a sketchbook; flipbooks are a grown-up's call.
+    private var drawingSection: some View {
+        Section {
+            Toggle(isOn: $flipbooksOpen) {
+                Label("움직이는 그림 만들기", systemImage: "book.pages")
+            }
+        } header: {
+            Text("그리기")
+        } footer: {
+            Text("동영상이나 따라 그리기로 여러 장을 그려 팔랑팔랑 움직이게 해요. 끄면 빈 종이 스케치북만 보여요.")
+        }
     }
 
     /// Kids fill the home grid fast; a grown-up clears many works at once here.

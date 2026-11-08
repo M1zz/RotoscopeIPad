@@ -10,6 +10,8 @@ struct HomeView: View {
     @EnvironmentObject var store: LeeoStore
     @State private var projects: [URL] = []
     @State private var lock: LockReason?
+    /// Off: just the sketchbook. A grown-up opens flipbooks in Settings.
+    @AppStorage(Flipbooks.key) private var flipbooksOpen = false
 
     /// Everything shown on the home grid, in display order.
     private enum Item: Identifiable {
@@ -33,13 +35,14 @@ struct HomeView: View {
     }
 
     private var items: [Item] {
-        var list: [Item] = []
-        if CameraVideoPicker.isAvailable { list.append(.camera) }
-        list.append(.video)
-        // Remote kill switch: the link card can be hidden without an update.
-        if LeeoRemoteFlags.isEnabled(PalangFlag.videoLinkImport) { list.append(.link) }
-        list.append(.blank)
-        list += PresetLibrary.all.map { .preset($0) }
+        var list: [Item] = [.blank]
+        if flipbooksOpen {
+            if CameraVideoPicker.isAvailable { list.append(.camera) }
+            list.append(.video)
+            // Remote kill switch: the link card can be hidden without an update.
+            if LeeoRemoteFlags.isEnabled(PalangFlag.videoLinkImport) { list.append(.link) }
+            list += PresetLibrary.all.map { .preset($0) }
+        }
         list += projects.map { .project($0) }
         return list
     }
@@ -268,7 +271,7 @@ struct HomeView: View {
                               style: StrokeStyle(lineWidth: 2, dash: [7, 5])))
         }
         .buttonStyle(.plain)
-        .accessibilityLabel(Text("빈 종이 플립북 만들기"))
+        .accessibilityLabel(Text("빈 종이 스케치북 만들기"))
     }
 
     /// A guide set card: the mid-animation pose on a white page, with a

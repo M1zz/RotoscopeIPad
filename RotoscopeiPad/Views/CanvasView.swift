@@ -187,6 +187,9 @@ struct CanvasView: View {
 
                 DrawingInputBridge()
             }
+            // A new sketchbook's page takes this area's shape.
+            .onChange(of: geo.size, initial: true) { _, size in project.fitPage(to: size) }
+            .onChange(of: project.projectDirectory) { project.fitPage(to: geo.size) }
         }
     }
 

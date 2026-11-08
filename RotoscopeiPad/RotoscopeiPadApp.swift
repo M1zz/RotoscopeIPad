@@ -14,6 +14,8 @@ struct RotoscopeiPadApp: App {
         // Before anything is created: works already on disk mean this iPad
         // used 팔랑북 while it was free, and keeps everything.
         FreeTier.markLegacyUserIfNeeded()
+        // Flipbooks stay open where kids were already making them.
+        Flipbooks.openForExistingUsers()
         // Editor hints (PalangTips.swift); each one shows at most once.
         try? Tips.configure([.displayFrequency(.immediate)])
         _store = StateObject(wrappedValue: LeeoStore(

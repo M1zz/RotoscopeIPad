@@ -9,20 +9,6 @@ enum StampShape: String, CaseIterable, Identifiable {
 
     var id: String { rawValue }
 
-    /// Icon-only button symbol.
-    var symbol: String {
-        switch self {
-        case .heart:    return "heart.fill"
-        case .circle:   return "circle.fill"
-        case .square:   return "square.fill"
-        case .triangle: return "triangle.fill"
-        case .star:     return "star.fill"
-        case .flower:   return "camera.macro"
-        case .car:      return "car.fill"
-        case .bird:     return "bird.fill"
-        }
-    }
-
     /// Hard-cornered shapes keep straight edges; organic ones get the same
     /// Catmull-Rom smoothing as hand-drawn strokes.
     var smooth: Bool {

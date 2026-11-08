@@ -12,6 +12,7 @@ struct ContentView: View {
     @State private var showDone = false
     /// The trash asks first: a big O to wipe the page, a big X to keep it.
     @State private var askClear = false
+    @AppStorage(Flipbooks.key) private var flipbooksOpen = false
     @State private var restoredLastProject = false
     @State private var showPageFlash = false
     @State private var pageFlashTask: Task<Void, Never>?
@@ -67,6 +68,10 @@ struct ContentView: View {
             flashPageNumber()
         }
         .onAppear(perform: restoreOnLaunch)
+        // Drawing: the whole screen is the page — no status bar, and a stroke
+        // near the bottom edge doesn't throw the kid out of the app.
+        .statusBarHidden(project.isOpen)
+        .defersSystemGestures(on: project.isOpen ? .bottom : [])
     }
 
     /// The editor while a work is open, the home grid otherwise.
@@ -77,7 +82,7 @@ struct ContentView: View {
                 Divider()
                 canvasArea
                 // A sketchbook is one page: nothing to turn or play.
-                if showTransport, !project.isSketchbook {
+                if showsTransport {
                     Divider()
                     transport
                 }
@@ -86,6 +91,8 @@ struct ContentView: View {
             }
         }
     }
+
+    private var showsTransport: Bool { showTransport && !project.isSketchbook }
 
     @ViewBuilder
     private var settingsGear: some View {
@@ -117,6 +124,11 @@ struct ContentView: View {
         #if DEBUG
         // Store screenshots of the home grid (scripts/capture_screenshots.sh).
         if ProcessInfo.processInfo.arguments.contains("-ScreenshotHome") { return }
+        // A fresh sketchbook, shaped to this screen (`-ScreenshotSketchbook`).
+        if ProcessInfo.processInfo.arguments.contains("-ScreenshotSketchbook") {
+            project.createBlank()
+            return
+        }
         #endif
         if Screenshot.paywallPrice != nil {
             lock = .general
@@ -129,7 +141,8 @@ struct ContentView: View {
         let saved = RotoProject.listProjects()
         // First run: a short picture guide. Anyone who already has works
         // knows the app, so they never see it.
-        if saved.isEmpty, !hasSeenOnboarding {
+        // The guide is about flipbooks; a sketchbook needs none.
+        if saved.isEmpty, !hasSeenOnboarding, flipbooksOpen {
             showOnboarding = true
         } else if !hasSeenOnboarding {
             hasSeenOnboarding = true
@@ -139,28 +152,15 @@ struct ContentView: View {
         }
     }
 
-    // MARK: - Canvas + stamp columns
-    // The letterboxed canvas left black bars on both sides — they're now
-    // stamp palettes: tap a shape, then tap the canvas to stamp it.
+    // MARK: - Canvas
 
     private var canvasArea: some View {
         ZStack(alignment: .bottomTrailing) {
-            Group {
-                if isCompact {
-                    // No room beside the canvas on a phone: one stamp row underneath.
-                    VStack(spacing: 0) {
-                        CanvasView()
-                        stampRow
-                    }
-                } else {
-                    HStack(spacing: 0) {
-                        stampColumn(Array(StampShape.allCases.prefix(4)))
-                        CanvasView()
-                        stampColumn(Array(StampShape.allCases.suffix(4)), sizes: true)
-                    }
-                }
-            }
-            .background(Color.black)
+            // Around a page that isn't the screen's shape: a soft desk, not black.
+            CanvasView()
+                .background(Color(uiColor: .systemGray6))
+                // With no play bar below, the page runs to the bottom edge.
+                .ignoresSafeArea(.container, edges: showsTransport ? [] : .bottom)
 
             // Bring the hidden play bar back.
             if !showTransport, !project.isSketchbook {
@@ -177,78 +177,6 @@ struct ContentView: View {
                 .padding(14)
             }
         }
-    }
-
-    private func stampColumn(_ shapes: [StampShape], sizes: Bool = false) -> some View {
-        VStack(spacing: 14) {
-            ForEach(shapes) { shape in
-                stampButton(shape)
-            }
-            if sizes {
-                Rectangle()
-                    .fill(Color.white.opacity(0.25))
-                    .frame(width: 42, height: 1)
-                    .padding(.vertical, 2)
-                ForEach(RotoProject.stampSizePresets, id: \.self) { value in
-                    stampSizeButton(value)
-                }
-            }
-        }
-        .frame(width: 78)
-        .frame(maxHeight: .infinity)
-    }
-
-    /// Every stamp in one row; the stamp sizes sit with the brush sizes up top.
-    private var stampRow: some View {
-        HStack(spacing: 6) {
-            ForEach(StampShape.allCases) { stampButton($0) }
-        }
-        .padding(8)
-    }
-
-    /// 도장 크기: three dots whose size previews the stamp size.
-    private func stampSizeButton(_ value: Double) -> some View {
-        let selected = abs(project.stampSize - value) < 0.001
-        return Button {
-            project.stampSize = value
-            project.tool = .stamp   // picking a stamp size means "stamp"
-        } label: {
-            Circle()
-                .fill(Color.white)
-                .frame(width: 8 + value * 90, height: 8 + value * 90)
-                .frame(width: 44, height: 44)
-                .background(
-                    Circle().fill(selected ? Color.accentColor : Color.white.opacity(0.14))
-                )
-        }
-        .buttonStyle(.plain)
-        .accessibilityLabel(Self.stampSizeLabel(value))
-        .accessibilityAddTraits(selected ? .isSelected : [])
-    }
-
-    private func stampButton(_ shape: StampShape) -> some View {
-        let selected = project.tool == .stamp && project.stampShape == shape
-        return Button {
-            project.stampShape = shape
-            project.tool = .stamp
-        } label: {
-            Image(systemName: shape.symbol)
-                .font(.system(size: isCompact ? 20 : 26))
-                .foregroundStyle(selected ? Color(rgbHex: project.brushColorHex) : .white)
-                .frame(width: isCompact ? nil : 58, height: isCompact ? 40 : 58)
-                .frame(maxWidth: isCompact ? .infinity : nil)
-                .background(
-                    RoundedRectangle(cornerRadius: 14)
-                        .fill(selected ? Color.white : Color.white.opacity(0.14))
-                )
-                .overlay(
-                    RoundedRectangle(cornerRadius: 14)
-                        .stroke(Color.accentColor, lineWidth: selected ? 3 : 0)
-                )
-        }
-        .buttonStyle(.plain)
-        .accessibilityLabel(shape.accessibilityName)
-        .accessibilityAddTraits(selected ? .isSelected : [])
     }
 
     // MARK: - Page flash: big "4 / 32" in the middle when turning pages
@@ -278,57 +206,173 @@ struct ContentView: View {
         }
     }
 
-    // MARK: - Toolbar (tools + colors + sizes + save)
+    // MARK: - Toolbar
+    // Grouped by what the kid means to do, each group in its own tray:
+    // leave (home) · draw and wipe · make it move (flipbooks only) · keep (save),
+    // then what the line looks like — color and size.
 
-    // Two fixed rows so everything is always visible — no scrolling for kids.
-    // Row 1: actions. Row 2: colors and brush sizes.
     private var toolbar: some View {
         VStack(spacing: 8) {
             if isCompact {
                 compactRows
             } else {
-                toolRow
-                paletteRow
+                // One row whenever it fits (most iPads), so the page gets the most room.
+                ViewThatFits(in: .horizontal) {
+                    oneRow
+                    VStack(spacing: 8) {
+                        toolRow
+                        looksRow
+                    }
+                }
             }
         }
         .frame(maxWidth: .infinity)
-        .padding(.horizontal, isCompact ? 12 : 16)
+        .padding(.horizontal, 12)
         .padding(.vertical, isCompact ? 8 : 10)
     }
 
-    /// The same buttons on a phone, in three rows that share the width:
-    /// home and drawing tools · sound, playback, save and sizes · colors.
-    @ViewBuilder
-    private var compactRows: some View {
+    /// Everything in one line: home · draw · stamps · looks · move · save.
+    private var oneRow: some View {
         HStack(spacing: 6) {
             iconButton("house.fill", label: "홈으로") { project.goHome() }
-            toolButton("paintbrush.pointed.fill", tool: .brush, label: "붓")
-            toolButton("eraser.fill", tool: .erase, label: "지우개")
-            clearPageButton
-        }
-        HStack(spacing: 6) {
+            Spacer(minLength: 0)
+            drawTools.toolTray()
+            stampGrid.toolTray()
+            HStack(spacing: 10) {
+                colorPalette
+                Divider().frame(height: 60)
+                sizeDots
+            }
+            .toolTray()
             if !project.isSketchbook {
-                dubButton
-                playButton
+                moveTools.toolTray()
             }
-            backgroundButton
+            Spacer(minLength: 0)
             exportButton
-            Divider().frame(height: 30)
-            // Stamping: the stamp sizes; otherwise the brush sizes.
-            if project.tool == .stamp {
-                ForEach(RotoProject.stampSizePresets, id: \.self) { stampSizeDot($0) }
-            } else {
-                ForEach(RotoProject.widthPresets, id: \.name) { sizeDot($0.value) }
-            }
-        }
-        HStack(spacing: 0) {
-            ForEach(RotoProject.palette, id: \.self) { hex in
-                colorDot(hex).frame(maxWidth: .infinity)
-            }
         }
     }
 
-    /// A stamp size among the toolbar's size dots (phone layout).
+    /// The colors stacked like a paint box, five over five, so one row holds everything.
+    private var colorPalette: some View {
+        let palette = RotoProject.palette
+        let half = (palette.count + 1) / 2
+        return Grid(horizontalSpacing: isCompact ? 14 : 8, verticalSpacing: 8) {
+            GridRow { ForEach(palette.prefix(half), id: \.self) { colorDot($0) } }
+            GridRow { ForEach(palette.dropFirst(half), id: \.self) { colorDot($0) } }
+        }
+    }
+
+    /// Home on the left, save on the right, the trays in between.
+    private var toolRow: some View {
+        HStack(spacing: 12) {
+            iconButton("house.fill", label: "홈으로") { project.goHome() }
+            Spacer(minLength: 0)
+            drawTools.toolTray()
+            stampGrid.toolTray()
+            if !project.isSketchbook {
+                moveTools.toolTray()
+            }
+            Spacer(minLength: 0)
+            exportButton
+        }
+    }
+
+    /// Colors, then sizes: how the next line looks.
+    private var looksRow: some View {
+        HStack(spacing: 10) {
+            ForEach(RotoProject.palette, id: \.self) { colorDot($0) }
+            Divider().frame(height: 34)
+            sizeDots
+        }
+        .toolTray()
+    }
+
+    /// A phone: home · draw tray · save, then stamps, then colors and sizes, then sound and play.
+    @ViewBuilder
+    private var compactRows: some View {
+        HStack(spacing: 8) {
+            iconButton("house.fill", label: "홈으로") { project.goHome() }
+            drawTools.toolTray()
+            exportButton
+        }
+        HStack(spacing: 0) {
+            ForEach(StampShape.allCases) { stampButton($0).frame(maxWidth: .infinity) }
+        }
+        HStack(spacing: 12) {
+            colorPalette
+            Divider().frame(height: 50)
+            sizeDots
+        }
+        if !project.isSketchbook {
+            moveTools.toolTray()
+        }
+    }
+
+    /// Draw and wipe: pen, stamp, eraser, and the whole-page trash.
+    @ViewBuilder
+    private var drawTools: some View {
+        toolButton("paintbrush.pointed.fill", selected: project.tool == .brush, label: "붓") {
+            project.tool = .brush
+        }
+        toolButton("eraser.fill", selected: project.tool == .erase, label: "지우개") {
+            project.tool = .erase
+        }
+        clearPageButton
+    }
+
+    /// Make it move: voice, play, and the video behind the drawing.
+    @ViewBuilder
+    private var moveTools: some View {
+        dubButton
+        playButton
+        backgroundButton
+    }
+
+    /// The size of what the kid is drawing: stamp sizes while stamping.
+    @ViewBuilder
+    private var sizeDots: some View {
+        if project.tool == .stamp {
+            ForEach(RotoProject.stampSizePresets, id: \.self) { stampSizeDot($0) }
+        } else {
+            ForEach(RotoProject.widthPresets, id: \.name) { sizeDot($0.value) }
+        }
+    }
+
+    // MARK: - Stamps: every shape right on the toolbar — one tap picks it
+
+    /// Four over four, like the colors.
+    private var stampGrid: some View {
+        let shapes = StampShape.allCases
+        return Grid(horizontalSpacing: 6, verticalSpacing: 6) {
+            GridRow { ForEach(shapes.prefix(4)) { stampButton($0) } }
+            GridRow { ForEach(shapes.dropFirst(4)) { stampButton($0) } }
+        }
+    }
+
+    private func stampButton(_ shape: StampShape) -> some View {
+        let selected = project.tool == .stamp && project.stampShape == shape
+        return Button {
+            project.stampShape = shape
+            project.tool = .stamp
+        } label: {
+            StampGlyph(shape: shape, colorHex: project.brushColorHex)
+                .frame(width: 24, height: 24)
+                .frame(width: 38, height: 38)
+                .background(
+                    RoundedRectangle(cornerRadius: 10)
+                        .fill(selected ? Color.accentColor.opacity(0.2) : Color.primary.opacity(0.06))
+                )
+                .overlay(
+                    RoundedRectangle(cornerRadius: 10)
+                        .stroke(Color.accentColor, lineWidth: selected ? 3 : 0)
+                )
+        }
+        .buttonStyle(.plain)
+        .accessibilityLabel(shape.accessibilityName)
+        .accessibilityAddTraits(selected ? .isSelected : [])
+    }
+
+    /// A stamp size among the size dots.
     private func stampSizeDot(_ value: Double) -> some View {
         let selected = abs(project.stampSize - value) < 0.001
         return Button { project.stampSize = value } label: {
@@ -340,46 +384,6 @@ struct ContentView: View {
         .background(Circle().fill(selected ? Color.accentColor.opacity(0.25) : .clear))
         .accessibilityLabel(Self.stampSizeLabel(value))
         .accessibilityAddTraits(selected ? .isSelected : [])
-    }
-
-    /// Home · drawing tools · page actions · sound and playback · save.
-    private var toolRow: some View {
-        HStack(spacing: 16) {
-            iconButton("house.fill", label: "홈으로") { project.goHome() }
-
-            Divider().frame(height: 34)
-
-            toolButton("paintbrush.pointed.fill", tool: .brush, label: "붓")
-            toolButton("eraser.fill", tool: .erase, label: "지우개")
-            clearPageButton
-
-            Divider().frame(height: 34)
-
-            if !project.isSketchbook {
-                dubButton
-                playButton
-            }
-            backgroundButton
-
-            Divider().frame(height: 34)
-
-            exportButton
-        }
-    }
-
-    /// Colors, then brush sizes.
-    private var paletteRow: some View {
-        HStack(spacing: 16) {
-            ForEach(RotoProject.palette, id: \.self) { hex in
-                colorDot(hex)
-            }
-
-            Divider().frame(height: 34)
-
-            ForEach(RotoProject.widthPresets, id: \.name) { preset in
-                sizeDot(preset.value)
-            }
-        }
     }
 
     private var clearPageButton: some View {
@@ -515,20 +519,26 @@ struct ContentView: View {
         .accessibilityShowsLargeContentViewer()
     }
 
-    private func toolButton(_ symbol: String, tool: ToolMode,
-                            label: LocalizedStringKey) -> some View {
-        Button { project.tool = tool } label: {
-            Image(systemName: symbol)
+    private func toolButton(_ symbol: String, selected: Bool, label: LocalizedStringKey,
+                            action: @escaping () -> Void) -> some View {
+        toolButton(selected: selected, label: label, action: action) { Image(systemName: symbol) }
+    }
+
+    private func toolButton<Icon: View>(selected: Bool, label: LocalizedStringKey,
+                                        action: @escaping () -> Void,
+                                        @ViewBuilder icon: () -> Icon) -> some View {
+        Button(action: action) {
+            icon()
                 .modifier(ToolIcon())
         }
         .buttonStyle(.bordered)
-        .tint(project.tool == tool ? .accentColor : .secondary)
+        .tint(selected ? .accentColor : .secondary)
         .background(
             RoundedRectangle(cornerRadius: 10)
-                .fill(project.tool == tool ? Color.accentColor.opacity(0.2) : .clear)
+                .fill(selected ? Color.accentColor.opacity(0.2) : .clear)
         )
         .accessibilityLabel(Text(label))
-        .accessibilityAddTraits(project.tool == tool ? .isSelected : [])
+        .accessibilityAddTraits(selected ? .isSelected : [])
         .accessibilityShowsLargeContentViewer()
     }
 
@@ -560,7 +570,7 @@ struct ContentView: View {
             Circle()
                 .fill(Color.primary)
                 .frame(width: 8 + value * 500, height: 8 + value * 500)
-                .frame(width: isCompact ? 36 : 44, height: isCompact ? 36 : 44)
+                .frame(width: 36, height: 36)
         }
         .background(
             Circle().fill(selected ? Color.accentColor.opacity(0.25) : .clear)
@@ -578,8 +588,8 @@ struct ContentView: View {
         case "FF9500": return Text("주황")
         case "FFCC00": return Text("노랑")
         case "34C759": return Text("초록")
-        case "00C7BE": return Text("청록")
         case "007AFF": return Text("파랑")
+        case "3A3FBF": return Text("남색")
         case "AF52DE": return Text("보라")
         case "FF2D55": return Text("분홍")
         case "FFFFFF": return Text("흰색")
@@ -779,6 +789,40 @@ extension StampShape {
     }
 }
 
+/// A stamp drawn from its real outline in the pen color, so the button
+/// shows exactly what lands on the page. A thin edge keeps white visible.
+private struct StampGlyph: View {
+    let shape: StampShape
+    let colorHex: String
+
+    var body: some View {
+        Outline(shape: shape)
+            .fill(Color(rgbHex: colorHex))
+            .overlay(Outline(shape: shape).stroke(Color.primary.opacity(0.25), lineWidth: 1))
+    }
+
+    private struct Outline: Shape {
+        let shape: StampShape
+
+        func path(in rect: CGRect) -> Path {
+            let r = min(rect.width, rect.height) / 2
+            let points = shape.unitPoints.map {
+                CGPoint(x: rect.midX + $0.x * r, y: rect.midY + $0.y * r)
+            }
+            return Path(StrokeGeometry.path(points: points, closed: true, smooth: shape.smooth))
+        }
+    }
+}
+
+private extension View {
+    /// One group of tools sits in its own soft tray.
+    func toolTray() -> some View {
+        HStack(spacing: 8) { self }
+            .padding(6)
+            .background(RoundedRectangle(cornerRadius: 16).fill(Color.primary.opacity(0.06)))
+    }
+}
+
 /// A toolbar icon: big on iPad; on a phone the buttons in a row share its width.
 private struct ToolIcon: ViewModifier {
     @Environment(\.horizontalSizeClass) private var sizeClass
@@ -792,7 +836,7 @@ private struct ToolIcon: ViewModifier {
         } else {
             content
                 .font(.system(size: 26))
-                .frame(width: 56, height: 48)
+                .frame(width: 48, height: 48)
         }
     }
 }
