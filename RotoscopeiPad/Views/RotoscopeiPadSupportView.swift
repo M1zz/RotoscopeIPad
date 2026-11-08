@@ -8,6 +8,7 @@ struct RotoscopeiPadSupportView: View {
     /// behind the same grown-up check as the purchase screen.
     @State private var parentVerified = false
     @Environment(\.dismiss) private var dismiss
+    @State private var workCount = RotoProject.listProjects().count
 
     var body: some View {
         if parentVerified {
@@ -75,6 +76,16 @@ struct RotoscopeiPadSupportView: View {
                 if let tipJar = store.tipJar, store.hasPro {
                     TipAskCard(tipJar: tipJar)
                 }
+                // Kids fill the home grid fast; a grown-up clears many works at once here.
+                Section {
+                    NavigationLink { WorksManagerView() } label: {
+                        LabeledContent {
+                            Text(verbatim: "\(workCount)")
+                        } label: {
+                            Label("작품 정리", systemImage: "square.grid.2x2")
+                        }
+                    }
+                } header: { Text("내 작품") }
                 Section {
                     LeeoSupportSection<RotoscopeiPadSpec>()
                     NavigationLink(LeeoRoadmapText.entry) { RoadmapScreen() }
@@ -90,6 +101,9 @@ struct RotoscopeiPadSupportView: View {
                 } header: { Text("지원") }
             }
             .navigationTitle("설정")
+            .onReceive(NotificationCenter.default.publisher(for: RotoProject.projectsDidChange)) { _ in
+                workCount = RotoProject.listProjects().count
+            }
             .sheet(isPresented: $showUnlock) {
                 UnlockSheet(reason: .general)
             }

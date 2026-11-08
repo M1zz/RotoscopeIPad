@@ -80,6 +80,9 @@ struct HomeView: View {
             }
         }
         .onAppear { projects = RotoProject.listProjects() }
+        .onReceive(NotificationCenter.default.publisher(for: RotoProject.projectsDidChange)) { _ in
+            projects = RotoProject.listProjects()
+        }
         .sheet(isPresented: $project.showLinkImport) {
             VideoLinkImportSheet()
         }
@@ -173,7 +176,6 @@ struct HomeView: View {
                 // Long-press → red trash to delete.
                 Button(role: .destructive) {
                     RotoProject.deleteProject(at: dir)
-                    projects = RotoProject.listProjects()
                 } label: {
                     Label("지우기", systemImage: "trash")
                 }

@@ -307,17 +307,20 @@ final class RotoProject: ObservableObject {
 
     /// Project folders, most recently edited first.
     static func listProjects() -> [URL] {
-        let fm = FileManager.default
-        guard let dirs = try? fm.contentsOfDirectory(at: projectsRoot,
-                                                     includingPropertiesForKeys: nil) else { return [] }
-        func editedAt(_ dir: URL) -> Date {
-            let json = dir.appendingPathComponent("project.json")
-            return (try? fm.attributesOfItem(atPath: json.path)[.modificationDate] as? Date)
-                .flatMap { $0 } ?? .distantPast
-        }
+        guard let dirs = try? FileManager.default.contentsOfDirectory(at: projectsRoot,
+                                                                      includingPropertiesForKeys: nil) else { return [] }
         return dirs.filter { $0.hasDirectoryPath }
-            .sorted { editedAt($0) > editedAt($1) }
+            .sorted { (editedAt($0) ?? .distantPast) > (editedAt($1) ?? .distantPast) }
     }
+
+    /// When a work was last drawn on (its project.json was saved).
+    static func editedAt(_ dir: URL) -> Date? {
+        let json = dir.appendingPathComponent("project.json")
+        return (try? FileManager.default.attributesOfItem(atPath: json.path)[.modificationDate]) as? Date
+    }
+
+    /// Posted after works are deleted, so the home grid redraws behind the settings sheet.
+    static let projectsDidChange = Notification.Name("RotoProject.projectsDidChange")
 
     /// Deletes a project folder (video, drawings, thumbnail).
     static func deleteProject(at dir: URL) {
@@ -325,6 +328,7 @@ final class RotoProject: ObservableObject {
         guard dir.resolvingSymlinksInPath().path
             .hasPrefix(projectsRoot.resolvingSymlinksInPath().path) else { return }
         try? FileManager.default.removeItem(at: dir)
+        NotificationCenter.default.post(name: projectsDidChange, object: nil)
     }
 
     // MARK: - Create / open / close
