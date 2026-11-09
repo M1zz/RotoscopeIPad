@@ -28,6 +28,8 @@ struct RotoscopeiPadApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                // 개발자가 보낸 의견에 답장하면, 앱이 앞으로 올 때 답장을 시트로 보여 준다 (LeeoKit).
+                .leeoFeedbackReplyNotice(RotoscopeiPadSpec.self)
                 .environmentObject(project)
                 .environmentObject(store)
                 // Re-read the pass when it changes (purchase, offer code) and on every return.
