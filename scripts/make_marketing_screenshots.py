@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
-"""아이패드 마케팅 스크린샷: HTML → 헤드리스 Chrome (2064x2752).
+"""마케팅 스크린샷: HTML → 헤드리스 Chrome. 아이패드 2064x2752 · 아이폰 1242x2688.
 
-사용법: python3 scripts/make_marketing_screenshots.py [언어 ...]   (없으면 전부)
+사용법: python3 scripts/make_marketing_screenshots.py [--ipad | --iphone] [언어 ...]   (없으면 전부)
 
-원본   docs/screenshots/raw/<로케일>/NN-….png       시뮬레이터(iPad Pro 13") 캡처 2064x2752
+원본   docs/screenshots/raw/<로케일>/NN-….png       아이패드(iPad Pro 13") 캡처 2064x2752
        (scripts/capture_screenshots.sh 가 언어마다 찍는다)
-제출본 docs/screenshots/marketing/<로케일>/NN-….png  스토어에 그대로 올라간다
+       docs/screenshots/raw/iphone/NN-….png         아이폰(6.9") 캡처 1320x2868 — 화면에 글자가 없어 한 벌
+       (scripts/capture_iphone_screenshots.sh)
+제출본 docs/screenshots/marketing/<로케일>/NN-….png          아이패드
+       docs/screenshots/marketing/<로케일>/NN-…-iphone.png   아이폰
+       스토어에 그대로 올라간다. DeployBar 가 픽셀 크기로 기기 자리를 가른다.
 
-팔랑북은 아이패드 전용이다. 바탕 · 글자색 · 도장은 제품 페이지 헤더(make_creative_assets.py)와 같다.
+글은 두 기기가 같다. 바탕 · 글자색 · 도장은 제품 페이지 헤더(make_creative_assets.py)와 같다.
 """
 import pathlib, subprocess, sys, tempfile
 
@@ -17,7 +21,11 @@ OUT = ROOT / "docs" / "screenshots" / "marketing"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 # 따로 쓰는 프로필 — 켜 둔 Chrome 이나 다른 headless 와 프로필을 나눠 쓰면 멈추거나 빈 그림이 나온다.
 PROFILE = tempfile.mkdtemp(prefix="palangbook-chrome-")
-W, H = 2064, 2752
+# 기기마다: 캔버스, 원본 폴더(언어 → 폴더), 제출본 이름 꼬리, 글 · 틀 크기를 줄이는 비율
+DEVICES = {
+    "ipad": dict(W=2064, H=2752, raw=lambda lang: RAW / lang, suffix="", k=1.0),
+    "iphone": dict(W=1242, H=2688, raw=lambda lang: RAW / "iphone", suffix="-iphone", k=0.62),
+}
 
 # (원본 파일, 배치, 눈썹글, 헤드라인, 보조 한 줄)
 SHOTS = {
@@ -280,6 +288,15 @@ body { background:#FFF9F1; position:relative;
 .ipad img { width:100%%; display:block; border-radius:60px; }
 .stamp { position:absolute; }
 """
+# 아이폰: 좁은 캔버스에 맞춘 글 크기와 폰 틀
+CSS_IPHONE = """
+.text { left:60px; right:60px; top:190px; }
+.eyebrow { font-size:54px; }
+.headline { font-size:108px; margin-top:20px; }
+.sub { font-size:46px; margin-top:30px; }
+.ipad { padding:22px; border-radius:128px; border-width:4px; }
+.ipad img { border-radius:106px; }
+"""
 
 # 적은 줄(<br>)이 상자 폭을 넘으면 글자를 줄인다 — 더 쪼개지지 않게 nowrap 으로 둔다.
 FIT = """<script>
@@ -305,6 +322,11 @@ PLACE = {
     "tilt-left": dict(left=300, top=1010, width=1560, rot=-4),
     "tilt-right": dict(left=210, top=1010, width=1560, rot=4),
 }
+PLACE_IPHONE = {
+    "hero": dict(left=151, top=790, width=940, rot=0),
+    "tilt-left": dict(left=176, top=810, width=920, rot=-4),
+    "tilt-right": dict(left=146, top=810, width=920, rot=4),
+}
 DECOR = {
     "hero": [("heart", 60, 120, 170, "#FF4F79", -14), ("star", 1840, 140, 160, "#FFC21A", 12)],
     "tilt-left": [("star", 70, 150, 160, "#FFC21A", -10), ("circle", 1880, 220, 110, "#2E8CFF", 0, .7)],
@@ -312,12 +334,16 @@ DECOR = {
 }
 
 
-def page(lang, src, layout, eyebrow, headline, sub):
-    p = PLACE[layout]
-    img = (RAW / lang / src).as_uri()
-    deco = "".join(stamp(*d) for d in DECOR[layout])
-    return f"""<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><style>{CSS % {"W": W, "H": H}}</style></head><body>
-<div class="glow" style="left:300px;top:1300px;width:1500px;height:1500px;background:rgba(255,149,0,.16)"></div>
+def page(lang, device, src, layout, eyebrow, headline, sub):
+    dev = DEVICES[device]
+    W, H, k = dev["W"], dev["H"], dev["k"]
+    p = (PLACE_IPHONE if device == "iphone" else PLACE)[layout]
+    img = (dev["raw"](lang) / src).as_uri()
+    # 도장은 캔버스 폭에 맞춰 자리와 크기를 줄인다
+    deco = "".join(stamp(d[0], d[1] * W / 2064, d[2] * k, d[3] * k, *d[4:]) for d in DECOR[layout])
+    css = CSS % {"W": W, "H": H} + (CSS_IPHONE if device == "iphone" else "")
+    return f"""<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><style>{css}</style></head><body>
+<div class="glow" style="left:{300 * k}px;top:1300px;width:{1500 * k}px;height:1500px;background:rgba(255,149,0,.16)"></div>
 {deco}
 <div class="text"><div class="eyebrow">{eyebrow}</div><div class="headline">{headline}</div><div class="sub">{sub}</div></div>
 <div class="ipad" style="left:{p['left']}px;top:{p['top']}px;width:{p['width']}px;transform:rotate({p['rot']}deg)"><img src="{img}"></div>
@@ -325,13 +351,15 @@ def page(lang, src, layout, eyebrow, headline, sub):
 </body></html>"""
 
 
-def render(lang):
+def render(lang, device):
+    dev = DEVICES[device]
+    W, H = dev["W"], dev["H"]
     out_dir = OUT / lang
     out_dir.mkdir(parents=True, exist_ok=True)
     for src, layout, eyebrow, headline, sub in SHOTS[lang]:
-        html = pathlib.Path(tempfile.gettempdir()) / f"palangbook-mkt-{lang}-{src}.html"
-        html.write_text(page(lang, src, layout, eyebrow, headline, sub), encoding="utf-8")
-        out = out_dir / src
+        html = pathlib.Path(tempfile.gettempdir()) / f"palangbook-mkt-{device}-{lang}-{src}.html"
+        html.write_text(page(lang, device, src, layout, eyebrow, headline, sub), encoding="utf-8")
+        out = out_dir / (pathlib.Path(src).stem + dev["suffix"] + ".png")
         # 그림을 다 쓰고 닫다가 죽기도 해서(Teardown watchdog) 끝 코드 대신 새로 쓴 파일로 판단한다.
         out.unlink(missing_ok=True)
         for _ in range(3):
@@ -350,5 +378,8 @@ def render(lang):
 
 
 if __name__ == "__main__":
-    for lang in sys.argv[1:] or list(SHOTS):
-        render(lang)
+    args = sys.argv[1:]
+    devices = [d for d in DEVICES if f"--{d}" in args] or list(DEVICES)
+    for lang in [a for a in args if not a.startswith("--")] or list(SHOTS):
+        for device in devices:
+            render(lang, device)

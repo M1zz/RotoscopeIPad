@@ -21,15 +21,31 @@ P = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(P)
 W, H, FRAMES = P.W, P.H, P.FRAMES
 
-# 밑그림 선을 그리지 않고 모은다
+# 밑그림 선을 그리지 않고 모은다 — 생성기의 Pen 과 같은 모양의 펜이 선을 받아 적는다
 _lines = []
-P.stroke = lambda d, pts, width=P.LW, closed=False: _lines.append((list(pts), closed))
-P.dot = lambda d, cx, cy, r: _lines.append((P.ellipse_pts(cx, cy, r * 0.5, r * 0.5, n=10), True))
+
+
+class Recorder(P.Pen):
+    def __init__(self):
+        self.T = None
+
+    def _placed(self, pts):
+        return list(self.T(pts) if self.T else pts)
+
+    def line(self, pts, w=P.LW):
+        _lines.append((self._placed(pts), False, False))
+
+    def shape(self, pts, w=P.LW, erase=True):
+        _lines.append((self._placed(pts), True, False))
+
+    def fill(self, pts, color=P.LINE):
+        if color != P.CLEAR:   # 눈의 반짝임처럼 지우는 칠은 그릴 선이 아니다
+            _lines.append((self._placed(pts), True, True))
 
 
 def guide_lines(fn, f):
     _lines.clear()
-    fn(None, f / FRAMES)
+    fn(Recorder(), f / FRAMES)
     return list(_lines)
 
 
@@ -88,28 +104,29 @@ def stamp(shape, cx, cy, size, color):
                        width=0.004, closed=True, smooth=smooth)
 
 
-# 작품: 밑그림, 펼쳐 둘 장, 선마다 색(밑그림 선 순서대로), 도장
+# 작품: 밑그림, 펼쳐 둘 장, 색(큰 선, 작은 선, 눈 · 점), 도장
+# 색을 선 순서로 돌리면 밑그림이 바뀔 때마다 뒤죽박죽이 된다 — 선의 크기로 고른다.
 WORKS = [
-    dict(name="bunny", preset="02_bunny", frame=5,
-         colors=["34C759", "FF9500", "FF9500", "FF9500", "FF2D55", "FF2D55", "000000", "FF2D55",
-                 "FF2D55", "FF2D55", "FF2D55"],
+    dict(name="bunny", preset="02_bunny", frame=5, colors=("FF9500", "FF2D55", "000000"),
          stamps=[("heart", 260, 230, .09, "FF2D55"), ("star", 1350, 220, .09, "FFCC00"),
                  ("flower", 1300, 820, .07, "AF52DE")]),
-    dict(name="rocket", preset="08_rocket", frame=6,
-         colors=["007AFF", "FF3B30", "007AFF", "FF9500", "FF9500", "FFCC00", "FF3B30",
-                 "FFCC00", "FF2D55", "FF9500", "AF52DE"],
+    dict(name="rocket", preset="08_rocket", frame=6, colors=("007AFF", "FF3B30", "FF9500"),
          stamps=[("star", 300, 230, .07, "FFCC00"), ("star", 1310, 350, .05, "FFCC00"),
                  ("circle", 380, 760, .05, "AF52DE")]),
-    dict(name="fish", preset="04_fish", frame=4,
-         colors=["007AFF", "FF9500", "FF3B30", "000000", "00C7BE", "00C7BE", "007AFF", "007AFF", "00C7BE"],
+    dict(name="fish", preset="04_fish", frame=4, colors=("007AFF", "00C7BE", "000000"),
          stamps=[("heart", 1390, 230, .07, "FF2D55")]),
-    dict(name="bird", preset="03_bird", frame=3,
-         colors=["AF52DE", "FF9500", "FF9500", "000000", "FFCC00", "000000", "AF52DE", "AF52DE"],
+    dict(name="bird", preset="03_bird", frame=3, colors=("AF52DE", "FF9500", "000000"),
          stamps=[("flower", 230, 900, .05, "FF2D55")]),
-    dict(name="frog", preset="09_frog", frame=2,
-         colors=["34C759", "34C759", "34C759", "000000", "000000", "000000", "FF3B30", "007AFF", "007AFF"],
+    dict(name="frog", preset="09_frog", frame=2, colors=("34C759", "007AFF", "000000"),
          stamps=[]),
 ]
+
+
+def span(pts):
+    xs, ys = [x for x, _ in pts], [y for _, y in pts]
+    return math.hypot(max(xs) - min(xs), max(ys) - min(ys))
+
+
 FN = dict(P.PRESETS)
 
 
@@ -119,13 +136,16 @@ def build(work, docs):
     masks = {}
     for f in range(work["frame"] + 1):
         strokes = []
-        for i, (pts, closed) in enumerate(guide_lines(fn, f)):
-            color = work["colors"][i % len(work["colors"])]
+        lines = guide_lines(fn, f)
+        biggest = max(span(pts) for pts, _, _ in lines)
+        big, little, detail = work["colors"]
+        for pts, closed, filled in lines:
+            color = detail if filled else big if span(pts) > biggest * .3 else little
             if closed:
                 pts = pts + pts[:2]
-            small = len(pts) < 14 and max(abs(pts[0][0] - p[0]) + abs(pts[0][1] - p[1]) for p in pts) < 40
-            strokes.append(stroke_json(wobble(pts, rnd, amp=0 if small else 7,
-                                              shift=(rnd.uniform(-10, 10), rnd.uniform(-10, 10))),
+            small = span(pts) < 60
+            strokes.append(stroke_json(wobble(pts, rnd, amp=0 if small else 5,
+                                              shift=(rnd.uniform(-6, 6), rnd.uniform(-6, 6))),
                                        color, width=0.016 if not small else 0.02))
         if f == work["frame"]:
             strokes += [stamp(*s) for s in work["stamps"]]
