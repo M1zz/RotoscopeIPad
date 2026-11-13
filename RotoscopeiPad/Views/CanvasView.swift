@@ -19,6 +19,9 @@ final class DrawingInputView: UIView {
         super.init(frame: frame)
         addGestureRecognizer(UIHoverGestureRecognizer(
             target: self, action: #selector(handleHover(_:))))
+        let pencil = UIPencilInteraction()
+        pencil.delegate = self
+        addInteraction(pencil)
         // VoiceOver 를 켜도 손가락으로 바로 그릴 수 있게 직접 조작 영역으로 둔다.
         isAccessibilityElement = true
         accessibilityLabel = String(localized: "그림판")
@@ -340,5 +343,27 @@ struct CanvasView: View {
         }
         ctx.stroke(path, with: .color(base.opacity(alpha)),
                    style: StrokeStyle(lineWidth: lineW, lineCap: .round, lineJoin: .round))
+    }
+}
+
+// MARK: - Apple Pencil 두 번 탭
+
+extension DrawingInputView: UIPencilInteractionDelegate {
+    @available(iOS 17.5, *)
+    func pencilInteraction(_ interaction: UIPencilInteraction, didReceiveTap tap: UIPencilInteraction.Tap) {
+        handlePencilTap()
+    }
+
+    // iOS 17.0–17.4
+    func pencilInteractionDidTap(_ interaction: UIPencilInteraction) {
+        handlePencilTap()
+    }
+
+    private func handlePencilTap() {
+        switch UIPencilInteraction.preferredTapAction {
+        case .switchEraser: project?.pencilDoubleTap(switchToPrevious: false)
+        case .switchPrevious: project?.pencilDoubleTap(switchToPrevious: true)
+        default: break   // 끄기 · 색 팔레트 등 — 사용자가 고른 대로 아무것도 안 한다
+        }
     }
 }

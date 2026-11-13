@@ -25,7 +25,24 @@ final class RotoProject: ObservableObject {
     @Published var displayImage: UIImage?
 
     @Published var masks: [Int: FrameMask] = [:]
-    @Published var tool: ToolMode = .brush
+    @Published var tool: ToolMode = .brush {
+        didSet { if oldValue != tool { previousTool = oldValue } }
+    }
+    /// 바로 전에 쓰던 도구 — Apple Pencil 두 번 탭으로 오간다.
+    private(set) var previousTool: ToolMode = .brush
+
+    /// Apple Pencil 두 번 탭. 설정 ▸ Apple Pencil 에서 고른 동작을 따른다:
+    /// 지우개로 바꾸기면 지우개 ↔ 쓰던 도구, 이전 도구로 바꾸기면 바로 전 도구로.
+    func pencilDoubleTap(switchToPrevious: Bool) {
+        guard !isPlaying else { return }
+        if switchToPrevious {
+            tool = previousTool
+        } else if tool == .erase {
+            tool = previousTool == .erase ? .brush : previousTool
+        } else {
+            tool = .erase
+        }
+    }
     /// Flipbook feel: the previous drawing shows through faintly so the kid
     /// thinks "이제 다음 그림을 그린다", not "next video frame".
     @Published var showOnionSkin: Bool = true

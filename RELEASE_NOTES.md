@@ -1,5 +1,151 @@
 # 팔랑북 릴리즈 노트
 
+## 1.0.7
+
+### 앱스토어 (한국어)
+
+Apple Pencil을 두 번 톡 치면 지우개가 돼요
+한 번 더 치면 쓰던 붓으로 돌아와요
+Apple Pencil 설정에서 고른 대로 바뀌어요
+
+### App Store (en-US)
+
+Double-tap Apple Pencil for the eraser
+Double-tap again to get your brush back
+It follows your Apple Pencil settings
+
+### App Store (en-GB)
+
+Double-tap Apple Pencil for the rubber
+Double-tap again to get your brush back
+It follows your Apple Pencil settings
+
+### 앱스토어 (일본어, ja)
+
+Apple Pencilをダブルタップで消しゴムに
+もう一度タップすると筆に戻ります
+Apple Pencilの設定どおりに切り替わります
+
+### 앱스토어 (중국어 간체, zh-Hans)
+
+轻点两下 Apple Pencil 即可换成橡皮擦
+再轻点两下就回到原来的画笔
+按照你的 Apple Pencil 设置切换
+
+### 앱스토어 (중국어 번체, zh-Hant)
+
+點兩下 Apple Pencil 就能換成橡皮擦
+再點兩下就回到原本的畫筆
+依照你的 Apple Pencil 設定切換
+
+### 앱스토어 (스페인어, es-MX)
+
+Toca dos veces el Apple Pencil y borra
+Tócalo otra vez y vuelves a tu pincel
+Sigue tus ajustes del Apple Pencil
+
+### 앱스토어 (독일어, de-DE)
+
+Apple Pencil doppelt tippen: Radierer
+Nochmal tippen und zurück zum Pinsel
+Folgt deinen Apple Pencil-Einstellungen
+
+### 앱스토어 (프랑스어, fr-FR)
+
+Deux touchers sur l’Apple Pencil : gomme
+Encore deux, et revoilà votre pinceau
+Selon vos réglages de l’Apple Pencil
+
+### 앱스토어 (포르투갈어, pt-BR)
+
+Dois toques no Apple Pencil para apagar
+Toque de novo e volte ao seu pincel
+Segue os ajustes do seu Apple Pencil
+
+### 앱스토어 (이탈리아어, it)
+
+Doppio tocco su Apple Pencil: gomma
+Tocca ancora e torni al tuo pennello
+Segue le impostazioni di Apple Pencil
+
+### 앱스토어 (러시아어, ru)
+
+Двойное касание Apple Pencil — ластик
+Ещё раз — и снова в руке кисть
+Работает по настройкам Apple Pencil
+
+### 앱스토어 (태국어, th)
+
+แตะ Apple Pencil สองครั้งเพื่อใช้ยางลบ
+แตะอีกครั้งก็กลับไปใช้พู่กันเดิม
+สลับตามที่ตั้งค่า Apple Pencil ไว้
+
+### 앱스토어 (베트남어, vi)
+
+Chạm hai lần Apple Pencil để dùng tẩy
+Chạm lần nữa là quay lại cọ vẽ
+Làm theo cài đặt Apple Pencil của bạn
+
+### 앱스토어 (체코어, cs)
+
+Dvojí klepnutí na Apple Pencil: guma
+Další klepnutí a zpět ke štětci
+Řídí se nastavením Apple Pencil
+
+### 앱스토어 (덴마크어, da)
+
+Dobbelttryk på Apple Pencil: viskelæder
+Tryk igen, så er penslen tilbage
+Følger dine Apple Pencil-indstillinger
+
+### 앱스토어 (그리스어, el)
+
+Διπλό πάτημα στο Apple Pencil για γόμα
+Πάτα ξανά και γυρνάς στο πινέλο
+Ακολουθεί τις ρυθμίσεις του Apple Pencil
+
+### 앱스토어 (핀란드어, fi)
+
+Kaksoisnapauta Apple Penciliä: pyyhekumi
+Napauta uudelleen, niin sivellin palaa
+Toimii Apple Pencil -asetustesi mukaan
+
+### 앱스토어 (인도네시아어, id)
+
+Ketuk dua kali Apple Pencil untuk hapus
+Ketuk lagi untuk kembali ke kuas
+Mengikuti pengaturan Apple Pencil-mu
+
+### 앱스토어 (노르웨이어(보크말))
+
+Dobbelttrykk på Apple Pencil: viskelær
+Trykk igjen, så er penselen tilbake
+Følger Apple Pencil-innstillingene dine
+
+### 앱스토어 (네덜란드어, nl)
+
+Tik twee keer op Apple Pencil: gum
+Nog eens tikken en je penseel is terug
+Volgt je Apple Pencil-instellingen
+
+### 앱스토어 (폴란드어, pl)
+
+Stuknij dwa razy Apple Pencil: gumka
+Stuknij znów i wracasz do pędzla
+Działa wg ustawień Apple Pencil
+
+### 앱스토어 (스웨덴어, sv)
+
+Dubbeltryck på Apple Pencil för suddet
+Tryck igen så är penseln tillbaka
+Följer dina Apple Pencil-inställningar
+
+### 앱스토어 (튀르키예어, tr)
+
+Silgi için Apple Pencil'a iki kez dokun
+Yine dokun, fırçana geri dön
+Apple Pencil ayarlarına göre çalışır
+
 ## 1.0.6
 
 ### 앱스토어 (한국어)
