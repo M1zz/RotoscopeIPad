@@ -1245,7 +1245,7 @@ Rita av och se det röra sig
 
 ### 키워드
 
-måla,barn,förskola,stämplar,pyssel,kreativ,konst,animation,stopmotion,småbarn,klottra
+måla,barn,förskola,stämplar,pyssel,kreativ,konst,animation,stopmotion,småbarn,klottra,teckna,flipbok
 
 ### 프로모션 텍스트
 
