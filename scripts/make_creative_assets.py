@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """App Store 크리에이티브 자산(제품 페이지 헤더 · 검색 결과) 생성: HTML → 헤드리스 Chrome.
 
 사용법: python3 scripts/make_creative_assets.py [언어 ...]     (없으면 전부)
@@ -58,6 +59,7 @@ SEARCH = {
     "pl": ("Rysowanie dla dzieci", "Obrysuj i zobacz,<br>jak się rusza", "Strona po stronie, a rysunek się rusza"),
     "sv": ("Ritapp för barn", "Rita av och<br>se det röra sig", "Sida för sida, och teckningen rör sig"),
     "tr": ("Çocuk çizim uygulaması", "Üstünden çiz,<br>hareket etsin", "Sayfa sayfa, çizim hareket eder"),
+    "ar": ("رسم للأطفال", "تتبّع الخطوط<br>وشاهدها تتحرك", "صفحة بعد صفحة، فتتحرك الرسمة"),
 }
 
 # 헤더 — 한 가지 약속: 아이가 그린 그림이 움직인다(부제: 내 아이가 그려주는 애니메이션).
@@ -86,7 +88,11 @@ HEADER = {
     "pl": ("Dziecięce rysunki w ruchu", "Rysunki Twojego dziecka<br>ożywają"),
     "sv": ("Barnens teckningar i rörelse", "Barnets teckningar<br>väcks till liv"),
     "tr": ("Çocuk çizimleri animasyonda", "Çocuğunuzun çizimleri<br>canlanıyor"),
+    "ar": ("رسومات الأطفال تتحرك", "رسومات طفلك<br>تنبض بالحركة"),
 }
+
+# 오른쪽에서 왼쪽으로 쓰는 언어: 글과 기기 자리를 좌우로 바꾼다.
+RTL = {"ar"}
 
 # 바탕 · 글자색은 앱 화면과 같다: 하얀 종이, 따라 그리기 카드의 주황 점선, 도장 팔레트 색.
 BASE_CSS = """
@@ -100,6 +106,8 @@ body { background:#FFF9F1; position:relative;
 .headline { font-weight:800; color:#22252B; letter-spacing:-0.03em; line-height:1.14; text-wrap:balance; }
 .sub { font-weight:500; color:#7A7570; letter-spacing:-0.01em; line-height:1.35; text-wrap:balance; }
 :lang(ko) .headline, :lang(ko) .sub, :lang(ko) .eyebrow { word-break:keep-all; }
+/* 아랍어는 글자가 이어져 있어 자간을 좁히면 낱말이 붙는다. */
+:lang(ar) .headline, :lang(ar) .sub, :lang(ar) .eyebrow { letter-spacing:0; }
 .ipad { position:absolute; background:#202226; border:5px solid #d8d4cc; padding:46px; border-radius:110px;
   box-shadow: 0 60px 160px rgba(120,80,20,.20), 0 0 0 2px #2c2e33 inset; }
 .ipad img { width:100%%; display:block; border-radius:66px; }
@@ -162,17 +170,20 @@ def search_html(lang):
     pad_w = 1500
     pad_left = l + col + int(sw * 0.05)
     img = (RAW / lang / "01-trace-bunny.png").as_uri()
+    rtl = lang in RTL
+    # 오른쪽에서 왼쪽으로 읽으면 글이 오른쪽, 기기가 왼쪽이다.
+    x = (lambda left, width: W - left - width) if rtl else (lambda left, width: left)
     stamps = "".join([
-        stamp("heart", 180, 210, 300, "#FF4F79", -12),
-        stamp("star", 560, 2000, 260, "#FFC21A", 10),
-        stamp("circle", 120, 1650, 150, "#2E8CFF", 0, .7),
+        stamp("heart", x(180, 300), 210, 300, "#FF4F79", -12),
+        stamp("star", x(560, 260), 2000, 260, "#FFC21A", 10),
+        stamp("circle", x(120, 150), 1650, 150, "#2E8CFF", 0, .7),
     ])
     return f"""
-<div class="glow" style="left:{pad_left - 200}px;top:500px;width:1800px;height:1800px;background:rgba(255,149,0,.16)"></div>
-<div class="glow" style="left:{l - 700}px;top:{t - 500}px;width:1400px;height:1000px;background:rgba(255,79,121,.08)"></div>
+<div class="glow" style="left:{x(pad_left - 200, 1800)}px;top:500px;width:1800px;height:1800px;background:rgba(255,149,0,.16)"></div>
+<div class="glow" style="left:{x(l - 700, 1400)}px;top:{t - 500}px;width:1400px;height:1000px;background:rgba(255,79,121,.08)"></div>
 {stamps}
-{ipad(img, pad_left, t - 420, pad_w, 0)}
-<div class="text" style="left:{l}px;top:{t}px;width:{col}px;height:{sh}px">
+{ipad(img, x(pad_left, pad_w), t - 420, pad_w, 0)}
+<div class="text" style="left:{x(l, col)}px;top:{t}px;width:{col}px;height:{sh}px">
   <div class="eyebrow" style="font-size:96px">{eyebrow}</div>
   <div class="headline" data-max="230" data-min="130" style="margin-top:36px">{headline}</div>
   <div class="sub" style="font-size:80px;margin-top:52px">{sub}</div>
@@ -210,7 +221,8 @@ def html_lang(lang):
 def render(lang, kind):
     W, H, _ = SPEC[kind]
     body = search_html(lang) if kind == "search" else header_html(lang)
-    page = (f'<!doctype html><html lang="{html_lang(lang)}"><head><meta charset="utf-8"><style>'
+    rtl = ' dir="rtl"' if lang in RTL else ""
+    page = (f'<!doctype html><html lang="{html_lang(lang)}"{rtl}><head><meta charset="utf-8"><style>'
             f'{BASE_CSS % {"W": W, "H": H}}</style></head><body>{body}{FIT_JS}</body></html>')
     html_path = pathlib.Path(tempfile.gettempdir()) / f"palangbook-creative-{lang}-{kind}.html"
     html_path.write_text(page, encoding="utf-8")
