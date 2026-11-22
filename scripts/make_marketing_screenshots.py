@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """마케팅 스크린샷: HTML → 헤드리스 Chrome. 아이패드 2064x2752 · 아이폰 1242x2688.
 
 사용법: python3 scripts/make_marketing_screenshots.py [--ipad | --iphone] [언어 ...]   (없으면 전부)
@@ -6,6 +7,7 @@
 원본   docs/screenshots/raw/<로케일>/NN-….png       아이패드(iPad Pro 13") 캡처 2064x2752
        (scripts/capture_screenshots.sh 가 언어마다 찍는다)
        docs/screenshots/raw/iphone/NN-….png         아이폰(6.9") 캡처 1320x2868 — 화면에 글자가 없어 한 벌
+       docs/screenshots/raw/iphone-<로케일>/NN-….png  배치가 다른 언어(아랍어는 오른쪽에서 왼쪽)만 따로 찍은 아이폰 캡처
        (scripts/capture_iphone_screenshots.sh)
 제출본 docs/screenshots/marketing/<로케일>/NN-….png          아이패드
        docs/screenshots/marketing/<로케일>/NN-…-iphone.png   아이폰
@@ -24,7 +26,8 @@ PROFILE = tempfile.mkdtemp(prefix="palangbook-chrome-")
 # 기기마다: 캔버스, 원본 폴더(언어 → 폴더), 제출본 이름 꼬리, 글 · 틀 크기를 줄이는 비율
 DEVICES = {
     "ipad": dict(W=2064, H=2752, raw=lambda lang: RAW / lang, suffix="", k=1.0),
-    "iphone": dict(W=1242, H=2688, raw=lambda lang: RAW / "iphone", suffix="-iphone", k=0.62),
+    "iphone": dict(W=1242, H=2688, suffix="-iphone", k=0.62,
+                   raw=lambda lang: RAW / f"iphone-{lang}" if (RAW / f"iphone-{lang}").is_dir() else RAW / "iphone"),
 }
 
 # (원본 파일, 배치, 눈썹글, 헤드라인, 보조 한 줄)
@@ -271,6 +274,16 @@ SHOTS["tr"] = [
     ("04-home.png", "hero", "Kendi videolarınla da",
      "Çektiğin videoların<br>üstüne çiz", "Tüm çalışmalar ana ekranda bekler"),
 ]
+SHOTS["ar"] = [
+    ("01-trace-bunny.png", "hero", "تتبّع وحرّك",
+     "رسومات طفلك<br>تنبض بالحركة", "يتتبّع الخطوط الباهتة صفحةً بعد صفحة"),
+    ("02-trace-rocket.png", "tilt-left", "صفحة بعد صفحة",
+     "اتبع الخطوط<br>واصنع كرتونك", "أرنب وصاروخ وضفدع وغيرها: 10 مجموعات"),
+    ("03-stamps-fish.png", "tilt-right", "لوحة الأختام",
+     "قلوب ونجوم وزهور<br>بلمسة واحدة", "لا حاجة إلى القراءة، يكفي لمس الصور"),
+    ("04-home.png", "hero", "وفيديوهاتك أيضًا",
+     "ارسم فوق<br>فيديو صوّرته", "كل الأعمال تنتظرك في الشاشة الرئيسية"),
+]
 
 CSS = """
 * { margin:0; padding:0; box-sizing:border-box; }
@@ -283,6 +296,8 @@ body { background:#FFF9F1; position:relative;
 .headline { white-space:nowrap; font-size:150px; font-weight:800; color:#22252B; letter-spacing:-0.03em; line-height:1.16; margin-top:26px; }
 .sub { white-space:nowrap; font-size:66px; font-weight:500; color:#7A7570; letter-spacing:-0.01em; margin-top:40px; }
 :lang(ko) .headline, :lang(ko) .sub { word-break:keep-all; }
+/* 아랍어는 글자가 이어져 있어 자간을 좁히면 낱말이 붙는다. */
+:lang(ar) .eyebrow, :lang(ar) .headline, :lang(ar) .sub { letter-spacing:0; }
 .ipad { position:absolute; background:#202226; border:5px solid #d8d4cc; padding:40px; border-radius:100px;
   box-shadow: 0 60px 160px rgba(120,80,20,.22), 0 0 0 2px #2c2e33 inset; }
 .ipad img { width:100%%; display:block; border-radius:60px; }
@@ -305,6 +320,9 @@ for (const el of document.querySelectorAll('.headline, .sub')) {
   while (el.scrollWidth > el.clientWidth + 1 && size > 40) { size -= 2; el.style.fontSize = size + 'px'; }
 }
 </script>"""
+
+# 오른쪽에서 왼쪽으로 쓰는 언어
+RTL = {"ar"}
 
 HEART = "M50 88 C20 66 4 50 4 30 C4 14 16 4 30 4 C40 4 47 10 50 18 C53 10 60 4 70 4 C84 4 96 14 96 30 C96 50 80 66 50 88 Z"
 STAR = "M50 4 L62 38 L98 38 L69 59 L80 94 L50 73 L20 94 L31 59 L2 38 L38 38 Z"
@@ -342,7 +360,8 @@ def page(lang, device, src, layout, eyebrow, headline, sub):
     # 도장은 캔버스 폭에 맞춰 자리와 크기를 줄인다
     deco = "".join(stamp(d[0], d[1] * W / 2064, d[2] * k, d[3] * k, *d[4:]) for d in DECOR[layout])
     css = CSS % {"W": W, "H": H} + (CSS_IPHONE if device == "iphone" else "")
-    return f"""<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><style>{css}</style></head><body>
+    rtl = ' dir="rtl"' if lang in RTL else ""
+    return f"""<!doctype html><html lang="{lang}"{rtl}><head><meta charset="utf-8"><style>{css}</style></head><body>
 <div class="glow" style="left:{300 * k}px;top:1300px;width:{1500 * k}px;height:1500px;background:rgba(255,149,0,.16)"></div>
 {deco}
 <div class="text"><div class="eyebrow">{eyebrow}</div><div class="headline">{headline}</div><div class="sub">{sub}</div></div>
