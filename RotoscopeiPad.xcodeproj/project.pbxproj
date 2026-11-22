@@ -309,6 +309,7 @@
 				pl,
 				sv,
 				tr,
+				ar,
 				Base,
 			);
 			mainGroup = B1000030;

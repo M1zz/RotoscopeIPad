@@ -237,7 +237,7 @@ enum PalangTipMoments {
     static func reached(flipbooks count: Int) -> [LeeoTipMoment] {
         flipbooks.filter { count >= $0 }.map { threshold in
             LeeoTipMoment(id: "flipbooks.\(threshold)",
-                          message: String(localized: "지금까지 플립북 \(count)편을 완성했어요",
+                          message: String(localized: "지금까지 플립북 \(count)편을 완성했어요", locale: .app,
                                           comment: "Tip ask card: how many flipbooks the family finished and saved to Photos"))
         }
     }

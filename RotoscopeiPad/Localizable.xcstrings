@@ -140,6 +140,12 @@
             "state": "translated",
             "value": "%@ · 一次購買，永久使用"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · دفعة واحدة مدى الحياة"
+          }
         }
       }
     },
@@ -282,6 +288,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "更完善的 VoiceOver 支援"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "استخدام أسهل مع VoiceOver"
           }
         }
       }
@@ -485,6 +497,12 @@
             "state": "translated",
             "value": "細畫筆"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فرشاة رفيعة"
+          }
         }
       }
     },
@@ -627,6 +645,12 @@
             "state": "translated",
             "value": "支援家人共享，全家的裝置都能用"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مع المشاركة العائلية تستخدمه العائلة كلها على أجهزتها"
+          }
         }
       }
     },
@@ -768,6 +792,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "隱私權政策"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سياسة الخصوصية"
           }
         }
       }
@@ -912,6 +942,12 @@
             "state": "translated",
             "value": "黑色"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "أسود"
+          }
         }
       }
     },
@@ -1053,6 +1089,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "恢復購買"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "استعادة المشتريات"
           }
         }
       }
@@ -1197,6 +1239,12 @@
             "state": "translated",
             "value": "粗畫筆"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فرشاة عريضة"
+          }
         }
       }
     },
@@ -1339,6 +1387,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "調大字級後內容也不會被截斷，會重新整齊排列。"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "عند تكبير الخط لا يُقتطع أي نص، بل تترتب الشاشة من جديد بشكل أنيق."
           }
         }
       }
@@ -1483,6 +1537,12 @@
             "state": "translated",
             "value": "跨裝置同步"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "المزامنة بين الأجهزة"
+          }
         }
       }
     },
@@ -1625,6 +1685,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "按住即可刪除。"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اضغط مطولًا للحذف"
           }
         }
       }
@@ -1769,6 +1835,12 @@
             "state": "translated",
             "value": "花朵印章"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ختم زهرة"
+          }
         }
       }
     },
@@ -1910,6 +1982,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "用自己的影片描畫，不限次數"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الرسم فوق فيديوهاتك بلا حدود"
           }
         }
       }
@@ -2054,6 +2132,12 @@
             "state": "translated",
             "value": "我的作品"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "أعمالي"
+          }
         }
       }
     },
@@ -2196,6 +2280,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "方形印章"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ختم مربع"
           }
         }
       }
@@ -2340,6 +2430,12 @@
             "state": "translated",
             "value": "黃色"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "أصفر"
+          }
         }
       }
     },
@@ -2482,6 +2578,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "停止錄音"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إيقاف التسجيل"
           }
         }
       }
@@ -2626,6 +2728,12 @@
             "state": "translated",
             "value": "在另一台裝置上也能接著畫同一件作品。"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "أكمل رسم العمل نفسه على جهاز آخر."
+          }
         }
       }
     },
@@ -2767,6 +2875,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "重試"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إعادة المحاولة"
           }
         }
       }
@@ -2911,6 +3025,12 @@
             "state": "translated",
             "value": "下一步"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "التالي"
+          }
         }
       }
     },
@@ -3053,6 +3173,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "畫下一張"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ارسم الصورة التالية"
           }
         }
       }
@@ -3197,6 +3323,12 @@
             "state": "translated",
             "value": "畫下一頁"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ارسم الصفحة التالية"
+          }
         }
       }
     },
@@ -3339,6 +3471,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "深色模式"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الوضع الداكن"
           }
         }
       }
@@ -3483,6 +3621,12 @@
             "state": "translated",
             "value": "關閉"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إغلاق"
+          }
         }
       }
     },
@@ -3625,6 +3769,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "無論是否增加對比、是否難以分辨顏色，內容都清楚易讀。"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "يبقى كل شيء واضحًا عند زيادة التباين أو إذا صعب التمييز بين الألوان."
           }
         }
       }
@@ -3769,6 +3919,12 @@
             "state": "translated",
             "value": "圓形印章"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ختم دائرة"
+          }
         }
       }
     },
@@ -3911,6 +4067,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "打開影片連結"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فتح رابط فيديو"
           }
         }
       }
@@ -4055,6 +4217,12 @@
             "state": "translated",
             "value": "顯示影片背景"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إظهار خلفية الفيديو"
+          }
         }
       }
     },
@@ -4197,6 +4365,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "隱藏影片背景"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إخفاء خلفية الفيديو"
           }
         }
       }
@@ -4341,6 +4515,12 @@
             "state": "translated",
             "value": "拍攝影片"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تصوير فيديو"
+          }
         }
       }
     },
@@ -4484,6 +4664,12 @@
             "state": "translated",
             "value": "從影片、空白紙或描畫中選一個開始吧。"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ابدأ بفيديو أو صفحة بيضاء أو مجموعة تتبّع"
+          }
         }
       }
     },
@@ -4625,6 +4811,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "匯入影片就可以開始囉！"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "أضف فيديو لتبدأ!"
           }
         }
       }
@@ -4768,6 +4960,12 @@
             "state": "translated",
             "value": "無法匯入影片：%@"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تعذّر إحضار الفيديو: %@"
+          }
         }
       }
     },
@@ -4909,6 +5107,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "製作影片時出了點問題。"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حدثت مشكلة أثناء إنشاء الفيديو."
           }
         }
       }
@@ -5052,6 +5256,12 @@
             "state": "translated",
             "value": "正在開啟影片…"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "جارٍ فتح الفيديو…"
+          }
         }
       }
     },
@@ -5193,6 +5403,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "讀不了這部影片。換一部試試看？"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تعذّرت قراءة هذا الفيديو. هل تجرّب فيديو آخر؟"
           }
         }
       }
@@ -5336,6 +5552,12 @@
             "state": "translated",
             "value": "這不是影片，請選一部影片！"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هذا ليس فيديو. اختر فيديو من فضلك!"
+          }
         }
       }
     },
@@ -5477,6 +5699,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "沒有影片。"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لا يوجد فيديو."
           }
         }
       }
@@ -5621,6 +5849,12 @@
             "state": "translated",
             "value": "復原"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تراجع"
+          }
         }
       }
     },
@@ -5763,6 +5997,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "描畫 %lld"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مجموعة التتبّع %lld"
           }
         }
       }
@@ -6164,6 +6404,48 @@
             "state": "translated",
             "value": "全部 %lld 套描畫，之後的新套組也包含"
           }
+        },
+        "ar": {
+          "variations": {
+            "plural": {
+              "zero": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "كل مجموعات التتبّع، وكل مجموعة جديدة قادمة"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "كل مجموعات التتبّع، وكل مجموعة جديدة قادمة"
+                }
+              },
+              "two": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "كل مجموعات التتبّع، وكل مجموعة جديدة قادمة"
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "كل مجموعات التتبّع الـ%lld، وكل مجموعة جديدة قادمة"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "كل مجموعات التتبّع الـ%lld، وكل مجموعة جديدة قادمة"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "كل مجموعات التتبّع الـ%lld، وكل مجموعة جديدة قادمة"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -6564,6 +6846,48 @@
             "state": "translated",
             "value": "%lld 套描畫免費，其餘可透過終身解鎖開啟。"
           }
+        },
+        "ar": {
+          "variations": {
+            "plural": {
+              "zero": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "لا توجد مجموعة تتبّع مجانية، وتُفتح جميعها بالوصول الدائم."
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "مجموعة تتبّع واحدة مجانية، والباقي يُفتح بالوصول الدائم."
+                }
+              },
+              "two": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "مجموعتا تتبّع مجانيتان، والباقي يُفتح بالوصول الدائم."
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld مجموعات تتبّع مجانية، والباقي يُفتح بالوصول الدائم."
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld مجموعة تتبّع مجانية، والباقي يُفتح بالوصول الدائم."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld مجموعة تتبّع مجانية، والباقي يُفتح بالوصول الدائم."
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -6705,6 +7029,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "連結不正確。"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "يبدو أن الرابط غير صحيح."
           }
         }
       }
@@ -6849,6 +7179,12 @@
             "state": "translated",
             "value": "點麥克風，動畫播放一遍的時候就能錄下你的聲音。"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اضغط على الميكروفون لتسجيل صوتك أثناء تشغيل الرسوم المتحركة مرة واحدة."
+          }
         }
       }
     },
@@ -6991,6 +7327,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "寄電子郵件給我們"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "راسلنا بالبريد"
           }
         }
       }
@@ -7135,6 +7477,12 @@
             "state": "translated",
             "value": "全選"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تحديد الكل"
+          }
         }
       }
     },
@@ -7276,6 +7624,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "所有功能已解鎖"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "كل الميزات مفتوحة"
           }
         }
       }
@@ -7420,6 +7774,12 @@
             "state": "translated",
             "value": "配上聲音"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "أضف صوتك"
+          }
         }
       }
     },
@@ -7563,6 +7923,12 @@
             "state": "translated",
             "value": "錄製聲音"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تسجيل الصوت"
+          }
         }
       }
     },
@@ -7704,6 +8070,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "錄音時間不限"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تسجيل الصوت بلا حد زمني"
           }
         }
       }
@@ -8105,6 +8477,48 @@
             "state": "translated",
             "value": "免費版可匯入 %lld 次影片。"
           }
+        },
+        "ar": {
+          "variations": {
+            "plural": {
+              "zero": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "لا تتيح النسخة المجانية إحضار أي فيديو."
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "تتيح النسخة المجانية إحضار فيديو واحد."
+                }
+              },
+              "two": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "تتيح النسخة المجانية إحضار فيديوهين."
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "تتيح النسخة المجانية إحضار %lld فيديوهات."
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "تتيح النسخة المجانية إحضار %lld فيديو."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "تتيح النسخة المجانية إحضار %lld فيديو."
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -8504,6 +8918,48 @@
           "stringUnit": {
             "state": "translated",
             "value": "免費版最多可錄音 %lld 秒。"
+          }
+        },
+        "ar": {
+          "variations": {
+            "plural": {
+              "zero": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "لا تتيح النسخة المجانية تسجيل الصوت."
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "تتيح النسخة المجانية تسجيل الصوت حتى ثانية واحدة."
+                }
+              },
+              "two": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "تتيح النسخة المجانية تسجيل الصوت حتى ثانيتين."
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "تتيح النسخة المجانية تسجيل الصوت حتى %lld ثوانٍ."
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "تتيح النسخة المجانية تسجيل الصوت حتى %lld ثانية."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "تتيح النسخة المجانية تسجيل الصوت حتى %lld ثانية."
+                }
+              }
+            }
           }
         }
       }
@@ -8905,6 +9361,48 @@
             "state": "translated",
             "value": "免費版的空白翻頁書最多可畫 %lld 頁。"
           }
+        },
+        "ar": {
+          "variations": {
+            "plural": {
+              "zero": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "لا تتيح النسخة المجانية صفحات في الدفتر المتحرك الفارغ."
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "تتيح النسخة المجانية صفحة واحدة في الدفتر المتحرك الفارغ."
+                }
+              },
+              "two": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "تتيح النسخة المجانية حتى صفحتين في الدفتر المتحرك الفارغ."
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "تتيح النسخة المجانية حتى %lld صفحات في الدفتر المتحرك الفارغ."
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "تتيح النسخة المجانية حتى %lld صفحة في الدفتر المتحرك الفارغ."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "تتيح النسخة المجانية حتى %lld صفحة في الدفتر المتحرك الفارغ."
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -9305,6 +9803,48 @@
             "state": "translated",
             "value": "免費版最多可保存 %lld 件作品。"
           }
+        },
+        "ar": {
+          "variations": {
+            "plural": {
+              "zero": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "لا تحتفظ النسخة المجانية بأي عمل."
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "تحتفظ النسخة المجانية بعمل واحد."
+                }
+              },
+              "two": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "تحتفظ النسخة المجانية بما يصل إلى عملين."
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "تحتفظ النسخة المجانية بما يصل إلى %lld أعمال."
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "تحتفظ النسخة المجانية بما يصل إلى %lld عملًا."
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "تحتفظ النسخة المجانية بما يصل إلى %lld عمل."
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -9447,6 +9987,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "星星印章"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ختم نجمة"
           }
         }
       }
@@ -9591,6 +10137,12 @@
             "state": "translated",
             "value": "更易辨識的顏色與對比"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ألوان وتباين مريحان للعين"
+          }
         }
       }
     },
@@ -9733,6 +10285,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "紫色"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بنفسجي"
           }
         }
       }
@@ -9877,6 +10435,12 @@
             "state": "translated",
             "value": "中等畫筆"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فرشاة متوسطة"
+          }
         }
       }
     },
@@ -10018,6 +10582,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "家長驗證：請點一下下方題目的答案。"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تحقّق ولي الأمر: اضغط على إجابة المسألة أدناه."
           }
         }
       }
@@ -10162,6 +10732,12 @@
             "state": "translated",
             "value": "粉紅色"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "وردي"
+          }
         }
       }
     },
@@ -10305,6 +10881,12 @@
             "state": "translated",
             "value": "畫筆"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فرشاة"
+          }
         }
       }
     },
@@ -10446,6 +11028,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "貼上"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لصق"
           }
         }
       }
@@ -10590,6 +11178,12 @@
             "state": "translated",
             "value": "空白翻頁書"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "دفتر متحرك فارغ"
+          }
         }
       }
     },
@@ -10731,6 +11325,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "空白翻頁書頁數不限"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "دفاتر متحركة فارغة بصفحات غير محدودة"
           }
         }
       }
@@ -10875,6 +11475,12 @@
             "state": "translated",
             "value": "紅色"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "أحمر"
+          }
         }
       }
     },
@@ -11018,6 +11624,12 @@
             "state": "translated",
             "value": "儲存到「照片」"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حفظ في الصور"
+          }
         }
       }
     },
@@ -11160,6 +11772,12 @@
             "state": "translated",
             "value": "若要儲存到「照片」，請在「設定」中允許取用。"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "للحفظ في الصور، اسمح بالوصول من الإعدادات."
+          }
         }
       }
     },
@@ -11301,6 +11919,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "正在從照片匯入…稍等一下！"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "جارٍ الإحضار من الصور… لحظة من فضلك!"
           }
         }
       }
@@ -11445,6 +12069,12 @@
             "state": "translated",
             "value": "從「照片」選擇影片"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اختيار فيديو من الصور"
+          }
         }
       }
     },
@@ -11586,6 +12216,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "無法載入商品。"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تعذّر تحميل خيارات الشراء."
           }
         }
       }
@@ -11730,6 +12366,12 @@
             "state": "translated",
             "value": "小鳥印章"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ختم طائر"
+          }
         }
       }
     },
@@ -11873,6 +12515,12 @@
             "state": "translated",
             "value": "取消全選"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إلغاء التحديد"
+          }
         }
       }
     },
@@ -12014,6 +12662,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "設定"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الإعدادات"
           }
         }
       }
@@ -12158,6 +12812,12 @@
             "state": "translated",
             "value": "三角形印章"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ختم مثلث"
+          }
         }
       }
     },
@@ -12301,6 +12961,12 @@
             "state": "translated",
             "value": "開始"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ابدأ"
+          }
         }
       }
     },
@@ -12442,6 +13108,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "孩子的畫動起來囉"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "رسومات طفلك تنبض بالحركة"
           }
         }
       }
@@ -12586,6 +13258,12 @@
             "state": "translated",
             "value": "還沒有作品"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لا توجد أعمال بعد"
+          }
         }
       }
     },
@@ -12727,6 +13405,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "未知問題"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مشكلة غير معروفة"
           }
         }
       }
@@ -12871,6 +13555,12 @@
             "state": "translated",
             "value": "不必打開 App，在主畫面上就能看到孩子的作品。"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "شاهد أعمال طفلك على الشاشة الرئيسية مباشرة دون فتح التطبيق."
+          }
         }
       }
     },
@@ -13014,6 +13704,12 @@
             "state": "translated",
             "value": "在深色畫面下，文字與按鈕依然清晰。"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تبقى النصوص والأزرار واضحة على الشاشة الداكنة."
+          }
         }
       }
     },
@@ -13155,6 +13851,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "請拿給大人看"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اعرض هذا على شخص كبير"
           }
         }
       }
@@ -13299,6 +14001,12 @@
             "state": "translated",
             "value": "更新後第一次打開時，告訴你有哪些新內容。"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "عند فتح التطبيق أول مرة بعد التحديث، سترى ما الجديد."
+          }
         }
       }
     },
@@ -13442,6 +14150,12 @@
             "state": "translated",
             "value": "新功能介紹"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ما الجديد"
+          }
         }
       }
     },
@@ -13583,6 +14297,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "開啟"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فتح"
           }
         }
       }
@@ -13726,6 +14446,12 @@
             "state": "translated",
             "value": "無法開啟。請確認這是影片連結。"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تعذّر الفتح. تأكّد من أنه رابط فيديو."
+          }
         }
       }
     },
@@ -13867,6 +14593,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "無法開啟。請檢查連結後再試一次。"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تعذّر الفتح. تحقّق من الرابط وحاول مرة أخرى."
           }
         }
       }
@@ -14011,6 +14743,12 @@
             "state": "translated",
             "value": "方案與支持"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الخطط ودعم المطوّر"
+          }
         }
       }
     },
@@ -14153,6 +14891,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "減少動態效果"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تقليل الحركة"
           }
         }
       }
@@ -14297,6 +15041,12 @@
             "state": "translated",
             "value": "開啟「減少動態效果」後，畫面動畫會更柔和。"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "عند تشغيل تقليل الحركة، تصبح المؤثرات أهدأ."
+          }
         }
       }
     },
@@ -14439,6 +15189,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "隨時可以一次清空 App 裡的全部作品。"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "امسح كل الأعمال في التطبيق دفعة واحدة متى شئت."
           }
         }
       }
@@ -14583,6 +15339,12 @@
             "state": "translated",
             "value": "清空這一頁"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مسح هذه الصفحة"
+          }
         }
       }
     },
@@ -14725,6 +15487,12 @@
             "state": "translated",
             "value": "解鎖"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فتح الكل"
+          }
         }
       }
     },
@@ -14866,6 +15634,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "使用條款"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "شروط الاستخدام"
           }
         }
       }
@@ -15010,6 +15784,12 @@
             "state": "translated",
             "value": "上一張畫"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الصورة السابقة"
+          }
         }
       }
     },
@@ -15152,6 +15932,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Instagram 私訊（@lee25_ios）"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "رسالة على Instagram (⁦@lee25_ios⁩)"
           }
         }
       }
@@ -15296,6 +16082,12 @@
             "state": "translated",
             "value": "暫停"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إيقاف مؤقت"
+          }
         }
       }
     },
@@ -15438,6 +16230,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "汽車印章"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ختم سيارة"
           }
         }
       }
@@ -15582,6 +16380,12 @@
             "state": "translated",
             "value": "小印章"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ختم صغير"
+          }
         }
       }
     },
@@ -15724,6 +16528,48 @@
           "stringUnit": {
             "state": "translated",
             "value": "刪除 %lld 個作品"
+          }
+        },
+        "ar": {
+          "variations": {
+            "plural": {
+              "zero": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "حذف الأعمال"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "حذف عمل واحد"
+                }
+              },
+              "two": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "حذف عملين"
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "حذف %lld أعمال"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "حذف %lld عملًا"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "حذف %lld عمل"
+                }
+              }
+            }
           }
         }
       }
@@ -15868,6 +16714,48 @@
             "state": "translated",
             "value": "要刪除 %lld 個作品嗎？"
           }
+        },
+        "ar": {
+          "variations": {
+            "plural": {
+              "zero": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "حذف الأعمال؟"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "حذف عمل واحد؟"
+                }
+              },
+              "two": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "حذف عملين؟"
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "حذف %lld أعمال؟"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "حذف %lld عملًا؟"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "حذف %lld عمل؟"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -16010,6 +16898,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "備份作品"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نسخ الأعمال احتياطيًا"
           }
         }
       }
@@ -16154,6 +17048,12 @@
             "state": "translated",
             "value": "整理作品"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ترتيب الأعمال"
+          }
         }
       }
     },
@@ -16297,6 +17197,12 @@
             "state": "translated",
             "value": "一次刪除所有作品"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حذف كل الأعمال دفعة واحدة"
+          }
         }
       }
     },
@@ -16438,6 +17344,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "作品保存數量不限"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الاحتفاظ بعدد غير محدود من الأعمال"
           }
         }
       }
@@ -16582,6 +17494,12 @@
             "state": "translated",
             "value": "把作品存成檔案，隨時都能重新匯入。"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "احفظ الأعمال في ملف واسترجعها متى شئت."
+          }
         }
       }
     },
@@ -16724,6 +17642,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "已鎖定"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مقفل"
           }
         }
       }
@@ -16868,6 +17792,12 @@
             "state": "translated",
             "value": "翻頁"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الصفحات"
+          }
         }
       }
     },
@@ -17010,6 +17940,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "播放"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تشغيل"
           }
         }
       }
@@ -17154,6 +18090,12 @@
             "state": "translated",
             "value": "顯示播放列"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إظهار شريط التشغيل"
+          }
         }
       }
     },
@@ -17296,6 +18238,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "隱藏播放列"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إخفاء شريط التشغيل"
           }
         }
       }
@@ -17440,6 +18388,12 @@
             "state": "translated",
             "value": "點播放，畫就動起來囉。還能配上聲音，存到「照片」裡。"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اضغط تشغيل لتنبض رسوماتك بالحركة. أضف صوتك واحفظها في الصور"
+          }
         }
       }
     },
@@ -17581,6 +18535,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "儲存的影片結尾不再有 Palang Book 卡片"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بلا بطاقة Palang Book في نهاية الفيديوهات المحفوظة"
           }
         }
       }
@@ -17724,6 +18684,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "橘色"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "برتقالي"
           }
         }
       }
@@ -18125,6 +19091,48 @@
             "state": "translated",
             "value": "準備好了！共有 %lld 個畫面，開始畫畫吧 🎨"
           }
+        },
+        "ar": {
+          "variations": {
+            "plural": {
+              "zero": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "جاهز! لا توجد مشاهد بعد. ابدأ الرسم 🎨"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "جاهز! يوجد مشهد واحد. ابدأ الرسم 🎨"
+                }
+              },
+              "two": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "جاهز! يوجد مشهدان. ابدأ الرسم 🎨"
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "جاهز! توجد %lld مشاهد. ابدأ الرسم 🎨"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "جاهز! يوجد %lld مشهدًا. ابدأ الرسم 🎨"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "جاهز! يوجد %lld مشهد. ابدأ الرسم 🎨"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -18267,6 +19275,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "中印章"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ختم متوسط"
           }
         }
       }
@@ -18723,6 +19737,48 @@
               }
             }
           }
+        },
+        "ar": {
+          "variations": {
+            "plural": {
+              "zero": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "لم تُكمل أي دفتر متحرك بعد"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "أكملت حتى الآن دفترًا متحركًا واحدًا"
+                }
+              },
+              "two": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "أكملت حتى الآن دفترين متحركين"
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "أكملت حتى الآن %lld دفاتر متحركة"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "أكملت حتى الآن %lld دفترًا متحركًا"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "أكملت حتى الآن %lld دفتر متحرك"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -18866,6 +19922,12 @@
             "state": "translated",
             "value": "橡皮擦"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ممحاة"
+          }
         }
       }
     },
@@ -19007,6 +20069,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "刪除"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حذف"
           }
         }
       }
@@ -19151,6 +20219,12 @@
             "state": "translated",
             "value": "刪除的作品無法復原。"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لا يمكن استرجاع الأعمال المحذوفة."
+          }
         }
       }
     },
@@ -19292,6 +20366,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "支援"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الدعم"
           }
         }
       }
@@ -19436,6 +20516,12 @@
             "state": "translated",
             "value": "綠色"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "أخضر"
+          }
         }
       }
     },
@@ -19578,6 +20664,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "適應大字體的介面"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "شاشات تناسب الخط الكبير"
           }
         }
       }
@@ -19722,6 +20814,12 @@
             "state": "translated",
             "value": "大印章"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ختم كبير"
+          }
         }
       }
     },
@@ -19865,6 +20963,12 @@
             "state": "translated",
             "value": "藍色"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "أزرق"
+          }
         }
       }
     },
@@ -20003,6 +21107,12 @@
           }
         },
         "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
+        },
+        "ar": {
           "stringUnit": {
             "state": "translated",
             "value": "Palang Book"
@@ -20149,6 +21259,12 @@
             "state": "translated",
             "value": "Palang Book 終身解鎖"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book: وصول دائم"
+          }
         }
       }
     },
@@ -20292,6 +21408,12 @@
             "state": "translated",
             "value": "打開 Palang Book，立即開始一本新的空白翻頁書。"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "يفتح Palang Book على دفتر متحرك فارغ جديد، جاهز للرسم."
+          }
         }
       }
     },
@@ -20433,6 +21555,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "終身解鎖"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الوصول الدائم"
           }
         }
       }
@@ -20577,6 +21705,12 @@
             "state": "translated",
             "value": "愛心印章"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ختم قلب"
+          }
         }
       }
     },
@@ -20719,6 +21853,12 @@
             "state": "translated",
             "value": "一次購買，即可永久使用 Palang Book 的全部功能。"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "دفعة واحدة تفتح كل ميزات Palang Book إلى الأبد."
+          }
         }
       }
     },
@@ -20860,6 +22000,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "一次性付款，並非訂閱。費用將向你的 App Store 帳號收取。"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "دفعة واحدة وليست اشتراكًا. يُخصم المبلغ من حسابك في App Store."
           }
         }
       }
@@ -21004,6 +22150,12 @@
             "state": "translated",
             "value": "畫完一頁，點橘色按鈕就能畫下一頁。"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ارسم صفحة، ثم اضغط الزر البرتقالي لرسم التالية"
+          }
         }
       }
     },
@@ -21146,6 +22298,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "這一頁畫好了？點橘色按鈕接著畫下一張。"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "أنهيت هذه الصفحة؟ اضغط الزر البرتقالي لرسم الصورة التالية."
           }
         }
       }
@@ -21290,6 +22448,12 @@
             "state": "translated",
             "value": "刪除"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حذف"
+          }
         }
       }
     },
@@ -21432,6 +22596,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "主畫面小工具"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "أدوات الشاشة الرئيسية"
           }
         }
       }
@@ -21576,6 +22746,12 @@
             "state": "translated",
             "value": "回到主頁"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الرئيسية"
+          }
         }
       }
     },
@@ -21718,6 +22894,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "VoiceOver 會依正確順序完整朗讀所有按鈕與繪圖工具。"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "يقرأ VoiceOver كل زر وكل أداة رسم بالترتيب الصحيح."
           }
         }
       }
@@ -21862,6 +23044,12 @@
             "state": "translated",
             "value": "確定"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حسنًا"
+          }
         }
       }
     },
@@ -22004,6 +23192,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "白色"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "أبيض"
           }
         }
       }
@@ -22148,6 +23342,12 @@
             "state": "translated",
             "value": "贈送永久通行證"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إهداء الوصول الدائم"
+          }
         }
       }
     },
@@ -22291,6 +23491,12 @@
             "state": "translated",
             "value": "由你付款，你選的人就能永久使用全部功能。"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تدفع أنت، ويحصل من تختاره على كل الميزات إلى الأبد."
+          }
         }
       }
     },
@@ -22432,6 +23638,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Çizim sayfası"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "صفحة الرسم"
           }
         }
       }
@@ -22575,6 +23787,12 @@
             "state": "translated",
             "value": "Fotoğraflar'a kaydedildi"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تم الحفظ في الصور"
+          }
         }
       }
     },
@@ -22716,6 +23934,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Kayıt var"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "يحتوي على تسجيل"
           }
         }
       }
@@ -22859,6 +24083,12 @@
             "state": "translated",
             "value": "Kaydet"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حفظ"
+          }
         }
       }
     },
@@ -23000,6 +24230,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Geri"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "السابق"
           }
         }
       }
@@ -23151,6 +24387,12 @@
             "state": "translated",
             "value": "直接跟 Siri 說"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فقط اطلب من Siri"
+          }
         }
       }
     },
@@ -23301,6 +24543,12 @@
             "state": "translated",
             "value": "不必說出 App 名稱，Siri 也能聽懂並立即打開新的翻頁書。"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "يفتح Siri دفترًا متحركًا جديدًا فورًا، حتى دون ذكر اسم التطبيق."
+          }
         }
       }
     },
@@ -23443,6 +24691,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "畫畫"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الرسم"
           }
         }
       }
@@ -23587,6 +24841,12 @@
             "state": "translated",
             "value": "製作會動的畫"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "صنع رسوم متحركة"
+          }
         }
       }
     },
@@ -23729,6 +24989,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "用影片或描畫模板畫好幾頁，讓畫動起來。關閉後只顯示空白畫本。"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ارسم صفحات كثيرة من فيديو أو مجموعة تتبّع وشاهدها تتحرك. عند الإيقاف لا يظهر إلا دفتر رسم فارغ."
           }
         }
       }
@@ -23873,6 +25139,12 @@
             "state": "translated",
             "value": "新增空白畫本"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "دفتر رسم فارغ جديد"
+          }
         }
       }
     },
@@ -24015,6 +25287,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "靛色"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نيلي"
           }
         }
       }
@@ -24159,6 +25437,12 @@
             "state": "translated",
             "value": "垃圾桶"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سلة المهملات"
+          }
         }
       }
     },
@@ -24301,6 +25585,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "垃圾桶是空的"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سلة المهملات فارغة"
           }
         }
       }
@@ -24445,6 +25735,48 @@
             "state": "translated",
             "value": "復原 %lld 件作品"
           }
+        },
+        "ar": {
+          "variations": {
+            "plural": {
+              "zero": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "استعادة الأعمال"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "استعادة عمل واحد"
+                }
+              },
+              "two": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "استعادة عملين"
+                }
+              },
+              "few": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "استعادة %lld أعمال"
+                }
+              },
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "استعادة %lld عملًا"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "استعادة %lld عمل"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -24587,6 +25919,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "孩子刪掉的畫和作品會放進垃圾桶。復原後會重新出現在主畫面上。"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تذهب الرسومات والأعمال التي يحذفها طفلك إلى سلة المهملات. استعدها لتعود إلى الشاشة الرئيسية."
           }
         }
       }
@@ -24731,6 +26069,12 @@
             "state": "translated",
             "value": "菱形印章"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ختم معيّن"
+          }
         }
       }
     },
@@ -24873,6 +26217,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "月亮印章"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ختم قمر"
           }
         }
       }
@@ -25017,6 +26367,12 @@
             "state": "translated",
             "value": "水滴印章"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ختم قطرة"
+          }
         }
       }
     },
@@ -25159,6 +26515,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "雲朵印章"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ختم غيمة"
           }
         }
       }
@@ -25303,6 +26665,12 @@
             "state": "translated",
             "value": "小貓印章"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ختم قطة"
+          }
         }
       }
     },
@@ -25445,6 +26813,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "小熊印章"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ختم دب"
           }
         }
       }
@@ -25589,6 +26963,12 @@
             "state": "translated",
             "value": "兔子印章"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ختم أرنب"
+          }
         }
       }
     },
@@ -25731,6 +27111,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "小魚印章"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ختم سمكة"
           }
         }
       }
@@ -25875,6 +27261,12 @@
             "state": "translated",
             "value": "蝴蝶印章"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ختم فراشة"
+          }
         }
       }
     },
@@ -26017,6 +27409,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "房子印章"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ختم بيت"
           }
         }
       }
@@ -26161,6 +27559,12 @@
             "state": "translated",
             "value": "大樹印章"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ختم شجرة"
+          }
         }
       }
     },
@@ -26303,6 +27707,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "火箭印章"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ختم صاروخ"
           }
         }
       }
@@ -26447,6 +27857,12 @@
             "state": "translated",
             "value": "太陽印章"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ختم شمس"
+          }
         }
       }
     },
@@ -26589,6 +28005,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "冰淇淋印章"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ختم آيس كريم"
           }
         }
       }
@@ -26733,6 +28155,12 @@
             "state": "translated",
             "value": "選擇印章"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اختيار الأختام"
+          }
         }
       }
     },
@@ -26875,6 +28303,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "形狀"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "أشكال"
           }
         }
       }
@@ -27019,6 +28453,12 @@
             "state": "translated",
             "value": "動物"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حيوانات"
+          }
         }
       }
     },
@@ -27161,6 +28601,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "物品"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "أشياء"
           }
         }
       }
@@ -27305,6 +28751,12 @@
             "state": "translated",
             "value": "孩子只會看到你選的印章，最多可選 10 個。"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لا يرى طفلك إلا الأختام التي تختارها. يمكنك اختيار حتى 10 أختام."
+          }
         }
       }
     },
@@ -27447,6 +28899,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "移動"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نقل"
           }
         }
       }
@@ -27591,6 +29049,12 @@
             "state": "translated",
             "value": "加入圖片"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "صورك"
+          }
         }
       }
     },
@@ -27733,6 +29197,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "淡化圖片"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تخفيف الصورة"
           }
         }
       }
@@ -27877,6 +29347,12 @@
             "state": "translated",
             "value": "加入的圖片會出現在主畫面。孩子選了之後，就能在圖片上畫畫。淡化圖片能讓孩子畫的線條更清楚。"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تظهر الصور التي تضيفها على الشاشة الرئيسية. عندما يختار طفلك واحدة يرسم فوقها مباشرة. وتخفيفها يجعل خطوطه أوضح."
+          }
         }
       }
     },
@@ -28019,6 +29495,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "從照片加入"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إضافة من الصور"
           }
         }
       }
@@ -28163,6 +29645,12 @@
             "state": "translated",
             "value": "從檔案加入"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إضافة من الملفات"
+          }
         }
       }
     },
@@ -28306,6 +29794,12 @@
             "state": "translated",
             "value": "還沒有圖片"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لا توجد صور بعد"
+          }
         }
       }
     },
@@ -28448,6 +29942,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "在這張圖上畫畫"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ارسم فوق هذه الصورة"
           }
         }
       }

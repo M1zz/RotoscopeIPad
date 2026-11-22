@@ -146,6 +146,12 @@
             "state": "translated",
             "value": "在${applicationName}新增翻頁書"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "دفتر متحرك جديد في ${applicationName}"
+          }
         }
       }
     },
@@ -293,6 +299,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "用${applicationName}畫畫"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ارسم باستخدام ${applicationName}"
           }
         }
       }

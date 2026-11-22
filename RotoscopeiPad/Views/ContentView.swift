@@ -200,7 +200,7 @@ struct ContentView: View {
     @ViewBuilder
     private var pageFlashOverlay: some View {
         if showPageFlash {
-            Text(verbatim: "\(project.currentFrame + 1)\u{2009}/\u{2009}\(project.frameCount)")
+            Text(verbatim: ltrIsolated("\(project.currentFrame + 1)\u{2009}/\u{2009}\(project.frameCount)"))
                 .font(.system(size: 64, weight: .heavy, design: .rounded).monospacedDigit())
                 .foregroundStyle(.white)
                 .padding(.horizontal, 36)
@@ -684,6 +684,9 @@ struct ContentView: View {
         }
         .padding(.horizontal, isCompact ? 12 : 16)
         .padding(.vertical, isCompact ? 8 : 12)
+        // Pages are frames on a time axis, like a video scrubber: earlier on
+        // the left, later on the right, in every language (Arabic too).
+        .environment(\.layoutDirection, .leftToRight)
     }
 
     private func nextPage() {

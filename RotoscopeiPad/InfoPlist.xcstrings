@@ -147,6 +147,12 @@
             "state": "translated",
             "value": "Palang Book"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Palang Book"
+          }
         }
       }
     },
@@ -295,6 +301,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "用於拍攝影片，以便在上面畫畫。"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نحتاج إليها لتصوير فيديوهات ترسم فوقها."
           }
         }
       }
@@ -445,6 +457,12 @@
             "state": "translated",
             "value": "用於為動畫錄製聲音。"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نحتاج إليه لتسجيل صوتك في رسومك المتحركة."
+          }
         }
       }
     },
@@ -594,6 +612,12 @@
             "state": "translated",
             "value": "用於將完成的動畫儲存到「照片」。"
           }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نحتاج إليه لحفظ الرسوم المتحركة المكتملة في الصور."
+          }
         }
       }
     },
@@ -742,6 +766,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "用於匯入要在上面畫畫的影片。"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نحتاج إليه لإحضار فيديوهات ترسم فوقها."
           }
         }
       }

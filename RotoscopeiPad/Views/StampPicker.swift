@@ -29,7 +29,7 @@ struct StampPickerView: View {
         .navigationTitle("도장 고르기")
         .toolbar {
             ToolbarItem(placement: .primaryAction) {
-                Text(verbatim: "\(picked.count) / \(StampShape.limit)")
+                Text(verbatim: ltrIsolated("\(picked.count) / \(StampShape.limit)"))
                     .monospacedDigit()
                     .foregroundStyle(isFull ? .orange : .secondary)
             }

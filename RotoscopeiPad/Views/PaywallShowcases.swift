@@ -12,7 +12,7 @@ enum PaywallShowcases {
     static func all(first reason: LockReason) -> [LeeoShowcase] {
         let items = [
             LeeoShowcase(id: LockReason.presets.rawValue,
-                         title: String(localized: "따라 그리기 \(PresetLibrary.all.count)세트 전부, 앞으로 나올 세트도"),
+                         title: String(localized: "따라 그리기 \(PresetLibrary.all.count)세트 전부, 앞으로 나올 세트도", locale: .app),
                          detail: "") { Fitted { PresetsArt() } },
             LeeoShowcase(id: LockReason.projects.rawValue,
                          title: String(localized: "작품을 개수 제한 없이 보관"),
@@ -143,7 +143,7 @@ private struct VideoArt: View {
                         .padding(8)
                 }
                 .shadow(color: .black.opacity(0.1), radius: 4, y: 2)
-            Image(systemName: "arrow.right")
+            Image(systemName: "arrow.forward")
                 .font(.title2.weight(.bold))
                 .foregroundStyle(.orange)
             RoundedRectangle(cornerRadius: 12, style: .continuous)

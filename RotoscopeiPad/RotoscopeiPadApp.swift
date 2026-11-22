@@ -35,6 +35,7 @@ struct RotoscopeiPadApp: App {
                 // Re-read the pass when it changes (purchase, offer code) and on every return.
                 .task(id: store.hasPro) { await syncLatch() }
                 .onChange(of: scenePhase, onReturn)
+                .environment(\.locale, .app)
         }
     }
 
@@ -46,3 +47,19 @@ struct RotoscopeiPadApp: App {
         if await ProLatch.sync() { store.objectWillChange.send() }
     }
 }
+
+extension Locale {
+    /// The locale numbers and dates are written in. Arabic keeps 0-9 and the
+    /// Gregorian calendar so counts, page numbers and dates never mix digit
+    /// sets; every other language follows the device as before.
+    static var app: Locale {
+        guard Bundle.main.preferredLocalizations.first == "ar" else { return .current }
+        var parts = Locale.Components(locale: .current)
+        parts.numberingSystem = "latn"
+        parts.calendar = .gregorian
+        return Locale(components: parts)
+    }
+}
+
+/// An LTR run (page numbers, "7 × 8 =") that keeps its order inside RTL text.
+func ltrIsolated(_ text: String) -> String { "\u{2066}\(text)\u{2069}" }

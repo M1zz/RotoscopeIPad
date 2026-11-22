@@ -56,7 +56,7 @@ struct FirstRunOnboardingView: View {
                     finish()
                 }
             } label: {
-                Image(systemName: page < steps.count - 1 ? "arrow.right" : "checkmark")
+                Image(systemName: page < steps.count - 1 ? "arrow.forward" : "checkmark")
                     .font(.system(size: 30, weight: .bold))
                     .frame(width: 160, height: 64)
             }
@@ -80,6 +80,8 @@ struct FirstRunOnboardingView: View {
                             .fill(step.symbols[i].color.opacity(0.12)))
                 }
             }
+            // Pictures of the editor's buttons, which keep their left-to-right order.
+            .environment(\.layoutDirection, .leftToRight)
             .accessibilityHidden(true)
             Text(step.caption)
                 .font(.system(.title, design: .rounded, weight: .semibold))

@@ -98,8 +98,11 @@ struct ParentGateView: View {
             }
             .font(.system(size: 44, weight: .bold, design: .rounded).monospacedDigit())
             .modifier(Shake(animatableData: CGFloat(shake)))
+            .environment(\.layoutDirection, .leftToRight)
 
             keypad
+                // A number pad is laid out 1 2 3 in every language.
+                .environment(\.layoutDirection, .leftToRight)
             Spacer(minLength: 0)
         }
         .padding(24)
