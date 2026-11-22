@@ -146,6 +146,12 @@ Silgi için Apple Pencil'a iki kez dokun
 Yine dokun, fırçana geri dön
 Apple Pencil ayarlarına göre çalışır
 
+### 앱스토어 (아랍어)
+
+اضغط مرتين على Apple Pencil للممحاة
+اضغط مرتين مجددًا لتعود إلى فرشاتك
+يتبع إعدادات Apple Pencil لديك
+
 ## 1.0.6
 
 ### 앱스토어 (한국어)
