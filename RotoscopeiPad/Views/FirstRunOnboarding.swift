@@ -1,4 +1,5 @@
 import SwiftUI
+import LeeoKit
 
 /// First-launch guide: three big pictures that mirror the real buttons
 /// (same symbols, same colors), with one short line each for the grown-up
@@ -32,7 +33,7 @@ struct FirstRunOnboardingView: View {
         VStack(spacing: 32) {
             HStack {
                 Spacer()
-                Button { finish() } label: {
+                Button { finish(skipped: true) } label: {
                     Image(systemName: "xmark.circle.fill")
                         .font(.system(size: 34))
                         .symbolRenderingMode(.hierarchical)
@@ -53,7 +54,7 @@ struct FirstRunOnboardingView: View {
                 if page < steps.count - 1 {
                     withAnimation { page += 1 }
                 } else {
-                    finish()
+                    finish(skipped: false)
                 }
             } label: {
                 Image(systemName: page < steps.count - 1 ? "arrow.forward" : "checkmark")
@@ -92,7 +93,9 @@ struct FirstRunOnboardingView: View {
         .padding(.bottom, 48)   // room for the page dots
     }
 
-    private func finish() {
+    private func finish(skipped: Bool) {
+        // Shown once (ContentView), so this reaches the hub's onboarding cell once.
+        LeeoAnalyticsCenter.track(.custom(name: skipped ? "onboarding_skipped" : "onboarding_completed", parameters: [:]))
         hasSeenOnboarding = true
     }
 }

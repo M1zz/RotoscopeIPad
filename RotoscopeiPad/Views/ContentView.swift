@@ -772,6 +772,8 @@ struct ContentView: View {
                 // feeds "Enjoying Palang Book?", which is only ever asked in
                 // Settings, after the grown-up check — never to the kid here.
                 LeeoEngagement.shared.registerSignificantEvent()
+                // 허브 품질 탭의 '핵심 기능' 칸 (docs/usage-spec.json 의 coreAction)
+                LeeoAnalyticsCenter.track(.custom(name: "flipbook_saved", parameters: [:]))
                 withAnimation(reduceMotion ? .easeOut : .bouncy) { showDone = true }
                 // 큰 체크 표시가 보이지 않는 사람에게도 끝났다고 알린다.
                 AccessibilityNotification.Announcement(String(localized: "사진 앱에 저장했어요")).post()
